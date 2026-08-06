@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Neural-net motif: three layers of nodes with connecting edges. -->
+
+    <!-- edges: input -> hidden -->
+    <path
+        android:strokeColor="#3D6BFF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.5"
+        android:pathData="M38,38 L54,30 M38,38 L54,54 M38,38 L54,78 M38,54 L54,30 M38,54 L54,54 M38,54 L54,78 M38,70 L54,30 M38,70 L54,54 M38,70 L54,78" />
+
+    <!-- edges: hidden -> output -->
+    <path
+        android:strokeColor="#22D3EE"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.5"
+        android:pathData="M54,30 L72,54 M54,54 L72,54 M54,78 L72,54" />
+
+    <!-- input layer -->
+    <path
+        android:fillColor="#7C9CFF"
+        android:pathData="M33.5,38 a4.5,4.5 0 1,1 9,0 a4.5,4.5 0 1,1 -9,0 Z" />
+    <path
+        android:fillColor="#7C9CFF"
+        android:pathData="M33.5,54 a4.5,4.5 0 1,1 9,0 a4.5,4.5 0 1,1 -9,0 Z" />
+    <path
+        android:fillColor="#7C9CFF"
+        android:pathData="M33.5,70 a4.5,4.5 0 1,1 9,0 a4.5,4.5 0 1,1 -9,0 Z" />
+
+    <!-- hidden layer -->
+    <path
+        android:fillColor="#3D6BFF"
+        android:pathData="M49,30 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0 Z" />
+    <path
+        android:fillColor="#3D6BFF"
+        android:pathData="M49,54 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0 Z" />
+    <path
+        android:fillColor="#3D6BFF"
+        android:pathData="M49,78 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0 Z" />
+
+    <!-- output node -->
+    <path
+        android:fillColor="#22D3EE"
+        android:pathData="M66,54 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0 Z" />
+</vector>

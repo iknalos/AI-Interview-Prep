@@ -1,0 +1,714 @@
+{
+ "generated": "2026-08-06",
+ "generatedAt": "2026-08-06T23:43:13+00:00",
+ "sourceCount": 11,
+ "items": [
+  {
+   "id": "0f0c1961f93e8e0c",
+   "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+   "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+   "published": "2026-08-06",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "ea10becd15211fe9",
+   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+   "published": "2026-07-30",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "7fa201e30c7e3776",
+   "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+   "published": "2026-08-06",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "72ea094fa822e0b0",
+   "title": "Baseten on Hugging Face Inference Providers 🔥",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/baseten",
+   "published": "2026-08-06",
+   "tags": [
+    "open-source",
+    "serving"
+   ]
+  },
+  {
+   "id": "9939bfd922ed189c",
+   "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
+   "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different vendors, each with its...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/",
+   "published": "2026-07-29",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "98f7083fea106451",
+   "title": "Solving the solvent problem",
+   "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
+   "published": "2026-08-04",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "9cb2f25ec4cde573",
+   "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+   "summary": "When do we build the moon arcology?",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-467-self-sustaining-ai",
+   "published": "2026-08-03",
+   "tags": [
+    "newsletter"
+   ]
+  },
+  {
+   "id": "28c7ee44d88bdbf2",
+   "title": "Controlling Reasoning Effort in LLMs",
+   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+   "published": "2026-07-18",
+   "tags": [
+    "newsletter",
+    "llm",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "a670fa9d5529a845",
+   "title": "Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers",
+   "summary": "Cloudflare has released Kitesurf, a stateless web browser built specifically for AI agents that runs entirely in V8 isolates on Cloudflare Workers, with no Chromium underneath. The browser drops human-facing features like tabs and extensions in favor of what agents need: machine-readable content, scalability, and isolation. Built in 12...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
+   "published": "2026-08-06",
+   "tags": [
+    "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "dfcceb4e3e4ab0be",
+   "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
+   "summary": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured data, games, causality, and code, with...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.05148v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "608c2f43528a097f",
+   "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
+   "summary": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resources and often scarce in long-distance...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.05141v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "6da5f2d271da214d",
+   "title": "Working with the American Psychological Association on youth mental health and AI",
+   "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+   "published": "2026-08-06",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "38b998453926e9af",
+   "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
+   "published": "2026-07-22",
+   "tags": [
+    "research",
+    "agents"
+   ]
+  },
+  {
+   "id": "06b8d0ad6f63e2ce",
+   "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+   "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+   "published": "2026-07-30",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "ea7f6df3de1a3ce4",
+   "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+   "published": "2026-08-04",
+   "tags": [
+    "open-source",
+    "agents"
+   ]
+  },
+  {
+   "id": "0e3fc748cb483986",
+   "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+   "summary": ".abbel-fig { display: block; text-align: center; margin: 2.4em 0; line-height: 1.4; max-width: 100%; } .abbel-fig img { display: block; margin: 0.65em auto 0; height: auto; max-width: 100%; } /* Image sizes; captions use a narrower measure below */ .abbel-fig--wide img { width: 100%; max-width: 100%; } .abbel-fig--wide-90 img { width...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
+   "published": "2026-07-26",
+   "tags": [
+    "research",
+    "llm"
+   ]
+  },
+  {
+   "id": "e72169530bcddc1a",
+   "title": "The benefits of medical AI assistance vary based on user expertise",
+   "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+   "published": "2026-08-04",
+   "tags": [
+    "research",
+    "llm"
+   ]
+  },
+  {
+   "id": "ec1fb6f0e057252d",
+   "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI's accidental AI hacker",
+   "summary": "The warning shots will continue until civilization wakes up",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-466-the-bitter-lesson-for",
+   "published": "2026-07-27",
+   "tags": [
+    "newsletter"
+   ]
+  },
+  {
+   "id": "39217bafd159845d",
+   "title": "Using Local Coding Agents",
+   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+   "published": "2026-06-27",
+   "tags": [
+    "newsletter",
+    "agents"
+   ]
+  },
+  {
+   "id": "e7f3784ff2b9499c",
+   "title": "Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide",
+   "summary": "In this tutorial, we explore adaptive experimentation using Meta’s Ax with the modern Client API. We work through a complete workflow where we tune a RandomForest model on a synthetic classification dataset while balancing predictive accuracy against model footprint. We begin by defining a mixed search space with integer, float...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide/",
+   "published": "2026-08-06",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "aefad45b7a940d1b",
+   "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+   "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different reasoning skills and depend on earlier...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.05139v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "llm",
+    "evaluation",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "212d74d857fe1c56",
+   "title": "The Loss Does Not See the Basis, but Adam Does",
+   "summary": "Gradient descent on a factored model $W = UV^\\top$ is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge symmetry of the loss, its invariance under $(U, V) \\mapsto (UQ, VQ)$. Gradient flow's low-rank mechanism is available to an optimizer only...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.05136v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "fea9ae47ebf2b0f0",
+   "title": "From asking to doing: How the world is putting ChatGPT to work",
+   "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+   "published": "2026-08-06",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "d74b20cb87441fb3",
+   "title": "Towards a quantum computer that learns from its errors",
+   "summary": "Machine Intelligence",
+   "source": "Google Research",
+   "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
+   "published": "2026-07-22",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "705bd6c095e82bdb",
+   "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+   "published": "2026-07-29",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "f684c3a66a25993b",
+   "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+   "published": "2026-07-30",
+   "tags": [
+    "open-source"
+   ]
+  },
+  {
+   "id": "a00b3f14f5f73240",
+   "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
+   "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
+   "published": "2026-07-07",
+   "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "serving"
+   ]
+  },
+  {
+   "id": "65bd07859d401501",
+   "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+   "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+   "published": "2026-08-03",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "f9f8aa0a51711abd",
+   "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis' big policy plan",
+   "summary": "The singularity will be seen in hindsight as an interregnum",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-465-open-vs-closed-gaps",
+   "published": "2026-07-20",
+   "tags": [
+    "newsletter"
+   ]
+  },
+  {
+   "id": "f3d1448df6a6df02",
+   "title": "LLM Research Papers: The 2026 List (January to May)",
+   "summary": "A curated roundup of notable LLM research papers that came out this year",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+   "published": "2026-06-06",
+   "tags": [
+    "newsletter",
+    "llm"
+   ]
+  },
+  {
+   "id": "d5b8622f65feee3b",
+   "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
+   "summary": "Prime Intellect has open-sourced Prime Agent, a coding and research harness built on two abstractions: the Recursive Language Model, which turns sub-agent calls into functions inside a persistent IPython kernel, and the Continual Harness, which lets the agent edit its own prompts, skills, memory, and sub-agent specs mid-run. With Opus 5...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/",
+   "published": "2026-08-06",
+   "tags": [
+    "industry",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "287e24fc75cfe184",
+   "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
+   "summary": "Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.05138v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "rag",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "cead68051607eadf",
+   "title": "Predicting Brain Morphometry with MT-GNN: Mesh Evolution in Continuous Time with Graph-Based Metric Tensor Embeddings",
+   "summary": "Predicting how a subcortical structure's shape will evolve from a few prior scans could support prognosis and clinical-trial enrichment. Existing longitudinal mesh predictors either extrapolate shape trajectories via high-dimensional embeddings or regress vertex deformations directly. We instead predict the surface's intrinsic geometry...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.05132v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "rag"
+   ]
+  },
+  {
+   "id": "977f60f7e5e3c697",
+   "title": "Third-party cyber evaluations involving OpenAI models",
+   "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+   "published": "2026-08-04",
+   "tags": [
+    "labs",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "633f453fe2c164d0",
+   "title": "Towards demystifying the creativity of diffusion models",
+   "summary": "Algorithms & Theory",
+   "source": "Google Research",
+   "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
+   "published": "2026-07-15",
+   "tags": [
+    "research",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "7909c613945e81a8",
+   "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+   "published": "2026-07-28",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "92e866603de31506",
+   "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+   "published": "2026-07-28",
+   "tags": [
+    "open-source",
+    "llm",
+    "serving"
+   ]
+  },
+  {
+   "id": "3f6c58621a366d1b",
+   "title": "2026 BAIR Graduate Showcase",
+   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
+   "published": "2026-07-01",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "ba87a82bd97881ac",
+   "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
+   "summary": "Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
+   "published": "2026-07-30",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "27e5ff5b99a9f4ab",
+   "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
+   "summary": "Is this the beginning of a new world?",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
+   "published": "2026-07-06",
+   "tags": [
+    "newsletter"
+   ]
+  },
+  {
+   "id": "ad1a0b6f01f5a507",
+   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+   "published": "2026-05-16",
+   "tags": [
+    "newsletter",
+    "llm"
+   ]
+  },
+  {
+   "id": "3530034afa56a13a",
+   "title": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
+   "summary": "Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is in Section 4.3: the exported best_skill.md keeps working in environments it was never trained on. A Codex-trained SpreadsheetBench skill lifted Claude Code from 22.1 to 81.8, slightly above the 80.4 that harness reached training its own...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/",
+   "published": "2026-08-06",
+   "tags": [
+    "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "3685b73676635827",
+   "title": "Spoken Function Calling: A New Perspective on Spoken Language Understanding for Large Audio Language Models",
+   "summary": "Spoken Language Understanding (SLU) is the core component of task-oriented dialogue systems and a pivotal link in achieving seamless human-agent interaction. While traditional SLU can effectively extract user semantics for closed-set tasks after in-domain supervised fine-tuning, it faces significant challenges in leveraging in-context...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.05126v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning",
+    "agents"
+   ]
+  },
+  {
+   "id": "0dff588e7bdf4e8e",
+   "title": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant",
+   "summary": "Achieving local differential privacy in distributed optimization while maintaining low communication cost remains challenging. Existing vector quantization methods, such as vqSGD, use high-dimensional geometric constructions but incur unfavorable dimension-dependent variance. In this work, we propose Subsampled Stochastic TurboQuant...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.05127v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "serving"
+   ]
+  },
+  {
+   "id": "b274d6785ee9abb7",
+   "title": "New ways to learn and teach with ChatGPT Work and Codex",
+   "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+   "published": "2026-08-04",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "85c988187048dc55",
+   "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
+   "summary": "Generative AI",
+   "source": "Google Research",
+   "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
+   "published": "2026-07-09",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "15eb5b1c419aea07",
+   "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+   "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+   "published": "2026-07-22",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "9101339b1ac24639",
+   "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+   "published": "2026-07-27",
+   "tags": [
+    "open-source"
+   ]
+  },
+  {
+   "id": "b63023bfb9fc2173",
+   "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+   "summary": ".apr-fig { text-align: center; margin: 1.35em 0; line-height: 1.4; } .apr-fig--wide img { display: inline-block; width: 100%; max-width: 100%; height: auto; vertical-align: middle; } .apr-fig--wide-0-8 { max-width: 80%; margin-left: auto; margin-right: auto; } .apr-fig--tall img { display: inline-block; max-height: 300px; width: auto...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+   "published": "2026-05-08",
+   "tags": [
+    "research",
+    "serving",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "ee2acf199b452f2a",
+   "title": "Connecting research to policy on Capitol Hill",
+   "summary": "MIT students and postdocs discussed science funding and research with policymakers in Washington during the MIT Science Policy Initiative’s annual Congressional Visit Days.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
+   "published": "2026-07-30",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "4697ae55d3b6733c",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "summary": "What eras bookend our interregnum?",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+   "published": "2026-06-29",
+   "tags": [
+    "newsletter"
+   ]
+  },
+  {
+   "id": "08d82b53d71043d3",
+   "title": "My Workflow for Understanding LLM Architectures",
+   "summary": "A learning-oriented workflow for understanding new open-weight model releases",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+   "published": "2026-04-18",
+   "tags": [
+    "newsletter",
+    "llm"
+   ]
+  },
+  {
+   "id": "c4273563e1bb954f",
+   "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
+   "summary": "In this tutorial, we build a complete Bayesian marketing mix modeling workflow using Google Meridian. We begin by installing the required libraries, verifying GPU availability, and exploring a geo-level marketing dataset that includes media impressions, spend, controls, promotions, conversions, population, and revenue. We then map the...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization/",
+   "published": "2026-08-05",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "0264b8163ffa8e7f",
+   "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
+   "summary": "Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produce the final answer. This becomes particularly difficult in tasks that require extraction, counting, ordering, or...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.05124v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "llm",
+    "serving",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "61e9ec2c35bb7e8e",
+   "title": "DASyR-LLM: Domain-Aware Symbolic Regression with LLMs for Kinetic Model Discovery",
+   "summary": "Kinetic model discovery is a central challenge in chemical engineering, as accurate rate expressions are essential for understanding and controlling chemical and biological processes. Symbolic regression (SR) has emerged as a powerful data-driven approach for identifying interpretable kinetic models, but usually operates without domain...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.05120v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "2163b413300de52f",
+   "title": "Apple is getting this wrong",
+   "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/apple-is-getting-this-wrong",
+   "published": "2026-08-03",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "d4a5348e5d117a02",
+   "title": "The power of collaboration: How we can reduce traffic congestion",
+   "summary": "Algorithms & Theory",
+   "source": "Google Research",
+   "url": "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/",
+   "published": "2026-07-07",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "edd884e3eb651634",
+   "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+   "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+   "published": "2026-07-21",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "8ff67d77127ccd24",
+   "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+   "published": "2026-07-27",
+   "tags": [
+    "open-source",
+    "agents"
+   ]
+  },
+  {
+   "id": "988e365297de4536",
+   "title": "Gradient-based Planning for World Models at Longer Horizons",
+   "summary": ".grasp-results-table table { font-size: 0.875rem; line-height: 1.35; width: 100%; } .grasp-results-table th, .grasp-results-table td { padding: 0.35rem 0.5rem; } /* Consistent whitespace between major sections (this post is long and hr-heavy) */ article.post-content h2 { margin-top: 2.75rem; margin-bottom: 0.75rem; } article.post-content...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
+   "published": "2026-04-20",
+   "tags": [
+    "research"
+   ]
+  }
+ ]
+}

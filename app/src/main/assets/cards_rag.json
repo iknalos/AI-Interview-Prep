@@ -1,0 +1,356 @@
+{
+  "topicId": "rag",
+  "topicName": "RAG & Vector Search",
+  "cards": [
+    {
+      "id": "rag-01",
+      "difficulty": "easy",
+      "question": "What problem does RAG solve that fine-tuning does not?",
+      "options": [
+        "It makes the model faster at inference",
+        "It grounds answers in current, verifiable, access-controlled external knowledge that can change without retraining",
+        "It teaches the model new output formats and tone",
+        "It reduces the number of parameters needed"
+      ],
+      "answer": 1,
+      "explanation": "Fine-tuning bakes knowledge into weights: it's expensive to update, hard to attribute, and can't respect per-user permissions. RAG keeps knowledge in an external store, so you can add a document in seconds, cite sources, filter by ACL at query time, and delete data on request. Fine-tuning is the right tool for behavior, format, and style; RAG is the right tool for facts.",
+      "modelAnswer": "RAG and fine-tuning solve different problems, and the clean split is knowledge versus behavior. Fine-tuning writes information into weights, which means updating a fact requires a retraining cycle, you can't cite where an answer came from, you can't enforce per-user permissions, and deleting a document for a GDPR request is essentially impossible. RAG keeps the knowledge external, so indexing a new document takes seconds, every answer can carry citations a human can verify, retrieval can filter by access control at query time, and deletion is a row delete. What RAG does not do well is teach format, tone, or a skill, which is exactly where fine-tuning wins. In practice they compose: fine-tune for how the model behaves, retrieve for what it knows."
+    },
+    {
+      "id": "rag-02",
+      "difficulty": "easy",
+      "question": "What are the core stages of a RAG pipeline?",
+      "options": [
+        "Tokenize, embed, train, deploy",
+        "Ingest and chunk, embed and index, retrieve for a query, optionally rerank, then generate with the retrieved context",
+        "Prompt, sample, verify, log",
+        "Crawl, fine-tune, quantize, serve"
+      ],
+      "answer": 1,
+      "explanation": "Offline: load documents, chunk them, embed the chunks, and write vectors plus metadata to an index. Online: embed the query (often after rewriting it), retrieve top candidates by similarity and/or keyword, rerank with a cross-encoder, assemble a prompt with the surviving chunks, and generate an answer with citations. Each stage is independently measurable, which is what makes RAG debuggable.",
+      "modelAnswer": "There's an offline indexing path and an online query path. Offline: load and parse documents, chunk them into retrievable units, embed each chunk, and write the vectors plus metadata into an index. Online: optionally rewrite the query for retrieval, embed it, do a hybrid retrieval combining vector similarity and keyword search, rerank the candidates with a cross-encoder, assemble the survivors into a prompt with instructions to cite and to abstain if unsupported, and generate. The thing I'd emphasize is that each stage has its own metric, so retrieval recall, rerank precision, and answer groundedness are measured separately. Most RAG failures are retrieval failures, and if you only look at the final answer you can't tell whether the retriever missed the document or the generator ignored it."
+    },
+    {
+      "id": "rag-03",
+      "difficulty": "easy",
+      "question": "What is an embedding in the context of retrieval?",
+      "options": [
+        "A compressed copy of the document text",
+        "A dense vector encoding semantic content so that similar meanings land close together under a distance metric",
+        "The token IDs produced by the tokenizer",
+        "A hash of the document used for deduplication"
+      ],
+      "answer": 1,
+      "explanation": "An embedding model maps text to a fixed-length vector (typically 384-3072 dims) trained so semantically related texts have high cosine similarity. That's what makes semantic search possible: 'how do I reset my password' can match a document titled 'Account recovery steps' with no shared keywords. Embeddings are model-specific, so query and document vectors must come from the same model, and changing models requires reindexing everything.",
+      "modelAnswer": "An embedding is a fixed-length dense vector representation of text, produced by a model trained so that semantically similar texts sit close together under cosine similarity. That's what lets a query like how do I reset my password match a document titled account recovery steps despite zero lexical overlap, which is precisely what keyword search can't do. Two practical points I'd flag. Embeddings are only comparable within the same model and version, so queries and documents must be embedded by the same model, and swapping models means a full reindex. And asymmetric models trained with distinct query and document prefixes need those prefixes applied correctly, which is a very common silent bug that quietly degrades recall."
+    },
+    {
+      "id": "rag-04",
+      "difficulty": "easy",
+      "question": "Why is cosine similarity typically preferred over raw Euclidean distance for text embeddings?",
+      "options": [
+        "It is faster to compute on GPUs",
+        "It compares direction while ignoring magnitude, which for text mostly reflects length rather than meaning",
+        "It always produces values between 0 and 1",
+        "Euclidean distance cannot be indexed by ANN structures"
+      ],
+      "answer": 1,
+      "explanation": "Embedding magnitude correlates with things like document length and token count, not semantic content, so cosine similarity's scale invariance is the right inductive bias. Note that on L2-normalized vectors cosine similarity, dot product, and Euclidean distance produce identical rankings, which is why most vector stores normalize on write and then use inner product for speed.",
+      "modelAnswer": "Because for text, vector magnitude mostly reflects incidental properties like length or token count rather than meaning, so you want to compare direction only, and cosine similarity is scale-invariant by construction. The detail worth knowing is that once vectors are L2-normalized, cosine similarity, inner product, and Euclidean distance all induce the same ranking, since squared Euclidean distance becomes two minus two times the cosine. That's why most vector databases normalize at write time and then use dot product, which is the cheapest of the three. So the real decision is whether to normalize, and after that the metric choice is largely a performance detail, though you must configure the index metric to match how you stored the vectors or recall silently degrades."
+    },
+    {
+      "id": "rag-05",
+      "difficulty": "easy",
+      "question": "Why does chunking strategy matter so much for RAG quality?",
+      "options": [
+        "It only affects storage cost, not retrieval quality",
+        "Chunks are the unit of retrieval, so they must be small enough to be precise yet self-contained enough to be understood out of context",
+        "Smaller chunks are always better because they embed more accurately",
+        "Chunk size determines the model's context window"
+      ],
+      "answer": 1,
+      "explanation": "A chunk is what gets embedded, retrieved, and shown to the model, so it faces a direct tension. Too large and the embedding averages several topics into a muddy vector, diluting similarity and wasting context. Too small and it loses the antecedents and headings needed to make sense, so a retrieved fragment becomes uninterpretable. Good practice: split on document structure rather than fixed character counts, overlap modestly, and prepend section/title context to each chunk.",
+      "modelAnswer": "The chunk is simultaneously the unit of embedding, the unit of retrieval, and the unit shown to the generator, and those three want different sizes, which is why it's the highest-leverage knob in most RAG systems. Too large and one vector has to represent several topics, so it becomes an average that matches everything weakly and nothing strongly, plus you burn context on irrelevant text. Too small and the chunk loses its referents, a paragraph that says the limit is 30 days is useless without knowing which limit. What actually works is splitting on document structure, so headings, sections, and paragraphs rather than blind character counts, keeping tables and code blocks intact, adding modest overlap so a fact spanning a boundary survives, and prepending the document title and section path to each chunk so it's self-describing. Then decouple the sizes: retrieve on small precise chunks but expand to the surrounding parent section before generation, which is the small-to-big pattern and gives you precision in search and completeness in context."
+    },
+    {
+      "id": "rag-06",
+      "difficulty": "easy",
+      "question": "What is hybrid search and why does it usually beat pure vector search?",
+      "options": [
+        "Searching across multiple vector databases and merging results",
+        "Combining lexical search (BM25) with dense vector search, since each fails on cases the other handles",
+        "Using two embedding models and averaging their vectors",
+        "Alternating between search and generation until convergence"
+      ],
+      "answer": 1,
+      "explanation": "Dense retrieval captures paraphrase and intent but is unreliable on exact identifiers, error codes, product SKUs, names, and rare jargon that the embedding model never learned. BM25 nails exact terms but fails when vocabulary differs. Running both and fusing the ranked lists (typically reciprocal rank fusion, which needs no score calibration) reliably improves recall over either alone.",
+      "modelAnswer": "Hybrid search runs a lexical retriever like BM25 alongside dense vector retrieval and fuses the results. It wins because the two fail in complementary ways. Dense retrieval handles paraphrase and intent, matching password reset to account recovery, but it's unreliable on exact strings, so error code TX-4021, a specific SKU, a person's name, or domain jargon the embedding model never saw get embedded into vague neighborhoods. BM25 is exact on those but blind to synonymy. Fusing them covers both, and the standard method is reciprocal rank fusion, which combines by rank position rather than score, so you avoid the mess of calibrating incomparable score scales. In my experience it's one of the cheapest large wins available in a RAG system, and I'd add a cross-encoder reranker on top of the fused candidate set to sort out final ordering."
+    },
+    {
+      "id": "rag-07",
+      "difficulty": "easy",
+      "question": "What does a reranker add on top of vector retrieval?",
+      "options": [
+        "It re-embeds documents with a better model to improve the index",
+        "A cross-encoder scores each query-document pair jointly for far higher precision, applied to a shortlist the fast retriever produced",
+        "It removes duplicate documents from the result set",
+        "It reorders results by recency instead of relevance"
+      ],
+      "answer": 1,
+      "explanation": "Embedding retrieval is a bi-encoder: query and document are encoded independently, so their vectors can be precomputed and searched in milliseconds, but the model never sees them together. A cross-encoder concatenates the pair and runs full attention across both, which is dramatically more accurate at judging relevance but far too slow to run over millions of documents. The standard pattern is retrieve 50-200 cheaply, then rerank to the top 5-10, which typically improves precision more than any embedding upgrade.",
+      "modelAnswer": "It fixes the fundamental limitation of bi-encoder retrieval. In vector search the query and the document are embedded independently, which is what makes it fast and precomputable, but it also means the model never gets to look at them together, so it can't reason about whether this specific document answers this specific question. A cross-encoder concatenates query and document and runs full cross-attention over the pair, producing a much more accurate relevance score, but it costs a forward pass per pair so it can't scale to a whole corpus. The two-stage pattern resolves that: retrieve maybe a hundred candidates cheaply for high recall, then rerank to the top five or ten for high precision. In practice adding a reranker is usually a bigger quality jump than upgrading the embedding model, and it directly attacks lost-in-the-middle by ensuring what you put in the prompt is genuinely the best material. The costs are latency, typically tens to low hundreds of milliseconds, and an extra service to run, so I'd tune the candidate count against the latency budget."
+    },
+    {
+      "id": "rag-08",
+      "difficulty": "medium",
+      "question": "How does HNSW approximate nearest-neighbor search work, and what does it trade?",
+      "options": [
+        "It partitions vectors into clusters and searches the nearest few centroids",
+        "It builds a multi-layer navigable small-world graph and greedily descends from sparse upper layers to dense lower ones, trading exactness for logarithmic-ish search time",
+        "It hashes vectors into buckets so similar vectors collide",
+        "It compresses vectors into codebooks and searches the codes"
+      ],
+      "answer": 1,
+      "explanation": "HNSW builds a hierarchy of proximity graphs: upper layers have few nodes with long-range links for coarse navigation, lower layers are dense for fine-grained search. A greedy walk from the top entry point converges quickly to a good neighborhood. Its knobs are M (edges per node, affecting memory and recall) and efConstruction/efSearch (candidate list sizes trading latency for recall). It gives excellent recall-latency curves but is memory-hungry since it stores full vectors plus graph edges, and deletions are awkward (usually tombstoned).",
+      "modelAnswer": "HNSW builds a layered proximity graph. The bottom layer connects every vector to its near neighbors, and each higher layer is a sparse random subset with longer-range edges, like a skip list in metric space. A search enters at the top, greedily walks to the closest node it can find, drops a layer, and repeats, so the upper layers give you fast coarse navigation across the space and the lower layers give fine resolution, converging in roughly logarithmic hops instead of scanning everything. The parameters are M, the number of edges per node, which drives memory and recall ceiling; efConstruction, which controls index build quality; and efSearch, the runtime candidate list size, which is the live dial for trading latency against recall. What it trades is exactness, since it's approximate and can miss true neighbors, plus substantial memory because it keeps full vectors and the graph, and deletes are awkward so they're usually tombstoned and reclaimed on rebuild. Compared to IVF it has better recall-latency behavior but worse memory and build cost, so at very large scale people combine it with product quantization, as in IVF-PQ or HNSW-PQ."
+    },
+    {
+      "id": "rag-09",
+      "difficulty": "medium",
+      "question": "What does product quantization (PQ) do for vector search at scale?",
+      "options": [
+        "Reduces the number of vectors by clustering duplicates",
+        "Splits each vector into subvectors and replaces each with a learned centroid ID, shrinking memory dramatically at some recall cost",
+        "Reduces embedding dimensionality using PCA",
+        "Quantizes the query vector only, leaving the index intact"
+      ],
+      "answer": 1,
+      "explanation": "PQ divides a d-dimensional vector into m subvectors and k-means-clusters each subspace into 256 centroids, so a vector becomes m bytes instead of d floats, often 32-64x compression. Distances are then computed approximately from precomputed lookup tables, which is fast and cache-friendly. The cost is recall loss from quantization error, usually mitigated by re-ranking the top candidates against full-precision vectors kept on disk.",
+      "modelAnswer": "PQ is a compression scheme that makes billion-scale vector search fit in RAM. You split each vector into m subvectors, run k-means in each subspace to learn a codebook of typically 256 centroids, and then store each subvector as a single byte pointing at its nearest centroid. A 768-dimensional float32 vector goes from three kilobytes to maybe sixty-four bytes, so thirty to fifty times smaller. Distance computation becomes asymmetric: you precompute a table of distances from the query's subvectors to every centroid, then scoring a candidate is just m table lookups and adds, which is fast and cache-friendly. The cost is quantization error, so recall drops, and the standard remedy is a two-stage approach: use PQ for fast coarse candidate generation, then rescore the top few hundred against full-precision vectors kept on disk or in a separate store. It's usually combined with IVF for coarse partitioning, and scalar quantization to int8 is the simpler middle ground, four times compression with almost no recall loss."
+    },
+    {
+      "id": "rag-10",
+      "difficulty": "medium",
+      "question": "What is query rewriting (or query expansion) and when does it help most?",
+      "options": [
+        "Rewriting the user's query into SQL for structured retrieval",
+        "Transforming the raw query into better retrieval queries, e.g. resolving pronouns from chat history or generating multiple sub-queries",
+        "Correcting spelling before embedding",
+        "Compressing the query to fit the embedding model's limit"
+      ],
+      "answer": 1,
+      "explanation": "Users write short, ambiguous, context-dependent queries, while documents are written differently, and in multi-turn chat 'what about the second one?' is meaningless in isolation. Rewriting fixes that: condense the conversation into a standalone question, expand into several paraphrases or sub-questions and merge results (multi-query/RAG-fusion), or generate a hypothetical answer and embed that instead (HyDE), which closes the question-answer style gap. Cost is an extra LLM call of latency.",
+      "modelAnswer": "It's the step of turning what the user typed into what you should actually search for, and it's the single most valuable fix in conversational RAG. The clearest case is multi-turn: a follow-up like what about the second one has no retrievable content on its own, so you condense the history into a standalone question before embedding. Beyond that, there are three patterns I'd use. Multi-query, where an LLM generates several paraphrases and you union the results, which raises recall for ambiguous phrasing. Decomposition, where a complex multi-hop question is split into sub-questions retrieved separately, since no single chunk answers a comparison across two entities. And HyDE, where you have the model write a hypothetical answer and embed that, which works because questions and answers have different linguistic form and embedding a pseudo-answer lands closer to real answer passages. The cost is an extra LLM call in the critical path, so I'd cache aggressively and consider a small fast model, and I'd measure retrieval recall before and after rather than assuming it helped."
+    },
+    {
+      "id": "rag-11",
+      "difficulty": "medium",
+      "question": "How do you evaluate a RAG system properly?",
+      "options": [
+        "Measure only the final answer quality with a human rating",
+        "Measure retrieval and generation separately: recall/MRR/nDCG for retrieval, plus groundedness, answer relevance, and citation accuracy for generation",
+        "Track average response latency and token cost",
+        "Compare embedding cosine similarities to a threshold"
+      ],
+      "answer": 1,
+      "explanation": "End-to-end scores can't tell you whether the retriever missed the document or the generator ignored it, so you instrument both. Retrieval: build a set of queries with known relevant chunks and track recall@k, MRR, and nDCG. Generation: groundedness/faithfulness (is every claim supported by the retrieved context?), answer relevance, citation precision, and abstention behavior on unanswerable questions. Frameworks like RAGAS automate LLM-as-judge versions, but a human-labeled golden set for your domain is what actually anchors it.",
+      "modelAnswer": "The core discipline is evaluating the stages separately, because an end-to-end score tells you the system is wrong without telling you which component to fix. For retrieval I build a golden set of real queries with human-labeled relevant chunks and track recall at k as the headline, since if the right chunk isn't in the context nothing downstream can save you, plus MRR and nDCG for ranking quality. For generation, conditioned on retrieved context, I measure groundedness or faithfulness, meaning every claim is supported by the provided context, answer relevance to the question, and citation precision, whether the cited chunk actually contains the claim. I explicitly include unanswerable questions to measure abstention, because a system that always answers is a system that hallucinates. Tooling-wise RAGAS and similar frameworks give LLM-as-judge versions of these, which are fine for regression detection at speed, but I'd validate the judge against human labels on a sample first, since an uncalibrated judge just moves the trust problem. And I'd keep a small hand-curated regression suite from real production failures, because that's what catches the issues aggregate metrics smooth over."
+    },
+    {
+      "id": "rag-12",
+      "difficulty": "medium",
+      "question": "Your RAG system returns relevant documents but the answer is still wrong. Where do you look?",
+      "options": [
+        "The embedding model; upgrade to a larger one",
+        "Generation-side issues: context ordering and dilution, conflicting or outdated chunks, weak grounding instructions, chunk truncation, or the model overriding context with parametric knowledge",
+        "The vector index; rebuild with different parameters",
+        "The chunking strategy; always reduce chunk size"
+      ],
+      "answer": 1,
+      "explanation": "If retrieval succeeded, the fault is downstream. Common causes: too many chunks so the key one lands mid-context and gets ignored; contradictory versions of a document with no recency preference; the prompt not instructing the model to rely only on context and cite; the relevant sentence cut by a chunk boundary; the model preferring its pretrained belief over the supplied text; or output format constraints crowding out reasoning. Fixes: rerank and send fewer, better chunks, put the best material at the edges, add explicit grounding and abstention instructions, require citations so failures are visible, and dedupe by version.",
+      "modelAnswer": "First I'd confirm retrieval really did succeed by checking that the exact supporting sentence, not just a topically relevant document, is present in the final assembled prompt, because chunk truncation often removes it. Assuming it is there, the likely causes are generation-side. Context dilution is the most common: twenty chunks were retrieved, the good one is number twelve, and lost-in-the-middle means it's effectively ignored, so I'd rerank and send five instead of twenty and place the strongest at the beginning and end. Next, conflicting context, where two versions of a policy are both retrieved and the model picks the stale one, which needs version metadata and recency preference at retrieval time. Then prompt design: if I haven't explicitly told the model to answer only from the provided context, cite the chunk it used, and say it doesn't know when unsupported, it will happily blend in parametric knowledge, and that knowledge-conflict tendency is well documented. Requiring citations is my favorite fix because it makes the failure visible rather than silent. I'd diagnose all of this by logging the full final prompt for failing cases, since reading exactly what the model saw usually makes the cause obvious in minutes."
+    },
+    {
+      "id": "rag-13",
+      "difficulty": "medium",
+      "question": "How should metadata filtering interact with vector search?",
+      "options": [
+        "Filter after retrieving top-k, since pre-filtering breaks the index",
+        "Prefer filtering integrated with the search so the k results returned already satisfy the constraints, because post-filtering can leave too few or zero results",
+        "Metadata should be embedded into the vector rather than stored separately",
+        "Filtering is unnecessary if the embeddings are good enough"
+      ],
+      "answer": 1,
+      "explanation": "Naive post-filtering retrieves top-10 then drops non-matching rows, which can return nothing if the filter is selective, and silently reduces recall. Pre-filtering restricts the candidate set first, which is exact but can be slow and may break ANN graph connectivity. Modern vector stores implement filtered ANN search that applies predicates during traversal, and this matters most for multi-tenancy and access control, where returning another tenant's document is a security incident, not a relevance miss.",
+      "modelAnswer": "The naive approach, retrieve top-k then filter, is a correctness trap: if the filter is selective, say documents from one tenant in a shared index, you might retrieve ten and have zero survive, so you silently return nothing while relevant documents existed. Pre-filtering to the matching subset and then searching is exact, but if the subset is small a brute-force scan is fine while an HNSW graph restricted to a sparse subset loses connectivity and recall collapses. So what you actually want is filtered ANN, where the vector store evaluates predicates during graph traversal, which most mature engines now support, sometimes with partitioned indexes per tenant. The reason I'd raise this early in a design discussion is that filters are often security boundaries, not just relevance hints. In a multi-tenant or ACL-scoped system, leaking a document across the boundary is an incident, so I'd enforce the filter in the query path rather than trusting the generator to ignore unauthorized context, and I'd test it explicitly with an adversarial case."
+    },
+    {
+      "id": "rag-14",
+      "difficulty": "medium",
+      "question": "What is the small-to-big (parent document) retrieval pattern?",
+      "options": [
+        "Retrieving from a small index first, then a larger one if results are poor",
+        "Embedding and searching small precise chunks, but passing the larger parent section to the model for generation",
+        "Starting with a small model and escalating to a larger one",
+        "Progressively increasing k until the answer is found"
+      ],
+      "answer": 1,
+      "explanation": "It resolves the chunking tension by decoupling the search unit from the context unit. Small chunks (a sentence or short passage) produce focused embeddings that match queries precisely, but they're too fragmentary to answer from, so at generation time you swap in the parent paragraph, section, or a window of neighbors. Variants include indexing an LLM-generated summary or hypothetical questions per chunk while returning the full original text.",
+      "modelAnswer": "It decouples what you search over from what you feed the model, which resolves the central chunking tradeoff instead of compromising on it. You index small units, a sentence or a short passage, because a tight chunk produces a focused embedding that matches a specific query precisely rather than an averaged vector covering three topics. But a lone sentence is often unusable as context, so once a small chunk wins the retrieval you expand to its parent, the enclosing section, the surrounding sentence window, or the whole document if it's short, and that's what goes in the prompt. So you get precision in search and completeness in generation. The same idea generalizes: index an LLM-written summary of each section, or index hypothetical questions the section answers, while still returning the original text. Practically it means storing a parent pointer in each chunk's metadata and deduplicating when several retrieved children share a parent, which is worth handling explicitly or you'll send the same section three times."
+    },
+    {
+      "id": "rag-15",
+      "difficulty": "medium",
+      "question": "When is agentic or iterative RAG worth the added complexity over single-shot retrieval?",
+      "options": [
+        "Always, since more retrieval rounds always improve answers",
+        "For multi-hop questions, comparisons, or cases where the first retrieval reveals what to search next, accepting higher latency and cost",
+        "Only when the corpus exceeds a million documents",
+        "Never; single-shot retrieval is provably sufficient"
+      ],
+      "answer": 1,
+      "explanation": "Single-shot RAG assumes one search finds everything needed, which fails for multi-hop questions ('which of our vendors is affected by the policy that changed last quarter?'), comparisons across entities, and queries whose right search terms only become clear after seeing initial results. Iterative approaches let the model search, read, reflect, and search again, or decide retrieval isn't needed at all (self-RAG/CRAG). The costs are latency multiplied by the number of rounds, unpredictable spend, and loop risk, so you cap iterations and route only hard queries down that path.",
+      "modelAnswer": "I'd reach for it when a single retrieval provably can't gather the needed evidence. The clearest case is multi-hop: which vendors are affected by the policy that changed last quarter requires finding the policy change first, then searching for affected vendors using what you learned, and no single embedding lookup spans that. Comparison questions are similar since you need separate retrievals per entity. And exploratory queries where the right vocabulary only becomes apparent after seeing initial results benefit from a read-then-refine loop. The costs are real though: latency multiplies by the number of rounds, spend becomes unpredictable per query, and you need loop and budget caps or an agent will happily search fifteen times. So my preference is a router: classify the query, send the eighty percent that are simple lookups down a fast single-shot path, and reserve the iterative path for the hard minority. I'd also want the self-RAG idea of letting the model decide retrieval isn't needed at all, since retrieving for hello just injects noise, and a corrective step that re-retrieves when the first pass grades as irrelevant."
+    },
+    {
+      "id": "rag-16",
+      "difficulty": "medium",
+      "question": "How do you keep a RAG index fresh and consistent with its source of truth?",
+      "options": [
+        "Rebuild the entire index nightly regardless of changes",
+        "Incremental sync keyed on content hashes with upserts and deletes, plus versioning and a reconciliation job to catch drift",
+        "Rely on the LLM to ignore stale documents",
+        "Append new documents and never delete, so history is preserved"
+      ],
+      "answer": 1,
+      "explanation": "The index is a derived cache, so it needs a real sync strategy: detect changes via webhooks, change-data-capture, or modified timestamps; hash chunk content so unchanged chunks skip re-embedding; upsert changed chunks and hard-delete removed ones (critical for permissions and right-to-be-forgotten); and store a source version so you can prefer current content and audit answers. Append-only indexes are a classic bug: the model retrieves an outdated policy and confidently cites it. Add a reconciliation pass comparing source and index counts, since incremental pipelines drift.",
+      "modelAnswer": "I treat the index as a derived cache over a source of truth, which means it needs explicit sync, deletes, and reconciliation, not just appends. For change detection I'd prefer webhooks or change-data-capture over polling, falling back to modified timestamps. I hash each chunk's content and store the hash, so a document edit only re-embeds the chunks that actually changed, which matters because embedding is the expensive part. Changed chunks are upserted with a stable deterministic ID derived from source plus position, and removed documents get hard-deleted, which I'd stress is a correctness and compliance requirement, not housekeeping: a deleted document that still answers queries is both a stale-answer bug and potentially a data-deletion violation. I'd store source version and timestamp in metadata so retrieval can prefer current content and so an answer is auditable back to a specific revision. And because incremental pipelines always drift, I'd run a periodic reconciliation comparing source and index inventories and alert on divergence, plus monitor indexing lag as an SLO, since users experience staleness as the system being wrong."
+    },
+    {
+      "id": "rag-17",
+      "difficulty": "hard",
+      "question": "Why can adding more retrieved context make answers worse?",
+      "options": [
+        "The model runs out of memory and truncates randomly",
+        "Irrelevant chunks dilute attention, introduce distractors and contradictions, and push key material into the poorly-used middle of context",
+        "Longer contexts always reduce sampling temperature",
+        "Embeddings degrade as more documents are retrieved"
+      ],
+      "answer": 1,
+      "explanation": "Precision matters more than recall past a point. Extra chunks add plausible-but-wrong distractors the model may prefer, can contradict the correct chunk with no signal about which to trust, and shift the good chunk toward the middle of context where attention is weakest. Long contexts also raise cost and latency and can crowd out the instructions. The fix is to rerank hard and send few, high-precision chunks, and to tune k empirically rather than maxing it, since the optimum is usually far below the context limit.",
+      "modelAnswer": "Because retrieval quality is about precision at the point of generation, not just recall, and the two trade off past a certain k. Three mechanisms. Distraction: an irrelevant but superficially plausible chunk gives the model something wrong to latch onto, and there's good evidence that distractors hurt more than missing context, since a model with no evidence may abstain while a model with misleading evidence answers confidently. Contradiction: two chunks disagree, one current and one stale, and nothing in the prompt tells the model which wins. And positional dilution: adding chunks pushes the genuinely useful one into the middle of the context where the lost-in-the-middle effect means it's least attended to. Plus the mundane costs, latency and tokens scaling with context, and instructions getting crowded out. So I treat k as a hyperparameter to tune on my eval set rather than something to maximize, typically landing at three to eight reranked chunks rather than twenty raw ones, and I'd apply a relevance score threshold so a query with no good matches sends nothing and triggers abstention instead of padding the prompt with the least-bad results."
+    },
+    {
+      "id": "rag-18",
+      "difficulty": "hard",
+      "question": "How would you fine-tune an embedding model for a specialized domain?",
+      "options": [
+        "Continue pretraining on domain text with masked language modeling only",
+        "Contrastive training on (query, relevant passage) pairs with hard negatives, using a loss like InfoNCE or MultipleNegativesRanking",
+        "Fine-tune the generator and reuse its hidden states as embeddings",
+        "Increase the embedding dimension and retrain the projection layer"
+      ],
+      "answer": 1,
+      "explanation": "Retrieval quality depends on the geometry of the space, which contrastive learning shapes directly: pull true query-passage pairs together and push negatives apart, typically with in-batch negatives plus mined hard negatives (high-similarity but non-relevant passages), which is what teaches the fine distinctions that matter in a domain. Get pairs from logs (clicked or thumbs-up results), existing FAQs, or LLM-generated questions per chunk. Large batches help because they supply more negatives. Then evaluate with recall@k on a held-out set and remember any change forces a full reindex.",
+      "modelAnswer": "Retrieval performance is a property of the embedding geometry, so I'd train contrastively rather than with a language-modeling objective. The setup is pairs of a query and a passage that genuinely answers it, trained with InfoNCE or multiple-negatives ranking loss, which pulls true pairs together and pushes everything else in the batch apart. Two details do most of the work. First, hard negatives: passages that are lexically or semantically close but not actually relevant, mined by running the current model and taking high-ranked non-relevant hits. Random negatives are too easy and teach nothing about the distinctions that matter in a specialized domain. Second, batch size, since in-batch negatives mean a bigger batch gives more contrast per step, which is why people use gradient caching to get large effective batches. For data, the best source is production logs, clicks or thumbs-up on retrieved results, giving real distribution pairs. Failing that I'd generate synthetic questions per chunk with an LLM and filter them, which works surprisingly well. I'd evaluate with recall at k and nDCG on a held-out human-labeled set, compare against the off-the-shelf baseline plus a reranker, since a reranker is often cheaper than fine-tuning for the same gain, and plan for a full reindex plus a shadow-index cutover because the old and new vector spaces aren't comparable."
+    },
+    {
+      "id": "rag-19",
+      "difficulty": "hard",
+      "question": "What does GraphRAG add over standard vector RAG?",
+      "options": [
+        "It stores vectors in a graph database for faster search",
+        "It builds an entity-relationship graph plus community summaries, enabling multi-hop traversal and global questions that no single chunk can answer",
+        "It replaces embeddings with graph adjacency features",
+        "It visualizes retrieval results as a graph for debugging"
+      ],
+      "answer": 1,
+      "explanation": "Chunk-level vector search retrieves locally similar passages, so it fails on questions requiring connections across documents ('how are these two people related?') and on global questions ('what are the main themes in this corpus?') whose answer exists in no single chunk. GraphRAG extracts entities and relations with an LLM, builds a graph, clusters it into communities, and pre-generates community summaries, so global queries are answered by aggregating summaries and multi-hop queries by traversing edges. The tradeoffs are heavy: expensive LLM-based indexing, extraction errors that propagate, and real maintenance cost on updates, so it suits high-value corpora where relational structure genuinely matters.",
+      "modelAnswer": "It targets two query classes that chunk-level vector search structurally cannot handle. First, multi-hop relational questions, like how is person A connected to organization B, where the connection is distributed across documents and no single chunk contains it, so top-k similarity retrieves passages about each entity separately and the link is never assembled. Second, global or sensemaking questions, like what are the main themes in this corpus, whose answer isn't in any chunk at all but is a property of the whole collection. GraphRAG's approach is to spend LLM compute at index time: extract entities and relationships into a knowledge graph, cluster it hierarchically into communities, and pre-generate a summary per community. Then global queries map over community summaries and reduce into an answer, while relational queries traverse edges. The tradeoffs are steep and I'd be upfront about them. Indexing costs an LLM pass over the entire corpus, so it's orders of magnitude more expensive than embedding, extraction errors and inconsistent entity resolution propagate into every answer, and incremental updates are genuinely hard because adding a document can change community structure. So I'd only use it where the corpus is high-value and stable and the questions are genuinely relational, and otherwise I'd first try cheaper approximations: hybrid search with a reranker, query decomposition for multi-hop, and hierarchical summarization for global questions."
+    },
+    {
+      "id": "rag-20",
+      "difficulty": "hard",
+      "question": "How do you handle access control in a multi-tenant RAG system?",
+      "options": [
+        "Instruct the model in the system prompt to only use documents the user may see",
+        "Enforce permissions in the retrieval query itself, with tenant-scoped filters or separate indexes, resolved against the source ACLs at query time",
+        "Encrypt the embeddings so unauthorized users cannot read them",
+        "Retrieve everything and redact the answer afterward"
+      ],
+      "answer": 1,
+      "explanation": "Never rely on the prompt as a security boundary: the model may leak restricted content and prompt injection can override the instruction outright. Enforce it in the query path, via per-tenant indexes or namespaces (strongest isolation) or mandatory ACL filters applied inside the ANN search. Critically, permissions change, so store principals or group IDs on each chunk and resolve current group membership at query time rather than trusting a snapshot, and propagate revocations and deletions promptly. Also remember embeddings are approximately invertible, so they are sensitive data requiring the same protection as source text, and audit-log every retrieval.",
+      "modelAnswer": "The core principle is that authorization belongs in the retrieval query, never in the prompt. A system prompt saying only use documents the user can see is not a security control: the model can leak restricted text and a prompt injection can override the instruction outright, so if a restricted document reaches the context you've already lost. Implementation-wise, per-tenant indexes or namespaces give the strongest isolation and the cleanest deletion story, at the cost of more infrastructure and poorer resource sharing, and I'd default to that for hard tenant boundaries. Within a tenant, document-level ACLs go in chunk metadata as principal or group IDs, enforced as a mandatory filter inside the ANN search rather than post-filtering, since post-filtering can silently return nothing and tempts people to widen k. The subtlety I'd raise is that permissions are dynamic: I'd store group IDs on chunks and resolve the user's current group membership at query time, because caching a permission snapshot at index time means revocations don't take effect. Deletions and revocations need to propagate on a tight SLO with an audit trail. And two things people miss: embeddings are approximately invertible, so the vector store holds sensitive data and needs the same encryption and access controls as the source, and every retrieval should be audit-logged with the user, filter, and returned document IDs so you can actually answer who saw what after an incident."
+    },
+    {
+      "id": "rag-21",
+      "difficulty": "hard",
+      "question": "How would you design RAG over tables and structured data rather than prose?",
+      "options": [
+        "Flatten tables to text and embed them like any other chunk",
+        "Route structured questions to generated SQL over the real database, using retrieval for schema and example queries, and reserve embedding for unstructured text",
+        "Embed each table cell separately for fine-grained retrieval",
+        "Convert tables to images and use a vision model"
+      ],
+      "answer": 1,
+      "explanation": "Embedding similarity is the wrong tool for aggregation, filtering, joins, or precise numerics: no chunk contains the answer to 'total revenue by region last quarter', and flattened tables embed into vague vectors that lose row-column relationships. The right pattern is text-to-SQL: retrieve the relevant schema subset, table descriptions, and few-shot example queries into the prompt, generate SQL, validate it (read-only role, parse check, row limits), execute, and have the model narrate the actual result set. Hybrid systems route per query, and for tables embedded inside documents, keep the table intact with its caption and headers and attach an LLM-written description for retrieval.",
+      "modelAnswer": "I'd stop trying to make vector search do a database's job. Aggregation, filtering, joins, and precise arithmetic are exactly what embeddings can't do: no chunk contains total revenue by region last quarter, that's a computation, and flattening a table into text produces a vector that loses row-column structure and matches nothing well. So the architecture is a router that classifies the question and sends structured analytical queries down a text-to-SQL path and prose questions down the retrieval path. On the SQL path, retrieval still matters but for different objects: I retrieve the relevant subset of the schema, since real warehouses have thousands of columns that won't fit in context, plus column descriptions, enum values, and a few-shot set of verified query examples, which is the highest-leverage input to accuracy. Then I generate SQL and treat it as untrusted: execute through a read-only role with a row limit and timeout, validate by parsing, and ideally show the query to the user for transparency. Finally the model narrates the returned rows rather than inventing numbers, which is what keeps it grounded. For tables embedded inside documents, a different fix: preserve the table intact through parsing with its caption and headers, never split it mid-row, and attach an LLM-generated description of what the table contains so it's retrievable by intent. And I'd evaluate with execution accuracy, comparing result sets against gold queries, not string similarity of the SQL."
+    },
+    {
+      "id": "rag-22",
+      "difficulty": "hard",
+      "question": "What is a knowledge conflict in RAG, and how do you handle it?",
+      "options": [
+        "Two users querying the same document simultaneously",
+        "Retrieved context contradicting either the model's parametric knowledge or another retrieved chunk, requiring explicit precedence rules",
+        "Two embedding models producing different rankings",
+        "A schema mismatch between the index and the source"
+      ],
+      "answer": 1,
+      "explanation": "There are two kinds. Context-versus-parametric: the documents say something different from what the model learned in pretraining, and models don't reliably defer to context, especially when the context contradicts a strongly-held or popular fact. Context-versus-context: two retrieved chunks disagree, typically because one is an outdated version. Handling: state precedence explicitly in the prompt ('the provided context supersedes your prior knowledge'), attach dates and version metadata and prefer recent authoritative sources at retrieval time, deduplicate by document version, require citations so the chosen source is visible, and instruct the model to surface the conflict rather than silently picking. Test it deliberately with counterfactual contexts.",
+      "modelAnswer": "Knowledge conflict is when the retrieved evidence disagrees with something else, and it comes in two flavors that need different fixes. Context versus parametric is when the documents contradict what the model absorbed in pretraining, say an internal policy that differs from the industry norm, and the research shows models don't reliably defer to context, they're more likely to override it when their prior is strong or the fact is popular, and less likely when the context is coherent and detailed. The fix is partly prompting, explicitly stating that the provided context is authoritative and supersedes prior knowledge, and partly evaluation, deliberately testing with counterfactual contexts where I know the right answer contradicts the model's prior, which is the only way to know whether grounding actually holds. Context versus context is usually a data hygiene problem: two versions of the same document are both indexed, and the model has no basis to prefer the current one. That's solved upstream with version and timestamp metadata, recency and authority weighting during retrieval, deduplication so only the live version is indexed, and hard deletes on supersession. In both cases I'd require citations, since that turns a silent wrong answer into a visible wrong source, and for genuinely ambiguous cases I'd instruct the model to surface the disagreement to the user rather than arbitrarily picking a side, because in domains like policy or medicine flagging the conflict is more valuable than a confident guess."
+    },
+    {
+      "id": "rag-23",
+      "difficulty": "hard",
+      "question": "How do you reduce RAG latency without sacrificing quality?",
+      "options": [
+        "Always use a smaller generation model",
+        "Attack the critical path: parallelize retrieval branches, cache embeddings and results, stream tokens, right-size k and the reranker, and use semantic caching for repeated queries",
+        "Reduce the number of documents in the index",
+        "Increase chunk size so fewer chunks are retrieved"
+      ],
+      "answer": 1,
+      "explanation": "Profile first: typically generation dominates, then reranking, then retrieval, with query rewriting adding a full extra LLM round trip. Levers: run lexical and vector retrieval concurrently instead of sequentially; cache query embeddings and use a semantic cache so near-duplicate questions skip the pipeline entirely; shrink the rerank candidate set or use a smaller cross-encoder; cut k so there are fewer prompt tokens to prefill; stream output so time-to-first-token is what the user feels; skip optional stages via a router when the query is simple; and prewarm connections. Also consider a smaller generator with better retrieval, which often beats a bigger model with worse context.",
+      "modelAnswer": "First I'd profile rather than guess, because the distribution surprises people: usually generation dominates, then the reranker, then vector search, and any LLM-based query rewriting adds a full round trip that often costs more than the retrieval it improves. Then I'd work the critical path. Parallelize anything independent, so lexical and dense retrieval run concurrently and fuse, not sequentially. Cache aggressively at multiple levels: query embeddings, retrieval results keyed by normalized query plus filter, and a semantic cache that serves near-duplicate questions from a previous answer, which in support workloads can short-circuit a large fraction of traffic entirely. Right-size the middle stages, since reranking a hundred candidates versus thirty is often a wash in quality but not in latency, and cutting k reduces prefill tokens linearly. Stream the response, because time-to-first-token is what users actually perceive and a streamed answer at four seconds feels faster than a blocking one at two. Route by complexity so simple lookups skip rewriting and iterative retrieval. The quality-preserving framing I'd emphasize is that better retrieval can buy you a smaller generator: a well-reranked five-chunk context with a mid-size model frequently beats twenty noisy chunks with a frontier model, and it's cheaper and faster at once. And I'd set the target on p95 or p99 rather than the mean, since tail latency is what generates complaints."
+    },
+    {
+      "id": "rag-24",
+      "difficulty": "hard",
+      "question": "How does long-context prompting change the case for RAG?",
+      "options": [
+        "It makes RAG obsolete, since whole corpora now fit in the prompt",
+        "It reduces the need for aggressive chunking but doesn't replace RAG, because cost, latency, retrieval-in-context degradation, freshness, and permissions still favor retrieving less",
+        "It only matters for models above a trillion parameters",
+        "It eliminates the need for reranking"
+      ],
+      "answer": 1,
+      "explanation": "Million-token windows genuinely reduce chunking pressure: you can pass whole documents and skip some pipeline complexity. But the economics and behavior still favor retrieval. Cost and latency scale with prompt tokens, so stuffing a corpus per query is expensive and slow even with prompt caching; attention quality degrades across long contexts (lost in the middle) so recall over 500k tokens is worse than a good top-5; corpora exceed any window; and permissions, freshness, and auditability need a retrieval layer regardless. The practical synthesis is RAG with a larger, coarser context: retrieve fewer, bigger, well-ranked units instead of many tiny fragments.",
+      "modelAnswer": "It shifts the balance without removing the need. Concretely it makes chunking less painful, since I can retrieve at the section or whole-document level instead of tuning 400-token windows, and small corpora, say a single contract or codebase, can just be passed wholesale with prompt caching, which is simpler and often better than a retrieval pipeline. But it doesn't replace RAG for four reasons. Cost and latency scale with prompt length, so stuffing a corpus into every query is orders of magnitude more expensive than retrieving five chunks, and prompt caching only helps when the prefix is stable across requests. Quality degrades over long contexts, the lost-in-the-middle effect, so retrieval accuracy over a five-hundred-thousand-token prompt is measurably worse than a good reranked top-five, meaning more context can lower accuracy. Scale, because real corpora are gigabytes and no window holds them. And the operational requirements, permissions, freshness, deletion, and citation, all need a retrieval layer regardless of window size. So the synthesis I'd argue for is that long context changes RAG's shape rather than its existence: retrieve fewer, larger, better-ranked units, lean less on brittle chunk engineering, and keep the retrieval layer for economics, governance, and grounding."
+    },
+    {
+      "id": "rag-25",
+      "difficulty": "hard",
+      "question": "You're asked to build RAG over 10 million internal documents with strict permissions and sub-second latency. What's your architecture and what do you flag as risky?",
+      "options": [
+        "One flat HNSW index with post-filtering and a frontier model at maximum context",
+        "Hybrid retrieval over a partitioned index with ACL filters in-query, a small reranker, tight k, caching and streaming, plus staged evaluation, flagging permission correctness and latency budget as the main risks",
+        "Fine-tune a model on all 10 million documents to avoid retrieval entirely",
+        "Summarize every document with an LLM and retrieve only summaries"
+      ],
+      "answer": 1,
+      "explanation": "A defensible design: structure-aware ingestion with content-hash incremental sync and hard deletes; chunk on document structure with parent expansion; hybrid BM25 plus dense retrieval fused by RRF; an index partitioned by tenant or security domain with ACLs stored per chunk and enforced inside the ANN search, resolved against live group membership; a compact cross-encoder reranking ~50 candidates to ~5; a mid-size generator with citation requirements and abstention; semantic and embedding caches plus streaming to meet the latency target. Risks to name explicitly: permission correctness is a security boundary, not a relevance knob; sub-second with rerank plus generation is tight, so the budget must be measured and possibly negotiated to time-to-first-token; embeddings are sensitive data; reindexing 10M documents on an embedding upgrade is a multi-day operation needing a shadow index; and evaluation needs a domain golden set before launch, not after.",
+      "modelAnswer": "I'd lay out the pipeline, then be explicit about the risks, because at this scale the risks are the design. Ingestion: structure-aware parsing, chunk on headings and paragraphs with parent pointers so I can retrieve small and generate big, deterministic chunk IDs and content hashes so incremental sync only re-embeds what changed, and hard deletes wired to source deletion. Index: partitioned by tenant or security domain rather than one flat index, both for isolation and so no single HNSW graph gets unmanageable, with int8 scalar quantization to control memory at ten million chunks. Retrieval: BM25 and dense in parallel, fused with reciprocal rank fusion, with ACL predicates applied inside the ANN traversal against live group membership, not a snapshot. Then a compact cross-encoder reranking about fifty candidates down to five, a mid-size generator with mandatory citations and explicit license to abstain, and streaming output. Caching at the embedding, retrieval, and semantic-answer levels. Now the risks I'd flag before writing code. First, permissions are a security boundary, so I'd insist on in-query enforcement, adversarial tests, and audit logging of every retrieval, and I'd note that embeddings are approximately invertible so the vector store is sensitive data. Second, sub-second end-to-end with rerank plus generation is genuinely tight, so I'd want to define the SLO as time-to-first-token rather than full completion, measure a spike early, and be ready to trade the reranker or k. Third, an embedding model upgrade means reindexing ten million documents, which is a multi-day shadow-index-and-cutover operation, so I'd design for it from day one rather than discovering it later. Fourth, evaluation: I'd build a domain golden set with labeled relevant chunks before launch, because without it I can't tell retrieval failures from generation failures and every future change is a guess. And I'd start with a narrow high-value document subset to validate the whole loop rather than indexing all ten million first."
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "topicId": "evaluation",
+  "topicName": "Evaluation & Metrics",
+  "cards": [
+    {
+      "id": "ev-01",
+      "difficulty": "easy",
+      "question": "What does perplexity measure, and what are its limits as an LLM metric?",
+      "options": [
+        "How often the model refuses a request; limited to safety evaluation",
+        "The exponential of average negative log-likelihood per token, so how surprised the model is by text; it's tokenizer- and corpus-dependent and correlates weakly with usefulness",
+        "The number of distinct tokens a model can generate; limited by vocabulary size",
+        "The average length of generated responses; limited by context window"
+      ],
+      "answer": 1,
+      "explanation": "Perplexity is exp of the mean cross-entropy per token: lower means the model assigns higher probability to the observed text. It's excellent for tracking pretraining progress and comparing checkpoints of the same model, but it's not comparable across different tokenizers or evaluation corpora, and it says nothing about instruction-following, factuality, reasoning, or helpfulness. A model can improve on a task while perplexity worsens, which is why post-training is never gated on perplexity alone.",
+      "modelAnswer": "Perplexity is the exponentiated average negative log-likelihood per token, so intuitively it's how surprised the model is by the text, or the effective number of equally-likely choices it's picking between at each step. It's the right instrument for tracking pretraining and comparing checkpoints of the same model on the same data. Its limits are what matter in interviews. It's tokenizer-dependent, so two models with different tokenizers aren't comparable, and it's corpus-dependent, so the number is meaningless without saying which data. More fundamentally it measures likelihood of text, not usefulness, so it tells you nothing directly about instruction-following, factual accuracy, reasoning, or safety, and a post-trained model often has worse perplexity than its base while being far more useful. So I'd use it as a training-health signal and never as a release gate."
+    },
+    {
+      "id": "ev-02",
+      "difficulty": "easy",
+      "question": "Why are BLEU and ROUGE weak metrics for evaluating LLM output?",
+      "options": [
+        "They are too slow to compute at scale",
+        "They measure n-gram overlap with a reference, so they penalize valid paraphrases and reward superficial matching",
+        "They only work for classification tasks",
+        "They require human annotation for each example"
+      ],
+      "answer": 1,
+      "explanation": "BLEU (precision-oriented, for translation) and ROUGE (recall-oriented, for summarization) compare surface n-grams against one or a few references. Open-ended generation has many valid phrasings, so a correct answer worded differently scores low while a fluent but wrong answer that reuses reference words scores high. They also ignore factuality and coherence. Better options: embedding-based metrics like BERTScore, task-specific checks (exact match, execution accuracy), calibrated LLM-as-judge, and human evaluation.",
+      "modelAnswer": "They're n-gram overlap metrics designed for a world with a narrow set of correct outputs. BLEU is precision-oriented for translation, ROUGE is recall-oriented for summarization, and both compare surface tokens against one or a few references. The problem with open-ended generation is that there are many equally good phrasings, so a genuinely excellent answer worded differently from the reference scores poorly, while a fluent but factually wrong answer that happens to reuse reference vocabulary scores well. They also can't see factuality, coherence, or instruction compliance at all. They're still fine as cheap regression detectors when output is highly constrained, but for anything open-ended I'd move to task-specific verifiable checks where possible, exact match or execution accuracy, embedding-based metrics like BERTScore as a soft middle ground, and LLM-as-judge validated against human labels for the genuinely subjective dimensions."
+    },
+    {
+      "id": "ev-03",
+      "difficulty": "easy",
+      "question": "What is benchmark contamination and why does it undermine reported scores?",
+      "options": [
+        "Mislabeled examples in the benchmark itself",
+        "Test items appearing in the model's pretraining data, so the score partly measures memorization rather than capability",
+        "Multiple models being evaluated on the same hardware",
+        "Using a different prompt format than the benchmark authors intended"
+      ],
+      "answer": 1,
+      "explanation": "Public benchmarks are on the web, so web-scale pretraining likely ingested them, sometimes with answers. A contaminated score reflects recall of the specific items, not generalization, and it inflates comparisons unevenly since different models saw different amounts. Detection methods include n-gram overlap searches against training data, comparing performance on items published before versus after the training cutoff, and checking for suspiciously low variance on paraphrased items. The practical defenses are private held-out sets, freshly written evaluations, and canary strings, which is why teams increasingly rely on internal evals over leaderboards.",
+      "modelAnswer": "Contamination is when benchmark test items, sometimes with their answers, appear in the model's pretraining corpus, so the reported score partly measures memorization rather than the capability the benchmark was designed to probe. It's essentially unavoidable with web-scale pretraining, since every popular benchmark is on GitHub and in scraped forums, and it's worse than a uniform inflation because different models ingested different amounts, so cross-model comparisons become unreliable in an unknown direction. Detection approaches include n-gram overlap searches against training data where you have access, comparing accuracy on items published before versus after the training cutoff, and testing whether performance collapses on lightly paraphrased versions of the same items, which is a strong tell. The practical response is to stop trusting public leaderboards as your primary signal and build private held-out evaluation sets on your own distribution, refresh them over time, and include canary strings so future contamination is detectable."
+    },
+    {
+      "id": "ev-04",
+      "difficulty": "easy",
+      "question": "What is the difference between offline and online evaluation?",
+      "options": [
+        "Offline runs on CPU; online runs on GPU",
+        "Offline scores a fixed dataset before deployment; online measures real user and business outcomes in production",
+        "Offline is automated; online is always manual",
+        "Offline evaluates the model; online evaluates the infrastructure"
+      ],
+      "answer": 1,
+      "explanation": "Offline evaluation is fast, cheap, reproducible, and safe, so it's how you iterate, but it only measures what your dataset captures and can't see user behavior or system effects. Online evaluation, through A/B tests, interleaving, or canary releases, measures what actually matters (engagement, task completion, revenue, escalation rate) but is slow, expensive, potentially risky to users, and needs traffic and statistical power. Mature teams use both: offline to filter candidates and prevent regressions, online to confirm real impact before full rollout.",
+      "modelAnswer": "Offline evaluation runs the model against a fixed labeled dataset before deployment. It's fast, cheap, reproducible, and safe, so it's the loop you iterate in and the gate you put in CI, but it can only measure what your dataset represents, and it can't observe how users actually behave. Online evaluation measures real outcomes in production through A/B tests, interleaving for ranking, or canary rollouts, and it's the only thing that tells you whether the change mattered, but it's slow, needs traffic for statistical power, and exposes real users to a possibly worse experience. The two disagree more often than people expect, which is itself diagnostic: a model that wins offline and does nothing online usually means the offline metric isn't aligned with the KPI, or there's train-serve skew, or a latency regression ate the gain. So I'd use offline to filter candidates and block regressions, and online to make the ship decision."
+    },
+    {
+      "id": "ev-05",
+      "difficulty": "easy",
+      "question": "Why is a golden evaluation set worth building before you start optimizing?",
+      "options": [
+        "It's required for training to converge",
+        "Without a stable target you can't distinguish improvement from noise, and every subsequent decision becomes a guess",
+        "It replaces the need for a validation split",
+        "It guarantees the model won't overfit"
+      ],
+      "answer": 1,
+      "explanation": "Building the evaluation set forces you to define what 'good' means concretely, which usually surfaces disagreement between stakeholders early and cheaply. It then gives you a fixed reference so you can attribute changes, detect regressions in CI, and avoid the trap of shipping on vibes. In LLM applications this is the single highest-leverage engineering investment, since prompt and pipeline changes are otherwise unfalsifiable, and it should include real failures from production plus rare high-severity cases.",
+      "modelAnswer": "Because without it every change is unfalsifiable. LLM application work is a long sequence of prompt tweaks, retrieval changes, and model swaps, and if I can't measure them I'm shipping on vibes and I'll regress things silently. Building the set also has a useful side effect: writing down what a good answer looks like forces stakeholders to make their expectations explicit, and that disagreement is much cheaper to resolve at the start than after launch. Practically I'd start small, twenty to fifty cases is enough to be useful, cover the common paths plus known edge cases and rare high-severity failures, and then continuously add every real production failure to it so the set gets stronger exactly where the system is weak. And I'd wire it into CI so a prompt change that breaks something is caught before deployment rather than by a user."
+    },
+    {
+      "id": "ev-06",
+      "difficulty": "easy",
+      "question": "What does an F1 score balance, and when should you use F-beta instead?",
+      "options": [
+        "Accuracy and AUC; use F-beta when classes are balanced",
+        "Precision and recall via their harmonic mean; use F-beta when one of them matters more than the other",
+        "True positives and true negatives; use F-beta for multi-class problems",
+        "Training and validation performance; use F-beta to detect overfitting"
+      ],
+      "answer": 1,
+      "explanation": "F1 is the harmonic mean of precision and recall, which punishes imbalance between them more than an arithmetic mean would, so you can't score well by sacrificing one. But equal weighting is an arbitrary default: F-beta weights recall beta times as much as precision, so F2 suits screening where missing a positive is costly, and F0.5 suits cases where false alarms are expensive. Choosing beta forces you to state the real cost asymmetry, and for multi-class you must also choose macro (equal per class), micro (equal per sample), or weighted averaging.",
+      "modelAnswer": "F1 is the harmonic mean of precision and recall, and the harmonic mean is the point: it punishes imbalance, so you can't get a good F1 by maximizing recall and letting precision collapse the way an arithmetic mean would allow. But the equal weighting is just a default, not a principle. F-beta lets you weight recall beta times as heavily as precision, so I'd use F2 for something like disease screening or fraud detection where a miss is far worse than a false alarm that a human will filter, and F0.5 where false positives are expensive, say auto-blocking accounts. I like that choosing beta forces an explicit conversation about the real cost ratio instead of hiding it behind a default. For multi-class I'd also be deliberate about averaging, since macro treats every class equally and surfaces poor performance on rare classes, micro is dominated by frequent classes, and the choice can change your conclusion entirely on imbalanced data."
+    },
+    {
+      "id": "ev-07",
+      "difficulty": "medium",
+      "question": "What are the main biases of LLM-as-judge evaluation?",
+      "options": [
+        "Judges are too strict, so scores are uniformly deflated",
+        "Position bias, verbosity bias, self-preference, style-over-substance, and poor calibration on absolute scales",
+        "Judges cannot process more than one response at a time",
+        "Judges only work for English text"
+      ],
+      "answer": 1,
+      "explanation": "Documented biases: position bias, where the first (or last) response in a pairwise comparison is favored regardless of quality; verbosity bias toward longer, more detailed-looking answers; self-preference, where a model rates its own family's outputs higher; sensitivity to formatting and confident tone over correctness; and unreliable absolute scoring, since a 1-10 scale clusters and drifts. Mitigations: randomize and swap positions then average, use pairwise comparison rather than absolute scores, provide a detailed rubric with explicit criteria, require reasoning before the verdict, use a different model family than the one under test, and validate judge agreement against human labels before trusting it.",
+      "modelAnswer": "The biases are well documented and each has a specific mitigation. Position bias: in a pairwise comparison the judge favors whichever response comes first, sometimes substantially, so I always run both orderings and average, and treat disagreement between orderings as a tie. Verbosity bias: longer, more elaborately formatted answers get preferred even when they add nothing, so I control for length or explicitly instruct the judge that concision is a virtue. Self-preference: models rate outputs from their own family higher, so I don't judge a model with itself and prefer a different family or an ensemble. Style over substance: confident authoritative tone and nice formatting get rewarded over correctness, which is dangerous because it's exactly the failure I'm trying to detect. And poor absolute calibration, since a one-to-ten score clusters around seven and drifts between runs, which is why pairwise comparison is far more reliable than absolute scoring. The meta-point I'd make is that the judge is itself a model that needs validation: before I trust it I measure its agreement with human labels on a sample, and if agreement is poor the judge is measuring something else and I fix the rubric rather than the model under test."
+    },
+    {
+      "id": "ev-08",
+      "difficulty": "medium",
+      "question": "How do you measure groundedness (faithfulness) in a RAG system?",
+      "options": [
+        "Check whether the answer is factually true against the open web",
+        "Check whether every claim in the answer is supported by the retrieved context, independent of whether it's true in general",
+        "Measure cosine similarity between the answer and the query",
+        "Count how many retrieved chunks the answer mentions"
+      ],
+      "answer": 1,
+      "explanation": "Groundedness is a conditional property: given this context, is every assertion in the response entailed by it? That's deliberately separate from correctness, since a true-but-unsupported claim is still a grounding failure (the model used parametric knowledge), and a false claim faithfully copied from a wrong document is a retrieval or data problem, not a grounding one. Separating them tells you which component to fix. Implementation: decompose the answer into atomic claims and check each against the context with an NLI model or an LLM judge, then report the fraction supported. Requiring inline citations makes this far easier to automate and audit.",
+      "modelAnswer": "Groundedness asks a conditional question: given exactly this retrieved context, is every claim in the answer entailed by it? I'd stress that it's deliberately distinct from factual correctness. A statement that's true in the world but not present in the context is still a grounding failure, because it means the model fell back on parametric knowledge and I can't audit or control it. Conversely a false claim faithfully reproduced from a retrieved document is a data or retrieval problem, not a generation problem. Keeping those separate is what lets me attribute a failure to the right component. Implementation-wise, the standard approach is claim decomposition: split the answer into atomic factual assertions and check each against the context with a natural-language-inference model or an LLM judge, then report the supported fraction. Requiring the generator to emit inline citations makes this dramatically easier, since I can check each claim against its own cited chunk rather than the whole context, and it also gives users a way to verify. And I'd pair groundedness with answer relevance, because a perfectly grounded answer to a different question is still useless."
+    },
+    {
+      "id": "ev-09",
+      "difficulty": "medium",
+      "question": "How do you set up a statistically sound A/B test for a model change?",
+      "options": [
+        "Ship to 50% of users and check daily until the difference looks significant",
+        "Pre-register the primary metric and MDE, run a power analysis for sample size, randomize at the right unit, and analyze once at the planned end with guardrail metrics",
+        "Compare the first 1,000 users on each arm",
+        "Run both models on the same users and compare their reactions"
+      ],
+      "answer": 1,
+      "explanation": "Checking repeatedly and stopping when significance appears inflates false positives badly (the peeking problem), so either fix the horizon from a power analysis or use a sequential testing method designed for continuous monitoring. Define one primary metric up front plus guardrails (latency, error rate, cost, safety) so you catch harm even if the primary metric wins. Randomize at the unit where interference happens, usually the user rather than the request, so a single user gets a consistent experience. Also watch for novelty effects, verify sample-ratio mismatch as a sanity check on the assignment mechanism, and correct for multiple comparisons if you evaluate many metrics.",
+      "modelAnswer": "I'd design it before launching it. Pick one primary metric tied to the actual business outcome and pre-register it, along with the minimum detectable effect I'd care about, then run a power analysis to get the sample size and therefore the duration. That last part matters because the alternative, watching a dashboard and stopping when p drops below 0.05, is the peeking problem and inflates false positives dramatically; if I do need continuous monitoring I'd use a sequential or always-valid testing method built for it. Randomization unit should be the user, not the request, so one person doesn't get an inconsistent experience and so I don't underestimate variance through correlated observations. I'd define guardrail metrics up front, latency, error rate, cost per request, and safety or escalation rates, because a change can win on relevance and lose on cost or trust, and I want that blocking. Then some hygiene: check for sample-ratio mismatch as an early signal the assignment or logging is broken, run long enough to cover weekly seasonality and let novelty effects decay, and correct for multiple comparisons if I'm reading many metrics. And I'd decide the ship criteria before seeing data, so the decision isn't retrofitted to the result."
+    },
+    {
+      "id": "ev-10",
+      "difficulty": "medium",
+      "question": "What is the right way to evaluate a model that must sometimes abstain?",
+      "options": [
+        "Treat abstentions as errors, since the user got no answer",
+        "Score answered and abstained cases separately: accuracy on attempted items plus coverage, and check that abstentions concentrate on genuinely hard or unanswerable cases",
+        "Exclude abstentions from evaluation entirely",
+        "Count abstentions as correct, since the model avoided a mistake"
+      ],
+      "answer": 1,
+      "explanation": "Abstention introduces a coverage-accuracy tradeoff, so a single number can't capture it: a model answering 60% of questions at 95% accuracy may be far more valuable than one answering everything at 75%. Report selective accuracy against coverage, ideally as a risk-coverage curve, and check the selectivity is meaningful by including unanswerable questions and confirming abstention rates are much higher there. Also decide the operating point from real costs, since in medical or legal settings a wrong confident answer can be far more expensive than an escalation, while in low-stakes search excessive abstention makes the product useless.",
+      "modelAnswer": "Abstention creates a coverage-versus-accuracy tradeoff, so collapsing it to one number hides the thing you care about. A system that answers sixty percent of questions at ninety-five percent accuracy and escalates the rest may be far more valuable than one that answers everything at seventy-five percent, and both could show similar aggregate scores depending how you count. So I'd report selective accuracy, meaning accuracy on the items it chose to answer, alongside coverage, and ideally plot the full risk-coverage curve so stakeholders can pick an operating point knowingly. Then I'd test that the abstention is actually informative rather than random: include genuinely unanswerable questions and questions outside the knowledge base in the eval set, and verify the abstention rate is much higher there than on answerable ones, because a model that abstains uniformly is just less useful, not more careful. Finally I'd set the threshold from real costs rather than a default, since in a clinical or legal context a confident wrong answer can be catastrophic while an escalation is cheap, and in a low-stakes search product over-abstention makes the feature pointless."
+    },
+    {
+      "id": "ev-11",
+      "difficulty": "medium",
+      "question": "How do you evaluate an agent that takes multi-step actions with tools?",
+      "options": [
+        "Only the final answer, since intermediate steps don't matter to the user",
+        "Both outcome and process: task success rate plus tool-call correctness, step efficiency, recovery from errors, and cost/latency per task",
+        "The number of tool calls made per task",
+        "The perplexity of the agent's reasoning trace"
+      ],
+      "answer": 1,
+      "explanation": "Final-answer-only evaluation is fragile for agents: it can't distinguish a lucky success from a sound process, gives no signal about where a failure occurred, and hides expensive or dangerous intermediate behavior. So measure outcome (task completion against a verifiable end state, ideally checked in a sandboxed environment rather than by string match) plus process: correct tool selection, valid arguments, number of steps versus optimal, whether it recovered from a failed call, and whether it took any irreversible or unsafe action. Also track cost and latency per task, since agents can succeed unaffordably, and evaluate on trajectories with injected failures to test robustness.",
+      "modelAnswer": "I'd measure outcome and process, because either alone is misleading for agents. Outcome first: define task success against a verifiable end state in a sandboxed environment, so did the file actually get written, did the ticket actually get created, rather than matching the agent's own claim of success, since agents confidently report completion they didn't achieve. Then process, for two reasons: it localizes failures, telling me whether the agent picked the wrong tool, passed malformed arguments, misread a result, or looped, and it catches behavior that succeeded badly. So I'd track tool-selection accuracy, argument validity, step count versus an optimal trajectory, and recovery rate after a failed call, which I'd test deliberately by injecting tool failures and timeouts, since real environments are flaky and brittle-on-error is the most common production weakness. I'd add cost and latency per task as first-class metrics, because an agent that succeeds after forty calls and four dollars is a failure commercially. And I'd have an explicit safety dimension counting irreversible or out-of-scope actions attempted, since one destructive action outweighs a lot of successes. Given how noisy agent runs are, I'd also run multiple trials per task and report pass rate with variance rather than a single run."
+    },
+    {
+      "id": "ev-12",
+      "difficulty": "medium",
+      "question": "Why does inter-annotator agreement matter, and what do you do when it's low?",
+      "options": [
+        "It measures annotator speed; low agreement means hiring more annotators",
+        "It bounds how well any model can be measured, so low agreement usually means the task or rubric is underspecified and must be fixed first",
+        "It only matters for classification, not generation tasks",
+        "Low agreement means the model is performing well on ambiguous cases"
+      ],
+      "answer": 1,
+      "explanation": "If humans only agree 65% of the time, no metric derived from those labels can meaningfully distinguish models closer than that margin, so agreement is effectively a ceiling on measurement precision. Low agreement is diagnostic, not just noise: it typically means the rubric is ambiguous, the task is genuinely subjective, annotators were trained inconsistently, or the examples are edge cases. The fix is upstream, sharpening definitions with worked examples, adding a decision procedure for hard cases, running calibration sessions, and splitting a conflated dimension into separate ones. Measure it with Cohen's or Fleiss' kappa rather than raw agreement so chance agreement is accounted for, and retain genuinely ambiguous items only if you handle them as ties rather than forcing a label.",
+      "modelAnswer": "Inter-annotator agreement sets the ceiling on measurement precision. If two qualified humans only agree on a label seventy percent of the time, no metric built from those labels can reliably distinguish two models whose true difference is smaller than that noise floor, so I'd know up front that a two-point improvement is unmeasurable in that setup. I'd measure it with Cohen's kappa for two raters or Fleiss' kappa for more, rather than raw percent agreement, since raw agreement looks impressive on skewed label distributions purely by chance. When it's low, I treat it as information about my task definition, not about the annotators. Usually it means the rubric is underspecified, two distinct dimensions have been conflated into one score, or the task is genuinely subjective. So the fix is upstream: sharpen the definitions with worked examples of borderline cases, write an explicit decision procedure for the hard ones, run calibration sessions where raters discuss disagreements, and split conflated criteria into separate questions like factual accuracy and helpfulness rated independently. For items that remain genuinely ambiguous after that, I'd keep them but record them as ties rather than forcing a coin-flip label, because forcing labels on ambiguous data injects pure noise into every downstream comparison."
+    },
+    {
+      "id": "ev-13",
+      "difficulty": "medium",
+      "question": "What should an LLM application's production monitoring cover beyond latency and errors?",
+      "options": [
+        "Only token throughput and GPU utilization",
+        "Output quality proxies, groundedness and citation rates, refusal and escalation rates, cost per request, input drift, and user feedback signals",
+        "Model weights checksum and container health",
+        "Nothing else; quality is validated pre-deployment"
+      ],
+      "answer": 1,
+      "explanation": "Pre-deployment evaluation can't cover the live input distribution, so you need continuous quality signals. Useful ones: sampled LLM-judge scores on real traffic, groundedness and citation validity for RAG, refusal and abstention rates (spikes indicate over-refusal or an upstream break), retrieval hit rates and empty-result rates, cost and token counts per request to catch prompt bloat, input distribution drift and new-topic detection, output length and format-compliance rates, plus explicit user feedback and implicit signals like retries, copy events, and escalation to human support. Alert on trends rather than single events, and keep a sampled human review queue since automated proxies drift too.",
+      "modelAnswer": "Latency and error rates tell me the service is up, not that it's good, and LLM systems fail quietly. So I'd add several layers. Quality proxies on sampled live traffic, running an LLM judge over a small percentage continuously so I have a quality trend rather than a snapshot from launch week. For RAG specifically, retrieval hit rate, empty-result rate, groundedness scores, and citation validity, since a broken indexing job shows up there long before users complain. Behavioral rates: refusals, abstentions, and escalations to human support, because a spike in refusals usually means either an upstream prompt change or an over-restrictive tweak, and both are invisible in error logs. Cost and tokens per request, which catches prompt bloat and runaway agent loops, ideally with per-tenant attribution. Input drift and new-topic detection, since users will ask things the system was never evaluated on, and that's where quality goes first. And feedback signals, both explicit thumbs and implicit ones like retries, rephrasings, copy events, and abandonment, which are noisier but far more abundant. I'd alert on sustained trends rather than single samples to avoid pager fatigue, keep a human review queue over sampled and flagged conversations because automated judges drift too, and feed every real failure back into the offline eval set so the same bug can't recur silently."
+    },
+    {
+      "id": "ev-14",
+      "difficulty": "hard",
+      "question": "Why is Goodhart's law central to ML evaluation, and how do you work around it?",
+      "options": [
+        "Because metrics always have measurement error that compounds over time",
+        "Because optimizing a proxy hard enough breaks its relationship to the true goal, so you need multiple metrics, guardrails, and periodic revalidation against ground truth",
+        "Because benchmarks become contaminated once published",
+        "Because human evaluation is more expensive than automated evaluation"
+      ],
+      "answer": 1,
+      "explanation": "Every metric is a proxy for something you actually care about, and the proxy correlates with the goal only within the region where it was validated. Strong optimization pressure pushes the system out of that region, into the gap between proxy and goal, which is why reward hacking in RLHF, clickbait in engagement optimization, and benchmark overfitting are all the same phenomenon. Countermeasures: use multiple diverse metrics so gaming one is visible in another, add guardrails that must not regress, periodically revalidate the proxy against expensive ground truth like human review, keep a private held-out set the optimizer never sees, and treat a rapidly improving metric with unchanged user outcomes as a red flag rather than a win.",
+      "modelAnswer": "Goodhart's law says that when a measure becomes a target it stops being a good measure, and in ML that isn't a philosophical aside, it's the mechanism behind several of our biggest failure modes. Reward hacking in RLHF, clickbait from engagement optimization, and benchmark overfitting are the same thing: a metric is a proxy that correlates with the true goal only in the region where it was validated, and optimization pressure deliberately searches for the region where they diverge, because that's where the proxy is cheapest to satisfy. The stronger the optimizer, the more reliably it finds that gap, so this gets worse as our methods get better. Working around it is a set of practices rather than a solution. Use multiple diverse metrics, since gaming one usually shows up as a decline in another, and pair every optimization target with guardrails that must not regress. Keep a private held-out evaluation the optimizer never touches, and refresh it, because anything you iterate against becomes a training signal eventually. Periodically revalidate the cheap proxy against expensive ground truth, human review or real business outcomes, and treat divergence as the signal to re-derive the proxy. And culturally, treat a metric improving fast while user outcomes stay flat as a red flag to investigate rather than a win to announce, which is the discipline most often missing."
+    },
+    {
+      "id": "ev-15",
+      "difficulty": "hard",
+      "question": "How do you evaluate fairness, and why can't you satisfy all fairness definitions at once?",
+      "options": [
+        "Measure accuracy per group; a fair model has equal accuracy everywhere",
+        "Choose among definitions like demographic parity, equalized odds, and calibration, which are mathematically incompatible except in degenerate cases, so the choice must be justified by context",
+        "Remove protected attributes from the features, which guarantees fairness",
+        "Fairness is a legal question, not a measurable property"
+      ],
+      "answer": 1,
+      "explanation": "The impossibility results (Kleinberg et al., Chouldechova) show that when base rates differ between groups, you cannot simultaneously achieve calibration within groups, equal false positive rates, and equal false negative rates except when the classifier is perfect or base rates are equal. So fairness is not one metric to maximize but a choice about which harm matters most, and that choice belongs to domain and policy stakeholders, not to the modeler alone. Also note that dropping protected attributes does not produce fairness, since proxies like zip code carry the information, and it removes your ability to even measure disparities. Practically: measure disaggregated performance across groups and intersections, report multiple definitions, check for disparate impact on the actual decision, and document the tradeoff explicitly.",
+      "modelAnswer": "Fairness isn't a single quantity you maximize, it's a family of mutually incompatible criteria, and the first job is choosing which one applies. Demographic parity asks that positive rates match across groups; equalized odds asks that error rates, false positives and false negatives, match; calibration asks that a predicted probability means the same thing in each group. The impossibility results from Kleinberg and colleagues and from Chouldechova show that when base rates genuinely differ between groups, you cannot have calibration and equal false positive and false negative rates simultaneously, except in the degenerate cases of a perfect classifier or identical base rates. That's a mathematical fact, not an engineering shortfall, so the real work is deciding which harm dominates in this context, and that's a decision for domain experts, affected communities, and legal stakeholders, with my job being to make the tradeoff explicit and quantified rather than to pick silently. Two practical points I'd add. Dropping protected attributes does not create fairness, since proxies like zip code, name, or purchase history carry the signal, and it destroys your ability to measure disparity at all, so I'd keep the attribute for evaluation even where I exclude it from features. And I'd evaluate disaggregated performance across groups and intersections rather than aggregates, because a strong overall number routinely conceals a group where the model is unusable, and I'd measure the disparity in the actual downstream decision and its consequences, not just in model output."
+    },
+    {
+      "id": "ev-16",
+      "difficulty": "hard",
+      "question": "What makes a good red-teaming process for an LLM application?",
+      "options": [
+        "Running a public list of jailbreak prompts once before launch",
+        "Systematic adversarial testing across a threat model, with diverse testers, automated attack generation, tracked findings, and continuous re-testing after every change",
+        "Relying on the model provider's safety training",
+        "Testing only the highest-severity attack category to save time"
+      ],
+      "answer": 1,
+      "explanation": "Effective red-teaming starts from a threat model: who would attack this, for what gain, and what's the worst realistic outcome given the system's actual capabilities and data access. From there, cover categories deliberately (harmful content, prompt injection including indirect via retrieved documents and tool output, data exfiltration and PII leakage, permission escalation, denial of wallet, and application-specific misuse), use both humans, who find creative and culturally-specific attacks, and automated generation, which gives scale and regression coverage. Then treat findings like security bugs: reproduce, triage by severity, fix, and add a regression test, so the same attack can't return. Crucially it must be continuous, since every prompt change, tool addition, or model upgrade can reopen a hole, and public jailbreak lists are a floor, not a substitute for attacks tailored to your system.",
+      "modelAnswer": "It starts with a threat model rather than a prompt list, because what matters depends entirely on what the system can do. An agent with database write access and email sending has a completely different worst case than a documentation chatbot, so I'd ask who would attack this, for what gain, and what the maximum realistic damage is given the actual permissions and data reachable. From there I'd cover categories deliberately: harmful content generation, prompt injection with emphasis on the indirect path through retrieved documents and tool outputs since that's the one people under-test, data exfiltration and PII leakage including through the model repeating context it shouldn't, permission escalation via tools, resource exhaustion or denial of wallet, and misuse specific to the domain. Method-wise I'd combine humans and automation: humans find creative, culturally-specific, and multi-turn attacks that automated generators miss, while automated attack generation gives scale and, more importantly, a regression suite. Then the process discipline, which is where most efforts fail: findings get reproduced, severity-triaged, fixed, and converted into a permanent regression test, and the suite runs on every prompt change, new tool, and model upgrade, because any of those can reopen a hole that was closed. I'd also involve people outside the build team, since builders share blind spots with the system they designed, and I'd treat published jailbreak lists as a baseline floor rather than the actual test, since attacks tailored to my specific application and data are what a real adversary would use."
+    },
+    {
+      "id": "ev-17",
+      "difficulty": "hard",
+      "question": "Your LLM feature scores well on your eval set but users complain. What's the diagnostic path?",
+      "options": [
+        "Increase the eval set size and retest",
+        "Assume the eval set is unrepresentative: sample real failing conversations, categorize the failures, and rebuild the eval set from production reality",
+        "Switch to a larger model",
+        "Add more few-shot examples to the prompt"
+      ],
+      "answer": 1,
+      "explanation": "When measurements and users disagree, trust the users and suspect the measurement. Typical causes: the eval set was built from imagined or clean queries while real users are terse, ambiguous, multi-turn, and off-topic; the metric measures format compliance rather than usefulness; the eval covers the happy path but not the long tail where most complaints originate; complaints concentrate in a subgroup or use case the aggregate score hides; or the problem isn't quality at all but latency, tone, UX, or unmet expectations. The path is to gather real failing sessions, read them, build a taxonomy of failure modes with frequencies, then rebuild the eval set to mirror that distribution and add the specific failures as regression cases. Reading raw transcripts is consistently the highest-yield diagnostic step and the one teams skip.",
+      "modelAnswer": "When users and metrics disagree, I trust the users and treat the metric as the thing that's broken. My path is to get real data before theorizing: pull a sample of actual failing sessions, ideally with the complaint attached, and read the transcripts end to end. That sounds unglamorous but it's consistently the highest-yield step and the one teams skip in favor of tweaking prompts. Then I'd build a failure taxonomy with frequencies, so I'm fixing the common failure rather than the most memorable one. The usual causes I'd be looking for: an eval set built from clean invented queries while real users write terse ambiguous multi-turn messages, so my test distribution never matched reality; a metric that rewards format compliance and looks like quality but isn't; happy-path coverage with no long tail, which is where complaints come from by definition; a subgroup or use case where the system is bad that the aggregate score averages away, which I'd check by disaggregating; and the possibility that quality is genuinely fine and the complaint is about latency, tone, or a mismatch between what the UI promised and what the feature does, in which case the fix isn't in the model at all. Then I'd rebuild the eval set from that production distribution and add every specific failure as a regression case, so the eval becomes something that would have caught this. And I'd set up sampled ongoing review so the next gap surfaces from monitoring rather than from complaints."
+    },
+    {
+      "id": "ev-18",
+      "difficulty": "hard",
+      "question": "How do you evaluate whether a model's stated reasoning is faithful to its actual computation?",
+      "options": [
+        "Check whether the reasoning is logically valid and well-written",
+        "Perturb the inputs or the reasoning and test whether the answer changes as the stated reasoning implies it should",
+        "Compare the reasoning trace against a human expert's explanation",
+        "Measure the length of the chain of thought"
+      ],
+      "answer": 1,
+      "explanation": "A logically coherent explanation can still be a post-hoc rationalization rather than the cause of the answer, so faithfulness has to be tested causally. Standard probes: truncate or corrupt the chain of thought and see whether the answer changes as it should; insert a mistake mid-chain and check whether the conclusion follows the error or ignores it; add a biasing cue such as suggesting an answer and see whether accuracy shifts while the stated reasoning never mentions the cue (evidence of an unstated influence); and paraphrase the question to test stability. This matters because faithfulness determines whether chain-of-thought can be used for oversight, and Anthropic's work has shown models can be influenced by features they don't verbalize, which means a readable chain is not automatically an audit trail.",
+      "modelAnswer": "The key insight is that faithfulness is a causal property, not a stylistic one, so you can't assess it by reading. A fluent, logically valid chain can be a post-hoc rationalization produced alongside an answer that was actually determined by something else entirely. So I'd test it by intervention. Truncate the chain and see whether the answer changes, since if the model reaches the same conclusion without the reasoning, the reasoning wasn't doing the work. Insert a deliberate error mid-chain and check whether the conclusion follows the corrupted step or silently ignores it. Most tellingly, add a biasing cue, for example hinting that the answer is B or embedding a suggestion in the prompt, and check whether the model's answers shift while its stated reasoning never mentions the cue, which is direct evidence of an unverbalized influence, and that's the experimental design in the Anthropic and related faithfulness work. Paraphrase invariance is a weaker but useful signal too. Why it matters: a lot of oversight strategy assumes we can read a model's reasoning to catch bad behavior, and that assumption is only as good as faithfulness, so if chains are unfaithful, monitoring them provides false assurance rather than safety. Practically it also means I wouldn't present a chain of thought to users as an explanation of why the system decided something unless I'd measured that it actually is one."
+    },
+    {
+      "id": "ev-19",
+      "difficulty": "hard",
+      "question": "How do you build an evaluation suite that survives model upgrades?",
+      "options": [
+        "Freeze the prompts and scores so results are comparable forever",
+        "Version prompts, data, and judges together; separate capability from format checks; keep the suite in CI with a stable interface and re-baseline deliberately",
+        "Re-create the suite from scratch for each new model",
+        "Evaluate only on public benchmarks, which are model-agnostic"
+      ],
+      "answer": 1,
+      "explanation": "Model upgrades break evaluation in specific ways: prompts tuned for the old model may underperform on the new one, so a fair comparison needs prompt re-optimization per model rather than reusing an artifact overfitted to the predecessor; output formats shift, so brittle string-matching graders report false regressions; and if your judge model is upgraded at the same time as the model under test, your measuring instrument and subject move together and results are uninterpretable. So: pin the judge version explicitly and change it as its own controlled experiment; make graders robust or structured (function calling, JSON schema) so formatting differences don't masquerade as quality changes; version the dataset, prompts, and grader config together and store them with results so any number is reproducible; keep the suite behind a stable interface so swapping models is a config change; run it in CI on every change; and separate capability tests, which should be portable, from format-compliance tests, which are model-specific. Also plan to add hard cases over time as models saturate the old ones, and re-baseline deliberately rather than silently.",
+      "modelAnswer": "The failure modes on upgrade are specific, so I'd design against each. First, prompts overfit to the old model: a prompt tuned over months for model N may be actively suboptimal for model N plus one, so comparing them with the same prompt understates the new model. A fair evaluation allows per-model prompt adaptation, and I'd version prompts per model rather than treating one as canonical. Second, brittle graders: exact-string matching reports regressions when the new model formats an equally correct answer differently, so I'd use structured output like tool calls or a JSON schema, or a semantic grader, so I'm measuring content not formatting. Third, and this one bites people, the judge model moving at the same time as the model under test. If both upgrade together, the instrument and the subject changed simultaneously and the delta is uninterpretable, so I pin the judge version explicitly, treat changing it as its own controlled experiment with overlap measurement, and record it alongside every result. Beyond that, the engineering: version dataset, prompts, grader config, and judge together and store them with results so any historical number is reproducible; put the suite behind a stable interface so swapping a model is a config change rather than a rewrite; and run it in CI on every prompt or pipeline change, not just at upgrade time. I'd separate portable capability tests from model-specific format tests, since those age differently. And I'd expect saturation: as models improve they'll max out the original set, so I'd continuously add harder cases and production failures, and re-baseline deliberately with a documented note rather than letting the comparison drift silently."
+    },
+    {
+      "id": "ev-20",
+      "difficulty": "hard",
+      "question": "What are the practical limits of leaderboard-style comparisons like Chatbot Arena?",
+      "options": [
+        "They are the most reliable signal available and should drive model selection",
+        "They measure aggregate human preference on a particular prompt distribution, which conflates style with substance and may not match your task, users, or constraints",
+        "They are unreliable only because of vote manipulation",
+        "They cannot compare models of different sizes"
+      ],
+      "answer": 1,
+      "explanation": "Arena-style Elo captures something real that static benchmarks miss (open-ended human preference on live traffic) but it has structural limits. The prompt distribution reflects arena users, skewing toward casual, English, single-turn queries rather than your domain's long documents, tool use, or structured output. Preference conflates substance with style, so formatting, verbosity, and confident tone are rewarded, and models can be tuned for exactly that. Elo compresses many dimensions into one scalar, hiding that model A is better at code while B is better at summarization, and it ignores cost, latency, context length, rate limits, and licensing, which often dominate real decisions. Ties and small rating gaps are frequently within noise. The right use is as a prior for which candidates to shortlist, followed by evaluation on your own task-specific set, which is the only thing that reflects your users.",
+      "modelAnswer": "Arena-style leaderboards measure something genuinely valuable that static benchmarks miss, which is open-ended human preference on live queries rather than multiple-choice recall, and they're contamination-resistant because prompts are fresh. But there are structural limits that make them a poor sole basis for model selection. The prompt distribution is the arena's users, which skews casual, English, single-turn, and short, while my production traffic might be long documents, tool-calling, structured extraction, or a non-English language, and rankings genuinely reorder across those slices. Preference conflates substance with style: formatting, length, and confident tone are rewarded, so a model tuned to be pleasant can outrank a more accurate one, and that's an optimization target labs are aware of. A single Elo compresses many capabilities into one scalar, hiding that one model leads on code and another on summarization, so the aggregate can be irrelevant to my use case even when it's accurate. It says nothing about cost, latency, context length, rate limits, or licensing, which in my experience decide production choices at least as often as quality. And small rating gaps are frequently inside the confidence interval, so reading a three-point difference as meaningful is a mistake. So I'd use leaderboards the way I'd use any prior: to shortlist two or three candidates cheaply, then decide with my own evaluation set on my own distribution, including cost and latency measurements, because that's the only comparison that reflects my users."
+    },
+    {
+      "id": "ev-21",
+      "difficulty": "hard",
+      "question": "How should you evaluate summarization systems given that references are unreliable?",
+      "options": [
+        "ROUGE against a single human reference is the accepted standard",
+        "Evaluate dimensions separately: faithfulness to the source, coverage of key information, coherence, and conciseness, using entailment checks and rubric-based judging rather than reference overlap",
+        "Measure compression ratio and readability scores",
+        "Have the model summarize its own summary and check consistency"
+      ],
+      "answer": 1,
+      "explanation": "Summarization has no single correct output, so reference overlap penalizes valid alternatives and rewards copying, and human-written references are themselves inconsistent and sometimes unfaithful. Better practice is dimensional evaluation. Faithfulness is the priority since hallucinated details are the dominant real-world failure, and it's checkable without references by testing entailment of each summary claim against the source. Coverage or relevance needs a notion of what mattered, which you can operationalize with a human-extracted list of key points or a question-answering approach: generate questions from the source and check the summary answers them. Coherence and conciseness suit rubric-based LLM or human judging with pairwise comparison. Also match the evaluation to the use case, since an executive brief and a clinical handoff have different priorities, and include hard cases like conflicting sources and very long documents.",
+      "modelAnswer": "I'd stop treating it as a single scored task and decompose it, because summarization has many valid outputs and any reference-overlap metric penalizes good summaries that differ from the reference while rewarding ones that copy phrasing, and human references are themselves inconsistent and sometimes contain unsupported claims. So, dimensions. Faithfulness first, since hallucinated or subtly distorted details are the dominant real-world failure and the one that actually causes harm; it's also the easiest to evaluate without references, by decomposing the summary into claims and checking entailment against the source with an NLI model or a judge. Coverage second, which requires defining what mattered: I'd either have humans extract key points per document and check inclusion, or use the question-based approach of generating questions from the source and testing whether the summary answers them, which scales better. Then coherence and conciseness, which are genuinely subjective and suit rubric-based judging with pairwise comparison rather than absolute scores. Crucially I'd anchor the whole thing to the use case, because what counts as a good summary of a legal filing for an attorney differs completely from a support-ticket digest, so I'd write the rubric with the actual downstream user and include the failure modes that matter to them. And I'd build the hard cases in deliberately: sources that contradict themselves, documents far longer than the context window, and content where omission is itself misleading, since those are where systems break and where average-case metrics say nothing."
+    },
+    {
+      "id": "ev-22",
+      "difficulty": "hard",
+      "question": "What does it mean to evaluate cost-quality tradeoffs properly for an LLM feature?",
+      "options": [
+        "Pick the cheapest model that passes a minimum quality bar",
+        "Map the full frontier of options against quality, cost, and latency, then choose an operating point from the actual value of quality in that use case",
+        "Always choose the highest-quality model, since quality drives adoption",
+        "Compare per-token prices across providers"
+      ],
+      "answer": 1,
+      "explanation": "There's rarely a single right model, there's a frontier: small model with strong retrieval, mid model with reranking, large model with a short prompt, plus levers like caching, batching, quantization, distillation, and routing easy queries to a cheap model with escalation. Proper evaluation measures quality, cost, and latency together for each configuration, because they trade against each other (more retrieved context raises both quality and cost; caching cuts cost only for repeated prefixes). Cost must be computed per resolved task, not per token, since a cheap model that needs three retries or produces work a human must fix is not cheap. Then the choice depends on the value of marginal quality: in a support deflection flow a few points of accuracy may be worth a lot, while for internal draft generation it may not. Also model the volume, since a fraction of a cent per call becomes material at millions of calls, and watch that cost per request can creep as prompts grow.",
+      "modelAnswer": "The framing I'd push is that there isn't one right answer, there's a frontier of configurations, and my job is to map it and then let the product decide the operating point. Configurations aren't just model choices: a small model with excellent retrieval and reranking often beats a large model with mediocre context at a fraction of the cost, and there are orthogonal levers like prompt caching, batching, quantization, distilling a fine-tuned small model, and routing where a cheap model handles the easy majority and escalates hard cases. So I'd measure quality, cost, and latency jointly for each candidate configuration rather than optimizing one at a time, since they interact, more context raises quality and cost together. Two measurement details matter a lot. Cost should be per resolved task, not per token: a cheap model that needs three retries, or that produces output a human has to fix, isn't cheap, and per-token pricing hides that completely. And latency should be reported at p95 or p99 with time-to-first-token separated from completion, because that's what users feel. Then the decision is economic: what is a marginal point of accuracy worth here? In a support-deflection flow where each contained ticket saves real money, quite a lot; for an internal draft-generation tool, very little, and the cheap fast option wins. I'd also model volume explicitly, since a difference of a fraction of a cent per call is irrelevant at a thousand calls a day and dominant at ten million, and I'd monitor cost per request over time because prompts and context reliably grow, so a configuration that penciled out at launch can quietly stop making sense."
+    },
+    {
+      "id": "ev-23",
+      "difficulty": "hard",
+      "question": "How do you evaluate a system where ground truth arrives late or never?",
+      "options": [
+        "Wait for labels before making any quality claims",
+        "Combine proxy metrics, delayed-label backfilling, targeted human audits, and counterfactual/off-policy estimation, being explicit about each one's bias",
+        "Assume performance is unchanged until proven otherwise",
+        "Use the model's own confidence as the quality metric"
+      ],
+      "answer": 1,
+      "explanation": "Delayed feedback is the norm: loan defaults take months, medical outcomes longer, and many generative outputs have no natural label at all. The approach is layered. Use immediate proxies (user retries, edits, copy actions, escalations, dwell time), knowing they measure satisfaction rather than correctness. Backfill true labels as they arrive and evaluate cohorts retrospectively, keeping the delay in mind so a recent cohort is not yet comparable. Buy ground truth deliberately on a sample through human audit, stratified toward high-risk cases so review effort goes where errors are costly. Use off-policy or counterfactual estimation with logged propensities when the system was a ranking or decision policy, since naive replay of logged data is biased by what the old policy chose to show. And monitor label-free signals like input drift and prediction distribution shift as early warnings. Throughout, state the bias of each signal rather than presenting proxies as accuracy, and remember feedback loops: the model's own decisions shape which outcomes you ever observe, so unshown cases are missing not at random.",
+      "modelAnswer": "This is the normal case rather than an edge case, so I'd build a layered measurement strategy and be explicit about what each layer can and can't tell me. Immediate proxies first: retries, rephrasings, edits to the output, copy events, thumbs, escalation to a human, abandonment. They're available in seconds and they're genuinely informative about satisfaction, but they measure satisfaction, not correctness, and I'd say so rather than labeling them accuracy. Second, delayed-label backfill: as true outcomes arrive I evaluate cohorts retrospectively, with the discipline that a recent cohort is censored and not yet comparable to an older one, which is a mistake I've seen produce fake regressions. Third, buy ground truth deliberately on a sample through human audit, stratified toward high-risk and high-uncertainty cases so review effort concentrates where errors are expensive rather than spreading uniformly. Fourth, where the system is making decisions or ranking, use off-policy estimation with logged propensities, because naive replay of logged data is biased by what the previous policy chose to show. And fifth, label-free monitoring, input drift and prediction distribution shift, as the early warning that something changed before any label could tell me. The subtlety I'd flag is the feedback loop: for decisions, the model's own choices determine which outcomes you ever observe, so rejected applicants never generate a repayment label and your data is missing not at random. That's a selection bias that gets worse over time, and the standard remedies are deliberate exploration, holding out a small randomized control slice, or accepting some cases you'd have rejected specifically to keep the measurement honest, which is a cost worth arguing for explicitly."
+    },
+    {
+      "id": "ev-24",
+      "difficulty": "hard",
+      "question": "You must present an evaluation to stakeholders who want one number. How do you handle it?",
+      "options": [
+        "Give them the single most favorable metric to keep the message simple",
+        "Provide a primary metric tied to the business decision, with confidence intervals, guardrails, and named limitations, refusing to let one number stand alone",
+        "Refuse to summarize, since all metrics are flawed",
+        "Report the average of all your metrics"
+      ],
+      "answer": 1,
+      "explanation": "The request is reasonable, since decisions need a summary, but a bare number invites overconfidence and Goodhart effects. The professional response is to give a headline metric chosen because it maps to the decision being made, always with an uncertainty interval so people can tell a real difference from noise, plus a small set of guardrails that must not regress (safety, latency, cost, worst-subgroup performance). State the evaluation's scope and known blind spots in plain language, since undisclosed limitations become credibility problems when they surface later. Show disaggregated results when an aggregate hides a materially bad subgroup, because that is exactly the situation where a single number misleads. And frame it as a decision recommendation with its conditions rather than a score, which is usually what stakeholders actually wanted.",
+      "modelAnswer": "I'd treat the request as legitimate rather than something to resist, because decisions do need a summary, and answering with it depends is not useful to someone who has to allocate resources. So I'd give a headline number, chosen specifically because it maps onto the decision being made rather than because it's the most flattering, and I'd attach three things to it. A confidence interval, so the audience can distinguish a real improvement from noise, which is the single most common way single-number reporting misleads. A short list of guardrails that did not regress, safety, latency, cost, and worst-subgroup performance, because a headline win alongside a safety regression is not a win and stakeholders deserve to see that explicitly. And a plain-language statement of what the evaluation does not cover, since undisclosed limitations always surface later and cost more credibility than they would have cost to disclose. If an aggregate conceals a materially bad subgroup I'd show the disaggregation whether or not it was asked for, since that's precisely the case where a single number causes a bad decision. And I'd frame the whole thing as a recommendation with conditions, ship to this segment, monitor these two signals, revisit if this assumption breaks, because in my experience that's what the person actually wanted when they asked for one number, and it keeps me honest about uncertainty without hiding behind it."
+    },
+    {
+      "id": "ev-25",
+      "difficulty": "hard",
+      "question": "How would you design an evaluation strategy for a brand-new LLM product with no data and no users?",
+      "options": [
+        "Launch first and build evaluation from real traffic once it exists",
+        "Bootstrap with hand-written cases from stakeholder expectations and domain experts, add adversarial and safety cases, wire it into CI, then progressively replace it with production reality",
+        "Use public benchmarks until you have proprietary data",
+        "Rely on the model provider's benchmark scores"
+      ],
+      "answer": 1,
+      "explanation": "You can't wait for data, and public benchmarks won't reflect your task, so bootstrap deliberately. Start by writing down what success means with the people who own the outcome, then hand-author 20-50 cases spanning the core use cases, obvious edge cases, and things the system should refuse or escalate. That small set is enough to catch most regressions and it forces disagreements into the open early. Add adversarial and safety cases from a threat model, and use synthetic generation to expand coverage while spot-checking quality, since unvalidated synthetic evals measure the generator's assumptions. Wire it into CI immediately so every prompt change is checked, and pick graders that are as automatic as possible, with human review reserved for the subjective dimensions. Then plan the transition: instrument logging and feedback from day one, run a closed alpha to harvest real queries, and systematically migrate the eval set toward the production distribution, adding every real failure as a permanent regression case. Also define the launch gates and rollback criteria before launch rather than negotiating them under pressure afterward.",
+      "modelAnswer": "I'd bootstrap deliberately rather than either waiting for data or trusting public benchmarks. Step one is a conversation, not code: sit with whoever owns the outcome and write down concretely what a good response looks like, what an unacceptable one looks like, and what the system should refuse or escalate. That surfaces stakeholder disagreement while it's still cheap, and it usually changes the product spec. Step two, hand-author twenty to fifty cases covering the main use cases, obvious edge cases, and the refusal and abstention behaviors. That feels small but it catches the majority of regressions and it's dramatically better than nothing, which is the actual alternative. Step three, add adversarial and safety cases derived from a threat model of what the system can touch, since those are the failures that are expensive to discover publicly. Step four, expand coverage with synthetic generation, but spot-check it by hand, because an unvalidated synthetic eval measures my generator's assumptions rather than reality. Then the engineering: prefer graders that run automatically, structured output checks and verifiable assertions where possible, reserve LLM judging for genuinely subjective dimensions and validate the judge against my own labels, and wire the whole suite into CI from the first commit so no prompt change ships unmeasured. Finally, plan the handoff to reality explicitly, since the hand-written set is scaffolding: instrument logging and feedback capture before launch, run a closed alpha specifically to harvest real queries, and then systematically shift the eval distribution toward production, adding every real failure as a permanent regression case. And I'd get launch gates and rollback criteria agreed before launch, because negotiating them during an incident goes badly."
+    }
+  ]
+}

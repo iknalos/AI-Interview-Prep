@@ -1,0 +1,356 @@
+{
+  "topicId": "ml-fundamentals",
+  "topicName": "ML Fundamentals",
+  "cards": [
+    {
+      "id": "mlf-01",
+      "difficulty": "easy",
+      "question": "What is the bias-variance tradeoff?",
+      "options": [
+        "Bias is training error, variance is test error, and they always sum to a constant",
+        "Bias is error from overly simple assumptions; variance is sensitivity to the particular training sample",
+        "Bias comes from unbalanced labels; variance comes from unscaled features",
+        "Bias applies to regression and variance applies only to classification"
+      ],
+      "answer": 1,
+      "explanation": "Bias is systematic error from a model too simple to capture the true signal (underfitting). Variance is how much the fitted model changes if you resample the training data (overfitting). Total expected error decomposes into bias^2 + variance + irreducible noise. Increasing capacity usually lowers bias and raises variance.",
+      "modelAnswer": "Expected test error decomposes into bias squared, variance, and irreducible noise. Bias is the error I get because my hypothesis class is too restrictive to represent the truth, like fitting a line to a curve. Variance is how much my fitted function swings if I redraw the training set. Simple models sit high-bias low-variance, flexible models the reverse, so I tune capacity, regularization, and data volume to minimize the sum rather than either term alone. Worth noting that in the overparameterized deep learning regime the classic U-curve can turn into double descent, so I treat the tradeoff as a guide, not a law."
+    },
+    {
+      "id": "mlf-02",
+      "difficulty": "easy",
+      "question": "Why should you never tune hyperparameters on the test set?",
+      "options": [
+        "It slows training down because the test set is usually large",
+        "Test labels are typically unavailable during training",
+        "It leaks test information into model selection, so the reported score is optimistically biased",
+        "It violates the i.i.d. assumption required by gradient descent"
+      ],
+      "answer": 2,
+      "explanation": "Every decision made by looking at the test set is a form of fitting to it. After many such choices, test performance stops being an unbiased estimate of generalization. Use a validation split (or cross-validation) for all model and hyperparameter selection and touch the test set once, at the end.",
+      "modelAnswer": "Because selection is a form of fitting. Each time I compare configurations on the test set and keep the winner, I bake test-set noise into my choice, so the final number is optimistic and no longer estimates generalization. The discipline is a three-way split: train to fit parameters, validation to choose hyperparameters and architecture, test touched once at the very end. If data is scarce I use k-fold cross-validation inside the training portion and still hold out a clean test set."
+    },
+    {
+      "id": "mlf-03",
+      "difficulty": "easy",
+      "question": "When is accuracy a misleading metric?",
+      "options": [
+        "Whenever the model is a neural network rather than a linear model",
+        "Under heavy class imbalance, or when error costs differ between classes",
+        "Only for multi-class problems with more than ten classes",
+        "Whenever features are correlated with each other"
+      ],
+      "answer": 1,
+      "explanation": "With 99% negatives, predicting 'negative' always scores 99% accuracy while catching nothing. Accuracy also treats a false positive and a false negative as equally bad, which is rarely true in fraud, medical screening, or moderation. Prefer precision/recall, F-beta, PR-AUC, or an explicit cost matrix.",
+      "modelAnswer": "Accuracy breaks down under class imbalance and asymmetric costs. If one percent of transactions are fraud, a constant negative prediction gets ninety-nine percent accuracy and zero business value. Accuracy also implicitly says a false positive and a false negative hurt equally, which is almost never true. I'd move to precision and recall at a chosen operating point, PR-AUC for ranking quality on the rare class, and ideally a cost matrix tied to the real decision so the threshold falls out of the economics."
+    },
+    {
+      "id": "mlf-04",
+      "difficulty": "easy",
+      "question": "What does regularization do?",
+      "options": [
+        "Speeds up convergence by rescaling gradients",
+        "Constrains effective model capacity to reduce variance, usually trading a little bias for it",
+        "Removes outliers from the training data automatically",
+        "Guarantees the optimizer reaches a global minimum"
+      ],
+      "answer": 1,
+      "explanation": "Regularization adds a preference for simpler solutions: an L1/L2 penalty, dropout, early stopping, data augmentation, or weight sharing. It shrinks the space of functions the model effectively explores, cutting variance at the cost of some bias.",
+      "modelAnswer": "Regularization biases the fit toward simpler hypotheses so the model generalizes instead of memorizing. Concretely that's an L2 penalty shrinking weights toward zero, L1 encouraging sparsity, dropout injecting noise so no unit is load-bearing alone, early stopping capping effective capacity, or augmentation expanding the data manifold. It's a deliberate variance-for-bias trade, and the strength is a hyperparameter I tune on validation."
+    },
+    {
+      "id": "mlf-05",
+      "difficulty": "easy",
+      "question": "What is the practical difference between L1 and L2 regularization?",
+      "options": [
+        "L1 shrinks weights smoothly; L2 drives many weights exactly to zero",
+        "L1 drives many weights exactly to zero (sparsity); L2 shrinks all weights smoothly",
+        "They are mathematically equivalent under gradient descent",
+        "L1 works only for classification, L2 only for regression"
+      ],
+      "answer": 1,
+      "explanation": "The L1 penalty has a constant-magnitude gradient, so it can push a coefficient to exactly zero and hold it there, giving built-in feature selection. L2's gradient shrinks proportionally to the weight, so weights approach zero without reaching it, spreading shrinkage across correlated features.",
+      "modelAnswer": "L1 gives sparsity, L2 gives shrinkage. The L1 subgradient has constant magnitude, so it can drive a coefficient exactly to zero and pin it there, which acts as embedded feature selection and produces interpretable models. L2's gradient is proportional to the weight, so everything shrinks smoothly but stays nonzero, and it handles correlated predictors more gracefully by splitting weight among them. Elastic net combines both when I want sparsity but have correlated feature groups."
+    },
+    {
+      "id": "mlf-06",
+      "difficulty": "easy",
+      "question": "What distinguishes supervised, unsupervised, and self-supervised learning?",
+      "options": [
+        "Supervised uses labels; unsupervised finds structure without labels; self-supervised builds labels from the data itself",
+        "Self-supervised is just unsupervised learning with a neural network",
+        "Unsupervised learning requires reinforcement signals",
+        "Supervised learning needs no validation set because labels are known"
+      ],
+      "answer": 0,
+      "explanation": "Supervised learning maps x to a human-provided y. Unsupervised learning models structure in x alone (clustering, density estimation, dimensionality reduction). Self-supervised learning invents a supervised task from unlabeled data, e.g. predicting a masked token, which is how modern LLMs and vision encoders are pretrained.",
+      "modelAnswer": "Supervised learning fits a mapping from inputs to human-provided targets. Unsupervised learning has no targets and models the structure of the inputs themselves, like k-means or PCA. Self-supervised learning is the bridge that unlocked modern foundation models: you manufacture the labels from the raw data, for example masking a token and predicting it, or predicting the next token. The optimization is fully supervised but the annotation cost is zero, which is why it scales to internet-sized corpora."
+    },
+    {
+      "id": "mlf-07",
+      "difficulty": "easy",
+      "question": "Why do gradient-based models often need feature scaling?",
+      "options": [
+        "It reduces the number of parameters the model must learn",
+        "Wildly different feature scales create ill-conditioned loss surfaces, so a single learning rate works poorly",
+        "It makes the loss function convex",
+        "Unscaled features break the chain rule"
+      ],
+      "answer": 1,
+      "explanation": "If one feature ranges 0-1 and another 0-100000, the loss surface becomes a stretched ravine and gradient descent zig-zags. Standardizing or normalizing conditions the problem so one learning rate suits all directions. Tree-based models are scale-invariant and don't need this.",
+      "modelAnswer": "Because scale differences make the loss surface ill-conditioned. With one feature in the unit interval and another in the hundred-thousands, the curvature along those axes differs by orders of magnitude, so any single learning rate either diverges on the steep direction or crawls on the flat one, and gradient descent zig-zags down a ravine. Standardizing fixes the conditioning. It also matters for anything distance- or penalty-based, like k-NN, SVMs, and L2 regularization, which would otherwise be dominated by the largest-scale feature. Tree ensembles split on order statistics, so they're scale-invariant and don't care."
+    },
+    {
+      "id": "mlf-08",
+      "difficulty": "easy",
+      "question": "What is cross-validation and when is it worth the cost?",
+      "options": [
+        "Training on multiple GPUs to cross-check results; worth it for large models",
+        "Rotating which fold is held out so every point is validated once; worth it when data is limited and a single split would be noisy",
+        "Validating against a second model's predictions to detect bugs",
+        "Splitting features rather than rows to test feature importance"
+      ],
+      "answer": 1,
+      "explanation": "k-fold CV partitions the data into k folds, trains k times, and averages the held-out scores, giving a lower-variance estimate of generalization and a spread across folds. Cost is k trainings, so it shines on small/medium tabular data and is usually impractical for large deep models, where a single large validation split suffices.",
+      "modelAnswer": "k-fold cross-validation splits the data into k parts, trains k models each holding out a different part, and averages the held-out scores. The value is a lower-variance estimate plus a standard deviation across folds, which tells me whether a difference between two models is real or noise. The cost is k times the training compute, so I use it on small to medium datasets, and for large deep models I fall back to one big validation split. For time series I use forward-chaining splits instead, since random folds would let the model peek at the future, and for imbalanced targets I stratify."
+    },
+    {
+      "id": "mlf-09",
+      "difficulty": "medium",
+      "question": "Why is maximizing likelihood under a Gaussian noise assumption equivalent to minimizing MSE?",
+      "options": [
+        "Because the Gaussian is the only distribution with finite variance",
+        "Because the log of a Gaussian density is a negative quadratic in the residual, so maximizing it minimizes squared error",
+        "Because MSE is the only differentiable loss function",
+        "They are not equivalent; the connection only holds for linear models"
+      ],
+      "answer": 1,
+      "explanation": "If y = f(x) + e with e ~ N(0, sigma^2), the log-likelihood contains -(y - f(x))^2 / (2 sigma^2) plus terms independent of f. Maximizing it is exactly minimizing the sum of squared residuals. Similarly, a Bernoulli likelihood yields cross-entropy and a Laplace likelihood yields MAE.",
+      "modelAnswer": "Write the model as y equals f of x plus Gaussian noise. The log-density of a Gaussian is a negative quadratic in the residual, so the log-likelihood is minus the sum of squared residuals over twice the variance, plus constants that don't depend on the parameters. Maximizing likelihood is therefore identical to minimizing MSE. The same lens explains the other standard losses: assume Bernoulli outputs and you get cross-entropy, assume Laplace noise and you get mean absolute error, which is also why MAE is the robust choice under heavy tails. And adding a Gaussian prior on the weights turns MAP estimation into L2 regularization."
+    },
+    {
+      "id": "mlf-10",
+      "difficulty": "medium",
+      "question": "What is data leakage and what is the most common way it sneaks in?",
+      "options": [
+        "Training data escaping to production logs; caused by poor access control",
+        "Information unavailable at prediction time influencing training; commonly via preprocessing fit on the full dataset before splitting",
+        "Gradients leaking across mini-batches when shuffling is disabled",
+        "Duplicated rows in the training set"
+      ],
+      "answer": 1,
+      "explanation": "Leakage means the model sees information it won't have at inference, inflating offline scores. Classic causes: fitting a scaler, imputer, or target encoder on all data before splitting; features computed from the future; row duplicates spanning train and test; and IDs correlated with the label. Fix: fit every transform inside the training fold via a pipeline, and split by time or entity.",
+      "modelAnswer": "Leakage is when training sees information that won't exist at prediction time, so offline metrics look great and production collapses. The most common vector is preprocessing fit before splitting: you standardize or target-encode on the full dataset, so test statistics bleed into training. Others are features computed using future information, near-duplicate rows straddling the split, and identifiers that proxy the label. My defenses are wrapping every transform in a pipeline fit only on the training fold, splitting by time for temporal problems and by entity when rows cluster per user, and getting suspicious whenever a single feature's importance looks too good to be true."
+    },
+    {
+      "id": "mlf-11",
+      "difficulty": "medium",
+      "question": "How do bagging and boosting differ in what they reduce?",
+      "options": [
+        "Bagging reduces bias by fitting residuals; boosting reduces variance by averaging",
+        "Bagging reduces variance by averaging decorrelated models; boosting reduces bias by sequentially fitting residual errors",
+        "Both reduce variance; boosting is simply faster",
+        "Bagging works only with trees; boosting works only with linear models"
+      ],
+      "answer": 1,
+      "explanation": "Bagging trains many high-variance models in parallel on bootstrap samples and averages them, cutting variance (random forests add feature subsampling to decorrelate further). Boosting trains weak learners sequentially, each correcting the current ensemble's errors, which mainly cuts bias and can overfit if run too long without shrinkage.",
+      "modelAnswer": "Bagging attacks variance, boosting attacks bias. Bagging fits many high-variance learners independently on bootstrap resamples and averages them, and since the errors are partly decorrelated the average is far more stable. Random forests push that further with per-split feature subsampling. Boosting is sequential: each weak learner fits what the current ensemble still gets wrong, typically the gradient of the loss, so the ensemble bias steadily drops. That means boosting can overfit if you keep going, which is why you control it with learning-rate shrinkage, tree depth, subsampling, and early stopping on a validation fold. In practice gradient boosting is my default for tabular data and it's usually stronger than a random forest, but it needs more tuning."
+    },
+    {
+      "id": "mlf-12",
+      "difficulty": "medium",
+      "question": "What does the ROC curve show, and when is PR-AUC the better summary?",
+      "options": [
+        "ROC plots precision against recall; PR-AUC is better for balanced data",
+        "ROC plots TPR against FPR across thresholds; PR-AUC is better under severe class imbalance",
+        "ROC measures calibration; PR-AUC measures ranking",
+        "They are identical up to a monotone transformation"
+      ],
+      "answer": 1,
+      "explanation": "The ROC curve sweeps the decision threshold and plots true positive rate against false positive rate; AUC is the probability a random positive is ranked above a random negative. Because FPR has a huge negative denominator, ROC-AUC can look excellent when the positive class is rare. Precision-recall curves condition on predicted positives and expose that weakness.",
+      "modelAnswer": "ROC sweeps the threshold and plots true positive rate against false positive rate, and the area under it is the probability a random positive outranks a random negative, so it's a threshold-free measure of ranking quality. The catch is that false positive rate divides by the number of negatives, which is enormous under imbalance, so thousands of false alarms barely move the curve and ROC-AUC stays flatteringly high. Precision-recall conditions on what you predicted positive, so it exposes exactly that. For fraud, rare disease, or moderation I report PR-AUC plus precision and recall at the operating threshold the business will actually deploy."
+    },
+    {
+      "id": "mlf-13",
+      "difficulty": "medium",
+      "question": "What is the curse of dimensionality in practical terms?",
+      "options": [
+        "Training time grows exponentially with the number of features",
+        "As dimensions grow, data becomes sparse and distances concentrate, so neighborhood-based notions of similarity degrade",
+        "High-dimensional models cannot be regularized",
+        "Gradients always vanish above a few hundred dimensions"
+      ],
+      "answer": 1,
+      "explanation": "Volume grows exponentially with dimension, so any fixed sample becomes vanishingly sparse and the ratio between nearest and farthest neighbor distances tends to 1. Distance-based methods (k-NN, kernel density, clustering) lose discriminative power. Remedies: dimensionality reduction, learned embeddings, feature selection, and strong priors.",
+      "modelAnswer": "As dimension grows, the volume of the space explodes, so any realistic sample is vanishingly sparse and every point is roughly equidistant from every other. That concentration of distances is what actually hurts: anything relying on a meaningful neighborhood, like k-NN, kernel density estimation, or clustering, degrades because near and far stop being distinguishable. The practical escape is that real data lies on a much lower-dimensional manifold, so I reduce with PCA or better a learned embedding, do feature selection, and lean on inductive biases like convolution or attention that impose structure instead of treating the input as an unstructured cloud."
+    },
+    {
+      "id": "mlf-14",
+      "difficulty": "medium",
+      "question": "How do you handle severe class imbalance?",
+      "options": [
+        "Always oversample the minority class until classes are equal",
+        "Combine resampling or class weights with threshold tuning and imbalance-aware metrics, validating on the untouched distribution",
+        "Switch to unsupervised learning",
+        "Delete the majority class rows that are hardest to classify"
+      ],
+      "answer": 1,
+      "explanation": "There is no single fix. Options: class-weighted loss, undersampling the majority, oversampling or SMOTE on the minority, focal loss, or treating it as anomaly detection. Critically, resample only the training fold, evaluate on the real distribution, tune the decision threshold for the business cost, and prefer PR-AUC over accuracy.",
+      "modelAnswer": "I start by asking what decision the model drives, because that sets the metric and the threshold. Then the toolkit: class weights in the loss as the cheapest first move, majority undersampling when data is plentiful, minority oversampling or SMOTE when it isn't, focal loss for extreme skew in deep models, or reframing as anomaly detection if positives are truly scarce. Two rules I never break: resample only inside the training fold so validation reflects the real prior, and tune the threshold explicitly against the cost of a miss versus a false alarm rather than defaulting to 0.5. I report PR-AUC and recall at fixed precision, and if I resampled I recalibrate the probabilities afterward since resampling shifts them."
+    },
+    {
+      "id": "mlf-15",
+      "difficulty": "medium",
+      "question": "What does it mean for a classifier to be calibrated, and how do you fix miscalibration?",
+      "options": [
+        "That it achieves high accuracy; fix by training longer",
+        "That predicted probabilities match observed frequencies; fix with Platt scaling, isotonic regression, or temperature scaling on a held-out set",
+        "That its features are standardized; fix by rescaling inputs",
+        "That precision equals recall; fix by moving the threshold"
+      ],
+      "answer": 1,
+      "explanation": "Calibration means that among samples predicted at 0.7, about 70% are actually positive. Measure with reliability diagrams and expected calibration error. Modern deep nets are typically overconfident; temperature scaling (one parameter fit on validation) is the standard cheap fix, with isotonic regression when you have more data and non-monotone distortion.",
+      "modelAnswer": "Calibrated means the probabilities are literally trustworthy: of all the cases scored 0.7, roughly seventy percent should be positive. It matters whenever a downstream system consumes the number rather than the argmax, like expected-value thresholding, triage, or ensembling. I measure it with a reliability diagram and expected calibration error, not accuracy, because a model can rank perfectly and still be badly calibrated. Deep networks are systematically overconfident, so temperature scaling, a single parameter fit on held-out data, usually fixes most of it without touching the ranking. Isotonic regression is more flexible when I have enough validation data, and Platt scaling is the classic choice for SVMs."
+    },
+    {
+      "id": "mlf-16",
+      "difficulty": "medium",
+      "question": "Why does k-means need care, and what are its key assumptions?",
+      "options": [
+        "It assumes roughly spherical, similarly sized clusters and is sensitive to initialization, scaling, and the choice of k",
+        "It is deterministic, so results are always reproducible",
+        "It requires labeled data for the centroid update step",
+        "It finds the global optimum of the within-cluster sum of squares"
+      ],
+      "answer": 0,
+      "explanation": "k-means minimizes within-cluster variance via Lloyd's algorithm, which converges only to a local optimum, so use k-means++ initialization and multiple restarts. The squared-Euclidean objective implicitly assumes isotropic, comparably sized clusters, so it fails on elongated or density-varying structure, where GMMs, DBSCAN, or spectral clustering do better.",
+      "modelAnswer": "k-means minimizes within-cluster squared distance, and that objective quietly assumes clusters are roughly spherical, similar in size, and separated by variance rather than density. Lloyd's algorithm only reaches a local optimum, so I use k-means++ seeding and multiple restarts. Features must be scaled or the largest-range one dominates. And k is mine to pick, so I look at the elbow, silhouette scores, or a gap statistic while remembering the objective decreases monotonically in k, so it can't select k for me. When clusters are elongated, nested, or density-defined, I switch to a Gaussian mixture for soft elliptical clusters, DBSCAN or HDBSCAN for density-based shapes with noise, or spectral clustering for manifold structure."
+    },
+    {
+      "id": "mlf-17",
+      "difficulty": "medium",
+      "question": "What does PCA actually compute, and what does it optimize?",
+      "options": [
+        "The features most correlated with the label, ranked by mutual information",
+        "Orthogonal directions of maximal variance, equivalently the top eigenvectors of the covariance matrix, minimizing squared reconstruction error",
+        "A nonlinear embedding that preserves local neighborhoods",
+        "A rotation that makes all features independent and Gaussian"
+      ],
+      "answer": 1,
+      "explanation": "PCA finds an orthonormal basis ordered by explained variance, computed as the eigenvectors of the covariance matrix or via SVD of the centered data. Projecting onto the top k components is the best rank-k linear approximation in squared error. It is unsupervised and linear, so it can discard low-variance but highly predictive directions, and it only decorrelates rather than making components independent.",
+      "modelAnswer": "PCA finds orthogonal directions of maximum variance, which are the leading eigenvectors of the covariance matrix, and in practice you get them from an SVD of the centered data matrix for numerical stability. Projecting onto the top k is provably the best rank-k linear reconstruction in squared error. Two caveats I keep front of mind: it's unsupervised, so a direction with tiny variance can still be the one that predicts the label, and it's linear, so for curved manifolds I'd reach for UMAP or an autoencoder. It also requires centering and usually standardizing, since otherwise the highest-variance unit dominates, and it decorrelates components without making them statistically independent, which is what ICA is for."
+    },
+    {
+      "id": "mlf-18",
+      "difficulty": "medium",
+      "question": "What is the difference between a generative and a discriminative model?",
+      "options": [
+        "Generative models are always neural networks; discriminative models are always linear",
+        "Generative models model the joint p(x, y) or p(x); discriminative models model p(y | x) directly",
+        "Generative models require more labels than discriminative ones",
+        "Discriminative models can sample new data; generative models cannot"
+      ],
+      "answer": 1,
+      "explanation": "A discriminative model learns the decision boundary p(y|x) directly (logistic regression, most classifiers). A generative model models how data is produced: p(x, y) or p(x), enabling sampling, density estimation, and handling of missing inputs. Discriminative models usually win on pure classification accuracy given ample labels; generative models are more data-efficient in the low-label regime and underpin modern LLMs and diffusion models.",
+      "modelAnswer": "A discriminative model goes straight for the conditional p of y given x, so it spends all capacity on the decision boundary. A generative model models the joint or the input density, so it can sample, score likelihoods, and cope with missing features. Naive Bayes versus logistic regression is the textbook pair, and the classic result is that with lots of labels the discriminative model has lower asymptotic error while the generative one converges faster with few labels. The modern relevance is that generative pretraining, next-token prediction or diffusion, is how we absorb unlabeled data at scale, then we adapt that representation to discriminative tasks."
+    },
+    {
+      "id": "mlf-19",
+      "difficulty": "hard",
+      "question": "Why can a model with more parameters than training points still generalize well?",
+      "options": [
+        "Because the extra parameters are automatically pruned during training",
+        "Because SGD plus architecture imposes an implicit bias toward low-complexity interpolating solutions, producing double descent",
+        "Because test sets are usually easier than training sets",
+        "It cannot; this always indicates a leakage bug"
+      ],
+      "answer": 1,
+      "explanation": "Classical capacity bounds are vacuous for modern nets. Empirically, test error follows a double-descent curve: it peaks near the interpolation threshold, then falls again as capacity grows. The explanation is implicit regularization: gradient descent prefers minimum-norm, flatter interpolating solutions, and architectural priors plus overparameterized smoothness keep effective capacity far below the parameter count.",
+      "modelAnswer": "Parameter count is a poor proxy for effective capacity. In the overparameterized regime the loss landscape contains a huge space of solutions that all interpolate the training data, and SGD doesn't pick one at random, it's implicitly biased toward small-norm, flat, low-complexity solutions. Combine that with architectural priors and you get the double-descent curve: error rises to a peak at the interpolation threshold, where the model is just barely able to fit and is forced into a brittle solution, and then falls again as you add capacity and the optimizer regains room to choose a smooth interpolator. It's also why the label-randomization result matters: the same network can memorize noise, so generalization has to come from the data-plus-optimizer interaction, not from a capacity constraint."
+    },
+    {
+      "id": "mlf-20",
+      "difficulty": "hard",
+      "question": "How do you distinguish covariate shift, label shift, and concept drift?",
+      "options": [
+        "They are three names for the same phenomenon",
+        "Covariate shift changes p(x), label shift changes p(y), concept drift changes p(y | x)",
+        "Covariate shift affects training only; the others affect inference only",
+        "Concept drift changes p(x) while covariate shift changes p(y | x)"
+      ],
+      "answer": 1,
+      "explanation": "Covariate shift: input distribution moves but the mapping holds, so importance weighting can correct it. Label shift: class priors move (e.g. disease prevalence), correctable by prior adjustment or recalibration. Concept drift: the relationship itself changes, so no reweighting saves you and you must retrain on fresh labels. Diagnosis differs: monitor input distributions, prediction distributions, and, when labels arrive, actual error.",
+      "modelAnswer": "Covariate shift means p of x moves while the conditional stays put, so the model is still correct but is being asked about regions it saw rarely, and importance weighting or retraining on reweighted data can help. Label shift means the class priors move, like disease prevalence rising, and since the class-conditionals hold you can correct it analytically by adjusting the prior or recalibrating. Concept drift is the dangerous one: the mapping itself changed, so fraud tactics evolved or user taste moved, and no reweighting of old data recovers it, you need fresh labels and retraining. Operationally I monitor input feature distributions and prediction distributions continuously since those need no labels, then true error once labels land, because that ordering tells me which of the three I'm facing."
+    },
+    {
+      "id": "mlf-21",
+      "difficulty": "hard",
+      "question": "Why is correlation-based feature importance dangerous for causal conclusions?",
+      "options": [
+        "Because importance scores are always numerically unstable",
+        "Because predictive association can arise from confounding, collider bias, or reverse causation, so intervening on the feature may not change the outcome",
+        "Because tree models cannot compute importance for continuous features",
+        "Because causal effects require neural networks to estimate"
+      ],
+      "answer": 1,
+      "explanation": "A feature can be highly predictive purely because it shares a common cause with the target, or because it is a downstream consequence of it. Acting on such a feature changes nothing. Additionally, impurity-based importances are biased toward high-cardinality features, and correlated features split credit arbitrarily. Causal claims need an identification strategy: randomization, instrumental variables, or an explicit DAG with adjustment.",
+      "modelAnswer": "Because prediction and intervention are different questions. A feature can be strongly predictive because it shares a confounder with the target, because it's actually a consequence of the target, or because conditioning on a collider induced the association, and in none of those cases does changing the feature change the outcome. There are mechanical traps too: impurity-based importance is biased toward high-cardinality and continuous features, and with correlated inputs the credit gets split arbitrarily so permutation importance understates both. If someone wants to act on the finding I insist on a causal framing, ideally an experiment, otherwise a stated DAG with a defensible adjustment set, an instrument, or a difference-in-differences design, and I'd use SHAP only to explain the model's behavior, never as evidence about the world."
+    },
+    {
+      "id": "mlf-22",
+      "difficulty": "hard",
+      "question": "What does the no-free-lunch theorem actually imply for practitioners?",
+      "options": [
+        "No algorithm can ever beat random guessing on real data",
+        "Averaged over all possible problems no learner is better than another, so real progress comes from inductive biases matched to the problems we care about",
+        "Ensembles are always better than single models",
+        "Deep learning is theoretically optimal for all tasks"
+      ],
+      "answer": 1,
+      "explanation": "NFL says superiority is impossible uniformly across all conceivable target functions. Real-world problems are a tiny, highly structured subset, so choosing an algorithm whose assumptions match that structure is exactly where the leverage is: convolutions for translation-equivariant images, attention for long-range sequence dependencies, trees for axis-aligned tabular interactions.",
+      "modelAnswer": "It says averaged uniformly over every conceivable target function, all learners tie, so there's no universally best algorithm and no way to justify a model choice without assumptions. The practitioner's takeaway isn't nihilism, it's that the assumptions are the product. Real problems occupy a tiny structured corner of function space, so leverage comes from matching inductive bias to structure: convolutions when the signal is translation-equivariant, attention when dependencies are long-range and content-based, gradient-boosted trees when the structure is axis-aligned interactions in heterogeneous tabular features. It's also why I benchmark empirically on my data rather than trusting a leaderboard from a different domain."
+    },
+    {
+      "id": "mlf-23",
+      "difficulty": "hard",
+      "question": "Your model's offline AUC improved but the online A/B test showed no lift. What are the likely causes?",
+      "options": [
+        "The A/B test must be underpowered; ship the model anyway",
+        "Metric-to-business misalignment, feedback loops, train/serve skew, position bias in logged data, or latency regressions eating the gains",
+        "AUC is never correlated with business metrics",
+        "Offline data is always stale, so offline evaluation is meaningless"
+      ],
+      "answer": 1,
+      "explanation": "Common culprits: the offline metric doesn't move the target KPI; the offline set is biased because it was logged under the old policy, so gains don't transfer (selection/position bias); train/serve feature skew; a latency increase that costs more engagement than the accuracy gains; a guardrail capping impact; or genuinely insufficient statistical power. Diagnose with counterfactual/off-policy evaluation, feature parity checks, and a power analysis before the test.",
+      "modelAnswer": "I'd work through a short list. First, metric alignment: AUC measures ranking, but the KPI might be revenue or retention, and a ranking gain concentrated in the tail may never surface to users. Second, the offline data was logged under the old policy, so position and selection bias mean my replay flatters the new model, which is what off-policy or counterfactual evaluation exists to correct. Third, train-serve skew, meaning features computed differently online than in the training pipeline, which is the single most common silent killer. Fourth, latency: if the new model added a hundred milliseconds, the engagement loss can cancel the relevance win. Fifth, the test itself, so I'd check the power analysis, the randomization unit, and whether network effects or a guardrail throttled exposure. I'd instrument to distinguish these rather than guess, starting with feature parity because it's cheapest to verify."
+    },
+    {
+      "id": "mlf-24",
+      "difficulty": "hard",
+      "question": "When is a simple linear or tree model the right choice over a deep network?",
+      "options": [
+        "Never; deep networks dominate all tabular tasks",
+        "When data is limited, features are tabular and heterogeneous, interpretability or auditability is required, or latency and maintenance budgets are tight",
+        "Only when the team lacks GPUs",
+        "Whenever the target is continuous rather than categorical"
+      ],
+      "answer": 1,
+      "explanation": "Gradient-boosted trees remain state of the art on most tabular problems: they handle mixed types, missing values, monotone constraints, and need little tuning relative to nets. Linear models give auditable coefficients and calibrated behavior for regulated settings. Deep learning wins where representation learning matters: text, images, audio, and very large datasets.",
+      "modelAnswer": "I pick by data modality and constraints, not by prestige. On heterogeneous tabular data, gradient-boosted trees are still the strongest baseline and usually the strongest model, because they handle mixed types, missing values, and axis-aligned interactions natively and need far less tuning. A regularized linear or logistic model wins when I need auditable coefficients, monotonicity guarantees, or a regulator-facing explanation, and it's a superb baseline that reveals whether the problem is hard at all. Deep learning earns its complexity when representation learning is the bottleneck, so text, images, audio, or huge datasets where I can amortize the engineering. I also weigh total cost: a tree model that retrains in five minutes and is debuggable often beats a network that's two points better offline but nobody can maintain."
+    },
+    {
+      "id": "mlf-25",
+      "difficulty": "hard",
+      "question": "How would you detect that a deployed model has silently degraded, before labels arrive?",
+      "options": [
+        "You cannot; degradation is only measurable with ground-truth labels",
+        "Monitor input drift, prediction distribution shift, confidence/entropy trends, and proxy signals, with alerting on statistical distance measures",
+        "Retrain daily regardless of any signal",
+        "Compare against a random baseline continuously"
+      ],
+      "answer": 1,
+      "explanation": "Label-free monitoring: track per-feature distributions (PSI, KL, KS tests) against a training reference; watch the predicted score distribution and mean confidence for shifts; monitor missing-value and out-of-range rates for pipeline breaks; and use proxy or delayed signals plus a small human-labeled audit sample. Combine with shadow deployment of a candidate model for comparison.",
+      "modelAnswer": "Labels usually arrive late or never, so I build a label-free monitoring layer. At the input level I track per-feature distributions against a training reference with PSI or a KS test, plus null rates, cardinality, and out-of-range counts, since most real incidents are broken pipelines rather than genuine drift. At the output level I watch the predicted score distribution, mean confidence, and prediction entropy, because a sudden shift there is a strong early warning. Then I add cheap ground truth on purpose: a small continuously human-labeled audit sample, and any fast proxy signal like a click or a downstream override rate. I also keep a champion-challenger shadow deployment so I have a live comparison. Alerts go on sustained deviation with a sensible window, because per-batch noise will page you at three in the morning for nothing."
+    }
+  ]
+}

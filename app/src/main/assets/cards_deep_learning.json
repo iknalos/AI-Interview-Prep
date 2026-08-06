@@ -1,0 +1,356 @@
+{
+  "topicId": "deep-learning",
+  "topicName": "Deep Learning",
+  "cards": [
+    {
+      "id": "dl-01",
+      "difficulty": "easy",
+      "question": "Why do neural networks need nonlinear activation functions?",
+      "options": [
+        "To keep gradients from exceeding 1.0",
+        "Without them, any stack of linear layers collapses into a single linear transform",
+        "To make the loss function convex",
+        "To normalize activations to zero mean"
+      ],
+      "answer": 1,
+      "explanation": "A composition of affine maps is itself an affine map, so a 50-layer linear network has exactly the representational power of one linear layer. Nonlinearities are what let depth build hierarchical, non-linear decision boundaries.",
+      "modelAnswer": "Because composing affine maps just gives another affine map. Multiply W2 by W1 and you have a single equivalent weight matrix, so a fifty-layer linear network is exactly as expressive as one linear layer, no matter how wide. The nonlinearity is what makes depth buy you anything, letting each layer carve the space so the network can represent hierarchical, non-linear functions."
+    },
+    {
+      "id": "dl-02",
+      "difficulty": "easy",
+      "question": "What problem does ReLU solve compared to sigmoid or tanh in hidden layers?",
+      "options": [
+        "It bounds activations, preventing overflow",
+        "Its gradient is 1 for positive inputs, so it avoids the saturation that shrinks gradients in deep stacks",
+        "It guarantees no dead neurons",
+        "It makes the network probabilistic"
+      ],
+      "answer": 1,
+      "explanation": "Sigmoid and tanh saturate: their derivatives approach zero for large |x|, so multiplying many such terms through backprop makes gradients vanish. ReLU passes gradient unchanged for x>0, enabling much deeper training. Its cost is dead units for persistently negative inputs, which Leaky ReLU, ELU, and GELU mitigate.",
+      "modelAnswer": "Sigmoid and tanh saturate at both tails, where the derivative goes to nearly zero, so in a deep stack backprop multiplies many small numbers and the gradient vanishes before it reaches the early layers. ReLU has derivative exactly one on the positive side, so gradient flows undiminished and you can train genuinely deep networks. The tradeoff is dead units: if a neuron's pre-activation is always negative it gets zero gradient forever, which is why Leaky ReLU, ELU, and GELU exist, and GELU is what transformers actually use because its smoothness helps optimization."
+    },
+    {
+      "id": "dl-03",
+      "difficulty": "easy",
+      "question": "What is backpropagation?",
+      "options": [
+        "A method for randomly perturbing weights and keeping improvements",
+        "Reverse-mode automatic differentiation: the chain rule applied backward through the computation graph to get all parameter gradients in one pass",
+        "An algorithm for propagating data forward through layers",
+        "A technique for updating weights without computing gradients"
+      ],
+      "answer": 1,
+      "explanation": "Backprop is reverse-mode autodiff. A forward pass caches intermediate activations; the backward pass propagates dL/d(output) backward, applying the local Jacobian at each node. Cost is roughly the same order as the forward pass, which is why it beats finite differences (one forward pass per parameter).",
+      "modelAnswer": "Backpropagation is reverse-mode automatic differentiation applied to the network's computation graph. The forward pass computes and caches activations, then the backward pass starts from the loss derivative and walks backward, multiplying by each node's local Jacobian via the chain rule. The key efficiency property is that it gets gradients for all parameters in one backward pass costing about the same as a forward pass, whereas finite differences would need one forward pass per parameter. The cost is memory, since you must retain activations, which is exactly the tradeoff gradient checkpointing manages."
+    },
+    {
+      "id": "dl-04",
+      "difficulty": "easy",
+      "question": "What does dropout do at training and at inference time?",
+      "options": [
+        "Drops units randomly during training; at inference all units are active with activations scaled to match expectations",
+        "Drops units randomly at both training and inference",
+        "Removes the least important weights permanently",
+        "Drops training examples that produce high loss"
+      ],
+      "answer": 0,
+      "explanation": "During training each unit is zeroed with probability p, so no feature can be relied on alone, approximating an ensemble over subnetworks. At inference dropout is disabled and activations are rescaled (in practice via inverted dropout during training) so expected magnitudes match. Forgetting to switch to eval mode is a classic bug.",
+      "modelAnswer": "During training each unit is zeroed independently with probability p, which prevents any single feature from becoming load-bearing and roughly approximates averaging over an exponential family of subnetworks. At inference you turn it off and use the full network, rescaling so the expected activation magnitude matches what the next layer saw during training. Frameworks implement inverted dropout, dividing by one minus p at train time, so inference needs no adjustment. The classic bug is forgetting model.eval, which leaves dropout and batchnorm in training mode and produces noisy, wrong predictions."
+    },
+    {
+      "id": "dl-05",
+      "difficulty": "easy",
+      "question": "What is the role of the learning rate, and what happens if it's too high or too low?",
+      "options": [
+        "It sets batch size; too high overflows memory",
+        "It scales each gradient step: too high diverges or oscillates, too low converges slowly or stalls in poor regions",
+        "It controls how many layers update per step",
+        "It determines the regularization strength"
+      ],
+      "answer": 1,
+      "explanation": "The learning rate is the single most important hyperparameter. Too large and updates overshoot curvature, causing loss spikes or divergence; too small and training is slow and can settle in sharp, poorly generalizing minima. Standard practice: warmup then cosine or step decay, tuned via an LR sweep or range test.",
+      "modelAnswer": "It's the step size multiplying each gradient, and it's the hyperparameter I tune first because it dominates everything else. Too high and updates overshoot the local curvature, so you see loss spikes, oscillation, or outright divergence to NaN. Too low and you waste compute, and you can get stuck in sharp regions that generalize worse. In practice I run a short range test to find the largest stable rate, then use linear warmup, which matters a lot for transformers and Adam because early second-moment estimates are unreliable, followed by cosine decay."
+    },
+    {
+      "id": "dl-06",
+      "difficulty": "easy",
+      "question": "What does batch normalization do?",
+      "options": [
+        "Normalizes the input dataset once before training",
+        "Normalizes each feature across the batch dimension using batch statistics, then applies a learned scale and shift",
+        "Normalizes weights to unit norm every step",
+        "Normalizes gradients to prevent explosion"
+      ],
+      "answer": 1,
+      "explanation": "BatchNorm standardizes each channel using the mini-batch mean and variance, then rescales with learnable gamma and beta. It smooths the loss landscape, permits higher learning rates, and adds mild regularizing noise. It depends on batch statistics, so it degrades at small batch sizes and requires running averages at inference.",
+      "modelAnswer": "BatchNorm standardizes each feature or channel using the mini-batch mean and variance, then applies a learned scale and shift so the layer can undo the normalization if that's optimal. The practical wins are faster convergence, tolerance of higher learning rates, and a little regularizing noise from batch sampling. The catch is the dependence on batch statistics: it degrades with small batches, complicates distributed training since statistics are per-device, and needs running averages at inference, which is a train-versus-eval discrepancy. That's why sequence models use LayerNorm instead, which normalizes across features within a single example and has no batch dependence at all."
+    },
+    {
+      "id": "dl-07",
+      "difficulty": "easy",
+      "question": "What is the difference between an epoch, a batch, and an iteration?",
+      "options": [
+        "An epoch is one gradient update; an iteration is one full pass over the data",
+        "An epoch is one full pass over the training set; a batch is the subset used per update; an iteration is one such update",
+        "They all refer to the same thing at different scales of logging",
+        "A batch is a full pass; an epoch is a single example"
+      ],
+      "answer": 1,
+      "explanation": "Iterations per epoch equals dataset size divided by batch size. Batch size affects gradient noise (smaller = noisier but often better generalization) and hardware utilization. Modern LLM pretraining is often measured in tokens rather than epochs because data is seen roughly once.",
+      "modelAnswer": "A batch is the group of examples used for one gradient update, an iteration or step is that single update, and an epoch is one complete pass over the training set, so iterations per epoch equals dataset size over batch size. Batch size trades gradient noise against hardware efficiency: smaller batches give noisier gradients that often regularize, larger batches use the accelerator better but typically need a scaled learning rate and warmup. In LLM pretraining people report tokens seen rather than epochs, because the corpus is so large that data is visited roughly once."
+    },
+    {
+      "id": "dl-08",
+      "difficulty": "easy",
+      "question": "Why is cross-entropy preferred over MSE for classification?",
+      "options": [
+        "MSE cannot handle more than two classes",
+        "Cross-entropy's gradient doesn't vanish when the model is confidently wrong, and it's the correct likelihood for categorical outputs",
+        "MSE requires one-hot labels while cross-entropy does not",
+        "Cross-entropy is faster to compute"
+      ],
+      "answer": 1,
+      "explanation": "Paired with softmax, cross-entropy yields a gradient of (predicted - target), which stays large when predictions are badly wrong. MSE on a saturated sigmoid/softmax multiplies by the activation derivative, which is near zero exactly when the model is confidently wrong, so learning stalls. Cross-entropy is also the maximum-likelihood loss for a categorical distribution.",
+      "modelAnswer": "Two reasons. Statistically, cross-entropy is the negative log-likelihood of a categorical distribution, so it's the principled loss for class probabilities, whereas MSE implies Gaussian noise on a variable that isn't. Optimizationally, softmax plus cross-entropy gives a beautifully clean gradient of predicted minus target, which stays large precisely when the model is confidently wrong. MSE through a saturated softmax multiplies in the activation derivative, which is near zero in exactly that regime, so a badly wrong model learns very slowly. That's the vanishing-gradient-at-saturation problem cross-entropy sidesteps."
+    },
+    {
+      "id": "dl-09",
+      "difficulty": "medium",
+      "question": "How does Adam differ from plain SGD with momentum?",
+      "options": [
+        "Adam uses a larger fixed learning rate",
+        "Adam keeps per-parameter adaptive step sizes from running first and second gradient moments, with bias correction",
+        "Adam computes exact second derivatives",
+        "Adam removes the need for a learning rate entirely"
+      ],
+      "answer": 1,
+      "explanation": "Momentum accumulates an exponential average of gradients to damp oscillation. Adam adds an exponential average of squared gradients and divides by its square root, giving each parameter its own effective step size, plus bias correction for the initial steps. It converges fast with little tuning; SGD+momentum with a good schedule often generalizes slightly better in vision. AdamW decouples weight decay from the adaptive scaling and is the standard for transformers.",
+      "modelAnswer": "Momentum keeps an exponentially averaged gradient, which damps oscillation across ravines and accelerates along consistent directions. Adam adds a second moment, an exponential average of squared gradients, and divides the update by its square root, so every parameter gets its own effective step size, which is a huge help when gradient scales differ wildly across layers or for sparse features. It also bias-corrects both moments since they start at zero. The cost is two extra states per parameter, so three times the optimizer memory, and the fact that plain Adam's L2 penalty interacts badly with the adaptive denominator, which is why AdamW decouples weight decay and is the default for transformers. Well-tuned SGD with momentum still edges Adam out on some vision benchmarks."
+    },
+    {
+      "id": "dl-10",
+      "difficulty": "medium",
+      "question": "Why do residual connections make very deep networks trainable?",
+      "options": [
+        "They reduce the parameter count",
+        "They create identity paths so gradients flow to early layers without repeated attenuation, and layers need only learn a residual",
+        "They normalize activations across the batch",
+        "They prevent overfitting by ensembling"
+      ],
+      "answer": 1,
+      "explanation": "With y = x + F(x), the Jacobian contains an identity term, so backprop has a direct highway to earlier layers, avoiding the multiplicative shrinkage that kills gradients in deep plain stacks. It also makes the identity function trivially representable, so extra depth can't hurt and optimization starts from a sensible point.",
+      "modelAnswer": "Because y equals x plus F of x makes the layer's Jacobian identity plus the Jacobian of F, so backprop always has an unattenuated path to earlier layers instead of multiplying many small factors and vanishing. Just as importantly, it changes what the layer must learn: the identity mapping is free, so each block only needs to learn a correction, which means adding depth can't make the achievable function class worse and optimization starts from a reasonable point. Empirically it's what took networks from tens to hundreds of layers, and every transformer block is a residual stream with attention and MLP writing into it."
+    },
+    {
+      "id": "dl-11",
+      "difficulty": "medium",
+      "question": "Why is LayerNorm used in transformers instead of BatchNorm?",
+      "options": [
+        "LayerNorm is cheaper to compute on GPUs",
+        "LayerNorm normalizes within each token's feature vector, so it's independent of batch size and sequence padding, and works identically at inference",
+        "BatchNorm cannot handle more than 512 features",
+        "LayerNorm makes attention scores sum to one"
+      ],
+      "answer": 1,
+      "explanation": "BatchNorm's statistics couple examples in a batch, which is problematic for variable-length sequences, padding, small batches, and autoregressive inference where you process one token at a time. LayerNorm normalizes over the feature dimension of each token independently, so behavior is identical at train and test time with no running statistics. RMSNorm simplifies it further by dropping mean centering.",
+      "modelAnswer": "BatchNorm's statistics are computed across the batch, which is a bad fit for sequences: lengths vary so padding pollutes the statistics, batches are often small in memory-heavy models, statistics differ per device in distributed training, and at autoregressive inference you're decoding one token at a time so there's no meaningful batch. LayerNorm normalizes across the feature dimension inside each token independently, so it's batch-size agnostic and behaves identically at train and test with no running averages to maintain. Modern LLMs go further with pre-norm placement for stable deep training and RMSNorm, which drops mean subtraction and just divides by the root mean square, saving compute with no quality loss."
+    },
+    {
+      "id": "dl-12",
+      "difficulty": "medium",
+      "question": "What causes exploding gradients and how do you handle them?",
+      "options": [
+        "Too much regularization; reduce weight decay",
+        "Repeated multiplication by Jacobians with norm > 1, especially in deep or recurrent nets; handle with gradient clipping, careful init, and normalization",
+        "Learning rate too small; increase it",
+        "Using ReLU instead of sigmoid; switch activations"
+      ],
+      "answer": 1,
+      "explanation": "Backprop multiplies Jacobians across layers or timesteps; if their norms exceed 1 the product grows exponentially, producing huge updates and NaNs. Fixes: clip gradients by global norm (typically 1.0), use residual connections and normalization, scale initialization properly, lower the learning rate, and in mixed precision use loss scaling and watch for overflow.",
+      "modelAnswer": "Gradients pass backward through a product of layer Jacobians, and if their norms sit above one the product grows exponentially with depth or sequence length, so you get enormous updates that blow the weights out and produce NaN loss. Recurrent networks are the classic case because the same weight matrix is applied at every timestep. My standard mitigations are clipping by global gradient norm, usually at one, which is essentially free insurance and standard in all LLM training; proper initialization like Kaiming or a residual-scaled scheme so activations neither grow nor shrink through depth; residual connections plus LayerNorm to keep the signal well-conditioned; and lowering the learning rate with warmup. In mixed precision I'd also check the loss scaler, since overflow there looks like exploding gradients but is really a numerics problem."
+    },
+    {
+      "id": "dl-13",
+      "difficulty": "medium",
+      "question": "What inductive bias does a CNN encode that an MLP does not?",
+      "options": [
+        "Permutation invariance over input features",
+        "Locality, translation equivariance, and parameter sharing across spatial positions",
+        "Recurrence over time",
+        "Sparsity of the output layer"
+      ],
+      "answer": 1,
+      "explanation": "Convolutions assume nearby pixels are related (locality), that a useful feature detector is useful anywhere in the image (translation equivariance via weight sharing), and build hierarchy through stacked receptive fields. This slashes parameters and sample complexity versus a fully connected layer. Vision transformers drop these priors and compensate with much more data or distillation.",
+      "modelAnswer": "Three things: locality, since a kernel only looks at a neighborhood, reflecting that nearby pixels are correlated; translation equivariance through weight sharing, so an edge detector learned in one corner applies everywhere; and hierarchical composition, since stacking layers grows the receptive field so early layers capture edges and later ones capture objects. An MLP treats pixels as an unordered vector and would have to learn all of that from data, with vastly more parameters and samples. That's exactly the tradeoff vision transformers make: they discard the convolutional prior for a more general attention mechanism, which is why they underperform CNNs on small datasets but overtake them at large scale where the data can supply the structure."
+    },
+    {
+      "id": "dl-14",
+      "difficulty": "medium",
+      "question": "Why did RNNs give way to transformers for sequence modeling?",
+      "options": [
+        "RNNs cannot represent long sequences at all",
+        "RNNs process sequentially, preventing parallelism over time, and compress history into a fixed state, which limits long-range dependencies",
+        "Transformers use fewer parameters for the same quality",
+        "RNNs require labeled data while transformers do not"
+      ],
+      "answer": 1,
+      "explanation": "An RNN's hidden state must be computed step by step, so training can't parallelize across the sequence, and all past information is squeezed into a fixed-size vector with gradients that decay over many steps. Self-attention gives every position direct access to every other in O(1) path length and parallelizes fully across the sequence, at the cost of O(n^2) compute.",
+      "modelAnswer": "Two structural limits. First, an RNN's state at step t depends on step t minus one, so training is inherently sequential and can't exploit the parallelism modern accelerators are built for, which caps how much data and compute you can throw at it. Second, all history must fit in a fixed-size hidden state, and gradients decay multiplicatively across timesteps, so genuinely long-range dependencies are hard even with LSTM gating. Self-attention makes the path between any two positions length one and parallelizes fully over the sequence during training. The price is quadratic compute and memory in sequence length, which is why linear-attention and state-space models like Mamba are an active attempt to reclaim the RNN's linear scaling without losing trainability."
+    },
+    {
+      "id": "dl-15",
+      "difficulty": "medium",
+      "question": "Why does weight initialization matter, and what does Xavier/He initialization achieve?",
+      "options": [
+        "It determines the final minimum reached, since training is convex",
+        "It sets the scale so activation and gradient variance stay roughly constant across layers, preventing vanishing or exploding signal",
+        "It ensures all weights start identical for stable training",
+        "It removes the need for normalization layers"
+      ],
+      "answer": 1,
+      "explanation": "If weights are too small, activations shrink layer by layer and gradients vanish; too large and they explode. Xavier scales variance by 1/fan_in (or 2/(fan_in+fan_out)) for symmetric activations like tanh; He uses 2/fan_in to compensate for ReLU zeroing half the inputs. Also note weights must be random, not constant, or all units in a layer compute identical gradients and never differentiate.",
+      "modelAnswer": "Initialization sets the scale of signal propagation. Too small and activations shrink multiplicatively through depth so gradients vanish; too large and they blow up. Xavier picks variance around one over fan-in so the variance of activations is preserved for symmetric activations like tanh, and He uses two over fan-in for ReLU because ReLU zeroes roughly half its inputs and you need the factor of two to compensate. Separately, weights must be random rather than a constant, otherwise every unit in a layer receives an identical gradient and they never break symmetry. In very deep transformers people also scale residual-branch initialization down by depth so the residual stream doesn't accumulate variance across dozens of blocks."
+    },
+    {
+      "id": "dl-16",
+      "difficulty": "medium",
+      "question": "What is transfer learning, and when do you freeze versus fine-tune the backbone?",
+      "options": [
+        "Copying a dataset between tasks; freeze when the datasets differ",
+        "Reusing pretrained representations; freeze the backbone when target data is small or similar to pretraining, fine-tune when you have enough data or a domain gap",
+        "Training two models simultaneously and averaging weights",
+        "Transferring gradients between GPUs during distributed training"
+      ],
+      "answer": 1,
+      "explanation": "Pretrained features encode general structure, so you need far fewer labels. With very little data, freeze the backbone and train only a head (linear probing) to avoid overfitting and catastrophic forgetting. With more data or a large domain shift, unfreeze and fine-tune with a low learning rate, often with gradual unfreezing or layer-wise LR decay so early general features change less than late task-specific ones.",
+      "modelAnswer": "Transfer learning reuses representations learned on a large source task so the target task needs far fewer labels. The freeze-versus-fine-tune call comes down to target data volume and domain distance. With a few hundred examples I freeze the backbone and train just a head, essentially linear probing, because full fine-tuning would overfit and destroy the pretrained features. With more data or a real domain gap, medical images versus natural photos, I unfreeze and fine-tune at a much lower learning rate than pretraining used, often with layer-wise learning rate decay or gradual unfreezing so the general early features move less than the task-specific later ones. I always start with the frozen baseline because it's cheap and tells me how much headroom fine-tuning is actually buying."
+    },
+    {
+      "id": "dl-17",
+      "difficulty": "medium",
+      "question": "How does mixed-precision training work and why does it need loss scaling?",
+      "options": [
+        "It alternates between float32 and int8 layers; scaling prevents quantization error",
+        "Compute runs in fp16/bf16 with a master fp32 copy of weights; fp16 gradients underflow to zero, so the loss is scaled up before backprop and unscaled before the update",
+        "It trains half the layers at a time to save memory",
+        "It uses fp64 for stability in the optimizer only"
+      ],
+      "answer": 1,
+      "explanation": "Half precision halves memory and unlocks tensor cores, but fp16 has a narrow dynamic range and small gradients flush to zero. Multiplying the loss by a large factor shifts gradients into representable range; the optimizer unscales before updating fp32 master weights. bf16 has fp32's exponent range, so it usually needs no loss scaling, which is why it dominates LLM training.",
+      "modelAnswer": "You do the heavy matmuls in half precision to halve memory traffic and hit tensor cores, while keeping a master copy of weights and the optimizer state in fp32 so small updates don't get lost to rounding. The problem with fp16 specifically is its narrow exponent range: typical gradient magnitudes fall below the smallest representable normal value and flush to zero, so learning silently stops. Loss scaling multiplies the loss by a large constant before backprop, shifting the whole gradient distribution into representable range, then the optimizer divides it back out before applying the update, with dynamic scalers backing off when they detect an overflow. bf16 keeps fp32's exponent range at the cost of mantissa bits, so it generally needs no loss scaling, and that robustness is why bf16 is the default for large model training on modern hardware."
+    },
+    {
+      "id": "dl-18",
+      "difficulty": "hard",
+      "question": "What is catastrophic forgetting and how is it mitigated?",
+      "options": [
+        "The optimizer forgetting its momentum state after a checkpoint reload; fix by saving optimizer state",
+        "A model losing earlier capabilities when trained on new data; mitigated by replaying old data, regularizing toward old weights, or isolating new parameters",
+        "Loss of precision in fp16 accumulation; fix with loss scaling",
+        "The learning rate scheduler resetting mid-training"
+      ],
+      "answer": 1,
+      "explanation": "Sequential training overwrites weights encoding earlier tasks because nothing anchors them. Mitigations: rehearsal (mix in original data), regularization such as EWC penalizing movement in parameters important to old tasks, parameter isolation via adapters or LoRA so base weights stay frozen, and lower learning rates with fewer epochs. In LLM fine-tuning, mixing in general instruction data is the standard practical defense.",
+      "modelAnswer": "Catastrophic forgetting is when fine-tuning on a new distribution degrades capabilities the model previously had, because gradient descent has no reason to preserve weights that encoded old behavior. In LLM practice you see it as a model fine-tuned on a narrow domain losing general reasoning or instruction-following. Three families of fix. Rehearsal is the most reliable: mix a slice of the original or general instruction data into the fine-tuning set, often ten to thirty percent. Regularization anchors you to the old solution, either an explicit penalty like elastic weight consolidation weighted by Fisher information, or just a low learning rate and few epochs, which is the poor man's version. Parameter isolation avoids the problem structurally: LoRA or adapters keep base weights frozen and put new capability in a small trainable module you can also detach, which is why it's my default when I need to preserve the base model."
+    },
+    {
+      "id": "dl-19",
+      "difficulty": "hard",
+      "question": "Your training loss decreases but validation loss rises after epoch 3. What do you do?",
+      "options": [
+        "Increase model capacity so it fits the validation set too",
+        "Recognize overfitting: early-stop, add regularization or augmentation, get more data, or reduce capacity, after first ruling out a leaky or mismatched validation split",
+        "Switch the loss function to MSE",
+        "Lower the batch size until validation loss falls"
+      ],
+      "answer": 1,
+      "explanation": "Diverging curves are textbook overfitting: fix with early stopping on validation, stronger weight decay or dropout, data augmentation, more data, or a smaller model. But first sanity-check the split for duplicates and distribution mismatch, and confirm the validation transform matches inference. If both losses are high instead, that's underfitting and calls for the opposite response.",
+      "modelAnswer": "Diverging curves after a few epochs is textbook overfitting, so my response is early stopping with a checkpoint on best validation, then more regularization: weight decay, dropout, and especially data augmentation since that attacks the root cause rather than the symptom. If I can get more data or use a pretrained backbone, that beats all of it. Before I accept that diagnosis though, I'd validate the setup, because two bugs mimic it: a validation split that's distributionally different or too small to be stable, and a train-versus-eval transform mismatch. I'd also check the gap size in context, since a small persistent gap with still-improving validation loss is fine and not something to fix."
+    },
+    {
+      "id": "dl-20",
+      "difficulty": "hard",
+      "question": "How do data, tensor, and pipeline parallelism differ?",
+      "options": [
+        "They are vendor-specific names for the same sharding strategy",
+        "Data parallelism replicates the model over data shards; tensor parallelism splits individual layer matrices across devices; pipeline parallelism assigns different layers to different devices",
+        "Data parallelism splits layers; pipeline parallelism splits batches",
+        "Only data parallelism works across multiple nodes"
+      ],
+      "answer": 1,
+      "explanation": "Data parallel: every device holds full weights, processes a different batch shard, and gradients are all-reduced; simple but memory-bound by model size. Tensor (model) parallel: a single matmul is split across devices, requiring high-bandwidth communication every layer, so it stays within a node. Pipeline parallel: consecutive layer groups live on different devices with micro-batches to reduce idle bubbles. Large runs combine all three (3D parallelism) plus ZeRO/FSDP sharding of optimizer state.",
+      "modelAnswer": "Data parallelism replicates the whole model on every device, gives each a different slice of the batch, and all-reduces gradients. It's simple and scales well, but every device must hold the full weights plus optimizer state, so it hits a memory wall. Tensor parallelism splits individual weight matrices across devices, so one matmul becomes partial products plus a collective. That communicates every single layer, so it needs NVLink-class bandwidth and normally stays inside a node. Pipeline parallelism puts different layer groups on different devices and streams micro-batches through, which communicates only activations at boundaries but introduces bubble overhead at the start and end of each batch. Frontier runs combine all three as 3D parallelism, and layer on ZeRO or FSDP to shard optimizer state, gradients, and parameters, which is really data parallelism with the memory redundancy removed."
+    },
+    {
+      "id": "dl-21",
+      "difficulty": "hard",
+      "question": "What does gradient checkpointing trade, and when is it worth using?",
+      "options": [
+        "Trades accuracy for speed by skipping some gradient computations",
+        "Trades extra compute for much lower activation memory by recomputing activations during the backward pass instead of storing them all",
+        "Trades disk space for memory by paging activations to SSD",
+        "Trades precision for memory by storing activations in int8"
+      ],
+      "answer": 1,
+      "explanation": "Normally every activation is kept for the backward pass, and activation memory grows with depth, batch size, and sequence length. Checkpointing keeps only a subset and recomputes the rest on demand, typically cutting activation memory from O(n) to about O(sqrt(n)) for roughly 30% more compute. It's the standard lever when you're memory-bound and want a larger batch or longer context, and it's mathematically exact.",
+      "modelAnswer": "It trades compute for memory, and crucially it's exact, not an approximation. Normally backprop stores every intermediate activation, and activation memory scales with depth times batch size times sequence length, which is what actually caps context length and batch size in large models. Checkpointing keeps only activations at chosen boundaries and recomputes the intervening forward passes during the backward pass, dropping activation memory to roughly the square root of layer count for about thirty percent extra time. I reach for it whenever I'm memory-bound rather than compute-bound, for example to fit longer context or a batch size large enough to be stable. It composes with FlashAttention, which independently avoids materializing the attention matrix, and with FSDP, and in practice you tune which layers to checkpoint rather than checkpointing everything."
+    },
+    {
+      "id": "dl-22",
+      "difficulty": "hard",
+      "question": "Why does a larger batch size often require a scaled learning rate and warmup?",
+      "options": [
+        "Because larger batches take longer per step, so the model needs bigger updates to compensate",
+        "Larger batches give lower-variance gradients supporting bigger steps (linear or sqrt scaling), but the initially large steps are unstable, so warmup ramps the rate up",
+        "Because weight decay must grow with batch size",
+        "Because BatchNorm statistics become unstable at large batch sizes"
+      ],
+      "answer": 1,
+      "explanation": "Gradient noise scales roughly as 1/sqrt(batch), so a bigger batch is a more trustworthy direction and permits a larger step; the linear scaling rule multiplies LR by the batch factor (sqrt scaling suits Adam better). But taking large steps from a random initialization diverges, so a linear warmup over a few hundred to few thousand steps is used. Beyond a critical batch size the returns vanish and you're wasting compute.",
+      "modelAnswer": "Gradient noise falls roughly with the square root of batch size, so a larger batch is a more reliable estimate of the true gradient and you can safely take a bigger step. That's the linear scaling rule from the large-batch ImageNet work, though for Adam square-root scaling tends to fit better because the adaptive denominator already absorbs some scale. Warmup is needed because a large step from a random initialization is exactly where the loss surface is worst-conditioned, and with Adam the second-moment estimate is also unreliable in the first few hundred steps, so an aggressive rate diverges. Ramping linearly for a few hundred to a few thousand steps fixes it. The other thing I'd mention is the critical batch size: past a point, doubling the batch stops buying you a proportional reduction in steps, so you're burning compute for nothing, and that's a measurable property of the task worth checking before scaling out."
+    },
+    {
+      "id": "dl-23",
+      "difficulty": "hard",
+      "question": "Why can knowledge distillation produce a student that beats training the same architecture from scratch?",
+      "options": [
+        "The student inherits the teacher's weights directly",
+        "Soft teacher probabilities carry relative similarity information across classes, a richer, lower-variance signal than one-hot labels",
+        "Distillation increases the effective dataset size by duplication",
+        "The student uses a larger learning rate"
+      ],
+      "answer": 1,
+      "explanation": "One-hot labels say only which class is right. A teacher's softened distribution (raised temperature) reveals that a given image looks somewhat like a similar class, encoding learned structure about the problem, often called dark knowledge. This acts as a regularizer and a variance-reduced target, so the small student generalizes better than one-hot training allows. It also lets you distill an ensemble or a much larger model into deployable size.",
+      "modelAnswer": "Because the teacher's output distribution is a far richer target than a one-hot label. One-hot says only which class is correct, whereas softened teacher logits say this image is mostly a husky but somewhat a malamute and not at all a truck, which encodes learned similarity structure over the label space, what Hinton called dark knowledge. That's a lower-variance, more informative gradient signal per example, and it acts as a regularizer, so a small student trained on it can generalize better than the same architecture trained on hard labels. Practically I'd use a temperature above one to sharpen that signal, mix distillation loss with the true-label loss, and note this is the main route to shipping large-model quality in a latency budget, which in the LLM world shows up as training a small model on a frontier model's outputs or full distributions."
+    },
+    {
+      "id": "dl-24",
+      "difficulty": "hard",
+      "question": "Your deep model's loss suddenly becomes NaN mid-training. How do you debug it?",
+      "options": [
+        "Restart training with a different random seed and hope it passes",
+        "Bisect the cause: check for bad input data, division by zero or log(0), fp16 overflow, exploding gradients, and too-high learning rate, using anomaly detection and gradient-norm logging",
+        "Switch optimizers from Adam to SGD",
+        "Reduce the number of layers until it stops"
+      ],
+      "answer": 1,
+      "explanation": "Work from cheapest to most expensive: validate inputs and targets for NaN/inf or corrupt rows; look for numerically unsafe ops (log of zero, division, sqrt at zero, unstable softmax or custom loss); check gradient norms just before the blowup to distinguish explosion from a numerics bug; in fp16, inspect the loss scaler for repeated overflow; and lower the learning rate or add clipping. Framework anomaly-detection modes pinpoint the offending op.",
+      "modelAnswer": "I'd bisect rather than guess, starting with the cheapest checks. First the data, since a single corrupt row with an inf or a NaN target will poison everything, and I'd confirm whether the failure is reproducible at the same step, which points to data rather than numerics. Second, numerically unsafe operations: log of zero in a custom loss, division without an epsilon, sqrt at zero, or a hand-rolled softmax without the max-subtraction trick. Third, I'd look at the logged gradient-norm history just before the blowup, because a norm spiking over several steps means exploding gradients, calling for clipping and a lower learning rate, whereas an instant jump from normal to NaN means a bad op or bad input. In mixed precision I'd check whether the loss scaler is repeatedly overflowing and whether moving to bf16 fixes it. Tooling-wise, torch.autograd.set_detect_anomaly pinpoints the offending backward op, and going forward I'd keep gradient-norm logging and periodic checkpoints so I can resume rather than restart."
+    },
+    {
+      "id": "dl-25",
+      "difficulty": "hard",
+      "question": "What does the lottery ticket hypothesis claim, and why does it matter?",
+      "options": [
+        "Random seeds determine final accuracy, so you should train many and pick the best",
+        "A dense network contains a sparse subnetwork that, trained from the original initialization, matches full performance, suggesting overparameterization mainly aids optimization",
+        "Pruning always improves accuracy by removing noise",
+        "Only the final layer's weights matter for generalization"
+      ],
+      "answer": 1,
+      "explanation": "Frankle and Carbin showed that iterative magnitude pruning can find sparse 'winning tickets' that reach full accuracy when rewound to their original init, but fail if reinitialized randomly, so both the structure and the specific initialization matter. It reframes overparameterization as providing many candidate subnetworks for SGD to find, and motivates pruning research, though finding tickets cheaply without first training dense remains largely unsolved.",
+      "modelAnswer": "Frankle and Carbin's claim is that a randomly initialized dense network already contains a sparse subnetwork, a winning ticket, that can be trained in isolation to match the full network's accuracy in comparable time, provided you rewind its weights to their original initialization. The striking control is that randomly reinitializing the same sparse structure fails, so it's not just the architecture, it's the pairing of structure and initialization. Conceptually it reframes overparameterization: the extra width may be less about representational capacity and more about giving SGD a large pool of candidate subnetworks to discover. Practically its impact is more limited than it sounds, because finding the ticket requires iterative magnitude pruning that trains the dense network first, so it doesn't yet give cheap training, and results are less clean at large scale. It remains the intellectual backdrop for structured pruning and sparsity work in efficient inference."
+    }
+  ]
+}

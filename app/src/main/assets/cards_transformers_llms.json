@@ -1,0 +1,356 @@
+{
+  "topicId": "transformers-llms",
+  "topicName": "Transformers & LLMs",
+  "cards": [
+    {
+      "id": "llm-01",
+      "difficulty": "easy",
+      "question": "In self-attention, what roles do query, key, and value play?",
+      "options": [
+        "Query is the input, key is the weight matrix, value is the output",
+        "Query asks what a token is looking for, keys advertise what each token offers, and the resulting weights average the values",
+        "Query and key are learned; value is the raw token embedding",
+        "They are three copies of the input used for redundancy"
+      ],
+      "answer": 1,
+      "explanation": "Each token projects into a query, a key, and a value. The dot product of a query with every key measures relevance; softmax turns those scores into weights; the output is that weighted sum of values. Think of it as soft dictionary lookup: keys are the index, values are the content, and the query is the lookup term.",
+      "modelAnswer": "It's a soft, differentiable dictionary lookup. Every token is projected into three vectors: the query represents what this position is looking for, the key advertises what the position has to offer as a match target, and the value is the actual content that gets retrieved. You dot each query against all keys to get relevance scores, softmax them into weights, and output the weighted sum of values. Separating key from value matters because what makes a token a good match isn't necessarily what you want to read from it."
+    },
+    {
+      "id": "llm-02",
+      "difficulty": "easy",
+      "question": "Why is attention scaled by 1/sqrt(d_k) before the softmax?",
+      "options": [
+        "To normalize the output to unit norm",
+        "Because dot products of high-dimensional vectors have variance proportional to d_k, and large magnitudes saturate softmax into near-one-hot with vanishing gradients",
+        "To make attention weights sum to one",
+        "To compensate for the number of attention heads"
+      ],
+      "answer": 1,
+      "explanation": "For components with unit variance, a d_k-dimensional dot product has variance d_k, so raw scores grow with dimension. Feeding large logits into softmax pushes it toward a hard argmax where gradients nearly vanish. Dividing by sqrt(d_k) restores unit-scale logits so training stays stable.",
+      "modelAnswer": "If query and key components are roughly unit variance and independent, their dot product over d_k dimensions has variance d_k, so scores grow like the square root of the head dimension. Feed large logits into softmax and it saturates toward a one-hot distribution, where the Jacobian is nearly zero, so gradients vanish and training stalls early. Dividing by the square root of d_k puts the logits back at unit scale independent of dimension, which keeps softmax in its responsive regime. Softmax already handles the normalization to sum to one, so that's not what the scaling is for."
+    },
+    {
+      "id": "llm-03",
+      "difficulty": "easy",
+      "question": "What is the purpose of multiple attention heads?",
+      "options": [
+        "To process multiple sequences in parallel for throughput",
+        "To let the model attend to different relationship types in different learned subspaces simultaneously",
+        "To provide redundancy in case one head fails to converge",
+        "To increase the context window proportionally to head count"
+      ],
+      "answer": 1,
+      "explanation": "A single softmax attention produces one averaging pattern, which is a bottleneck. Splitting the model dimension into h heads lets each learn its own projections, so one may track syntactic dependencies, another coreference, another positional locality. Outputs are concatenated and mixed by an output projection. Total compute is about the same since each head has dimension d_model/h.",
+      "modelAnswer": "One attention operation can only produce a single weighted average per position, which is a real representational bottleneck when a token relates to different other tokens for different reasons. Splitting the model dimension into h heads, each with its own query, key, and value projections, lets them specialize in parallel: interpretability work finds heads that track syntactic dependencies, heads that resolve coreference, heads that just attend to the previous token, and induction heads that implement copy patterns. The results are concatenated and mixed by an output projection. Since each head uses d_model over h dimensions, the total cost is roughly the same as one full-width head, so you get the diversity nearly free."
+    },
+    {
+      "id": "llm-04",
+      "difficulty": "easy",
+      "question": "What does causal masking do in a decoder-only transformer?",
+      "options": [
+        "Hides padding tokens so they don't affect the loss",
+        "Prevents each position from attending to future positions, so next-token prediction can't cheat",
+        "Masks random tokens for the model to reconstruct",
+        "Blocks gradient flow through earlier layers"
+      ],
+      "answer": 1,
+      "explanation": "Setting the upper-triangular part of the score matrix to negative infinity before softmax makes future positions receive zero weight. This is what lets a single forward pass train on every position simultaneously while keeping each prediction dependent only on prior context, matching how the model will generate at inference.",
+      "modelAnswer": "It enforces autoregressive causality: before the softmax you set all scores for future positions to negative infinity, so they get zero weight. The reason it matters so much is efficiency. Because every position is masked independently, one forward pass over a sequence of length n gives you n training examples simultaneously, each predicting the next token from only its prefix, without any position being able to see the answer. That's different from padding masks, which hide meaningless positions, and from the masked-language-model objective in BERT, which corrupts random tokens and reconstructs them bidirectionally."
+    },
+    {
+      "id": "llm-05",
+      "difficulty": "easy",
+      "question": "Why do transformers need positional information injected explicitly?",
+      "options": [
+        "Because embeddings are too low-dimensional to encode order",
+        "Because self-attention is permutation-equivariant, so without it the model sees a bag of tokens",
+        "Because softmax discards ordering information",
+        "Because the feed-forward layer shuffles token order"
+      ],
+      "answer": 1,
+      "explanation": "Attention computes weighted sums over a set: permute the inputs and the outputs permute identically, with no notion of which token came first. Since language depends on order, position must be supplied, whether by sinusoidal encodings, learned embeddings, or rotary/relative schemes applied inside attention.",
+      "modelAnswer": "Self-attention is permutation-equivariant. It computes a weighted sum over a set of vectors, so if you shuffle the input tokens the outputs shuffle identically and the underlying function is unchanged, meaning the model literally sees a bag of tokens. Since word order carries meaning, position has to be injected. The original paper added fixed sinusoidal encodings to the input embeddings, GPT-2 used learned absolute embeddings, and modern models mostly use rotary embeddings, which rotate queries and keys by a position-dependent angle inside every attention layer so the dot product depends only on relative offset. That relative property is what gives better length generalization."
+    },
+    {
+      "id": "llm-06",
+      "difficulty": "easy",
+      "question": "What does the temperature parameter do during sampling?",
+      "options": [
+        "Controls how many tokens are generated before stopping",
+        "Divides the logits before softmax: lower values sharpen toward greedy, higher values flatten toward uniform",
+        "Sets the number of beams in beam search",
+        "Determines how much of the context window is used"
+      ],
+      "answer": 1,
+      "explanation": "Logits are divided by T before softmax. As T approaches 0 the distribution collapses onto the argmax (deterministic, repetitive), and as T grows the distribution flattens (diverse but incoherent). Roughly 0 for extraction and code, 0.7-1.0 for open-ended writing. It's usually combined with top-p or top-k truncation to remove the unreliable tail.",
+      "modelAnswer": "Temperature divides the logits before the softmax, so it rescales how peaked the next-token distribution is. Near zero it collapses to greedy decoding, which is deterministic and best for extraction, classification, or code where there's one right answer, but it tends toward repetition. Above one it flattens the distribution, which increases diversity but starts admitting genuinely bad tokens from the tail. In practice I set it low for anything factual or structured and around 0.7 to 1.0 for creative generation, and I pair it with top-p so that even at higher temperature the unreliable tail is truncated rather than sampled."
+    },
+    {
+      "id": "llm-07",
+      "difficulty": "easy",
+      "question": "What is the difference between top-k and top-p (nucleus) sampling?",
+      "options": [
+        "Top-k truncates to a fixed number of candidates; top-p truncates to the smallest set whose cumulative probability exceeds p",
+        "Top-k is deterministic; top-p is stochastic",
+        "Top-p ranks by logit value; top-k ranks by probability",
+        "They are equivalent when k equals p times vocabulary size"
+      ],
+      "answer": 0,
+      "explanation": "Top-k always keeps exactly k tokens, which is too many when the model is confident and too few when it's genuinely uncertain. Top-p adapts: it keeps however many tokens are needed to cover probability mass p, so the candidate set shrinks at confident positions and widens at ambiguous ones. That adaptivity is why top-p is usually preferred.",
+      "modelAnswer": "Both truncate the tail before sampling, but with different rules. Top-k keeps a fixed number of highest-probability tokens regardless of the shape of the distribution, which is the weakness: when the model is highly confident, k equals fifty admits forty-nine bad options, and when it's genuinely torn between many valid continuations, k equals fifty may cut off good ones. Top-p, or nucleus sampling, keeps the smallest set of tokens whose cumulative probability exceeds p, so the candidate pool automatically narrows where the model is certain and widens where it isn't. That adaptivity is why top-p around 0.9 to 0.95 is the more common default, and min-p is a newer variant that thresholds relative to the top token's probability."
+    },
+    {
+      "id": "llm-08",
+      "difficulty": "easy",
+      "question": "What is tokenization, and why is subword tokenization the standard?",
+      "options": [
+        "Splitting on whitespace; subwords are used to save disk space",
+        "Mapping text to integer IDs; subwords balance a manageable vocabulary against never producing out-of-vocabulary text",
+        "Encoding tokens as one-hot vectors to feed the embedding layer",
+        "Compressing text so more fits in the context window, with no modeling effect"
+      ],
+      "answer": 1,
+      "explanation": "Word-level vocabularies explode in size and still hit unknown words; character-level avoids that but makes sequences very long and forces the model to relearn spelling. Subword methods like BPE, WordPiece, and SentencePiece/Unigram learn frequent fragments so common words are single tokens and rare words decompose into pieces, giving full coverage with a fixed vocabulary of roughly 32k-256k.",
+      "modelAnswer": "Tokenization maps raw text to the integer IDs the model actually consumes. Word-level vocabularies are unbounded, since you can always coin a new word, and any unseen word becomes an unknown token, which is a hard information loss. Character-level has perfect coverage but makes sequences several times longer, wasting the quadratic attention budget and forcing the model to spend capacity learning spelling. Subword tokenization is the compromise: BPE greedily merges frequent character pairs, so common words become one token and rare or novel words decompose into pieces, giving open-vocabulary coverage from a fixed table of typically thirty-two thousand to a couple hundred thousand entries. The practical consequences are worth knowing: token counts drive cost and latency, non-English and code tokenize less efficiently, and character-level tasks like counting letters or reversing strings are hard precisely because the model never sees characters."
+    },
+    {
+      "id": "llm-09",
+      "difficulty": "medium",
+      "question": "Why is self-attention O(n^2) in sequence length, and what reduces it?",
+      "options": [
+        "Because each layer runs n times; caching fixes it",
+        "Because every token computes a score against every other token, producing an n-by-n matrix; FlashAttention cuts memory, and sparse/linear attention cuts compute",
+        "Because the feed-forward layer scales quadratically with n",
+        "Because positional encodings must be recomputed for each pair"
+      ],
+      "answer": 1,
+      "explanation": "The score matrix QK^T has n^2 entries, so both compute and naive memory scale quadratically. FlashAttention keeps the exact result but tiles the computation in SRAM so the full matrix is never materialized, making it memory-linear and much faster. Approximate approaches change the math: sliding-window or block-sparse attention, low-rank/linear attention like Performer, and state-space models like Mamba that scale linearly.",
+      "modelAnswer": "Every query dots against every key, so you form an n by n score matrix, and both the compute and the naive memory footprint scale quadratically in sequence length. That's what makes long context expensive. The most important fix in practice is FlashAttention, which is exact, not an approximation: it tiles the computation and fuses softmax so the full n-by-n matrix is never written to high-bandwidth memory, turning attention from memory-bandwidth-bound to compute-bound and making memory linear. Beyond that, you can change the math: sliding-window or block-sparse attention restricts which pairs are computed, linear attention replaces softmax with a kernel factorization so you can reorder the matmuls to O(n), and state-space models like Mamba drop attention for a recurrence that's linear in length. And at inference specifically, the KV cache means each new token only attends over the cache, so per-token decoding cost is linear rather than quadratic."
+    },
+    {
+      "id": "llm-10",
+      "difficulty": "medium",
+      "question": "What is the KV cache and why is it essential for inference?",
+      "options": [
+        "A cache of prompts and completions to avoid recomputing identical requests",
+        "Stored key and value tensors for all previous tokens, so each new token avoids recomputing attention over the whole prefix",
+        "A cache of model weights in GPU memory",
+        "A lookup table mapping tokens to embeddings"
+      ],
+      "answer": 1,
+      "explanation": "Without caching, generating token t would recompute keys and values for all t-1 prior tokens, making generation quadratic overall. Caching them makes each decode step cost O(t) attention instead of O(t^2) total recomputation. The tradeoff is memory: cache size is 2 * layers * heads * head_dim * seq_len * batch * bytes, which becomes the dominant memory cost at long context and drives MQA/GQA, paged attention, and quantized caches.",
+      "modelAnswer": "During autoregressive decoding, the keys and values for tokens already in the context never change, since causal masking means they don't depend on anything that comes later. So you compute them once and cache them, and each new token only projects its own query, key, and value and attends over the cache. Without it, every generated token would recompute the entire prefix and generation would be quadratic overall instead of linear. The tradeoff is memory: cache size grows as two times layers times KV heads times head dimension times sequence length times batch size, and at long context it dwarfs the weights. That single fact drives a lot of modern inference design: multi-query and grouped-query attention share KV heads to shrink it, PagedAttention in vLLM manages it in non-contiguous blocks to eliminate fragmentation and enable prefix sharing, and people quantize the cache to int8 or fp8. It's also why prefill and decode have completely different performance profiles, prefill being compute-bound and decode memory-bandwidth-bound."
+    },
+    {
+      "id": "llm-11",
+      "difficulty": "medium",
+      "question": "How do multi-query (MQA) and grouped-query attention (GQA) help?",
+      "options": [
+        "They add more query heads to increase model capacity",
+        "They share key/value heads across multiple query heads, shrinking the KV cache and its memory bandwidth cost",
+        "They allow multiple queries to be batched into one request",
+        "They replace softmax attention with a linear approximation"
+      ],
+      "answer": 1,
+      "explanation": "In standard multi-head attention every head has its own K and V, so the cache scales with head count. MQA uses a single shared KV head for all query heads, cutting cache size dramatically but costing some quality. GQA is the middle ground, grouping query heads to share a smaller number of KV heads, capturing most of the memory win with negligible quality loss, which is why Llama-2 70B onward and most modern models use it.",
+      "modelAnswer": "Decode is memory-bandwidth-bound, and the KV cache is the thing being streamed, so shrinking it directly increases throughput and the batch size you can serve. Standard multi-head attention gives every query head its own key and value projections, so the cache scales with the full head count. Multi-query attention goes to the extreme of one shared KV head for all query heads, which can cut the cache by an order of magnitude but loses some quality and can be unstable to train. Grouped-query attention is the pragmatic middle: you group query heads so, say, eight groups share eight KV heads instead of sixty-four, capturing nearly all of the memory and bandwidth win for almost no quality loss. That's why GQA is standard in modern open models, and it's usually introduced at pretraining time, though there's work on uptraining an existing MHA model into GQA cheaply."
+    },
+    {
+      "id": "llm-12",
+      "difficulty": "medium",
+      "question": "What are rotary position embeddings (RoPE) and why are they preferred?",
+      "options": [
+        "Learned position vectors added to the input embeddings",
+        "A rotation applied to queries and keys by a position-dependent angle, making attention scores depend on relative offset",
+        "A method of rotating attention heads between layers to share parameters",
+        "Sinusoidal encodings concatenated to the value vectors"
+      ],
+      "answer": 1,
+      "explanation": "RoPE rotates pairs of dimensions in Q and K by an angle proportional to absolute position. Because the dot product of two rotated vectors depends only on the angle difference, attention becomes a function of relative distance while being implemented with absolute positions. It's applied at every layer inside attention, decays gracefully with distance, and can be extended to longer contexts by interpolating or rescaling the base frequency (NTK scaling, YaRN).",
+      "modelAnswer": "RoPE encodes position by rotating pairs of dimensions in the query and key vectors by an angle proportional to their absolute position. The elegant part is that the dot product of two rotated vectors depends only on the difference of their angles, so you get relative position behavior out of an absolute-position implementation, with no extra parameters and no added embedding. It's applied inside every attention layer rather than once at the input, so positional information doesn't have to survive the whole depth. It's preferred over learned absolute embeddings because relative encoding generalizes better and, crucially, it can be extended past the trained context length by rescaling the frequency base, which is what position interpolation, NTK-aware scaling, and YaRN do, making long-context adaptation a cheap fine-tune rather than a retrain."
+    },
+    {
+      "id": "llm-13",
+      "difficulty": "medium",
+      "question": "What does the feed-forward (MLP) sublayer contribute to a transformer block?",
+      "options": [
+        "It mixes information across token positions, complementing attention",
+        "It transforms each position independently with a wide nonlinear expansion, holding most parameters and much of the stored knowledge",
+        "It normalizes activations before the next attention layer",
+        "It compresses the sequence length to reduce compute"
+      ],
+      "answer": 1,
+      "explanation": "Attention mixes across positions but is essentially a weighted average, so it's linear in the values. The MLP applies a position-wise nonlinear transform, typically expanding to 4x width (or using a gated SwiGLU variant) and projecting back. It contains roughly two thirds of a transformer's parameters and is where much factual knowledge lives, as key-value memory studies and MoE routing at the MLP layer both suggest.",
+      "modelAnswer": "The two sublayers divide labor: attention moves information between positions, and the MLP does the actual nonlinear computation at each position independently. That split matters because attention, given its weights, is just a linear average of values, so without the MLP the block would have very limited expressive power. Architecturally it expands to about four times the model width, applies a nonlinearity, and projects back, with modern models using gated variants like SwiGLU that perform better per parameter. It's also where most of the parameters live, roughly two thirds, and interpretability work treats it as key-value memory storing factual associations, which is consistent with mixture-of-experts putting the routing at the MLP so you can scale knowledge capacity without scaling per-token compute."
+    },
+    {
+      "id": "llm-14",
+      "difficulty": "medium",
+      "question": "How do encoder-only, decoder-only, and encoder-decoder architectures differ in use?",
+      "options": [
+        "Encoder-only for generation, decoder-only for classification, encoder-decoder for retrieval",
+        "Encoder-only (BERT) for understanding/embedding, decoder-only (GPT) for generation, encoder-decoder (T5) for transduction tasks like translation",
+        "They are interchangeable; the names reflect training frameworks",
+        "Decoder-only models cannot be used for classification at all"
+      ],
+      "answer": 1,
+      "explanation": "Encoder-only models use bidirectional attention and masked-token objectives, producing rich representations for classification, NER, and embeddings, but they can't generate. Decoder-only models use causal attention and next-token prediction, which scales beautifully and generalizes to nearly any task via prompting, so it dominates today. Encoder-decoder splits comprehension from generation with cross-attention, which suits translation and summarization and is still used in speech and some multimodal models.",
+      "modelAnswer": "Encoder-only models like BERT use bidirectional attention with a masked-token objective, so every position sees full context, which makes them excellent for classification, extraction, and embeddings, but they can't generate autoregressively. Decoder-only models like GPT use causal attention with next-token prediction, and that turned out to be the winning bet: the objective is dense, it scales cleanly, and prompting lets one model do nearly any task, including classification, so decoder-only dominates today. Encoder-decoder like T5 or the original transformer keeps a bidirectional encoder for the source and a causal decoder that cross-attends into it, which is a natural fit for transduction where input and output are distinct sequences, like translation or speech recognition, and it's still common in multimodal setups where the encoder handles a different modality. If I needed embeddings today I'd still reach for an encoder-style or contrastively trained model rather than a raw decoder, because bidirectional context and a pooled objective produce better representations per parameter."
+    },
+    {
+      "id": "llm-15",
+      "difficulty": "medium",
+      "question": "What are the main causes of LLM hallucination?",
+      "options": [
+        "Only insufficient training data",
+        "The objective rewards fluent plausible continuations rather than truth, plus knowledge gaps, no calibrated abstention, and decoding that samples unsupported tokens",
+        "Bugs in the attention implementation",
+        "Excessive temperature alone"
+      ],
+      "answer": 1,
+      "explanation": "Next-token prediction optimizes likelihood of plausible text, not factual accuracy, and the model has no mechanism to distinguish recalled fact from confident interpolation. Contributors: facts absent, rare, or contradictory in training data; a knowledge cutoff; RLHF pressure to be helpful discouraging 'I don't know'; sampling from the distribution tail; and long-context attention drift. Mitigations: grounding via retrieval with citations, constrained decoding, self-consistency, verifier models, and letting the model abstain.",
+      "modelAnswer": "The root cause is the objective. Next-token prediction rewards text that looks like the training distribution, and a confident fabrication is often more likely under that distribution than a hedge, so the model has no built-in incentive to distinguish genuine recall from plausible interpolation. On top of that: facts that were rare, absent, or contradictory in pretraining have no reliable representation; there's a knowledge cutoff; preference training for helpfulness can actively penalize saying I don't know; and sampling adds tail tokens that aren't supported. My mitigations in order of leverage are grounding with retrieval so the answer is conditioned on real documents and can be cited and verified, then prompt design that explicitly licenses abstention, then low temperature for factual work, then verification, either self-consistency across samples or a separate model checking claims against sources. And I'd instrument it, measuring groundedness on a real eval set rather than assuming the fix worked."
+    },
+    {
+      "id": "llm-16",
+      "difficulty": "medium",
+      "question": "What do scaling laws tell you about allocating a training budget?",
+      "options": [
+        "Always maximize parameters, since capacity dominates",
+        "Loss falls as a power law in parameters, data, and compute, and for a fixed budget parameters and tokens should scale together (Chinchilla), not parameters alone",
+        "Loss decreases linearly with compute indefinitely",
+        "Data quality is irrelevant as long as volume grows"
+      ],
+      "answer": 1,
+      "explanation": "Kaplan et al. found smooth power-law improvements in loss versus compute, data, and parameters. Hoffmann et al. (Chinchilla) corrected the allocation: earlier models like GPT-3 were badly undertrained, and for a compute-optimal run tokens should scale roughly proportionally with parameters, around 20 tokens per parameter. If you also care about inference cost, it pays to train a smaller model on far more tokens than compute-optimal, which is what Llama-style models do.",
+      "modelAnswer": "Scaling laws say test loss falls as a smooth power law in compute, parameters, and data, which is what makes large training runs predictable enough to justify. The important refinement is Chinchilla: for a fixed compute budget there's an optimal split between model size and tokens seen, roughly twenty tokens per parameter, and by that measure GPT-3 era models were dramatically undertrained, so a smaller model on more data beat a bigger one on less. The second-order insight I'd add is that compute-optimal for training is not optimal for deployment. If a model will serve billions of tokens, you should deliberately overtrain a smaller model well past Chinchilla-optimal, spending more training compute to buy permanently cheaper inference, which is exactly the Llama strategy. And these laws assume a fixed data distribution, so data quality and deduplication shift the curve, which is why curation now matters as much as scale."
+    },
+    {
+      "id": "llm-17",
+      "difficulty": "medium",
+      "question": "Why does chain-of-thought prompting improve reasoning performance?",
+      "options": [
+        "It increases the model's parameter count at inference",
+        "Generating intermediate tokens gives the model more serial computation and an explicit scratchpad, since a single forward pass has fixed depth",
+        "It retrieves relevant documents from training data",
+        "It lowers the effective temperature"
+      ],
+      "answer": 1,
+      "explanation": "A transformer's forward pass has fixed depth, so the computation available for one token is bounded. Emitting reasoning steps lets the model condition on its own intermediate results, effectively extending computation across many forward passes and externalizing working memory. It helps most on multi-step arithmetic, logic, and planning; it adds latency and cost, and the stated chain isn't guaranteed to be the true causal reason for the answer.",
+      "modelAnswer": "Because a single forward pass gives a fixed amount of serial computation, bounded by depth, and multi-step problems need more than that. By emitting intermediate tokens the model gets to condition on its own partial results, so each subsequent forward pass builds on the last, turning a fixed-depth computation into an unbounded sequential one with the context window as external working memory. That's why the gains concentrate on multi-step arithmetic, logic, and planning, and why it barely helps on single-fact retrieval. Practically it costs latency and tokens, so I'd use it selectively, and I'd combine it with self-consistency, sampling several chains and majority-voting, which reliably adds a few points. One caveat I'd raise: the verbalized chain is not guaranteed to be the model's actual computation, so faithfulness work shows chains can be post-hoc rationalizations, meaning you can't treat them as an audit trail."
+    },
+    {
+      "id": "llm-18",
+      "difficulty": "hard",
+      "question": "How does speculative decoding accelerate inference without changing the output distribution?",
+      "options": [
+        "It truncates the vocabulary to the most likely tokens",
+        "A small draft model proposes several tokens that the large model verifies in one parallel forward pass, accepting them via a rejection-sampling rule that preserves the target distribution",
+        "It caches previous completions and reuses matching prefixes",
+        "It runs the large model in lower precision during generation"
+      ],
+      "answer": 1,
+      "explanation": "Decoding is memory-bandwidth-bound: generating one token requires streaming all weights, so the GPU is badly underutilized. A cheap draft model proposes k tokens, and the target model scores all k positions in a single forward pass for nearly the cost of one. A modified rejection-sampling criterion accepts the longest valid prefix and resamples at the first divergence, which provably yields the exact target distribution. Speedups of 2-3x are typical, depending on draft acceptance rate.",
+      "modelAnswer": "It exploits the fact that decoding is memory-bandwidth-bound, not compute-bound: producing one token requires streaming every weight through the accelerator, so the matmul units sit mostly idle and scoring twenty positions costs almost the same as scoring one. So you let a cheap draft model, a small model or an n-gram or a few early layers, propose k tokens greedily, then run the big model once over all k positions in parallel to get its true distribution at each. Then you apply a modified rejection sampling rule, accepting each draft token with probability min of one and the ratio of target to draft probability, and on the first rejection you sample from an adjusted residual distribution. The mathematics guarantees the accepted sequence is distributed exactly as if you'd sampled from the target model alone, so it's lossless, which is the whole appeal versus quantization or distillation. Real speedups are two to three times and depend entirely on the acceptance rate, so draft-target alignment is what you tune. Medusa and EAGLE are variants that predict multiple tokens with extra heads instead of a separate draft model."
+    },
+    {
+      "id": "llm-19",
+      "difficulty": "hard",
+      "question": "How does a mixture-of-experts (MoE) layer change the compute-versus-capacity tradeoff?",
+      "options": [
+        "It trains several models and averages their outputs at inference",
+        "A router sends each token to a small subset of expert MLPs, so total parameters grow while per-token FLOPs stay roughly fixed",
+        "It splits attention heads across devices to reduce memory",
+        "It runs experts sequentially and picks the best output"
+      ],
+      "answer": 1,
+      "explanation": "MoE replaces the dense MLP with many expert MLPs plus a router that activates only the top-k (often 1 or 2). Total parameter count, and thus knowledge capacity, can grow 10-100x while activated FLOPs per token stay near the dense equivalent. The costs are real: all experts must be resident in memory, routing can collapse without an auxiliary load-balancing loss, expert-parallel all-to-all communication is expensive, and training is less stable. Mixtral, DeepSeek-V3, and most frontier models use it.",
+      "modelAnswer": "MoE decouples parameter count from per-token compute. You replace the dense feed-forward block with many expert MLPs and a learned router that sends each token to only the top one or two, so total parameters, which is roughly knowledge capacity, can scale ten to a hundred times while the FLOPs actually spent per token stay close to the dense model. That's why it's the dominant frontier architecture: better loss per unit of training and inference compute. The costs are what interviewers probe. Memory doesn't shrink, since every expert must be resident even if rarely used, so you win on FLOPs and lose on VRAM and on serving economics. Routing wants to collapse onto a few popular experts, so you need an auxiliary load-balancing loss or a bias-based scheme, plus capacity factors and token dropping. Distributed training needs expert parallelism with all-to-all communication, which is bandwidth-hungry and awkward. And fine-tuning MoE models is noticeably less stable than dense ones."
+    },
+    {
+      "id": "llm-20",
+      "difficulty": "hard",
+      "question": "Why does quality often degrade in the middle of a long context, and what helps?",
+      "options": [
+        "The KV cache overwrites middle entries when it fills",
+        "Attention exhibits position biases favoring the start and end ('lost in the middle'), amplified by training length distribution and positional extrapolation limits",
+        "Tokenization changes for longer inputs",
+        "LayerNorm saturates beyond a few thousand tokens"
+      ],
+      "answer": 1,
+      "explanation": "Liu et al. showed a U-shaped retrieval curve: information at the beginning or end of context is used far more reliably than material in the middle. Contributors include attention sinks and primacy effects, recency bias from causal training, few genuinely long-dependency examples in training data, and degraded positional resolution when extrapolating beyond trained lengths. Practical fixes: put critical content at the start or end, rerank retrieved chunks so the best appear at the edges, keep the context tight rather than maximal, chunk-and-summarize hierarchically, and evaluate with needle-in-a-haystack style tests at your real context length.",
+      "modelAnswer": "Empirically you get a U-shaped curve, the lost-in-the-middle result: the model reliably uses information at the very start and very end of the context and much less reliably in the middle. Several things drive it. Causal training induces recency bias, and there's a strong primacy effect partly from attention sinks, where early tokens absorb attention mass. Long-dependency examples are rare in training data even when the architecture supports long context, so the capability is undertrained relative to the advertised window. And when a model's context is extended past its trained length by RoPE rescaling, positional resolution degrades. So advertised context length is a capacity, not a guarantee of quality across it. My practical response is engineering rather than hoping: keep contexts tight instead of maximal because more irrelevant text actively hurts, rerank so the strongest retrieved chunks land at the beginning and end, restate the actual question at the end of a long prompt, use hierarchical summarize-then-reason for very long documents, and measure it directly with needle-in-a-haystack and multi-hop retrieval evals at the context length I'll really run."
+    },
+    {
+      "id": "llm-21",
+      "difficulty": "hard",
+      "question": "What is prompt injection, and why is it structurally hard to fix?",
+      "options": [
+        "SQL injection via model-generated queries; fix with parameterized queries",
+        "Untrusted content in the context steering the model, hard to fix because instructions and data share one channel with no privilege separation",
+        "Overflowing the context window to truncate the system prompt",
+        "Fine-tuning attacks that poison the model weights"
+      ],
+      "answer": 1,
+      "explanation": "An LLM sees one flat token stream, so text retrieved from a webpage, document, or tool result is indistinguishable in kind from developer instructions. Indirect injection hides instructions in content the agent later reads, which is severe for tool-using agents that can exfiltrate data or take actions. There is no known complete fix, so defense is layered: treat all model output as untrusted, enforce permissions and human approval outside the model, sandbox tools, allowlist egress to prevent exfiltration, use instruction-hierarchy-trained models and spotlighting/delimiting of untrusted spans, and run injection classifiers, accepting that each layer is probabilistic.",
+      "modelAnswer": "Prompt injection is when untrusted text that lands in the context gets treated as instructions. The direct form is a user overriding a system prompt; the dangerous form is indirect, where an attacker plants instructions in a webpage, email, PDF, or tool output that an agent later reads and obeys. It's structurally hard because there's no privilege separation in the architecture: the model consumes one flat token sequence, and unlike SQL, where you can parameterize and keep code and data on separate channels, instructions and data are the same modality. Any escaping or delimiting scheme is a soft convention the model may ignore, and instruction-hierarchy training makes it much better but still probabilistic, so it's mitigation, not a fix. So I design assuming injection will sometimes succeed, and put the real controls outside the model: least-privilege tools with the agent's permissions scoped to the user's own, human approval for irreversible or outward-facing actions, egress allowlisting since exfiltration usually needs an outbound channel, sandboxed execution, and treating every model output as untrusted input to the next stage. Then classifiers and spotlighting on top as defense in depth, plus red-teaming, and I'd raise the fundamental design question of whether the agent needs both untrusted content and sensitive capability in the same session at all."
+    },
+    {
+      "id": "llm-22",
+      "difficulty": "hard",
+      "question": "What is the difference between prefill and decode, and why does it matter for serving?",
+      "options": [
+        "Prefill loads model weights; decode runs inference",
+        "Prefill processes the whole prompt in parallel and is compute-bound; decode generates one token at a time and is memory-bandwidth-bound, so they need different optimizations",
+        "Prefill is used for training and decode for inference",
+        "They differ only in logging granularity"
+      ],
+      "answer": 1,
+      "explanation": "Prefill runs all prompt tokens through the model in one pass, saturating matmul units, so it's compute-bound and sets time-to-first-token, scaling with prompt length. Decode produces one token per forward pass, streaming all weights and the KV cache for a single token of work, so it's bandwidth-bound and sets inter-token latency. Consequences: batching helps decode enormously but less so prefill; continuous batching and chunked prefill keep the GPU busy; and some systems disaggregate the two onto separate hardware pools so long prefills don't stall other users' token streams.",
+      "modelAnswer": "They're two different workloads with opposite bottlenecks. Prefill processes the entire prompt in a single parallel forward pass, so it has plenty of arithmetic to do per byte of weights loaded, making it compute-bound, and it determines time-to-first-token, scaling with prompt length. Decode then produces one token per forward pass, which means streaming all the weights plus the growing KV cache through the memory system to compute a single token, so arithmetic intensity is terrible and it's memory-bandwidth-bound, determining inter-token latency. That distinction drives most serving design. Batching is transformative for decode, because you amortize one weight load across many sequences, but does little for prefill, which is already saturated. Continuous or iteration-level batching lets sequences join and leave each step instead of waiting for the slowest in a static batch. Chunked prefill splits long prompts so a single huge prompt doesn't stall everyone's token stream, and some systems go further and disaggregate prefill and decode onto separate GPU pools tuned for each. It also tells you which optimizations pay: quantization and GQA help decode by cutting bytes moved, while FlashAttention and better kernels help prefill."
+    },
+    {
+      "id": "llm-23",
+      "difficulty": "hard",
+      "question": "What actually happens during quantization to int8 or int4, and what are the tradeoffs?",
+      "options": [
+        "Weights are pruned to zero below a threshold, shrinking the model",
+        "Weights and possibly activations are mapped to low-bit integers with scales, cutting memory and bandwidth at some accuracy cost, with outlier activations the main difficulty",
+        "The model is retrained from scratch at lower precision",
+        "Only the embedding table is compressed"
+      ],
+      "answer": 1,
+      "explanation": "Quantization stores tensors as low-bit integers plus scale (and zero-point) metadata, per-tensor, per-channel, or per-group. Since decode is bandwidth-bound, 4-bit weights can nearly quadruple throughput and let big models fit on small GPUs. The hard part is activation outliers that wreck the shared scale, addressed by keeping outlier channels in higher precision (LLM.int8), smoothing scale between weights and activations (SmoothQuant), or calibrating per-group with second-order information (GPTQ, AWQ). Weight-only 4-bit is usually near-lossless on general benchmarks, while aggressive schemes degrade long-context and reasoning quality first, so you must evaluate on your own task rather than trusting perplexity.",
+      "modelAnswer": "Quantization replaces high-precision tensors with low-bit integers plus scale and zero-point metadata, at some granularity: per-tensor is cheapest, per-channel or per-group of a hundred and twenty-eight weights is far more accurate. The reason it's such a big win for LLMs is that decode is memory-bandwidth-bound, so cutting weights from sixteen bits to four roughly quarters the bytes streamed per token and can nearly quadruple throughput, while also letting a seventy-billion-parameter model fit on a single GPU. The technical difficulty is outliers: a handful of activation channels have magnitudes orders of magnitude larger than the rest, and a shared scale that accommodates them destroys resolution for everything else. LLM.int8 handles that by keeping outlier channels in fp16, SmoothQuant migrates scale from activations into weights so both are easier to quantize, and GPTQ and AWQ use calibration data with second-order or activation-awareness to choose weight roundings that minimize output error. On tradeoffs, weight-only four-bit is usually close to lossless on standard benchmarks, but degradation shows up first in exactly the places benchmarks miss, long-context retrieval, multi-step reasoning, and rare languages, so I always evaluate on my own task rather than trusting perplexity. And there's the QAT-versus-PTQ axis: post-training quantization is a calibration pass and takes minutes, quantization-aware training is much more expensive but recovers more quality at aggressive bit widths."
+    },
+    {
+      "id": "llm-24",
+      "difficulty": "hard",
+      "question": "Why do LLMs struggle with arithmetic and character-level tasks like counting letters?",
+      "options": [
+        "Because they lack a floating-point unit in the architecture",
+        "Because tokenization hides character structure and the fixed-depth forward pass can't run an unbounded algorithm, so operations must be memorized or externalized",
+        "Because attention cannot represent numbers",
+        "Because training data contains no arithmetic"
+      ],
+      "answer": 1,
+      "explanation": "The model never sees characters, only subword tokens, and number segmentation is inconsistent, so digit alignment and letter counting require reconstructing structure the tokenizer destroyed. Multi-digit arithmetic also needs an exact carry algorithm over an unbounded number of steps, while a forward pass provides fixed depth, so the model approximates rather than computes. Mitigations: chain-of-thought to spread computation over steps, digit-level or right-to-left tokenization, and simply calling a calculator or code interpreter, which is the right engineering answer.",
+      "modelAnswer": "Two separate causes. First, tokenization: the model never observes characters, it observes subword IDs, so asking how many r's are in a word requires reconstructing spelling information the tokenizer deleted. Number tokenization is also inconsistent, splitting digits into irregular groups so place-value alignment isn't represented, which is why some models now force digit-level or fixed-triple number tokenization. Second, computation depth: exact multi-digit arithmetic is a sequential carry algorithm whose step count grows with operand length, but a forward pass has fixed depth, so the model can't run an unbounded loop and instead learns approximations and memorized patterns that break on longer inputs. Chain-of-thought helps precisely because it converts depth into sequence length. But the correct engineering answer is not to make the model better at arithmetic, it's to give it a tool: route to a calculator or code interpreter, which is exact, auditable, and cheaper than scaling. That generalizes to a design principle, use the LLM for language and intent, delegate to deterministic systems for anything requiring exactness."
+    },
+    {
+      "id": "llm-25",
+      "difficulty": "hard",
+      "question": "What are attention sinks, and why do they matter for streaming inference?",
+      "options": [
+        "Attention heads that saturate and stop updating during training",
+        "Early tokens that absorb large amounts of attention mass, acting as a no-op dump; evicting them from a sliding-window cache collapses quality",
+        "Layers where gradients vanish so attention stops learning",
+        "Tokens that receive zero attention and can safely be pruned"
+      ],
+      "answer": 1,
+      "explanation": "Softmax must distribute total weight of one even when no position is genuinely relevant, so models learn to park excess attention on a few initial tokens, often the BOS token, which carry little semantic content. StreamingLLM showed that naive sliding-window caching that drops those first tokens causes a dramatic perplexity blowup, and that keeping just four sink tokens plus a recent window restores stable generation over millions of tokens. It's also why some architectures add a dedicated learnable sink token, and it partly explains the primacy half of the lost-in-the-middle curve and certain quantization outliers.",
+      "modelAnswer": "Attention sinks are a small number of early tokens, very often the beginning-of-sequence token, that soak up a large share of attention probability across heads and layers while carrying almost no semantic content. The mechanistic explanation is that softmax is forced to allocate a total weight of one, so when a head has nothing relevant to attend to for a given query it needs somewhere to dump the mass, and a consistently-present early token is the natural parking spot. The practical significance came out of StreamingLLM: if you implement infinite generation with a naive sliding-window KV cache and evict the oldest tokens, you throw away the sinks and perplexity explodes, not because the old content mattered but because you removed the attention drain. Keeping just the first four tokens pinned plus a recent window restores stable generation over millions of tokens with no retraining. That's why some models now train an explicit learnable sink token. It also connects to two other things worth mentioning: it's part of why the lost-in-the-middle curve favors the start of context, and those sink positions produce the massive activation outliers that make activation quantization hard."
+    }
+  ]
+}

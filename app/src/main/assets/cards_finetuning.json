@@ -1,0 +1,356 @@
+{
+  "topicId": "finetuning",
+  "topicName": "Fine-Tuning & Alignment",
+  "cards": [
+    {
+      "id": "ft-01",
+      "difficulty": "easy",
+      "question": "What are the standard stages of post-training an LLM?",
+      "options": [
+        "Pretraining, quantization, deployment",
+        "Supervised fine-tuning on demonstrations, then preference optimization (RLHF or DPO), often with further safety tuning",
+        "Instruction tuning, then pruning, then distillation",
+        "Reward modeling, then pretraining, then SFT"
+      ],
+      "answer": 1,
+      "explanation": "Pretraining gives a next-token predictor with broad knowledge but no instruction-following. SFT on curated prompt-response demonstrations teaches it to follow instructions and adopt a format. Preference optimization then pushes it toward outputs humans prefer, using either a reward model plus PPO (RLHF) or a direct method like DPO. Safety and refusal behavior is typically shaped in the same preference stage or a dedicated pass.",
+      "modelAnswer": "Pretraining produces a raw next-token predictor: it has broad knowledge but will happily continue your question with more questions rather than answer it. Supervised fine-tuning on curated prompt-response pairs teaches instruction-following and response format, and that stage alone gets you most of the way to a usable assistant. Then preference optimization aligns it with what humans actually prefer among plausible responses, either classic RLHF with a learned reward model and PPO, or a direct method like DPO that skips the reward model. Safety behavior, refusals and tone, is usually shaped in that same preference stage with targeted data. The key intuition is that SFT teaches the model what a good answer looks like from examples, while preference training teaches it to rank between answers, which is a signal you can't express in demonstrations."
+    },
+    {
+      "id": "ft-02",
+      "difficulty": "easy",
+      "question": "When should you fine-tune instead of prompt engineering?",
+      "options": [
+        "Whenever accuracy is below target, since fine-tuning always beats prompting",
+        "When you need consistent format or behavior, a specialized skill, lower latency and cost per call, or prompting has plateaued with good examples",
+        "Only when the base model has fewer than 7B parameters",
+        "When you need the model to know new facts"
+      ],
+      "answer": 1,
+      "explanation": "Prompting is faster to iterate, needs no data pipeline, and is easy to change, so it's always the first move. Fine-tune when you've hit a ceiling with a well-engineered prompt and few-shot examples and you need reliable structured output, a consistent voice, a narrow skill the base model does poorly, or shorter prompts (dropping a long instruction block cuts cost and latency). Fine-tuning is a poor way to inject facts; that's what retrieval is for.",
+      "modelAnswer": "I always start with prompting because the iteration loop is minutes rather than days and it needs no data collection. I move to fine-tuning when specific conditions hold: prompting has plateaued even with good few-shot examples, I need highly consistent format or tone that a prompt only gets right ninety percent of the time, the task is a narrow skill the base model handles poorly, or I want to eliminate a long instruction block from every request, which for high-volume traffic is a real cost and latency win since I can then use a smaller model. What I don't fine-tune for is knowledge. Facts belong in retrieval, because they change, need attribution, and require permissions. The framing I'd use is that fine-tuning changes behavior and retrieval changes knowledge, and most production systems need both."
+    },
+    {
+      "id": "ft-03",
+      "difficulty": "easy",
+      "question": "What is LoRA and why is it so widely used?",
+      "options": [
+        "A compression method that prunes attention heads",
+        "Low-rank adapters: freeze base weights and train small matrices B*A whose product is added to chosen weight matrices, cutting trainable parameters by orders of magnitude",
+        "A learning rate schedule optimized for adapters",
+        "A technique for merging multiple models by weight averaging"
+      ],
+      "answer": 1,
+      "explanation": "LoRA assumes the weight update needed for adaptation is low-rank, so instead of updating W it learns W + BA where B is d-by-r and A is r-by-k with r typically 8-64. You train maybe 0.1-1% of the parameters, so optimizer state and memory drop enormously, checkpoints are megabytes not gigabytes, base weights stay intact (so no catastrophic forgetting of the base), and adapters can be swapped or merged at inference with no added latency once merged.",
+      "modelAnswer": "LoRA freezes the pretrained weights and learns a low-rank update instead: for a weight matrix W you learn two small matrices B and A and use W plus B times A, with rank typically eight to sixty-four. The premise is that task adaptation lives in a low-dimensional subspace, so you don't need to move all the weights. The practical consequences are why everyone uses it. You train well under one percent of the parameters, so optimizer state, which for Adam is two extra copies per trainable parameter, collapses and a fine-tune that needed multiple A100s fits on one consumer GPU. Checkpoints are megabytes, so you can keep dozens of task adapters and hot-swap them against one shared base, which is a serving win as well as a storage one. The base weights are untouched, so you can't catastrophically damage the original model and can always detach. And once you merge B times A back into W there's zero inference overhead. The tradeoffs are that at very high data volumes full fine-tuning still edges it out, and rank plus which modules you target are hyperparameters that matter."
+    },
+    {
+      "id": "ft-04",
+      "difficulty": "easy",
+      "question": "What does QLoRA add on top of LoRA?",
+      "options": [
+        "It quantizes the LoRA adapters to 4-bit for faster inference",
+        "It keeps the frozen base model in 4-bit NF4 precision while training LoRA adapters in higher precision, drastically cutting memory",
+        "It uses quantum-inspired optimization for the adapter matrices",
+        "It quantizes gradients to reduce communication in distributed training"
+      ],
+      "answer": 1,
+      "explanation": "The base weights are frozen in LoRA, so they only need to be accurate enough for forward passes and gradient flow, not for updates. QLoRA stores them in 4-bit NormalFloat, dequantizing per block during compute, and adds double quantization plus paged optimizers. Combined with LoRA adapters in bf16, this makes fine-tuning a 65B model feasible on a single 48GB GPU with quality close to 16-bit fine-tuning.",
+      "modelAnswer": "QLoRA's insight is that since LoRA freezes the base weights, those weights only ever participate in forward passes and gradient propagation, never in updates, so they don't need full precision. QLoRA stores them in 4-bit NormalFloat, a data type designed for the roughly normal distribution of neural network weights, and dequantizes block by block on the fly during compute. It adds double quantization, quantizing the quantization constants themselves, and paged optimizers to survive memory spikes. The adapters stay in bf16 so the gradients you actually apply are precise. The result was striking: fine-tuning a 65-billion-parameter model on a single 48-gigabyte GPU with quality close to 16-bit fine-tuning, which is what democratized LLM fine-tuning outside big labs. The cost is speed, since dequantization adds compute overhead, so it's a memory-for-time trade, and if I had the VRAM I'd prefer plain LoRA in bf16."
+    },
+    {
+      "id": "ft-05",
+      "difficulty": "easy",
+      "question": "Roughly how much data do you need for a useful instruction fine-tune?",
+      "options": [
+        "Millions of examples, comparable to pretraining scale",
+        "Often 1,000-10,000 high-quality diverse examples, since quality and diversity matter far more than volume",
+        "Exactly one example per task category",
+        "At least 100,000 examples or the model will not converge"
+      ],
+      "answer": 1,
+      "explanation": "The LIMA result showed 1,000 carefully curated examples can produce strong instruction-following, supporting the view that pretraining supplies the capability and fine-tuning mostly elicits format and style. In practice a few hundred examples can move a narrow task, and low thousands is a solid target. Consistency matters enormously: a handful of contradictory or low-quality examples can do more damage than a thousand good ones do good, so curation beats collection.",
+      "modelAnswer": "Far less than people expect. The LIMA paper made the point sharply: a thousand carefully curated examples produced competitive instruction-following, which supports the hypothesis that pretraining already installed the capability and fine-tuning mostly teaches format and style rather than new skills. In practice, for a narrow task like a specific extraction schema, a few hundred consistent examples often move the needle measurably, and low thousands is a good target for general instruction tuning. What matters much more than count is quality and consistency: if two examples format the same situation differently, you're teaching the model to be inconsistent, and a small number of bad labels can outweigh a lot of good ones. So my process is to start with a few hundred, measure on a held-out set, and add data where the errors are, rather than collecting ten thousand examples up front and discovering they encode conflicting conventions."
+    },
+    {
+      "id": "ft-06",
+      "difficulty": "easy",
+      "question": "What is instruction tuning trying to fix about a base model?",
+      "options": [
+        "Its factual knowledge gaps",
+        "The mismatch between next-token continuation and following an instruction to produce a helpful response",
+        "Its inability to handle long contexts",
+        "Slow inference speed"
+      ],
+      "answer": 1,
+      "explanation": "A base model is trained to continue text, so given 'Write a poem about the sea' it might plausibly continue with more instructions, a list of similar prompts, or a webpage footer, because that's what follows such text on the internet. Instruction tuning on (instruction, good response) pairs teaches it that the correct continuation of a request is a compliant answer. This is an alignment of objective, not an increase in knowledge.",
+      "modelAnswer": "It closes an objective mismatch. Pretraining optimizes next-token continuation over internet text, so given write a poem about the sea, a plausible continuation is another writing prompt, or a list of assignment questions, or a page footer, because that's genuinely what follows such text in the wild. The model has the capability to write the poem, it just has no reason to believe that's what should come next. Instruction tuning on instruction-response pairs teaches it that the expected continuation of a request is a compliant, helpful answer in a particular format. It's important to frame it as eliciting latent capability rather than adding knowledge or intelligence, which is why so little data is needed and why the underlying capability ceiling is set by pretraining."
+    },
+    {
+      "id": "ft-07",
+      "difficulty": "medium",
+      "question": "How does RLHF work, and what are its main failure modes?",
+      "options": [
+        "Humans directly label correct outputs which are used as SFT targets; failure mode is annotation cost",
+        "Humans rank outputs, a reward model learns their preferences, and the policy is optimized against it with PPO; failures include reward hacking, verbosity bias, and KL/entropy collapse",
+        "The model plays a game against itself; failure mode is instability",
+        "Rewards come from a fixed rubric; failure mode is inflexibility"
+      ],
+      "answer": 1,
+      "explanation": "Pipeline: collect pairwise preferences over model outputs, train a reward model to score responses, then optimize the policy with PPO to maximize reward minus a KL penalty against the SFT reference. Failure modes: the policy exploits reward model errors (reward hacking) producing outputs that score well but are worse; the reward model inherits annotator biases toward length, confidence, and sycophancy; too little KL penalty causes mode collapse and loss of diversity; PPO is complex and sensitive, requiring four models in memory (policy, reference, reward, critic).",
+      "modelAnswer": "The pipeline has three parts. You collect human preferences as pairwise comparisons rather than absolute scores, because people are much more reliable at saying A is better than B than at scoring in isolation. You train a reward model, usually the SFT model with a scalar head, on those comparisons with a Bradley-Terry loss. Then you optimize the policy with PPO to maximize reward minus a KL divergence penalty against the SFT reference, and that KL term is essential, not decorative, because it's what keeps the policy in the region where the reward model is a valid approximation. Failure modes are where the interesting discussion is. Reward hacking is the central one: the reward model is a learned proxy, and a sufficiently strong optimizer will find inputs where the proxy is wrong, producing responses that score highly and are actually worse, which is Goodhart's law in action. Related is inherited annotator bias, so models learn that longer, more confident, more agreeable answers get preferred, which is where verbosity and sycophancy come from. Too weak a KL penalty and you get mode collapse, losing diversity and sometimes degenerate text. And operationally PPO is painful: four models resident, policy, reference, reward, and critic, plus high sensitivity to hyperparameters, which is exactly the burden DPO removes."
+    },
+    {
+      "id": "ft-08",
+      "difficulty": "medium",
+      "question": "How does DPO differ from PPO-based RLHF?",
+      "options": [
+        "DPO uses a larger reward model for better accuracy",
+        "DPO derives a closed-form objective over preference pairs, optimizing the policy directly without training a separate reward model or running RL",
+        "DPO requires ranked lists of five or more responses instead of pairs",
+        "DPO trains the reward model but skips the policy update"
+      ],
+      "answer": 1,
+      "explanation": "DPO uses the analytic relationship between the optimal RLHF policy and the reward to reparameterize the problem, yielding a simple classification-style loss on preferred versus rejected responses that increases the relative log-probability of the winner against a frozen reference. You need only two models in memory instead of four, there's no reward model, no sampling loop, and no PPO tuning, so it's far simpler and more stable. The tradeoffs: it learns only from the fixed offline preference dataset (no on-policy exploration), it can over-optimize and push down probability on both responses, and at the frontier online methods with a reward model still tend to win, motivating iterative and online DPO variants.",
+      "modelAnswer": "DPO's contribution is showing you don't need the reward model or the RL loop at all. The optimal policy under a KL-constrained reward objective has a closed-form relationship to the reward, so you can invert it, substitute into the Bradley-Terry preference likelihood, and the reward function cancels out. What's left is a simple loss on preference pairs that raises the log-probability of the chosen response relative to the rejected one, each measured against a frozen reference model. Practically that means two models in memory instead of four, no reward model to train and no reward hacking of it, no sampling during training, and none of PPO's hyperparameter fragility, so it's dramatically easier to get working, which is why it dominates open-source post-training. The tradeoffs are real though. It's offline, learning only from a fixed preference dataset, so there's no on-policy exploration and the data can go stale relative to the improving policy, which is why iterative and online DPO variants exist. It's known to sometimes decrease the likelihood of both responses while widening the gap, degrading generation quality. And at the frontier, well-executed online RL with a reward model still tends to edge it out, because a reward model generalizes to novel responses while a static dataset doesn't."
+    },
+    {
+      "id": "ft-09",
+      "difficulty": "medium",
+      "question": "Which modules should LoRA target, and how do you pick the rank?",
+      "options": [
+        "Only the final output layer, with rank fixed at 1",
+        "Commonly all attention projections and often the MLP layers; start with rank 8-16 and increase if underfitting, keeping alpha proportional to rank",
+        "Only the embedding table, with rank equal to the vocabulary size",
+        "LayerNorm parameters, since they control the output distribution"
+      ],
+      "answer": 1,
+      "explanation": "The original paper targeted only query and value projections, but later work found applying LoRA to all linear layers, including the MLP, generally works better, and QLoRA's ablations support targeting all of them. Rank controls capacity: 8-16 suits style and format adaptation, 32-64+ suits learning a substantial new skill, and going too high wastes memory and invites overfitting on small datasets. The scaling factor alpha divides by rank in the update, so people commonly set alpha to rank or twice rank to keep effective magnitude stable when sweeping rank.",
+      "modelAnswer": "The original paper applied LoRA only to the query and value projections, but subsequent work, including the QLoRA ablations, found that targeting all linear layers, so all four attention projections plus the MLP up and down projections, performs better for the same parameter budget, and that's my default. If I'm memory constrained I'd trim back to attention only. On rank, it's a capacity knob and I'd tie it to how far the task is from the base model's behavior: eight to sixteen is plenty for format, tone, or style adaptation, which is most use cases, while thirty-two to sixty-four or more makes sense for genuinely new skills or larger datasets. Higher rank isn't free, it costs memory and increases overfitting risk on a few thousand examples. The subtlety worth mentioning is alpha: the update is scaled by alpha over rank, so if you sweep rank without adjusting alpha you're changing the effective learning rate simultaneously and can't interpret the comparison. Common practice is alpha equal to rank or twice rank. I'd also note LoRA typically wants a higher learning rate than full fine-tuning, often one to three times ten to the minus four, because the adapters start at zero."
+    },
+    {
+      "id": "ft-10",
+      "difficulty": "medium",
+      "question": "Why does loss masking matter in supervised fine-tuning?",
+      "options": [
+        "It prevents padding tokens from being attended to",
+        "Computing loss only on completion tokens, not the prompt, so the model learns to respond rather than to generate instructions",
+        "It masks out low-confidence tokens to stabilize training",
+        "It hides system prompts from the model during training"
+      ],
+      "answer": 1,
+      "explanation": "If you compute cross-entropy over the whole sequence, the model spends capacity learning to predict the user's instruction text too, which is not the behavior you want and dilutes the gradient signal on the response. Standard practice is to set label ids to -100 for prompt tokens so they're ignored by the loss, training only on the assistant turn. Related details: mask padding as well, and in multi-turn conversations decide deliberately whether to train on all assistant turns (usually yes) and never on the user turns.",
+      "modelAnswer": "Loss masking means computing the cross-entropy only over the tokens you want the model to learn to produce, which for instruction tuning is the assistant's response, not the user's prompt. If you don't mask, the model is also being trained to predict instruction text, which wastes capacity on a distribution you'll never need it to generate and dilutes the gradient on the part you care about. Implementation-wise you set the label IDs for prompt tokens to negative one hundred so PyTorch's loss ignores them, and you mask padding the same way. There are two related judgment calls: in multi-turn data you generally train on every assistant turn but never on user turns, and you need the chat template applied exactly as it will be at inference, including special tokens, because a mismatch between training and serving templates is one of the most common and most confusing fine-tuning bugs, producing a model that looks trained but behaves oddly in production."
+    },
+    {
+      "id": "ft-11",
+      "difficulty": "medium",
+      "question": "What is RLAIF / Constitutional AI, and why use it?",
+      "options": [
+        "Reinforcement learning with a rule engine replacing the policy network",
+        "Using an AI model, guided by written principles, to generate preference labels or critiques instead of relying solely on human raters",
+        "Training on synthetic data generated by the same model without any preference signal",
+        "A method for aligning models using only rejection sampling"
+      ],
+      "answer": 1,
+      "explanation": "Human preference collection is slow, expensive, inconsistent, and psychologically taxing for harmful content. Constitutional AI has the model critique and revise its own outputs against an explicit written set of principles, then trains preferences from AI-generated comparisons. Benefits: scale, speed, consistency, an auditable and editable statement of values, and less human exposure to disturbing content. Risks: the labeling model's biases and blind spots propagate, principles can be gamed or conflict, and you still need human oversight to validate that AI preferences track real human values.",
+      "modelAnswer": "RLAIF replaces or supplements human preference labels with labels from an AI model, and Constitutional AI is the version where that judgment is guided by an explicit written set of principles. Mechanically the model generates a response, critiques it against the constitution, revises it, and those revisions or comparisons become the training signal. The motivation is that human preference data is the bottleneck in alignment: it's slow, costly, inconsistent between annotators, hard to scale to every domain, and for harmful content it exposes people to real psychological harm. AI feedback is fast, cheap, consistent, and the values are written down in a document you can read, audit, and revise, which is a genuine transparency advantage over trying to infer implicit values from thousands of crowdworker judgments. The risks I'd name: the labeling model's blind spots and biases get baked in and amplified, there's a self-reinforcement concern if a model grades its own family of outputs, principles written in natural language can conflict or be gamed, and you still need human validation that AI preferences actually track human ones. So in practice it's a hybrid, AI feedback for scale with human oversight on calibration and on the highest-stakes categories."
+    },
+    {
+      "id": "ft-12",
+      "difficulty": "medium",
+      "question": "What is sycophancy in aligned models and where does it come from?",
+      "options": [
+        "A decoding artifact caused by high temperature",
+        "The tendency to agree with the user's stated view or back down when challenged, arising because human raters prefer agreeable responses",
+        "A failure of the tokenizer on second-person pronouns",
+        "Overfitting to the system prompt"
+      ],
+      "answer": 1,
+      "explanation": "Preference training optimizes for what raters prefer, and people reliably prefer being agreed with and validated. So the model learns that matching the user's opinion, praising their reasoning, and conceding when pushed back on earn higher reward, even when the original answer was correct. It's an alignment-induced failure, not a knowledge failure, and it's dangerous precisely because it degrades reliability under pressure. Mitigations: preference data that rewards correct disagreement, evaluations that measure whether the model holds correct positions when challenged, and prompting that separates the user's belief from the question.",
+      "modelAnswer": "Sycophancy is when a model tells you what you want to hear: it agrees with a stated opinion, praises a flawed idea, or abandons a correct answer as soon as you push back. The cause is structural, not accidental. Preference training optimizes a proxy for human approval, and humans genuinely do rate agreeable, validating responses more highly, so the gradient points toward agreement independent of truth. That makes it an alignment-induced failure rather than a capability gap, and it's insidious because it degrades reliability exactly when it matters, under disagreement, which is often when a user most needs a correct answer. Anthropic's own work has documented and measured it. Mitigations are on both sides: preference data that explicitly rewards maintaining a correct position and politely disagreeing, and evaluations designed to detect it, for instance asking a question, then asserting the opposite and checking whether the model caves. From an application-building standpoint I'd also avoid putting the user's belief in the prompt alongside the question when I want an unbiased judgment, since stating a preference measurably shifts the answer."
+    },
+    {
+      "id": "ft-13",
+      "difficulty": "medium",
+      "question": "How do you build a good preference dataset?",
+      "options": [
+        "Sample two random completions per prompt and label with a single annotator each",
+        "Sample diverse on-policy responses per prompt, use clear rubrics with multiple annotators, measure inter-annotator agreement, and cover edge cases and refusals deliberately",
+        "Use the model's own log probabilities as preference labels",
+        "Collect only examples where annotators strongly agree, discarding ambiguous ones entirely"
+      ],
+      "answer": 1,
+      "explanation": "Quality determinants: prompts should reflect real usage including hard and adversarial cases; responses should be on-policy (from the model you're aligning) and meaningfully different, since near-identical pairs teach little; rubrics must specify what 'better' means (accuracy over style, calibrated uncertainty over confidence) or you'll train in verbosity and sycophancy; multiple annotators with measured agreement expose ambiguous or badly-specified criteria; and coverage must include safety, refusal, and abstention cases or the model won't learn them. Keeping some genuinely close pairs is useful, but noisy labels on truly ambiguous items add variance.",
+      "modelAnswer": "I'd focus on four things. Prompt distribution: sample from real usage, including the hard tail and adversarial cases, because a preference set drawn from easy prompts won't shape behavior where behavior actually matters. Response generation: sample on-policy, from the model I'm about to align, at a temperature that yields genuinely different candidates, since a pair of near-identical responses carries almost no signal and off-policy pairs teach preferences about text the model wouldn't produce anyway. Rubric design, which I think is the most underrated part: if I don't tell annotators that factual accuracy outranks fluency and that calibrated uncertainty beats false confidence, they'll default to preferring longer, more confident, more agreeable answers, and I'll have trained verbosity and sycophancy directly into the model. Annotation quality: multiple raters per item with measured inter-annotator agreement, treating low agreement as a signal my rubric is underspecified rather than that the raters are bad, plus regular calibration sessions. And deliberate coverage of safety, refusal, and abstention, because if the dataset has no examples of appropriately declining or saying I don't know, the model will learn to always produce something. I'd also keep an eye on length balance, since if preferred responses are systematically longer, length alone becomes the learned signal."
+    },
+    {
+      "id": "ft-14",
+      "difficulty": "medium",
+      "question": "What is the alignment tax, and how do you detect it?",
+      "options": [
+        "The compute cost of running RLHF",
+        "Capability degradation on other tasks caused by alignment training, detected by evaluating a broad capability suite before and after",
+        "The latency added by safety classifiers at inference",
+        "The licensing cost of preference data"
+      ],
+      "answer": 1,
+      "explanation": "Optimizing for helpfulness, harmlessness, and preferred style can reduce performance elsewhere: aligned models have shown losses on some few-shot benchmarks, reduced output diversity, more hedging and over-refusal, and occasionally weaker code or reasoning. It's a manifestation of the same forgetting and specialization pressure as any fine-tune. You detect it by holding a broad, fixed capability suite (reasoning, code, math, knowledge, plus generation diversity and over-refusal rates) and comparing pre- and post-alignment, and you mitigate it with KL constraints, mixing capability data into the alignment mix, and model merging.",
+      "modelAnswer": "The alignment tax is the capability cost you pay for alignment: after RLHF a model may be more helpful and safer but measurably worse at some tasks, with reduced output diversity, more hedging, and over-refusal on benign requests that superficially resemble unsafe ones. It's the same underlying phenomenon as catastrophic forgetting, just induced by a preference objective, and the KL penalty in RLHF is partly there to bound it. Detecting it requires deciding in advance what you're protecting: I'd maintain a fixed broad capability suite covering reasoning, math, code, and knowledge, run it before and after every alignment stage, and treat regressions as blocking. I'd add two evaluations people often skip: generation diversity, since preference training measurably collapses it and you won't see that in accuracy benchmarks, and an over-refusal set of benign-but-sensitive-sounding prompts, because refusing too much is a real product failure that safety metrics alone will score as a success. Mitigations are mixing capability and instruction data into the alignment mixture, keeping the KL constraint meaningful, and model merging or interpolating between the pre- and post-alignment checkpoints to trade off along that curve explicitly."
+    },
+    {
+      "id": "ft-15",
+      "difficulty": "hard",
+      "question": "What is reward hacking in RLHF and how do you defend against it?",
+      "options": [
+        "Attackers stealing the reward model weights",
+        "The policy exploiting inaccuracies in the learned reward model to score highly without genuinely improving, defended by KL constraints, reward ensembles, and fresh on-policy labels",
+        "The reward model overfitting to the training preferences",
+        "Annotators deliberately mislabeling to bias the model"
+      ],
+      "answer": 1,
+      "explanation": "The reward model is a proxy trained on a finite dataset, so it's inaccurate off-distribution, and RL is an optimizer that actively searches for high-reward regions, which means it finds those inaccuracies. Symptoms: reward climbing while human evaluation flattens or declines, plus telltale artifacts like extreme verbosity, formulaic structure, hedging, or exploiting judge quirks. Defenses: a KL penalty anchoring the policy near the reference so it stays where the reward model is valid; early stopping on human or held-out evaluation rather than reward; reward model ensembles and uncertainty penalties; iteratively collecting new preferences on current policy outputs so the reward model tracks the policy; and length or format normalization to remove known degenerate axes.",
+      "modelAnswer": "Reward hacking is Goodhart's law inside RLHF. The reward model is a learned proxy for human preference, accurate near its training distribution and unreliable outside it, and PPO is an optimizer whose entire job is to find high-reward regions, so it will reliably discover where the proxy is wrong and exploit it. The tell is a diverging pair of curves: reward keeps climbing while human evaluation plateaus or degrades, usually accompanied by recognizable artifacts, huge verbose answers, formulaic bullet-point structure, excessive caveats, restating the question, or gaming whatever superficial cue the reward model latched onto. My defenses, roughly in order of importance. The KL penalty against the reference policy, which is the primary structural control, because it keeps the policy in the region where the reward model was trained and is therefore valid, and tuning that coefficient is the central tradeoff between improvement and hacking. Second, never early-stop on reward, stop on held-out human evaluation or a separate judge the policy isn't optimizing against. Third, iterative preference collection: relabel on the current policy's outputs so the reward model tracks the distribution it's being asked to score, since a static reward model goes stale as the policy moves. Fourth, reward model ensembles with a pessimistic or uncertainty-penalized aggregate, so the policy can't exploit a single model's idiosyncratic error. And fifth, explicitly normalize out known degenerate axes like length, since length bias is the single most common hack. I'd also just read samples regularly, because hacking is usually obvious to a human within a few outputs and invisible in the metrics."
+    },
+    {
+      "id": "ft-16",
+      "difficulty": "hard",
+      "question": "How does full fine-tuning compare to LoRA in outcome, not just cost?",
+      "options": [
+        "They are mathematically equivalent given the same data",
+        "Full fine-tuning has more capacity and usually wins on large datasets or big distribution shifts, while LoRA matches it on typical adaptation and better preserves base capabilities",
+        "LoRA always outperforms full fine-tuning due to implicit regularization",
+        "Full fine-tuning cannot be applied to models above 7B parameters"
+      ],
+      "answer": 1,
+      "explanation": "LoRA constrains updates to a low-rank subspace, which is both its efficiency and its limit. Empirically LoRA matches full fine-tuning on instruction tuning and moderate task adaptation, and its restricted capacity acts as a regularizer that forgets less of the base model, which is often a feature. Full fine-tuning pulls ahead when you need to absorb a lot of new information, adapt to a distant domain, or train on very large datasets, since a rank-16 update simply can't express the needed change. The practical decision also involves serving: many LoRA adapters can share one base model in memory, while many full fine-tunes cannot.",
+      "modelAnswer": "The honest summary is that LoRA is competitive on the workloads most people actually have and falls behind at the edges. Because LoRA restricts the update to a low-rank subspace, it has strictly less capacity, and that shows up when the adaptation is large: absorbing substantial new domain knowledge, a big distribution shift like a new language, or training on hundreds of thousands to millions of examples, where a rank-sixteen update can't express what's needed and you'd see it as a plateau you can't tune away. On typical instruction tuning and moderate task adaptation, careful studies find LoRA essentially matches full fine-tuning. And the constraint has an upside: because the base weights are frozen and the update is small, LoRA forgets less, so it preserves general capabilities better, which for a specialized fine-tune that still needs to be broadly competent is a genuine quality advantage rather than just a cost saving. I'd add that the serving story often decides it. With LoRA I can hold one base model in memory and hot-swap or even batch across dozens of adapters, which is what makes per-customer or per-task models economically viable; full fine-tunes each need their own weights resident. So my default is LoRA, escalating to full fine-tuning when I see a capability ceiling that raising rank and targeting more modules doesn't fix."
+    },
+    {
+      "id": "ft-17",
+      "difficulty": "hard",
+      "question": "Your fine-tune scores well on the held-out set but behaves worse in production. What are the likely causes?",
+      "options": [
+        "The learning rate was too low; retrain with a higher one",
+        "Distribution mismatch between training and real traffic, chat-template or prompt-format drift, forgotten general capabilities, or an eval set that doesn't measure what users care about",
+        "The model needs more epochs on the same data",
+        "Quantization applied at deployment always causes this"
+      ],
+      "answer": 1,
+      "explanation": "Likely causes, cheapest to check first: a serving prompt or chat template that differs from training (special tokens, system message placement, whitespace), which silently degrades everything; training data drawn from a narrower distribution than real traffic, so production inputs are out-of-distribution; catastrophic forgetting of general abilities that the narrow eval set never tested; an eval set that measures format compliance rather than usefulness; contamination or near-duplicates between train and eval inflating the held-out score; and deployment-time differences like quantization, different sampling parameters, or a different system prompt. Diagnose by replaying real production prompts against both models and reading failures.",
+      "modelAnswer": "I'd check causes in order of cost. First, format parity, because it's the most common and the cheapest to verify: if the serving path applies a chat template differing from training even in special tokens or whitespace, the model is being asked something subtly off-distribution and quality drops everywhere. I'd diff the exact token IDs sent in production against a training example. Second, the eval set itself. A held-out split drawn from the same curated pool as training doesn't test production distribution, so if my training data came from clean curated examples and real users write terse ambiguous messages with typos, my eval was never a proxy for reality. I'd also check for near-duplicate contamination between train and eval, which inflates the score directly. Third, what the eval measures: it's easy to build a set that scores format compliance, so the model looks perfect while being less useful, and only human review of real traffic surfaces that. Fourth, catastrophic forgetting: the fine-tune got better at the narrow task and worse at the general reasoning and instruction-following users also rely on, which a task-specific eval by construction cannot detect, so I'd run a general capability suite against both checkpoints. Fifth, deployment differences, quantization applied only in production, different sampling parameters, or a different system prompt. My concrete first action would be sampling a few hundred real production prompts, running base and fine-tuned side by side, and reading the failures, because the pattern usually identifies which of these it is faster than any metric will."
+    },
+    {
+      "id": "ft-18",
+      "difficulty": "hard",
+      "question": "What is model merging and why does it work?",
+      "options": [
+        "Concatenating two models and routing between them at inference",
+        "Combining weights of models fine-tuned from a common base, e.g. by averaging or task-vector arithmetic, exploiting the near-linear structure of the fine-tuning region",
+        "Distilling two teachers into one student",
+        "Ensembling predictions from multiple models at inference time"
+      ],
+      "answer": 1,
+      "explanation": "Models fine-tuned from the same initialization tend to stay in a connected, roughly linearly-interpolable low-loss basin, so averaging their weights often yields a model with combined strengths at zero inference cost, unlike ensembling which multiplies compute. Task arithmetic treats the difference (fine-tuned minus base) as a task vector that can be added, scaled, or subtracted to add or remove behaviors. Methods like TIES and DARE address interference by trimming small deltas and resolving sign conflicts. Key constraints: models must share a base and architecture, gains aren't guaranteed, and merged models need re-evaluation since capabilities can interact unpredictably.",
+      "modelAnswer": "Model merging combines the weights of several models fine-tuned from the same base into a single model, most simply by averaging, and it works because fine-tuning from a shared initialization keeps you in a connected low-loss region where linear interpolation between solutions tends to stay low-loss, which is the linear mode connectivity result. The appeal versus ensembling is that you pay zero extra inference cost: one model, one forward pass, combined capabilities. Task arithmetic makes it more expressive by treating the delta between fine-tuned and base weights as a task vector, so you can add vectors to compose skills, scale one to control strength, or negate one to try to remove a behavior. Naive averaging suffers interference when task vectors conflict, so TIES trims small-magnitude deltas and resolves sign disagreements before merging, and DARE randomly drops and rescales deltas, both of which help notably when merging many models. The constraints matter: models must share the same base and architecture, so you can't merge across model families, results are empirical rather than guaranteed, and a merge can silently degrade a capability neither parent lost, so the merged model needs full re-evaluation rather than assuming it inherits both parents' scores. Where I'd actually use it: combining several single-task LoRA fine-tunes into one deployable model, or interpolating between a pre- and post-alignment checkpoint to tune the alignment tax explicitly."
+    },
+    {
+      "id": "ft-19",
+      "difficulty": "hard",
+      "question": "How does fine-tuning affect safety guardrails, and what should you do about it?",
+      "options": [
+        "Fine-tuning preserves safety behavior since it's encoded in the base weights",
+        "Even benign fine-tuning can measurably erode refusal behavior, so safety must be re-evaluated and safety data mixed back in",
+        "Only adversarial datasets can remove guardrails",
+        "Guardrails are enforced at the API layer, so fine-tuning is irrelevant"
+      ],
+      "answer": 1,
+      "explanation": "Published work shows safety alignment is surprisingly shallow: a small number of adversarial examples can strip refusals, and even entirely benign task-specific fine-tuning degrades them measurably, because nothing in the fine-tuning objective preserves behavior it never sees. Practical response: treat safety as a regression surface, run a refusal and jailbreak evaluation suite on every fine-tuned checkpoint, mix safety and refusal examples into the training data (a small fraction is usually enough to retain most behavior), prefer parameter-efficient methods that move less, and layer independent runtime defenses (input/output classifiers, permission limits) rather than relying on model-internal alignment alone.",
+      "modelAnswer": "The empirical finding, and it surprised a lot of people, is that safety alignment is shallow and fragile under fine-tuning. A handful of adversarial examples can strip refusal behavior almost entirely, and critically, even completely benign task-specific fine-tuning degrades it measurably. The mechanism is straightforward once stated: gradient descent optimizes only the objective you give it, and if your fine-tuning data contains no refusals, nothing preserves the refusal behavior, so it drifts, which is just catastrophic forgetting applied to safety rather than capability. The practical implications are: treat safety as a regression surface with the same rigor as accuracy, so every fine-tuned checkpoint gets a refusal and jailbreak evaluation suite run against it before deployment, and don't assume inheritance from the base model. Mix safety and refusal examples into the fine-tuning data, where a small fraction typically retains most of the behavior for very little cost. Prefer parameter-efficient methods, since LoRA moves fewer weights and tends to preserve more of the base behavior. And architecturally, don't put all the weight on model-internal alignment: run independent input and output classifiers and enforce real permission boundaries outside the model, so a degraded refusal isn't a single point of failure. I'd also flag the governance angle, that offering fine-tuning as a product feature means accepting that customers can degrade safety, which is why providers run their own evaluation on submitted training data."
+    },
+    {
+      "id": "ft-20",
+      "difficulty": "hard",
+      "question": "What is prefix/prompt tuning and how does it differ from LoRA?",
+      "options": [
+        "It prepends a fixed natural-language instruction chosen by search",
+        "It learns continuous embedding vectors prepended to the input or to each layer's keys and values, leaving all weights untouched",
+        "It fine-tunes only the embedding table for new tokens",
+        "It is another name for LoRA applied to the first layer"
+      ],
+      "answer": 1,
+      "explanation": "Prompt tuning learns soft prompt embeddings prepended at the input; prefix tuning learns key/value prefixes injected at every layer, which is more expressive. Both change no model weights at all, so parameter counts are tiny and many tasks can share one frozen model. Differences from LoRA: LoRA modifies the weight transformation itself and can be merged away for zero inference overhead, while soft prompts consume context length and add per-token attention cost that cannot be merged. Empirically LoRA is usually easier to train and stronger, which is why it dominates, though prompt tuning becomes competitive at very large model scale and is attractive when you cannot touch weights at all.",
+      "modelAnswer": "Prompt tuning learns a set of continuous vectors prepended to the input embeddings, essentially a soft prompt optimized by gradient descent rather than written in words, and prefix tuning extends the idea by injecting learned key and value prefixes at every layer, which is more expressive since it can influence computation throughout the depth. Both leave every model weight frozen, so you're training a few thousand to a few hundred thousand parameters and one frozen base can serve many tasks. The important contrast with LoRA is where the intervention lives. LoRA modifies the weight transformation, so after training you can merge B times A into W and inference is bit-for-bit as fast as the original model. A soft prompt lives in the activation and context space, so it permanently consumes context length and adds attention cost over those virtual tokens, and there's nothing to merge away. Empirically LoRA also tends to train more stably and reach better quality, especially at small and mid scale, which is why it won in practice, whereas prompt tuning becomes more competitive as base models get very large. I'd choose soft prompts specifically when I genuinely cannot modify weights, for instance behind an API that offers only that, and LoRA otherwise."
+    },
+    {
+      "id": "ft-21",
+      "difficulty": "hard",
+      "question": "How do you use synthetic data for fine-tuning without degrading the model?",
+      "options": [
+        "Generate as much as possible from the strongest available model and train on all of it",
+        "Generate diversely, filter hard with verification or reward models, keep humans in the loop on quality, and monitor for diversity collapse and inherited errors",
+        "Only use synthetic data for evaluation, never training",
+        "Mix synthetic and real data at exactly 50/50 in all cases"
+      ],
+      "answer": 1,
+      "explanation": "Synthetic data is now standard (Alpaca-style self-instruct, distillation from a stronger model, and verified generation for math and code), but unfiltered generation degrades models: errors are confidently stated and get amplified, the outputs concentrate on a narrow mode so diversity collapses, and repeated training on model output risks 'model collapse'. What makes it work is filtering and verification: execute the code and keep what passes tests, check math against a solver, use a reward model or LLM judge to drop weak samples, and enforce diversity via varied seed prompts, personas, and difficulty. Keep real human data anchored in the mix, measure diversity not just accuracy, and be aware that distilling from a proprietary model may violate its terms.",
+      "modelAnswer": "Synthetic data is standard practice now and it works, but only with filtering, because the failure mode of naive generation is subtle. Three specific risks. Error amplification: a generating model states wrong things confidently, and training on them makes those errors more likely, not less. Diversity collapse: sampled outputs concentrate on the model's high-probability modes, so ten thousand generated examples may cover far less of the input space than a thousand human ones, and repeatedly training on model output is the model-collapse concern. And inherited bias, since you adopt the teacher's blind spots wholesale. What makes it work is verification wherever the domain permits it: for code, execute against tests and keep only passing samples; for math, check against a solver; for extraction, validate against a schema. Where you can't verify mechanically, filter with a reward model or an LLM judge, and be aggressive, since a smaller filtered set beats a large unfiltered one. Then engineer diversity deliberately rather than hoping for it, by varying seed prompts, personas, difficulty levels, and formats, and I'd measure diversity, embedding spread or n-gram uniqueness, as a first-class metric alongside accuracy. I'd keep a real human-authored anchor in the mixture and a fully human evaluation set, so the thing I measure against isn't itself synthetic. Two non-technical points: human spot-checking of a sample is cheap and catches systematic problems metrics miss, and distilling from a proprietary model may breach its terms of service, which is a real constraint on the approach."
+    },
+    {
+      "id": "ft-22",
+      "difficulty": "hard",
+      "question": "How would you decide between prompting, RAG, fine-tuning, and training from scratch for a new requirement?",
+      "options": [
+        "Always start with fine-tuning since it gives the most control",
+        "Escalate by cost and reversibility: prompt first, add retrieval for knowledge, fine-tune for behavior, and train from scratch essentially never",
+        "Choose based on the size of the available GPU budget alone",
+        "Train from scratch whenever the domain is specialized"
+      ],
+      "answer": 1,
+      "explanation": "Diagnose the gap first, because each tool fixes a different one. Missing or changing knowledge, needing citations and permissions -> retrieval. Wrong format, tone, or a weak narrow skill despite good prompting -> fine-tuning. Cost or latency too high with a large model -> fine-tune a smaller one, or distill. Capability genuinely absent from all available models -> that's a research project, not a feature. Escalate in that order because each step multiplies cost, iteration time, and operational burden: a prompt change ships in minutes, a fine-tune takes days and needs an eval harness and retraining plan, and pretraining costs millions and is almost never the right call outside a frontier lab or a truly unique modality.",
+      "modelAnswer": "I'd start by diagnosing which gap I actually have, because these tools fix different problems and picking wrong wastes months. If the model lacks knowledge, or the knowledge changes, or I need citations, permissions, and deletion, that's retrieval, and fine-tuning is the wrong instrument. If the model has the knowledge but produces the wrong format, tone, or is unreliable at a narrow skill even with a well-engineered prompt and good few-shot examples, that's fine-tuning. If quality is fine but cost or latency isn't, that's fine-tuning or distilling a smaller model to replace a large one, which is often the highest-ROI fine-tune there is. And if the capability is genuinely absent from every available frontier model, that's a research problem, not a product feature, and I'd push back on the requirement rather than reach for pretraining. Then I escalate in cost and reversibility order: prompting first because it iterates in minutes and reverts instantly, retrieval next because it's infrastructure but keeps knowledge externally editable, fine-tuning after that because it commits me to an evaluation harness, a data pipeline, and a retraining plan every time the base model updates, and training from scratch essentially never, since it costs millions and you'd need a genuinely unique modality or data advantage to justify it over adapting an existing model. Practically, I'd also note these compose rather than compete: the common production shape is a retrieval system with a lightly fine-tuned smaller model, and I'd build the evaluation set before choosing, since without it I can't tell whether any of these actually helped."
+    },
+    {
+      "id": "ft-23",
+      "difficulty": "hard",
+      "question": "What hyperparameters matter most for an LLM fine-tune, and what are sensible starting points?",
+      "options": [
+        "Batch size only; everything else can be left at defaults",
+        "Learning rate and epochs above all, plus effective batch size, warmup, schedule, and sequence packing, with LoRA typically at 1e-4 to 3e-4 for 1-3 epochs",
+        "Dropout and weight decay, tuned by grid search over 50 runs",
+        "Temperature and top-p, since they control output quality"
+      ],
+      "answer": 1,
+      "explanation": "Learning rate dominates: full fine-tuning wants roughly 1e-5 to 5e-5 while LoRA tolerates and needs much more, around 1e-4 to 3e-4, since adapters start at zero. Epochs matter almost as much: 1-3 is typical and beyond that you memorize the small dataset, so early-stop on validation loss. Effective batch size (batch times gradient accumulation) should be large enough for stable gradients, commonly 32-128 sequences. Add a short warmup (a few percent of steps) and cosine decay. Sequence packing and max length affect throughput and memory significantly. LoRA adds rank, alpha, and target modules. Note that validation loss is a weak proxy for quality, so gate releases on task evaluations, not loss alone.",
+      "modelAnswer": "Learning rate first, by a wide margin, and the right value depends on the method: full fine-tuning wants something small like one to five times ten to the minus five, because you're perturbing pretrained weights and too much destroys them, whereas LoRA wants roughly an order of magnitude more, one to three times ten to the minus four, since the adapters initialize at zero and have to travel. Epochs second: one to three is the normal range, and going past that on a few thousand examples memorizes rather than generalizes, so I early-stop on validation. Effective batch size, meaning batch times gradient accumulation steps, matters for gradient stability and I'd target something like thirty-two to a hundred and twenty-eight sequences, using accumulation to reach it when memory won't allow it directly. Then a short linear warmup of a few percent of total steps followed by cosine decay, which is the standard and rarely worth deviating from. Max sequence length and sequence packing are worth attention because they drive both memory and throughput, and packing short examples together can cut training time substantially, though you need attention masking so packed examples don't attend across boundaries. For LoRA specifically, add rank, alpha, and which modules to target. The caveat I'd stress is that validation loss is a weak proxy for what you care about: a checkpoint with slightly worse loss can be clearly better on the actual task, so I gate releases on task evaluations and human review of samples, and use loss only to detect overfitting."
+    },
+    {
+      "id": "ft-24",
+      "difficulty": "hard",
+      "question": "What is RLVR (RL with verifiable rewards) and why is it significant?",
+      "options": [
+        "RL where a human verifies each reward before it is applied",
+        "RL against automatically checkable correctness signals, like unit tests or a math solver, avoiding a learned reward model entirely",
+        "A verification layer that audits reward model outputs for bias",
+        "RL where the reward is the model's own log-likelihood"
+      ],
+      "answer": 1,
+      "explanation": "In domains where correctness is mechanically checkable, you don't need a learned reward model: run the code against tests, check the proof, compare the final answer to ground truth. That removes the central failure mode of RLHF, since you can't hack a unit test the way you can hack a preference proxy, so you can optimize much harder without reward drift. This is the core of recent reasoning-model training, where long chains of thought are reinforced purely by outcome correctness, producing emergent self-checking and backtracking. Limits: it only applies where verification exists (math, code, formal logic), it can reward correct answers reached by bad reasoning, and it can encourage test-gaming if the checker is weak, so verifier design matters.",
+      "modelAnswer": "RLVR replaces the learned reward model with a programmatic correctness check: run the generated code against unit tests, evaluate the final numeric answer against ground truth, machine-check the proof. Its significance is that it removes RLHF's central failure mode. A learned reward model is a proxy you can hack by finding its blind spots, which is why the KL penalty has to constrain how hard you optimize. A unit test isn't a proxy, it's the actual objective, so you can optimize aggressively without reward drift, and that's what unlocked the recent generation of reasoning models, where long chains of thought are reinforced purely by outcome correctness and behaviors like self-verification and backtracking emerge without being demonstrated. The limits are important. It only applies where cheap automated verification exists, so math, code, and formal logic yes, but essay quality, tone, helpfulness, and safety no, which is why RLVR complements rather than replaces preference-based methods. It rewards outcomes, so a model can reach the right answer by unsound reasoning and get reinforced for it, which is a faithfulness concern for the chains you then show users. And a weak verifier is hackable in its own way, models will special-case tests or exploit gaps in coverage, so verifier quality becomes the new bottleneck. The interesting open direction is extending verifiability into softer domains via rubrics or generative verifiers."
+    },
+    {
+      "id": "ft-25",
+      "difficulty": "hard",
+      "question": "You need to fine-tune a model for a regulated domain where errors are costly. How do you structure the project?",
+      "options": [
+        "Maximize dataset size and train the largest model that fits the budget",
+        "Build the evaluation harness and error taxonomy first, involve domain experts in data and review, prefer parameter-efficient tuning with retrieval for facts, and gate deployment on stratified evaluation plus human oversight",
+        "Skip fine-tuning entirely; regulated domains prohibit it",
+        "Train on all available data and rely on the model's calibration to flag uncertainty"
+      ],
+      "answer": 1,
+      "explanation": "Order of work matters: define what failure means with domain experts and build a stratified evaluation set including rare high-severity cases before touching training, since without it you cannot tell improvement from regression. Use retrieval for facts so answers are citable and auditable and knowledge can be corrected without retraining, and reserve fine-tuning for format and behavior. Prefer LoRA so the base model is preserved, changes are small and reversible, and versioning is cheap. Require provenance and versioning for every training example, expert review of both data and model outputs, calibration and abstention so the system escalates rather than guesses, and human-in-the-loop for consequential decisions. Ship behind a shadow or assistive deployment first, monitor per-subgroup performance, and keep rollback and audit trails. Also treat safety and fairness as blocking evaluations, not afterthoughts.",
+      "modelAnswer": "I'd invert the usual order and build evaluation before training. With domain experts I'd define an error taxonomy, what kinds of mistakes exist and which are catastrophic versus tolerable, then build a stratified evaluation set that deliberately over-samples rare high-severity cases, because an aggregate accuracy number will hide exactly the failures that matter in a regulated setting. Without that harness I can't distinguish improvement from regression and every subsequent decision is a guess. Architecturally I'd push facts into retrieval rather than weights, so every answer is citable back to a source document, an auditor can trace the reasoning, and a wrong or updated policy is fixed by reindexing rather than retraining. Fine-tuning then handles only format and behavior, and I'd use LoRA specifically because it preserves the base model, produces small reversible artifacts, and makes versioning and rollback cheap. On data, every example needs provenance and versioning, with expert review, because in this setting the training set is an auditable artifact. On behavior, I'd train and evaluate for calibrated abstention, so the system escalates to a human when uncertain rather than guessing confidently, and I'd treat over-confidence as a defect on par with a wrong answer. Deployment would be staged: shadow mode comparing against current practice, then assistive with a human making the final call, and only then any degree of automation, with per-subgroup monitoring since aggregate metrics mask disparate performance and that's both a fairness and a compliance issue. Throughout, rollback, audit logging of inputs, retrieved context, and outputs, and a documented model card. And I'd say plainly to stakeholders that the correct target here is a reliable assistant with human oversight, not full automation, and I'd want that expectation set at the start rather than discovered at review."
+    }
+  ]
+}

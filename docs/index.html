@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Interview Prep — Android app</title>
+<meta name="description" content="Android app for AI engineer interview prep: 200 curated questions, spaced repetition, mock interviews, topic lessons, and a daily AI news feed.">
+<style>
+  :root{
+    --ink:#0b1020; --ink-soft:#141b33; --card:#1a2340;
+    --line:#33406b; --fg:#e8ecf8; --dim:#a9b4d0;
+    --indigo:#3d6bff; --indigo-l:#7c9cff; --cyan:#22d3ee; --good:#34d399; --warn:#fbbf24;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--ink); color:var(--fg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:900px;margin:0 auto;padding:48px 20px 72px}
+  header{text-align:center;margin-bottom:40px}
+  .logo{
+    width:64px;height:64px;margin:0 auto 18px;border-radius:16px;
+    background:linear-gradient(135deg,var(--indigo),var(--cyan));
+    display:flex;align-items:center;justify-content:center;font-size:30px
+  }
+  h1{font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 10px;letter-spacing:-.02em}
+  .sub{color:var(--dim);font-size:18px;max-width:620px;margin:0 auto}
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+  .btn{
+    display:inline-block;padding:13px 22px;border-radius:12px;text-decoration:none;
+    font-weight:600;font-size:15px;border:1px solid transparent
+  }
+  .btn.primary{background:var(--indigo);color:#fff}
+  .btn.primary:hover{background:var(--indigo-l);color:var(--ink)}
+  .btn.ghost{border-color:var(--line);color:var(--fg)}
+  .btn.ghost:hover{border-color:var(--indigo-l);color:var(--indigo-l)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:40px 0}
+  .card{background:var(--card);border:1px solid rgba(51,64,107,.6);border-radius:16px;padding:20px}
+  .card h3{margin:0 0 8px;font-size:17px}
+  .card p{margin:0;color:var(--dim);font-size:14.5px}
+  .tag{
+    display:inline-block;font-size:11px;font-weight:600;letter-spacing:.04em;
+    padding:3px 9px;border-radius:6px;margin-bottom:10px;text-transform:uppercase
+  }
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:36px 0}
+  .stat{background:var(--ink-soft);border-radius:14px;padding:18px 12px;text-align:center}
+  .stat b{display:block;font-size:26px;color:var(--cyan);line-height:1.2}
+  .stat span{font-size:12px;color:var(--dim)}
+  h2{font-size:22px;margin:44px 0 14px;letter-spacing:-.01em}
+  ul.topics{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px}
+  ul.topics li{background:var(--ink-soft);border-radius:10px;padding:11px 14px;font-size:14.5px}
+  ul.topics li b{color:var(--indigo-l);font-weight:600}
+  #news{margin:0;padding:0;list-style:none}
+  #news li{border-bottom:1px solid rgba(51,64,107,.5);padding:14px 0}
+  #news li:last-child{border-bottom:0}
+  #news a{color:var(--fg);text-decoration:none;font-weight:600;font-size:15px}
+  #news a:hover{color:var(--indigo-l)}
+  #news .meta{font-size:12px;color:var(--dim);margin-top:3px}
+  footer{margin-top:56px;padding-top:22px;border-top:1px solid rgba(51,64,107,.5);color:var(--dim);font-size:13.5px;text-align:center}
+  footer a{color:var(--indigo-l)}
+  code{background:var(--ink-soft);padding:2px 6px;border-radius:5px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">&#129504;</div>
+    <h1>AI Interview Prep</h1>
+    <p class="sub">
+      An Android app that drills the material AI engineer interviews actually ask about —
+      ML fundamentals, transformers, RAG, fine-tuning, evaluation, serving and system design —
+      with spaced repetition, mock interviews and a daily AI news feed.
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/iknalos/AI-Interview-Prep/releases/latest">Download APK</a>
+      <a class="btn ghost" href="https://github.com/iknalos/AI-Interview-Prep">View source</a>
+      <a class="btn ghost" href="news.json">news.json feed</a>
+    </div>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><b>200</b><span>curated questions</span></div>
+    <div class="stat"><b>8</b><span>topics</span></div>
+    <div class="stat"><b>4</b><span>study modes</span></div>
+    <div class="stat"><b>daily</b><span>news refresh</span></div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <span class="tag" style="background:rgba(61,107,255,.2);color:#7c9cff">Spaced repetition</span>
+      <h3>SM-2 scheduling</h3>
+      <p>Cards you miss come back the same session and again tomorrow. Cards you know stretch out to weeks, so revision time goes where it is actually needed.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:rgba(34,211,238,.2);color:#22d3ee">Scored quiz</span>
+      <h3>Drill with a score</h3>
+      <p>Multiple choice with per-topic breakdown, a review of everything you missed, and answers that still feed the review schedule.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:rgba(52,211,153,.2);color:#34d399">Mock interview</span>
+      <h3>Say it out loud</h3>
+      <p>Open-ended questions with no options to pick from. Answer aloud, then compare against a strong spoken answer and grade yourself honestly.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:rgba(251,191,36,.2);color:#fbbf24">Lessons</span>
+      <h3>Learn the topic first</h3>
+      <p>Around 12,000 words of deep-dive explainers written the way you would explain the concept in an interview, not the way a textbook would.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:rgba(124,156,255,.2);color:#7c9cff">Focus</span>
+      <h3>Topic and difficulty filters</h3>
+      <p>Select the topics you want to become expert at and the difficulty band you want to work in. Every mode draws from that selection.</p>
+    </div>
+    <div class="card">
+      <span class="tag" style="background:rgba(34,211,238,.2);color:#22d3ee">Offline</span>
+      <h3>Works on a plane</h3>
+      <p>The whole question bank and every lesson ship inside the APK. Only the news feed needs a connection, and it caches the last fetch.</p>
+    </div>
+  </div>
+
+  <h2>What is covered</h2>
+  <ul class="topics">
+    <li><b>ML Fundamentals</b> — bias-variance, leakage, calibration, drift</li>
+    <li><b>Deep Learning</b> — backprop, normalization, optimizers, parallelism</li>
+    <li><b>Transformers &amp; LLMs</b> — attention, KV cache, MoE, quantization</li>
+    <li><b>RAG &amp; Vector Search</b> — chunking, hybrid search, HNSW, reranking</li>
+    <li><b>Fine-Tuning &amp; Alignment</b> — LoRA, RLHF, DPO, RLVR</li>
+    <li><b>Evaluation &amp; Metrics</b> — LLM-as-judge, A/B tests, Goodhart</li>
+    <li><b>MLOps &amp; Serving</b> — skew, continuous batching, cost levers</li>
+    <li><b>AI System Design</b> — retrieve-then-rank, agents, multi-tenancy</li>
+  </ul>
+
+  <h2>Latest in AI <span style="font-size:13px;font-weight:400;color:var(--dim)" id="stamp"></span></h2>
+  <ul id="news"><li style="color:var(--dim)">Loading feed…</li></ul>
+
+  <footer>
+    Built with Claude Code · <a href="https://github.com/iknalos/AI-Interview-Prep">iknalos/AI-Interview-Prep</a><br>
+    The news feed is regenerated daily by a GitHub Actions workflow from public RSS feeds.
+    The app reads <code>news.json</code> from this page, so there are no API keys involved.
+  </footer>
+
+</div>
+
+<script>
+fetch('news.json', {cache: 'no-store'})
+  .then(function (r) { return r.json(); })
+  .then(function (feed) {
+    var list = document.getElementById('news');
+    var items = (feed.items || []).slice(0, 10);
+    if (!items.length) { list.innerHTML = '<li style="color:#a9b4d0">No items yet.</li>'; return; }
+    document.getElementById('stamp').textContent = '· updated ' + (feed.generated || '');
+    list.innerHTML = items.map(function (i) {
+      var title = i.url
+        ? '<a href="' + i.url + '" rel="noopener">' + i.title + '</a>'
+        : '<span style="font-weight:600">' + i.title + '</span>';
+      var tags = (i.tags || []).slice(0, 3).join(' · ');
+      return '<li>' + title + '<div class="meta">' + [i.source, i.published, tags]
+        .filter(Boolean).join(' — ') + '</div></li>';
+    }).join('');
+  })
+  .catch(function () {
+    document.getElementById('news').innerHTML =
+      '<li style="color:#a9b4d0">Could not load the feed right now.</li>';
+  });
+</script>
+</body>
+</html>
