@@ -1,7 +1,7 @@
 {
  "generated": "2026-08-06",
- "generatedAt": "2026-08-06T23:43:13+00:00",
- "sourceCount": 11,
+ "generatedAt": "2026-08-06T23:54:14+00:00",
+ "sourceCount": 10,
  "items": [
   {
    "id": "0f0c1961f93e8e0c",
@@ -69,17 +69,6 @@
    "published": "2026-08-04",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "9cb2f25ec4cde573",
-   "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
-   "summary": "When do we build the moon arcology?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-467-self-sustaining-ai",
-   "published": "2026-08-03",
-   "tags": [
-    "newsletter"
    ]
   },
   {
@@ -205,17 +194,6 @@
    ]
   },
   {
-   "id": "ec1fb6f0e057252d",
-   "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI's accidental AI hacker",
-   "summary": "The warning shots will continue until civilization wakes up",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-466-the-bitter-lesson-for",
-   "published": "2026-07-27",
-   "tags": [
-    "newsletter"
-   ]
-  },
-  {
    "id": "39217bafd159845d",
    "title": "Using Local Coding Agents",
    "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
@@ -331,17 +309,6 @@
    "published": "2026-08-03",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "f9f8aa0a51711abd",
-   "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis' big policy plan",
-   "summary": "The singularity will be seen in hindsight as an interregnum",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-465-open-vs-closed-gaps",
-   "published": "2026-07-20",
-   "tags": [
-    "newsletter"
    ]
   },
   {
@@ -465,17 +432,6 @@
    ]
   },
   {
-   "id": "27e5ff5b99a9f4ab",
-   "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
-   "summary": "Is this the beginning of a new world?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
-   "published": "2026-07-06",
-   "tags": [
-    "newsletter"
-   ]
-  },
-  {
    "id": "ad1a0b6f01f5a507",
    "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
    "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
@@ -595,17 +551,6 @@
    ]
   },
   {
-   "id": "4697ae55d3b6733c",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "summary": "What eras bookend our interregnum?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-   "published": "2026-06-29",
-   "tags": [
-    "newsletter"
-   ]
-  },
-  {
    "id": "08d82b53d71043d3",
    "title": "My Workflow for Understanding LLM Architectures",
    "summary": "A learning-oriented workflow for understanding new open-weight model releases",
@@ -708,6 +653,69 @@
    "published": "2026-04-20",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "9bca82a43b8d9511",
+   "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
+   "summary": "The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one of the most comprehensive biomedical and clinical data repositories in existence.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
+   "published": "2026-07-29",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "d0c7d5449da94ece",
+   "title": "Components of A Coding Agent",
+   "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+   "published": "2026-04-04",
+   "tags": [
+    "newsletter",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "6b423981d8a7dfb5",
+   "title": "Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model",
+   "summary": "Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the new Muse Spark 1.2 model. Muse Code plans changes, writes code, and validates results across large repositories. Async background agents stay active for the whole session instead of spawning per task. A local append-only event log makes...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/",
+   "published": "2026-08-05",
+   "tags": [
+    "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "b51d7e6a9a6b7651",
+   "title": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
+   "summary": "Reasoning about necessity and possibility depends on assumptions about accessibility between worlds and about which objects exist at each one. The same inference may therefore hold under one modal system and fail under another. Evaluating language models on such problems requires testing whether their judgments follow the stated...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.05097v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "llm",
+    "evaluation",
+    "serving"
+   ]
+  },
+  {
+   "id": "a35a215fc1f1a80b",
+   "title": "Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition",
+   "summary": "Can computer vision help make classrooms safer? In this pilot study, we investigate privacy-aware and computationally efficient classroom incident recognition from CCTV-style observations. This setting remains underexplored, with limited benchmarks and few methods designed for the privacy, efficiency, and generalization demands of...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.05115v1",
+   "published": "2026-08-05",
+   "tags": [
+    "paper",
+    "evaluation",
+    "reasoning"
    ]
   }
  ]
