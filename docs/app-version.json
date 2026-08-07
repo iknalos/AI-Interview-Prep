@@ -1,0 +1,10 @@
+{
+ "versionCode": 4,
+ "versionName": "1.0.4",
+ "apkUrl": "https://github.com/iknalos/AI-Interview-Prep/releases/download/v1.0.4/AI-Interview-Prep.apk",
+ "sha256": "5654724a52ac5edcedd16994da4e010a407b7ace0c270080a4fd31935adb9d69",
+ "bytes": 16029087,
+ "published": "2026-08-07",
+ "minSdk": 26,
+ "notes": "Automatic updates: OTA question bank + silent 4am self-update"
+}
