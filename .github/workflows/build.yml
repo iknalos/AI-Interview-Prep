@@ -29,20 +29,21 @@ jobs:
         with:
           gradle-version: '8.7'
 
-      # A stable committed keystore means every build is signed identically, so
-      # the app updates in place instead of needing an uninstall.
-      - name: Ensure persistent signing keystore
+      # app/aiprep.keystore is committed, so every build is signed identically and
+      # the app updates in place instead of needing an uninstall. Generating it here
+      # instead (and committing from CI) races any other workflow that pushes, so
+      # forks get an ephemeral key and a warning rather than a self-commit.
+      - name: Check signing keystore
         run: |
-          if [ ! -f app/aiprep.keystore ]; then
+          if [ -f app/aiprep.keystore ]; then
+            echo "Using committed keystore; signature is stable across builds."
+          else
+            echo "::warning::No committed keystore. Generating an ephemeral one - APKs from"
+            echo "::warning::different runs will not share a signature and will not update in place."
             keytool -genkeypair -v -keystore app/aiprep.keystore \
-              -storepass aiprep -keypass aiprep -alias aiprep \
+              -storetype PKCS12 -storepass aiprep -keypass aiprep -alias aiprep \
               -keyalg RSA -keysize 2048 -validity 10000 \
               -dname "CN=AIInterviewPrep"
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add -f app/aiprep.keystore
-            git commit -m "Add persistent signing keystore [skip ci]"
-            git push origin HEAD:${{ github.ref_name }}
           fi
 
       - name: Validate bundled content

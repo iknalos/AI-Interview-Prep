@@ -5,11 +5,9 @@ on:
     # 06:20 UTC every day, a little off the hour so the feeds have settled.
     - cron: '20 6 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/fetch_news.py'
-      - '.github/workflows/daily-news.yml'
+
+# Deliberately no push trigger: this job commits docs/news.json, and running it on
+# the same push as Build APK made the two jobs race to push to main.
 
 permissions:
   contents: write
