@@ -36,7 +36,8 @@ fun HomeScreen(
     onLearn: () -> Unit,
     onNews: () -> Unit,
     onStats: () -> Unit,
-    onFilters: () -> Unit
+    onFilters: () -> Unit,
+    onSettings: () -> Unit
 ) {
     val pool = vm.filteredCards()
     val due = vm.dueCards().size
@@ -53,13 +54,45 @@ fun HomeScreen(
         verticalArrangement = Arrangement.spacedBy(14.dp)
     ) {
         item {
-            Column {
-                Text("AI Interview Prep", style = MaterialTheme.typography.headlineMedium)
-                Text(
-                    "${vm.allCards.size} questions across ${vm.topics.size} topics",
-                    style = MaterialTheme.typography.bodyMedium,
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                Column(Modifier.weight(1f)) {
+                    Text("AI Interview Prep", style = MaterialTheme.typography.headlineMedium)
+                    Text(
+                        "${vm.allCards.size} questions across ${vm.topics.size} topics",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+                RowSpacer(8)
+                OutlineButton(
+                    "Updates",
+                    onSettings,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
+            }
+        }
+
+        // Only shown when Android is genuinely blocking an install, so it is actionable
+        // rather than decorative.
+        if (!vm.updater.canInstall() && vm.settings.autoUpdate) {
+            item {
+                Panel(Modifier.fillMaxWidth(), onClick = onSettings) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Tag("one-time setup", Warn)
+                        RowSpacer(8)
+                        Text(
+                            "Enable automatic updates",
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                    }
+                    ColSpacer(6)
+                    Text(
+                        "Android needs one approval before the app can update itself at 4am. " +
+                            "Tap to grant it once.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
             }
         }
 

@@ -60,6 +60,9 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     private val contentRepo = ContentRepository(app)
     private val progressStore = ProgressStore(app)
     private val newsRepo = NewsRepository(app)
+    private val contentSync = ContentSync(app)
+    val updater = Updater(app)
+    val settings = Settings(app)
 
     var ready by mutableStateOf(false)
         private set
@@ -79,6 +82,18 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     var lastResult by mutableStateOf<QuizRecord?>(null)
         private set
 
+    /** Content and update state surfaced on the Settings screen. */
+    var contentVersion by mutableStateOf(0)
+        private set
+    var usingRemoteContent by mutableStateOf(false)
+        private set
+    var syncing by mutableStateOf(false)
+        private set
+    var syncMessage by mutableStateOf("")
+        private set
+    var pendingUpdate by mutableStateOf<AppVersion?>(null)
+        private set
+
     val topics: List<Topic> get() = if (ready) contentRepo.topics else emptyList()
     val allCards: List<Card> get() = if (ready) contentRepo.cards else emptyList()
     val lessons: List<Lesson> get() = if (ready) contentRepo.lessons else emptyList()
@@ -87,16 +102,21 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
     init {
         viewModelScope.launch {
+            // Load from the newest content available on disk first, so startup never
+            // waits on the network. A remote refresh happens afterwards.
             val loaded = withContext(Dispatchers.IO) {
-                contentRepo.load()
+                contentRepo.load(contentSync.cached())
                 progressStore.load()
             }
             progress = loaded
+            contentVersion = contentRepo.activeVersion
+            usingRemoteContent = contentRepo.usingRemoteContent
             ready = true
 
             val seed = withContext(Dispatchers.IO) { newsRepo.cached() ?: newsRepo.bundled() }
             news = news.copy(feed = seed)
             refreshNews()
+            refreshContent()
         }
     }
 
@@ -316,6 +336,79 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
             }
         }
     }
+
+    /* ---------- content over the air ---------- */
+
+    /**
+     * Pull a newer question bank if one has been published. Silent on failure: the
+     * bundled or cached bank is always a working fallback.
+     */
+    fun refreshContent() {
+        viewModelScope.launch {
+            val fresh = withContext(Dispatchers.IO) { contentSync.sync(contentRepo.bundledVersion) }
+            if (fresh != null) {
+                withContext(Dispatchers.IO) { contentRepo.load(fresh) }
+                contentVersion = contentRepo.activeVersion
+                usingRemoteContent = contentRepo.usingRemoteContent
+                // Nudge Compose to re-read derived lists that depend on the card set.
+                progress = progress.copy()
+            }
+        }
+    }
+
+    /* ---------- app updates ---------- */
+
+    fun setAutoUpdate(enabled: Boolean) {
+        settings.autoUpdate = enabled
+        if (enabled) {
+            DailySyncWorker.schedule(getApplication())
+        } else {
+            DailySyncWorker.cancel(getApplication())
+        }
+        // Touch state so the settings screen recomposes.
+        syncMessage = if (enabled) "Auto-update on" else "Auto-update off"
+    }
+
+    /** Runs the same work the 4am job does, on demand. */
+    fun syncNow() {
+        if (syncing) return
+        syncing = true
+        syncMessage = "Checking..."
+        viewModelScope.launch {
+            withContext(Dispatchers.IO) { newsRepo.fetch() }?.let {
+                news = NewsState(feed = it, loading = false, offline = false)
+            }
+
+            val fresh = withContext(Dispatchers.IO) { contentSync.sync(contentRepo.bundledVersion) }
+            if (fresh != null) {
+                withContext(Dispatchers.IO) { contentRepo.load(fresh) }
+                contentVersion = contentRepo.activeVersion
+                usingRemoteContent = contentRepo.usingRemoteContent
+                progress = progress.copy()
+            }
+
+            val result = withContext(Dispatchers.IO) { updater.checkAndInstall() }
+            syncMessage = when (result) {
+                is UpdateResult.UpToDate ->
+                    if (fresh != null) "New questions added. App is up to date."
+                    else "Everything is up to date."
+                is UpdateResult.Installing -> {
+                    pendingUpdate = null
+                    "Installing ${result.version.versionName}..."
+                }
+                is UpdateResult.NeedsPermission -> {
+                    pendingUpdate = result.version
+                    "${result.version.versionName} is ready, but Android needs permission first."
+                }
+                is UpdateResult.NoNetwork -> "Could not reach the update server."
+                is UpdateResult.Failed -> "Update failed: ${result.reason}"
+            }
+            settings.recordSync(contentVersion, syncMessage)
+            syncing = false
+        }
+    }
+
+    fun requestInstallPermission() = updater.requestInstallPermission()
 
     /* ---------- stats ---------- */
 

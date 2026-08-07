@@ -12,8 +12,9 @@ on:
 permissions:
   contents: write
 
+# Shared with build.yml: both commit to main, so they must not run concurrently.
 concurrency:
-  group: daily-news
+  group: main-writer
   cancel-in-progress: false
 
 jobs:
@@ -43,4 +44,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/news.json
           git commit -m "News: update feed for $(date -u +%Y-%m-%d) [skip ci]"
+          # Rebase first: the build workflow also writes to docs/.
+          git pull --rebase --autostash origin ${{ github.ref_name }}
           git push origin HEAD:${{ github.ref_name }}

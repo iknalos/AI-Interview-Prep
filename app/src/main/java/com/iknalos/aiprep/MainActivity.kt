@@ -38,6 +38,7 @@ import com.iknalos.aiprep.screens.LessonsScreen
 import com.iknalos.aiprep.screens.MockScreen
 import com.iknalos.aiprep.screens.NewsScreen
 import com.iknalos.aiprep.screens.QuizScreen
+import com.iknalos.aiprep.screens.SettingsScreen
 import com.iknalos.aiprep.screens.StatsScreen
 import com.iknalos.aiprep.screens.StudyScreen
 import com.iknalos.aiprep.ui.AIPrepTheme
@@ -48,6 +49,13 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Idempotent: re-registering the same unique work just refreshes the schedule,
+        // which is what we want after an update changes the job.
+        if (Settings(this).autoUpdate) {
+            DailySyncWorker.schedule(this)
+        }
+
         setContent {
             AIPrepTheme {
                 Surface(
@@ -92,6 +100,7 @@ object Routes {
     const val STATS = "stats"
     const val FOCUS = "focus"
     const val LESSON = "lesson"
+    const val SETTINGS = "settings"
 }
 
 @Composable
@@ -129,7 +138,8 @@ private fun AppRoot(vm: AppViewModel) {
                     onLearn = { nav.navigateTab(Routes.LEARN) },
                     onNews = { nav.navigateTab(Routes.NEWS) },
                     onStats = { nav.navigate(Routes.STATS) },
-                    onFilters = { nav.navigate(Routes.FOCUS) }
+                    onFilters = { nav.navigate(Routes.FOCUS) },
+                    onSettings = { nav.navigate(Routes.SETTINGS) }
                 )
             }
             composable(Routes.STUDY) {
@@ -152,6 +162,9 @@ private fun AppRoot(vm: AppViewModel) {
             }
             composable(Routes.FOCUS) {
                 FocusScreen(vm) { nav.popBackStack() }
+            }
+            composable(Routes.SETTINGS) {
+                SettingsScreen(vm)
             }
             composable("${Routes.LESSON}/{topicId}") { entry ->
                 val topicId = entry.arguments?.getString("topicId").orEmpty()

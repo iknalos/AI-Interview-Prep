@@ -11,9 +11,21 @@ on:
 permissions:
   contents: write
 
+# Shared with daily-news.yml. Both workflows commit to main, and running them at the
+# same time made them race to push; serialising them removes the race entirely.
+concurrency:
+  group: main-writer
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:
+      # Monotonic per run, so a newer release always outranks an older install.
+      VERSION_CODE: ${{ github.run_number }}
+      VERSION_NAME: 1.0.${{ github.run_number }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,17 +41,16 @@ jobs:
         with:
           gradle-version: '8.7'
 
-      # app/aiprep.keystore is committed, so every build is signed identically and
-      # the app updates in place instead of needing an uninstall. Generating it here
-      # instead (and committing from CI) races any other workflow that pushes, so
-      # forks get an ephemeral key and a warning rather than a self-commit.
+      # app/aiprep.keystore is committed, so every build is signed identically and the
+      # app can update itself silently (Android requires a matching signature). Forks
+      # without it get an ephemeral key and a warning rather than a CI self-commit.
       - name: Check signing keystore
         run: |
           if [ -f app/aiprep.keystore ]; then
             echo "Using committed keystore; signature is stable across builds."
           else
             echo "::warning::No committed keystore. Generating an ephemeral one - APKs from"
-            echo "::warning::different runs will not share a signature and will not update in place."
+            echo "::warning::different runs will not share a signature and cannot self-update."
             keytool -genkeypair -v -keystore app/aiprep.keystore \
               -storetype PKCS12 -storepass aiprep -keypass aiprep -alias aiprep \
               -keyalg RSA -keysize 2048 -validity 10000 \
@@ -49,11 +60,55 @@ jobs:
       - name: Validate bundled content
         run: python3 scripts/validate_content.py
 
+      # Built before the APK so the bundled copy records which content version it
+      # carries; the app only downloads a remote bundle that is strictly newer.
+      - name: Build content bundle
+        run: |
+          python3 scripts/build_content_bundle.py --out-dir docs
+          python3 -c "import json;print(json.load(open('docs/content-index.json'))['contentVersion'])" \
+            > app/src/main/assets/content-version.txt
+          echo "Bundled content version: $(cat app/src/main/assets/content-version.txt)"
+
       - name: Build debug APK
         run: gradle assembleDebug --no-daemon --stacktrace
 
       - name: Rename APK
         run: cp app/build/outputs/apk/debug/app-debug.apk AI-Interview-Prep.apk
+
+      # The manifest the in-app updater polls. Published before the release is created,
+      # but pointing at the release asset URL, which is deterministic from the tag.
+      - name: Publish version manifest
+        run: |
+          SHA=$(sha256sum AI-Interview-Prep.apk | cut -d' ' -f1)
+          SIZE=$(stat -c%s AI-Interview-Prep.apk)
+          cat > docs/app-version.json <<JSON
+          {
+           "versionCode": ${VERSION_CODE},
+           "versionName": "${VERSION_NAME}",
+           "apkUrl": "https://github.com/${{ github.repository }}/releases/download/v${VERSION_NAME}/AI-Interview-Prep.apk",
+           "sha256": "${SHA}",
+           "bytes": ${SIZE},
+           "published": "$(date -u +%Y-%m-%d)",
+           "minSdk": 26,
+           "notes": "$(git log -1 --pretty=%s | tr -d '"' | cut -c1-160)"
+          }
+          JSON
+          cat docs/app-version.json
+
+      - name: Commit manifests
+        run: |
+          if git diff --quiet -- docs/ app/src/main/assets/content-version.txt; then
+            echo "Manifests unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/app-version.json docs/content.json docs/content-index.json \
+                  app/src/main/assets/content-version.txt
+          git commit -m "Publish content v$(cat app/src/main/assets/content-version.txt) and app ${VERSION_NAME} [skip ci]"
+          # Rebase first: the news workflow also writes to docs/.
+          git pull --rebase --autostash origin ${{ github.ref_name }}
+          git push origin HEAD:${{ github.ref_name }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -64,11 +119,12 @@ jobs:
       - name: Create release with APK
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.${{ github.run_number }}
-          name: AI Interview Prep v1.0.${{ github.run_number }}
+          tag_name: v${{ env.VERSION_NAME }}
+          name: AI Interview Prep ${{ env.VERSION_NAME }}
           files: AI-Interview-Prep.apk
           body: |
-            200 interview questions across 8 topics, spaced repetition, scored quizzes,
+            200+ interview questions across 8 topics, spaced repetition, scored quizzes,
             mock interview mode, topic lessons, and a daily AI news feed.
 
-            Install the APK on Android 8.0 or newer. Updates install in place.
+            Installed copies with automatic updates enabled will pick this up at the next
+            4am check. Install manually on Android 8.0 or newer; updates install in place.
