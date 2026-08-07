@@ -39,6 +39,39 @@ Cards live in `app/src/main/assets/cards_<topic>.json`, one file per topic, so t
 by adding a file — no code change needed. `scripts/validate_content.py` gates every build on
 schema, duplicate IDs, option count, and answer-index sanity.
 
+## Automatic updates
+
+Install once, grant one Android permission, and the app maintains itself.
+
+**Content updates need no install at all.** The question bank and lessons are published
+as a versioned bundle to GitHub Pages (`docs/content.json`, plus a small
+`content-index.json` the app polls). The app downloads it only when the published version
+is higher than what it has, verifies the SHA-256, and prefers it over the copies baked
+into the APK. The bundled copy remains the offline floor, so first launch and no-network
+both work. Adding 50 questions reaches every installed copy without anyone installing
+anything.
+
+**App updates install themselves.** A WorkManager job runs daily at about 4am on
+unmetered network, refreshes news, pulls new content, then reads `docs/app-version.json`,
+downloads the release APK, verifies its SHA-256, and installs it through
+`PackageInstaller` with `USER_ACTION_NOT_REQUIRED`. That is genuinely silent on Android 12+
+because the app is updating *itself* with a matching signature — which the committed
+keystore guarantees. On Android 8–11 the silent path does not exist, so those devices get
+one confirmation per update.
+
+**The one manual step:** Android requires the user to grant "install unknown apps" once,
+in Settings. No app can skip this, including apps distributed through Play. The app
+surfaces it as an actionable card on Home and in Settings rather than retrying forever.
+
+Both digests are asserted in CI, because a mismatch would make the app silently reject
+every update — a failure that is invisible until someone notices they have not been
+updated in a month. `.gitattributes` marks the checksummed files `-text` so line-ending
+translation cannot corrupt them either.
+
+The Settings screen shows app version, content version, content source (bundled vs over
+the air), last check time and result, an auto-update toggle, a check-now button, and a
+button that queues the exact 4am job so the whole path can be verified on demand.
+
 ## Daily news feed
 
 `scripts/fetch_news.py` aggregates public RSS/Atom feeds (OpenAI, Google Research, DeepMind,
@@ -72,16 +105,26 @@ python scripts/fetch_news.py --out docs/news.json
 
 ```
 app/src/main/
-  assets/            cards_*.json (question bank), lessons.json, news.json (fallback)
+  assets/            cards_*.json (question bank), lessons.json,
+                     news.json + content-version.txt (offline fallbacks)
   java/com/iknalos/aiprep/
-    MainActivity.kt        Compose nav host + bottom bar
-    AppViewModel.kt        all session state (study / quiz / mock / news)
+    MainActivity.kt        Compose nav host + bottom bar, schedules the 4am job
+    AppViewModel.kt        all session state (study / quiz / mock / news / sync)
     Models.kt              content + persisted progress models
-    Content.kt             asset loader, topic ordering
+    Content.kt             loads bundled or over-the-air content, topic ordering
+    ContentSync.kt         versioned content bundle fetch, verify, cache
     Progress.kt            SM-2 scheduler, JSON progress store, streaks
     News.kt                feed fetch + cache + bundled fallback
+    Updater.kt             version manifest, APK download, silent self-install
+    DailySync.kt           4am WorkManager job + settings wrapper
     ui/                    theme and shared composables
-    screens/               Home, Study, Quiz, Mock, Lessons, News, Stats, Focus
+    screens/               Home, Study, Quiz, Mock, Lessons, News, Stats,
+                           Focus, Settings
+
+scripts/
+  validate_content.py      schema gate on the question bank (runs in CI)
+  build_content_bundle.py  deterministic content bundle + index for Pages
+  fetch_news.py            RSS aggregator for the daily feed
 ```
 
 Deliberately dependency-light: no Room, no Retrofit, no DI framework. Progress is a single

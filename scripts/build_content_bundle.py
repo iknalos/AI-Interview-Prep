@@ -52,6 +52,27 @@ def content_version(paths):
     return 1000 + (dt.date.today() - epoch).days
 
 
+def content_date(paths):
+    """
+    Date the content last actually changed, taken from git rather than the clock.
+
+    Using today's date would give the bundle different bytes on every build, so CI
+    would commit and republish an identical question bank each time and the digest
+    would churn for no reason.
+    """
+    try:
+        out = subprocess.run(
+            ["git", "log", "-1", "--format=%cs", "--"] + paths,
+            capture_output=True, text=True, timeout=30, check=True,
+        )
+        stamp = out.stdout.strip()
+        if len(stamp) == 10:
+            return stamp
+    except (subprocess.SubprocessError, OSError):
+        pass
+    return dt.date.today().isoformat()
+
+
 def load(path):
     with open(path, encoding="utf-8") as fh:
         return json.load(fh)
@@ -81,11 +102,12 @@ def main():
         print("ERROR: refusing to publish an empty bundle", file=sys.stderr)
         return 1
 
-    version = content_version(card_files + [lessons_path])
+    content_paths = card_files + [lessons_path]
+    version = content_version(content_paths)
 
     bundle = {
         "contentVersion": version,
-        "generated": dt.date.today().isoformat(),
+        "generated": content_date(content_paths),
         "cardCount": total_cards,
         "topicCount": len(topics),
         "topics": topics,
