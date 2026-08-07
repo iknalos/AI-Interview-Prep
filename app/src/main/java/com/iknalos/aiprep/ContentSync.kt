@@ -82,12 +82,20 @@ class ContentSync(private val context: Context) {
         val have = maxOf(cachedVersion(), bundledVersion)
         if (index.contentVersion <= have) return null
 
-        val body = fetchText(index.url.ifBlank { return null }) ?: return null
+        // Hashed as raw bytes, exactly as the publisher hashed them, so no text
+        // decode/re-encode round trip can shift the digest.
+        val bytes = fetchBytes(index.url.ifBlank { return null }) ?: return null
 
         // Verify before trusting: a truncated download is worse than no download.
         if (index.sha256.isNotBlank()) {
-            val actual = sha256(body)
+            val actual = sha256(bytes)
             if (!actual.equals(index.sha256, ignoreCase = true)) return null
+        }
+
+        val body = try {
+            bytes.toString(Charsets.UTF_8)
+        } catch (e: Exception) {
+            return null
         }
 
         val bundle = try {
@@ -116,7 +124,10 @@ class ContentSync(private val context: Context) {
         }
     }
 
-    private fun fetchText(url: String): String? {
+    private fun fetchText(url: String): String? =
+        fetchBytes(url)?.toString(Charsets.UTF_8)
+
+    private fun fetchBytes(url: String): ByteArray? {
         var conn: HttpURLConnection? = null
         return try {
             conn = (URL(url).openConnection() as HttpURLConnection).apply {
@@ -127,7 +138,7 @@ class ContentSync(private val context: Context) {
                 setRequestProperty("Accept", "application/json")
             }
             if (conn.responseCode !in 200..299) return null
-            conn.inputStream.bufferedReader().use { it.readText() }
+            conn.inputStream.use { it.readBytes() }
         } catch (e: Exception) {
             null
         } finally {
@@ -135,8 +146,8 @@ class ContentSync(private val context: Context) {
         }
     }
 
-    private fun sha256(text: String): String {
-        val digest = MessageDigest.getInstance("SHA-256").digest(text.toByteArray())
+    private fun sha256(bytes: ByteArray): String {
+        val digest = MessageDigest.getInstance("SHA-256").digest(bytes)
         val sb = StringBuilder(digest.size * 2)
         for (b in digest) sb.append("%02x".format(b))
         return sb.toString()

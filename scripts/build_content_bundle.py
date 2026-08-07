@@ -95,14 +95,22 @@ def main():
     os.makedirs(args.out_dir, exist_ok=True)
     bundle_path = os.path.join(args.out_dir, "content.json")
 
-    # Compact, and sorted so an unchanged bundle produces an identical file and
-    # the workflow does not create empty commits.
-    payload = json.dumps(bundle, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
-    with open(bundle_path, "w", encoding="utf-8") as fh:
-        fh.write(payload)
-        fh.write("\n")
+    # Compact, and sorted so an unchanged bundle produces an identical file and the
+    # workflow does not create empty commits.
+    #
+    # Written and hashed as the same bytes, in binary mode. Hashing the payload but
+    # writing payload + newline made the published digest disagree with the served
+    # file, so the app rejected every update; text mode on Windows would break it
+    # again by translating the newline.
+    payload = json.dumps(
+        bundle, ensure_ascii=False, separators=(",", ":"), sort_keys=True
+    ) + "\n"
+    data = payload.encode("utf-8")
 
-    digest = hashlib.sha256(payload.encode("utf-8")).hexdigest()
+    with open(bundle_path, "wb") as fh:
+        fh.write(data)
+
+    digest = hashlib.sha256(data).hexdigest()
 
     index = {
         "contentVersion": version,
@@ -110,7 +118,7 @@ def main():
         "cardCount": total_cards,
         "topicCount": len(topics),
         "lessonCount": len(lessons),
-        "bytes": len(payload),
+        "bytes": len(data),
         "sha256": digest,
         "url": "https://iknalos.github.io/AI-Interview-Prep/content.json",
     }

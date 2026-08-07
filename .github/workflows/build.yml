@@ -69,6 +69,20 @@ jobs:
             > app/src/main/assets/content-version.txt
           echo "Bundled content version: $(cat app/src/main/assets/content-version.txt)"
 
+      # The app refuses any bundle whose bytes do not match the published digest, so a
+      # mismatch here would silently disable content updates forever. Cheap to assert.
+      - name: Verify content checksum matches the published file
+        run: |
+          PUBLISHED=$(python3 -c "import json;print(json.load(open('docs/content-index.json'))['sha256'])")
+          ACTUAL=$(sha256sum docs/content.json | cut -d' ' -f1)
+          echo "published: $PUBLISHED"
+          echo "actual:    $ACTUAL"
+          if [ "$PUBLISHED" != "$ACTUAL" ]; then
+            echo "::error::content-index.json sha256 does not match docs/content.json."
+            echo "::error::The app would reject every content update. Failing the build."
+            exit 1
+          fi
+
       - name: Build debug APK
         run: gradle assembleDebug --no-daemon --stacktrace
 
@@ -94,6 +108,8 @@ jobs:
           }
           JSON
           cat docs/app-version.json
+          # Same reasoning as the content digest: a wrong APK hash disables updates.
+          test "$SHA" = "$(sha256sum AI-Interview-Prep.apk | cut -d' ' -f1)"
 
       - name: Commit manifests
         run: |

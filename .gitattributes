@@ -1,0 +1,12 @@
+# These files are checksummed byte-for-byte and the app rejects any mismatch, so
+# line-ending translation must never touch them. Without this, a commit from a
+# Windows checkout could publish CRLF while the digest was computed over LF.
+docs/content.json          -text
+docs/content-index.json    -text
+docs/app-version.json      -text
+docs/news.json             -text
+app/src/main/assets/*.json -text
+app/src/main/assets/content-version.txt -text
+
+*.keystore binary
+*.apk binary

@@ -1,10 +1,10 @@
 {
  "contentVersion": 1,
- "generated": "2026-08-07",
+ "generated": "2026-08-06",
  "cardCount": 200,
  "topicCount": 8,
  "lessonCount": 8,
- "bytes": 548900,
- "sha256": "7bc00772805f0f77f5e29e7fcc18ec9e0f67eb70fa49d61e8722c67e84c16fbf",
+ "bytes": 548901,
+ "sha256": "8ff012659b6421e619ce4a1b86c825d4c5154a061c61c8c46e6f763877d43f63",
  "url": "https://iknalos.github.io/AI-Interview-Prep/content.json"
 }
