@@ -1,10 +1,10 @@
 {
- "versionCode": 5,
- "versionName": "1.0.5",
- "apkUrl": "https://github.com/iknalos/AI-Interview-Prep/releases/download/v1.0.5/AI-Interview-Prep.apk",
- "sha256": "3e71cbcbf0ed8e0545bd6aff7bdf3eef1ed984baa921fb773158c8ca96eabb23",
- "bytes": 16029251,
+ "versionCode": 6,
+ "versionName": "1.0.6",
+ "apkUrl": "https://github.com/iknalos/AI-Interview-Prep/releases/download/v1.0.6/AI-Interview-Prep.apk",
+ "sha256": "015ca448d87ffa508bd69bf83d80dd751296c1baefdd1bbf03eb3287a6df3a38",
+ "bytes": 16029143,
  "published": "2026-08-07",
  "minSdk": 26,
- "notes": "Fix content checksum mismatch that would reject every OTA update"
+ "notes": "Make content bundle deterministic; document the update system"
 }
