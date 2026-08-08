@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-07",
- "generatedAt": "2026-08-07T07:46:19+00:00",
+ "generated": "2026-08-08",
+ "generatedAt": "2026-08-08T07:18:30+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "0f0c1961f93e8e0c",
-   "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-   "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+   "id": "833934ee3b25f4a5",
+   "title": "Responding to the next frontier of critical cyber capabilities",
+   "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-   "published": "2026-08-06",
+   "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+   "published": "2026-08-07",
    "tags": [
     "labs",
-    "llm"
+    "evaluation"
    ]
   },
   {
@@ -38,15 +38,14 @@
    ]
   },
   {
-   "id": "72ea094fa822e0b0",
-   "title": "Baseten on Hugging Face Inference Providers 🔥",
+   "id": "fd5b733b3580dcf8",
+   "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/baseten",
-   "published": "2026-08-06",
+   "url": "https://huggingface.co/blog/allenai/tutormoments",
+   "published": "2026-08-07",
    "tags": [
-    "open-source",
-    "serving"
+    "open-source"
    ]
   },
   {
@@ -85,15 +84,17 @@
    ]
   },
   {
-   "id": "f0a57af909435b71",
-   "title": "Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot",
-   "summary": "Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository. It reads a repository before writing anything — detecting the language, test framework, existing conventions, and the real build and test commands — then plans, writes, runs and validates the tests it...",
+   "id": "31f54e69b43e3a7e",
+   "title": "Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size",
+   "summary": "Mistral AI has released Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a single yes/no question instead of a fixed harm taxonomy. Operators supply the policy as a plain-language query at inference time and get back a calibrated safety score from one forward pass — no...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/",
-   "published": "2026-08-07",
+   "url": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/",
+   "published": "2026-08-08",
    "tags": [
     "industry",
-    "agents"
+    "serving",
+    "multimodal",
+    "safety"
    ]
   },
   {
@@ -121,14 +122,15 @@
    ]
   },
   {
-   "id": "6da5f2d271da214d",
-   "title": "Working with the American Psychological Association on youth mental health and AI",
-   "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+   "id": "2ee94000fec4618b",
+   "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+   "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-   "published": "2026-08-06",
+   "url": "https://openai.com/index/hsp-gruppe",
+   "published": "2026-08-07",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -155,15 +157,15 @@
    ]
   },
   {
-   "id": "ea7f6df3de1a3ce4",
-   "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+   "id": "72ea094fa822e0b0",
+   "title": "Baseten on Hugging Face Inference Providers 🔥",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-   "published": "2026-08-04",
+   "url": "https://huggingface.co/blog/baseten",
+   "published": "2026-08-06",
    "tags": [
     "open-source",
-    "agents"
+    "serving"
    ]
   },
   {
@@ -203,14 +205,15 @@
    ]
   },
   {
-   "id": "ce5123283efeeeec",
-   "title": "Liquid AI Releases LFM2.5-2.6B: An On-Device Agentic Model With 128K Context, Tool Calling, And Open Weights",
-   "summary": "Liquid AI released LFM2.5-2.6B, an agentic model that plans, calls tools, and completes multi-step tasks entirely on-device. The 2.69B parameter model pairs 22 double-gated short convolution blocks with 8 GQA blocks across 30 layers, handles 131,072 tokens of context, and decodes at 220 tokens/s on an M5 Max in under 2.5 GB. Open weights...",
+   "id": "85b6ec64bb1ab981",
+   "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents",
+   "summary": "Tencent Cloud has open-sourced TencentDB Agent Memory v2.0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki and Code-Graph. It is MIT-licensed, self-hosted via Docker, and integrates with Claude Code, OpenClaw, Hermes and CodeBuddy. The differentiator...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model/",
+   "url": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
    "published": "2026-08-07",
    "tags": [
     "industry",
+    "llm",
     "agents"
    ]
   },
@@ -240,11 +243,11 @@
    ]
   },
   {
-   "id": "fea9ae47ebf2b0f0",
-   "title": "From asking to doing: How the world is putting ChatGPT to work",
-   "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+   "id": "0f0c1961f93e8e0c",
+   "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+   "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+   "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
    "published": "2026-08-06",
    "tags": [
     "labs",
@@ -274,14 +277,15 @@
    ]
   },
   {
-   "id": "f684c3a66a25993b",
-   "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+   "id": "ea7f6df3de1a3ce4",
+   "title": "Deploy local agents everywhere with LFM2.5-2.6B",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-   "published": "2026-07-30",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+   "published": "2026-08-04",
    "tags": [
-    "open-source"
+    "open-source",
+    "agents"
    ]
   },
   {
@@ -322,15 +326,17 @@
    ]
   },
   {
-   "id": "a670fa9d5529a845",
-   "title": "Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers",
-   "summary": "Cloudflare has released Kitesurf, a stateless web browser built specifically for AI agents that runs entirely in V8 isolates on Cloudflare Workers, with no Chromium underneath. The browser drops human-facing features like tabs and extensions in favor of what agents need: machine-readable content, scalability, and isolation. Built in 12...",
+   "id": "a40806a6704dbc10",
+   "title": "Building a Multimodal RAG Pipeline with NVIDIA NeMo Retriever, Hosted NIMs, LanceDB, Reranking, and Grounded Generation",
+   "summary": "In this tutorial, we build an advanced multimodal retrieval-augmented generation pipeline with NVIDIA NeMo Retriever. We begin by configuring a Python 3.12 environment, installing the required packages, and performing offline PDF text extraction without relying on a GPU or external API key. We then extend the workflow with hosted NVIDIA...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
-   "published": "2026-08-06",
+   "url": "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation/",
+   "published": "2026-08-07",
    "tags": [
     "industry",
-    "agents"
+    "rag",
+    "evaluation",
+    "multimodal"
    ]
   },
   {
@@ -360,15 +366,14 @@
    ]
   },
   {
-   "id": "977f60f7e5e3c697",
-   "title": "Third-party cyber evaluations involving OpenAI models",
-   "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+   "id": "6da5f2d271da214d",
+   "title": "Working with the American Psychological Association on youth mental health and AI",
+   "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-   "published": "2026-08-04",
+   "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+   "published": "2026-08-06",
    "tags": [
-    "labs",
-    "evaluation"
+    "labs"
    ]
   },
   {
@@ -395,16 +400,14 @@
    ]
   },
   {
-   "id": "92e866603de31506",
-   "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+   "id": "f684c3a66a25993b",
+   "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-   "published": "2026-07-28",
+   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+   "published": "2026-07-30",
    "tags": [
-    "open-source",
-    "llm",
-    "serving"
+    "open-source"
    ]
   },
   {
@@ -442,14 +445,15 @@
    ]
   },
   {
-   "id": "e7f3784ff2b9499c",
-   "title": "Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide",
-   "summary": "In this tutorial, we explore adaptive experimentation using Meta’s Ax with the modern Client API. We work through a complete workflow where we tune a RandomForest model on a synthetic classification dataset while balancing predictive accuracy against model footprint. We begin by defining a mixed search space with integer, float...",
+   "id": "4db82604a2ea322f",
+   "title": "NVIDIA AI Releases NOOA: An Object-Oriented Python Framework That Turns an AI Agent Into a Single Python Class",
+   "summary": "NVIDIA Labs has open-sourced NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework for building AI agents. Agent development today is split across prompt templates, tool schemas, callback code, and workflow graphs. NOOA collapses all of it into one Python class. Methods are the actions the model can take. Fields are...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide/",
-   "published": "2026-08-06",
+   "url": "https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/",
+   "published": "2026-08-07",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
@@ -476,12 +480,12 @@
    ]
   },
   {
-   "id": "b274d6785ee9abb7",
-   "title": "New ways to learn and teach with ChatGPT Work and Codex",
-   "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+   "id": "fea9ae47ebf2b0f0",
+   "title": "From asking to doing: How the world is putting ChatGPT to work",
+   "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-   "published": "2026-08-04",
+   "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+   "published": "2026-08-06",
    "tags": [
     "labs",
     "llm"
@@ -557,15 +561,14 @@
    ]
   },
   {
-   "id": "d5b8622f65feee3b",
-   "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
-   "summary": "Prime Intellect has open-sourced Prime Agent, a coding and research harness built on two abstractions: the Recursive Language Model, which turns sub-agent calls into functions inside a persistent IPython kernel, and the Continual Harness, which lets the agent edit its own prompts, skills, memory, and sub-agent specs mid-run. With Opus 5...",
+   "id": "f0a57af909435b71",
+   "title": "Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot",
+   "summary": "Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository. It reads a repository before writing anything — detecting the language, test framework, existing conventions, and the real build and test commands — then plans, writes, runs and validates the tests it...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/",
-   "published": "2026-08-06",
+   "url": "https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/",
+   "published": "2026-08-07",
    "tags": [
     "industry",
-    "llm",
     "agents"
    ]
   },
@@ -597,14 +600,15 @@
    ]
   },
   {
-   "id": "2163b413300de52f",
-   "title": "Apple is getting this wrong",
-   "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+   "id": "977f60f7e5e3c697",
+   "title": "Third-party cyber evaluations involving OpenAI models",
+   "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/apple-is-getting-this-wrong",
-   "published": "2026-08-03",
+   "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+   "published": "2026-08-04",
    "tags": [
-    "labs"
+    "labs",
+    "evaluation"
    ]
   },
   {
@@ -677,12 +681,12 @@
    ]
   },
   {
-   "id": "3530034afa56a13a",
-   "title": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
-   "summary": "Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is in Section 4.3: the exported best_skill.md keeps working in environments it was never trained on. A Codex-trained SpreadsheetBench skill lifted Claude Code from 22.1 to 81.8, slightly above the 80.4 that harness reached training its own...",
+   "id": "ce5123283efeeeec",
+   "title": "Liquid AI Releases LFM2.5-2.6B: An On-Device Agentic Model With 128K Context, Tool Calling, And Open Weights",
+   "summary": "Liquid AI released LFM2.5-2.6B, an agentic model that plans, calls tools, and completes multi-step tasks entirely on-device. The 2.69B parameter model pairs 22 double-gated short convolution blocks with 8 GQA blocks across 30 layers, handles 131,072 tokens of context, and decodes at 220 tokens/s on an M5 Max in under 2.5 GB. Open weights...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/",
-   "published": "2026-08-06",
+   "url": "https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model/",
+   "published": "2026-08-07",
    "tags": [
     "industry",
     "agents"
