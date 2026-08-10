@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Bolt
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Newspaper
@@ -31,6 +32,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.iknalos.aiprep.screens.FlashScreen
 import com.iknalos.aiprep.screens.FocusScreen
 import com.iknalos.aiprep.screens.HomeScreen
 import com.iknalos.aiprep.screens.LessonDetailScreen
@@ -82,8 +84,11 @@ private data class Tab(
     val icon: ImageVector
 )
 
+// Six is one past the Material guideline, but every mode earns its place and the
+// labels are short enough to fit a small phone.
 private val tabs = listOf(
     Tab(Routes.HOME, "Home", Icons.Filled.Home),
+    Tab(Routes.FLASH, "Flash", Icons.Filled.Bolt),
     Tab(Routes.STUDY, "Study", Icons.Filled.Style),
     Tab(Routes.QUIZ, "Quiz", Icons.Filled.TaskAlt),
     Tab(Routes.LEARN, "Learn", Icons.Filled.MenuBook),
@@ -92,6 +97,7 @@ private val tabs = listOf(
 
 object Routes {
     const val HOME = "home"
+    const val FLASH = "flash"
     const val STUDY = "study"
     const val QUIZ = "quiz"
     const val LEARN = "learn"
@@ -133,6 +139,7 @@ private fun AppRoot(vm: AppViewModel) {
                 HomeScreen(
                     vm = vm,
                     onStudy = { nav.navigateTab(Routes.STUDY) },
+                    onFlash = { nav.navigateTab(Routes.FLASH) },
                     onQuiz = { nav.navigateTab(Routes.QUIZ) },
                     onMock = { nav.navigate(Routes.MOCK) },
                     onLearn = { nav.navigateTab(Routes.LEARN) },
@@ -140,6 +147,13 @@ private fun AppRoot(vm: AppViewModel) {
                     onStats = { nav.navigate(Routes.STATS) },
                     onFilters = { nav.navigate(Routes.FOCUS) },
                     onSettings = { nav.navigate(Routes.SETTINGS) }
+                )
+            }
+            composable(Routes.FLASH) {
+                FlashScreen(
+                    vm = vm,
+                    onLesson = { topicId -> nav.navigate("${Routes.LESSON}/$topicId") },
+                    onExit = { nav.navigateTab(Routes.HOME) }
                 )
             }
             composable(Routes.STUDY) {

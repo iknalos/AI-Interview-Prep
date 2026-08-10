@@ -44,8 +44,8 @@ import kotlin.math.roundToInt
 fun StatsScreen(vm: AppViewModel) {
     var confirmReset by remember { mutableStateOf(false) }
     val stats = vm.topicStats()
-    val totalCards = vm.allCards.size
-    val touched = vm.progress.cards.size
+    val totalCards = vm.totalItemCount()
+    val touched = vm.seenItemCount()
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
@@ -81,6 +81,12 @@ fun StatsScreen(vm: AppViewModel) {
                 Text(
                     "$touched of $totalCards cards seen",
                     style = MaterialTheme.typography.titleMedium
+                )
+                ColSpacer(4)
+                Text(
+                    "Questions and flashcards together",
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
                 ColSpacer(8)
                 Bar(

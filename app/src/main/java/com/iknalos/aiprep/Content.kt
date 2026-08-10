@@ -12,13 +12,16 @@ import kotlinx.serialization.json.Json
  * its version is higher. That is what lets new questions arrive without an install.
  *
  * Cards are bundled one file per topic (`cards_<topic>.json`), so the bank grows by
- * dropping in another file with no code change here.
+ * dropping in another file with no code change here. Flashcards follow the same
+ * convention in `flash_<topic>.json`.
  */
 class ContentRepository(private val context: Context) {
 
     private val json = Json { ignoreUnknownKeys = true; isLenient = true }
 
     lateinit var cards: List<Card>
+        private set
+    lateinit var flashCards: List<FlashCard>
         private set
     lateinit var topics: List<Topic>
         private set
@@ -39,19 +42,28 @@ class ContentRepository(private val context: Context) {
     fun load(remote: ContentBundle? = null) {
         val bundledTopics = readBundledTopics()
         val bundledLessons = readBundledLessons()
+        val bundledFlash = readBundledFlash()
         bundledVersion = readBundledContentVersion()
 
         val useRemote = remote != null && remote.contentVersion > bundledVersion
         val topicFiles = if (useRemote) remote!!.topics else bundledTopics
         val lessonList = if (useRemote) remote!!.lessons else bundledLessons
+        // A bundle published before flashcards existed carries none. Falling back to
+        // the bundled set keeps the mode alive instead of emptying it on update.
+        val remoteFlash = remote?.flashcards ?: emptyList()
+        val flashFiles = if (useRemote && remoteFlash.isNotEmpty()) remoteFlash else bundledFlash
 
         usingRemoteContent = useRemote
         activeVersion = if (useRemote) remote!!.contentVersion else bundledVersion
 
-        apply(topicFiles, lessonList)
+        apply(topicFiles, lessonList, flashFiles)
     }
 
-    private fun apply(topicFiles: List<TopicFile>, lessonList: List<Lesson>) {
+    private fun apply(
+        topicFiles: List<TopicFile>,
+        lessonList: List<Lesson>,
+        flashFiles: List<FlashFile>
+    ) {
         val all = ArrayList<Card>()
         for (file in topicFiles) {
             for (c in file.cards) {
@@ -76,6 +88,29 @@ class ContentRepository(private val context: Context) {
         // A duplicate id would collide in the progress map, so keep the first.
         cards = all.distinctBy { it.id }
         lessons = lessonList
+
+        val flash = ArrayList<FlashCard>()
+        for (file in flashFiles) {
+            for (c in file.cards) {
+                // Two options, exactly one right: that is the whole premise of the mode.
+                if (c.options.size != 2 || c.answer !in 0..1) continue
+                if (c.prompt.isBlank() || c.options.any { it.isBlank() }) continue
+                flash.add(
+                    FlashCard(
+                        id = c.id,
+                        topicId = file.topicId,
+                        topicName = file.topicName,
+                        difficulty = Difficulty.from(c.difficulty),
+                        prompt = c.prompt,
+                        visual = visualOf(c.visual),
+                        options = c.options,
+                        answer = c.answer,
+                        explanation = c.explanation
+                    )
+                )
+            }
+        }
+        flashCards = flash.distinctBy { it.id }
 
         // Topic order follows lesson order so the curriculum reads sensibly, with any
         // topic that has cards but no lesson appended at the end.
@@ -110,6 +145,56 @@ class ContentRepository(private val context: Context) {
         return out
     }
 
+    /**
+     * A visual is decoration, never the question itself, so anything malformed is
+     * dropped rather than allowed to fail the card. The prompt still stands alone.
+     */
+    private fun visualOf(v: FlashVisualJson?): FlashVisual? {
+        if (v == null) return null
+        val kind = when (v.type.lowercase()) {
+            "flowchart" -> VisualKind.FLOWCHART
+            "table" -> VisualKind.TABLE
+            "diagram" -> VisualKind.DIAGRAM
+            "code" -> VisualKind.CODE
+            "image" -> VisualKind.IMAGE
+            else -> return null
+        }
+        val complete = when (kind) {
+            VisualKind.FLOWCHART -> v.steps.size >= 2
+            VisualKind.TABLE -> v.headers.isNotEmpty() && v.rows.isNotEmpty()
+            VisualKind.DIAGRAM, VisualKind.CODE -> v.text.isNotBlank()
+            VisualKind.IMAGE -> v.data.isNotBlank()
+        }
+        if (!complete) return null
+        return FlashVisual(
+            kind = kind,
+            caption = v.caption,
+            steps = v.steps,
+            headers = v.headers,
+            rows = v.rows,
+            text = v.text,
+            imageData = v.data
+        )
+    }
+
+    private fun readBundledFlash(): List<FlashFile> {
+        val assets = context.assets
+        val names = assets.list("")
+            ?.filter { it.startsWith("flash_") && it.endsWith(".json") }
+            ?.sorted()
+            ?: emptyList()
+        val out = ArrayList<FlashFile>()
+        for (name in names) {
+            try {
+                val text = assets.open(name).bufferedReader().use { it.readText() }
+                out.add(json.decodeFromString(FlashFile.serializer(), text))
+            } catch (e: Exception) {
+                // Same reasoning as the card bank: one bad file is not worth a crash.
+            }
+        }
+        return out
+    }
+
     private fun readBundledLessons(): List<Lesson> = try {
         val text = context.assets.open("lessons.json").bufferedReader().use { it.readText() }
         json.decodeFromString(LessonsFile.serializer(), text).lessons
@@ -132,4 +217,6 @@ class ContentRepository(private val context: Context) {
     fun lessonFor(topicId: String): Lesson? = lessons.firstOrNull { it.topicId == topicId }
 
     fun card(id: String): Card? = cards.firstOrNull { it.id == id }
+
+    fun flashCard(id: String): FlashCard? = flashCards.firstOrNull { it.id == id }
 }

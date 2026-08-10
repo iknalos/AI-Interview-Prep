@@ -173,7 +173,11 @@ fun SettingsScreen(vm: AppViewModel) {
                 SectionTitle("STATUS")
                 ColSpacer(10)
                 InfoRow("App version", vm.updater.currentVersionName)
-                InfoRow("Question bank", "v${vm.contentVersion} · ${vm.allCards.size} cards")
+                InfoRow(
+                    "Question bank",
+                    "v${vm.contentVersion} · ${vm.allCards.size} cards · " +
+                        "${vm.allFlashCards.size} flashcards"
+                )
                 InfoRow(
                     "Content source",
                     if (vm.usingRemoteContent) "downloaded (over the air)" else "bundled in app"

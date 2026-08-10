@@ -31,6 +31,7 @@ import com.iknalos.aiprep.ui.Warn
 fun HomeScreen(
     vm: AppViewModel,
     onStudy: () -> Unit,
+    onFlash: () -> Unit,
     onQuiz: () -> Unit,
     onMock: () -> Unit,
     onLearn: () -> Unit,
@@ -40,6 +41,7 @@ fun HomeScreen(
     onSettings: () -> Unit
 ) {
     val pool = vm.filteredCards()
+    val flashPool = vm.filteredFlashCards().size
     val due = vm.dueCards().size
     val fresh = vm.newCards().size
     val goal = vm.progress.dailyGoal
@@ -58,7 +60,8 @@ fun HomeScreen(
                 Column(Modifier.weight(1f)) {
                     Text("AI Interview Prep", style = MaterialTheme.typography.headlineMedium)
                     Text(
-                        "${vm.allCards.size} questions across ${vm.topics.size} topics",
+                        "${vm.allCards.size} questions · ${vm.allFlashCards.size} flashcards · " +
+                            "${vm.topics.size} topics",
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -136,11 +139,22 @@ fun HomeScreen(
             Panel {
                 SectionTitle("PRACTICE")
                 ColSpacer(10)
+                // Flashcards lead: it is the lowest-effort way back in on a day when
+                // a full review session feels like too much.
+                PrimaryButton(
+                    text = "Flashcards · pick one of two",
+                    onClick = onFlash,
+                    modifier = Modifier.fillMaxWidth(),
+                    enabled = flashPool > 0
+                )
+                ColSpacer(8)
                 PrimaryButton(
                     text = if (due > 0) "Review $due due cards" else "Study ${minOf(fresh, goal)} new cards",
                     onClick = onStudy,
                     modifier = Modifier.fillMaxWidth(),
-                    enabled = pool.isNotEmpty()
+                    enabled = pool.isNotEmpty(),
+                    color = MaterialTheme.colorScheme.surfaceVariant,
+                    textColor = MaterialTheme.colorScheme.onBackground
                 )
                 ColSpacer(8)
                 Row(Modifier.fillMaxWidth()) {

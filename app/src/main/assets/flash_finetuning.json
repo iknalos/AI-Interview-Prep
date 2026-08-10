@@ -1,0 +1,135 @@
+{
+  "topicId": "finetuning",
+  "topicName": "Fine-Tuning & Alignment",
+  "cards": [
+    {
+      "id": "fl-ft-01",
+      "difficulty": "easy",
+      "prompt": "What does LoRA actually train?",
+      "visual": {
+        "type": "diagram",
+        "caption": "A LoRA-adapted linear layer.",
+        "text": "        +-- W (frozen, d x k) --+\n  x ----|                       |--(+)--> h\n        +-- B*A (trained) ------+\n\n  A: r x k    B: d x r    with r much smaller than d, k"
+      },
+      "options": [
+        "Two small matrices whose product is added to the frozen weight",
+        "A compressed copy of the full weight matrix"
+      ],
+      "answer": 0,
+      "explanation": "The base weight never moves. A low-rank update B·A learns the delta, typically under 1% of the parameters, and can be merged into W afterwards or swapped per task. That is why several LoRA adapters can share one loaded base model."
+    },
+    {
+      "id": "fl-ft-02",
+      "difficulty": "medium",
+      "prompt": "You have 300 labelled examples of your preferred answer style. What should you reach for first?",
+      "options": [
+        "Prompting with a few examples, before any training",
+        "A full fine-tune of the base model"
+      ],
+      "answer": 0,
+      "explanation": "300 examples is thin for a full fine-tune and a strong prompt often closes most of the gap for free, with no serving change. If prompting plateaus, LoRA on that data is the next step. Full fine-tuning is the last resort, not the first."
+    },
+    {
+      "id": "fl-ft-03",
+      "difficulty": "medium",
+      "prompt": "After fine-tuning on your support tickets, general reasoning got noticeably worse. What is this?",
+      "options": [
+        "Catastrophic forgetting from over-training on a narrow set",
+        "Underfitting: the model needs more epochs"
+      ],
+      "answer": 0,
+      "explanation": "Pushing all weights toward one narrow distribution overwrites capability that was not in that data. Mitigations: fewer epochs, a lower learning rate, parameter-efficient methods that freeze the base, or mixing a slice of general data into the run."
+    },
+    {
+      "id": "fl-ft-04",
+      "difficulty": "medium",
+      "prompt": "Which stage does what?",
+      "visual": {
+        "type": "table",
+        "headers": ["Stage", "Data", "Teaches"],
+        "rows": [
+          ["Pretraining", "raw text", "language and world knowledge"],
+          ["SFT", "prompt → ideal response", "how to follow instructions"],
+          ["RLHF / DPO", "preferred vs rejected pairs", "which of two answers is better"]
+        ]
+      },
+      "options": [
+        "Preference data is only useful after SFT",
+        "Preference data can replace SFT entirely"
+      ],
+      "answer": 0,
+      "explanation": "Preference tuning sharpens a model that can already follow instructions; it compares two candidate answers rather than teaching the format from scratch. Running it on a base model that does not follow instructions gives you preferences over noise."
+    },
+    {
+      "id": "fl-ft-05",
+      "difficulty": "hard",
+      "prompt": "What is the main practical advantage of DPO over PPO-style RLHF?",
+      "options": [
+        "No separate reward model or sampling loop to train and tune",
+        "It needs no preference data at all"
+      ],
+      "answer": 0,
+      "explanation": "DPO rewrites the preference objective as a classification loss directly on the policy, so the reward model, the rollouts and most of the RL instability disappear. It still needs the same chosen-versus-rejected pairs; only the machinery around them is simpler."
+    },
+    {
+      "id": "fl-ft-06",
+      "difficulty": "medium",
+      "prompt": "In QLoRA, what is quantised to 4-bit?",
+      "options": [
+        "The frozen base weights, while adapters train in higher precision",
+        "The LoRA adapters, while the base stays in fp16"
+      ],
+      "answer": 0,
+      "explanation": "The large frozen model is what fills the GPU, so that is what gets compressed, with gradients flowing through it to small adapters kept in bf16. It is what puts a 70B fine-tune on a single large card, at some cost in throughput."
+    },
+    {
+      "id": "fl-ft-07",
+      "difficulty": "easy",
+      "prompt": "Training loss is still falling but eval loss has been rising for 2 epochs. What do you do?",
+      "options": [
+        "Stop and keep the checkpoint from the eval minimum",
+        "Keep training; training loss is the one that matters"
+      ],
+      "answer": 0,
+      "explanation": "The gap opening up is memorisation of the fine-tuning set. Early stopping on a held-out split is the whole reason to keep one. On small instruction sets this often happens within one to three epochs, far sooner than people expect."
+    },
+    {
+      "id": "fl-ft-08",
+      "difficulty": "medium",
+      "prompt": "Your SFT data has responses of wildly different quality. Which is the better fix?",
+      "options": [
+        "Cut the set to the examples you would ship, even if it is far smaller",
+        "Keep everything; more data always helps"
+      ],
+      "answer": 0,
+      "explanation": "SFT imitates what it is shown, so a mediocre example teaches mediocrity as confidently as a good one. Published results repeatedly show a few thousand carefully curated examples beating far larger noisy sets for instruction tuning."
+    },
+    {
+      "id": "fl-ft-09",
+      "difficulty": "medium",
+      "prompt": "In an SFT batch, which tokens should the loss cover?",
+      "visual": {
+        "type": "code",
+        "caption": "One training example.",
+        "text": "<|system|>  You are a support agent.\n<|user|>    My order has not arrived.\n<|assistant|> I am sorry about that. Can you share ...\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+      },
+      "options": [
+        "Only the assistant response tokens",
+        "Every token, prompt included"
+      ],
+      "answer": 0,
+      "explanation": "Masking the prompt means the model is scored on what it should produce, not on reproducing the user's words. Training on prompt tokens too is not fatal, but it dilutes the signal and biases the model toward echoing input phrasing."
+    },
+    {
+      "id": "fl-ft-10",
+      "difficulty": "hard",
+      "prompt": "Which choice most often decides whether a LoRA run works?",
+      "options": [
+        "Which modules it is applied to, and the rank and alpha",
+        "The random seed"
+      ],
+      "answer": 0,
+      "explanation": "Attention projections alone are the cheap default; adding the MLP projections helps when the task shifts style substantially. Rank sets capacity and alpha scales the update, and the effective learning rate depends on their ratio, so tune them as a pair."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "topicId": "rag",
+  "topicName": "RAG & Vector Search",
+  "cards": [
+    {
+      "id": "fl-rag-01",
+      "difficulty": "easy",
+      "prompt": "Which pipeline is a correct RAG query path?",
+      "visual": {
+        "type": "flowchart",
+        "caption": "Serving path for one user question.",
+        "steps": [
+          "User question",
+          "Embed the question",
+          "Vector search top-k chunks",
+          "Rerank and trim to the context budget",
+          "Prompt the LLM with question + chunks",
+          "Answer with citations"
+        ]
+      },
+      "options": [
+        "As shown: retrieve first, then generate",
+        "Generate a draft answer first, then retrieve to check it"
+      ],
+      "answer": 0,
+      "explanation": "Standard RAG grounds generation by putting retrieved text in the prompt before the model writes anything. Generate-then-verify exists as a variant, but it costs two model calls and still needs the retrieval step, so it is not the default shape."
+    },
+    {
+      "id": "fl-rag-02",
+      "difficulty": "medium",
+      "prompt": "Your retriever returns text that is topically close but never the exact answer. Which change helps most?",
+      "options": [
+        "Add a cross-encoder reranker over the top 50 candidates",
+        "Increase the embedding dimension"
+      ],
+      "answer": 0,
+      "explanation": "Bi-encoders compress a passage into one vector before ever seeing the query, which is good at topic and weak at exact relevance. A cross-encoder reads query and passage together and reorders the shortlist. Larger vectors do not fix that structural limitation."
+    },
+    {
+      "id": "fl-rag-03",
+      "difficulty": "medium",
+      "prompt": "Read the table. Which retrieval choice fits a query full of part numbers like 'X-4410B'?",
+      "visual": {
+        "type": "table",
+        "headers": ["Method", "Matches on", "Weak spot"],
+        "rows": [
+          ["BM25 / keyword", "exact terms", "synonyms, paraphrase"],
+          ["Dense vectors", "meaning", "rare tokens, exact ids"],
+          ["Hybrid", "both, fused", "more moving parts"]
+        ]
+      },
+      "options": [
+        "Hybrid, or keyword search alone",
+        "Dense vectors alone"
+      ],
+      "answer": 0,
+      "explanation": "Identifiers and codes are rare tokens that embeddings smear into whatever they resemble, so exact matching wins. Hybrid retrieval with reciprocal rank fusion keeps keyword precision for codes and dense recall for paraphrased questions."
+    },
+    {
+      "id": "fl-rag-04",
+      "difficulty": "medium",
+      "prompt": "Chunks are 2000 tokens with no overlap. Answers keep getting cut in half. Better setting?",
+      "options": [
+        "Smaller chunks with overlap, split on document structure",
+        "Larger chunks, still with no overlap"
+      ],
+      "answer": 0,
+      "explanation": "Big chunks dilute the embedding across several topics and still break facts at arbitrary boundaries. Splitting on headings or paragraphs with a modest overlap keeps each chunk about one thing and stops an answer falling into the seam between two."
+    },
+    {
+      "id": "fl-rag-05",
+      "difficulty": "hard",
+      "prompt": "What does an HNSW index trade away for its speed?",
+      "options": [
+        "Exact recall: it is approximate nearest neighbour",
+        "Support for filtering by metadata"
+      ],
+      "answer": 0,
+      "explanation": "HNSW walks a layered proximity graph instead of scanning every vector, so it can miss true neighbours. Parameters like efSearch trade recall against latency. Most engines do support metadata filters, though pre-filtering versus post-filtering changes results."
+    },
+    {
+      "id": "fl-rag-06",
+      "difficulty": "medium",
+      "prompt": "Should the question and the documents be embedded with the same model?",
+      "options": [
+        "Yes, and with the model's own query and passage prefixes if it has them",
+        "No, questions need a separate question-tuned model"
+      ],
+      "answer": 0,
+      "explanation": "Similarity is only meaningful inside one vector space, so both sides must come from the same checkpoint. Several models are trained with asymmetric prefixes such as 'query:' and 'passage:'; dropping them quietly costs a noticeable amount of recall."
+    },
+    {
+      "id": "fl-rag-07",
+      "difficulty": "easy",
+      "prompt": "The model answers confidently from a chunk that does not support the claim. What do you measure?",
+      "options": [
+        "Faithfulness, or groundedness, against the retrieved context",
+        "Perplexity of the generated answer"
+      ],
+      "answer": 0,
+      "explanation": "RAG evaluation splits in two: did retrieval find supporting text, and did the answer stay inside it. Faithfulness scores the second, usually by checking each claim against the context with a judge model. Perplexity says nothing about whether a claim is supported."
+    },
+    {
+      "id": "fl-rag-08",
+      "difficulty": "hard",
+      "prompt": "Which is the honest reading of this recall curve?",
+      "visual": {
+        "type": "table",
+        "caption": "Retrieval evaluation on 500 labelled questions.",
+        "headers": ["k", "recall@k", "answer accuracy"],
+        "rows": [
+          ["5", "0.71", "0.62"],
+          ["20", "0.89", "0.66"],
+          ["50", "0.94", "0.58"]
+        ]
+      },
+      "options": [
+        "More context is not free; noise at k=50 hurts the answer",
+        "Answer accuracy always follows recall, so use k=50"
+      ],
+      "answer": 0,
+      "explanation": "Recall keeps climbing because the right chunk is somewhere in the list, but the model has to find it among 50. Beyond a point the extra passages distract more than they help, which is why a reranker that trims a wide candidate set usually beats a large k."
+    },
+    {
+      "id": "fl-rag-09",
+      "difficulty": "medium",
+      "prompt": "Documents change hourly. What has to happen when a source document is edited?",
+      "options": [
+        "Re-chunk and re-embed it, then delete the stale vectors by document id",
+        "Nothing; the index picks up edits automatically"
+      ],
+      "answer": 0,
+      "explanation": "A vector store holds a snapshot of the text as it was embedded. Without a delete-by-id path keyed to the source document, old chunks linger and get retrieved forever, which shows up as an assistant confidently quoting a policy that was withdrawn months ago."
+    },
+    {
+      "id": "fl-rag-10",
+      "difficulty": "medium",
+      "prompt": "When is fine-tuning the wrong answer to 'the model does not know our internal docs'?",
+      "options": [
+        "Almost always: knowledge that changes belongs in retrieval",
+        "Never, fine-tuning is the reliable way to add facts"
+      ],
+      "answer": 0,
+      "explanation": "Weights are a poor database: updating one fact means another training run, and there is no citation or access control. Fine-tuning is for form, format and behaviour. Retrieval is for facts, especially facts that change or differ per user."
+    }
+  ]
+}

@@ -36,6 +36,26 @@ data class QuizSession(
     val correctCount: Int get() = cards.indices.count { chosen[it] == cards[it].answer }
 }
 
+/**
+ * Two-option flashcards: pick one, see straight away whether it was right, then
+ * move on or open the explanation. Answering is the reveal, so there is no extra
+ * tap between guessing and finding out.
+ */
+data class FlashSession(
+    val cards: List<FlashCard>,
+    val index: Int = 0,
+    val chosen: List<Int> = List(cards.size) { -1 },
+    val locked: Boolean = false,
+    val explained: Boolean = false,
+    val finished: Boolean = false,
+    /** Consecutive correct answers, the thing that makes this mode moreish. */
+    val run: Int = 0,
+    val bestRun: Int = 0
+) {
+    val current: FlashCard? get() = cards.getOrNull(index)
+    val correctCount: Int get() = cards.indices.count { chosen[it] == cards[it].answer }
+}
+
 /** Self-graded open-ended practice: 0 missed, 1 partial, 2 solid. */
 data class MockSession(
     val cards: List<Card>,
@@ -73,6 +93,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         private set
     var quiz by mutableStateOf<QuizSession?>(null)
         private set
+    var flash by mutableStateOf<FlashSession?>(null)
+        private set
     var mock by mutableStateOf<MockSession?>(null)
         private set
     var news by mutableStateOf(NewsState())
@@ -96,6 +118,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
     val topics: List<Topic> get() = if (ready) contentRepo.topics else emptyList()
     val allCards: List<Card> get() = if (ready) contentRepo.cards else emptyList()
+    val allFlashCards: List<FlashCard> get() = if (ready) contentRepo.flashCards else emptyList()
     val lessons: List<Lesson> get() = if (ready) contentRepo.lessons else emptyList()
 
     val today: Long get() = LocalDate.now().toEpochDay()
@@ -164,6 +187,15 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         val t = progress.selectedTopics
         val d = progress.selectedDifficulties
         return allCards.filter { c ->
+            (t.isEmpty() || c.topicId in t) && (d.isEmpty() || c.difficulty.key in d)
+        }
+    }
+
+    /** Flashcards obey the same topic and difficulty focus as everything else. */
+    fun filteredFlashCards(): List<FlashCard> {
+        val t = progress.selectedTopics
+        val d = progress.selectedDifficulties
+        return allFlashCards.filter { c ->
             (t.isEmpty() || c.topicId in t) && (d.isEmpty() || c.difficulty.key in d)
         }
     }
@@ -265,6 +297,84 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
     fun endQuiz() {
         quiz = null
+    }
+
+    /* ---------- flashcards ---------- */
+
+    fun startFlash(count: Int = 10) {
+        val pool = filteredFlashCards()
+        if (pool.isEmpty()) {
+            flash = null
+            return
+        }
+        val t = today
+        val due = pool.filter { c -> progress.cards[c.id]?.let { it.dueEpochDay <= t } == true }
+            .shuffled()
+        val fresh = pool.filter { progress.cards[it.id] == null }.shuffled()
+        val queuedIds = (due + fresh).map { it.id }.toSet()
+        val rest = pool.filter { it.id !in queuedIds }.shuffled()
+
+        // Same priority as study: material you have forgotten, then material you have
+        // never seen, then anything else to fill the run out to the requested length.
+        val picked = (due + fresh + rest).take(count.coerceIn(1, pool.size))
+        flash = FlashSession(picked)
+    }
+
+    fun answerFlash(optionIndex: Int) {
+        val f = flash ?: return
+        if (f.locked || f.finished) return
+        val card = f.current ?: return
+
+        val chosen = f.chosen.toMutableList()
+        chosen[f.index] = optionIndex
+        val correct = optionIndex == card.answer
+        val run = if (correct) f.run + 1 else 0
+        flash = f.copy(
+            chosen = chosen,
+            locked = true,
+            explained = false,
+            run = run,
+            bestRun = maxOf(f.bestRun, run)
+        )
+
+        // A flashcard answer is a real review, so it feeds the same schedule the
+        // other modes do. A wrong guess on a coin flip is weak evidence, but it is
+        // still the strongest signal available here.
+        val todayVal = today
+        update { p ->
+            val prev = p.cards[card.id] ?: CardState()
+            val graded = Sm2.review(prev, if (correct) Grade.GOOD else Grade.AGAIN, todayVal)
+            Streaks.registerStudy(p.copy(cards = p.cards + (card.id to graded)), todayVal)
+        }
+    }
+
+    /** "Learn more" on the current card; collapses again on a second tap. */
+    fun toggleFlashExplanation() {
+        val f = flash ?: return
+        if (!f.locked) return
+        flash = f.copy(explained = !f.explained)
+    }
+
+    fun nextFlash() {
+        val f = flash ?: return
+        if (f.index + 1 >= f.cards.size) {
+            val record = QuizRecord(
+                epochMillis = System.currentTimeMillis(),
+                total = f.cards.size,
+                correct = f.correctCount,
+                topicIds = f.cards.map { it.topicId }.distinct(),
+                mode = "flash"
+            )
+            lastResult = record
+            update { it.copy(quizzes = (it.quizzes + record).takeLast(200)) }
+            flash = f.copy(finished = true)
+        } else {
+            flash = f.copy(index = f.index + 1, locked = false, explained = false)
+        }
+    }
+
+    fun endFlash() {
+        flash = null
     }
 
     /* ---------- mock interview ---------- */
@@ -435,6 +545,19 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
                 due = cardsIn.count { c -> progress.cards[c.id]?.let { it.dueEpochDay <= t } == true }
             )
         }
+    }
+
+    /**
+     * Coverage counts cards and flashcards together, because both write into the same
+     * progress map. Counting only the card bank would let "seen" overshoot "total".
+     */
+    fun totalItemCount(): Int = allCards.size + allFlashCards.size
+
+    fun seenItemCount(): Int {
+        val known = HashSet<String>(totalItemCount() * 2)
+        allCards.forEach { known.add(it.id) }
+        allFlashCards.forEach { known.add(it.id) }
+        return progress.cards.keys.count { it in known }
     }
 
     fun overallAccuracy(): Int {

@@ -1,0 +1,145 @@
+{
+  "topicId": "evaluation",
+  "topicName": "Evaluation & Metrics",
+  "cards": [
+    {
+      "id": "fl-ev-01",
+      "difficulty": "easy",
+      "prompt": "Which curve should you report on a heavily imbalanced problem?",
+      "options": [
+        "Precision-recall",
+        "ROC"
+      ],
+      "answer": 0,
+      "explanation": "ROC uses the false positive rate, whose denominator is the huge negative class, so a model can look excellent while flooding a small positive class with false alarms. Precision-recall keeps the rare class in the numerator and denominator where you can see it."
+    },
+    {
+      "id": "fl-ev-02",
+      "difficulty": "medium",
+      "prompt": "Model A has 0.82 accuracy, model B has 0.84, on a 400-row test set. Ship B?",
+      "options": [
+        "Not on that alone: the difference is inside the noise",
+        "Yes, B is measurably better"
+      ],
+      "answer": 0,
+      "explanation": "The standard error on 400 rows is around 2 points, so a 2-point gap is roughly one standard error. Use a paired test on the same examples, or a bootstrap confidence interval, before calling a winner. Otherwise you are shipping sampling noise."
+    },
+    {
+      "id": "fl-ev-03",
+      "difficulty": "medium",
+      "prompt": "Read the threshold table. Which operating point suits a screening test where a miss is dangerous?",
+      "visual": {
+        "type": "table",
+        "headers": ["Threshold", "Precision", "Recall"],
+        "rows": [
+          ["0.3", "0.42", "0.95"],
+          ["0.5", "0.68", "0.80"],
+          ["0.8", "0.91", "0.44"]
+        ]
+      },
+      "options": [
+        "0.3, accepting false alarms to avoid misses",
+        "0.8, because precision is highest"
+      ],
+      "answer": 0,
+      "explanation": "The threshold is a business decision, not a model property. When a missed case is far more costly than a review of a false alarm, buy recall with precision. State the cost ratio out loud in an interview; that is what the question is really testing."
+    },
+    {
+      "id": "fl-ev-04",
+      "difficulty": "hard",
+      "prompt": "Offline eval improved 6 points but the A/B test moved nothing. Most likely explanation?",
+      "options": [
+        "The offline set does not represent live traffic or the real objective",
+        "The A/B test needs to run longer, so ship anyway"
+      ],
+      "answer": 0,
+      "explanation": "Offline sets drift, get overfitted through repeated selection, and often optimise a proxy rather than the outcome the business cares about. Treat a flat A/B as evidence about the metric, not just about the model, and go check what the eval set is made of."
+    },
+    {
+      "id": "fl-ev-05",
+      "difficulty": "medium",
+      "prompt": "Which statement about LLM-as-judge is accurate?",
+      "options": [
+        "It correlates with humans only after you calibrate it against them",
+        "It is an objective replacement for human review"
+      ],
+      "answer": 0,
+      "explanation": "Judges have known biases: position, verbosity, and preferring their own family of models. They are useful when you validate agreement on a human-labelled slice, fix the rubric, randomise option order, and re-check that agreement as prompts change."
+    },
+    {
+      "id": "fl-ev-06",
+      "difficulty": "easy",
+      "prompt": "Where does the split boundary go for a model that predicts next month's demand?",
+      "visual": {
+        "type": "flowchart",
+        "caption": "Building the evaluation set.",
+        "steps": [
+          "Sort every record by timestamp",
+          "Train on everything before the cutoff",
+          "Validate on the window after it",
+          "Never shuffle across the cutoff"
+        ]
+      },
+      "options": [
+        "By time, exactly as shown",
+        "Randomly, so both sets are balanced"
+      ],
+      "answer": 0,
+      "explanation": "A random split lets the model train on the future and predict the past, which no deployment ever gets to do. Time-based splits, and rolling-origin evaluation for more folds, are the only honest measure of a forecasting model."
+    },
+    {
+      "id": "fl-ev-07",
+      "difficulty": "medium",
+      "prompt": "A classifier is well ranked but its 0.9 scores are right only 60% of the time. What is wrong?",
+      "options": [
+        "It is poorly calibrated",
+        "It has poor discrimination"
+      ],
+      "answer": 0,
+      "explanation": "Ranking quality and probability quality are separate. AUC only cares about order; calibration asks whether a 0.9 means 90%. Fix it after the fact with Platt scaling or isotonic regression on a held-out set, and check it with a reliability diagram."
+    },
+    {
+      "id": "fl-ev-08",
+      "difficulty": "medium",
+      "prompt": "Overall accuracy is 91% and steady. Is the model fine?",
+      "visual": {
+        "type": "table",
+        "caption": "The same model, split by segment.",
+        "headers": ["Segment", "Share of traffic", "Accuracy"],
+        "rows": [
+          ["Desktop, English", "78%", "0.94"],
+          ["Mobile, English", "18%", "0.86"],
+          ["Mobile, other langs", "4%", "0.61"]
+        ]
+      },
+      "options": [
+        "No, one segment is failing and the average hides it",
+        "Yes, 91% overall is what users experience"
+      ],
+      "answer": 0,
+      "explanation": "Averages are dominated by the biggest segment. Slice every headline metric by the dimensions that matter to users and report the worst slice alongside the mean, otherwise a group can be badly served for months without the dashboard ever moving."
+    },
+    {
+      "id": "fl-ev-09",
+      "difficulty": "hard",
+      "prompt": "You tuned 40 hyperparameter settings against the validation set and picked the best. What is the risk?",
+      "options": [
+        "That score is optimistic; you need an untouched test set",
+        "None, validation exists for exactly this"
+      ],
+      "answer": 0,
+      "explanation": "Selecting the maximum over many trials fits the validation set's noise, so the winning number is biased upward. Hold a third split back and touch it once, at the end. This is the same failure as p-hacking, arrived at from the engineering side."
+    },
+    {
+      "id": "fl-ev-10",
+      "difficulty": "easy",
+      "prompt": "Which metric pair describes a summarisation system best?",
+      "options": [
+        "Task-specific human or judge scores, with ROUGE as a weak sanity check",
+        "ROUGE alone, since it is the standard benchmark"
+      ],
+      "answer": 0,
+      "explanation": "ROUGE counts n-gram overlap with one reference summary, so a correct summary in different words scores badly and a fluent wrong one can score well. Use it to catch regressions cheaply, but decide quality with rubric-based scoring of faithfulness and coverage."
+    }
+  ]
+}

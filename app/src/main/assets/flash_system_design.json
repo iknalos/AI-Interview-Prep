@@ -1,0 +1,137 @@
+{
+  "topicId": "system-design",
+  "topicName": "AI System Design",
+  "cards": [
+    {
+      "id": "fl-sd-01",
+      "difficulty": "easy",
+      "prompt": "First move in an AI system design interview?",
+      "options": [
+        "Pin down the requirement: users, scale, latency and what success means",
+        "Sketch the model architecture"
+      ],
+      "answer": 0,
+      "explanation": "Every later choice follows from traffic, latency budget and the metric being optimised. Jumping to a model is the most common way to design confidently for the wrong problem, and interviewers read it as inexperience rather than enthusiasm."
+    },
+    {
+      "id": "fl-sd-02",
+      "difficulty": "medium",
+      "prompt": "Which shape does a large-scale recommender take?",
+      "visual": {
+        "type": "flowchart",
+        "caption": "Serving one request out of millions of items.",
+        "steps": [
+          "Candidate generation: millions → ~1000, cheap",
+          "Ranking: ~1000 → ~100, heavier model",
+          "Re-ranking: business rules, diversity, freshness",
+          "Return top 10"
+        ]
+      },
+      "options": [
+        "A funnel, cheapest model first",
+        "One large model scoring every item per request"
+      ],
+      "answer": 0,
+      "explanation": "Scoring millions of items with a heavy model per request is impossible inside a latency budget. The funnel spends compute where it changes the answer: fast approximate retrieval for reach, an expensive model only on the survivors."
+    },
+    {
+      "id": "fl-sd-03",
+      "difficulty": "medium",
+      "prompt": "Real-time fraud scoring needs a feature 'transactions in the last 5 minutes'. Where does it come from?",
+      "options": [
+        "A streaming aggregation in the online store",
+        "The nightly batch warehouse job"
+      ],
+      "answer": 0,
+      "explanation": "A nightly job cannot answer a five-minute question. This is the classic online-offline split: streaming aggregates for fresh counters, batch for expensive historical features, with the same definitions used at training time to avoid skew."
+    },
+    {
+      "id": "fl-sd-04",
+      "difficulty": "hard",
+      "prompt": "Design a support assistant over 2 million internal documents. What is the backbone?",
+      "options": [
+        "Retrieval-augmented generation over a chunked, indexed corpus",
+        "Fine-tune a model on all 2 million documents"
+      ],
+      "answer": 0,
+      "explanation": "Documents change, need per-user access control, and answers need citations. Retrieval gives all three and updates in minutes. Fine-tuning bakes a snapshot into weights with no attribution and no way to revoke a document from an answer."
+    },
+    {
+      "id": "fl-sd-05",
+      "difficulty": "medium",
+      "prompt": "Which failure mode should you design for explicitly in an LLM feature?",
+      "options": [
+        "The model returning confident, wrong, unsupported output",
+        "The model refusing every request"
+      ],
+      "answer": 0,
+      "explanation": "Confident wrongness is the default failure and it is silent. Design for it: ground answers in retrieved text, show citations, validate structured output against a schema, and give the model an explicit 'I do not know' path with a route to a human."
+    },
+    {
+      "id": "fl-sd-06",
+      "difficulty": "medium",
+      "prompt": "Which budget split is realistic for a 300 ms end-to-end target?",
+      "visual": {
+        "type": "table",
+        "headers": ["Stage", "Budget"],
+        "rows": [
+          ["Network in and out", "40 ms"],
+          ["Feature fetch", "30 ms"],
+          ["Model inference", "150 ms"],
+          ["Post-processing and logging", "30 ms"],
+          ["Headroom", "50 ms"]
+        ]
+      },
+      "options": [
+        "Yes, and the headroom line is the important one",
+        "No, the model should get the entire 300 ms"
+      ],
+      "answer": 0,
+      "explanation": "Writing the budget down is what turns 'it should be fast' into design constraints, and every stage outside the model is real. Reserved headroom is what stops a p99 spike in one stage from blowing the whole target."
+    },
+    {
+      "id": "fl-sd-07",
+      "difficulty": "hard",
+      "prompt": "When does an agent loop beat a single prompt?",
+      "options": [
+        "When the task needs tools, several steps, and can be verified",
+        "Whenever the task is hard"
+      ],
+      "answer": 0,
+      "explanation": "Loops multiply cost, latency and failure surface, so they pay off only when steps depend on tool results and each step can be checked. If a single call with retrieved context answers it, the agent adds nothing but variance."
+    },
+    {
+      "id": "fl-sd-08",
+      "difficulty": "medium",
+      "prompt": "Ten thousand support emails a day need classifying into 12 categories. First model?",
+      "options": [
+        "A small fine-tuned classifier, with an LLM as the fallback",
+        "A frontier LLM call per email"
+      ],
+      "answer": 0,
+      "explanation": "A high-volume, fixed-label, latency-tolerant task is exactly where a small supervised model wins on cost and predictability. Reserve the expensive call for low-confidence cases, and use the LLM to bootstrap labels for the small model in the first place."
+    },
+    {
+      "id": "fl-sd-09",
+      "difficulty": "medium",
+      "prompt": "What happens to your feature when the model provider has an outage?",
+      "options": [
+        "You need a defined degraded mode: cache, smaller model, or honest failure",
+        "Retry until it succeeds"
+      ],
+      "answer": 0,
+      "explanation": "Unbounded retries turn a provider incident into your own outage and multiply the load on a recovering service. Decide in advance what a degraded answer looks like, use timeouts with a circuit breaker, and make the failure visible rather than silent."
+    },
+    {
+      "id": "fl-sd-10",
+      "difficulty": "hard",
+      "prompt": "How do you keep a cold-start recommender useful for a brand-new user?",
+      "options": [
+        "Fall back to popularity and context, then blend in personal signal",
+        "Wait until enough interactions exist"
+      ],
+      "answer": 0,
+      "explanation": "Cold start is a product problem before it is a model problem. Serve popularity by segment, use whatever context exists such as locale, device and referrer, ask for one or two preferences, then shift weight to the personalised model as signal accumulates."
+    }
+  ]
+}

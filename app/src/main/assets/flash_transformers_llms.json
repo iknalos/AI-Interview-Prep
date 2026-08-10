@@ -1,0 +1,151 @@
+{
+  "topicId": "transformers-llms",
+  "topicName": "Transformers & LLMs",
+  "cards": [
+    {
+      "id": "fl-tf-01",
+      "difficulty": "easy",
+      "prompt": "Which path does a token actually take through a decoder-only model?",
+      "visual": {
+        "type": "flowchart",
+        "caption": "One block of a decoder-only transformer.",
+        "steps": [
+          "Token ids → embeddings + positions",
+          "LayerNorm",
+          "Masked self-attention",
+          "Residual add",
+          "Feed-forward (MLP)",
+          "Residual add → next block"
+        ]
+      },
+      "options": [
+        "As shown, with a residual after each sublayer",
+        "Attention and feed-forward run in parallel on separate copies"
+      ],
+      "answer": 0,
+      "explanation": "Each block is two sublayers, attention then MLP, and each is wrapped in a residual connection with normalisation. Attention mixes information across positions; the MLP transforms each position independently. Stacking that pair is the entire architecture."
+    },
+    {
+      "id": "fl-tf-02",
+      "difficulty": "easy",
+      "prompt": "What does the causal mask in a decoder do?",
+      "options": [
+        "Stops a position from attending to later positions",
+        "Hides padding tokens from the loss"
+      ],
+      "answer": 0,
+      "explanation": "The mask sets attention scores to negative infinity above the diagonal, so predicting token t can only use tokens before it. Without it the model would read the answer during training and generate nonsense at inference. Padding is handled by a separate mask."
+    },
+    {
+      "id": "fl-tf-03",
+      "difficulty": "medium",
+      "prompt": "Why is there a division by the square root of the head dimension in attention?",
+      "visual": {
+        "type": "diagram",
+        "caption": "Scaled dot-product attention.",
+        "text": "Attention(Q, K, V) = softmax( Q K^T / sqrt(d_k) ) V"
+      },
+      "options": [
+        "Large dot products would push softmax into a near one-hot regime",
+        "It normalises the values V to unit length"
+      ],
+      "answer": 0,
+      "explanation": "Dot products of d_k random components grow with d_k, and a softmax over large logits saturates: one weight near 1, the rest near 0, with vanishing gradients. Dividing by √d_k keeps the variance of the scores near 1 regardless of head size."
+    },
+    {
+      "id": "fl-tf-04",
+      "difficulty": "medium",
+      "prompt": "Generation of a 2000-token answer is slow at first token, then fast. Why?",
+      "options": [
+        "Prefill processes the whole prompt; decode reuses the KV cache",
+        "The model warms up its weights after the first token"
+      ],
+      "answer": 0,
+      "explanation": "Prefill runs attention over every prompt token at once and is compute-bound. After that each new token attends against cached keys and values, so decode is one step at a time and memory-bandwidth-bound. Those two phases have completely different cost profiles."
+    },
+    {
+      "id": "fl-tf-05",
+      "difficulty": "medium",
+      "prompt": "Read the table. Which sampling setting gives the most deterministic output?",
+      "visual": {
+        "type": "table",
+        "headers": ["Setting", "Effect"],
+        "rows": [
+          ["temperature 0", "always take the highest-probability token"],
+          ["temperature 1.0, top_p 0.95", "sample from the 95% probability mass"],
+          ["temperature 1.5", "flatten the distribution, more surprise"]
+        ]
+      },
+      "options": [
+        "Temperature 0",
+        "Temperature 1.0 with top_p 0.95"
+      ],
+      "answer": 0,
+      "explanation": "Temperature divides the logits, so as it approaches zero the softmax collapses onto the argmax and sampling becomes greedy. Note that greedy is not the same as best: it can walk into a locally attractive but globally poor continuation."
+    },
+    {
+      "id": "fl-tf-06",
+      "difficulty": "hard",
+      "prompt": "How does the memory of the KV cache grow with context length?",
+      "options": [
+        "Linearly with sequence length",
+        "Quadratically with sequence length"
+      ],
+      "answer": 0,
+      "explanation": "The cache stores one key and one value vector per token, per layer, per head, so it grows linearly. The quadratic term is attention compute, which compares every pair of positions. Confusing the two is a common interview slip."
+    },
+    {
+      "id": "fl-tf-07",
+      "difficulty": "medium",
+      "prompt": "What problem does grouped-query attention solve?",
+      "options": [
+        "KV cache size, by sharing key and value heads across query heads",
+        "Training instability, by grouping gradients across heads"
+      ],
+      "answer": 0,
+      "explanation": "With multi-query or grouped-query attention several query heads share one set of keys and values, which shrinks the cache and the memory traffic that dominates decoding. Quality loss is small; throughput gain at long context is large."
+    },
+    {
+      "id": "fl-tf-08",
+      "difficulty": "easy",
+      "prompt": "A tokeniser splits 'unbelievably' into 'un', 'bel', 'iev', 'ably'. Is that a bug?",
+      "options": [
+        "No, subword tokenisation is expected behaviour",
+        "Yes, the tokeniser vocabulary is corrupted"
+      ],
+      "answer": 0,
+      "explanation": "BPE and its relatives keep frequent words whole and break rare ones into known pieces, so any string is representable with a fixed vocabulary. It also explains why token counts differ from word counts, and why non-English text often costs more tokens."
+    },
+    {
+      "id": "fl-tf-09",
+      "difficulty": "medium",
+      "prompt": "Why do modern LLMs use rotary or relative position encodings instead of learned absolute ones?",
+      "options": [
+        "They encode relative distance and extrapolate past the trained length better",
+        "They remove the need for positional information entirely"
+      ],
+      "answer": 0,
+      "explanation": "Rotary embeddings rotate queries and keys by an angle set by position, so the dot product depends on the offset between tokens rather than their absolute index. Learned absolute tables have no defined value beyond the longest training sequence."
+    },
+    {
+      "id": "fl-tf-10",
+      "difficulty": "hard",
+      "prompt": "Which encoder or decoder shape fits the job?",
+      "visual": {
+        "type": "table",
+        "headers": ["Architecture", "Attention", "Typical job"],
+        "rows": [
+          ["Encoder-only (BERT)", "bidirectional", "classify, embed, extract"],
+          ["Decoder-only (GPT)", "causal", "generate"],
+          ["Encoder-decoder (T5)", "both", "translate, summarise"]
+        ]
+      },
+      "options": [
+        "Use encoder-only for a retrieval embedding model",
+        "Use decoder-only for a retrieval embedding model"
+      ],
+      "answer": 0,
+      "explanation": "Embeddings want every token to see the whole input, which is exactly what bidirectional attention gives. Decoder-only models can be adapted for embeddings, but a causal mask means early tokens never see later context, so the pooled vector is weaker for the same size."
+    }
+  ]
+}

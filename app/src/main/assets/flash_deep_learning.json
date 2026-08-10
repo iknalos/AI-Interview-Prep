@@ -1,0 +1,151 @@
+{
+  "topicId": "deep-learning",
+  "topicName": "Deep Learning",
+  "cards": [
+    {
+      "id": "fl-dl-01",
+      "difficulty": "easy",
+      "prompt": "Which order does a training step actually run in?",
+      "visual": {
+        "type": "flowchart",
+        "caption": "One PyTorch training step.",
+        "steps": [
+          "optimizer.zero_grad()",
+          "outputs = model(batch)",
+          "loss = criterion(outputs, labels)",
+          "loss.backward()",
+          "optimizer.step()"
+        ]
+      },
+      "options": [
+        "As shown: zero, forward, loss, backward, step",
+        "backward() must come before the loss is computed"
+      ],
+      "answer": 0,
+      "explanation": "Gradients accumulate in PyTorch, so they are cleared first. The forward pass builds the graph, the loss is the scalar to differentiate, backward fills .grad, and step applies the update. Forgetting zero_grad is the classic bug: gradients from old batches keep adding up."
+    },
+    {
+      "id": "fl-dl-02",
+      "difficulty": "easy",
+      "prompt": "Why did ReLU largely replace sigmoid in hidden layers?",
+      "options": [
+        "Its gradient is 1 for positive inputs, so signal survives depth",
+        "It is bounded, which keeps activations stable"
+      ],
+      "answer": 0,
+      "explanation": "Sigmoid saturates at both ends, where its derivative approaches zero, so stacking layers multiplies small numbers and the gradient vanishes. ReLU passes gradient unchanged on the positive side. Being bounded is exactly the property that caused the problem."
+    },
+    {
+      "id": "fl-dl-03",
+      "difficulty": "medium",
+      "prompt": "Read the table. Which statement about the two normalisations is right?",
+      "visual": {
+        "type": "table",
+        "caption": "Where each one computes its statistics.",
+        "headers": ["", "BatchNorm", "LayerNorm"],
+        "rows": [
+          ["Normalises over", "the batch, per feature", "the features, per example"],
+          ["Depends on batch size", "yes", "no"],
+          ["Train vs inference", "different behaviour", "identical"]
+        ]
+      },
+      "options": [
+        "LayerNorm suits sequence models and small batches",
+        "BatchNorm suits sequence models and small batches"
+      ],
+      "answer": 0,
+      "explanation": "LayerNorm's statistics come from one example, so batch size one behaves like batch size 256 and there are no running averages to keep. That independence is why transformers use it. BatchNorm degrades badly with small or uneven batches."
+    },
+    {
+      "id": "fl-dl-04",
+      "difficulty": "medium",
+      "prompt": "Dropout p=0.5 is left active during evaluation. What do you see?",
+      "options": [
+        "Noisy, worse validation scores that vary run to run",
+        "Nothing changes; dropout is inference-only"
+      ],
+      "answer": 0,
+      "explanation": "Dropout is a training-time regulariser. Leaving it on at eval randomly zeroes half the activations, so the same input scores differently each pass. In PyTorch, model.eval() is what switches it off along with BatchNorm's running statistics."
+    },
+    {
+      "id": "fl-dl-05",
+      "difficulty": "medium",
+      "prompt": "What does the skip connection in this block let the network learn?",
+      "visual": {
+        "type": "diagram",
+        "caption": "A residual block.",
+        "text": "  x -------------------+\n  |                    |\n  v                    |\n conv -> norm -> relu  |\n  |                    |\n  v                    |\n conv -> norm          |\n  |                    |\n  v                    |\n (+) <-----------------+\n  |\n  v\n relu"
+      },
+      "options": [
+        "A residual: the block only has to learn the change from x",
+        "A second independent copy of the input features"
+      ],
+      "answer": 0,
+      "explanation": "The block outputs x + F(x), so learning the identity means driving F to zero rather than fitting it through the weights. That gives gradients a direct path back to earlier layers, which is what made very deep networks trainable."
+    },
+    {
+      "id": "fl-dl-06",
+      "difficulty": "easy",
+      "prompt": "Loss becomes NaN a few hundred steps into training. First thing to check?",
+      "options": [
+        "Learning rate, and add gradient clipping",
+        "The number of hidden units"
+      ],
+      "answer": 0,
+      "explanation": "NaN almost always follows an exploding update or a log of zero. Lower the learning rate, clip gradient norms, and check for a division or log in the loss that can hit zero. Width is a capacity choice and rarely produces NaN on its own."
+    },
+    {
+      "id": "fl-dl-07",
+      "difficulty": "medium",
+      "prompt": "You halve the batch size to fit in memory. What should usually happen to the learning rate?",
+      "options": [
+        "Scale it down roughly with the batch size",
+        "Leave it fixed; the two are unrelated"
+      ],
+      "answer": 0,
+      "explanation": "A smaller batch means a noisier gradient estimate, so the same step size takes a bigger gamble on less evidence. The common heuristic is to scale the learning rate linearly with batch size, often with a short warmup on the way up."
+    },
+    {
+      "id": "fl-dl-08",
+      "difficulty": "hard",
+      "prompt": "Which pair belongs together?",
+      "visual": {
+        "type": "table",
+        "headers": ["Symptom", "Cause"],
+        "rows": [
+          ["Loss falls, then plateaus far above zero", "capacity or optimisation limit"],
+          ["Loss falls to near zero, val loss rises", "overfitting"],
+          ["Loss flat from step 0", "learning rate near zero, or broken labels"]
+        ]
+      },
+      "options": [
+        "All three pairings are right",
+        "Rows two and three are swapped"
+      ],
+      "answer": 0,
+      "explanation": "These are the three curves worth recognising on sight. A flat curve from the start usually means the signal never reaches the weights: a tiny learning rate, a frozen backbone, or labels that do not line up with the inputs."
+    },
+    {
+      "id": "fl-dl-09",
+      "difficulty": "easy",
+      "prompt": "Why is weight initialisation with all zeros a broken idea?",
+      "options": [
+        "Every neuron in a layer stays identical forever",
+        "Zero weights make the loss undefined"
+      ],
+      "answer": 0,
+      "explanation": "Identical weights mean identical forward outputs and identical gradients, so the units in a layer update in lockstep and never differentiate. Random initialisation breaks that symmetry; schemes like He and Xavier also keep activation variance stable through depth."
+    },
+    {
+      "id": "fl-dl-10",
+      "difficulty": "medium",
+      "prompt": "Which is true about mixed-precision training?",
+      "options": [
+        "Weights stay in fp32 while most maths runs in fp16 or bf16",
+        "Everything including the optimiser state moves to fp16"
+      ],
+      "answer": 0,
+      "explanation": "A master copy of the weights stays in fp32 so small updates are not rounded away, and a loss scaler keeps fp16 gradients out of the underflow range. bf16 has a wider exponent, so it usually skips the scaler. The saving is memory and tensor-core throughput."
+    }
+  ]
+}

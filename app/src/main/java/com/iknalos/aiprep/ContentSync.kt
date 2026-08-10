@@ -15,6 +15,7 @@ class ContentIndex(
     val cardCount: Int = 0,
     val topicCount: Int = 0,
     val lessonCount: Int = 0,
+    val flashCount: Int = 0,
     val sha256: String = "",
     val url: String = ""
 )
@@ -24,7 +25,9 @@ class ContentBundle(
     val contentVersion: Int = 0,
     val generated: String = "",
     val topics: List<TopicFile> = emptyList(),
-    val lessons: List<Lesson> = emptyList()
+    val lessons: List<Lesson> = emptyList(),
+    /** Absent in bundles published before flashcards shipped; the app falls back. */
+    val flashcards: List<FlashFile> = emptyList()
 )
 
 /**

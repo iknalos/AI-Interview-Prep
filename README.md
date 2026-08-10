@@ -1,8 +1,8 @@
 # AI Interview Prep
 
 An Android app (Kotlin + Jetpack Compose) for preparing for AI / ML engineer interviews.
-200 curated questions across 8 topics, spaced repetition, scored quizzes, a mock interview
-mode, topic deep-dive lessons, and an AI news feed that refreshes daily.
+200 curated questions and 80 flashcards across 8 topics, spaced repetition, scored quizzes,
+a mock interview mode, topic deep-dive lessons, and an AI news feed that refreshes daily.
 
 **[Download the APK](https://github.com/iknalos/AI-Interview-Prep/releases/latest)** ·
 **[Project page](https://iknalos.github.io/AI-Interview-Prep/)**
@@ -11,6 +11,7 @@ mode, topic deep-dive lessons, and an AI news feed that refreshes daily.
 
 | Mode | What it does |
 |---|---|
+| **Flashcards** | One prompt, two options, instant feedback. Many cards are a flowchart, a comparison table or a diagram to read rather than a paragraph. Choosing is the reveal; then it is Next, or Learn more for the explanation and a link into the topic lesson. |
 | **Study** | SM-2 spaced repetition. Miss a card and it returns in the same session and again tomorrow; know it and the interval stretches to weeks. |
 | **Quiz** | Scored multiple choice with per-topic breakdown and a review of everything you missed. Answers also feed the review schedule. |
 | **Mock interview** | Open-ended questions, no options. Answer out loud, then compare against a strong spoken answer and self-grade missed / partial / solid. |
@@ -20,16 +21,16 @@ Topic and difficulty filters apply across every mode, so you can drive hard at o
 
 ## Content
 
-| Topic | Cards |
-|---|---|
-| ML Fundamentals | 25 |
-| Deep Learning | 25 |
-| Transformers & LLMs | 25 |
-| RAG & Vector Search | 25 |
-| Fine-Tuning & Alignment | 25 |
-| Evaluation & Metrics | 25 |
-| MLOps & Serving | 25 |
-| AI System Design | 25 |
+| Topic | Cards | Flashcards |
+|---|---|---|
+| ML Fundamentals | 25 | 10 |
+| Deep Learning | 25 | 10 |
+| Transformers & LLMs | 25 | 10 |
+| RAG & Vector Search | 25 | 10 |
+| Fine-Tuning & Alignment | 25 | 10 |
+| Evaluation & Metrics | 25 | 10 |
+| MLOps & Serving | 25 | 10 |
+| AI System Design | 25 | 10 |
 
 Each card carries four options, the correct answer, a written explanation of *why*, and a
 `modelAnswer` — how a strong candidate would actually say it out loud. Difficulty is graded
@@ -38,6 +39,26 @@ easy / medium / hard.
 Cards live in `app/src/main/assets/cards_<topic>.json`, one file per topic, so the bank grows
 by adding a file — no code change needed. `scripts/validate_content.py` gates every build on
 schema, duplicate IDs, option count, and answer-index sanity.
+
+### Flashcard visuals
+
+Flashcards live alongside the bank in `flash_<topic>.json` and carry two options, the answer
+index and an explanation. Any card may attach a `visual`, which the app draws from structured
+JSON rather than shipping bitmaps — so a diagram inherits the theme, stays sharp at any
+density, and rides the over-the-air content bundle like everything else:
+
+| `type` | Fields | Rendered as |
+|---|---|---|
+| `flowchart` | `steps[]` | Boxes top to bottom with arrows between them |
+| `table` | `headers[]`, `rows[][]` | An even-column comparison grid |
+| `diagram` | `text` | Monospace block, scrolls sideways, alignment preserved |
+| `code` | `text` | Same, tinted as code |
+| `image` | `data` | Base64 PNG or JPEG, decoded on device |
+
+`image` is the escape hatch for content that genuinely needs pixels. Prefer the structural
+types: they are a fraction of the bytes and readable in both light and dark themes. A visual
+that is malformed is dropped rather than shown broken, so every prompt has to stand on its
+own text.
 
 ## Automatic updates
 
@@ -105,11 +126,11 @@ python scripts/fetch_news.py --out docs/news.json
 
 ```
 app/src/main/
-  assets/            cards_*.json (question bank), lessons.json,
-                     news.json + content-version.txt (offline fallbacks)
+  assets/            cards_*.json (question bank), flash_*.json (flashcards),
+                     lessons.json, news.json + content-version.txt (offline fallbacks)
   java/com/iknalos/aiprep/
     MainActivity.kt        Compose nav host + bottom bar, schedules the 4am job
-    AppViewModel.kt        all session state (study / quiz / mock / news / sync)
+    AppViewModel.kt        all session state (study / flash / quiz / mock / news / sync)
     Models.kt              content + persisted progress models
     Content.kt             loads bundled or over-the-air content, topic ordering
     ContentSync.kt         versioned content bundle fetch, verify, cache
@@ -117,8 +138,8 @@ app/src/main/
     News.kt                feed fetch + cache + bundled fallback
     Updater.kt             version manifest, APK download, silent self-install
     DailySync.kt           4am WorkManager job + settings wrapper
-    ui/                    theme and shared composables
-    screens/               Home, Study, Quiz, Mock, Lessons, News, Stats,
+    ui/                    theme, shared composables, flashcard visual renderers
+    screens/               Home, Flash, Study, Quiz, Mock, Lessons, News, Stats,
                            Focus, Settings
 
 scripts/

@@ -1,0 +1,154 @@
+{
+  "topicId": "ml-fundamentals",
+  "topicName": "ML Fundamentals",
+  "cards": [
+    {
+      "id": "fl-mlf-01",
+      "difficulty": "easy",
+      "prompt": "Training accuracy is 0.99 and validation accuracy is 0.68. What is happening?",
+      "options": [
+        "The model is overfitting",
+        "The model is underfitting"
+      ],
+      "answer": 0,
+      "explanation": "A large gap between training and validation performance means the model has memorised patterns that do not generalise. Underfitting looks different: both numbers are low together, because the model is too simple to capture the signal at all."
+    },
+    {
+      "id": "fl-mlf-02",
+      "difficulty": "easy",
+      "prompt": "Read the table. Which row is stated correctly?",
+      "visual": {
+        "type": "table",
+        "caption": "One of these definitions has been swapped.",
+        "headers": ["Metric", "Formula", "Answers"],
+        "rows": [
+          ["Precision", "TP / (TP + FP)", "Of what I flagged, how much was real?"],
+          ["Recall", "TP / (TP + FN)", "Of what was real, how much did I catch?"]
+        ]
+      },
+      "options": [
+        "Both rows are correct as written",
+        "Precision and recall formulas are swapped"
+      ],
+      "answer": 0,
+      "explanation": "Precision divides by everything you flagged, so false positives hurt it. Recall divides by everything that was actually positive, so false negatives hurt it. The table matches both the formulas and the plain-language questions they answer."
+    },
+    {
+      "id": "fl-mlf-03",
+      "difficulty": "medium",
+      "prompt": "This pipeline has a bug. Where is it?",
+      "visual": {
+        "type": "flowchart",
+        "caption": "A preprocessing pipeline as written by a candidate.",
+        "steps": [
+          "Load full dataset",
+          "Fit StandardScaler on all rows",
+          "Split into train and test",
+          "Train model on train",
+          "Evaluate on test"
+        ]
+      },
+      "options": [
+        "Scaling before the split leaks test statistics into training",
+        "Nothing is wrong; scaling order does not matter"
+      ],
+      "answer": 0,
+      "explanation": "The scaler's mean and standard deviation are computed over rows the model is later tested on, so test information reaches training and the score comes out optimistic. Split first, fit the scaler on train only, then apply it to test."
+    },
+    {
+      "id": "fl-mlf-04",
+      "difficulty": "medium",
+      "prompt": "You want a model that drives some coefficients exactly to zero for feature selection. Which penalty?",
+      "options": [
+        "L1 (Lasso)",
+        "L2 (Ridge)"
+      ],
+      "answer": 0,
+      "explanation": "L1's constraint region has corners on the axes, so the optimum often lands exactly on zero and drops features outright. L2 shrinks coefficients smoothly toward zero but almost never reaches it, so every feature stays in the model."
+    },
+    {
+      "id": "fl-mlf-05",
+      "difficulty": "medium",
+      "prompt": "From this confusion matrix, is precision above or below 0.8?",
+      "visual": {
+        "type": "diagram",
+        "caption": "Rows are the truth, columns are the prediction.",
+        "text": "                predicted\n              pos      neg\n  actual pos    60       40\n  actual neg    30      870"
+      },
+      "options": [
+        "Below 0.8",
+        "Above 0.8"
+      ],
+      "answer": 0,
+      "explanation": "Precision is 60 / (60 + 30) = 0.67, since 30 negatives were flagged as positive. Recall is 60 / (60 + 40) = 0.60. Accuracy would read 0.93 here, which is why accuracy alone hides a weak detector on imbalanced data."
+    },
+    {
+      "id": "fl-mlf-06",
+      "difficulty": "easy",
+      "prompt": "You have 400 labelled examples. Single 80/20 holdout, or 5-fold cross-validation?",
+      "options": [
+        "5-fold cross-validation",
+        "Single 80/20 holdout"
+      ],
+      "answer": 0,
+      "explanation": "With only 400 rows an 80 row test set makes the estimate noisy, and which rows landed in it matters more than the model. Cross-validation evaluates on every row exactly once and reports a mean with a spread, at the cost of five fits."
+    },
+    {
+      "id": "fl-mlf-07",
+      "difficulty": "medium",
+      "prompt": "Fraud detection, 0.5% positive rate. Your model scores 99.5% accuracy. Which reading is right?",
+      "options": [
+        "It may be predicting 'not fraud' every time",
+        "It is catching almost all fraud"
+      ],
+      "answer": 0,
+      "explanation": "A constant negative prediction already scores 99.5% on this base rate, so the number says nothing. Report precision-recall AUC, or recall at a fixed precision, so the metric moves only when the rare class is actually being found."
+    },
+    {
+      "id": "fl-mlf-08",
+      "difficulty": "medium",
+      "prompt": "Read the snippet. Is the reported score trustworthy?",
+      "visual": {
+        "type": "code",
+        "caption": "Fragment from an evaluation script.",
+        "text": "X_train, X_test, y_train, y_test = split(X, y)\n\nselector = SelectKBest(k=20).fit(X, y)   # note: X, y\nX_train = selector.transform(X_train)\nX_test  = selector.transform(X_test)\n\nmodel.fit(X_train, y_train)\nprint(model.score(X_test, y_test))"
+      },
+      "options": [
+        "No, feature selection saw the test labels",
+        "Yes, the split happens before training"
+      ],
+      "answer": 0,
+      "explanation": "SelectKBest is fitted on the full X and y, including test labels, so the chosen 20 features already encode the answer. Splitting early does not help if any fitted step afterwards touches the whole dataset. Put selection inside the pipeline."
+    },
+    {
+      "id": "fl-mlf-09",
+      "difficulty": "easy",
+      "prompt": "Training loss oscillates wildly and sometimes increases. Most likely cause?",
+      "options": [
+        "Learning rate too high",
+        "Learning rate too low"
+      ],
+      "answer": 0,
+      "explanation": "Too large a step overshoots the minimum and can bounce to a worse point each update. Too small a rate gives the opposite symptom: a smooth loss curve that decreases far too slowly and looks flat rather than unstable."
+    },
+    {
+      "id": "fl-mlf-10",
+      "difficulty": "easy",
+      "prompt": "Which model in this table needs its features scaled?",
+      "visual": {
+        "type": "table",
+        "headers": ["Model", "Uses distances or dot products?", "Scaling"],
+        "rows": [
+          ["k-NN", "yes", "?"],
+          ["Random forest", "no, axis-aligned splits", "?"]
+        ]
+      },
+      "options": [
+        "k-NN only",
+        "Both, always"
+      ],
+      "answer": 0,
+      "explanation": "k-NN, SVMs and any gradient-based linear model compare magnitudes, so an unscaled feature in thousands drowns out one in decimals. Trees split one feature at a time on order alone, so a monotone rescaling changes nothing about the splits they choose."
+    }
+  ]
+}

@@ -95,6 +95,14 @@ def main():
         topics.append(data)
         total_cards += len(data.get("cards", []))
 
+    flash_files = sorted(glob.glob(os.path.join(ASSETS, "flash_*.json")))
+    flashcards = []
+    total_flash = 0
+    for path in flash_files:
+        data = load(path)
+        flashcards.append(data)
+        total_flash += len(data.get("cards", []))
+
     lessons_path = os.path.join(ASSETS, "lessons.json")
     lessons = load(lessons_path).get("lessons", [])
 
@@ -102,7 +110,7 @@ def main():
         print("ERROR: refusing to publish an empty bundle", file=sys.stderr)
         return 1
 
-    content_paths = card_files + [lessons_path]
+    content_paths = card_files + flash_files + [lessons_path]
     version = content_version(content_paths)
 
     bundle = {
@@ -110,7 +118,9 @@ def main():
         "generated": content_date(content_paths),
         "cardCount": total_cards,
         "topicCount": len(topics),
+        "flashCount": total_flash,
         "topics": topics,
+        "flashcards": flashcards,
         "lessons": lessons,
     }
 
@@ -140,6 +150,7 @@ def main():
         "cardCount": total_cards,
         "topicCount": len(topics),
         "lessonCount": len(lessons),
+        "flashCount": total_flash,
         "bytes": len(data),
         "sha256": digest,
         "url": "https://iknalos.github.io/AI-Interview-Prep/content.json",
@@ -148,8 +159,8 @@ def main():
         json.dump(index, fh, indent=1, ensure_ascii=False)
         fh.write("\n")
 
-    print(f"content v{version}: {total_cards} cards, {len(topics)} topics, "
-          f"{len(lessons)} lessons, {len(payload) / 1024:.0f} KB")
+    print(f"content v{version}: {total_cards} cards, {total_flash} flashcards, "
+          f"{len(topics)} topics, {len(lessons)} lessons, {len(payload) / 1024:.0f} KB")
     return 0
 
 

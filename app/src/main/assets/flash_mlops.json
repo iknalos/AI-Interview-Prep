@@ -1,0 +1,135 @@
+{
+  "topicId": "mlops",
+  "topicName": "MLOps & Serving",
+  "cards": [
+    {
+      "id": "fl-ops-01",
+      "difficulty": "easy",
+      "prompt": "The offline features and the online features are computed by two different code paths. What is the failure called?",
+      "options": [
+        "Training-serving skew",
+        "Concept drift"
+      ],
+      "answer": 0,
+      "explanation": "Two implementations of the same feature diverge sooner or later, and the model then sees inputs at serving time that it never saw in training. A shared feature pipeline, or a feature store used by both paths, is the structural fix."
+    },
+    {
+      "id": "fl-ops-02",
+      "difficulty": "medium",
+      "prompt": "Which is happening?",
+      "visual": {
+        "type": "table",
+        "headers": ["Observation", "Drift type"],
+        "rows": [
+          ["Input distribution moved, P(y|x) unchanged", "data drift"],
+          ["Same inputs, but the right answer changed", "concept drift"]
+        ]
+      },
+      "options": [
+        "A pandemic changing what 'normal spending' means is concept drift",
+        "A pandemic changing spending is data drift only"
+      ],
+      "answer": 0,
+      "explanation": "The inputs moved and so did the relationship: spending patterns that used to signal fraud became ordinary. Data drift may be harmless, but concept drift makes the learned mapping wrong, and only labels, not input monitoring, will reveal it."
+    },
+    {
+      "id": "fl-ops-03",
+      "difficulty": "medium",
+      "prompt": "Latency is fine at p50 and terrible at p99. Which number do you design against?",
+      "options": [
+        "p99, because tail latency is what users complain about",
+        "p50, because it covers most requests"
+      ],
+      "answer": 0,
+      "explanation": "Averages hide the requests that time out, retry and cascade. In LLM serving the tail is usually queueing under bursty load, an unbounded batch wait, or a cold model replica, and the fix is admission control and autoscaling rather than a faster model."
+    },
+    {
+      "id": "fl-ops-04",
+      "difficulty": "medium",
+      "prompt": "What does dynamic batching trade?",
+      "options": [
+        "A little latency per request for a lot more throughput",
+        "Accuracy for speed"
+      ],
+      "answer": 0,
+      "explanation": "The server waits a few milliseconds to gather requests into one GPU call, so each request pays the wait and the fleet serves far more of them. Outputs are unchanged. The knob to watch is the maximum wait, which sets the latency floor under light load."
+    },
+    {
+      "id": "fl-ops-05",
+      "difficulty": "easy",
+      "prompt": "Which rollout gives you a real safety net?",
+      "visual": {
+        "type": "flowchart",
+        "caption": "Deploying a new model version.",
+        "steps": [
+          "Deploy alongside the current model",
+          "Route 1% of traffic to it",
+          "Compare live metrics and errors",
+          "Ramp 5% → 25% → 100%",
+          "Keep the old version warm to roll back"
+        ]
+      },
+      "options": [
+        "This canary rollout",
+        "Swap all traffic at once after passing offline tests"
+      ],
+      "answer": 0,
+      "explanation": "Offline tests never cover the traffic you have not seen. A canary limits the blast radius, gives a live comparison on the same population, and makes rollback a routing change rather than a redeploy. Automate the rollback trigger on your guardrail metric."
+    },
+    {
+      "id": "fl-ops-06",
+      "difficulty": "medium",
+      "prompt": "What has to be versioned for a model result to be reproducible?",
+      "options": [
+        "Code, data snapshot, config and environment together",
+        "The model weights are enough"
+      ],
+      "answer": 0,
+      "explanation": "Weights tell you what, not how. Without the exact training data, the hyperparameters, the library versions and the seed, you cannot rebuild or debug the run six months later when a regulator, or a colleague, asks why it behaves the way it does."
+    },
+    {
+      "id": "fl-ops-07",
+      "difficulty": "hard",
+      "prompt": "Your LLM endpoint costs are three times the forecast. Where do you look first?",
+      "options": [
+        "Token counts per request: prompt bloat and retries",
+        "The GPU instance type"
+      ],
+      "answer": 0,
+      "explanation": "Cost scales with tokens, and prompts grow quietly as few-shot examples and retrieved context accumulate. Log input and output tokens per route, cache repeated prefixes, trim retrieved chunks, and cap retries before touching the hardware."
+    },
+    {
+      "id": "fl-ops-08",
+      "difficulty": "medium",
+      "prompt": "You cannot get labels for weeks. Can you still monitor the model?",
+      "options": [
+        "Yes: watch input drift, prediction distribution and confidence",
+        "No, monitoring requires ground truth"
+      ],
+      "answer": 0,
+      "explanation": "Unlabelled proxies catch a lot: a shift in the input distribution, a sudden change in the mix of predicted classes, a drop in confidence, a rise in nulls from an upstream feature. They cannot prove accuracy fell, but they tell you where to look and when to sample for labels."
+    },
+    {
+      "id": "fl-ops-09",
+      "difficulty": "easy",
+      "prompt": "Which cache actually helps an LLM service?",
+      "options": [
+        "Both a response cache for repeat prompts and a KV prefix cache",
+        "Neither; every generation is unique"
+      ],
+      "answer": 0,
+      "explanation": "Real traffic repeats far more than people expect, so an exact or semantic response cache removes whole calls. Separately, a shared system prompt can be prefilled once and reused across requests, which cuts the compute-heavy prefill phase."
+    },
+    {
+      "id": "fl-ops-10",
+      "difficulty": "medium",
+      "prompt": "A model retrains nightly on data that includes its own past predictions. What is the danger?",
+      "options": [
+        "A feedback loop that amplifies the model's own bias",
+        "Nothing, this is standard online learning"
+      ],
+      "answer": 0,
+      "explanation": "If the model only ever sees outcomes for the items it chose to surface, its errors become tomorrow's training labels and the blind spot compounds. Keep a small randomised holdout of traffic, or log propensities, so the training set is not purely self-selected."
+    }
+  ]
+}
