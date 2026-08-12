@@ -1,26 +1,27 @@
 {
- "generated": "2026-08-11",
- "generatedAt": "2026-08-11T07:41:23+00:00",
- "sourceCount": 9,
+ "generated": "2026-08-12",
+ "generatedAt": "2026-08-12T07:56:16+00:00",
+ "sourceCount": 10,
  "items": [
   {
-   "id": "61282b7420ed0675",
-   "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-   "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+   "id": "de2ca3d7578dd51c",
+   "title": "Testing ads in ChatGPT",
+   "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-   "published": "2026-08-10",
+   "url": "https://openai.com/index/testing-ads-in-chatgpt",
+   "published": "2026-08-11",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "ea10becd15211fe9",
-   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-   "summary": "General Science",
+   "id": "605e3ba5201c77ef",
+   "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
-   "published": "2026-07-30",
+   "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
+   "published": "2026-08-11",
    "tags": [
     "research"
    ]
@@ -37,16 +38,14 @@
    ]
   },
   {
-   "id": "e5b664a37aa39848",
-   "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+   "id": "5eb3c49c6262106f",
+   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-   "published": "2026-08-10",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+   "published": "2026-08-11",
    "tags": [
-    "open-source",
-    "serving",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -85,52 +84,63 @@
    ]
   },
   {
-   "id": "e8ee732cce24e531",
-   "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
-   "summary": "Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) are expected to reflect human perception, yet it is unclear how well they capture the distinct aspects of speech that listeners actually perceive. We deconstruct \"naturalness\" into a linguistically...",
+   "id": "2d04bdcda5803dcb",
+   "title": "NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router",
+   "summary": "NVIDIA's open 30B MoE targets the agent execution layer, with Switchyard routing each step to the cheapest capable model. The post NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/",
+   "published": "2026-08-12",
+   "tags": [
+    "industry",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "b127b724618b0f72",
+   "title": "ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls",
+   "summary": "Synthetic dialogue generation offers a way to study conversational dynamics in sensitive domains where real data are difficult to access, release, or annotate. The underlying abuse may occur online or offline: threats and coercion can appear directly in messages, while behaviours such as surveillance, isolation, stalking, and physical...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.09930v1",
-   "published": "2026-08-10",
+   "url": "https://arxiv.org/abs/2608.11200v1",
+   "published": "2026-08-11",
    "tags": [
     "paper",
-    "llm",
-    "evaluation",
-    "multimodal"
+    "rag",
+    "evaluation"
    ]
   },
   {
-   "id": "6e44fe4d41d99380",
-   "title": "Fairness in Link Prediction Beyond Demographic Parity: A Reproducibility Study",
-   "summary": "In fair ranked link prediction, demographic parity ($Δ_\\mathrm{DP}$) is a common fairness metric. Yet, Mattos et al. (2025) argue that it fails to detect exposure bias because it ignores where links appear in the ranking. In this study, we reproduce this claim by showing that $Δ_\\mathrm{DP}$ can indicate aggregate parity even when some...",
+   "id": "420cd32ac1f7a230",
+   "title": "How to Verify Consistency of Probabilistic Claims",
+   "summary": "When a probabilistic predictor answers many conditional-probability queries, are its answers self-consistent, and can this be verified in polynomial time? This problem is of interest for AI safety, where safety is derived from honesty about probabilistic predictions of unwanted outcomes potentially caused by an AI action. We construct an...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.09899v1",
-   "published": "2026-08-10",
+   "url": "https://arxiv.org/abs/2608.11181v1",
+   "published": "2026-08-11",
    "tags": [
-    "paper"
+    "paper",
+    "safety"
    ]
   },
   {
-   "id": "c7b962b1d9efaa2a",
-   "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
-   "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+   "id": "b274e00978a8c030",
+   "title": "Daybreak models are now available on AWS",
+   "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/model-ml",
-   "published": "2026-08-10",
+   "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+   "published": "2026-08-11",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "38b998453926e9af",
-   "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+   "id": "ea10becd15211fe9",
+   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
    "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
-   "published": "2026-07-22",
+   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+   "published": "2026-07-30",
    "tags": [
-    "research",
-    "agents"
+    "research"
    ]
   },
   {
@@ -145,15 +155,16 @@
    ]
   },
   {
-   "id": "90d59cd2b4ce1933",
-   "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+   "id": "e5b664a37aa39848",
+   "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+   "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
    "published": "2026-08-10",
    "tags": [
     "open-source",
-    "fine-tuning"
+    "serving",
+    "agents"
    ]
   },
   {
@@ -192,51 +203,63 @@
    ]
   },
   {
-   "id": "afcae7f6d212f9b8",
-   "title": "Multimodal Model Diffing for Feature Discovery and Control",
-   "summary": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that are decomposed into interpretable feature directions using sparse autoencoders (SAEs) neither...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.09928v1",
-   "published": "2026-08-10",
+   "id": "5e2247b143d65053",
+   "title": "Xiaomi’s MiLM Plus Releases PROVE: Perception-Aligned Object Removal Metrics RC-S and RC-T With a Real-World Video Benchmark",
+   "summary": "Object removal models have improved faster than the metrics used to judge them. Diffusion erasers now reconstruct shadows, reflections and occluded structure convincingly, yet PSNR, SSIM, LPIPS, ReMOVE and CFD frequently rank their outputs the wrong way. The root cause is structural: erasure is an ill-posed, one-to-many task, so no...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/11/xiaomis-milm-plus-releases-prove-perception-aligned-object-removal-metrics-rc-s-and-rc-t-with-a-real-world-video-benchmark/",
+   "published": "2026-08-12",
    "tags": [
-    "paper",
-    "llm",
+    "industry",
+    "evaluation",
     "multimodal"
    ]
   },
   {
-   "id": "bcae08af50411666",
-   "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
-   "summary": "We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time continuously update the model's recurrent memory; the model then solves a query through iterative computation in a high-dimensional latent space, without verbalizing its intermediate reasoning. We...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.09888v1",
-   "published": "2026-08-10",
+   "id": "518b7c8c84782f97",
+   "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
+   "summary": "Shani et al. (2026) show that LLM representations broadly recover human category boundaries, while failing to reflect fine-grained typicality structure. Their analysis uses cosine similarity over dense model representations. We revisit their approach using overlap over active sparse autoencoder (SAE) latent sets as a more interpretable...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.11197v1",
+   "published": "2026-08-11",
    "tags": [
     "paper",
-    "serving",
-    "reasoning"
+    "llm"
    ]
   },
   {
-   "id": "7a678e9a26d7e264",
-   "title": "What building an AI-native finance function taught me",
-   "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+   "id": "eed03ebb9625dab7",
+   "title": "A Quantum Roadmap for Softmax Attention: Exact Born-Rule Analogs for Softmax Attention on the Probability Simplex",
+   "summary": "The attention mechanism forms the foundation of many modern AI models such as the Transformer. In one subclass of problems where attention is used, inputs and outputs are bound to the probability simplex so that all outputs sum to one. In this setting, softmax attention admits an exact, component-by-component quantum realization...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.11173v1",
+   "published": "2026-08-11",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "61282b7420ed0675",
+   "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+   "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/building-an-ai-native-finance-function",
+   "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
    "published": "2026-08-10",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "d74b20cb87441fb3",
-   "title": "Towards a quantum computer that learns from its errors",
-   "summary": "Machine Intelligence",
+   "id": "38b998453926e9af",
+   "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
+   "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
    "published": "2026-07-22",
    "tags": [
-    "research"
+    "research",
+    "agents"
    ]
   },
   {
@@ -251,16 +274,15 @@
    ]
   },
   {
-   "id": "0da6fb777e3347c6",
-   "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+   "id": "90d59cd2b4ce1933",
+   "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/muse-glimmer",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
    "published": "2026-08-10",
    "tags": [
     "open-source",
-    "agents",
-    "multimodal"
+    "fine-tuning"
    ]
   },
   {
@@ -302,35 +324,47 @@
    ]
   },
   {
-   "id": "23ed9704557299dc",
-   "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
-   "summary": "Large language models are increasingly being deployed in governmental settings, yet few existing evaluation frameworks jointly reflect the values of public administration and the linguistic requirements of non-English contexts. We present the \"Grip on LLMs\" framework, a systematic evaluation suite for Dutch governmental use developed in...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.09925v1",
-   "published": "2026-08-10",
+   "id": "8eda5799ffa29659",
+   "title": "The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model",
+   "summary": "LTX-2.5 brings frontier video generation to local NVIDIA hardware: 6.8-second clips, native multishot, day-one ComfyUI, open weights. The post The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/",
+   "published": "2026-08-11",
    "tags": [
-    "paper",
-    "llm",
-    "evaluation"
+    "industry"
    ]
   },
   {
-   "id": "adc698b0d0613ffe",
-   "title": "Space-Creating versus Dead Possession: An Off-Ball Possession-Quality Index for Broadcast Football",
-   "summary": "Ball possession is the most-cited and most-misleading number in football: 60% recycled in one's own half is not 60% spent pinning the opponent back. Existing event-based possession-value frameworks (expected threat, VAEP, on-ball value) price on-ball actions but ignore the off-ball question a sterile possession poses: did holding the...",
+   "id": "3b64c552884106b4",
+   "title": "Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation",
+   "summary": "GUI Visual Grounding is a fundamental capability for GUI agents. Existing models typically freeze their parameters after deployment, limiting their ability to adapt to unseen interfaces. Although recent methods attempt to adapt models via test-time reinforcement learning, they cannot reflect upon failed exploration. To overcome this, we...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.11191v1",
+   "published": "2026-08-11",
+   "tags": [
+    "paper",
+    "fine-tuning",
+    "agents",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "29632cba257f47cc",
+   "title": "Hierarchical Empirical-Bayes Naive Bayes: Minimax Smoothing and Calibration with AODE Extension",
+   "summary": "The Naive Bayes (NB) classifier remains a standard choice for categorical data, yet its widely used smoothing rules, such as Laplace, Lidstone, Krichevsky-Trofimov, and the $m$-estimate, all prescribe a fixed smoothing strength that ignores feature cardinality, sample size, and class imbalance, inducing a non-vanishing bias on modern...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.09887v1",
-   "published": "2026-08-10",
+   "url": "https://arxiv.org/abs/2608.11162v1",
+   "published": "2026-08-11",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "3a8585570cab21df",
-   "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-   "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+   "id": "c7b962b1d9efaa2a",
+   "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+   "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+   "url": "https://openai.com/index/model-ml",
    "published": "2026-08-10",
    "tags": [
     "labs",
@@ -338,15 +372,14 @@
    ]
   },
   {
-   "id": "633f453fe2c164d0",
-   "title": "Towards demystifying the creativity of diffusion models",
-   "summary": "Algorithms & Theory",
+   "id": "d74b20cb87441fb3",
+   "title": "Towards a quantum computer that learns from its errors",
+   "summary": "Machine Intelligence",
    "source": "Google Research",
-   "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
-   "published": "2026-07-15",
+   "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
+   "published": "2026-07-22",
    "tags": [
-    "research",
-    "multimodal"
+    "research"
    ]
   },
   {
@@ -361,14 +394,16 @@
    ]
   },
   {
-   "id": "fd5b733b3580dcf8",
-   "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+   "id": "0da6fb777e3347c6",
+   "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/tutormoments",
-   "published": "2026-08-07",
+   "url": "https://huggingface.co/blog/muse-glimmer",
+   "published": "2026-08-10",
    "tags": [
-    "open-source"
+    "open-source",
+    "agents",
+    "multimodal"
    ]
   },
   {
@@ -406,52 +441,61 @@
    ]
   },
   {
-   "id": "cfaca5246e042f36",
-   "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
-   "summary": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor. In real-world deployments, however, complex system prompts, safety guardrails, and structural constraints continuously force models off...",
+   "id": "baf4d446c23c38ab",
+   "title": "Building and Validating a Quantitative Trading Strategy with OctoBot, Walk-Forward Backtesting, Parameter Optimization, and Interactive Analysis",
+   "summary": "In this tutorial, we build a complete quantitative backtesting workflow with OctoBot and OctoBot-Script while keeping the environment isolated from Colab’s preinstalled dependencies. We configure a rule-based trading strategy that combines RSI-based oversold signals, EMA trend confirmation, and ATR-driven adaptive stop-loss and...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/11/building-and-validating-a-quantitative-trading-strategy-with-octobot-walk-forward-backtesting-parameter-optimization-and-interactive-analysis/",
+   "published": "2026-08-11",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "c560c964c085f20a",
+   "title": "From Interpretability to Control: Insights from Six Years of the TrustNLP Workshop",
+   "summary": "The Workshop on Trustworthy Natural Language Processing (TrustNLP), co-located with major ACL conferences since 2021, has grown from 8 proceedings papers to 41 over six editions, documenting a field-wide transition from post-hoc interpretability of static models to mechanistic understanding and proactive control of generative systems. We...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.09900v1",
-   "published": "2026-08-10",
+   "url": "https://arxiv.org/abs/2608.11171v1",
+   "published": "2026-08-11",
    "tags": [
     "paper",
-    "llm",
-    "evaluation",
     "safety"
    ]
   },
   {
-   "id": "87dfa8599cb1df90",
-   "title": "Financial Numerical Prediction and Allocation as Token Generation",
-   "summary": "Financial prediction typically relies on task-specific regression, ranking, or policy heads, separating the language model from the numerical object ultimately evaluated. We investigate whether a causal language model can instead represent forecasts and decisions directly through constrained token generation. FinATOM introduces a...",
+   "id": "1239e1fa6494149f",
+   "title": "Conditional Independence Tests for Constraint-Based Causal Discovery: A Survey",
+   "summary": "Conditional Independence (CI) tests are the statistical engine of constraint-based causal discovery: in algorithms such as PC (Peter-Clark) and FCI (Fast Causal Inference), skeleton pruning and key orientations follow directly from CI decisions. This survey reviews CI testing with emphasis on assumptions, robustness, and scalability in...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.09880v1",
-   "published": "2026-08-10",
+   "url": "https://arxiv.org/abs/2608.11156v1",
+   "published": "2026-08-11",
    "tags": [
     "paper",
-    "llm",
-    "evaluation"
+    "serving"
    ]
   },
   {
-   "id": "7f776d7829d07ede",
-   "title": "Putting frontier cyber models in more trusted hands",
-   "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+   "id": "7a678e9a26d7e264",
+   "title": "What building an AI-native finance function taught me",
+   "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+   "url": "https://openai.com/index/building-an-ai-native-finance-function",
    "published": "2026-08-10",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "85c988187048dc55",
-   "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
-   "summary": "Generative AI",
+   "id": "633f453fe2c164d0",
+   "title": "Towards demystifying the creativity of diffusion models",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
-   "published": "2026-07-09",
+   "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
+   "published": "2026-07-15",
    "tags": [
-    "research"
+    "research",
+    "multimodal"
    ]
   },
   {
@@ -466,15 +510,14 @@
    ]
   },
   {
-   "id": "72ea094fa822e0b0",
-   "title": "Baseten on Hugging Face Inference Providers 🔥",
+   "id": "fd5b733b3580dcf8",
+   "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/baseten",
-   "published": "2026-08-06",
+   "url": "https://huggingface.co/blog/allenai/tutormoments",
+   "published": "2026-08-07",
    "tags": [
-    "open-source",
-    "serving"
+    "open-source"
    ]
   },
   {
@@ -514,35 +557,48 @@
    ]
   },
   {
-   "id": "a874f8de9a8bec07",
-   "title": "Consilience for Verifier-Free Test-Time Scaling",
-   "summary": "Test-time scaling often uses an external verifier, such as compilers and test cases in coding or trained value functions in robotics applications, to obtain high-quality rollouts. Verifier-free test-time scaling (or VF-TTS) is gaining extensive attention as a mechanism to enhance Large Language Model (LLM) reasoning, primarily because we...",
+   "id": "6e3ecbc247b2d01b",
+   "title": "webAI Releases TwIL-LM: A 1.7B and 3B Formal-Logic Model Family for Autoformalization on Local Hardware",
+   "summary": "webAI has released TwIL-LM, a family of formal-logic models at 1.7B and 3B parameters that translate English into first-order logic and check whether conclusions follow from premises. The 3B runs on CPU or 4GB of VRAM; the 1.7B downloads at 1.06GB. Both ship under a non-commercial license. The model card also shows that the headline...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/10/webai-releases-twil-lm-a-1-7b-and-3b-formal-logic-model-family-for-autoformalization-on-local-hardware/",
+   "published": "2026-08-11",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "f9e604bcf854ad5d",
+   "title": "MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment",
+   "summary": "Existing Multimodal Large Language Models (MLLMs) predominantly rely on image-text pairs for modality alignment pretraining, mapping global image representations to long textual descriptions. However, this image-level alignment suffers from referential ambiguity: models struggle to infer the correspondences between multiple visual...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.09898v1",
-   "published": "2026-08-10",
+   "url": "https://arxiv.org/abs/2608.11167v1",
+   "published": "2026-08-11",
    "tags": [
     "paper",
     "llm",
-    "reasoning"
+    "fine-tuning",
+    "multimodal"
    ]
   },
   {
-   "id": "e7ad0a7b05df5c38",
-   "title": "Logarithmic-Free Moment and Generalization Bounds for Uniformly Stable Algorithms",
-   "summary": "Uniform stability is a classical tool for controlling the generalization error of a learning algorithm. Bousquet, Klochkov, and Zhivotovskiy (2020) showed that the problem can be reduced to a moment inequality for a sum of weakly interacting functions of independent random variables. Their bound contains an additional factor $\\log n$...",
+   "id": "538ce17cb49ce4c4",
+   "title": "DACRI: Decision-Aware Causal Intervention Ranking for Critical Supply Chains",
+   "summary": "Detecting or attributing a supply-chain disruption is not the same as selecting the intervention that maximizes recoverable net value. We present CriticalSCM-Bench v1, a controlled synthetic benchmark with causal ground truth, paired factual/counterfactual rollouts, and an explicit net-value objective. Relative to a full-information...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.09870v1",
-   "published": "2026-08-10",
+   "url": "https://arxiv.org/abs/2608.11154v1",
+   "published": "2026-08-11",
    "tags": [
-    "paper"
+    "paper",
+    "evaluation"
    ]
   },
   {
-   "id": "ee449db47d8dff19",
-   "title": "Premium seats are coming to ChatGPT Business",
-   "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+   "id": "3a8585570cab21df",
+   "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+   "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/premium-seats-chatgpt-business",
+   "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
    "published": "2026-08-10",
    "tags": [
     "labs",
@@ -550,12 +606,12 @@
    ]
   },
   {
-   "id": "d4a5348e5d117a02",
-   "title": "The power of collaboration: How we can reduce traffic congestion",
-   "summary": "Algorithms & Theory",
+   "id": "85c988187048dc55",
+   "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/",
-   "published": "2026-07-07",
+   "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
+   "published": "2026-07-09",
    "tags": [
     "research"
    ]
@@ -572,15 +628,15 @@
    ]
   },
   {
-   "id": "ea7f6df3de1a3ce4",
-   "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+   "id": "72ea094fa822e0b0",
+   "title": "Baseten on Hugging Face Inference Providers 🔥",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-   "published": "2026-08-04",
+   "url": "https://huggingface.co/blog/baseten",
+   "published": "2026-08-06",
    "tags": [
     "open-source",
-    "agents"
+    "serving"
    ]
   },
   {
@@ -619,98 +675,43 @@
    ]
   },
   {
-   "id": "32d845f2839b58e4",
-   "title": "Fusion Training for Mathematical Generalization in Large Language Models",
-   "summary": "Thinking Mode Fusion (TMF) enables large language models to support both concise responses and long-form reasoning by unifying a non-thinking mode and a thinking mode within a single model. However, its training dynamics, including the \\emph{data ratio} and \\emph{training schedule} between the two modes, remain underexplored. In this...",
+   "id": "8d8ec6080af67ce9",
+   "title": "Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+   "summary": "In this comprehensive guide, we demonstrate how to implement a complete, programmable MiniMax-H3 multimodal generation pipeline. By leveraging ComfyUI as a headless backend, we walk through setting up an automated inference environment that handles hardware profiling, model weight downloading, dynamic graph construction, and joint...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/",
+   "published": "2026-08-11",
+   "tags": [
+    "industry",
+    "serving",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "8ecaca672ff564d9",
+   "title": "The Illusion of Cross-Lingual Safety in Low-Resource Languages",
+   "summary": "Safety alignment in large language models (LLMs) is largely developed in English, assuming these safeguards generalize across multilingual settings. However, this assumption remains underexplored and exposes a vulnerability in low-resource languages. We investigate cross-lingual safety transfer in four African languages, Twi, Hausa...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.09893v1",
-   "published": "2026-08-10",
+   "url": "https://arxiv.org/abs/2608.11146v1",
+   "published": "2026-08-11",
    "tags": [
     "paper",
     "llm",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "1e040ff47895495f",
-   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-   "summary": "Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the client passes back with each subsequent...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.09867v1",
-   "published": "2026-08-10",
-   "tags": [
-    "paper",
-    "llm",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "1ea3eea3d9a52b4c",
-   "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-   "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/zapier",
-   "published": "2026-08-10",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "7725e52402e07399",
-   "title": "Expanding our Heat Resilience data to 50+ global cities",
-   "summary": "Climate & Sustainability",
-   "source": "Google Research",
-   "url": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
-   "published": "2026-06-30",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "7898549b95c3b8f5",
-   "title": "Introducing Gemini 3.5 Flash Cyber",
-   "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-   "published": "2026-07-17",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "f684c3a66a25993b",
-   "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-   "published": "2026-07-30",
-   "tags": [
-    "open-source"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
+    "fine-tuning",
     "safety"
    ]
   },
   {
-   "id": "9bca82a43b8d9511",
-   "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
-   "summary": "The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one of the most comprehensive biomedical and clinical data repositories in existence.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
-   "published": "2026-07-29",
+   "id": "e5d2ca5b48eb91c2",
+   "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
+   "summary": "Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms. Prefix-aware routing improves inference efficiency through cache reuse and load balancing, but it does not control how heterogeneous rollout sessions compete...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.11152v1",
+   "published": "2026-08-11",
    "tags": [
-    "research"
+    "paper",
+    "llm",
+    "serving"
    ]
   }
  ]
