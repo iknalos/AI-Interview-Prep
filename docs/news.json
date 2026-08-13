@@ -1,51 +1,54 @@
 {
- "generated": "2026-08-12",
- "generatedAt": "2026-08-12T07:56:16+00:00",
+ "generated": "2026-08-13",
+ "generatedAt": "2026-08-13T07:57:24+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "de2ca3d7578dd51c",
-   "title": "Testing ads in ChatGPT",
-   "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+   "id": "fb21820d806b1b78",
+   "title": "From assistance to execution: How enterprises put AI to work",
+   "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/testing-ads-in-chatgpt",
-   "published": "2026-08-11",
+   "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+   "published": "2026-08-12",
    "tags": [
     "labs",
-    "llm"
+    "llm",
+    "agents"
    ]
   },
   {
-   "id": "605e3ba5201c77ef",
-   "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
-   "summary": "Health & Bioscience",
+   "id": "4bec668cb6869c4b",
+   "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
-   "published": "2026-08-11",
+   "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
+   "published": "2026-08-12",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "7fa201e30c7e3776",
-   "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-   "summary": "",
+   "id": "f5d9b5f669dc0283",
+   "title": "Putting sign language AI into users’ hands",
+   "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-   "published": "2026-08-06",
+   "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+   "published": "2026-08-12",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "5eb3c49c6262106f",
-   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+   "id": "e43158037a354e46",
+   "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-   "published": "2026-08-11",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+   "published": "2026-08-12",
    "tags": [
-    "open-source"
+    "open-source",
+    "rag",
+    "llm"
    ]
   },
   {
@@ -84,87 +87,85 @@
    ]
   },
   {
-   "id": "2d04bdcda5803dcb",
-   "title": "NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router",
-   "summary": "NVIDIA's open 30B MoE targets the agent execution layer, with Switchyard routing each step to the cheapest capable model. The post NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router appeared first on MarkTechPost .",
+   "id": "f4ce70ac74042868",
+   "title": "Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+   "summary": "Dyna Robotics has released Dyna-2, a world-action model pre-trained on more than one million hours of egocentric human video. The technical report establishes three results: a scaling law on human data to 1M hours, the first transfer of that law to unseen robot data, and evidence that video co-training drives cross-embodiment...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/",
+   "url": "https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video/",
+   "published": "2026-08-13",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "1c97be6b6bc9e985",
+   "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+   "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.12313v1",
    "published": "2026-08-12",
    "tags": [
-    "industry",
-    "llm",
-    "agents"
-   ]
-  },
-  {
-   "id": "b127b724618b0f72",
-   "title": "ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls",
-   "summary": "Synthetic dialogue generation offers a way to study conversational dynamics in sensitive domains where real data are difficult to access, release, or annotate. The underlying abuse may occur online or offline: threats and coercion can appear directly in messages, while behaviours such as surveillance, isolation, stalking, and physical...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.11200v1",
-   "published": "2026-08-11",
-   "tags": [
     "paper",
-    "rag",
-    "evaluation"
+    "evaluation",
+    "agents",
+    "reasoning"
    ]
   },
   {
-   "id": "420cd32ac1f7a230",
-   "title": "How to Verify Consistency of Probabilistic Claims",
-   "summary": "When a probabilistic predictor answers many conditional-probability queries, are its answers self-consistent, and can this be verified in polynomial time? This problem is of interest for AI safety, where safety is derived from honesty about probabilistic predictions of unwanted outcomes potentially caused by an AI action. We construct an...",
+   "id": "d1475e1e4d33ea58",
+   "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
+   "summary": "Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, with no per-step attribution. We frame this as a temporal credit assignment problem and propose the Redistribution-based Cost Inference (RCI)...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.11181v1",
-   "published": "2026-08-11",
+   "url": "https://arxiv.org/abs/2608.12306v1",
+   "published": "2026-08-12",
    "tags": [
     "paper",
-    "safety"
+    "serving"
    ]
   },
   {
-   "id": "b274e00978a8c030",
-   "title": "Daybreak models are now available on AWS",
-   "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+   "id": "cad35e6294feba2f",
+   "title": "How RingCentral builds AI-native work from engineering to ops",
+   "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-   "published": "2026-08-11",
+   "url": "https://openai.com/index/ringcentral",
+   "published": "2026-08-12",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "ea10becd15211fe9",
-   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-   "summary": "General Science",
+   "id": "605e3ba5201c77ef",
+   "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
-   "published": "2026-07-30",
+   "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
+   "published": "2026-08-11",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "06b8d0ad6f63e2ce",
-   "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-   "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+   "id": "7fa201e30c7e3776",
+   "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+   "summary": "",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-   "published": "2026-07-30",
+   "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+   "published": "2026-08-06",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "e5b664a37aa39848",
-   "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+   "id": "ab799e9da743babb",
+   "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-   "published": "2026-08-10",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+   "published": "2026-08-12",
    "tags": [
-    "open-source",
-    "serving",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -203,86 +204,87 @@
    ]
   },
   {
-   "id": "5e2247b143d65053",
-   "title": "Xiaomi’s MiLM Plus Releases PROVE: Perception-Aligned Object Removal Metrics RC-S and RC-T With a Real-World Video Benchmark",
-   "summary": "Object removal models have improved faster than the metrics used to judge them. Diffusion erasers now reconstruct shadows, reflections and occluded structure convincingly, yet PSNR, SSIM, LPIPS, ReMOVE and CFD frequently rank their outputs the wrong way. The root cause is structural: erasure is an ill-posed, one-to-many task, so no...",
+   "id": "ebf65a17b0371dba",
+   "title": "SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
+   "summary": "SpaceXAI released Grok 4.6 on August 12, 2026 — a post-training upgrade over Grok 4.5, not a larger base model. It ties GPT-5.6 Sol Max at 61 on the Artificial Analysis Intelligence Index, ships 500K context and a new xhigh reasoning level, and holds pricing at $2/$6 per million tokens. The coding benchmarks are where it still loses. The...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/11/xiaomis-milm-plus-releases-prove-perception-aligned-object-removal-metrics-rc-s-and-rc-t-with-a-real-world-video-benchmark/",
-   "published": "2026-08-12",
+   "url": "https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6/",
+   "published": "2026-08-13",
    "tags": [
     "industry",
+    "llm",
     "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "518b7c8c84782f97",
-   "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
-   "summary": "Shani et al. (2026) show that LLM representations broadly recover human category boundaries, while failing to reflect fine-grained typicality structure. Their analysis uses cosine similarity over dense model representations. We revisit their approach using overlap over active sparse autoencoder (SAE) latent sets as a more interpretable...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.11197v1",
-   "published": "2026-08-11",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "eed03ebb9625dab7",
-   "title": "A Quantum Roadmap for Softmax Attention: Exact Born-Rule Analogs for Softmax Attention on the Probability Simplex",
-   "summary": "The attention mechanism forms the foundation of many modern AI models such as the Transformer. In one subclass of problems where attention is used, inputs and outputs are bound to the probability simplex so that all outputs sum to one. In this setting, softmax attention admits an exact, component-by-component quantum realization...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.11173v1",
-   "published": "2026-08-11",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "61282b7420ed0675",
-   "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-   "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-   "published": "2026-08-10",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "38b998453926e9af",
-   "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
-   "summary": "General Science",
-   "source": "Google Research",
-   "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
-   "published": "2026-07-22",
-   "tags": [
-    "research",
     "agents"
    ]
   },
   {
-   "id": "705bd6c095e82bdb",
-   "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-   "summary": "",
+   "id": "6d6bf8549af65828",
+   "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+   "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study strong-to-weak scaffolding: whether a...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.12307v1",
+   "published": "2026-08-12",
+   "tags": [
+    "paper",
+    "fine-tuning",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "78a201d7744e1605",
+   "title": "A Framework for Designing Reward Functions: From Objectives to Features to Human-Aligned Reward Functions",
+   "summary": "We present a formal process to enable non-experts to instantiate and iterate on human-aligned reward functions, i.e. reward functions that adhere to a given preference ordering over trajectories. Given a task described in natural language, our process produces a linear reward function in three steps: distill the task's objectives into a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.12302v1",
+   "published": "2026-08-12",
+   "tags": [
+    "paper",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "de2ca3d7578dd51c",
+   "title": "Testing ads in ChatGPT",
+   "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/testing-ads-in-chatgpt",
+   "published": "2026-08-11",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "ea10becd15211fe9",
+   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+   "published": "2026-07-30",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "06b8d0ad6f63e2ce",
+   "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+   "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-   "published": "2026-07-29",
+   "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+   "published": "2026-07-30",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "90d59cd2b4ce1933",
-   "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+   "id": "5eb3c49c6262106f",
+   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-   "published": "2026-08-10",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+   "published": "2026-08-11",
    "tags": [
-    "open-source",
-    "fine-tuning"
+    "open-source"
    ]
   },
   {
@@ -324,86 +326,88 @@
    ]
   },
   {
-   "id": "8eda5799ffa29659",
-   "title": "The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model",
-   "summary": "LTX-2.5 brings frontier video generation to local NVIDIA hardware: 6.8-second clips, native multishot, day-one ComfyUI, open weights. The post The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model appeared first on MarkTechPost .",
+   "id": "5586c913bde6cee6",
+   "title": "AllenAI Open Instruct Tulu 3 Post-Training with SFT, DPO, RLVR, GRPO, and Verifier-Based Evaluation",
+   "summary": "Build a custom LLM post-training pipeline using AllenAI’s Open Instruct framework. This comprehensive guide walks through Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Reinforcement Learning with Verifiable Rewards (GRPO), optimized to run efficiently on 16GB hardware without needing heavy distributed computing...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/",
-   "published": "2026-08-11",
+   "url": "https://www.marktechpost.com/2026/08/12/allenai-open-instruct-tulu-3-post-training-with-sft-dpo-rlvr-grpo-and-verifier-based-evaluation/",
+   "published": "2026-08-12",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "fine-tuning",
+    "evaluation"
    ]
   },
   {
-   "id": "3b64c552884106b4",
-   "title": "Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation",
-   "summary": "GUI Visual Grounding is a fundamental capability for GUI agents. Existing models typically freeze their parameters after deployment, limiting their ability to adapt to unseen interfaces. Although recent methods attempt to adapt models via test-time reinforcement learning, they cannot reflect upon failed exploration. To overcome this, we...",
+   "id": "de2343a68110fcc3",
+   "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
+   "summary": "Large language models can extract richer signals from financial news than fixed sentiment lexicons, and recent work has explored feeding such signals into portfolio construction. We study an uncertainty-aware construction that feeds model-predicted risk -- decomposed into aleatoric and epistemic components -- directly into the covariance...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.11191v1",
-   "published": "2026-08-11",
+   "url": "https://arxiv.org/abs/2608.12283v1",
+   "published": "2026-08-12",
    "tags": [
     "paper",
-    "fine-tuning",
-    "agents",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "29632cba257f47cc",
-   "title": "Hierarchical Empirical-Bayes Naive Bayes: Minimax Smoothing and Calibration with AODE Extension",
-   "summary": "The Naive Bayes (NB) classifier remains a standard choice for categorical data, yet its widely used smoothing rules, such as Laplace, Lidstone, Krichevsky-Trofimov, and the $m$-estimate, all prescribe a fixed smoothing strength that ignores feature cardinality, sample size, and class imbalance, inducing a non-vanishing bias on modern...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.11162v1",
-   "published": "2026-08-11",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "c7b962b1d9efaa2a",
-   "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
-   "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/model-ml",
-   "published": "2026-08-10",
-   "tags": [
-    "labs",
     "llm"
    ]
   },
   {
-   "id": "d74b20cb87441fb3",
-   "title": "Towards a quantum computer that learns from its errors",
-   "summary": "Machine Intelligence",
-   "source": "Google Research",
-   "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
-   "published": "2026-07-22",
+   "id": "6e69ae71482ceb84",
+   "title": "Earth observation embeddings are effective sub-grid descriptors for probabilistic weather downscaling",
+   "summary": "Global weather reanalyses and forecasts resolve the evolving atmospheric state on coarse grids, but site-specific applications require predictions at arbitrary locations where near-surface conditions also depend on unresolved terrain and land-surface properties. Existing probabilistic downscalers address this gap using hand-crafted...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.12271v1",
+   "published": "2026-08-12",
    "tags": [
-    "research"
+    "paper",
+    "rag"
    ]
   },
   {
-   "id": "7909c613945e81a8",
-   "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-   "published": "2026-07-28",
+   "id": "b274e00978a8c030",
+   "title": "Daybreak models are now available on AWS",
+   "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+   "published": "2026-08-11",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "0da6fb777e3347c6",
-   "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+   "id": "38b998453926e9af",
+   "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
+   "published": "2026-07-22",
+   "tags": [
+    "research",
+    "agents"
+   ]
+  },
+  {
+   "id": "705bd6c095e82bdb",
+   "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+   "published": "2026-07-29",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "e5b664a37aa39848",
+   "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/muse-glimmer",
+   "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
    "published": "2026-08-10",
    "tags": [
     "open-source",
-    "agents",
-    "multimodal"
+    "serving",
+    "agents"
    ]
   },
   {
@@ -441,83 +445,85 @@
    ]
   },
   {
-   "id": "baf4d446c23c38ab",
-   "title": "Building and Validating a Quantitative Trading Strategy with OctoBot, Walk-Forward Backtesting, Parameter Optimization, and Interactive Analysis",
-   "summary": "In this tutorial, we build a complete quantitative backtesting workflow with OctoBot and OctoBot-Script while keeping the environment isolated from Colab’s preinstalled dependencies. We configure a rule-based trading strategy that combines RSI-based oversold signals, EMA trend confirmation, and ATR-driven adaptive stop-loss and...",
+   "id": "2d04bdcda5803dcb",
+   "title": "NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router",
+   "summary": "NVIDIA's open 30B MoE targets the agent execution layer, with Switchyard routing each step to the cheapest capable model. The post NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/11/building-and-validating-a-quantitative-trading-strategy-with-octobot-walk-forward-backtesting-parameter-optimization-and-interactive-analysis/",
-   "published": "2026-08-11",
+   "url": "https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/",
+   "published": "2026-08-12",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "agents"
    ]
   },
   {
-   "id": "c560c964c085f20a",
-   "title": "From Interpretability to Control: Insights from Six Years of the TrustNLP Workshop",
-   "summary": "The Workshop on Trustworthy Natural Language Processing (TrustNLP), co-located with major ACL conferences since 2021, has grown from 8 proceedings papers to 41 over six editions, documenting a field-wide transition from post-hoc interpretability of static models to mechanistic understanding and proactive control of generative systems. We...",
+   "id": "6d9864522562e991",
+   "title": "Structural Silence: When AI Infrastructure Fails Speakers of Underrepresented Languages",
+   "summary": "Artificial intelligence tools for education and language support are increasingly framed as scalable responses to access gaps in under-resourced communities. Yet the infrastructure underlying these tools, including training corpora, tokenization schemes, evaluation benchmarks, and deployment architectures, can systematically disadvantage...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.11171v1",
-   "published": "2026-08-11",
+   "url": "https://arxiv.org/abs/2608.12278v1",
+   "published": "2026-08-12",
    "tags": [
     "paper",
-    "safety"
+    "evaluation"
    ]
   },
   {
-   "id": "1239e1fa6494149f",
-   "title": "Conditional Independence Tests for Constraint-Based Causal Discovery: A Survey",
-   "summary": "Conditional Independence (CI) tests are the statistical engine of constraint-based causal discovery: in algorithms such as PC (Peter-Clark) and FCI (Fast Causal Inference), skeleton pruning and key orientations follow directly from CI decisions. This survey reviews CI testing with emphasis on assumptions, robustness, and scalability in...",
+   "id": "d3843502cf55b79b",
+   "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
+   "summary": "Financial forecasting models are typically developed in full precision, yet production deployment often requires low-precision inference to reduce memory and computational cost. Post-training quantization (PTQ) enables such deployment without retraining. However, reliable activation quantization requires calibration: activation ranges...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.11156v1",
-   "published": "2026-08-11",
+   "url": "https://arxiv.org/abs/2608.12259v1",
+   "published": "2026-08-12",
    "tags": [
     "paper",
     "serving"
    ]
   },
   {
-   "id": "7a678e9a26d7e264",
-   "title": "What building an AI-native finance function taught me",
-   "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+   "id": "61282b7420ed0675",
+   "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+   "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/building-an-ai-native-finance-function",
+   "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
    "published": "2026-08-10",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "633f453fe2c164d0",
-   "title": "Towards demystifying the creativity of diffusion models",
-   "summary": "Algorithms & Theory",
+   "id": "d74b20cb87441fb3",
+   "title": "Towards a quantum computer that learns from its errors",
+   "summary": "Machine Intelligence",
    "source": "Google Research",
-   "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
-   "published": "2026-07-15",
+   "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
+   "published": "2026-07-22",
    "tags": [
-    "research",
-    "multimodal"
+    "research"
    ]
   },
   {
-   "id": "15eb5b1c419aea07",
-   "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-   "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+   "id": "7909c613945e81a8",
+   "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+   "summary": "",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-   "published": "2026-07-22",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+   "published": "2026-07-28",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "fd5b733b3580dcf8",
-   "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+   "id": "90d59cd2b4ce1933",
+   "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/tutormoments",
-   "published": "2026-08-07",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+   "published": "2026-08-10",
    "tags": [
-    "open-source"
+    "open-source",
+    "fine-tuning"
    ]
   },
   {
@@ -557,48 +563,46 @@
    ]
   },
   {
-   "id": "6e3ecbc247b2d01b",
-   "title": "webAI Releases TwIL-LM: A 1.7B and 3B Formal-Logic Model Family for Autoformalization on Local Hardware",
-   "summary": "webAI has released TwIL-LM, a family of formal-logic models at 1.7B and 3B parameters that translate English into first-order logic and check whether conclusions follow from premises. The 3B runs on CPU or 4GB of VRAM; the 1.7B downloads at 1.06GB. Both ship under a non-commercial license. The model card also shows that the headline...",
+   "id": "5e2247b143d65053",
+   "title": "Xiaomi’s MiLM Plus Releases PROVE: Perception-Aligned Object Removal Metrics RC-S and RC-T With a Real-World Video Benchmark",
+   "summary": "Object removal models have improved faster than the metrics used to judge them. Diffusion erasers now reconstruct shadows, reflections and occluded structure convincingly, yet PSNR, SSIM, LPIPS, ReMOVE and CFD frequently rank their outputs the wrong way. The root cause is structural: erasure is an ill-posed, one-to-many task, so no...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/10/webai-releases-twil-lm-a-1-7b-and-3b-formal-logic-model-family-for-autoformalization-on-local-hardware/",
-   "published": "2026-08-11",
+   "url": "https://www.marktechpost.com/2026/08/11/xiaomis-milm-plus-releases-prove-perception-aligned-object-removal-metrics-rc-s-and-rc-t-with-a-real-world-video-benchmark/",
+   "published": "2026-08-12",
    "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "f9e604bcf854ad5d",
-   "title": "MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment",
-   "summary": "Existing Multimodal Large Language Models (MLLMs) predominantly rely on image-text pairs for modality alignment pretraining, mapping global image representations to long textual descriptions. However, this image-level alignment suffers from referential ambiguity: models struggle to infer the correspondences between multiple visual...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.11167v1",
-   "published": "2026-08-11",
-   "tags": [
-    "paper",
-    "llm",
-    "fine-tuning",
+    "industry",
+    "evaluation",
     "multimodal"
    ]
   },
   {
-   "id": "538ce17cb49ce4c4",
-   "title": "DACRI: Decision-Aware Causal Intervention Ranking for Critical Supply Chains",
-   "summary": "Detecting or attributing a supply-chain disruption is not the same as selecting the intervention that maximizes recoverable net value. We present CriticalSCM-Bench v1, a controlled synthetic benchmark with causal ground truth, paired factual/counterfactual rollouts, and an explicit net-value objective. Relative to a full-information...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.11154v1",
-   "published": "2026-08-11",
+   "id": "2a5d11a4e4ad2174",
+   "title": "A Cascaded Unsupervised-Supervised NLP Pipeline for Detecting Accusatory Language in Public Procurement",
+   "summary": "Public procurement involves the allocation of substantial financial resources; therefore, continuous oversight through audits, controls, and monitoring mechanisms is essential. However, stakeholder comments and publicly available government data are often underutilized, despite their potential to reveal procedural irregularities. To...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.12269v1",
+   "published": "2026-08-12",
    "tags": [
-    "paper",
-    "evaluation"
+    "paper"
    ]
   },
   {
-   "id": "3a8585570cab21df",
-   "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-   "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+   "id": "e98ced8a09cea05b",
+   "title": "Regime-Gated Residual Mixture-of-Experts for Cross-Sectional Volatility Forecasting",
+   "summary": "Financial volatility is regime dependent, yet incorporating regime information into neural networks can also destabilize training. This paper asks where such information should enter a neural cross-sectional volatility forecasting model. We study five-day realized-volatility forecasts for 1,027 U.S. equities using a rolling walk-forward...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.12251v1",
+   "published": "2026-08-12",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "c7b962b1d9efaa2a",
+   "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+   "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+   "url": "https://openai.com/index/model-ml",
    "published": "2026-08-10",
    "tags": [
     "labs",
@@ -606,37 +610,39 @@
    ]
   },
   {
-   "id": "85c988187048dc55",
-   "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
-   "summary": "Generative AI",
+   "id": "633f453fe2c164d0",
+   "title": "Towards demystifying the creativity of diffusion models",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
-   "published": "2026-07-09",
+   "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
+   "published": "2026-07-15",
    "tags": [
-    "research"
+    "research",
+    "multimodal"
    ]
   },
   {
-   "id": "edd884e3eb651634",
-   "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-   "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+   "id": "15eb5b1c419aea07",
+   "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+   "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
-   "published": "2026-07-21",
+   "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+   "published": "2026-07-22",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "72ea094fa822e0b0",
-   "title": "Baseten on Hugging Face Inference Providers 🔥",
+   "id": "0da6fb777e3347c6",
+   "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/baseten",
-   "published": "2026-08-06",
+   "url": "https://huggingface.co/blog/muse-glimmer",
+   "published": "2026-08-10",
    "tags": [
     "open-source",
-    "serving"
+    "agents",
+    "multimodal"
    ]
   },
   {
@@ -675,43 +681,38 @@
    ]
   },
   {
-   "id": "8d8ec6080af67ce9",
-   "title": "Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
-   "summary": "In this comprehensive guide, we demonstrate how to implement a complete, programmable MiniMax-H3 multimodal generation pipeline. By leveraging ComfyUI as a headless backend, we walk through setting up an automated inference environment that handles hardware profiling, model weight downloading, dynamic graph construction, and joint...",
+   "id": "8eda5799ffa29659",
+   "title": "The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model",
+   "summary": "LTX-2.5 brings frontier video generation to local NVIDIA hardware: 6.8-second clips, native multishot, day-one ComfyUI, open weights. The post The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/",
+   "url": "https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/",
    "published": "2026-08-11",
    "tags": [
-    "industry",
-    "serving",
-    "multimodal"
+    "industry"
    ]
   },
   {
-   "id": "8ecaca672ff564d9",
-   "title": "The Illusion of Cross-Lingual Safety in Low-Resource Languages",
-   "summary": "Safety alignment in large language models (LLMs) is largely developed in English, assuming these safeguards generalize across multilingual settings. However, this assumption remains underexplored and exposes a vulnerability in low-resource languages. We investigate cross-lingual safety transfer in four African languages, Twi, Hausa...",
+   "id": "4db432bcd444f5e1",
+   "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
+   "summary": "Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM policy trained against it overfits to...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.11146v1",
-   "published": "2026-08-11",
+   "url": "https://arxiv.org/abs/2608.12253v1",
+   "published": "2026-08-12",
    "tags": [
     "paper",
     "llm",
-    "fine-tuning",
-    "safety"
+    "agents"
    ]
   },
   {
-   "id": "e5d2ca5b48eb91c2",
-   "title": "Scheduling Mixed RL Rollouts Beyond Prefix Locality",
-   "summary": "Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms. Prefix-aware routing improves inference efficiency through cache reuse and load balancing, but it does not control how heterogeneous rollout sessions compete...",
+   "id": "98461c76a3bc3710",
+   "title": "An Efficient Near-Optimal Algorithm for Adversarial $m$-Set Bandits",
+   "summary": "We study adversarial combinatorial bandits with $m$-set actions, where at each round the learner selects $m$ out of $d$ items and observes only the aggregate loss of the selected items. The resulting action set contains $K=\\binom{d}{m}$ elements and can therefore be exponentially large. Nevertheless, the loss of every action is...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.11152v1",
-   "published": "2026-08-11",
+   "url": "https://arxiv.org/abs/2608.12231v1",
+   "published": "2026-08-12",
    "tags": [
-    "paper",
-    "llm",
-    "serving"
+    "paper"
    ]
   }
  ]
