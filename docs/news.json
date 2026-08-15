@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-14",
- "generatedAt": "2026-08-14T07:54:25+00:00",
+ "generated": "2026-08-15",
+ "generatedAt": "2026-08-15T07:00:58+00:00",
  "sourceCount": 10,
  "items": [
   {
@@ -39,15 +39,14 @@
    ]
   },
   {
-   "id": "c1c988556190aa29",
-   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+   "id": "d556a48bace2bfaa",
+   "title": "State of Open Models: Summer 2026 Observations",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-   "published": "2026-08-13",
+   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+   "published": "2026-08-14",
    "tags": [
-    "open-source",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -86,11 +85,11 @@
    ]
   },
   {
-   "id": "e270409a681925a9",
-   "title": "Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in 28MB of RAM",
-   "summary": "Cactus Compute released Needle 2, an open 45M-parameter model for tool calling, device use, and structured extraction. The full model is a single 14MB binary that runs a session in about 28MB of RAM. It leads both Seal-Tools splits while targeting hardware with no GPU and no NPU. The post Meet Needle 2: An Open 45M-Parameter Tool-Calling...",
+   "id": "35cacdce3580db39",
+   "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
+   "summary": "Z.ai released GLM-5.3 on August 14, 2026. The model reuses the 743B GLM-5.2 base unchanged. Every reported gain comes from scaled post-training: more long-horizon task environments, more environment types, longer training. Terminal-Bench 3.0 moves from 4.6 to 28.3, and DeepSWE v1.1 from 46.2 to 66.9. Cybersecurity moved further than Z.ai...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
+   "url": "https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/",
    "published": "2026-08-14",
    "tags": [
     "industry"
@@ -156,14 +155,15 @@
    ]
   },
   {
-   "id": "5fa28c256021e6a7",
-   "title": "What We Learned by Reproducing 2,200 papers from ICML",
+   "id": "c1c988556190aa29",
+   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
    "published": "2026-08-13",
    "tags": [
-    "open-source"
+    "open-source",
+    "agents"
    ]
   },
   {
@@ -202,17 +202,14 @@
    ]
   },
   {
-   "id": "f4bc3bef53c353ae",
-   "title": "Create a Reasoning-Focused LLM: A Practical Guide to Streaming, Curating, and Fine-Tuning the SupraLabs Reasoning Corpus",
-   "summary": "This tutorial provides a complete workflow for building a compact, reasoning-focused language model. By streaming the SupraLabs reasoning corpus from Hugging Face, we apply quality filters and curate data for Supervised Fine-Tuning (SFT). Using SmolLM2-135M-Instruct and LoRA, we demonstrate an end-to-end pipeline—from dataset analysis...",
+   "id": "e270409a681925a9",
+   "title": "Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in 28MB of RAM",
+   "summary": "Cactus Compute released Needle 2, an open 45M-parameter model for tool calling, device use, and structured extraction. The full model is a single 14MB binary that runs a session in about 28MB of RAM. It leads both Seal-Tools splits while targeting hardware with no GPU and no NPU. The post Meet Needle 2: An Open 45M-Parameter Tool-Calling...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/",
+   "url": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
    "published": "2026-08-14",
    "tags": [
-    "industry",
-    "llm",
-    "fine-tuning",
-    "reasoning"
+    "industry"
    ]
   },
   {
@@ -271,16 +268,14 @@
    ]
   },
   {
-   "id": "e43158037a354e46",
-   "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+   "id": "5fa28c256021e6a7",
+   "title": "What We Learned by Reproducing 2,200 papers from ICML",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-   "published": "2026-08-12",
+   "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+   "published": "2026-08-13",
    "tags": [
-    "open-source",
-    "rag",
-    "llm"
+    "open-source"
    ]
   },
   {
@@ -322,16 +317,16 @@
    ]
   },
   {
-   "id": "23bba7fd392beb48",
-   "title": "Google AI Just Released Gemini 3.7 Flash: A Coding and Agent Model at $0.75/1M Input Tokens",
-   "summary": "Google has released Gemini 3.7 Flash, a refinement of Gemini 3.6 Flash with algorithmic improvements to its reasoning core. It handles text, images, audio, and video across a 1M-token context window with 64K-token output, and supports customizable thinking configurations. Coding results move notably: 43.6% on FrontierCode 1.1 Main versus...",
+   "id": "f4bc3bef53c353ae",
+   "title": "Create a Reasoning-Focused LLM: A Practical Guide to Streaming, Curating, and Fine-Tuning the SupraLabs Reasoning Corpus",
+   "summary": "This tutorial provides a complete workflow for building a compact, reasoning-focused language model. By streaming the SupraLabs reasoning corpus from Hugging Face, we apply quality filters and curate data for Supervised Fine-Tuning (SFT). Using SmolLM2-135M-Instruct and LoRA, we demonstrate an end-to-end pipeline—from dataset analysis...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/",
-   "published": "2026-08-13",
+   "url": "https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/",
+   "published": "2026-08-14",
    "tags": [
     "industry",
     "llm",
-    "agents",
+    "fine-tuning",
     "reasoning"
    ]
   },
@@ -398,14 +393,16 @@
    ]
   },
   {
-   "id": "ab799e9da743babb",
-   "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+   "id": "e43158037a354e46",
+   "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
    "published": "2026-08-12",
    "tags": [
-    "open-source"
+    "open-source",
+    "rag",
+    "llm"
    ]
   },
   {
@@ -443,17 +440,17 @@
    ]
   },
   {
-   "id": "e7fbbf8b1d9bc6ea",
-   "title": "Liquid AI Releases LFM2.5-VL-3B: A 3B Vision-Language Model That Reads Screens, Grounds Objects, and Calls Tools On-Device",
-   "summary": "Liquid AI released LFM2.5-VL-3B, a 3.1B-parameter vision-language model built for on-device deployment. It averages 80.7 on ScreenSpot-v2 and lifts RefCOCO grounding from 57.1 to 87.9. Function calling is new to the VL line, with ToolSandbox moving from 26.4 to 59.5. The model fits in roughly 3 GB and decodes 228 tokens/s on an Apple M5...",
+   "id": "23bba7fd392beb48",
+   "title": "Google AI Just Released Gemini 3.7 Flash: A Coding and Agent Model at $0.75/1M Input Tokens",
+   "summary": "Google has released Gemini 3.7 Flash, a refinement of Gemini 3.6 Flash with algorithmic improvements to its reasoning core. It handles text, images, audio, and video across a 1M-token context window with 64K-token output, and supports customizable thinking configurations. Coding results move notably: 43.6% on FrontierCode 1.1 Main versus...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/13/liquid-ai-lfm2-5-vl-3b-on-device-vision-language-model/",
+   "url": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/",
    "published": "2026-08-13",
    "tags": [
     "industry",
     "llm",
     "agents",
-    "multimodal"
+    "reasoning"
    ]
   },
   {
@@ -516,12 +513,12 @@
    ]
   },
   {
-   "id": "5eb3c49c6262106f",
-   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+   "id": "ab799e9da743babb",
+   "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-   "published": "2026-08-11",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+   "published": "2026-08-12",
    "tags": [
     "open-source"
    ]
@@ -563,14 +560,17 @@
    ]
   },
   {
-   "id": "f4ce70ac74042868",
-   "title": "Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
-   "summary": "Dyna Robotics has released Dyna-2, a world-action model pre-trained on more than one million hours of egocentric human video. The technical report establishes three results: a scaling law on human data to 1M hours, the first transfer of that law to unseen robot data, and evidence that video co-training drives cross-embodiment...",
+   "id": "e7fbbf8b1d9bc6ea",
+   "title": "Liquid AI Releases LFM2.5-VL-3B: A 3B Vision-Language Model That Reads Screens, Grounds Objects, and Calls Tools On-Device",
+   "summary": "Liquid AI released LFM2.5-VL-3B, a 3.1B-parameter vision-language model built for on-device deployment. It averages 80.7 on ScreenSpot-v2 and lifts RefCOCO grounding from 57.1 to 87.9. Function calling is new to the VL line, with ToolSandbox moving from 26.4 to 59.5. The model fits in roughly 3 GB and decodes 228 tokens/s on an Apple M5...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video/",
+   "url": "https://www.marktechpost.com/2026/08/13/liquid-ai-lfm2-5-vl-3b-on-device-vision-language-model/",
    "published": "2026-08-13",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "agents",
+    "multimodal"
    ]
   },
   {
@@ -633,16 +633,14 @@
    ]
   },
   {
-   "id": "e5b664a37aa39848",
-   "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+   "id": "5eb3c49c6262106f",
+   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-   "published": "2026-08-10",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+   "published": "2026-08-11",
    "tags": [
-    "open-source",
-    "serving",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -681,17 +679,14 @@
    ]
   },
   {
-   "id": "ebf65a17b0371dba",
-   "title": "SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
-   "summary": "SpaceXAI released Grok 4.6 on August 12, 2026 — a post-training upgrade over Grok 4.5, not a larger base model. It ties GPT-5.6 Sol Max at 61 on the Artificial Analysis Intelligence Index, ships 500K context and a new xhigh reasoning level, and holds pricing at $2/$6 per million tokens. The coding benchmarks are where it still loses. The...",
+   "id": "f4ce70ac74042868",
+   "title": "Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+   "summary": "Dyna Robotics has released Dyna-2, a world-action model pre-trained on more than one million hours of egocentric human video. The technical report establishes three results: a scaling law on human data to 1M hours, the first transfer of that law to unseen robot data, and evidence that video co-training drives cross-embodiment...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6/",
+   "url": "https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video/",
    "published": "2026-08-13",
    "tags": [
-    "industry",
-    "llm",
-    "evaluation",
-    "agents"
+    "industry"
    ]
   },
   {
