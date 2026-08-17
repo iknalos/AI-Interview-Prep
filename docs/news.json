@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-16",
- "generatedAt": "2026-08-16T07:02:59+00:00",
+ "generated": "2026-08-17",
+ "generatedAt": "2026-08-17T07:26:03+00:00",
  "sourceCount": 10,
  "items": [
   {
@@ -96,26 +96,24 @@
    ]
   },
   {
-   "id": "b8c1eb736a42ef39",
-   "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
-   "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empirical exploration to drive recursive...",
+   "id": "91f0ab6bb052dc4b",
+   "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
+   "summary": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and context. Combining interpretations rewards fixed arithmetic, comparability across instances, and the option to return...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.13560v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14509v1",
+   "published": "2026-08-14",
    "tags": [
     "paper",
-    "fine-tuning",
-    "agents",
-    "multimodal"
+    "llm"
    ]
   },
   {
-   "id": "2d7eba48f9d7f314",
-   "title": "Defensive Boosting for Online Probabilistic Forecasting",
-   "summary": "We study online probabilistic forecasting of binary outcomes chosen by an adaptive adversary. Given an online learning algorithm for a weak hypothesis class $H$, we would like to efficiently obtain two incomparable guarantees that existing online boosting techniques provide separately. Online gradient boosting competes in Brier score...",
+   "id": "9eabab641cff84be",
+   "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+   "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphometric methods suffer from high...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.13554v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14539v1",
+   "published": "2026-08-14",
    "tags": [
     "paper"
    ]
@@ -214,25 +212,28 @@
    ]
   },
   {
-   "id": "c2287c4e9f57b807",
-   "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-   "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason...",
+   "id": "8720f2881700e6ea",
+   "title": "You Only Pass Once: Answering and Abstaining Together in a Single Forward Pass of a Frozen Language Model",
+   "summary": "A frozen language model on reasoning tasks has two coupled weaknesses: it under-uses evidence its own residual stream already encodes, and it fails to detect when the input is insufficient to answer, so it confabulates. This paper consolidates two research lines that address these on the same residual stream: a conditional steering probe...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.13558v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14465v1",
+   "published": "2026-08-14",
    "tags": [
-    "paper"
+    "paper",
+    "llm",
+    "reasoning"
    ]
   },
   {
-   "id": "0259d1bdfc2ff774",
-   "title": "Exponential Convex Calibration Dimension for the Multi-Label Jaccard Measure",
-   "summary": "The per-instance Jaccard score, or intersection over union (IoU), is standard in multi-label classification and binary segmentation. With $s$ labels, its loss matrix has $2^s$ outcomes and reports. Under the convention $\\mathrm{Jac}(\\varnothing,\\varnothing)=1$, we prove that the Jaccard score, shifted-loss, and ordinary loss matrices are...",
+   "id": "daab4c09bf71b070",
+   "title": "RecipeNet: A Hierarchical Transformer for Recipe Data",
+   "summary": "Recipe data arises in domains such as materials synthesis, pharmaceutical formulation, and industrial manufacturing, where procedures are represented as ordered sequences of steps containing heterogeneous structured fields. Existing tabular learning methods typically flatten this structure into fixed-schema representations, limiting...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.13549v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14505v1",
+   "published": "2026-08-14",
    "tags": [
-    "paper"
+    "paper",
+    "llm"
    ]
   },
   {
@@ -329,29 +330,26 @@
    ]
   },
   {
-   "id": "35bab823463f07f4",
-   "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
-   "summary": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize. To address this challenge, we introduce LITTLECURRICULUM, a curated 88B-token pretraining corpus tailored to U.S. elementary school...",
+   "id": "3ba63725b3c60b57",
+   "title": "Information Satisfaction: A Reader-Centered Axis for Summarization Evaluation",
+   "summary": "The majority of work on summarization evaluation focuses on general summary quality (e.g., ROUGE, BERTScore) or specific desired properties (e.g., readability, factuality). However, these metrics fail to measure the utility of a summary to an individual user. For example, a biomedical researcher learning about the latest vaccine research...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.13545v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14457v1",
+   "published": "2026-08-14",
    "tags": [
     "paper",
-    "llm"
+    "evaluation"
    ]
   },
   {
-   "id": "3928289022811be7",
-   "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
-   "summary": "Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than conditioned on tokens selected along each draft...",
+   "id": "47e8f2a2c9c9c669",
+   "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials",
+   "summary": "Free energies govern solid-state phase stability, yet computational materials discovery still relies largely on ground-state energies because free energy calculations require ensemble averages. We introduce the thermodynamic interatomic potential (TIP), which extends an interatomic potential from its static energy to a thermodynamically...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.13524v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14502v1",
+   "published": "2026-08-14",
    "tags": [
-    "paper",
-    "llm",
-    "serving",
-    "multimodal"
+    "paper"
    ]
   },
   {
@@ -452,28 +450,29 @@
    ]
   },
   {
-   "id": "3745080003b6b441",
-   "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
-   "summary": "Sparse autoencoders (SAEs) are proposed to extract numerous features from large language model (LLM) representations, yet explaining these features still relies primarily on external observation. This reliance leads to superficial explanations inferred from observed model behavior and computational inefficiency from collecting such...",
+   "id": "addd37162c603b5f",
+   "title": "Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice",
+   "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide, silently and at scale, which physicians become visible. We report a prespecified randomized algorithm audit of what causally...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.13538v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14399v1",
+   "published": "2026-08-14",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "f39fc8d56dd1b6d9",
-   "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
-   "summary": "AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and a machine-checked proof of its specification, offers a stronger path toward trustworthy AI-generated software. Existing benchmarks in this...",
+   "id": "82593a274b748cb0",
+   "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
+   "summary": "Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using task feedback, but current on-policy RL runtimes execute rollout, reference scoring, and actor training in strict serial phases. While...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.13522v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14498v1",
+   "published": "2026-08-14",
    "tags": [
     "paper",
-    "evaluation",
-    "agents"
+    "llm",
+    "agents",
+    "multimodal"
    ]
   },
   {
@@ -572,27 +571,29 @@
    ]
   },
   {
-   "id": "92581d00b3c6996b",
-   "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
-   "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-parameter language model based on the Hierarchical Reasoning Model (HRM) architecture, that is trained from scratch and...",
+   "id": "1e4e95553020bb61",
+   "title": "LLMs Don't Pay for the Jump",
+   "summary": "Zahavy [2026] argues that Large Language Models, despite their capabilities in induction and deduction, cannot perform the abductive \"Jump\" that produced Einstein's equivalence principle, and attributes this limitation to the absence of embodied simulation. Zheng-Xin [2026] and Farmer [2026] question whether embodiment is necessary for...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.13517v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14397v1",
+   "published": "2026-08-14",
    "tags": [
     "paper",
-    "llm",
-    "reasoning"
+    "llm"
    ]
   },
   {
-   "id": "a47e80c8f67702f6",
-   "title": "Exponential quantum advantage for learning signals with a single qubit",
-   "summary": "Quantum technology has the potential to transform scientific discovery, but quantum advantages often require processing capabilities well beyond the reach of experimental platforms. We show that coupling a single controllable qubit to an otherwise conventional sensor can exponentially reduce the number of measurements required to learn...",
+   "id": "8784851e6d39edc4",
+   "title": "Generating Benchmark Health Data Using a Tabular Diffusion Transformer",
+   "summary": "Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and produce new synthetic tabular datasets. However, existing synthetic tabular data generation methods are largely restricted to single-input-table scenarios and struggle to effectively handle multiple heterogeneous tables with...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.13521v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14496v1",
+   "published": "2026-08-14",
    "tags": [
-    "paper"
+    "paper",
+    "llm",
+    "evaluation",
+    "multimodal"
    ]
   },
   {
@@ -690,27 +691,29 @@
    ]
   },
   {
-   "id": "87051e35f8444eee",
-   "title": "Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining",
-   "summary": "Measuring training data influence consistently across language model pretraining is challenging. It is difficult to select downstream tasks or validation sets representative of a model's general capabilities, and reliance on task performance at intermediate checkpoints complicates comparisons across training. We propose a measure of...",
+   "id": "bf76a9d97df83cdc",
+   "title": "A Survey of Large Models in Sports",
+   "summary": "Sports have witnessed growing global enthusiasm in recent years, serving as a vital force for physical health, cultural exchange, social connection, and economic growth. The rapid advancement of large models, particularly (multimodal) large language models (M)LLMs, has demonstrated transformative potential to reshape sports...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.13515v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14377v1",
+   "published": "2026-08-14",
    "tags": [
     "paper",
-    "llm"
+    "llm",
+    "serving",
+    "multimodal"
    ]
   },
   {
-   "id": "07402fc89c3acb81",
-   "title": "The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity",
-   "summary": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL) discretization error, yielding a unified analysis of Bernoulli-subset and fixed-cardinality unmasking...",
+   "id": "f614fe9480f2eef1",
+   "title": "Approximate Muon with low-rank adapters",
+   "summary": "The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. However, it is used less frequently for parameter-efficient fine-tuning (PEFT). One potential reason is that the most common PEFT method, LoRA, does not naturally combine with Muon since it is not mathematically possible to orthogonalize the...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.13520v1",
-   "published": "2026-08-13",
+   "url": "https://arxiv.org/abs/2608.14492v1",
+   "published": "2026-08-14",
    "tags": [
     "paper",
-    "multimodal"
+    "fine-tuning"
    ]
   }
  ]
