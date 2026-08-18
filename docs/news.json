@@ -1,28 +1,26 @@
 {
- "generated": "2026-08-17",
- "generatedAt": "2026-08-17T07:26:03+00:00",
- "sourceCount": 10,
+ "generated": "2026-08-18",
+ "generatedAt": "2026-08-18T07:08:19+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "855fa77e93e122bb",
-   "title": "The builder’s guide to GPT‑5.6",
-   "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+   "id": "f137d9ea2f9f034d",
+   "title": "The Defender’s Window",
+   "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-   "published": "2026-08-13",
+   "url": "https://openai.com/index/the-defenders-window",
+   "published": "2026-08-17",
    "tags": [
-    "labs",
-    "llm",
-    "agents"
+    "labs"
    ]
   },
   {
-   "id": "4bec668cb6869c4b",
-   "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
-   "summary": "Generative AI",
+   "id": "eb9205c680e9e7b7",
+   "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
-   "published": "2026-08-12",
+   "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+   "published": "2026-08-17",
    "tags": [
     "research"
    ]
@@ -39,12 +37,12 @@
    ]
   },
   {
-   "id": "d556a48bace2bfaa",
-   "title": "State of Open Models: Summer 2026 Observations",
+   "id": "b597a3d03ee72b44",
+   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-   "published": "2026-08-14",
+   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+   "published": "2026-08-17",
    "tags": [
     "open-source"
    ]
@@ -61,12 +59,12 @@
    ]
   },
   {
-   "id": "4610d2d935ba70d0",
-   "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
-   "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
+   "id": "0cc43372f70fb6df",
+   "title": "Q&A: Rethinking how innovation happens",
+   "summary": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
-   "published": "2026-08-10",
+   "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0818",
+   "published": "2026-08-17",
    "tags": [
     "research"
    ]
@@ -83,60 +81,47 @@
    ]
   },
   {
-   "id": "2b9d8ab0446b738f",
-   "title": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
-   "summary": "Implement an end-to-end fine-tuning pipeline for tool-calling language models. This tutorial covers parsing trajectories, structured tool-call extraction, Qwen-compatible ChatML rendering, and efficient LoRA adaptation using PyTorch. The post Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3 appeared first on...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/",
-   "published": "2026-08-15",
-   "tags": [
-    "industry",
-    "llm",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "91f0ab6bb052dc4b",
-   "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
-   "summary": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and context. Combining interpretations rewards fixed arithmetic, comparability across instances, and the option to return...",
+   "id": "7e97c7095b736531",
+   "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+   "summary": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in two controlled architectures: a...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.14509v1",
-   "published": "2026-08-14",
+   "url": "https://arxiv.org/abs/2608.16868v1",
+   "published": "2026-08-17",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "9eabab641cff84be",
-   "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
-   "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphometric methods suffer from high...",
+   "id": "343bc94c379365fb",
+   "title": "Q-based Variational Inverse Reinforcement Learning",
+   "summary": "The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. Inverse reinforcement learning (IRL) addresses this challenge by inferring preferences, represented as reward functions, from expert...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.14539v1",
-   "published": "2026-08-14",
+   "url": "https://arxiv.org/abs/2608.16888v1",
+   "published": "2026-08-17",
    "tags": [
-    "paper"
+    "paper",
+    "fine-tuning"
    ]
   },
   {
-   "id": "6357d7795d215a7f",
-   "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-   "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+   "id": "ad5623d5cc7091de",
+   "title": "OpenAI joins PORTS-Pike project",
+   "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
    "source": "OpenAI",
-   "url": "https://openai.com/index/previewing-ultrafast",
-   "published": "2026-08-13",
+   "url": "https://openai.com/index/openai-joins-ports-pike-project",
+   "published": "2026-08-17",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "605e3ba5201c77ef",
-   "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
-   "summary": "Health & Bioscience",
+   "id": "4bec668cb6869c4b",
+   "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
-   "published": "2026-08-11",
+   "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
+   "published": "2026-08-12",
    "tags": [
     "research"
    ]
@@ -153,15 +138,14 @@
    ]
   },
   {
-   "id": "c1c988556190aa29",
-   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+   "id": "d556a48bace2bfaa",
+   "title": "State of Open Models: Summer 2026 Observations",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-   "published": "2026-08-13",
+   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+   "published": "2026-08-14",
    "tags": [
-    "open-source",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -177,12 +161,12 @@
    ]
   },
   {
-   "id": "98f7083fea106451",
-   "title": "Solving the solvent problem",
-   "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
+   "id": "4610d2d935ba70d0",
+   "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
+   "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
-   "published": "2026-08-04",
+   "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+   "published": "2026-08-10",
    "tags": [
     "research"
    ]
@@ -201,59 +185,46 @@
    ]
   },
   {
-   "id": "35cacdce3580db39",
-   "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
-   "summary": "Z.ai released GLM-5.3 on August 14, 2026. The model reuses the 743B GLM-5.2 base unchanged. Every reported gain comes from scaled post-training: more long-horizon task environments, more environment types, longer training. Terminal-Bench 3.0 moves from 4.6 to 28.3, and DeepSWE v1.1 from 46.2 to 66.9. Cybersecurity moved further than Z.ai...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/",
-   "published": "2026-08-14",
-   "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "8720f2881700e6ea",
-   "title": "You Only Pass Once: Answering and Abstaining Together in a Single Forward Pass of a Frozen Language Model",
-   "summary": "A frozen language model on reasoning tasks has two coupled weaknesses: it under-uses evidence its own residual stream already encodes, and it fails to detect when the input is insufficient to answer, so it confabulates. This paper consolidates two research lines that address these on the same residual stream: a conditional steering probe...",
+   "id": "7257e6af8b290f0d",
+   "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
+   "summary": "The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. However, most existing memory models expose a static memory throughout the entire sequence. Because early tokens face no compression pressure, they occupy...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.14465v1",
-   "published": "2026-08-14",
-   "tags": [
-    "paper",
-    "llm",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "daab4c09bf71b070",
-   "title": "RecipeNet: A Hierarchical Transformer for Recipe Data",
-   "summary": "Recipe data arises in domains such as materials synthesis, pharmaceutical formulation, and industrial manufacturing, where procedures are represented as ordered sequences of steps containing heterogeneous structured fields. Existing tabular learning methods typically flatten this structure into fixed-schema representations, limiting...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.14505v1",
-   "published": "2026-08-14",
+   "url": "https://arxiv.org/abs/2608.16844v1",
+   "published": "2026-08-17",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "9e022b7caa78cba4",
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "id": "36c4e939d2c2043a",
+   "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+   "summary": "The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.16884v1",
+   "published": "2026-08-17",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "96670aeff66e996d",
+   "title": "New policy ideas for the Intelligence Age",
+   "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "published": "2026-08-13",
+   "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+   "published": "2026-08-17",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "ea10becd15211fe9",
-   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-   "summary": "General Science",
+   "id": "605e3ba5201c77ef",
+   "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
-   "published": "2026-07-30",
+   "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
+   "published": "2026-08-11",
    "tags": [
     "research"
    ]
@@ -270,14 +241,15 @@
    ]
   },
   {
-   "id": "5fa28c256021e6a7",
-   "title": "What We Learned by Reproducing 2,200 papers from ICML",
+   "id": "c1c988556190aa29",
+   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
    "published": "2026-08-13",
    "tags": [
-    "open-source"
+    "open-source",
+    "agents"
    ]
   },
   {
@@ -295,15 +267,14 @@
    ]
   },
   {
-   "id": "e72169530bcddc1a",
-   "title": "The benefits of medical AI assistance vary based on user expertise",
-   "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+   "id": "98f7083fea106451",
+   "title": "Solving the solvent problem",
+   "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+   "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
    "published": "2026-08-04",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
@@ -319,50 +290,142 @@
    ]
   },
   {
-   "id": "e270409a681925a9",
-   "title": "Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in 28MB of RAM",
-   "summary": "Cactus Compute released Needle 2, an open 45M-parameter model for tool calling, device use, and structured extraction. The full model is a single 14MB binary that runs a session in about 28MB of RAM. It leads both Seal-Tools splits while targeting hardware with no GPU and no NPU. The post Meet Needle 2: An Open 45M-Parameter Tool-Calling...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
-   "published": "2026-08-14",
+   "id": "0623b1e75313e4bb",
+   "title": "Model Hypnosis: Strong control of AI via additive subliminal effects",
+   "summary": "We demonstrate that AI models are broadly susceptible to a phenomenon we call model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior. Model hypnosis occurs across model families and scales, including in frontier reasoning models, and...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.16834v1",
+   "published": "2026-08-17",
    "tags": [
-    "industry"
+    "paper",
+    "reasoning"
    ]
   },
   {
-   "id": "3ba63725b3c60b57",
-   "title": "Information Satisfaction: A Reader-Centered Axis for Summarization Evaluation",
-   "summary": "The majority of work on summarization evaluation focuses on general summary quality (e.g., ROUGE, BERTScore) or specific desired properties (e.g., readability, factuality). However, these metrics fail to measure the utility of a summary to an individual user. For example, a biomedical researcher learning about the latest vaccine research...",
+   "id": "fdb3ec7b67bad9cc",
+   "title": "Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run",
+   "summary": "For any convex body $\\mathcal{K}\\subset\\mathbb{R}^{n}$ containing a unit ball, the spectral gap of Hit-and-Run is $Ω(1/(n^2 C_{\\mathsf{PI}}))$, where $C_{\\mathsf{PI}}$ is the Poincaré constant of the uniform distribution $π$ over $\\mathcal{K}$. This implies that Hit-and-Run converges to a distribution within $χ^2$-divergence...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.16878v1",
+   "published": "2026-08-17",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "855fa77e93e122bb",
+   "title": "The builder’s guide to GPT‑5.6",
+   "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+   "published": "2026-08-13",
+   "tags": [
+    "labs",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "ea10becd15211fe9",
+   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+   "published": "2026-07-30",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "06b8d0ad6f63e2ce",
+   "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+   "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+   "published": "2026-07-30",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "5fa28c256021e6a7",
+   "title": "What We Learned by Reproducing 2,200 papers from ICML",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+   "published": "2026-08-13",
+   "tags": [
+    "open-source"
+   ]
+  },
+  {
+   "id": "3f6c58621a366d1b",
+   "title": "2026 BAIR Graduate Showcase",
+   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
+   "published": "2026-07-01",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "e72169530bcddc1a",
+   "title": "The benefits of medical AI assistance vary based on user expertise",
+   "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+   "published": "2026-08-04",
+   "tags": [
+    "research",
+    "llm"
+   ]
+  },
+  {
+   "id": "f3d1448df6a6df02",
+   "title": "LLM Research Papers: The 2026 List (January to May)",
+   "summary": "A curated roundup of notable LLM research papers that came out this year",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+   "published": "2026-06-06",
+   "tags": [
+    "newsletter",
+    "llm"
+   ]
+  },
+  {
+   "id": "ee7cf70357e89cad",
+   "title": "Policy Iteration with Human Feedback: Bringing Post-Training RL to In-context Learning",
+   "summary": "Generative pretraining established reusable task representations; later work on language-based task conditioning and in-context learning showed that a fixed model could adapt its behavior from instructions and demonstrations. Policy Iteration with Human Feedback (PIHF) builds on this development and the recurrent evaluate-and-improve...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.14457v1",
-   "published": "2026-08-14",
+   "url": "https://arxiv.org/abs/2608.16831v1",
+   "published": "2026-08-17",
    "tags": [
     "paper",
     "evaluation"
    ]
   },
   {
-   "id": "47e8f2a2c9c9c669",
-   "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials",
-   "summary": "Free energies govern solid-state phase stability, yet computational materials discovery still relies largely on ground-state energies because free energy calculations require ensemble averages. We introduce the thermodynamic interatomic potential (TIP), which extends an interatomic potential from its static energy to a thermodynamically...",
+   "id": "f8870d2930c51e06",
+   "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+   "summary": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.14502v1",
-   "published": "2026-08-14",
+   "url": "https://arxiv.org/abs/2608.16876v1",
+   "published": "2026-08-17",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "fb21820d806b1b78",
-   "title": "From assistance to execution: How enterprises put AI to work",
-   "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+   "id": "6357d7795d215a7f",
+   "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+   "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-   "published": "2026-08-12",
+   "url": "https://openai.com/index/previewing-ultrafast",
+   "published": "2026-08-13",
    "tags": [
     "labs",
-    "llm",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -378,12 +441,12 @@
    ]
   },
   {
-   "id": "06b8d0ad6f63e2ce",
-   "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-   "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+   "id": "705bd6c095e82bdb",
+   "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+   "summary": "",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-   "published": "2026-07-30",
+   "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+   "published": "2026-07-29",
    "tags": [
     "labs"
    ]
@@ -402,125 +465,6 @@
    ]
   },
   {
-   "id": "3f6c58621a366d1b",
-   "title": "2026 BAIR Graduate Showcase",
-   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
-   "published": "2026-07-01",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "65bd07859d401501",
-   "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
-   "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
-   "published": "2026-08-03",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "f3d1448df6a6df02",
-   "title": "LLM Research Papers: The 2026 List (January to May)",
-   "summary": "A curated roundup of notable LLM research papers that came out this year",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-   "published": "2026-06-06",
-   "tags": [
-    "newsletter",
-    "llm"
-   ]
-  },
-  {
-   "id": "f4bc3bef53c353ae",
-   "title": "Create a Reasoning-Focused LLM: A Practical Guide to Streaming, Curating, and Fine-Tuning the SupraLabs Reasoning Corpus",
-   "summary": "This tutorial provides a complete workflow for building a compact, reasoning-focused language model. By streaming the SupraLabs reasoning corpus from Hugging Face, we apply quality filters and curate data for Supervised Fine-Tuning (SFT). Using SmolLM2-135M-Instruct and LoRA, we demonstrate an end-to-end pipeline—from dataset analysis...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/",
-   "published": "2026-08-14",
-   "tags": [
-    "industry",
-    "llm",
-    "fine-tuning",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "addd37162c603b5f",
-   "title": "Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice",
-   "summary": "Patients increasingly ask large language model (LLM) assistants which doctor to see, making these systems AI infomediaries: algorithms that intermediate one person's choice among other people and thereby decide, silently and at scale, which physicians become visible. We report a prespecified randomized algorithm audit of what causally...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.14399v1",
-   "published": "2026-08-14",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "82593a274b748cb0",
-   "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
-   "summary": "Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using task feedback, but current on-policy RL runtimes execute rollout, reference scoring, and actor training in strict serial phases. While...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.14498v1",
-   "published": "2026-08-14",
-   "tags": [
-    "paper",
-    "llm",
-    "agents",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "cad35e6294feba2f",
-   "title": "How RingCentral builds AI-native work from engineering to ops",
-   "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/ringcentral",
-   "published": "2026-08-12",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "d74b20cb87441fb3",
-   "title": "Towards a quantum computer that learns from its errors",
-   "summary": "Machine Intelligence",
-   "source": "Google Research",
-   "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
-   "published": "2026-07-22",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "705bd6c095e82bdb",
-   "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-   "published": "2026-07-29",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "ab799e9da743babb",
-   "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-   "published": "2026-08-12",
-   "tags": [
-    "open-source"
-   ]
-  },
-  {
    "id": "b63023bfb9fc2173",
    "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
    "summary": ".apr-fig { text-align: center; margin: 1.35em 0; line-height: 1.4; } .apr-fig--wide img { display: inline-block; width: 100%; max-width: 100%; height: auto; vertical-align: middle; } .apr-fig--wide-0-8 { max-width: 80%; margin-left: auto; margin-right: auto; } .apr-fig--tall img { display: inline-block; max-height: 300px; width: auto...",
@@ -534,12 +478,12 @@
    ]
   },
   {
-   "id": "ba87a82bd97881ac",
-   "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
-   "summary": "Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems.",
+   "id": "65bd07859d401501",
+   "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+   "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
-   "published": "2026-07-30",
+   "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+   "published": "2026-08-03",
    "tags": [
     "research"
    ]
@@ -557,67 +501,48 @@
    ]
   },
   {
-   "id": "23bba7fd392beb48",
-   "title": "Google AI Just Released Gemini 3.7 Flash: A Coding and Agent Model at $0.75/1M Input Tokens",
-   "summary": "Google has released Gemini 3.7 Flash, a refinement of Gemini 3.6 Flash with algorithmic improvements to its reasoning core. It handles text, images, audio, and video across a 1M-token context window with 64K-token output, and supports customizable thinking configurations. Coding results move notably: 43.6% on FrontierCode 1.1 Main versus...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/",
+   "id": "3093a3ebffab00d4",
+   "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+   "summary": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment. However, reinforcement learning through complex harnesses remains largely unexplored, as scaling such training to long-horizon agent tasks introduces fundamental challenges. In this work, we present a...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.16798v1",
+   "published": "2026-08-17",
+   "tags": [
+    "paper",
+    "agents"
+   ]
+  },
+  {
+   "id": "39ecefa78ed9be0d",
+   "title": "An Analytical-Prior Framework for Data-Efficient Prediction of Sound-Reduction Frequencies in Rectangular Side-Branch Helmholtz Resonators",
+   "summary": "High-fidelity finite-element simulations can provide accurate numerical predictions for side-branch resonators, but large simulation datasets are expensive to generate and purely data-driven surrogates may become unreliable when simulation-labelled data are scarce. This study develops an analytical-prior learning framework that reuses a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.16873v1",
+   "published": "2026-08-17",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "9e022b7caa78cba4",
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
    "published": "2026-08-13",
    "tags": [
-    "industry",
-    "llm",
-    "agents",
-    "reasoning"
+    "labs"
    ]
   },
   {
-   "id": "1e4e95553020bb61",
-   "title": "LLMs Don't Pay for the Jump",
-   "summary": "Zahavy [2026] argues that Large Language Models, despite their capabilities in induction and deduction, cannot perform the abductive \"Jump\" that produced Einstein's equivalence principle, and attributes this limitation to the absence of embodied simulation. Zheng-Xin [2026] and Farmer [2026] question whether embodiment is necessary for...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.14397v1",
-   "published": "2026-08-14",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "8784851e6d39edc4",
-   "title": "Generating Benchmark Health Data Using a Tabular Diffusion Transformer",
-   "summary": "Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and produce new synthetic tabular datasets. However, existing synthetic tabular data generation methods are largely restricted to single-input-table scenarios and struggle to effectively handle multiple heterogeneous tables with...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.14496v1",
-   "published": "2026-08-14",
-   "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "de2ca3d7578dd51c",
-   "title": "Testing ads in ChatGPT",
-   "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/testing-ads-in-chatgpt",
-   "published": "2026-08-11",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "633f453fe2c164d0",
-   "title": "Towards demystifying the creativity of diffusion models",
-   "summary": "Algorithms & Theory",
+   "id": "d74b20cb87441fb3",
+   "title": "Towards a quantum computer that learns from its errors",
+   "summary": "Machine Intelligence",
    "source": "Google Research",
-   "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
-   "published": "2026-07-15",
+   "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
+   "published": "2026-07-22",
    "tags": [
-    "research",
-    "multimodal"
+    "research"
    ]
   },
   {
@@ -632,12 +557,12 @@
    ]
   },
   {
-   "id": "5eb3c49c6262106f",
-   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+   "id": "ab799e9da743babb",
+   "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-   "published": "2026-08-11",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+   "published": "2026-08-12",
    "tags": [
     "open-source"
    ]
@@ -654,11 +579,11 @@
    ]
   },
   {
-   "id": "ee2acf199b452f2a",
-   "title": "Connecting research to policy on Capitol Hill",
-   "summary": "MIT students and postdocs discussed science funding and research with policymakers in Washington during the MIT Science Policy Initiative’s annual Congressional Visit Days.",
+   "id": "ba87a82bd97881ac",
+   "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
+   "summary": "Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
+   "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
    "published": "2026-07-30",
    "tags": [
     "research"
@@ -677,43 +602,99 @@
    ]
   },
   {
-   "id": "e7fbbf8b1d9bc6ea",
-   "title": "Liquid AI Releases LFM2.5-VL-3B: A 3B Vision-Language Model That Reads Screens, Grounds Objects, and Calls Tools On-Device",
-   "summary": "Liquid AI released LFM2.5-VL-3B, a 3.1B-parameter vision-language model built for on-device deployment. It averages 80.7 on ScreenSpot-v2 and lifts RefCOCO grounding from 57.1 to 87.9. Function calling is new to the VL line, with ToolSandbox moving from 26.4 to 59.5. The model fits in roughly 3 GB and decodes 228 tokens/s on an Apple M5...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/13/liquid-ai-lfm2-5-vl-3b-on-device-vision-language-model/",
-   "published": "2026-08-13",
-   "tags": [
-    "industry",
-    "llm",
-    "agents",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "bf76a9d97df83cdc",
-   "title": "A Survey of Large Models in Sports",
-   "summary": "Sports have witnessed growing global enthusiasm in recent years, serving as a vital force for physical health, cultural exchange, social connection, and economic growth. The rapid advancement of large models, particularly (multimodal) large language models (M)LLMs, has demonstrated transformative potential to reshape sports...",
+   "id": "0657259aa53a263d",
+   "title": "Neurosymbolic Embodied Agents",
+   "summary": "Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a neurosymbolic agent that factors long-horizon household tasks into task-directed visual exploration and constrained symbolic...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.14377v1",
-   "published": "2026-08-14",
+   "url": "https://arxiv.org/abs/2608.16794v1",
+   "published": "2026-08-17",
    "tags": [
     "paper",
     "llm",
-    "serving",
+    "fine-tuning",
+    "agents"
+   ]
+  },
+  {
+   "id": "ca0469d78ae0c942",
+   "title": "Data-Efficient and Interpretable Classification of Circulating Tumor Cell Phenotypes in Microfluidic Devices via Deep Learning",
+   "summary": "Accurate classification of circulating tumor cell (CTC) phenotypes can provide valuable information for assessing metastatic potential. Label free microfluidic devices provide a hydrodynamic obstacle course that transforms subtle biophysical characteristics of CTCs, including size and deformability, into distinct kinematic trajectories...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.16870v1",
+   "published": "2026-08-17",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "fb21820d806b1b78",
+   "title": "From assistance to execution: How enterprises put AI to work",
+   "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+   "published": "2026-08-12",
+   "tags": [
+    "labs",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "633f453fe2c164d0",
+   "title": "Towards demystifying the creativity of diffusion models",
+   "summary": "Algorithms & Theory",
+   "source": "Google Research",
+   "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
+   "published": "2026-07-15",
+   "tags": [
+    "research",
     "multimodal"
    ]
   },
   {
-   "id": "f614fe9480f2eef1",
-   "title": "Approximate Muon with low-rank adapters",
-   "summary": "The Muon optimizer shows clear benefits versus alternatives when pretraining neural networks. However, it is used less frequently for parameter-efficient fine-tuning (PEFT). One potential reason is that the most common PEFT method, LoRA, does not naturally combine with Muon since it is not mathematically possible to orthogonalize the...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.14492v1",
-   "published": "2026-08-14",
+   "id": "15eb5b1c419aea07",
+   "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+   "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+   "published": "2026-07-22",
    "tags": [
-    "paper",
-    "fine-tuning"
+    "labs"
+   ]
+  },
+  {
+   "id": "5eb3c49c6262106f",
+   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+   "published": "2026-08-11",
+   "tags": [
+    "open-source"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "ee2acf199b452f2a",
+   "title": "Connecting research to policy on Capitol Hill",
+   "summary": "MIT students and postdocs discussed science funding and research with policymakers in Washington during the MIT Science Policy Initiative’s annual Congressional Visit Days.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
+   "published": "2026-07-30",
+   "tags": [
+    "research"
    ]
   }
  ]
