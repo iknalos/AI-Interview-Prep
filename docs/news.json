@@ -1,17 +1,18 @@
 {
- "generated": "2026-08-18",
- "generatedAt": "2026-08-18T07:08:19+00:00",
- "sourceCount": 9,
+ "generated": "2026-08-19",
+ "generatedAt": "2026-08-19T07:09:32+00:00",
+ "sourceCount": 10,
  "items": [
   {
-   "id": "f137d9ea2f9f034d",
-   "title": "The Defender’s Window",
-   "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+   "id": "e4563871866d3a63",
+   "title": "ChatGPT Ads expands across Europe",
+   "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-defenders-window",
-   "published": "2026-08-17",
+   "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+   "published": "2026-08-18",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -37,14 +38,15 @@
    ]
   },
   {
-   "id": "b597a3d03ee72b44",
-   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+   "id": "5ce8103476b1f3ac",
+   "title": "How Much Memory Does Your Agent Actually Need?",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-   "published": "2026-08-17",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+   "published": "2026-08-18",
    "tags": [
-    "open-source"
+    "open-source",
+    "agents"
    ]
   },
   {
@@ -59,12 +61,12 @@
    ]
   },
   {
-   "id": "0cc43372f70fb6df",
-   "title": "Q&A: Rethinking how innovation happens",
-   "summary": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
+   "id": "b48c2a5a69f42f9c",
+   "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
+   "summary": "A new method for surgically removing training examples from a model reveals that as datasets grow, the link between what a model learns and what it produces dissolves.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0818",
-   "published": "2026-08-17",
+   "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+   "published": "2026-08-18",
    "tags": [
     "research"
    ]
@@ -81,36 +83,48 @@
    ]
   },
   {
-   "id": "7e97c7095b736531",
-   "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
-   "summary": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in two controlled architectures: a...",
+   "id": "b0fac4e9dde80783",
+   "title": "NVIDIA Releases TensorRT Model Connect in Public Preview: Hugging Face Checkpoint to Native C++ Inference in Two Commands",
+   "summary": "NVIDIA has released TensorRT Model Connect (TRTMC) in public preview, an Apache-2.0 project that takes a supported Hugging Face or local checkpoint to end-to-end TensorRT inference in two commands, with no intermediate ONNX export. The build emits a versioned .bundle artifact that runs through native C++ task APIs, so inference executes...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/18/nvidia-releases-tensorrt-model-connect-in-public-preview-hugging-face-checkpoint-to-native-c-inference-in-two-commands/",
+   "published": "2026-08-18",
+   "tags": [
+    "industry",
+    "serving"
+   ]
+  },
+  {
+   "id": "905642c03ab7133a",
+   "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+   "summary": "Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radiologists in 2023 and 2024. A multi-agent...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.16868v1",
-   "published": "2026-08-17",
+   "url": "https://arxiv.org/abs/2608.18072v1",
+   "published": "2026-08-18",
    "tags": [
     "paper",
-    "llm"
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "343bc94c379365fb",
-   "title": "Q-based Variational Inverse Reinforcement Learning",
-   "summary": "The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. Inverse reinforcement learning (IRL) addresses this challenge by inferring preferences, represented as reward functions, from expert...",
+   "id": "4528162472d4b376",
+   "title": "The concentration game: Bayesian updating, regret, and information",
+   "summary": "We give a two-player zero-sum repeated game between a learner and nature whose value identity generates Bayesian updating and an exact accounting of exponential-weights regret at once, and supplies the comparator-class variational form that a wide class of concentration phenomena share. The terminal payoff is the most a comparator can...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.16888v1",
-   "published": "2026-08-17",
+   "url": "https://arxiv.org/abs/2608.18061v1",
+   "published": "2026-08-18",
    "tags": [
-    "paper",
-    "fine-tuning"
+    "paper"
    ]
   },
   {
-   "id": "ad5623d5cc7091de",
-   "title": "OpenAI joins PORTS-Pike project",
-   "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+   "id": "67f37d861d340b85",
+   "title": "Strengthening democratic oversight in national security",
+   "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/openai-joins-ports-pike-project",
-   "published": "2026-08-17",
+   "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+   "published": "2026-08-18",
    "tags": [
     "labs"
    ]
@@ -138,14 +152,16 @@
    ]
   },
   {
-   "id": "d556a48bace2bfaa",
-   "title": "State of Open Models: Summer 2026 Observations",
+   "id": "e520424e436f5da3",
+   "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-   "published": "2026-08-14",
+   "url": "https://huggingface.co/blog/multi-vector-encoder",
+   "published": "2026-08-18",
    "tags": [
-    "open-source"
+    "open-source",
+    "rag",
+    "llm"
    ]
   },
   {
@@ -161,12 +177,12 @@
    ]
   },
   {
-   "id": "4610d2d935ba70d0",
-   "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
-   "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
+   "id": "7e0541cfd3319638",
+   "title": "Q&A: Rethinking how innovation happens",
+   "summary": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
-   "published": "2026-08-10",
+   "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
+   "published": "2026-08-17",
    "tags": [
     "research"
    ]
@@ -185,35 +201,49 @@
    ]
   },
   {
-   "id": "7257e6af8b290f0d",
-   "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
-   "summary": "The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. However, most existing memory models expose a static memory throughout the entire sequence. Because early tokens face no compression pressure, they occupy...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.16844v1",
-   "published": "2026-08-17",
+   "id": "f239581db639a970",
+   "title": "Meet SAM (Sovereign Agent Mesh): A Zero-Config, Zero-Trust P2P Network for AI Agents",
+   "summary": "Google has open-sourced SAM (Sovereign Agent Mesh) under Apache-2.0 — and it has nothing to do with Segment Anything. SAM is a zero-config, zero-trust P2P overlay that lets autonomous agents discover and call each other's MCP tools across cloud, on-prem, laptop and edge environments, without exposing a single internal endpoint to the...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/18/meet-sam-sovereign-agent-mesh-a-zero-config-zero-trust-p2p-network-for-ai-agents/",
+   "published": "2026-08-18",
    "tags": [
-    "paper",
-    "llm"
+    "industry",
+    "fine-tuning",
+    "agents"
    ]
   },
   {
-   "id": "36c4e939d2c2043a",
-   "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
-   "summary": "The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we...",
+   "id": "4834099cf3a1da05",
+   "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+   "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.18066v1",
+   "published": "2026-08-18",
+   "tags": [
+    "paper",
+    "evaluation",
+    "agents"
+   ]
+  },
+  {
+   "id": "46620853a976b3c3",
+   "title": "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
+   "summary": "Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates. Scan-specific reconstructions using Gaussian and Gabor primitives have shown promising results without the need for large training datasets, but have not addressed the additional dimension of...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.16884v1",
-   "published": "2026-08-17",
+   "url": "https://arxiv.org/abs/2608.18055v1",
+   "published": "2026-08-18",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "96670aeff66e996d",
-   "title": "New policy ideas for the Intelligence Age",
-   "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+   "id": "9765648ad527edb6",
+   "title": "Partnering with CodeAI to prepare the first AI generation",
+   "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-   "published": "2026-08-17",
+   "url": "https://openai.com/index/partnering-with-codeai",
+   "published": "2026-08-18",
    "tags": [
     "labs"
    ]
@@ -241,15 +271,14 @@
    ]
   },
   {
-   "id": "c1c988556190aa29",
-   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+   "id": "b597a3d03ee72b44",
+   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-   "published": "2026-08-13",
+   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+   "published": "2026-08-17",
    "tags": [
-    "open-source",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -267,12 +296,12 @@
    ]
   },
   {
-   "id": "98f7083fea106451",
-   "title": "Solving the solvent problem",
-   "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
+   "id": "4610d2d935ba70d0",
+   "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
+   "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
-   "published": "2026-08-04",
+   "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+   "published": "2026-08-10",
    "tags": [
     "research"
    ]
@@ -290,39 +319,55 @@
    ]
   },
   {
-   "id": "0623b1e75313e4bb",
-   "title": "Model Hypnosis: Strong control of AI via additive subliminal effects",
-   "summary": "We demonstrate that AI models are broadly susceptible to a phenomenon we call model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior. Model hypnosis occurs across model families and scales, including in frontier reasoning models, and...",
+   "id": "15c09a13f6a871f5",
+   "title": "Cartesia Ships Sonic-3.6: A Streaming TTS Model That Now Leads Both Artificial Analysis Speech Arenas",
+   "summary": "Cartesia has released Sonic-3.6, a streaming text-to-speech model built on state space models rather than transformers. It now ranks #1 on both Artificial Analysis speech leaderboards — 1,283 Elo on Provider Voice and 1,123 on Controlled Voice, the board that clones every model onto the same eight reference voices to isolate the...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/18/cartesia-ships-sonic-3-6-a-streaming-tts-model-that-now-leads-both-artificial-analysis-speech-arenas/",
+   "published": "2026-08-18",
+   "tags": [
+    "industry",
+    "llm",
+    "evaluation",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "8449bd87b71426ce",
+   "title": "TokEval: A Tokenizer Evaluation Suite",
+   "summary": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce TokEval, a framework of tokenizer...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.16834v1",
-   "published": "2026-08-17",
+   "url": "https://arxiv.org/abs/2608.18062v1",
+   "published": "2026-08-18",
    "tags": [
     "paper",
-    "reasoning"
+    "llm",
+    "evaluation"
    ]
   },
   {
-   "id": "fdb3ec7b67bad9cc",
-   "title": "Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run",
-   "summary": "For any convex body $\\mathcal{K}\\subset\\mathbb{R}^{n}$ containing a unit ball, the spectral gap of Hit-and-Run is $Ω(1/(n^2 C_{\\mathsf{PI}}))$, where $C_{\\mathsf{PI}}$ is the Poincaré constant of the uniform distribution $π$ over $\\mathcal{K}$. This implies that Hit-and-Run converges to a distribution within $χ^2$-divergence...",
+   "id": "3c7f0c7b652383c5",
+   "title": "Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization",
+   "summary": "Sampling from a diffusion model typically requires many forward passes through a large neural network, making generation computationally expensive. While much work has focused on efficient solvers and samplers, comparatively little attention has been paid to selecting the sampling timesteps themselves. A recent line of work optimizes...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.16878v1",
-   "published": "2026-08-17",
+   "url": "https://arxiv.org/abs/2608.18040v1",
+   "published": "2026-08-18",
    "tags": [
-    "paper"
+    "paper",
+    "llm",
+    "multimodal"
    ]
   },
   {
-   "id": "855fa77e93e122bb",
-   "title": "The builder’s guide to GPT‑5.6",
-   "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+   "id": "68c52c81310f1d0e",
+   "title": "Pacing model development in an era of cyber-critical capabilities",
+   "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-   "published": "2026-08-13",
+   "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+   "published": "2026-08-18",
    "tags": [
     "labs",
-    "llm",
-    "agents"
+    "fine-tuning"
    ]
   },
   {
@@ -348,12 +393,12 @@
    ]
   },
   {
-   "id": "5fa28c256021e6a7",
-   "title": "What We Learned by Reproducing 2,200 papers from ICML",
+   "id": "d556a48bace2bfaa",
+   "title": "State of Open Models: Summer 2026 Observations",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-   "published": "2026-08-13",
+   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+   "published": "2026-08-14",
    "tags": [
     "open-source"
    ]
@@ -370,15 +415,14 @@
    ]
   },
   {
-   "id": "e72169530bcddc1a",
-   "title": "The benefits of medical AI assistance vary based on user expertise",
-   "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+   "id": "98f7083fea106451",
+   "title": "Solving the solvent problem",
+   "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+   "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
    "published": "2026-08-04",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
@@ -394,35 +438,50 @@
    ]
   },
   {
-   "id": "ee7cf70357e89cad",
-   "title": "Policy Iteration with Human Feedback: Bringing Post-Training RL to In-context Learning",
-   "summary": "Generative pretraining established reusable task representations; later work on language-based task conditioning and in-context learning showed that a fixed model could adapt its behavior from instructions and demonstrations. Policy Iteration with Human Feedback (PIHF) builds on this development and the recurrent evaluate-and-improve...",
+   "id": "12c96278b4380a58",
+   "title": "Nous Research Ships Bot Mode for Hermes Agent, Turning Agent Profiles Into a Roster of Named Bots",
+   "summary": "Nous Research has shipped Bot Mode for Hermes Agent, its MIT-licensed open source agent. Bot Mode replaces the single-agent session list with a roster of named bots. Each bot is a real Hermes profile, with its own chat, memory, skills, and pinned model. It is now bundled and default-on in Hermes Desktop. The post Nous Research Ships Bot...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/17/nous-research-hermes-bot-mode/",
+   "published": "2026-08-18",
+   "tags": [
+    "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "f8bcac00a3c64042",
+   "title": "Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation",
+   "summary": "Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every writer in the corpus together. This paper claims a second parameter, phase, which signed weights learned from a corpus do not supply. Phase...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.16831v1",
-   "published": "2026-08-17",
+   "url": "https://arxiv.org/abs/2608.18041v1",
+   "published": "2026-08-18",
    "tags": [
     "paper",
+    "rag",
+    "llm"
+   ]
+  },
+  {
+   "id": "ca611b5ac27eb8c4",
+   "title": "Harnessing Magnitude-Only and Complex Measurements for Improved Dynamic MRI Reconstruction with Learned Priors",
+   "summary": "MRI reconstruction methods for undersampled k-space data naturally utilize complex-valued measurements. Parallel developments in sparse phase retrieval have shown that magnitude-only measurements may provide complementary information for signal recovery. However, their use in MRI reconstruction remains largely unexplored, due to lack of...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.18036v1",
+   "published": "2026-08-18",
+   "tags": [
+    "paper",
+    "rag",
     "evaluation"
    ]
   },
   {
-   "id": "f8870d2930c51e06",
-   "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
-   "summary": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.16876v1",
-   "published": "2026-08-17",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "6357d7795d215a7f",
-   "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-   "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+   "id": "01003c6680bc2ecc",
+   "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+   "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/previewing-ultrafast",
-   "published": "2026-08-13",
+   "url": "https://openai.com/index/chatgpt-for-teens",
+   "published": "2026-08-18",
    "tags": [
     "labs",
     "llm"
@@ -452,16 +511,15 @@
    ]
   },
   {
-   "id": "e43158037a354e46",
-   "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+   "id": "c1c988556190aa29",
+   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-   "published": "2026-08-12",
+   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+   "published": "2026-08-13",
    "tags": [
     "open-source",
-    "rag",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -478,14 +536,15 @@
    ]
   },
   {
-   "id": "65bd07859d401501",
-   "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
-   "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
+   "id": "e72169530bcddc1a",
+   "title": "The benefits of medical AI assistance vary based on user expertise",
+   "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
-   "published": "2026-08-03",
+   "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+   "published": "2026-08-04",
    "tags": [
-    "research"
+    "research",
+    "llm"
    ]
   },
   {
@@ -501,37 +560,55 @@
    ]
   },
   {
-   "id": "3093a3ebffab00d4",
-   "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
-   "summary": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment. However, reinforcement learning through complex harnesses remains largely unexplored, as scaling such training to long-horizon agent tasks introduces fundamental challenges. In this work, we present a...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.16798v1",
-   "published": "2026-08-17",
+   "id": "9a7aaee4d982fe1c",
+   "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
+   "summary": "ByteDance Seed and Tsinghua AIR have released CUDA Agent, an agentic reinforcement learning system that trains a large language model to write GPU kernels that beat a compiler. The gap it targets is narrow but stubborn: frontier models already produce correct CUDA, they just produce slow CUDA. On KernelBench, the base model Seed1.6...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/",
+   "published": "2026-08-18",
    "tags": [
-    "paper",
+    "industry",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "39ecefa78ed9be0d",
-   "title": "An Analytical-Prior Framework for Data-Efficient Prediction of Sound-Reduction Frequencies in Rectangular Side-Branch Helmholtz Resonators",
-   "summary": "High-fidelity finite-element simulations can provide accurate numerical predictions for side-branch resonators, but large simulation datasets are expensive to generate and purely data-driven surrogates may become unreliable when simulation-labelled data are scarce. This study develops an analytical-prior learning framework that reuses a...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.16873v1",
-   "published": "2026-08-17",
+   "id": "a442e86b8d202171",
+   "title": "Chain-of-Experience for Continual LLM Improvement",
+   "summary": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience (CoE), where models accumulate...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.18027v1",
+   "published": "2026-08-18",
    "tags": [
-    "paper"
+    "paper",
+    "llm",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "9e022b7caa78cba4",
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "published": "2026-08-13",
+   "id": "59a0cb68760aca80",
+   "title": "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry",
+   "summary": "Categorising invoices into the correct General Ledger (GL) code underpins financial reporting and tax compliance. This is a skilled accounting judgement rather than a routine task: the correct category depends subtly on the nature of the purchasing business, the vendor and the invoice text. Whilst AI is increasingly being adopted across...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.18033v1",
+   "published": "2026-08-18",
    "tags": [
-    "labs"
+    "paper",
+    "rag",
+    "llm"
+   ]
+  },
+  {
+   "id": "dfcf73efa3a68602",
+   "title": "How NVIDIA scales expertise with ChatGPT Work",
+   "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/nvidia/chatgpt-work",
+   "published": "2026-08-18",
+   "tags": [
+    "labs",
+    "llm"
    ]
   },
   {
@@ -557,12 +634,12 @@
    ]
   },
   {
-   "id": "ab799e9da743babb",
-   "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+   "id": "5fa28c256021e6a7",
+   "title": "What We Learned by Reproducing 2,200 papers from ICML",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-   "published": "2026-08-12",
+   "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+   "published": "2026-08-13",
    "tags": [
     "open-source"
    ]
@@ -579,12 +656,12 @@
    ]
   },
   {
-   "id": "ba87a82bd97881ac",
-   "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
-   "summary": "Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems.",
+   "id": "65bd07859d401501",
+   "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+   "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
-   "published": "2026-07-30",
+   "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+   "published": "2026-08-03",
    "tags": [
     "research"
    ]
@@ -602,99 +679,39 @@
    ]
   },
   {
-   "id": "0657259aa53a263d",
-   "title": "Neurosymbolic Embodied Agents",
-   "summary": "Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a neurosymbolic agent that factors long-horizon household tasks into task-directed visual exploration and constrained symbolic...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.16794v1",
+   "id": "7f682ce85d2e25be",
+   "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
+   "summary": "MiniMax released MiniMax-Music3, an open-weights text-to-music model. Given lyrics with section tags and a structured caption, it generates a complete song of up to five minutes in a single pass, as 32 kHz, 16-bit stereo WAV. Here is the architecture, the three serving paths, and the license conditions that matter before you ship. The...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3/",
    "published": "2026-08-17",
+   "tags": [
+    "industry",
+    "serving"
+   ]
+  },
+  {
+   "id": "d4196c6635e406ee",
+   "title": "The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning",
+   "summary": "Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code. Linguistic puzzles invert this: the solver must first discover the system before reasoning within it. We present the IOL-AI Challenge, an open-science competition run on the unseen problems of the International Linguistics...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.18011v1",
+   "published": "2026-08-18",
    "tags": [
     "paper",
     "llm",
-    "fine-tuning",
-    "agents"
+    "reasoning"
    ]
   },
   {
-   "id": "ca0469d78ae0c942",
-   "title": "Data-Efficient and Interpretable Classification of Circulating Tumor Cell Phenotypes in Microfluidic Devices via Deep Learning",
-   "summary": "Accurate classification of circulating tumor cell (CTC) phenotypes can provide valuable information for assessing metastatic potential. Label free microfluidic devices provide a hydrodynamic obstacle course that transforms subtle biophysical characteristics of CTCs, including size and deformability, into distinct kinematic trajectories...",
+   "id": "86f2aee06617bcaa",
+   "title": "TabNSM: Neural Sparse Mixer for Tabular Regression",
+   "summary": "Large-scale, high-dimensional tabular regression remains challenging: tree-based models are robust but lack end-to-end representation learning, while deep models enable flexible feature learning but often incur costly interaction modeling and sensitivity to noisy or redundant features. We propose TabNSM, a scalable regression framework...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.16870v1",
-   "published": "2026-08-17",
+   "url": "https://arxiv.org/abs/2608.18026v1",
+   "published": "2026-08-18",
    "tags": [
     "paper"
-   ]
-  },
-  {
-   "id": "fb21820d806b1b78",
-   "title": "From assistance to execution: How enterprises put AI to work",
-   "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-   "published": "2026-08-12",
-   "tags": [
-    "labs",
-    "llm",
-    "agents"
-   ]
-  },
-  {
-   "id": "633f453fe2c164d0",
-   "title": "Towards demystifying the creativity of diffusion models",
-   "summary": "Algorithms & Theory",
-   "source": "Google Research",
-   "url": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
-   "published": "2026-07-15",
-   "tags": [
-    "research",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "15eb5b1c419aea07",
-   "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-   "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-   "published": "2026-07-22",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "5eb3c49c6262106f",
-   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-   "published": "2026-08-11",
-   "tags": [
-    "open-source"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
-    "safety"
-   ]
-  },
-  {
-   "id": "ee2acf199b452f2a",
-   "title": "Connecting research to policy on Capitol Hill",
-   "summary": "MIT students and postdocs discussed science funding and research with policymakers in Washington during the MIT Science Policy Initiative’s annual Congressional Visit Days.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
-   "published": "2026-07-30",
-   "tags": [
-    "research"
    ]
   }
  ]
