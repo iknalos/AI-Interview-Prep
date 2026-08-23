@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-22",
- "generatedAt": "2026-08-22T07:03:22+00:00",
- "sourceCount": 10,
+ "generated": "2026-08-23",
+ "generatedAt": "2026-08-23T07:05:29+00:00",
+ "sourceCount": 9,
  "items": [
   {
    "id": "027379c08484bed2",
@@ -72,26 +72,14 @@
    ]
   },
   {
-   "id": "53ddef6230f10e58",
-   "title": "Building an AI Text Detector From Scratch",
-   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+   "id": "df5399c7f9d2448e",
+   "title": "How Claude Watermarks AI-Generated Text",
+   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-   "published": "2026-08-15",
+   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+   "published": "2026-08-22",
    "tags": [
     "newsletter"
-   ]
-  },
-  {
-   "id": "4daacda18781012b",
-   "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
-   "summary": "The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to NVIDIA. This comparison checks each provider's live rate card, Q2 2026 financials, active and...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026/",
-   "published": "2026-08-21",
-   "tags": [
-    "industry",
-    "serving"
    ]
   },
   {
@@ -189,28 +177,14 @@
    ]
   },
   {
-   "id": "28c7ee44d88bdbf2",
-   "title": "Controlling Reasoning Effort in LLMs",
-   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+   "id": "53ddef6230f10e58",
+   "title": "Building an AI Text Detector From Scratch",
+   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-   "published": "2026-07-18",
+   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+   "published": "2026-08-15",
    "tags": [
-    "newsletter",
-    "llm",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "6f9cb3ef9f73040d",
-   "title": "Building Agentic Document Intelligence Pipelines: Creating Scientific Figures with AutoFigure",
-   "summary": "This tutorial explores AutoFigure, a practical toolkit for generating professional scientific figures directly from text descriptions and research papers. We walk through setting up the environment, configuring an API-backed generation workflow, and converting complex document intelligence pipelines into publication-style diagrams...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/21/building-agentic-document-intelligence-pipelines-creating-scientific-figures-with-autofigure/",
-   "published": "2026-08-21",
-   "tags": [
-    "industry",
-    "agents"
+    "newsletter"
    ]
   },
   {
@@ -310,26 +284,16 @@
    ]
   },
   {
-   "id": "39217bafd159845d",
-   "title": "Using Local Coding Agents",
-   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+   "id": "28c7ee44d88bdbf2",
+   "title": "Controlling Reasoning Effort in LLMs",
+   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-   "published": "2026-06-27",
+   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+   "published": "2026-07-18",
    "tags": [
     "newsletter",
-    "agents"
-   ]
-  },
-  {
-   "id": "dc6992b9d8b14240",
-   "title": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
-   "summary": "Anthropic has moved its most cyber-capable model into a product security teams can switch on themselves. Claude Security scans now run on Claude Mythos 5, in public beta for Claude Enterprise customers with no separate model add-on. The scan connects to a GitHub repository, traces data flows across files, and returns findings with a CWE...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/",
-   "published": "2026-08-21",
-   "tags": [
-    "industry"
+    "llm",
+    "reasoning"
    ]
   },
   {
@@ -426,26 +390,15 @@
    ]
   },
   {
-   "id": "f3d1448df6a6df02",
-   "title": "LLM Research Papers: The 2026 List (January to May)",
-   "summary": "A curated roundup of notable LLM research papers that came out this year",
+   "id": "39217bafd159845d",
+   "title": "Using Local Coding Agents",
+   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-   "published": "2026-06-06",
+   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+   "published": "2026-06-27",
    "tags": [
     "newsletter",
-    "llm"
-   ]
-  },
-  {
-   "id": "dd349d68a89f412e",
-   "title": "Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text",
-   "summary": "S1-mini is a 462 MB open-weights normalizer that sits after ASR, removing fillers and resolving self-corrections locally. The post Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text appeared first on MarkTechPost .",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text/",
-   "published": "2026-08-20",
-   "tags": [
-    "industry"
+    "agents"
    ]
   },
   {
@@ -544,27 +497,15 @@
    ]
   },
   {
-   "id": "ad1a0b6f01f5a507",
-   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
-   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+   "id": "f3d1448df6a6df02",
+   "title": "LLM Research Papers: The 2026 List (January to May)",
+   "summary": "A curated roundup of notable LLM research papers that came out this year",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-   "published": "2026-05-16",
+   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+   "published": "2026-06-06",
    "tags": [
     "newsletter",
     "llm"
-   ]
-  },
-  {
-   "id": "4da79fe1b000dd5d",
-   "title": "Meet UPDF: A Lightweight Adobe Alternative Built for the Agentic Era",
-   "summary": "PDFs are easy to read and hard to change. AI can now summarize a 90-page contract in seconds, but it still won't rewrite the source file cleanly. UPDF is built for that second half: direct editing, 14-format conversion, 38-language OCR, and ten AI agents shipped in version 2.5. The post Meet UPDF: A Lightweight Adobe Alternative Built...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/20/meet-updf-a-lightweight-adobe-alternative-built-for-the-agentic-era/",
-   "published": "2026-08-20",
-   "tags": [
-    "industry",
-    "agents"
    ]
   },
   {
@@ -660,27 +601,15 @@
    ]
   },
   {
-   "id": "08d82b53d71043d3",
-   "title": "My Workflow for Understanding LLM Architectures",
-   "summary": "A learning-oriented workflow for understanding new open-weight model releases",
+   "id": "ad1a0b6f01f5a507",
+   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
-   "published": "2026-04-18",
+   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+   "published": "2026-05-16",
    "tags": [
     "newsletter",
     "llm"
-   ]
-  },
-  {
-   "id": "94e627bf29fab19a",
-   "title": "Liquid AI Releases LFM2.5-DSpark Draft Models That Deliver Up to 3.18x Faster Decoding Without Changing Model Outputs",
-   "summary": "Three ~300M drafters bring speculative decoding to LFM2.5, delivering up to 3.18x faster decoding with identical greedy output. The post Liquid AI Releases LFM2.5-DSpark Draft Models That Deliver Up to 3.18x Faster Decoding Without Changing Model Outputs appeared first on MarkTechPost .",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/20/liquid-ai-releases-lfm2-5-dspark-draft-models-that-deliver-up-to-3-18x-faster-decoding/",
-   "published": "2026-08-20",
-   "tags": [
-    "industry",
-    "serving"
    ]
   },
   {
@@ -705,6 +634,76 @@
    "published": "2026-08-20",
    "tags": [
     "paper"
+   ]
+  },
+  {
+   "id": "9765648ad527edb6",
+   "title": "Partnering with CodeAI to prepare the first AI generation",
+   "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/partnering-with-codeai",
+   "published": "2026-08-18",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "38b998453926e9af",
+   "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
+   "published": "2026-07-22",
+   "tags": [
+    "research",
+    "agents"
+   ]
+  },
+  {
+   "id": "7909c613945e81a8",
+   "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+   "published": "2026-07-28",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "c1c988556190aa29",
+   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+   "published": "2026-08-13",
+   "tags": [
+    "open-source",
+    "agents"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "65bd07859d401501",
+   "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+   "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+   "published": "2026-08-03",
+   "tags": [
+    "research"
    ]
   }
  ]
