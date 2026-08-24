@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-23",
- "generatedAt": "2026-08-23T07:05:29+00:00",
- "sourceCount": 9,
+ "generated": "2026-08-24",
+ "generatedAt": "2026-08-24T07:32:03+00:00",
+ "sourceCount": 10,
  "items": [
   {
    "id": "027379c08484bed2",
@@ -83,25 +83,37 @@
    ]
   },
   {
-   "id": "d67e105d160462b4",
-   "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
-   "summary": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.20338v1",
-   "published": "2026-08-20",
+   "id": "043cf5ea58ea88f2",
+   "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
+   "summary": "The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to NVIDIA. This comparison checks each provider's live rate card, Q2 2026 financials, active and...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026/",
+   "published": "2026-08-24",
    "tags": [
-    "paper",
-    "llm",
-    "evaluation"
+    "industry",
+    "serving"
    ]
   },
   {
-   "id": "76bef101769705c9",
-   "title": "Information on trajectories: martingales and random times",
-   "summary": "Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used classical concentration inequalities, from Ville to PAC-Bayes, and measures what each one discards. The tail a bound controls is itself a...",
+   "id": "91ebcbfa1e72f760",
+   "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
+   "summary": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.21343v1",
+   "published": "2026-08-21",
+   "tags": [
+    "paper",
+    "serving",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "a18fb8d3acf4444c",
+   "title": "Primal Acceleration of Newton's Method",
+   "summary": "We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of $O(1/k^3)$ in terms of the functional...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.20337v1",
-   "published": "2026-08-20",
+   "url": "https://arxiv.org/abs/2608.21359v1",
+   "published": "2026-08-21",
    "tags": [
     "paper"
    ]
@@ -188,28 +200,38 @@
    ]
   },
   {
-   "id": "a8ed76e33167e1d9",
-   "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
-   "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.20331v1",
-   "published": "2026-08-20",
+   "id": "cd4ebcc9151b1b2b",
+   "title": "Scientific Data Analysis with LabPlot in Python: Signal Processing, Spectral Peak Fitting, Visualization, and Batch Automation",
+   "summary": "In this tutorial, we explore a LabPlot-inspired scientific data analysis workflow in Python while preserving the structure and terminology of LabPlot’s aspect tree, analysis kernels, plotting system, and project model. We build reusable components to import tabular data, compute descriptive statistics, smooth and differentiate signals...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/23/scientific-data-analysis-with-labplot-in-python-signal-processing-spectral-peak-fitting-visualization-and-batch-automation/",
+   "published": "2026-08-24",
    "tags": [
-    "paper",
-    "multimodal"
+    "industry",
+    "serving"
    ]
   },
   {
-   "id": "fe499c0eb3993498",
-   "title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
-   "summary": "Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classifier. Existing targets, however, suffer...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.20326v1",
-   "published": "2026-08-20",
+   "id": "ff23a388c2ff1530",
+   "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
+   "summary": "Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therapeutic moves: compact, function-based categories grounded in the MULTI-60 inventory, validated through an annotation campaign with five...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.21325v1",
+   "published": "2026-08-21",
    "tags": [
     "paper",
-    "rag",
-    "evaluation"
+    "llm"
+   ]
+  },
+  {
+   "id": "ce8c90692341fd95",
+   "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
+   "summary": "Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.21349v1",
+   "published": "2026-08-21",
+   "tags": [
+    "paper"
    ]
   },
   {
@@ -297,25 +319,36 @@
    ]
   },
   {
-   "id": "aab1dde831f8dd09",
-   "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
-   "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.20320v1",
-   "published": "2026-08-20",
+   "id": "395f2ceaa28d2355",
+   "title": "Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work",
+   "summary": "Harvey's first post-trained model nearly doubles LAB task completion, but only one benchmark number survives independent verification today The post Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model/",
+   "published": "2026-08-23",
    "tags": [
-    "paper",
+    "industry",
     "evaluation",
     "agents"
    ]
   },
   {
-   "id": "d25623ebaaffd36d",
-   "title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
-   "summary": "Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment conditions, as existing studies typically differ...",
+   "id": "04f8cd22f40811a4",
+   "title": "Prompt-Model Interaction Reaches the Fixed Points: A deterministic, task-free structural readout -- and the factorizations of it that failed",
+   "summary": "That a prompt's effect is not a property of the prompt is established: prompts optimised for one model degrade on another, and rankings reorder under neutral reformatting. That evidence is about task accuracy, which cannot say whether the interaction is a fact about task machinery or about the conditional distribution itself. We ask on a...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.21315v1",
+   "published": "2026-08-21",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "35ae6aa2a023e280",
+   "title": "Truthful Calibration Measures for Sequential Prediction",
+   "summary": "Calibration requires probabilistic reports to be conditionally unbiased and reliably interpretable as probabilities. A calibration measure assigns numerical error to miscalibrated reports. Haghtalab et al. (2024) proposed an approximately truthful calibration measure for online prediction, leaving open whether exact truthfulness is...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.20322v1",
-   "published": "2026-08-20",
+   "url": "https://arxiv.org/abs/2608.21348v1",
+   "published": "2026-08-21",
    "tags": [
     "paper"
    ]
@@ -402,29 +435,43 @@
    ]
   },
   {
-   "id": "023f777f7dba46bb",
-   "title": "Inducing Task Models from Computer-Use Traces",
-   "summary": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks are actually performed, and...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.20319v1",
-   "published": "2026-08-20",
+   "id": "415ae52bee2683da",
+   "title": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
+   "summary": "FreeToken splits MoE cache misses between PCIe fills and CPU execution using measured bandwidths, unlocking frontier models locally The post Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu/",
+   "published": "2026-08-23",
    "tags": [
-    "paper",
-    "agents"
+    "industry",
+    "llm",
+    "serving"
    ]
   },
   {
-   "id": "095ed1a6cc5d8181",
-   "title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
-   "summary": "Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR timelines pretrained and fine-tuned from...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.20315v1",
-   "published": "2026-08-20",
+   "id": "5994d10db2dee52f",
+   "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+   "summary": "Large language models often rely on Chain-of-Thought (CoT) reasoning to solve complex tasks, but verbose reasoning traces introduce substantial inference overhead. CoT compression shortens generation, yet aggressive compression may disrupt logical coherence and degrade performance. We formalize this trade-off as the...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.21265v1",
+   "published": "2026-08-21",
    "tags": [
     "paper",
     "llm",
-    "fine-tuning",
-    "safety"
+    "serving",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "328ab88429df6c63",
+   "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+   "summary": "Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.21345v1",
+   "published": "2026-08-21",
+   "tags": [
+    "paper",
+    "llm",
+    "agents"
    ]
   },
   {
@@ -509,26 +556,37 @@
    ]
   },
   {
-   "id": "3316a70c04fc5f93",
-   "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
-   "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.20318v1",
-   "published": "2026-08-20",
+   "id": "eae6fdc717a5d5ad",
+   "title": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
+   "summary": "Build an end-to-end document intelligence pipeline with deepDoctection. This tutorial covers configuring layout analysis, DocTR OCR, and table extraction, while demonstrating how to implement custom services for entity recognition and generate structured JSONL data for your RAG workflows. The post Building an End-to-End Document...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/",
+   "published": "2026-08-23",
    "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "agents"
+    "industry",
+    "rag"
    ]
   },
   {
-   "id": "6f112348d56c1850",
-   "title": "Physical-Support Confidence Sets for Highly Coherent Dictionaries",
-   "summary": "Sparse pursuit after dictionary learning can yield a precise atom support even when its physical interpretation is not justified by the calibration data, especially for highly coherent dictionaries where alternative calibration-compatible dictionaries may assign different physical meanings to the same selected support. We develop...",
+   "id": "fed4b121d18fefb3",
+   "title": "EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering",
+   "summary": "Question answering (QA) over long, connected documents remains challenging because relevant evidence may span multiple entities and their relationships. Existing retrieval-augmented generation (RAG) methods typically index documents as raw chunks and retrieve them through embedding similarity. Their performance degrades when chunk...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.21252v1",
+   "published": "2026-08-21",
+   "tags": [
+    "paper",
+    "rag",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "849d509794b89a44",
+   "title": "Across-Design Uncertainty in Short Pricing Panels: Evidence from Simulated Price Trajectories",
+   "summary": "Short observational pricing panels can contain many observations while offering only a small number of distinct price movements. This paper studies the inferential consequences of that distinction in a synthetic data-generating process calibrated to a sparse pricing regime. We separate uncertainty conditional on a realised price...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.20295v1",
-   "published": "2026-08-20",
+   "url": "https://arxiv.org/abs/2608.21334v1",
+   "published": "2026-08-21",
    "tags": [
     "paper"
    ]
@@ -613,97 +671,40 @@
    ]
   },
   {
-   "id": "b3f2ae3bdf7b8add",
-   "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
-   "summary": "Whether a language model has improved itself is increasingly judged not by mean accuracy but by which individual problems it gains and loses. Tracking these transitions means differencing two noisy estimates, leaving them vulnerable to measurement artifacts. Auditing three rounds of rank-$32$ LoRA self-training on Qwen3-8B against a...",
+   "id": "322ca6b636f3183b",
+   "title": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
+   "summary": "Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks. The post Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/",
+   "published": "2026-08-23",
+   "tags": [
+    "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "503ebe07232250df",
+   "title": "Benchmarking Patent Drafting from Inventor-Style Disclosures",
+   "summary": "While recent large language models (LLMs) have achieved promising results on individual patent drafting tasks, they fundamentally fail to investigate the core challenge of real-world patent drafting: generating a complete and legally coherent patent application directly from early-stage invention materials. Prior work predominantly...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.20290v1",
-   "published": "2026-08-20",
+   "url": "https://arxiv.org/abs/2608.21249v1",
+   "published": "2026-08-21",
    "tags": [
     "paper",
     "llm",
-    "fine-tuning"
+    "evaluation"
    ]
   },
   {
-   "id": "3cca5cdec73cdc45",
-   "title": "Dynamic Structural Causal Modeling for Sleep",
-   "summary": "The causal dynamics of sleep-disordered breathing are complex and vary across patient populations, hindering the development of targeted interventions. We learn dynamic causal graphs of sleep-disordered breathing from Home Sleep Apnea Test (HSAT) recordings, revealing systematic differences in causal structure across sex and age...",
+   "id": "bf0e5a08687d328c",
+   "title": "Time-Aware Tranformer-Based Prediction Model for AECOPD",
+   "summary": "The rapid symptom change of Acute exacerbation of chronic obstructive pulmonary disease (AECOPD) makes it critical to have time-sensitive prediction models. However, most current machine learning models studying AECOPD use clinical and laboratory data, which will inevitably cause latency. To ensure timely detection of AECOPD and minimize...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.20285v1",
-   "published": "2026-08-20",
+   "url": "https://arxiv.org/abs/2608.21324v1",
+   "published": "2026-08-21",
    "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "9765648ad527edb6",
-   "title": "Partnering with CodeAI to prepare the first AI generation",
-   "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/partnering-with-codeai",
-   "published": "2026-08-18",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "38b998453926e9af",
-   "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
-   "summary": "General Science",
-   "source": "Google Research",
-   "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
-   "published": "2026-07-22",
-   "tags": [
-    "research",
-    "agents"
-   ]
-  },
-  {
-   "id": "7909c613945e81a8",
-   "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-   "published": "2026-07-28",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "c1c988556190aa29",
-   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-   "published": "2026-08-13",
-   "tags": [
-    "open-source",
-    "agents"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
-    "safety"
-   ]
-  },
-  {
-   "id": "65bd07859d401501",
-   "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
-   "summary": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
-   "published": "2026-08-03",
-   "tags": [
-    "research"
+    "paper",
+    "serving"
    ]
   }
  ]
