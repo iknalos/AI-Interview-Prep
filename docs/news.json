@@ -1,17 +1,18 @@
 {
- "generated": "2026-08-24",
- "generatedAt": "2026-08-24T07:32:03+00:00",
- "sourceCount": 10,
+ "generated": "2026-08-25",
+ "generatedAt": "2026-08-25T07:11:54+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "027379c08484bed2",
-   "title": "Introducing AI Futures",
-   "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+   "id": "df015003760c1205",
+   "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+   "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-ai-futures",
-   "published": "2026-08-20",
+   "url": "https://openai.com/index/gpt-5-6-in-kiro",
+   "published": "2026-08-24",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -37,16 +38,14 @@
    ]
   },
   {
-   "id": "68e9fb1705e10808",
-   "title": "Measuring benchmark optimization in speech recognition",
+   "id": "2983dbf79834f512",
+   "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-   "published": "2026-08-21",
+   "url": "https://huggingface.co/blog/gradio-workflow-guide",
+   "published": "2026-08-25",
    "tags": [
-    "open-source",
-    "evaluation",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -61,12 +60,12 @@
    ]
   },
   {
-   "id": "247c8b7c218f0143",
-   "title": "Paving the way for greener ammonia production",
-   "summary": "New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.",
+   "id": "e8e03f68c1bad10e",
+   "title": "Generating scenarios for extreme events, without extreme data",
+   "summary": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
-   "published": "2026-08-20",
+   "url": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+   "published": "2026-08-24",
    "tags": [
     "research"
    ]
@@ -83,51 +82,38 @@
    ]
   },
   {
-   "id": "043cf5ea58ea88f2",
-   "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
-   "summary": "The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to NVIDIA. This comparison checks each provider's live rate card, Q2 2026 financials, active and...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026/",
+   "id": "ed9e801f2bcf74b2",
+   "title": "How to Train a Critic Stably and Efficiently",
+   "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.23566v1",
    "published": "2026-08-24",
    "tags": [
-    "industry",
-    "serving"
+    "paper",
+    "llm"
    ]
   },
   {
-   "id": "91ebcbfa1e72f760",
-   "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
-   "summary": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.21343v1",
-   "published": "2026-08-21",
+   "id": "0c05f890928e741b",
+   "title": "Provably adaptive sampling with uniform and remasking discrete diffusion models",
+   "summary": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward process and the sampler. For the uniform forward process, existing lower bounds for the standard $τ$-leaping sampler scale linearly with the...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.23554v1",
+   "published": "2026-08-24",
    "tags": [
     "paper",
-    "serving",
     "multimodal"
    ]
   },
   {
-   "id": "a18fb8d3acf4444c",
-   "title": "Primal Acceleration of Newton's Method",
-   "summary": "We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of $O(1/k^3)$ in terms of the functional...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.21359v1",
-   "published": "2026-08-21",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "cb030de2dd9418a3",
-   "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-   "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+   "id": "027379c08484bed2",
+   "title": "Introducing AI Futures",
+   "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/stampli",
+   "url": "https://openai.com/index/introducing-ai-futures",
    "published": "2026-08-20",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -154,15 +140,16 @@
    ]
   },
   {
-   "id": "c7cdb6722fd86cc4",
-   "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+   "id": "68e9fb1705e10808",
+   "title": "Measuring benchmark optimization in speech recognition",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-   "published": "2026-08-20",
+   "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+   "published": "2026-08-21",
    "tags": [
     "open-source",
-    "serving"
+    "evaluation",
+    "multimodal"
    ]
   },
   {
@@ -178,12 +165,12 @@
    ]
   },
   {
-   "id": "b48c2a5a69f42f9c",
-   "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
-   "summary": "A new method for surgically removing training examples from a model reveals that as datasets grow, the link between what a model learns and what it produces dissolves.",
+   "id": "247c8b7c218f0143",
+   "title": "Paving the way for greener ammonia production",
+   "summary": "New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
-   "published": "2026-08-18",
+   "url": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
+   "published": "2026-08-20",
    "tags": [
     "research"
    ]
@@ -200,50 +187,40 @@
    ]
   },
   {
-   "id": "cd4ebcc9151b1b2b",
-   "title": "Scientific Data Analysis with LabPlot in Python: Signal Processing, Spectral Peak Fitting, Visualization, and Batch Automation",
-   "summary": "In this tutorial, we explore a LabPlot-inspired scientific data analysis workflow in Python while preserving the structure and terminology of LabPlot’s aspect tree, analysis kernels, plotting system, and project model. We build reusable components to import tabular data, compute descriptive statistics, smooth and differentiate signals...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/23/scientific-data-analysis-with-labplot-in-python-signal-processing-spectral-peak-fitting-visualization-and-batch-automation/",
+   "id": "6ef5a435ce5b864c",
+   "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+   "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.23564v1",
    "published": "2026-08-24",
    "tags": [
-    "industry",
-    "serving"
+    "paper",
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "ff23a388c2ff1530",
-   "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
-   "summary": "Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therapeutic moves: compact, function-based categories grounded in the MULTI-60 inventory, validated through an annotation campaign with five...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.21325v1",
-   "published": "2026-08-21",
+   "id": "284f8df23b6c14f6",
+   "title": "Robustness of Anomaly Detection Models for Industrial Control Systems under Training-Time Data Contamination",
+   "summary": "Machine-learning-based anomaly detection is increasingly used in industrial control systems (ICS), yet most studies assume that detector training data is trustworthy. In practice, training data may be corrupted through compromised logs, labeling errors, manipulated historian records, or unsafe retraining processes. This paper evaluates...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.23547v1",
+   "published": "2026-08-24",
    "tags": [
     "paper",
-    "llm"
+    "evaluation"
    ]
   },
   {
-   "id": "ce8c90692341fd95",
-   "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
-   "summary": "Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.21349v1",
-   "published": "2026-08-21",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "ef913e9fdabc01a8",
-   "title": "Offering Zero Data Retention for frontier models",
-   "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+   "id": "cb030de2dd9418a3",
+   "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+   "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-   "published": "2026-08-19",
+   "url": "https://openai.com/index/stampli",
+   "published": "2026-08-20",
    "tags": [
     "labs",
-    "safety"
+    "llm"
    ]
   },
   {
@@ -269,15 +246,15 @@
    ]
   },
   {
-   "id": "5ce8103476b1f3ac",
-   "title": "How Much Memory Does Your Agent Actually Need?",
+   "id": "c7cdb6722fd86cc4",
+   "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-   "published": "2026-08-18",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+   "published": "2026-08-20",
    "tags": [
     "open-source",
-    "agents"
+    "serving"
    ]
   },
   {
@@ -295,12 +272,12 @@
    ]
   },
   {
-   "id": "7e0541cfd3319638",
-   "title": "Q&A: Rethinking how innovation happens",
-   "summary": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
+   "id": "b48c2a5a69f42f9c",
+   "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
+   "summary": "A new method for surgically removing training examples from a model reveals that as datasets grow, the link between what a model learns and what it produces dissolves.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
-   "published": "2026-08-17",
+   "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+   "published": "2026-08-18",
    "tags": [
     "research"
    ]
@@ -319,50 +296,40 @@
    ]
   },
   {
-   "id": "395f2ceaa28d2355",
-   "title": "Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work",
-   "summary": "Harvey's first post-trained model nearly doubles LAB task completion, but only one benchmark number survives independent verification today The post Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work appeared first on MarkTechPost .",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model/",
-   "published": "2026-08-23",
+   "id": "a0eb6a8f44dd6a7e",
+   "title": "Prime Agent: A Self-Improving RLM Harness",
+   "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.23552v1",
+   "published": "2026-08-24",
    "tags": [
-    "industry",
+    "paper",
+    "llm",
     "evaluation",
     "agents"
    ]
   },
   {
-   "id": "04f8cd22f40811a4",
-   "title": "Prompt-Model Interaction Reaches the Fixed Points: A deterministic, task-free structural readout -- and the factorizations of it that failed",
-   "summary": "That a prompt's effect is not a property of the prompt is established: prompts optimised for one model degrade on another, and rankings reorder under neutral reformatting. That evidence is about task accuracy, which cannot say whether the interaction is a fact about task machinery or about the conditional distribution itself. We ask on a...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.21315v1",
-   "published": "2026-08-21",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "35ae6aa2a023e280",
-   "title": "Truthful Calibration Measures for Sequential Prediction",
-   "summary": "Calibration requires probabilistic reports to be conditionally unbiased and reliably interpretable as probabilities. A calibration measure assigns numerical error to miscalibrated reports. Haghtalab et al. (2024) proposed an approximately truthful calibration measure for online prediction, leaving open whether exact truthfulness is...",
+   "id": "413dbfb66a49fc41",
+   "title": "Inertial Manifold Neural Operator for Dissipative Time-Dependent Partial Differential Equations",
+   "summary": "In this paper, we introduce the Inertial Manifold Neural Operator (IMNO) for solving dissipative time-dependent partial differential equations (PDEs). The long-time dynamics of such systems often exhibit an effective low-dimensional structure due to dissipation. Unlike standard neural operator architectures such as the Fourier Neural...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.21348v1",
-   "published": "2026-08-21",
+   "url": "https://arxiv.org/abs/2608.23546v1",
+   "published": "2026-08-24",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "9ac0643f24279d08",
-   "title": "Replit expands access to software creation with GPT-5.6 Luna",
-   "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+   "id": "ef913e9fdabc01a8",
+   "title": "Offering Zero Data Retention for frontier models",
+   "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/replit",
+   "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
    "published": "2026-08-19",
    "tags": [
     "labs",
-    "llm"
+    "safety"
    ]
   },
   {
@@ -388,16 +355,15 @@
    ]
   },
   {
-   "id": "e520424e436f5da3",
-   "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+   "id": "5ce8103476b1f3ac",
+   "title": "How Much Memory Does Your Agent Actually Need?",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/multi-vector-encoder",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
    "published": "2026-08-18",
    "tags": [
     "open-source",
-    "rag",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -412,12 +378,12 @@
    ]
   },
   {
-   "id": "4610d2d935ba70d0",
-   "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
-   "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
+   "id": "7e0541cfd3319638",
+   "title": "Q&A: Rethinking how innovation happens",
+   "summary": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
-   "published": "2026-08-10",
+   "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
+   "published": "2026-08-17",
    "tags": [
     "research"
    ]
@@ -435,52 +401,39 @@
    ]
   },
   {
-   "id": "415ae52bee2683da",
-   "title": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
-   "summary": "FreeToken splits MoE cache misses between PCIe fills and CPU execution using measured bandwidths, unlocking frontier models locally The post Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU appeared first on MarkTechPost .",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu/",
-   "published": "2026-08-23",
+   "id": "bd42ea027143dce6",
+   "title": "ConvergeFlow: Language Flow with Provable Convergence to Token Embeddings",
+   "summary": "Recent advances in continuous diffusion and flow-based language models (LMs) have achieved performance competitive with discrete LMs. However, existing continuous frameworks still rely on decoders supervised with cross entropy (CE) because the flow trajectories are not guaranteed to terminate at valid token embeddings. Motivated by this...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.23551v1",
+   "published": "2026-08-24",
    "tags": [
-    "industry",
+    "paper",
+    "rag",
     "llm",
-    "serving"
+    "multimodal"
    ]
   },
   {
-   "id": "5994d10db2dee52f",
-   "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
-   "summary": "Large language models often rely on Chain-of-Thought (CoT) reasoning to solve complex tasks, but verbose reasoning traces introduce substantial inference overhead. CoT compression shortens generation, yet aggressive compression may disrupt logical coherence and degrade performance. We formalize this trade-off as the...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.21265v1",
-   "published": "2026-08-21",
+   "id": "71fba3c559532a4d",
+   "title": "Interpretable AI with Local Distillation",
+   "summary": "Modern AI models such as tabular foundation models and gradient-boosted ensembles can outpredict classical methods, but provide little basis for reasoning about their predictions. High-stakes decisions call for models that are both accurate and interpretable as built. Local linear modeling offers a path forward: a smooth regression...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.23538v1",
+   "published": "2026-08-24",
    "tags": [
     "paper",
-    "llm",
-    "serving",
+    "fine-tuning",
     "reasoning"
    ]
   },
   {
-   "id": "328ab88429df6c63",
-   "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
-   "summary": "Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.21345v1",
-   "published": "2026-08-21",
-   "tags": [
-    "paper",
-    "llm",
-    "agents"
-   ]
-  },
-  {
-   "id": "e4563871866d3a63",
-   "title": "ChatGPT Ads expands across Europe",
-   "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+   "id": "9ac0643f24279d08",
+   "title": "Replit expands access to software creation with GPT-5.6 Luna",
+   "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-   "published": "2026-08-18",
+   "url": "https://openai.com/index/replit",
+   "published": "2026-08-19",
    "tags": [
     "labs",
     "llm"
@@ -509,14 +462,16 @@
    ]
   },
   {
-   "id": "b597a3d03ee72b44",
-   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+   "id": "e520424e436f5da3",
+   "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-   "published": "2026-08-17",
+   "url": "https://huggingface.co/blog/multi-vector-encoder",
+   "published": "2026-08-18",
    "tags": [
-    "open-source"
+    "open-source",
+    "rag",
+    "llm"
    ]
   },
   {
@@ -533,12 +488,12 @@
    ]
   },
   {
-   "id": "98f7083fea106451",
-   "title": "Solving the solvent problem",
-   "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
+   "id": "4610d2d935ba70d0",
+   "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
+   "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
-   "published": "2026-08-04",
+   "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+   "published": "2026-08-10",
    "tags": [
     "research"
    ]
@@ -556,50 +511,39 @@
    ]
   },
   {
-   "id": "eae6fdc717a5d5ad",
-   "title": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
-   "summary": "Build an end-to-end document intelligence pipeline with deepDoctection. This tutorial covers configuring layout analysis, DocTR OCR, and table extraction, while demonstrating how to implement custom services for entity recognition and generate structured JSONL data for your RAG workflows. The post Building an End-to-End Document...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/",
-   "published": "2026-08-23",
-   "tags": [
-    "industry",
-    "rag"
-   ]
-  },
-  {
-   "id": "fed4b121d18fefb3",
-   "title": "EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering",
-   "summary": "Question answering (QA) over long, connected documents remains challenging because relevant evidence may span multiple entities and their relationships. Existing retrieval-augmented generation (RAG) methods typically index documents as raw chunks and retrieve them through embedding similarity. Their performance degrades when chunk...",
+   "id": "128ac900bb750642",
+   "title": "When Names Cross Scripts: A Source-Grounded Benchmark for Historical Entity Reconciliation in the Mongol World",
+   "summary": "Historical people may appear under different languages, scripts, and transcription traditions, while distinct individuals may share highly similar or even identical names. This makes historical identity reconciliation more than a problem of string matching or transliteration. We introduce MHER, a provenance-controlled benchmark for...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.21252v1",
-   "published": "2026-08-21",
+   "url": "https://arxiv.org/abs/2608.23507v1",
+   "published": "2026-08-24",
    "tags": [
     "paper",
-    "rag",
     "evaluation"
    ]
   },
   {
-   "id": "849d509794b89a44",
-   "title": "Across-Design Uncertainty in Short Pricing Panels: Evidence from Simulated Price Trajectories",
-   "summary": "Short observational pricing panels can contain many observations while offering only a small number of distinct price movements. This paper studies the inferential consequences of that distinction in a synthetic data-generating process calibrated to a sparse pricing regime. We separate uncertainty conditional on a realised price...",
+   "id": "9098bdca6b82ce28",
+   "title": "Predicting Multiple Clinical Outcomes Related to Functional Recovery and Social Isolation Among Older Adults After Lower-Limb Fracture or Hip Replacement",
+   "summary": "Older adults recovering after lower-limb fracture or hip replacement may experience complex recovery trajectories. Most of the time, these clinical aspects are studied in isolation, masking their joint impact on recovery. This study used the MAISON-LLF dataset, which contains multimodal sensor and clinical assessment data from 18 older...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.21334v1",
-   "published": "2026-08-21",
+   "url": "https://arxiv.org/abs/2608.23531v1",
+   "published": "2026-08-24",
    "tags": [
-    "paper"
+    "paper",
+    "multimodal"
    ]
   },
   {
-   "id": "67f37d861d340b85",
-   "title": "Strengthening democratic oversight in national security",
-   "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+   "id": "e4563871866d3a63",
+   "title": "ChatGPT Ads expands across Europe",
+   "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+   "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
    "published": "2026-08-18",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -625,12 +569,12 @@
    ]
   },
   {
-   "id": "d556a48bace2bfaa",
-   "title": "State of Open Models: Summer 2026 Observations",
+   "id": "b597a3d03ee72b44",
+   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-   "published": "2026-08-14",
+   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+   "published": "2026-08-17",
    "tags": [
     "open-source"
    ]
@@ -647,15 +591,14 @@
    ]
   },
   {
-   "id": "e72169530bcddc1a",
-   "title": "The benefits of medical AI assistance vary based on user expertise",
-   "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+   "id": "98f7083fea106451",
+   "title": "Solving the solvent problem",
+   "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+   "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
    "published": "2026-08-04",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
@@ -671,40 +614,99 @@
    ]
   },
   {
-   "id": "322ca6b636f3183b",
-   "title": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
-   "summary": "Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks. The post Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks appeared first on MarkTechPost .",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/",
-   "published": "2026-08-23",
+   "id": "e940f8b6620b7954",
+   "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
+   "summary": "Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning. Cross-architecture, cross-scale, and cross-dataset checks show...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.23497v1",
+   "published": "2026-08-24",
    "tags": [
-    "industry",
+    "paper",
+    "llm",
+    "fine-tuning",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "fc431335e621ab6d",
+   "title": "Primal--Dual Alternating Neural Learning for Timely Classification with Performance Guarantees",
+   "summary": "Timely risk classification is essential in many clinical monitoring settings, where decisions must balance the benefit of classifying patients early for subsequent intervention against the value of observing additional data. Yet most existing statistical and machine-learning methods are designed for fully observed trajectories and offer...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.23480v1",
+   "published": "2026-08-24",
+   "tags": [
+    "paper",
+    "serving"
+   ]
+  },
+  {
+   "id": "67f37d861d340b85",
+   "title": "Strengthening democratic oversight in national security",
+   "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+   "published": "2026-08-18",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "38b998453926e9af",
+   "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
+   "published": "2026-07-22",
+   "tags": [
+    "research",
     "agents"
    ]
   },
   {
-   "id": "503ebe07232250df",
-   "title": "Benchmarking Patent Drafting from Inventor-Style Disclosures",
-   "summary": "While recent large language models (LLMs) have achieved promising results on individual patent drafting tasks, they fundamentally fail to investigate the core challenge of real-world patent drafting: generating a complete and legally coherent patent application directly from early-stage invention materials. Prior work predominantly...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.21249v1",
-   "published": "2026-08-21",
+   "id": "7909c613945e81a8",
+   "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+   "published": "2026-07-28",
    "tags": [
-    "paper",
-    "llm",
-    "evaluation"
+    "labs"
    ]
   },
   {
-   "id": "bf0e5a08687d328c",
-   "title": "Time-Aware Tranformer-Based Prediction Model for AECOPD",
-   "summary": "The rapid symptom change of Acute exacerbation of chronic obstructive pulmonary disease (AECOPD) makes it critical to have time-sensitive prediction models. However, most current machine learning models studying AECOPD use clinical and laboratory data, which will inevitably cause latency. To ensure timely detection of AECOPD and minimize...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.21324v1",
-   "published": "2026-08-21",
+   "id": "d556a48bace2bfaa",
+   "title": "State of Open Models: Summer 2026 Observations",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+   "published": "2026-08-14",
    "tags": [
-    "paper",
-    "serving"
+    "open-source"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "e72169530bcddc1a",
+   "title": "The benefits of medical AI assistance vary based on user expertise",
+   "summary": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+   "published": "2026-08-04",
+   "tags": [
+    "research",
+    "llm"
    ]
   }
  ]
