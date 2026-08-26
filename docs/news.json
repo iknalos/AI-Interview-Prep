@@ -1,29 +1,29 @@
 {
- "generated": "2026-08-25",
- "generatedAt": "2026-08-25T07:11:54+00:00",
+ "generated": "2026-08-26",
+ "generatedAt": "2026-08-26T07:12:34+00:00",
  "sourceCount": 9,
  "items": [
   {
-   "id": "df015003760c1205",
-   "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-   "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+   "id": "829e237a888dfb1d",
+   "title": "The full stack behind abundant intelligence",
+   "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/gpt-5-6-in-kiro",
-   "published": "2026-08-24",
+   "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+   "published": "2026-08-25",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "44c3aad42c55e322",
-   "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-   "summary": "Generative AI",
+   "id": "2f6c0598123071e3",
+   "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+   "summary": "Human-Computer Interaction and Visualization",
    "source": "Google Research",
-   "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
-   "published": "2026-08-21",
+   "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+   "published": "2026-08-25",
    "tags": [
-    "research"
+    "research",
+    "agents"
    ]
   },
   {
@@ -38,25 +38,15 @@
    ]
   },
   {
-   "id": "2983dbf79834f512",
-   "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+   "id": "74043a2c13e42e05",
+   "title": "Granite 4.2 LLMs: How They're Built",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/gradio-workflow-guide",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
    "published": "2026-08-25",
    "tags": [
-    "open-source"
-   ]
-  },
-  {
-   "id": "9939bfd922ed189c",
-   "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
-   "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different vendors, each with its...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/",
-   "published": "2026-07-29",
-   "tags": [
-    "research"
+    "open-source",
+    "llm"
    ]
   },
   {
@@ -82,50 +72,64 @@
    ]
   },
   {
-   "id": "ed9e801f2bcf74b2",
-   "title": "How to Train a Critic Stably and Efficiently",
-   "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop...",
+   "id": "0ce6d6d0108b7ce9",
+   "title": "IBM Releases Granite 4.2: Bringing Native Reasoning and Agentic RL to Open Enterprise Models",
+   "summary": "IBM has released Granite 4.2, a family of open reasoning language models in 3B, 8B, and 30B sizes, all under Apache 2.0. Every model exposes a thinking / low-effort / non-thinking switch and native tool calling. The 8B and 30B additionally go through an agentic RL block that trains them to edit code, drive a terminal, and run web...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/25/ibm-releases-granite-4-2-bringing-native-reasoning-and-agentic-rl-to-open-enterprise-models/",
+   "published": "2026-08-26",
+   "tags": [
+    "industry",
+    "llm",
+    "agents",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "15868b7c171bd6b2",
+   "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+   "summary": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress and guides skill selection from...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.23566v1",
-   "published": "2026-08-24",
+   "url": "https://arxiv.org/abs/2608.24876v1",
+   "published": "2026-08-25",
    "tags": [
     "paper",
-    "llm"
+    "agents"
    ]
   },
   {
-   "id": "0c05f890928e741b",
-   "title": "Provably adaptive sampling with uniform and remasking discrete diffusion models",
-   "summary": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward process and the sampler. For the uniform forward process, existing lower bounds for the standard $τ$-leaping sampler scale linearly with the...",
+   "id": "6d53abe717c83c77",
+   "title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+   "summary": "Generative models are commonly ranked by Fréchet Inception Distance (FID) and Kernel Inception Distance (KID), yet FID's first-two-moment summary can miss distributional differences, and a reported scalar gap alone is not a calibrated test against sampling variation. FID's moment restriction has concrete consequences: on ImageNet...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.23554v1",
-   "published": "2026-08-24",
+   "url": "https://arxiv.org/abs/2608.24881v1",
+   "published": "2026-08-25",
    "tags": [
     "paper",
-    "multimodal"
+    "evaluation"
    ]
   },
   {
-   "id": "027379c08484bed2",
-   "title": "Introducing AI Futures",
-   "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+   "id": "9ad99bb5f40a3110",
+   "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+   "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-ai-futures",
-   "published": "2026-08-20",
+   "url": "https://openai.com/index/jalapeno-first-results",
+   "published": "2026-08-25",
    "tags": [
-    "labs"
+    "labs",
+    "serving"
    ]
   },
   {
-   "id": "76f9e71cff032030",
-   "title": "How mobility gives language models a deeper understanding of place",
-   "summary": "Algorithms & Theory",
+   "id": "44c3aad42c55e322",
+   "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
+   "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
    "published": "2026-08-21",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
@@ -140,28 +144,15 @@
    ]
   },
   {
-   "id": "68e9fb1705e10808",
-   "title": "Measuring benchmark optimization in speech recognition",
+   "id": "f6b26e55a4899220",
+   "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-   "published": "2026-08-21",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+   "published": "2026-08-25",
    "tags": [
     "open-source",
-    "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "0e3fc748cb483986",
-   "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
-   "summary": ".abbel-fig { display: block; text-align: center; margin: 2.4em 0; line-height: 1.4; max-width: 100%; } .abbel-fig img { display: block; margin: 0.65em auto 0; height: auto; max-width: 100%; } /* Image sizes; captions use a narrower measure below */ .abbel-fig--wide img { width: 100%; max-width: 100%; } .abbel-fig--wide-90 img { width...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
-   "published": "2026-07-26",
-   "tags": [
-    "research",
-    "llm"
+    "serving"
    ]
   },
   {
@@ -187,51 +178,62 @@
    ]
   },
   {
-   "id": "6ef5a435ce5b864c",
-   "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
-   "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness...",
+   "id": "924a2321d6adc55f",
+   "title": "Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together",
+   "summary": "Model cards report quality under server-class, full-precision conditions. Those numbers rarely predict how the same model behaves on a phone. This week, Liquid AI released Pipette. It is an open-source platform for benchmarking foundation models on edge devices, built in partnership with Artificial Analysis as an independent methodology...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/25/liquid-ai-open-sources-pipette-a-reproducible-benchmarking-suite-that-measures-on-device-models-quantization-runtime-and-hardware-together/",
+   "published": "2026-08-25",
+   "tags": [
+    "industry",
+    "evaluation",
+    "serving"
+   ]
+  },
+  {
+   "id": "5ada8968a57d03a8",
+   "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
+   "summary": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and how to produce such data at scale remains an open problem. Public datasets typically contain only a few thousand...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.23564v1",
-   "published": "2026-08-24",
+   "url": "https://arxiv.org/abs/2608.24848v1",
+   "published": "2026-08-25",
    "tags": [
     "paper",
-    "evaluation",
     "agents"
    ]
   },
   {
-   "id": "284f8df23b6c14f6",
-   "title": "Robustness of Anomaly Detection Models for Industrial Control Systems under Training-Time Data Contamination",
-   "summary": "Machine-learning-based anomaly detection is increasingly used in industrial control systems (ICS), yet most studies assume that detector training data is trustworthy. In practice, training data may be corrupted through compromised logs, labeling errors, manipulated historian records, or unsafe retraining processes. This paper evaluates...",
+   "id": "d5e40c4ff1222a29",
+   "title": "Parameterized Complexity of $L_p$-Lipschitz Constants for Input Convex Neural Networks and $L_p$-Norm Maximization over Zonotopes",
+   "summary": "Lipschitz constants are a standard way to quantify the sensitivity of neural networks to small input perturbations, but computing them is difficult even for shallow ReLU networks. We study this problem for two-layer input-convex neural networks (ICNNs), a restricted architecture where nonnegative output weights enforce convexity...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.23547v1",
-   "published": "2026-08-24",
+   "url": "https://arxiv.org/abs/2608.24865v1",
+   "published": "2026-08-25",
    "tags": [
-    "paper",
-    "evaluation"
+    "paper"
    ]
   },
   {
-   "id": "cb030de2dd9418a3",
-   "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-   "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+   "id": "da55f7d7bd9decaa",
+   "title": "Disrupting a new covert influence campaign from Russia",
+   "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/stampli",
-   "published": "2026-08-20",
+   "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+   "published": "2026-08-25",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "eb9205c680e9e7b7",
-   "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
-   "summary": "General Science",
+   "id": "76f9e71cff032030",
+   "title": "How mobility gives language models a deeper understanding of place",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
-   "published": "2026-08-17",
+   "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
+   "published": "2026-08-21",
    "tags": [
-    "research"
+    "research",
+    "llm"
    ]
   },
   {
@@ -246,29 +248,14 @@
    ]
   },
   {
-   "id": "c7cdb6722fd86cc4",
-   "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+   "id": "2983dbf79834f512",
+   "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-   "published": "2026-08-20",
+   "url": "https://huggingface.co/blog/gradio-workflow-guide",
+   "published": "2026-08-25",
    "tags": [
-    "open-source",
-    "serving"
-   ]
-  },
-  {
-   "id": "a00b3f14f5f73240",
-   "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
-   "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
-   "published": "2026-07-07",
-   "tags": [
-    "research",
-    "llm",
-    "evaluation",
-    "serving"
+    "open-source"
    ]
   },
   {
@@ -296,49 +283,61 @@
    ]
   },
   {
-   "id": "a0eb6a8f44dd6a7e",
-   "title": "Prime Agent: A Self-Improving RLM Harness",
-   "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic...",
+   "id": "a628c3b549878b2b",
+   "title": "Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and Zero Per-Token Cost for Local Steps",
+   "summary": "Perplexity releases Portable Computer, packaging local models, harness, sandbox, and connectors into one system running on NVIDIA DGX Spark. The post Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and Zero Per-Token Cost for Local Steps appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/25/perplexity-ships-portable-computer-on-nvidia-dgx-spark-local-harness-os-enforced-sandbox-and-zero-per-token-cost-for-local-steps/",
+   "published": "2026-08-25",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "fada2bd17b75ca77",
+   "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+   "summary": "Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment decisions. Yet such systems are usually evaluated by what they can retrieve, not whether retrieved information affects their judgments. We identify a retrieval-integration gap in long-context financial...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.23552v1",
-   "published": "2026-08-24",
+   "url": "https://arxiv.org/abs/2608.24842v1",
+   "published": "2026-08-25",
    "tags": [
     "paper",
+    "rag",
     "llm",
-    "evaluation",
-    "agents"
+    "evaluation"
    ]
   },
   {
-   "id": "413dbfb66a49fc41",
-   "title": "Inertial Manifold Neural Operator for Dissipative Time-Dependent Partial Differential Equations",
-   "summary": "In this paper, we introduce the Inertial Manifold Neural Operator (IMNO) for solving dissipative time-dependent partial differential equations (PDEs). The long-time dynamics of such systems often exhibit an effective low-dimensional structure due to dissipation. Unlike standard neural operator architectures such as the Fourier Neural...",
+   "id": "8bf58d1d05b71198",
+   "title": "Improving Cross-Problem Vehicle Routing with Locally Augmented Preferences and Representation Disentanglement",
+   "summary": "Multi-task vehicle routing problem (VRP) solvers seek to handle multiple VRP variants within a single unified model, avoiding the need to train a separate model for every variant. In spite of recent progress, current approaches remain limited on two fronts. On the training side, reinforcement learning suffers from reward-scale...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.23546v1",
-   "published": "2026-08-24",
+   "url": "https://arxiv.org/abs/2608.24859v1",
+   "published": "2026-08-25",
    "tags": [
-    "paper"
+    "paper",
+    "fine-tuning"
    ]
   },
   {
-   "id": "ef913e9fdabc01a8",
-   "title": "Offering Zero Data Retention for frontier models",
-   "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+   "id": "cfc376addf8c8224",
+   "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+   "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-   "published": "2026-08-19",
+   "url": "https://openai.com/index/introducing-admin-plugin",
+   "published": "2026-08-25",
    "tags": [
     "labs",
-    "safety"
+    "llm"
    ]
   },
   {
-   "id": "4bec668cb6869c4b",
-   "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
-   "summary": "Generative AI",
+   "id": "eb9205c680e9e7b7",
+   "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
-   "published": "2026-08-12",
+   "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+   "published": "2026-08-17",
    "tags": [
     "research"
    ]
@@ -355,26 +354,16 @@
    ]
   },
   {
-   "id": "5ce8103476b1f3ac",
-   "title": "How Much Memory Does Your Agent Actually Need?",
+   "id": "bcd3314d2ba2a36f",
+   "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-   "published": "2026-08-18",
+   "url": "https://huggingface.co/blog/pwc-search",
+   "published": "2026-08-21",
    "tags": [
     "open-source",
-    "agents"
-   ]
-  },
-  {
-   "id": "3f6c58621a366d1b",
-   "title": "2026 BAIR Graduate Showcase",
-   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
-   "published": "2026-07-01",
-   "tags": [
-    "research"
+    "fine-tuning",
+    "serving"
    ]
   },
   {
@@ -401,51 +390,62 @@
    ]
   },
   {
-   "id": "bd42ea027143dce6",
-   "title": "ConvergeFlow: Language Flow with Provable Convergence to Token Embeddings",
-   "summary": "Recent advances in continuous diffusion and flow-based language models (LMs) have achieved performance competitive with discrete LMs. However, existing continuous frameworks still rely on decoders supervised with cross entropy (CE) because the flow trajectories are not guaranteed to terminate at valid token embeddings. Motivated by this...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.23551v1",
-   "published": "2026-08-24",
+   "id": "f35a40153079e76f",
+   "title": "Meta AI Introduces MetaRoCE: A Clean-Sheet RDMA Transport Built for AI-Scale Ethernet",
+   "summary": "Training and serving frontier models is now a networking problem as much as a compute problem. Collective operations like all-reduce and all-to-all synchronize thousands of accelerators during training, and the slowest transfer sets the pace for the entire job. Even small amounts of network friction directly strand significant compute...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/25/meta-ai-introduces-metaroce-a-clean-sheet-rdma-transport-built-for-ai-scale-ethernet/",
+   "published": "2026-08-25",
    "tags": [
-    "paper",
-    "rag",
-    "llm",
-    "multimodal"
+    "industry",
+    "serving"
    ]
   },
   {
-   "id": "71fba3c559532a4d",
-   "title": "Interpretable AI with Local Distillation",
-   "summary": "Modern AI models such as tabular foundation models and gradient-boosted ensembles can outpredict classical methods, but provide little basis for reasoning about their predictions. High-stakes decisions call for models that are both accurate and interpretable as built. Local linear modeling offers a path forward: a smooth regression...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.23538v1",
-   "published": "2026-08-24",
+   "id": "4c93fcbfe455e7e2",
+   "title": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch",
+   "summary": "We present Crase, a bounded and inspectable alternative to deep research agents for scholarly search. Instead of an open-ended search loop, Crase queries a search engine once for seed papers, expands them along their 1.5-hop citation neighborhood, prunes citation edges whose claims lack entailment support, and ranks the remaining papers...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.24809v1",
+   "published": "2026-08-25",
    "tags": [
     "paper",
     "fine-tuning",
-    "reasoning"
+    "agents"
    ]
   },
   {
-   "id": "9ac0643f24279d08",
-   "title": "Replit expands access to software creation with GPT-5.6 Luna",
-   "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+   "id": "d0f960c11ab98b8a",
+   "title": "Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning",
+   "summary": "Marginalized importance weighting evaluates a target policy by reweighting offline state-action samples with its discounted occupancy ratio, characterized by an adjoint Bellman equation. Existing minimax, primal-dual, and fitted fixed-point estimators can leave residual occupancy-balance violations because of function-class...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.24858v1",
+   "published": "2026-08-25",
+   "tags": [
+    "paper",
+    "llm",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "df015003760c1205",
+   "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+   "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/replit",
-   "published": "2026-08-19",
+   "url": "https://openai.com/index/gpt-5-6-in-kiro",
+   "published": "2026-08-24",
    "tags": [
     "labs",
     "llm"
    ]
   },
   {
-   "id": "605e3ba5201c77ef",
-   "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
-   "summary": "Health & Bioscience",
+   "id": "4bec668cb6869c4b",
+   "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
-   "published": "2026-08-11",
+   "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
+   "published": "2026-08-12",
    "tags": [
     "research"
    ]
@@ -462,29 +462,16 @@
    ]
   },
   {
-   "id": "e520424e436f5da3",
-   "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+   "id": "68e9fb1705e10808",
+   "title": "Measuring benchmark optimization in speech recognition",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/multi-vector-encoder",
-   "published": "2026-08-18",
+   "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+   "published": "2026-08-21",
    "tags": [
     "open-source",
-    "rag",
-    "llm"
-   ]
-  },
-  {
-   "id": "b63023bfb9fc2173",
-   "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-   "summary": ".apr-fig { text-align: center; margin: 1.35em 0; line-height: 1.4; } .apr-fig--wide img { display: inline-block; width: 100%; max-width: 100%; height: auto; vertical-align: middle; } .apr-fig--wide-0-8 { max-width: 80%; margin-left: auto; margin-right: auto; } .apr-fig--tall img { display: inline-block; max-height: 300px; width: auto...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
-   "published": "2026-05-08",
-   "tags": [
-    "research",
-    "serving",
-    "reasoning"
+    "evaluation",
+    "multimodal"
    ]
   },
   {
@@ -511,48 +498,57 @@
    ]
   },
   {
-   "id": "128ac900bb750642",
-   "title": "When Names Cross Scripts: A Source-Grounded Benchmark for Historical Entity Reconciliation in the Mongol World",
-   "summary": "Historical people may appear under different languages, scripts, and transcription traditions, while distinct individuals may share highly similar or even identical names. This makes historical identity reconciliation more than a problem of string matching or transliteration. We introduce MHER, a provenance-controlled benchmark for...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.23507v1",
+   "id": "230c75173722ed27",
+   "title": "Fastino Releases GLiNER2.5: A Boundary-Prediction Architecture That Removes Span Enumeration From Information Extraction",
+   "summary": "Fastino released GLiNER2.5, replacing span enumeration with boundary prediction so entity width no longer costs compute. Three Apache 2.0 checkpoints ship at 74M, 194M, and 287M parameters, all CPU-runnable. The release adds joint entity-relation decoding, constrained classification, span attributes, and 4,096-word context. Overall macro...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/24/fastino-releases-gliner2-5-a-boundary-prediction-architecture-that-removes-span-enumeration-from-information-extraction/",
    "published": "2026-08-24",
    "tags": [
-    "paper",
-    "evaluation"
+    "industry"
    ]
   },
   {
-   "id": "9098bdca6b82ce28",
-   "title": "Predicting Multiple Clinical Outcomes Related to Functional Recovery and Social Isolation Among Older Adults After Lower-Limb Fracture or Hip Replacement",
-   "summary": "Older adults recovering after lower-limb fracture or hip replacement may experience complex recovery trajectories. Most of the time, these clinical aspects are studied in isolation, masking their joint impact on recovery. This study used the MAISON-LLF dataset, which contains multimodal sensor and clinical assessment data from 18 older...",
+   "id": "a285d9edbed1bc24",
+   "title": "Linear Probing Provides Robust and Efficient Detection of Machine-Generated Text",
+   "summary": "Distinguishing machine-generated text (MGT) from human-written text (HWT) becomes increasingly important due to potential misuse. However, most supervised detectors often degrade out-of-domain (OOD) and require large, diverse training sets. In this work, we analyze the linearity and quality of MGT representations and show that simple...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.24780v1",
+   "published": "2026-08-25",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "e9c18f059ff27065",
+   "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+   "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a total duration of 10 million hours. The dataset is designed for multimodal pre-training across the video, audio, and image modalities. Using...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.23531v1",
-   "published": "2026-08-24",
+   "url": "https://arxiv.org/abs/2608.24845v1",
+   "published": "2026-08-25",
    "tags": [
     "paper",
     "multimodal"
    ]
   },
   {
-   "id": "e4563871866d3a63",
-   "title": "ChatGPT Ads expands across Europe",
-   "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+   "id": "027379c08484bed2",
+   "title": "Introducing AI Futures",
+   "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-   "published": "2026-08-18",
+   "url": "https://openai.com/index/introducing-ai-futures",
+   "published": "2026-08-20",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "ea10becd15211fe9",
-   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-   "summary": "General Science",
+   "id": "605e3ba5201c77ef",
+   "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
-   "published": "2026-07-30",
+   "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
+   "published": "2026-08-11",
    "tags": [
     "research"
    ]
@@ -569,25 +565,15 @@
    ]
   },
   {
-   "id": "b597a3d03ee72b44",
-   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+   "id": "c7cdb6722fd86cc4",
+   "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-   "published": "2026-08-17",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+   "published": "2026-08-20",
    "tags": [
-    "open-source"
-   ]
-  },
-  {
-   "id": "988e365297de4536",
-   "title": "Gradient-based Planning for World Models at Longer Horizons",
-   "summary": ".grasp-results-table table { font-size: 0.875rem; line-height: 1.35; width: 100%; } .grasp-results-table th, .grasp-results-table td { padding: 0.35rem 0.5rem; } /* Consistent whitespace between major sections (this post is long and hr-heavy) */ article.post-content h2 { margin-top: 2.75rem; margin-bottom: 0.75rem; } article.post-content...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
-   "published": "2026-04-20",
-   "tags": [
-    "research"
+    "open-source",
+    "serving"
    ]
   },
   {
@@ -614,52 +600,64 @@
    ]
   },
   {
-   "id": "e940f8b6620b7954",
-   "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
-   "summary": "Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning. Cross-architecture, cross-scale, and cross-dataset checks show...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.23497v1",
+   "id": "ad6052a88a4302d5",
+   "title": "Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo",
+   "summary": "Generalist AI has released GEN-1.5, a robot foundation model that learns a new physical task from a single demonstration. Drop 3–12 seconds of sensorimotor data into its 30-second context window, and the robot performs the task. No gradient updates, no fine-tuning, no task-specific programming. Across 10 diverse manipulation tasks, this...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/24/generalist-ai-releases-gen-1-5-a-robot-foundation-model-that-learns-new-tasks-from-one-3-12-second-demo/",
    "published": "2026-08-24",
    "tags": [
-    "paper",
+    "industry",
     "llm",
-    "fine-tuning",
-    "reasoning"
+    "fine-tuning"
    ]
   },
   {
-   "id": "fc431335e621ab6d",
-   "title": "Primal--Dual Alternating Neural Learning for Timely Classification with Performance Guarantees",
-   "summary": "Timely risk classification is essential in many clinical monitoring settings, where decisions must balance the benefit of classifying patients early for subsequent intervention against the value of observing additional data. Yet most existing statistical and machine-learning methods are designed for fully observed trajectories and offer...",
+   "id": "b7b585d51a82ae20",
+   "title": "ExpConCAD: Experience-Guided Text-to-CAD Generation from Shape Descriptions with Implicit Spatial Constraints",
+   "summary": "Text-to-CAD aims to generate executable CAD programs from natural-language descriptions. However, real-world descriptions are often underspecified and omit critical spatial constraints required for valid CAD construction, a challenge that has been largely overlooked by existing methods. In this paper, we argue that missing spatial...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.24760v1",
+   "published": "2026-08-25",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "b963a5eb7b51f216",
+   "title": "BioKERN: Biological Kernel Regularization for Histology-to-Transcriptomics Neighborhood Retrieval",
+   "summary": "Spatially resolved biology requires representations that preserve biological neighborhood structure rather than only exact cross-modal correspondences. Existing histology--transcriptomics objectives can emphasize instance-level matching even when non-paired spots share molecular or spatial context. We introduce BioKERN, a multimodal...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.23480v1",
-   "published": "2026-08-24",
+   "url": "https://arxiv.org/abs/2608.24823v1",
+   "published": "2026-08-25",
    "tags": [
     "paper",
-    "serving"
+    "rag",
+    "evaluation",
+    "multimodal"
    ]
   },
   {
-   "id": "67f37d861d340b85",
-   "title": "Strengthening democratic oversight in national security",
-   "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+   "id": "cb030de2dd9418a3",
+   "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+   "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-   "published": "2026-08-18",
+   "url": "https://openai.com/index/stampli",
+   "published": "2026-08-20",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "38b998453926e9af",
-   "title": "SymptomAI: Towards a conversational AI agent for everyday symptom assessment",
+   "id": "ea10becd15211fe9",
+   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
    "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
-   "published": "2026-07-22",
+   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+   "published": "2026-07-30",
    "tags": [
-    "research",
-    "agents"
+    "research"
    ]
   },
   {
@@ -674,27 +672,15 @@
    ]
   },
   {
-   "id": "d556a48bace2bfaa",
-   "title": "State of Open Models: Summer 2026 Observations",
+   "id": "5ce8103476b1f3ac",
+   "title": "How Much Memory Does Your Agent Actually Need?",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-   "published": "2026-08-14",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+   "published": "2026-08-18",
    "tags": [
-    "open-source"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
-    "safety"
+    "open-source",
+    "agents"
    ]
   },
   {
@@ -706,6 +692,18 @@
    "published": "2026-08-04",
    "tags": [
     "research",
+    "llm"
+   ]
+  },
+  {
+   "id": "08d82b53d71043d3",
+   "title": "My Workflow for Understanding LLM Architectures",
+   "summary": "A learning-oriented workflow for understanding new open-weight model releases",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+   "published": "2026-04-18",
+   "tags": [
+    "newsletter",
     "llm"
    ]
   }
