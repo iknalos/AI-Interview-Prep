@@ -1,27 +1,26 @@
 {
- "generated": "2026-08-27",
- "generatedAt": "2026-08-27T17:41:33+00:00",
- "sourceCount": 8,
+ "generated": "2026-08-28",
+ "generatedAt": "2026-08-28T18:49:06+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "3062d8cdad5fdcd9",
-   "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-   "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+   "id": "0b00c80d502cc3ab",
+   "title": "Supporting Thailand’s next generation of AI startups",
+   "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-   "published": "2026-08-27",
+   "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+   "published": "2026-08-28",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "3d2661b661f5ed37",
-   "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-   "summary": "Health & Bioscience",
+   "id": "c7aa58a9fa104d4a",
+   "title": "Planetary prediction engine: Automating global models via Earth AI",
+   "summary": "Earth AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
-   "published": "2026-08-26",
+   "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+   "published": "2026-08-27",
    "tags": [
     "research"
    ]
@@ -52,12 +51,12 @@
    ]
   },
   {
-   "id": "82377b191bcdee0b",
-   "title": "AI helps design new materials that work in the real world",
-   "summary": "The “CrysVCD” tool developed at MIT could cut the huge amounts of time and money spent on screening out chemically unstable designs.",
+   "id": "9f44453224e48649",
+   "title": "Looking beyond natural sequences",
+   "summary": "A new machine-learning framework aims to improve the success rate of computational protein design while moving away from results that reproduce sequences found in nature.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
-   "published": "2026-08-26",
+   "url": "https://news.mit.edu/2026/looking-beyond-natural-sequences-0827",
+   "published": "2026-08-27",
    "tags": [
     "research"
    ]
@@ -74,52 +73,63 @@
    ]
   },
   {
-   "id": "203debb7758bd034",
-   "title": "PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans",
-   "summary": "Civil infrastructure compliance checking has long relied on engineers manually reading legacy 2D plans; however, OCR-based automation strips away the geometry and layout essential for interpreting these plans. We present a Visual-First Multimodal Retrieval-Augmented Generation (RAG) framework called PlanSightRAG. It indexes and reasons...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.26091v1",
-   "published": "2026-08-26",
+   "id": "a022bf3175a40b24",
+   "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+   "summary": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the same shader in the browser, in headless Node.js via Dawn, and in a deterministic CI mock, and ships a fullscreen effect in 25 KB gzipped. The post Vercel AI Open-Sources vgpu: A...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
+   "published": "2026-08-28",
    "tags": [
-    "paper",
-    "rag",
-    "evaluation",
-    "multimodal"
+    "industry",
+    "agents"
    ]
   },
   {
-   "id": "615e5519323f532c",
-   "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
-   "summary": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack of scalable training tasks, reliable...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.26105v1",
-   "published": "2026-08-26",
+   "id": "2099625cfbdba34a",
+   "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+   "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.27455v1",
+   "published": "2026-08-27",
    "tags": [
     "paper",
+    "llm",
+    "serving",
     "reasoning"
    ]
   },
   {
-   "id": "57e276283c193e59",
-   "title": "Expanding OpenAI’s presence in Brazil",
-   "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+   "id": "a02b1273eec1833f",
+   "title": "Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study",
+   "summary": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, which are coarsely discretized and calibrated to a cohort that no longer reflects contemporary critical care. No alternative learned directly from patient trajectories is in routine use. We conducted a retrospective two-cohort study on a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.27421v1",
    "published": "2026-08-27",
    "tags": [
-    "labs"
+    "paper"
    ]
   },
   {
-   "id": "2f6c0598123071e3",
-   "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-   "summary": "Human-Computer Interaction and Visualization",
-   "source": "Google Research",
-   "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
-   "published": "2026-08-25",
+   "id": "3062d8cdad5fdcd9",
+   "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+   "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+   "published": "2026-08-27",
    "tags": [
-    "research",
-    "agents"
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "3d2661b661f5ed37",
+   "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+   "summary": "Health & Bioscience",
+   "source": "Google Research",
+   "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+   "published": "2026-08-26",
+   "tags": [
+    "research"
    ]
   },
   {
@@ -147,12 +157,12 @@
    ]
   },
   {
-   "id": "e8e03f68c1bad10e",
-   "title": "Generating scenarios for extreme events, without extreme data",
-   "summary": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
+   "id": "82377b191bcdee0b",
+   "title": "AI helps design new materials that work in the real world",
+   "summary": "The “CrysVCD” tool developed at MIT could cut the huge amounts of time and money spent on screening out chemically unstable designs.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
-   "published": "2026-08-24",
+   "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+   "published": "2026-08-26",
    "tags": [
     "research"
    ]
@@ -169,50 +179,63 @@
    ]
   },
   {
-   "id": "9a52caaec492f39d",
-   "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
-   "summary": "Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new substrate for this process, yet most multi-agent systems rely on direct conversation, predefined roles, or centralized workflows. It remains...",
+   "id": "7b30947dee41ebf5",
+   "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
+   "summary": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint delivers sub-second transcription but drops speaker diarization and word timestamps. The batch endpoint keeps both, at half the cost. Google reports 4.0% word error rate streaming and 2.6%...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
+   "published": "2026-08-28",
+   "tags": [
+    "industry",
+    "fine-tuning",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "b408838a2d8e9ce8",
+   "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+   "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.26081v1",
-   "published": "2026-08-26",
+   "url": "https://arxiv.org/abs/2608.27454v1",
+   "published": "2026-08-27",
    "tags": [
     "paper",
     "agents"
    ]
   },
   {
-   "id": "1354d2ba66f54f9c",
-   "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
-   "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback. We introduce MyoMechanix, a multimodal...",
+   "id": "40aecc1533b72f84",
+   "title": "Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling",
+   "summary": "Friend recommendation is inherently graph-structured: the relevance of a potential connection depends on multi-hop social context rather than user attributes alone. However, deploying message-passing GNNs on a production-scale social graph with hundreds of millions of users and tens of billions of edges requires addressing numerous...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.26094v1",
-   "published": "2026-08-26",
+   "url": "https://arxiv.org/abs/2608.27413v1",
+   "published": "2026-08-27",
    "tags": [
     "paper",
-    "multimodal"
+    "rag"
    ]
   },
   {
-   "id": "d6bb1031e66bcecd",
-   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+   "id": "57e276283c193e59",
+   "title": "Expanding OpenAI’s presence in Brazil",
+   "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-   "published": "2026-08-26",
+   "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+   "published": "2026-08-27",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "44c3aad42c55e322",
-   "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-   "summary": "Generative AI",
+   "id": "2f6c0598123071e3",
+   "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+   "summary": "Human-Computer Interaction and Visualization",
    "source": "Google Research",
-   "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
-   "published": "2026-08-21",
+   "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+   "published": "2026-08-25",
    "tags": [
-    "research"
+    "research",
+    "agents"
    ]
   },
   {
@@ -240,12 +263,12 @@
    ]
   },
   {
-   "id": "247c8b7c218f0143",
-   "title": "Paving the way for greener ammonia production",
-   "summary": "New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.",
+   "id": "e8e03f68c1bad10e",
+   "title": "Generating scenarios for extreme events, without extreme data",
+   "summary": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
-   "published": "2026-08-20",
+   "url": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+   "published": "2026-08-24",
    "tags": [
     "research"
    ]
@@ -264,28 +287,145 @@
    ]
   },
   {
-   "id": "6dca582753d4de67",
-   "title": "Prefix Sliding for efficient test-time scaling",
-   "summary": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem. As models keep the entire reasoning trace in memory via full attention, hard tasks that need long thinking can be prohibitively expensive. However, we find most intermediate reasoning tokens lose...",
+   "id": "d4ae6d16904f470c",
+   "title": "Cohere Releases Parse 5 (parse-v5.0): A 2.3B Vision Language Model That Turns Enterprise Documents Into Markdown",
+   "summary": "Cohere has released Parse (parse-v5.0), a 2.3B-parameter vision language model that converts PDFs, slides and images into Markdown with HTML tables, bounding boxes and image descriptions. It runs at $1.50 per 1,000 pages through the API, or on dedicated Model Vault instances from $2,500 a month. Cohere reports a ParseBench score of 79.2...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/27/cohere-releases-parse-5-parse-v5-0-a-2-3b-vision-language-model-that-turns-enterprise-documents-into-markdown/",
+   "published": "2026-08-27",
+   "tags": [
+    "industry",
+    "llm"
+   ]
+  },
+  {
+   "id": "7ebecc7b840b011a",
+   "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+   "summary": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful trajectories. However, task success does not guarantee high-quality supervision: successful trajectories may still contain...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.26070v1",
-   "published": "2026-08-26",
+   "url": "https://arxiv.org/abs/2608.27449v1",
+   "published": "2026-08-27",
    "tags": [
     "paper",
     "llm",
+    "fine-tuning",
+    "agents"
+   ]
+  },
+  {
+   "id": "4f3d3c58cf2f855c",
+   "title": "Token-Level Advertising",
+   "summary": "Generative AI is transforming how people access information, challenging traditional advertising mechanisms built around predefined slots. Towards generation-native advertising, we propose the Latent Advertiser Mixture Auction (LAMA), a token-level advertising mechanism that embeds advertiser influence directly into the generation...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.27382v1",
+   "published": "2026-08-27",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "d6bb1031e66bcecd",
+   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+   "published": "2026-08-26",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "44c3aad42c55e322",
+   "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+   "summary": "Generative AI",
+   "source": "Google Research",
+   "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
+   "published": "2026-08-21",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "06daba08af15aa42",
+   "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+   "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+   "published": "2026-08-21",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "2983dbf79834f512",
+   "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/gradio-workflow-guide",
+   "published": "2026-08-25",
+   "tags": [
+    "open-source"
+   ]
+  },
+  {
+   "id": "247c8b7c218f0143",
+   "title": "Paving the way for greener ammonia production",
+   "summary": "New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
+   "published": "2026-08-20",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "39217bafd159845d",
+   "title": "Using Local Coding Agents",
+   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+   "published": "2026-06-27",
+   "tags": [
+    "newsletter",
+    "agents"
+   ]
+  },
+  {
+   "id": "768c064f83bb03f6",
+   "title": "Best Agent Sandboxes in 2026: Cold Start, Per-Second Pricing, and Network Policy Across E2B, Daytona, Modal, Cloudflare, and Vercel",
+   "summary": "Every agent that writes code needs somewhere to run it, and no two vendors quote the same units. This comparison measures burst cold start across E2B, Daytona, Modal, Cloudflare, and Vercel, normalizes per-second rates to cost per 1,000 executions, and maps filesystem persistence, idle billing, and egress policy against primary sources...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/27/best-agent-sandboxes-2026-cold-start-pricing-network-policy/",
+   "published": "2026-08-27",
+   "tags": [
+    "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "119f271baacb3ebc",
+   "title": "TTPO: Test-Time Policy Optimization",
+   "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on ground-truth labels precludes test-time training (TTT). Replacing ground truth with majority-vote pseudo-labels is a...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.27448v1",
+   "published": "2026-08-27",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning",
     "reasoning"
    ]
   },
   {
-   "id": "ca05126635d9924b",
-   "title": "Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role",
-   "summary": "Designing machine learning algorithms for wireless resource management is labour-intensive: the architecture, the loss function and the training recipe are all specified by hand. We demonstrate that this design layer can be surrendered to an autonomous agent in its entirety. We adopt the autoresearch protocol, in which an AI coding agent...",
+   "id": "3428a153b0df81b5",
+   "title": "Universality and sharp thresholds for ellipsoid fitting",
+   "summary": "We establish a sharp phase transition for fitting random vectors by an ellipsoid. The random vectors have independent subgaussian coordinates with mean zero, variance one, and a common fourth moment, and the number of vectors is proportional to the square of the dimension. We identify an explicit satisfiability threshold such that, with...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.26093v1",
-   "published": "2026-08-26",
+   "url": "https://arxiv.org/abs/2608.27372v1",
+   "published": "2026-08-27",
    "tags": [
-    "paper",
-    "agents"
+    "paper"
    ]
   },
   {
@@ -313,100 +453,6 @@
    ]
   },
   {
-   "id": "06daba08af15aa42",
-   "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-   "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-   "published": "2026-08-21",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "2983dbf79834f512",
-   "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/gradio-workflow-guide",
-   "published": "2026-08-25",
-   "tags": [
-    "open-source"
-   ]
-  },
-  {
-   "id": "b48c2a5a69f42f9c",
-   "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
-   "summary": "A new method for surgically removing training examples from a model reveals that as datasets grow, the link between what a model learns and what it produces dissolves.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
-   "published": "2026-08-18",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "39217bafd159845d",
-   "title": "Using Local Coding Agents",
-   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-   "published": "2026-06-27",
-   "tags": [
-    "newsletter",
-    "agents"
-   ]
-  },
-  {
-   "id": "9878722c77382421",
-   "title": "Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study",
-   "summary": "Automatic Speech Recognition (ASR) technologies have achieved remarkable performance in recent years through the use of large multilingual foundation models. However, most advances remain concentrated on high-resource languages, while indigenous languages continue to suffer from a lack of speech resources and language technologies. This...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.26060v1",
-   "published": "2026-08-26",
-   "tags": [
-    "paper",
-    "fine-tuning",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "c1468b290c9d4da9",
-   "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
-   "summary": "We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. Studying a neutrino foundation model pretrained on IceCube data and fine-tuned for direction reconstruction, we identify a validated atlas of physical concepts in the model representation, using a strict validation protocol...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.26090v1",
-   "published": "2026-08-26",
-   "tags": [
-    "paper",
-    "fine-tuning",
-    "safety"
-   ]
-  },
-  {
-   "id": "504dd1ec950803b8",
-   "title": "The Hugging Face incident and the road ahead",
-   "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-   "published": "2026-08-26",
-   "tags": [
-    "labs",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "eb9205c680e9e7b7",
-   "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
-   "summary": "General Science",
-   "source": "Google Research",
-   "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
-   "published": "2026-08-17",
-   "tags": [
-    "research"
-   ]
-  },
-  {
    "id": "068e562e05123807",
    "title": "Introducing Gemini 3.7 Flash",
    "summary": "",
@@ -431,12 +477,12 @@
    ]
   },
   {
-   "id": "7e0541cfd3319638",
-   "title": "Q&A: Rethinking how innovation happens",
-   "summary": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
+   "id": "b48c2a5a69f42f9c",
+   "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
+   "summary": "A new method for surgically removing training examples from a model reveals that as datasets grow, the link between what a model learns and what it produces dissolves.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
-   "published": "2026-08-17",
+   "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+   "published": "2026-08-18",
    "tags": [
     "research"
    ]
@@ -454,49 +500,61 @@
    ]
   },
   {
-   "id": "8775ec0e95c65051",
-   "title": "$R^3$: Training Robots to Reason in Natural Language via Reinforcement Learning",
-   "summary": "Reasoning in language allows foundation models to spend more test-time compute on hard problems, such as those requiring decomposition, constraint tracking, and prediction of future consequences. Whether this mechanism can improve robotic manipulation remains unclear, where long-horizon tasks require tracking partial progress, reasoning...",
+   "id": "c60235b0b28ec7a9",
+   "title": "From In-Silico to Wet-Lab: Evaluating AI Protein Design Performance",
+   "summary": "In this tutorial, we analyze Anthropic’s 1,440 AI-designed protein binder dataset to benchmark 10 leading structure predictors. Discover how target identity, expression titers, and consensus scoring impact experimental success and learn best practices for rigorous cross-validation in protein design workflows The post From In-Silico to...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/27/from-in-silico-to-wet-lab-evaluating-ai-protein-design-performance/",
+   "published": "2026-08-27",
+   "tags": [
+    "industry",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "902ef85335dd22e8",
+   "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+   "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.26053v1",
-   "published": "2026-08-26",
+   "url": "https://arxiv.org/abs/2608.27442v1",
+   "published": "2026-08-27",
    "tags": [
     "paper",
-    "reasoning"
+    "llm",
+    "evaluation"
    ]
   },
   {
-   "id": "b7a197757bbfd98a",
-   "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
-   "summary": "Addressing critical global challenges, from food security and disaster risk to disease outbreaks and socio-economic vulnerability, demands high-fidelity geospatial modeling. However, building predictive planetary models remains bottlenecked by a fragmented data ecosystem, requiring manual data retrieval, multimodal data curation and...",
+   "id": "43ea415f47455e3f",
+   "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+   "summary": "Language model pretraining has become almost synonymous with prohibitive cost, placing it out of reach for much of the academic and open-source communities. Although strong open-source efforts already exist, including open-weight models and open-source training recipes, a cost-efficient, hardware-accessible, and open-source pretraining...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.26088v1",
-   "published": "2026-08-26",
+   "url": "https://arxiv.org/abs/2608.27370v1",
+   "published": "2026-08-27",
    "tags": [
     "paper",
-    "rag",
-    "evaluation",
-    "multimodal"
+    "llm"
    ]
   },
   {
-   "id": "d34e82eae2f299fc",
-   "title": "How loveholidays is making everyone a builder with Codex",
-   "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+   "id": "504dd1ec950803b8",
+   "title": "The Hugging Face incident and the road ahead",
+   "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/loveholidays",
+   "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
    "published": "2026-08-26",
    "tags": [
-    "labs"
+    "labs",
+    "fine-tuning"
    ]
   },
   {
-   "id": "4bec668cb6869c4b",
-   "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
-   "summary": "Generative AI",
+   "id": "eb9205c680e9e7b7",
+   "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
-   "published": "2026-08-12",
+   "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+   "published": "2026-08-17",
    "tags": [
     "research"
    ]
@@ -526,12 +584,12 @@
    ]
   },
   {
-   "id": "4610d2d935ba70d0",
-   "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
-   "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
+   "id": "7e0541cfd3319638",
+   "title": "Q&A: Rethinking how innovation happens",
+   "summary": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
-   "published": "2026-08-10",
+   "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
+   "published": "2026-08-17",
    "tags": [
     "research"
    ]
@@ -549,50 +607,60 @@
    ]
   },
   {
-   "id": "7619f8bec4943f22",
-   "title": "How Much Rank Does LoRA Need? Rank-Error Bounds for Transformer Attention",
-   "summary": "Choosing the rank of a low-rank adaptation (LoRA) update is usually an empirical task. In this paper, we provide a task-dependent theory of the approximation error achievable at each LoRA rank for Transformer attention. We fix a pretrained attention head, a target attention function, and a distribution over inputs from the downstream...",
+   "id": "a7004b287200ed67",
+   "title": "Google Research Introduces GlucoFM: A 0.72M-Parameter Dual-Stream Foundation Model for Continuous Glucose Monitoring",
+   "summary": "Google Research and UNSW Sydney released GlucoFM, a self-supervised foundation model that splits a CGM trace into a slow physiological stream and a transient event stream instead of encoding it as one sequence. At 0.72M parameters it reached 58.8 task-averaged PR-AUC across 14 cohort–task evaluations, beating a 135M GluFormer and a 385M...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/26/google-research-introduces-glucofm-a-0-72m-parameter-dual-stream-foundation-model-for-continuous-glucose-monitoring/",
+   "published": "2026-08-27",
+   "tags": [
+    "industry",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "b740fee99ffd5327",
+   "title": "Stochastic Estimation of Transduced Language Models",
+   "summary": "Transduced language models (TLMs) compose a pretrained \\emph{source} language model with a functional finite-state transducer to induce a language model over \\emph{target} strings. Computing the probability of a target prefix under a TLM amounts to summing the source-model probabilities of all source strings that the transducer maps to...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.26052v1",
-   "published": "2026-08-26",
+   "url": "https://arxiv.org/abs/2608.27428v1",
+   "published": "2026-08-27",
    "tags": [
     "paper",
-    "llm",
-    "fine-tuning"
+    "llm"
    ]
   },
   {
-   "id": "a363e546de7c6fe0",
-   "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
-   "summary": "Large language models write correct code for isolated problems but remain far weaker at autonomous machine-learning development, where an agent must revise data pipelines, models, and validation over hours of feedback, and on most competitions still finishes below strong human competitors. Outcome-based benchmarks record this gap but not...",
+   "id": "5ba2738e225bed19",
+   "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+   "summary": "Evolution Strategies (ES) have recently emerged as a memory-efficient post-training paradigm for LLM reasoning. However, the optimization behavior of ES remains understudied, making it hard to define its advantage scope compared to mainstream post-training paradigms (e.g., Group Relative Policy Optimization (GRPO)). By systematically...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.26086v1",
-   "published": "2026-08-26",
+   "url": "https://arxiv.org/abs/2608.27351v1",
+   "published": "2026-08-27",
    "tags": [
     "paper",
     "llm",
-    "evaluation",
-    "agents"
+    "reasoning"
    ]
   },
   {
-   "id": "829e237a888dfb1d",
-   "title": "The full stack behind abundant intelligence",
-   "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+   "id": "d34e82eae2f299fc",
+   "title": "How loveholidays is making everyone a builder with Codex",
+   "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-   "published": "2026-08-25",
+   "url": "https://openai.com/index/loveholidays",
+   "published": "2026-08-26",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "605e3ba5201c77ef",
-   "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
-   "summary": "Health & Bioscience",
+   "id": "4bec668cb6869c4b",
+   "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
-   "published": "2026-08-11",
+   "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
+   "published": "2026-08-12",
    "tags": [
     "research"
    ]
@@ -621,12 +689,12 @@
    ]
   },
   {
-   "id": "98f7083fea106451",
-   "title": "Solving the solvent problem",
-   "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
+   "id": "4610d2d935ba70d0",
+   "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
+   "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
-   "published": "2026-08-04",
+   "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+   "published": "2026-08-10",
    "tags": [
     "research"
    ]
@@ -641,78 +709,6 @@
    "tags": [
     "newsletter",
     "llm"
-   ]
-  },
-  {
-   "id": "3ef42f959c5c5e71",
-   "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
-   "summary": "Answer accuracy is an insufficient reliability signal for LLM data agents. In structured-data tasks, a benchmark-correct answer can be produced by an invalid trace. This paper introduces Trace Integrity, a deployment reliability criterion for evaluating whether the computation recorded behind an answer is explicit, executable...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.26036v1",
-   "published": "2026-08-26",
-   "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "agents"
-   ]
-  },
-  {
-   "id": "2dfc4cd11607bc38",
-   "title": "ICON Decomposition: Multivariate Concept-Level Explanations of Deep Representations for Model Auditing",
-   "summary": "Deep neural networks often exploit spurious associations in their training data, a failure known as shortcut learning. Concept-based explainability methods screen for shortcuts by testing whether concepts such as a patient's sex or scanner settings can be decoded from a network layer. Because each concept is evaluated in isolation, these...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.26083v1",
-   "published": "2026-08-26",
-   "tags": [
-    "paper",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "9ad99bb5f40a3110",
-   "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-   "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/jalapeno-first-results",
-   "published": "2026-08-25",
-   "tags": [
-    "labs",
-    "serving"
-   ]
-  },
-  {
-   "id": "ea10becd15211fe9",
-   "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-   "summary": "General Science",
-   "source": "Google Research",
-   "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
-   "published": "2026-07-30",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "06b8d0ad6f63e2ce",
-   "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-   "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-   "published": "2026-07-30",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "5ce8103476b1f3ac",
-   "title": "How Much Memory Does Your Agent Actually Need?",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-   "published": "2026-08-18",
-   "tags": [
-    "open-source",
-    "agents"
    ]
   }
  ]
