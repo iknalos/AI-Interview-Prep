@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-29",
- "generatedAt": "2026-08-29T12:44:39+00:00",
+ "generated": "2026-08-30",
+ "generatedAt": "2026-08-30T12:00:32+00:00",
  "sourceCount": 9,
  "items": [
   {
@@ -71,14 +71,15 @@
    ]
   },
   {
-   "id": "6574b8814ef0a26c",
-   "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
-   "summary": "Pollen Robotics, the Bordeaux robotics team at Hugging Face, opened pre-orders for Microduck — a 25 cm bipedal robot where every movement is a neural policy trained in MuJoCo and exported to ONNX. At $399, it puts the full sim-to-real loop on a desk: 15 motors, camera, LiDAR, two IMUs, and an Apache-2.0 training stack you can retrain...",
+   "id": "f69f64e06132c6d3",
+   "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely Operate Physical Devices",
+   "summary": "Anthropic has opened a research preview of the Model Hardware Standard (MHS), a shared driver specification that lets AI agents discover and safely operate physical devices. Instrument integration that normally takes weeks or months drops to hours: Carnegie Mellon went from raw equipment to a finished dose-response curve in eight, and...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/",
-   "published": "2026-08-29",
+   "url": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/",
+   "published": "2026-08-30",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
@@ -177,14 +178,16 @@
    ]
   },
   {
-   "id": "67e3e6e30fa93e3b",
-   "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
-   "summary": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training. The post GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture appeared first on MarkTechPost .",
+   "id": "fdae03f7d21879e3",
+   "title": "Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs",
+   "summary": "Code-as-World recovers editable MuJoCo scene code from real video, then uses those verified worlds to train physical reasoning. The post Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
-   "published": "2026-08-28",
+   "url": "https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations/",
+   "published": "2026-08-30",
    "tags": [
-    "industry"
+    "industry",
+    "agents",
+    "reasoning"
    ]
   },
   {
@@ -284,15 +287,15 @@
    ]
   },
   {
-   "id": "a022bf3175a40b24",
-   "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
-   "summary": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the same shader in the browser, in headless Node.js via Dawn, and in a deterministic CI mock, and ships a fullscreen effect in 25 KB gzipped. The post Vercel AI Open-Sources vgpu: A...",
+   "id": "c784d2e19d13f638",
+   "title": "Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio",
+   "summary": "In this tutorial, we build an ensemble weather forecasting workflow with NVIDIA Earth2Studio. We install the required Earth2Studio components while preserving Colab’s existing CUDA-enabled PyTorch environment, load the FCN prognostic model, and retrieve atmospheric initial conditions from GFS. We then implement a custom wind-power...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
-   "published": "2026-08-28",
+   "url": "https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/",
+   "published": "2026-08-29",
    "tags": [
     "industry",
-    "agents"
+    "serving"
    ]
   },
   {
@@ -389,15 +392,14 @@
    ]
   },
   {
-   "id": "7b30947dee41ebf5",
-   "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
-   "summary": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint delivers sub-second transcription but drops speaker diarization and word timestamps. The batch endpoint keeps both, at half the cost. Google reports 4.0% word error rate streaming and 2.6%...",
+   "id": "466e0fecad0f782b",
+   "title": "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
+   "summary": "We look at Gemini Omni 1.1 Flash, Google's production update to its native multimodal video generation and editing model. We break down what changed: scene extension now reads up to 10 seconds of prior context instead of a single final frame, first and last frames can be pinned to control camera movement, and video clips can be passed as...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
-   "published": "2026-08-28",
+   "url": "https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/",
+   "published": "2026-08-29",
    "tags": [
     "industry",
-    "fine-tuning",
     "multimodal"
    ]
   },
@@ -496,15 +498,14 @@
    ]
   },
   {
-   "id": "d4ae6d16904f470c",
-   "title": "Cohere Releases Parse 5 (parse-v5.0): A 2.3B Vision Language Model That Turns Enterprise Documents Into Markdown",
-   "summary": "Cohere has released Parse (parse-v5.0), a 2.3B-parameter vision language model that converts PDFs, slides and images into Markdown with HTML tables, bounding boxes and image descriptions. It runs at $1.50 per 1,000 pages through the API, or on dedicated Model Vault instances from $2,500 a month. Cohere reports a ParseBench score of 79.2...",
+   "id": "6574b8814ef0a26c",
+   "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+   "summary": "Pollen Robotics, the Bordeaux robotics team at Hugging Face, opened pre-orders for Microduck — a 25 cm bipedal robot where every movement is a neural policy trained in MuJoCo and exported to ONNX. At $399, it puts the full sim-to-real loop on a desk: 15 motors, camera, LiDAR, two IMUs, and an Apache-2.0 training stack you can retrain...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/27/cohere-releases-parse-5-parse-v5-0-a-2-3b-vision-language-model-that-turns-enterprise-documents-into-markdown/",
-   "published": "2026-08-27",
+   "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/",
+   "published": "2026-08-29",
    "tags": [
-    "industry",
-    "llm"
+    "industry"
    ]
   },
   {
@@ -603,15 +604,14 @@
    ]
   },
   {
-   "id": "768c064f83bb03f6",
-   "title": "Best Agent Sandboxes in 2026: Cold Start, Per-Second Pricing, and Network Policy Across E2B, Daytona, Modal, Cloudflare, and Vercel",
-   "summary": "Every agent that writes code needs somewhere to run it, and no two vendors quote the same units. This comparison measures burst cold start across E2B, Daytona, Modal, Cloudflare, and Vercel, normalizes per-second rates to cost per 1,000 executions, and maps filesystem persistence, idle billing, and egress policy against primary sources...",
+   "id": "67e3e6e30fa93e3b",
+   "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+   "summary": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training. The post GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/27/best-agent-sandboxes-2026-cold-start-pricing-network-policy/",
-   "published": "2026-08-27",
+   "url": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
+   "published": "2026-08-28",
    "tags": [
-    "industry",
-    "agents"
+    "industry"
    ]
   },
   {
