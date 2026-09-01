@@ -1,27 +1,28 @@
 {
- "generated": "2026-08-31",
- "generatedAt": "2026-08-31T14:02:54+00:00",
- "sourceCount": 8,
+ "generated": "2026-09-01",
+ "generatedAt": "2026-09-01T11:46:02+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "44f61163770f758b",
-   "title": "A milestone in expanding access to AI",
-   "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+   "id": "0703988e3a331916",
+   "title": "OpenAI supports California’s bill to advance youth AI safety",
+   "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+   "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
    "published": "2026-08-31",
    "tags": [
     "labs",
-    "llm"
+    "serving",
+    "safety"
    ]
   },
   {
-   "id": "c7aa58a9fa104d4a",
-   "title": "Planetary prediction engine: Automating global models via Earth AI",
-   "summary": "Earth AI",
+   "id": "14a087bdb5895e90",
+   "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+   "summary": "Data Management",
    "source": "Google Research",
-   "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
-   "published": "2026-08-27",
+   "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+   "published": "2026-08-31",
    "tags": [
     "research"
    ]
@@ -50,12 +51,12 @@
    ]
   },
   {
-   "id": "684febbb94ebd3f4",
-   "title": "How an MIT research project became a global programming language",
-   "summary": "With millions of users across the world, Julia has been used to conduct cutting-edge research and to design new drugs, jet engines, heat pumps, and more.",
+   "id": "6fe323e48c553697",
+   "title": "Ila Kumar: Innovating with communities",
+   "summary": "The PhD student works to give young people an active role in shaping digital technologies that can support their own well-being.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
-   "published": "2026-08-31",
+   "url": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
+   "published": "2026-09-01",
    "tags": [
     "research"
    ]
@@ -72,46 +73,62 @@
    ]
   },
   {
-   "id": "4a137e1e2bcd5ac7",
-   "title": "A Formal Limitation on Learning Human Language From Textual Corpora",
-   "summary": "Can a listener recover what a speaker means from the form of an utterance alone? We answer this question information-theoretically, and for a listener given by any featurizer of text, including the hidden states of contemporary large language models. Modeling language use as a joint distribution over meanings, contexts, and utterances...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.28560v1",
-   "published": "2026-08-28",
+   "id": "d9c3b59f81bf1baa",
+   "title": "Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
+   "summary": "Speed and accuracy usually pull against each other in text-to-speech. Gradium AI's new default model reports both: an 81.0% human-rated pass rate on 500 hard sentences across five languages, at 216 ms P50 time-to-first-audio on Coval. The evaluation set is open on Hugging Face under CC BY 4.0. The post Gradium AI Releases New Default TTS...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio/",
+   "published": "2026-09-01",
    "tags": [
-    "paper",
-    "llm"
+    "industry",
+    "evaluation",
+    "multimodal"
    ]
   },
   {
-   "id": "8fd598394588dcbf",
-   "title": "QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs",
-   "summary": "We propose QGPINNs, a physics-informed neural network framework developed in PyTorch for the numerical solution of nonlocal differential equations on quantum graphs. The framework is designed as a general computational implementation in which the solution on each edge of the graph is approximated by a neural network, while a unified...",
+   "id": "9d3e7e056727e4b1",
+   "title": "Context-Aware Interleaved Batching for WhisperX",
+   "summary": "While WhisperX accelerates speech transcription via intra-audio batching, it isolates audio segments, losing the historical context needed for coherent punctuation and terminology transcription. Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucination loops. To achieve the best of both...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.31170v1",
+   "published": "2026-08-31",
+   "tags": [
+    "paper",
+    "evaluation",
+    "serving",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "130ebb9f32b4c96f",
+   "title": "Constant Individual Regret in General Games",
+   "summary": "Uncoupled no-regret dynamics provide a decentralized route to equilibrium, but prior guarantees for individual regret retain a polylogarithmic dependence on the horizon. We remove this dependence for every finite $N$-player normal-form game under full-information feedback. We introduce \\emph{ECHO-OFTRL}: optimistic...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.28589v1",
-   "published": "2026-08-28",
+   "url": "https://arxiv.org/abs/2608.31166v1",
+   "published": "2026-08-31",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "092c8de02e8b135e",
-   "title": "Our decision on Cursor following its acquisition by SpaceX",
-   "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+   "id": "7bc3415714321008",
+   "title": "Polimill builds Japan's next-generation public AI infrastructure",
+   "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-   "published": "2026-08-28",
+   "url": "https://openai.com/index/polimill",
+   "published": "2026-08-31",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "3d2661b661f5ed37",
-   "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-   "summary": "Health & Bioscience",
+   "id": "c7aa58a9fa104d4a",
+   "title": "Planetary prediction engine: Automating global models via Earth AI",
+   "summary": "Earth AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
-   "published": "2026-08-26",
+   "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+   "published": "2026-08-27",
    "tags": [
     "research"
    ]
@@ -143,12 +160,12 @@
    ]
   },
   {
-   "id": "9f44453224e48649",
-   "title": "Looking beyond natural sequences",
-   "summary": "A new machine-learning framework aims to improve the success rate of computational protein design while moving away from results that reproduce sequences found in nature.",
+   "id": "f4d129304bdd7b6e",
+   "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
+   "summary": "The Institute welcomes its first cohort of QMIT Fellows this fall to advance interdisciplinary quantum research.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/looking-beyond-natural-sequences-0827",
-   "published": "2026-08-27",
+   "url": "https://news.mit.edu/2026/mit-quantum-initiative-launches-postdoctoral-fellowship-0831",
+   "published": "2026-08-31",
    "tags": [
     "research"
    ]
@@ -165,51 +182,65 @@
    ]
   },
   {
-   "id": "c0c1849bc7160bdc",
-   "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
-   "summary": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.28518v1",
-   "published": "2026-08-28",
+   "id": "073035d3493e9065",
+   "title": "Keenable AI Open-Sources NEEDLE: A Live Search Benchmark That Rebuilds Its Query Set Every Hour",
+   "summary": "How do you benchmark a web search API when the thing being tested can read the answer key? A search agent has a fetch tool. If the gold labels sit in a public dataset, the agent can download them mid-evaluation and skip retrieval entirely. A similar problem arises when the answers are already encoded in […] The post Keenable AI...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/31/keenable-ai-open-sources-needle-a-live-search-benchmark-that-rebuilds-its-query-set-every-hour/",
+   "published": "2026-08-31",
    "tags": [
-    "paper",
+    "industry",
+    "rag",
     "evaluation",
-    "multimodal",
-    "safety"
+    "agents"
    ]
   },
   {
-   "id": "92620651d2b68366",
-   "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
-   "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit inside the joint it drives, so smaller and cheaper motors suffice, and one motor can drive...",
+   "id": "0980dd010581bc74",
+   "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
+   "summary": "BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. We propose a configurable semantic chunking framework that addresses this limitation by combining entity-preserving windows...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.31139v1",
+   "published": "2026-08-31",
+   "tags": [
+    "paper",
+    "rag",
+    "evaluation",
+    "serving"
+   ]
+  },
+  {
+   "id": "b1a7692597f023db",
+   "title": "Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations",
+   "summary": "Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation. Given an architecture $Φ$ with $P_Φ$ parameter slots, we write $\\boldsymbolθ_f=\\mathcal{G}(\\boldsymbolξ_f)$, where $\\mathcal{G}\\colon\\mathbb{R}^M\\to\\mathbb{R}^{P_Φ}$ is a parameter generator and...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.28578v1",
-   "published": "2026-08-28",
+   "url": "https://arxiv.org/abs/2608.31157v1",
+   "published": "2026-08-31",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "0b00c80d502cc3ab",
-   "title": "Supporting Thailand’s next generation of AI startups",
-   "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+   "id": "44f61163770f758b",
+   "title": "A milestone in expanding access to AI",
+   "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-   "published": "2026-08-28",
+   "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+   "published": "2026-08-31",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "2f6c0598123071e3",
-   "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-   "summary": "Human-Computer Interaction and Visualization",
+   "id": "3d2661b661f5ed37",
+   "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
-   "published": "2026-08-25",
+   "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+   "published": "2026-08-26",
    "tags": [
-    "research",
-    "agents"
+    "research"
    ]
   },
   {
@@ -237,12 +268,12 @@
    ]
   },
   {
-   "id": "82377b191bcdee0b",
-   "title": "AI helps design new materials that work in the real world",
-   "summary": "The “CrysVCD” tool developed at MIT could cut the huge amounts of time and money spent on screening out chemically unstable designs.",
+   "id": "684febbb94ebd3f4",
+   "title": "How an MIT research project became a global programming language",
+   "summary": "With millions of users across the world, Julia has been used to conduct cutting-edge research and to design new drugs, jet engines, heat pumps, and more.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
-   "published": "2026-08-26",
+   "url": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+   "published": "2026-08-31",
    "tags": [
     "research"
    ]
@@ -261,52 +292,62 @@
    ]
   },
   {
-   "id": "d99baa66c5b401a9",
-   "title": "Phoneme- and Word-Level Metrics Using Self-Supervised Speech Representations for Forced Alignment Evaluation",
-   "summary": "Forced alignment evaluation typically requires manually annotated timestamps, limiting large-scale and multilingual analysis. We introduce two corpus-level metrics based on self-supervised (SSL) speech representations for reference-free forced alignment evaluation: Phoneme-Cluster Mutual Information (PCMI) and Word Acoustic Consistency...",
+   "id": "ebc998debd29aa95",
+   "title": "Google AI Releases TimesFM-3: A 330M Parameter Zero-Shot Foundation Model For Multivariate Time Series Forecasting",
+   "summary": "Google Research has released TimesFM-3, a 330 million parameter time series foundation model that forecasts multiple related series in a single forward pass. Unlike every TimesFM checkpoint through 2.5, it is pretrained natively for multivariate forecasting, accepting multiple targets, past covariates, and past-future covariates with no...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/",
+   "published": "2026-08-31",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "e3664323bda211c4",
+   "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+   "summary": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIASENTINEL, a fully on-premise multi-agent system for one-year type 2 diabetes mellitus (T2DM) risk screening and guideline-grounded report generation from...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.28508v1",
-   "published": "2026-08-28",
+   "url": "https://arxiv.org/abs/2608.31128v1",
+   "published": "2026-08-31",
    "tags": [
     "paper",
-    "fine-tuning",
+    "llm",
     "evaluation",
-    "multimodal"
+    "agents"
    ]
   },
   {
-   "id": "36631031ae7870c3",
-   "title": "Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
-   "summary": "Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a general framework for synthetic-augmented inference across a population of related tasks. It characterizes synthetic augmentation by the number...",
+   "id": "bb0c7994da00f344",
+   "title": "Implementing neural network mixed-effects models in Template Model Builder (TMB)",
+   "summary": "Neural network mixed-effects models (NMMs) have gained traction by combining the strong representation and predictive power of artificial neural networks with the capacity of mixed-effects modeling to capture complex correlation structures. However, existing estimation approaches rely heavily on manual derivations of objective functions...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.28576v1",
+   "url": "https://arxiv.org/abs/2608.31133v1",
+   "published": "2026-08-31",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "092c8de02e8b135e",
+   "title": "Our decision on Cursor following its acquisition by SpaceX",
+   "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
    "published": "2026-08-28",
    "tags": [
-    "paper",
-    "serving"
+    "labs"
    ]
   },
   {
-   "id": "3062d8cdad5fdcd9",
-   "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-   "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-   "published": "2026-08-27",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "44c3aad42c55e322",
-   "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-   "summary": "Generative AI",
+   "id": "2f6c0598123071e3",
+   "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+   "summary": "Human-Computer Interaction and Visualization",
    "source": "Google Research",
-   "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
-   "published": "2026-08-21",
+   "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+   "published": "2026-08-25",
    "tags": [
-    "research"
+    "research",
+    "agents"
    ]
   },
   {
@@ -333,12 +374,12 @@
    ]
   },
   {
-   "id": "e8e03f68c1bad10e",
-   "title": "Generating scenarios for extreme events, without extreme data",
-   "summary": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
+   "id": "9f44453224e48649",
+   "title": "Looking beyond natural sequences",
+   "summary": "A new machine-learning framework aims to improve the success rate of computational protein design while moving away from results that reproduce sequences found in nature.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
-   "published": "2026-08-24",
+   "url": "https://news.mit.edu/2026/looking-beyond-natural-sequences-0827",
+   "published": "2026-08-27",
    "tags": [
     "research"
    ]
@@ -356,50 +397,58 @@
    ]
   },
   {
-   "id": "6a13d9a3212bad2b",
-   "title": "Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation",
-   "summary": "Two forms of test-time scaling for Large Language Models (LLMs) have emerged as effective and widely adopted paradigms: sequential, in which later answer attempts depend on earlier ones, and parallel, such as i.i.d. sampling with reranking. In this study, we investigate their properties in translation. First, our study shows that...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.28496v1",
-   "published": "2026-08-28",
+   "id": "d5b3bc3671f39a10",
+   "title": "OpenClaw Releases OpenClaw 2.0: Guided Model Setup, 575 ms Control UI Startup, and One Trust Boundary Per Gateway",
+   "summary": "The OpenClaw Foundation has released v2026.8.1, which the project calls OpenClaw 2.0: 933 contributors, 569 first-timers, and more than 16,000 pull requests, roughly half of every PR ever merged into the repo. Setup now reuses existing subscriptions, API keys and local models. The rebuilt Control UI cut test-harness startup from about...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/30/openclaw-releases-openclaw-2-0-guided-model-setup-575-ms-control-ui-startup-and-one-trust-boundary-per-gateway/",
+   "published": "2026-08-31",
    "tags": [
-    "paper",
-    "llm",
-    "reasoning"
+    "industry"
    ]
   },
   {
-   "id": "9f93e79757a55ed9",
-   "title": "On two proofs of $d^2$ mixing of weighted Dikin walks",
-   "summary": "We study the mixing time of weighted Dikin walks for sampling from exponential distributions on polytopes and truncated positive-semidefinite (PSD) cones. Our first result gives a general total-variation mixing bound under strong self-concordance, $\\barν$-symmetry, and mixed-trace regularity on the local metric. The key idea is to...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.28566v1",
-   "published": "2026-08-28",
+   "id": "8c622da212b17378",
+   "title": "PaperGym: Rubric-Centered Evolution for Research-Plan Generation",
+   "summary": "Research planning is the decisive capability of AI scientists. Yet a research plan admits no verifiable answer, so reinforcement learning lacks the environment it requires: tasks paired with a critic. Rubrics extracted from scientific papers can supply the critic. Existing pipelines, however, draw the question and the criteria from the...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.31119v1",
+   "published": "2026-08-31",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "57e276283c193e59",
-   "title": "Expanding OpenAI’s presence in Brazil",
-   "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+   "id": "8f6c74fe50559a28",
+   "title": "On the Complexity of the Compatibility Problem for Succinctly Encoded Conditional Distributions",
+   "summary": "The motivation for this paper is the investigation of the trade-offs implicit in probabilistic models used in machine learning. Models are often used to make predictions in the form of conditional probabilities. However, a pair of conditional distributions p(x|y) and p(y|x) may not be compatible with any joint distribution p(x,y). Given...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2608.31120v1",
+   "published": "2026-08-31",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "0b00c80d502cc3ab",
+   "title": "Supporting Thailand’s next generation of AI startups",
+   "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-   "published": "2026-08-27",
+   "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+   "published": "2026-08-28",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "76f9e71cff032030",
-   "title": "How mobility gives language models a deeper understanding of place",
-   "summary": "Algorithms & Theory",
+   "id": "44c3aad42c55e322",
+   "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
+   "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
    "published": "2026-08-21",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
@@ -425,12 +474,12 @@
    ]
   },
   {
-   "id": "247c8b7c218f0143",
-   "title": "Paving the way for greener ammonia production",
-   "summary": "New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.",
+   "id": "82377b191bcdee0b",
+   "title": "AI helps design new materials that work in the real world",
+   "summary": "The “CrysVCD” tool developed at MIT could cut the huge amounts of time and money spent on screening out chemically unstable designs.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
-   "published": "2026-08-20",
+   "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+   "published": "2026-08-26",
    "tags": [
     "research"
    ]
@@ -448,51 +497,64 @@
    ]
   },
   {
-   "id": "645edfc67caf8baa",
-   "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
-   "summary": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly important for neuro-symbolic geometry...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.28481v1",
-   "published": "2026-08-28",
+   "id": "fb81f8349e223637",
+   "title": "Lowest-Latency Inference APIs for Voice and Realtime Agents: A Time to First Token TTFT-First Benchmark",
+   "summary": "Voice agents fail on latency long before they fail on intelligence. Time to first token is the metric most teams use to choose an inference API, and it is the right starting point and the wrong stopping point. This benchmark works through every layer of the voice stack — LLM, speech-to-text, text-to-speech, and speech-to-speech — using...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/30/lowest-latency-inference-apis-for-voice-and-realtime-agents-a-time-to-first-token-ttft-first-benchmark/",
+   "published": "2026-08-30",
    "tags": [
-    "paper",
+    "industry",
     "llm",
     "evaluation",
-    "reasoning"
+    "serving"
    ]
   },
   {
-   "id": "36241b2eea1d1d46",
-   "title": "Learning between the peaks: sharp asymptotics for kernel ridge regression under power-law anisotropy",
-   "summary": "We study kernel ridge regression under anisotropic Gaussian data, where the input covariance decays as a power law with exponent $α\\geq 0$ for polynomial inner-product kernels. We derive asymptotically sharp expressions for the kernel spectrum and the generalization error in the polynomial high-dimensional regime $n=Θ(d^κ)$, revealing...",
+   "id": "3cf7a01459bbb530",
+   "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
+   "summary": "Many important forms of human learning begin with a vague goal, such as \"become a better physicist\" or \"improve at research.\" Learners must interpret the goal, identify capability gaps, decide how to learn, and determine whether they have actually improved. In contrast, existing work on LLM self-evolution typically begins with tasks and...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2608.31111v1",
+   "published": "2026-08-31",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "f12ce887cfbaa1fa",
+   "title": "\"Train classical, deploy quantum\" requires rethinking generalization",
+   "summary": "Generative models have become central across science and industry, from image and text synthesis to the design of molecules and materials. Quantum generative models are considered one of the most promising applications for quantum computers, since a quantum circuit naturally produces samples from the distribution it encodes, and for...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.28564v1",
-   "published": "2026-08-28",
+   "url": "https://arxiv.org/abs/2608.31117v1",
+   "published": "2026-08-31",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "cdfc10030b4b066d",
-   "title": "Learning never stops: How AI makes learning continuous",
-   "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+   "id": "3062d8cdad5fdcd9",
+   "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+   "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/learning-never-stops",
-   "published": "2026-08-26",
+   "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+   "published": "2026-08-27",
    "tags": [
     "labs",
     "llm"
    ]
   },
   {
-   "id": "eb9205c680e9e7b7",
-   "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
-   "summary": "General Science",
+   "id": "76f9e71cff032030",
+   "title": "How mobility gives language models a deeper understanding of place",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
-   "published": "2026-08-17",
+   "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
+   "published": "2026-08-21",
    "tags": [
-    "research"
+    "research",
+    "llm"
    ]
   },
   {
@@ -520,12 +582,12 @@
    ]
   },
   {
-   "id": "b48c2a5a69f42f9c",
-   "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
-   "summary": "A new method for surgically removing training examples from a model reveals that as datasets grow, the link between what a model learns and what it produces dissolves.",
+   "id": "e8e03f68c1bad10e",
+   "title": "Generating scenarios for extreme events, without extreme data",
+   "summary": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
-   "published": "2026-08-18",
+   "url": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+   "published": "2026-08-24",
    "tags": [
     "research"
    ]
@@ -543,47 +605,62 @@
    ]
   },
   {
-   "id": "89637e7ffa1617c9",
-   "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
-   "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a closed-book knowledge probe comprising 1,094 questions generated through an auditable graph-based pipeline. The...",
+   "id": "67567e6a3d932d0e",
+   "title": "Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds",
+   "summary": "Google Cloud AI Research, with Washington University in St. Louis and UNC Chapel Hill, has released EnvHarness, an Apache-2.0 layer that turns a static agent benchmark into one that adapts to the policy training on it. It wraps a frozen environment through the standard reset()/step() interface, so tasks and human-built verifiers stay...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds/",
+   "published": "2026-08-30",
+   "tags": [
+    "industry",
+    "evaluation",
+    "agents",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "5d2a74f62da81265",
+   "title": "BLOOM-WILT: Logit Tilting for Behaviour Elicitation in Automated LLM Auditing",
+   "summary": "Users of a deployed language model routinely encounter behaviours that testing almost never surfaces, since deployment puts the model through orders of magnitude more interactions than any evaluation can simulate. Automated auditors make testing cheap to scale and flexible enough to cover almost any specified behaviour, yet their lack of...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.28478v1",
-   "published": "2026-08-28",
+   "url": "https://arxiv.org/abs/2608.31105v1",
+   "published": "2026-08-31",
    "tags": [
     "paper",
-    "llm"
+    "llm",
+    "evaluation"
    ]
   },
   {
-   "id": "3e9f2bfc99ab0a87",
-   "title": "Blog: Survey of Optimizers",
-   "summary": "Neural-network optimization in 2025-2026 is no longer well described as a succession of new Adam variants. The design space has expanded from coordinates to matrices and layers, from fixed training horizons to policies over time, and from mathematical update rules to state representations that must survive sharding and low-precision...",
+   "id": "0a81f64783a0ce66",
+   "title": "Stress-Testing Efficient Responsible-AI Evaluation: When Compute Savings Change Benchmark Conclusions",
+   "summary": "Efficient evaluation changes the protocol used to support claims about model behavior, yet it is rarely tested whether those claims remain stable after the evaluation itself is made cheaper. We stress-test conclusion robustness in responsible-AI benchmarking by evaluating three dense and mixture-of-experts models on BBQ and BBQ-V under...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.28557v1",
-   "published": "2026-08-28",
+   "url": "https://arxiv.org/abs/2608.31108v1",
+   "published": "2026-08-31",
    "tags": [
-    "paper"
+    "paper",
+    "evaluation"
    ]
   },
   {
-   "id": "d6bb1031e66bcecd",
-   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-   "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+   "id": "57e276283c193e59",
+   "title": "Expanding OpenAI’s presence in Brazil",
+   "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-   "published": "2026-08-26",
+   "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+   "published": "2026-08-27",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "4bec668cb6869c4b",
-   "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
-   "summary": "Generative AI",
+   "id": "eb9205c680e9e7b7",
+   "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
-   "published": "2026-08-12",
+   "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+   "published": "2026-08-17",
    "tags": [
     "research"
    ]
@@ -613,12 +690,12 @@
    ]
   },
   {
-   "id": "7e0541cfd3319638",
-   "title": "Q&A: Rethinking how innovation happens",
-   "summary": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
+   "id": "247c8b7c218f0143",
+   "title": "Paving the way for greener ammonia production",
+   "summary": "New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
-   "published": "2026-08-17",
+   "url": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
+   "published": "2026-08-20",
    "tags": [
     "research"
    ]
@@ -633,77 +710,6 @@
    "tags": [
     "newsletter",
     "llm"
-   ]
-  },
-  {
-   "id": "865d38a315daa6b3",
-   "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
-   "summary": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preserving all interaction histories leads to a continuously growing working context. Recent proactive context management methods allow models to edit their own working...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.28476v1",
-   "published": "2026-08-28",
-   "tags": [
-    "paper",
-    "llm",
-    "serving",
-    "agents"
-   ]
-  },
-  {
-   "id": "f5a4cec912ec285b",
-   "title": "Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining",
-   "summary": "As a precursor to high-dimensional biomedical data modeling, reliable feature selection can reduce computational expense, improve modeling performance, and yield simpler, more interpretable models. However, most filter-based feature selection methods struggle to detect feature interactions, while wrapper or embedded feature selection...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.28552v1",
-   "published": "2026-08-28",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "504dd1ec950803b8",
-   "title": "The Hugging Face incident and the road ahead",
-   "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-   "published": "2026-08-26",
-   "tags": [
-    "labs",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "605e3ba5201c77ef",
-   "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
-   "summary": "Health & Bioscience",
-   "source": "Google Research",
-   "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
-   "published": "2026-08-11",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "06b8d0ad6f63e2ce",
-   "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-   "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-   "published": "2026-07-30",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "c7cdb6722fd86cc4",
-   "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-   "published": "2026-08-20",
-   "tags": [
-    "open-source",
-    "serving"
    ]
   }
  ]
