@@ -1,19 +1,112 @@
 {
- "generated": "2026-09-01",
- "generatedAt": "2026-09-01T11:46:02+00:00",
- "sourceCount": 9,
+ "generated": "2026-09-02",
+ "generatedAt": "2026-09-02T11:27:38+00:00",
+ "sourceCount": 8,
  "items": [
   {
-   "id": "0703988e3a331916",
-   "title": "OpenAI supports California’s bill to advance youth AI safety",
-   "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+   "id": "3b5f2688fec1191a",
+   "title": "How AI-native companies turn workflows into operating capability",
+   "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-   "published": "2026-08-31",
+   "url": "https://openai.com/index/ai-native-company-workflows",
+   "published": "2026-09-01",
    "tags": [
     "labs",
-    "serving",
-    "safety"
+    "agents"
+   ]
+  },
+  {
+   "id": "411288110127b5c8",
+   "title": "Mapping global methane emissions from space with deep learning",
+   "summary": "Climate & Sustainability",
+   "source": "Google Research",
+   "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+   "published": "2026-09-01",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "dfd1ea2e5518b0ed",
+   "title": "Introducing agentic video understanding with Gemini",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "published": "2026-09-01",
+   "tags": [
+    "labs",
+    "agents"
+   ]
+  },
+  {
+   "id": "23bdbfdbd061867c",
+   "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/allenai/benchmirt",
+   "published": "2026-09-01",
+   "tags": [
+    "open-source",
+    "llm",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "aaaa8fc91eb96bba",
+   "title": "Walter Torous named executive director of MIT Center for Real Estate",
+   "summary": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
+   "published": "2026-09-01",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "df5399c7f9d2448e",
+   "title": "How Claude Watermarks AI-Generated Text",
+   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+   "published": "2026-08-22",
+   "tags": [
+    "newsletter"
+   ]
+  },
+  {
+   "id": "7e7cafd2d0c07b30",
+   "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+   "summary": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturbation taxonomy across the Readability...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.01604v1",
+   "published": "2026-09-01",
+   "tags": [
+    "paper",
+    "llm",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "72070e74359cee5c",
+   "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
+   "summary": "Real-world robotic assembly at sub-millimeter tolerances demands spatial precision, compliant interaction, and robustness to contact failures. We present Facet-0, a robotic foundation model that predicts and values the contact consequences of its actions. Facet-0 unifies multimodal representation learning and reinforcement learning (RL)...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.01596v1",
+   "published": "2026-09-01",
+   "tags": [
+    "paper",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "309be27bdcfe3156",
+   "title": "Path to Astra: critical capabilities and frontier safeguards",
+   "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/path-to-astra",
+   "published": "2026-09-01",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -39,15 +132,14 @@
    ]
   },
   {
-   "id": "b0b2c2da12a5bc45",
-   "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+   "id": "85562dc16345cc8b",
+   "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-   "published": "2026-08-28",
+   "url": "https://huggingface.co/blog/webgpu-kernels",
+   "published": "2026-09-01",
    "tags": [
-    "open-source",
-    "evaluation"
+    "open-source"
    ]
   },
   {
@@ -62,61 +154,48 @@
    ]
   },
   {
-   "id": "df5399c7f9d2448e",
-   "title": "How Claude Watermarks AI-Generated Text",
-   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+   "id": "53ddef6230f10e58",
+   "title": "Building an AI Text Detector From Scratch",
+   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
-   "published": "2026-08-22",
+   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+   "published": "2026-08-15",
    "tags": [
     "newsletter"
    ]
   },
   {
-   "id": "d9c3b59f81bf1baa",
-   "title": "Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
-   "summary": "Speed and accuracy usually pull against each other in text-to-speech. Gradium AI's new default model reports both: an 81.0% human-rated pass rate on 500 hard sentences across five languages, at 216 ms P50 time-to-first-audio on Coval. The evaluation set is open on Hugging Face under CC BY 4.0. The post Gradium AI Releases New Default TTS...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio/",
+   "id": "a31cfe6a1141666f",
+   "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+   "summary": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.01603v1",
    "published": "2026-09-01",
    "tags": [
-    "industry",
-    "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "9d3e7e056727e4b1",
-   "title": "Context-Aware Interleaved Batching for WhisperX",
-   "summary": "While WhisperX accelerates speech transcription via intra-audio batching, it isolates audio segments, losing the historical context needed for coherent punctuation and terminology transcription. Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucination loops. To achieve the best of both...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.31170v1",
-   "published": "2026-08-31",
-   "tags": [
     "paper",
+    "fine-tuning",
     "evaluation",
-    "serving",
-    "multimodal"
+    "agents"
    ]
   },
   {
-   "id": "130ebb9f32b4c96f",
-   "title": "Constant Individual Regret in General Games",
-   "summary": "Uncoupled no-regret dynamics provide a decentralized route to equilibrium, but prior guarantees for individual regret retain a polylogarithmic dependence on the horizon. We remove this dependence for every finite $N$-player normal-form game under full-information feedback. We introduce \\emph{ECHO-OFTRL}: optimistic...",
+   "id": "63846c6e3b030948",
+   "title": "Gradient-Update Mismatch: Rethinking Conflict-Free Training of Physics-Informed Neural Networks",
+   "summary": "Training Physics-Informed Neural Networks (PINNs) requires jointly optimizing physics residual and initial/boundary condition loss terms, which often induce conflicting gradients. Gradient surgery methods mitigate this issue by constructing directions from loss-specific gradients to reduce conflict before optimizer transformation...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.31166v1",
-   "published": "2026-08-31",
+   "url": "https://arxiv.org/abs/2609.01558v1",
+   "published": "2026-09-01",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "7bc3415714321008",
-   "title": "Polimill builds Japan's next-generation public AI infrastructure",
-   "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+   "id": "50e05f9b472e33e2",
+   "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+   "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/polimill",
-   "published": "2026-08-31",
+   "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+   "published": "2026-09-01",
    "tags": [
     "labs",
     "llm"
@@ -146,17 +225,15 @@
    ]
   },
   {
-   "id": "5309d96554639301",
-   "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+   "id": "b0b2c2da12a5bc45",
+   "title": "The Open ASR Leaderboard Adds Its First Global South Language",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-   "published": "2026-08-26",
+   "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+   "published": "2026-08-28",
    "tags": [
     "open-source",
-    "rag",
-    "llm",
-    "fine-tuning"
+    "evaluation"
    ]
   },
   {
@@ -171,62 +248,53 @@
    ]
   },
   {
-   "id": "53ddef6230f10e58",
-   "title": "Building an AI Text Detector From Scratch",
-   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+   "id": "28c7ee44d88bdbf2",
+   "title": "Controlling Reasoning Effort in LLMs",
+   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-   "published": "2026-08-15",
+   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+   "published": "2026-07-18",
    "tags": [
-    "newsletter"
+    "newsletter",
+    "llm",
+    "reasoning"
    ]
   },
   {
-   "id": "073035d3493e9065",
-   "title": "Keenable AI Open-Sources NEEDLE: A Live Search Benchmark That Rebuilds Its Query Set Every Hour",
-   "summary": "How do you benchmark a web search API when the thing being tested can read the answer key? A search agent has a fetch tool. If the gold labels sit in a public dataset, the agent can download them mid-evaluation and skip retrieval entirely. A similar problem arises when the answers are already encoded in […] The post Keenable AI...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/31/keenable-ai-open-sources-needle-a-live-search-benchmark-that-rebuilds-its-query-set-every-hour/",
-   "published": "2026-08-31",
+   "id": "e05d5e2be8b38b7f",
+   "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
+   "summary": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented generation (RAG) to provide...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.01601v1",
+   "published": "2026-09-01",
    "tags": [
-    "industry",
+    "paper",
+    "rag",
+    "llm",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "a807d221ca68a08d",
+   "title": "Retrieved but not ranked: surface-form bias in structural retrieval, from mathematics to agent trajectories",
+   "summary": "We evaluate embedding retrieval where surface form and meaning are pulled apart on purpose: retrieving items that share underlying structure but not wording, in two unrelated domains under one protocol, competition mathematics (MathNet-Retrieve; 500 queries, 117,088-item corpus) and embodied-agent trajectories (ALFWorld-derived; 118...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.01556v1",
+   "published": "2026-09-01",
+   "tags": [
+    "paper",
     "rag",
     "evaluation",
     "agents"
    ]
   },
   {
-   "id": "0980dd010581bc74",
-   "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
-   "summary": "BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. We propose a configurable semantic chunking framework that addresses this limitation by combining entity-preserving windows...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.31139v1",
-   "published": "2026-08-31",
-   "tags": [
-    "paper",
-    "rag",
-    "evaluation",
-    "serving"
-   ]
-  },
-  {
-   "id": "b1a7692597f023db",
-   "title": "Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations",
-   "summary": "Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation. Given an architecture $Φ$ with $P_Φ$ parameter slots, we write $\\boldsymbolθ_f=\\mathcal{G}(\\boldsymbolξ_f)$, where $\\mathcal{G}\\colon\\mathbb{R}^M\\to\\mathbb{R}^{P_Φ}$ is a parameter generator and...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.31157v1",
-   "published": "2026-08-31",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "44f61163770f758b",
-   "title": "A milestone in expanding access to AI",
-   "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+   "id": "631a857c7a24a6f9",
+   "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+   "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-   "published": "2026-08-31",
+   "url": "https://openai.com/index/gilbert-tobin",
+   "published": "2026-09-01",
    "tags": [
     "labs",
     "llm"
@@ -256,15 +324,17 @@
    ]
   },
   {
-   "id": "74043a2c13e42e05",
-   "title": "Granite 4.2 LLMs: How They're Built",
+   "id": "5309d96554639301",
+   "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-   "published": "2026-08-25",
+   "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+   "published": "2026-08-26",
    "tags": [
     "open-source",
-    "llm"
+    "rag",
+    "llm",
+    "fine-tuning"
    ]
   },
   {
@@ -279,36 +349,24 @@
    ]
   },
   {
-   "id": "28c7ee44d88bdbf2",
-   "title": "Controlling Reasoning Effort in LLMs",
-   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+   "id": "39217bafd159845d",
+   "title": "Using Local Coding Agents",
+   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-   "published": "2026-07-18",
+   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+   "published": "2026-06-27",
    "tags": [
     "newsletter",
-    "llm",
-    "reasoning"
+    "agents"
    ]
   },
   {
-   "id": "ebc998debd29aa95",
-   "title": "Google AI Releases TimesFM-3: A 330M Parameter Zero-Shot Foundation Model For Multivariate Time Series Forecasting",
-   "summary": "Google Research has released TimesFM-3, a 330 million parameter time series foundation model that forecasts multiple related series in a single forward pass. Unlike every TimesFM checkpoint through 2.5, it is pretrained natively for multivariate forecasting, accepting multiple targets, past covariates, and past-future covariates with no...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/",
-   "published": "2026-08-31",
-   "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "e3664323bda211c4",
-   "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
-   "summary": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIASENTINEL, a fully on-premise multi-agent system for one-year type 2 diabetes mellitus (T2DM) risk screening and guideline-grounded report generation from...",
+   "id": "b98353fa5dab4d2f",
+   "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+   "summary": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We introduce CordisBench, a 1,200-question benchmark of this lifecycle reasoning. It combines a controlled formal setting...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.31128v1",
-   "published": "2026-08-31",
+   "url": "https://arxiv.org/abs/2609.01600v1",
+   "published": "2026-09-01",
    "tags": [
     "paper",
     "llm",
@@ -317,25 +375,28 @@
    ]
   },
   {
-   "id": "bb0c7994da00f344",
-   "title": "Implementing neural network mixed-effects models in Template Model Builder (TMB)",
-   "summary": "Neural network mixed-effects models (NMMs) have gained traction by combining the strong representation and predictive power of artificial neural networks with the capacity of mixed-effects modeling to capture complex correlation structures. However, existing estimation approaches rely heavily on manual derivations of objective functions...",
+   "id": "becd9fbe2db04179",
+   "title": "Can LLMs Discover Scientific Laws in Real and Parallel Worlds?",
+   "summary": "Scientific equation discovery has long been central to scientific progress, proceeding through iterative cycles of hypothesis generation, observational testing, and refinement under scientific constraints. As LLM capabilities advance and their role in AI for Science expands, it remains an open problem whether they can genuinely discover...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.31133v1",
-   "published": "2026-08-31",
+   "url": "https://arxiv.org/abs/2609.01552v1",
+   "published": "2026-09-01",
    "tags": [
-    "paper"
+    "paper",
+    "llm"
    ]
   },
   {
-   "id": "092c8de02e8b135e",
-   "title": "Our decision on Cursor following its acquisition by SpaceX",
-   "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+   "id": "0703988e3a331916",
+   "title": "OpenAI supports California’s bill to advance youth AI safety",
+   "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-   "published": "2026-08-28",
+   "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+   "published": "2026-08-31",
    "tags": [
-    "labs"
+    "labs",
+    "serving",
+    "safety"
    ]
   },
   {
@@ -362,15 +423,15 @@
    ]
   },
   {
-   "id": "f6b26e55a4899220",
-   "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+   "id": "74043a2c13e42e05",
+   "title": "Granite 4.2 LLMs: How They're Built",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
    "published": "2026-08-25",
    "tags": [
     "open-source",
-    "serving"
+    "llm"
    ]
   },
   {
@@ -385,59 +446,54 @@
    ]
   },
   {
-   "id": "39217bafd159845d",
-   "title": "Using Local Coding Agents",
-   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+   "id": "f3d1448df6a6df02",
+   "title": "LLM Research Papers: The 2026 List (January to May)",
+   "summary": "A curated roundup of notable LLM research papers that came out this year",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-   "published": "2026-06-27",
+   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+   "published": "2026-06-06",
    "tags": [
     "newsletter",
+    "llm"
+   ]
+  },
+  {
+   "id": "23daa03a5e95c59e",
+   "title": "The Rise of Verbal Reinforcement Learning",
+   "summary": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcement Learning (VRL) and offer the first unified account of it. We organize the...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.01597v1",
+   "published": "2026-09-01",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning",
     "agents"
    ]
   },
   {
-   "id": "d5b3bc3671f39a10",
-   "title": "OpenClaw Releases OpenClaw 2.0: Guided Model Setup, 575 ms Control UI Startup, and One Trust Boundary Per Gateway",
-   "summary": "The OpenClaw Foundation has released v2026.8.1, which the project calls OpenClaw 2.0: 933 contributors, 569 first-timers, and more than 16,000 pull requests, roughly half of every PR ever merged into the repo. Setup now reuses existing subscriptions, API keys and local models. The rebuilt Control UI cut test-harness startup from about...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/30/openclaw-releases-openclaw-2-0-guided-model-setup-575-ms-control-ui-startup-and-one-trust-boundary-per-gateway/",
-   "published": "2026-08-31",
-   "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "8c622da212b17378",
-   "title": "PaperGym: Rubric-Centered Evolution for Research-Plan Generation",
-   "summary": "Research planning is the decisive capability of AI scientists. Yet a research plan admits no verifiable answer, so reinforcement learning lacks the environment it requires: tasks paired with a critic. Rubrics extracted from scientific papers can supply the critic. Existing pipelines, however, draw the question and the criteria from the...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.31119v1",
-   "published": "2026-08-31",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "8f6c74fe50559a28",
-   "title": "On the Complexity of the Compatibility Problem for Succinctly Encoded Conditional Distributions",
-   "summary": "The motivation for this paper is the investigation of the trade-offs implicit in probabilistic models used in machine learning. Models are often used to make predictions in the form of conditional probabilities. However, a pair of conditional distributions p(x|y) and p(y|x) may not be compatible with any joint distribution p(x,y). Given...",
+   "id": "734923b63b7b4c93",
+   "title": "A Mathematical Theory of Reusable Neural Bases for Network Compression",
+   "summary": "As large AI models become increasingly prevalent across a wide range of applications, memory cost has become a critical bottleneck in both training and inference. To mitigate this issue, we introduce the Linear Reusable Neural Bases Architecture (LRNBA), a novel framework aimed at improving parameter efficiency and reducing memory cost...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.31120v1",
-   "published": "2026-08-31",
+   "url": "https://arxiv.org/abs/2609.01550v1",
+   "published": "2026-09-01",
    "tags": [
-    "paper"
+    "paper",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "0b00c80d502cc3ab",
-   "title": "Supporting Thailand’s next generation of AI startups",
-   "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+   "id": "7bc3415714321008",
+   "title": "Polimill builds Japan's next-generation public AI infrastructure",
+   "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-   "published": "2026-08-28",
+   "url": "https://openai.com/index/polimill",
+   "published": "2026-08-31",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -463,14 +519,15 @@
    ]
   },
   {
-   "id": "2983dbf79834f512",
-   "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+   "id": "f6b26e55a4899220",
+   "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/gradio-workflow-guide",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
    "published": "2026-08-25",
    "tags": [
-    "open-source"
+    "open-source",
+    "serving"
    ]
   },
   {
@@ -485,61 +542,48 @@
    ]
   },
   {
-   "id": "f3d1448df6a6df02",
-   "title": "LLM Research Papers: The 2026 List (January to May)",
-   "summary": "A curated roundup of notable LLM research papers that came out this year",
+   "id": "ad1a0b6f01f5a507",
+   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-   "published": "2026-06-06",
+   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+   "published": "2026-05-16",
    "tags": [
     "newsletter",
     "llm"
    ]
   },
   {
-   "id": "fb81f8349e223637",
-   "title": "Lowest-Latency Inference APIs for Voice and Realtime Agents: A Time to First Token TTFT-First Benchmark",
-   "summary": "Voice agents fail on latency long before they fail on intelligence. Time to first token is the metric most teams use to choose an inference API, and it is the right starting point and the wrong stopping point. This benchmark works through every layer of the voice stack — LLM, speech-to-text, text-to-speech, and speech-to-speech — using...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/30/lowest-latency-inference-apis-for-voice-and-realtime-agents-a-time-to-first-token-ttft-first-benchmark/",
-   "published": "2026-08-30",
-   "tags": [
-    "industry",
-    "llm",
-    "evaluation",
-    "serving"
-   ]
-  },
-  {
-   "id": "3cf7a01459bbb530",
-   "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
-   "summary": "Many important forms of human learning begin with a vague goal, such as \"become a better physicist\" or \"improve at research.\" Learners must interpret the goal, identify capability gaps, decide how to learn, and determine whether they have actually improved. In contrast, existing work on LLM self-evolution typically begins with tasks and...",
+   "id": "2ae78411a23be487",
+   "title": "StudentSim: Training LLM-based Student Simulators",
+   "summary": "AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence about which guidance works for which student is sparse, slow, and costly to collect from real learners. Student simulators can provide this signal as a proxy, yet existing approaches are limited: state-tracking models...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.31111v1",
-   "published": "2026-08-31",
+   "url": "https://arxiv.org/abs/2609.01591v1",
+   "published": "2026-09-01",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "f12ce887cfbaa1fa",
-   "title": "\"Train classical, deploy quantum\" requires rethinking generalization",
-   "summary": "Generative models have become central across science and industry, from image and text synthesis to the design of molecules and materials. Quantum generative models are considered one of the most promising applications for quantum computers, since a quantum circuit naturally produces samples from the distribution it encodes, and for...",
+   "id": "b0899e8a304f4a9d",
+   "title": "NashDreamer: Model-Based Reinforcement Learning for Zero-Sum Imperfect-Information Games",
+   "summary": "Model-based reinforcement learning (MBRL) has achieved remarkable results in single-agent domains, yet its extension to competitive imperfect information games (IIGs) remains underexplored. In multi-agent settings, opponent-induced non-stationarity complicates the learning process, and decentralized model learning faces severe...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.31117v1",
-   "published": "2026-08-31",
+   "url": "https://arxiv.org/abs/2609.01549v1",
+   "published": "2026-09-01",
    "tags": [
-    "paper"
+    "paper",
+    "agents"
    ]
   },
   {
-   "id": "3062d8cdad5fdcd9",
-   "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-   "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+   "id": "44f61163770f758b",
+   "title": "A milestone in expanding access to AI",
+   "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-   "published": "2026-08-27",
+   "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+   "published": "2026-08-31",
    "tags": [
     "labs",
     "llm"
@@ -569,16 +613,14 @@
    ]
   },
   {
-   "id": "bcd3314d2ba2a36f",
-   "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+   "id": "2983dbf79834f512",
+   "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/pwc-search",
-   "published": "2026-08-21",
+   "url": "https://huggingface.co/blog/gradio-workflow-guide",
+   "published": "2026-08-25",
    "tags": [
-    "open-source",
-    "fine-tuning",
-    "serving"
+    "open-source"
    ]
   },
   {
@@ -593,63 +635,47 @@
    ]
   },
   {
-   "id": "ad1a0b6f01f5a507",
-   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
-   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+   "id": "08d82b53d71043d3",
+   "title": "My Workflow for Understanding LLM Architectures",
+   "summary": "A learning-oriented workflow for understanding new open-weight model releases",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-   "published": "2026-05-16",
+   "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+   "published": "2026-04-18",
    "tags": [
     "newsletter",
     "llm"
    ]
   },
   {
-   "id": "67567e6a3d932d0e",
-   "title": "Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds",
-   "summary": "Google Cloud AI Research, with Washington University in St. Louis and UNC Chapel Hill, has released EnvHarness, an Apache-2.0 layer that turns a static agent benchmark into one that adapts to the policy training on it. It wraps a frozen environment through the standard reset()/step() interface, so tasks and human-built verifiers stay...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds/",
-   "published": "2026-08-30",
-   "tags": [
-    "industry",
-    "evaluation",
-    "agents",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "5d2a74f62da81265",
-   "title": "BLOOM-WILT: Logit Tilting for Behaviour Elicitation in Automated LLM Auditing",
-   "summary": "Users of a deployed language model routinely encounter behaviours that testing almost never surfaces, since deployment puts the model through orders of magnitude more interactions than any evaluation can simulate. Automated auditors make testing cheap to scale and flexible enough to cover almost any specified behaviour, yet their lack of...",
+   "id": "91814117eb38888b",
+   "title": "Designing Proactive Thought Partners for Writing",
+   "summary": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete. This paper studies the design space of...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2608.31105v1",
-   "published": "2026-08-31",
+   "url": "https://arxiv.org/abs/2609.01588v1",
+   "published": "2026-09-01",
    "tags": [
-    "paper",
-    "llm",
-    "evaluation"
+    "paper"
    ]
   },
   {
-   "id": "0a81f64783a0ce66",
-   "title": "Stress-Testing Efficient Responsible-AI Evaluation: When Compute Savings Change Benchmark Conclusions",
-   "summary": "Efficient evaluation changes the protocol used to support claims about model behavior, yet it is rarely tested whether those claims remain stable after the evaluation itself is made cheaper. We stress-test conclusion robustness in responsible-AI benchmarking by evaluating three dense and mixture-of-experts models on BBQ and BBQ-V under...",
+   "id": "7195a11a8f875b48",
+   "title": "Variable Selection for Feature-Based Newsvendor",
+   "summary": "Feature-based newsvendor models use observable covariates to tailor inventory decisions, aiming to balance holding and shortage costs under demand uncertainty. However, high-dimensional feature sets often hinder interpretability and inflate data collection and implementation costs. This paper studies variable selection for the...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2608.31108v1",
-   "published": "2026-08-31",
+   "url": "https://arxiv.org/abs/2609.01544v1",
+   "published": "2026-09-01",
    "tags": [
     "paper",
-    "evaluation"
+    "safety"
    ]
   },
   {
-   "id": "57e276283c193e59",
-   "title": "Expanding OpenAI’s presence in Brazil",
-   "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+   "id": "092c8de02e8b135e",
+   "title": "Our decision on Cursor following its acquisition by SpaceX",
+   "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-   "published": "2026-08-27",
+   "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+   "published": "2026-08-28",
    "tags": [
     "labs"
    ]
@@ -677,39 +703,16 @@
    ]
   },
   {
-   "id": "68e9fb1705e10808",
-   "title": "Measuring benchmark optimization in speech recognition",
+   "id": "bcd3314d2ba2a36f",
+   "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+   "url": "https://huggingface.co/blog/pwc-search",
    "published": "2026-08-21",
    "tags": [
     "open-source",
-    "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "247c8b7c218f0143",
-   "title": "Paving the way for greener ammonia production",
-   "summary": "New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
-   "published": "2026-08-20",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "08d82b53d71043d3",
-   "title": "My Workflow for Understanding LLM Architectures",
-   "summary": "A learning-oriented workflow for understanding new open-weight model releases",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
-   "published": "2026-04-18",
-   "tags": [
-    "newsletter",
-    "llm"
+    "fine-tuning",
+    "serving"
    ]
   }
  ]
