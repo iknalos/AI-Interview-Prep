@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-04",
- "generatedAt": "2026-09-04T11:27:07+00:00",
+ "generated": "2026-09-05",
+ "generatedAt": "2026-09-05T10:43:21+00:00",
  "sourceCount": 9,
  "items": [
   {
@@ -71,12 +71,12 @@
    ]
   },
   {
-   "id": "b6cebf54c518dd29",
-   "title": "Google DeepMind’s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global Forecasts, Refreshed Every Hour",
-   "summary": "WeatherNext 3 ingests live geostationary satellite mosaics, refreshes hourly, and outputs 5 km forecasts across Search, Gemini, Maps. The post Google DeepMind’s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global Forecasts, Refreshed Every Hour appeared first on MarkTechPost .",
+   "id": "cabd70ae88b8b325",
+   "title": "Adaption Labs Introduces ‘Invent a Dataset’: Training Data Generated From a Task Description, Not a Seed Corpus",
+   "summary": "Adaption Labs has released Invent a Dataset, which generates a structured, training-ready dataset from a description of the behavior you want a model to learn. There is no seed corpus, no schema design, and no labeling guide. A single datasets.invent call sets domains, row count, output format, and language expansion, and the rows...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/03/google-deepminds-weathernext-3-trains-on-weather-station-observations-to-deliver-5-km-global-forecasts-refreshed-every-hour/",
-   "published": "2026-09-04",
+   "url": "https://www.marktechpost.com/2026/09/04/datasets-invent-api-training-data-without-labeling-adaptive-data-autoscientist/",
+   "published": "2026-09-05",
    "tags": [
     "industry"
    ]
@@ -108,11 +108,11 @@
    ]
   },
   {
-   "id": "be4a3c5426264d71",
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "id": "7a45b185cff53085",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "url": "https://openai.com/index/playco-game-prototyping-with-astra",
    "published": "2026-09-03",
    "tags": [
     "labs",
@@ -177,15 +177,15 @@
    ]
   },
   {
-   "id": "bba5fecf15f768dc",
-   "title": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
-   "summary": "OpenAI released GPT-6 Astra on September 3, 2026, positioning it as a computer-use flagship rather than a chat model. It reports 72.6% on OSWorld V2-Offline, replaces Codex compaction with searchable notes, and ships a 1.05M-token context at $10/$50 per million tokens. It is also the first OpenAI model to cross the Critical cybersecurity...",
+   "id": "ef06aa6cd89f935c",
+   "title": "Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%",
+   "summary": "Gemini now navigates video instead of ingesting it at 1 FPS, loading only the segments a prompt needs. The post Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88% appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/",
-   "published": "2026-09-03",
+   "url": "https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/",
+   "published": "2026-09-05",
    "tags": [
     "industry",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -211,11 +211,11 @@
    ]
   },
   {
-   "id": "7a45b185cff53085",
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "id": "be4a3c5426264d71",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "published": "2026-09-03",
    "tags": [
     "labs",
@@ -281,15 +281,16 @@
    ]
   },
   {
-   "id": "1b4be296bb9f368c",
-   "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
-   "summary": "Most teams building a shopping assistant or agent rebuild the same scaffolding: an agent loop, a tool layer over the catalog, an approval gate, and an eval suite. Anthropic has now released that scaffolding as code. This week, they published anthropics/commerce-agents, a reference blueprint containing a shopping agent and a merchant...",
+   "id": "02077af43204cfcd",
+   "title": "NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes",
+   "summary": "We look at NVIDIA Personal AI Router (PAIR), an open source virtual inference router that spreads local AI requests across the machines already on a home network. We cover how PAIR proxies existing Ollama and LM Studio endpoints so agent harnesses need no changes, and how its scheduler filters nodes on readiness, engine state, exact...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/",
-   "published": "2026-09-03",
+   "url": "https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/",
+   "published": "2026-09-05",
    "tags": [
     "industry",
-    "evaluation",
+    "fine-tuning",
+    "serving",
     "agents"
    ]
   },
@@ -320,16 +321,15 @@
    ]
   },
   {
-   "id": "2e155b11d8093d3e",
-   "title": "Safety overview: GPT-6 Astra",
-   "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+   "id": "0f3b76bc480d3619",
+   "title": "GPT-6 Astra: A new generation of intelligence",
+   "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+   "url": "https://openai.com/index/gpt-6-astra",
    "published": "2026-09-03",
    "tags": [
     "labs",
-    "llm",
-    "safety"
+    "llm"
    ]
   },
   {
@@ -390,16 +390,14 @@
    ]
   },
   {
-   "id": "0f58fd5b179250a1",
-   "title": "Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Muse Spark 1.2",
-   "summary": "Perplexity has shipped hybrid compute for its Mac app, splitting a single Perplexity Computer task between frontier models in the cloud and a compact model running on the user's machine. Tasks start in the cloud for search, planning and reasoning, then hand sensitive steps down to the Mac without restarting or losing context. An...",
+   "id": "b6cebf54c518dd29",
+   "title": "Google DeepMind’s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global Forecasts, Refreshed Every Hour",
+   "summary": "WeatherNext 3 ingests live geostationary satellite mosaics, refreshes hourly, and outputs 5 km forecasts across Search, Gemini, Maps. The post Google DeepMind’s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global Forecasts, Refreshed Every Hour appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/03/meta-ai-released-muse-spark-1-3-an-agentic-coding-model-that-uses-20-fewer-tool-calls-and-25-fewer-tokens-than-muse-spark-1-2/",
-   "published": "2026-09-03",
+   "url": "https://www.marktechpost.com/2026/09/03/google-deepminds-weathernext-3-trains-on-weather-station-observations-to-deliver-5-km-global-forecasts-refreshed-every-hour/",
+   "published": "2026-09-04",
    "tags": [
-    "industry",
-    "agents",
-    "reasoning"
+    "industry"
    ]
   },
   {
@@ -426,15 +424,16 @@
    ]
   },
   {
-   "id": "b07b0b2b4d66deed",
-   "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-   "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+   "id": "2e155b11d8093d3e",
+   "title": "Safety overview: GPT-6 Astra",
+   "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/atv-big-air-tour",
-   "published": "2026-09-02",
+   "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+   "published": "2026-09-03",
    "tags": [
     "labs",
-    "llm"
+    "llm",
+    "safety"
    ]
   },
   {
@@ -494,15 +493,15 @@
    ]
   },
   {
-   "id": "d9be566959074c7c",
-   "title": "Perplexity Open Sources Lily: A Rust + Metal Inference Engine for Qwen3.6-35B-A3B on Apple Silicon",
-   "summary": "Perplexity has open sourced Lily, the local inference engine behind Hybrid Compute in Perplexity Computer. Built in Rust with custom Metal kernels for one model on one chip family, it averages 1.23x MLX-LM's prefill throughput and 1.35x its decode throughput on a 40-core, 128 GB M5 Max. The post Perplexity Open Sources Lily: A Rust +...",
+   "id": "bba5fecf15f768dc",
+   "title": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
+   "summary": "OpenAI released GPT-6 Astra on September 3, 2026, positioning it as a computer-use flagship rather than a chat model. It reports 72.6% on OSWorld V2-Offline, replaces Codex compaction with searchable notes, and ships a 1.05M-token context at $10/$50 per million tokens. It is also the first OpenAI model to cross the Critical cybersecurity...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon/",
+   "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/",
    "published": "2026-09-03",
    "tags": [
     "industry",
-    "serving"
+    "llm"
    ]
   },
   {
@@ -529,15 +528,15 @@
    ]
   },
   {
-   "id": "3b5f2688fec1191a",
-   "title": "How AI-native companies turn workflows into operating capability",
-   "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+   "id": "b07b0b2b4d66deed",
+   "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+   "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/ai-native-company-workflows",
-   "published": "2026-09-01",
+   "url": "https://openai.com/index/atv-big-air-tour",
+   "published": "2026-09-02",
    "tags": [
     "labs",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -600,15 +599,15 @@
    ]
   },
   {
-   "id": "79b73614776aef3a",
-   "title": "Qwen Developers Open-Sources zg (zvec-grep): A Local-First Search Layer Unifying ripgrep, BM25, and Vector Search",
-   "summary": "We look at zg (zvec-grep), the local-first search layer that Qwen Developers just open-sourced under Apache 2.0. We explain how it puts ripgrep, BM25, and vector search behind a single interface, so an agent can move from a plain-language description to an exact line span without switching tools. We cover the deliberately small MCP...",
+   "id": "1b4be296bb9f368c",
+   "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
+   "summary": "Most teams building a shopping assistant or agent rebuild the same scaffolding: an agent loop, a tool layer over the catalog, an approval gate, and an eval suite. Anthropic has now released that scaffolding as code. This week, they published anthropics/commerce-agents, a reference blueprint containing a shopping agent and a merchant...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search/",
-   "published": "2026-09-02",
+   "url": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/",
+   "published": "2026-09-03",
    "tags": [
     "industry",
-    "rag",
+    "evaluation",
     "agents"
    ]
   },
@@ -637,14 +636,15 @@
    ]
   },
   {
-   "id": "309be27bdcfe3156",
-   "title": "Path to Astra: critical capabilities and frontier safeguards",
-   "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+   "id": "3b5f2688fec1191a",
+   "title": "How AI-native companies turn workflows into operating capability",
+   "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/path-to-astra",
+   "url": "https://openai.com/index/ai-native-company-workflows",
    "published": "2026-09-01",
    "tags": [
-    "labs"
+    "labs",
+    "agents"
    ]
   },
   {
