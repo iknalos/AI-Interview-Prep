@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-06",
- "generatedAt": "2026-09-06T11:04:55+00:00",
+ "generated": "2026-09-07",
+ "generatedAt": "2026-09-07T12:44:32+00:00",
  "sourceCount": 9,
  "items": [
   {
-   "id": "5190d2a1dccd48dc",
-   "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-   "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+   "id": "e02ae19def6b6f7c",
+   "title": "Supporting independent journalism in Ukraine",
+   "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-   "published": "2026-09-03",
+   "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+   "published": "2026-09-07",
    "tags": [
     "labs"
    ]
@@ -71,54 +71,52 @@
    ]
   },
   {
-   "id": "eb2d2846ef8f6917",
-   "title": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
-   "summary": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today. CUA-Lite, from a UC Berkeley led team, puts them behind one action space and one data schema, and replaces OSWorld's per-task virtual machine with a...",
+   "id": "de235cadc4e3643a",
+   "title": "IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B",
+   "summary": "Most open model launches release one checkpoint and a benchmark table. The Institute of Foundation Models (IFM) released something wider last week. IFM is the frontier lab launched by MBZUAI in May 2025. K2 Horizon is a fleet of six models: 375B-A23B, 36B-A4B, 32B, 7B, 3.7B and 0.9B. Shipping alongside them are the pre-training corpus...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
-   "published": "2026-09-06",
+   "url": "https://www.marktechpost.com/2026/09/06/ifm-releases-k2-horizon-six-apache-2-0-models-from-0-9b-to-375b/",
+   "published": "2026-09-07",
    "tags": [
     "industry",
-    "evaluation",
-    "agents"
-   ]
-  },
-  {
-   "id": "5ac6737397a7d65c",
-   "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-   "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable neural function. At compile time...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.04199v1",
-   "published": "2026-09-03",
-   "tags": [
-    "paper",
-    "serving"
-   ]
-  },
-  {
-   "id": "75afc6b7941cf742",
-   "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
-   "summary": "Language-model judges now gate training data, score generations, and drive leaderboards. The judge is then a measurement instrument, resting on one rarely stated assumption: the same request, sent to the same model name, reads the same tomorrow. We audited that assumption in two preregistered campaigns with every threshold fixed in...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.04198v1",
-   "published": "2026-09-03",
-   "tags": [
-    "paper",
-    "llm",
-    "fine-tuning",
     "evaluation"
    ]
   },
   {
-   "id": "7a45b185cff53085",
-   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-   "published": "2026-09-03",
+   "id": "095535ae148025fa",
+   "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+   "summary": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longitudinal wearable record. We introduce WearableQA, a benchmark comprising 4,084 10-option multiple-choice questions constructed from the...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.05405v1",
+   "published": "2026-09-04",
    "tags": [
-    "labs",
-    "llm"
+    "paper",
+    "evaluation",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "00660e54fcfb143b",
+   "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+   "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions at inference. We present UniMate, a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.05415v1",
+   "published": "2026-09-04",
+   "tags": [
+    "paper",
+    "fine-tuning",
+    "serving"
+   ]
+  },
+  {
+   "id": "a8e8f9dc895a026b",
+   "title": "An Alien Mind",
+   "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/an-alien-mind",
+   "published": "2026-09-06",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -179,51 +177,54 @@
    ]
   },
   {
-   "id": "7a06db8579fb3d9e",
-   "title": "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
-   "summary": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood account of the second — the serving infrastructure behind pplx-embed and the ranking models used...",
+   "id": "2c41875e30e3c32a",
+   "title": "H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder",
+   "summary": "We look at NeoMME, a family of 260M and 800M bidirectional encoders from H Company. Unlike ColPali-style retrievers, it processes multilingual text tokens and raw 32×32 image patches in a single Transformer, with no pretrained vision tower and no causal decoder. We cover the masked discrete-diffusion pretraining objective, the dual dense...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/",
+   "url": "https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/",
    "published": "2026-09-06",
    "tags": [
     "industry",
-    "rag",
-    "evaluation",
+    "llm",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "73e220128b822ca7",
+   "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+   "summary": "Vision-language models are increasingly used as reward functions for robotic learning, but this role requires paraphrase invariance: the same trajectory should receive the same reward under semantically equivalent goal descriptions. We show that current VLM reward models often violate this property. Paraphrasing the instruction alone can...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.05401v1",
+   "published": "2026-09-04",
+   "tags": [
+    "paper",
+    "llm",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "260a63111d7a08a7",
+   "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
+   "summary": "Retail search systems serve diverse geographic regions with distinct query patterns, vocabularies, and product preferences, creating significant data heterogeneity that challenges both privacy-preserving training and model personalization. Federated learning offers a natural solution for privacy, but standard FL methods produce global...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.05403v1",
+   "published": "2026-09-04",
+   "tags": [
+    "paper",
+    "fine-tuning",
     "serving"
    ]
   },
   {
-   "id": "a3e5ba214a98af79",
-   "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
-   "summary": "Evolutionary prompt optimizers such as GEPA suffer from prompt bloat: each iteration appends rules and caveats, producing prompts up to 3$\\times$ longer yet no more accurate. We trace this to three deficiencies - incomplete error observation, limited search diversity, and unreliable selection - and propose ESPO (Error-Structured Prompt...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.04197v1",
-   "published": "2026-09-03",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "89ddc0e0c7bd4fd3",
-   "title": "Robust PAC Learning of Concurrent Stochastic Games",
-   "summary": "We introduce the first Probably Approximately Correct (PAC) learning framework for general-sum concurrent stochastic games (CSGs) with transition uncertainty, while addressing the challenge of Nash equilibrium (NE) existence. Our algorithm maintains data-driven $L^1$ confidence sets over transition kernels and solves a robust CSG to...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.04189v1",
-   "published": "2026-09-03",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "be4a3c5426264d71",
-   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "id": "19672c4832d4c9bc",
+   "title": "Research acceleration: The view inside OpenAI",
+   "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-   "published": "2026-09-03",
+   "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+   "published": "2026-09-06",
    "tags": [
     "labs",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -285,52 +286,56 @@
    ]
   },
   {
-   "id": "c907fdcd2d3d07bb",
-   "title": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI",
-   "summary": "We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We break down the three execution patterns it routes between — Single, Cascade with a quality gate, and Critique with a read-only cross-family reviewer. The post GitHub Introduces Project...",
+   "id": "fbca3d45a583b9cc",
+   "title": "Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours",
+   "summary": "AI research agents can propose far more experiments than they can afford to run. Meta FAIR, Oxford and UCL introduce AI Research Preference Models — frozen LLM judges that rank 15 unexecuted candidates and execute only one. On AIRS-Bench, the average normalized score rises from 0.684 to 0.729, and the baseline's 24-hour result arrives in...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
-   "published": "2026-09-05",
+   "url": "https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/",
+   "published": "2026-09-06",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "fine-tuning",
+    "agents"
    ]
   },
   {
-   "id": "ca41ad6246e0df05",
-   "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
-   "summary": "Reasoning traces from chain-of-thought models appear to offer a legible window into how a model arrives at its answer. A growing body of work treats them as such, using LLM judges to diagnose errors, evaluate faithfulness, and provide step-level supervision via process reward models and generative critics. These practices rely on the...",
+   "id": "3b6ebe91496efde3",
+   "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+   "summary": "Data-sovereignty regulations increasingly require public institutions to deploy open-source, on-premise LLM agents that chain multiple tool-calls across live government APIs. However, open-source models consistently underperform in this multi-step setting, and no existing benchmark measures the gap. We introduce the Korean Open Public...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.04194v1",
-   "published": "2026-09-03",
+   "url": "https://arxiv.org/abs/2609.05395v1",
+   "published": "2026-09-04",
    "tags": [
     "paper",
     "llm",
     "evaluation",
+    "agents"
+   ]
+  },
+  {
+   "id": "cf7498e97993dab2",
+   "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+   "summary": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. Large language models (LLMs) can reason about such distinctions, but applying them directly to hundreds of millions of product pairs is operationally impractical. We introduce a two-level framework...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.05363v1",
+   "published": "2026-09-04",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning",
     "reasoning"
    ]
   },
   {
-   "id": "c4a0fc2f67f7736b",
-   "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
-   "summary": "As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges. Traditional pipelining techniques distributing the computation across different on-chip processing units, while effective for throughput, do not address the latency demands posed by...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.04168v1",
-   "published": "2026-09-03",
-   "tags": [
-    "paper",
-    "serving"
-   ]
-  },
-  {
-   "id": "0f3b76bc480d3619",
-   "title": "GPT-6 Astra: A new generation of intelligence",
-   "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+   "id": "5190d2a1dccd48dc",
+   "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+   "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/gpt-6-astra",
+   "url": "https://openai.com/index/daybreak-for-frontline-defenders",
    "published": "2026-09-03",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -391,51 +396,53 @@
    ]
   },
   {
-   "id": "ccd27314d86e6cf4",
-   "title": "Nous Research Adds One-Click Local Model Setup to Hermes Desktop",
-   "summary": "Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads your hardware, fit-checks the catalog against your GPU, picks the highest-quality build that fits, downloads it, and configures llama.cpp — with a hard 4-bit floor and a 64K minimum context window. The post Nous Research Adds One-Click...",
+   "id": "eb2d2846ef8f6917",
+   "title": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
+   "summary": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today. CUA-Lite, from a UC Berkeley led team, puts them behind one action space and one data schema, and replaces OSWorld's per-task virtual machine with a...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/",
-   "published": "2026-09-05",
+   "url": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
+   "published": "2026-09-06",
    "tags": [
     "industry",
-    "llm"
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "c37d8ce798e12d79",
-   "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
-   "summary": "Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, reformulations of knowledge, are causally helpful for learning. We design controlled experiments to isolate this. First, we confirm that repetition is necessary for acquisition and clarify that...",
+   "id": "f5b71b59dba16d4d",
+   "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+   "summary": "Model upgrades are routine; memory migrations are not. An agent can keep the same memory store and still forget: a new model may interpret old notes differently, mixed embedding versions may break retrieval, and repair may fail without the original evidence. We compare memory as the same history is preserved verbatim for long-context...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.04180v1",
-   "published": "2026-09-03",
+   "url": "https://arxiv.org/abs/2609.05339v1",
+   "published": "2026-09-04",
    "tags": [
     "paper",
-    "llm"
+    "rag",
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "d02a01351b62156e",
-   "title": "Parameterised graph theory for tensor networks: entanglement rerouting, structural simplification, and agnostic tomography",
-   "summary": "Parameterised graph theory studies how the complexity of graph-theoretic problems depends on structural parameters of the input graph. This perspective has proved useful in analysing tensor-network simulation (Markov and Shi, 2008). Its implications for tensor-network representations and tomography are less well understood. In...",
+   "id": "6608685d675c771c",
+   "title": "Variational Continuation for Double Pendulum Periodic Orbits",
+   "summary": "We present a Hessian-based approach to numerically continue periodic orbits in dynamical systems. A loop (periodic orbit candidate) is parametrized as a Fourier series; a loss function is defined based on the deviation of the loop from the physical differential equations. Unlike previous work relying on hand-derived Jacobians, our method...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.04165v1",
-   "published": "2026-09-03",
+   "url": "https://arxiv.org/abs/2609.05337v1",
+   "published": "2026-09-04",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "2e155b11d8093d3e",
-   "title": "Safety overview: GPT-6 Astra",
-   "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+   "id": "be4a3c5426264d71",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+   "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
    "published": "2026-09-03",
    "tags": [
     "labs",
-    "llm",
-    "safety"
+    "llm"
    ]
   },
   {
@@ -495,46 +502,51 @@
    ]
   },
   {
-   "id": "cabd70ae88b8b325",
-   "title": "Adaption Labs Introduces ‘Invent a Dataset’: Training Data Generated From a Task Description, Not a Seed Corpus",
-   "summary": "Adaption Labs has released Invent a Dataset, which generates a structured, training-ready dataset from a description of the behavior you want a model to learn. There is no seed corpus, no schema design, and no labeling guide. A single datasets.invent call sets domains, row count, output format, and language expansion, and the rows...",
+   "id": "7a06db8579fb3d9e",
+   "title": "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
+   "summary": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood account of the second — the serving infrastructure behind pplx-embed and the ranking models used...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/04/datasets-invent-api-training-data-without-labeling-adaptive-data-autoscientist/",
-   "published": "2026-09-05",
+   "url": "https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/",
+   "published": "2026-09-06",
    "tags": [
-    "industry"
+    "industry",
+    "rag",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "3ae7949a82276657",
-   "title": "Last Translation Benchmark",
-   "summary": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for machine translation are approaching saturation. Further, automatic translation metrics are unreliable, vulnerable to reward-hacking, and...",
+   "id": "18cadd31750f331a",
+   "title": "Technical Manual for a Toolkit for Measuring Contextual Individuation in Transformer Language Models",
+   "summary": "A transformer language model assigns a single, context-independent vector to a word type at its embedding layer, yet is widely believed to individuate that word's occurrences by context in its later layers. Testing this belief cleanly requires a construct that holds the word form fixed while its context and intended sense vary in a...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.04173v1",
-   "published": "2026-09-03",
+   "url": "https://arxiv.org/abs/2609.05333v1",
+   "published": "2026-09-04",
    "tags": [
     "paper",
-    "evaluation"
+    "rag",
+    "llm"
    ]
   },
   {
-   "id": "99206362ddc639d1",
-   "title": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
-   "summary": "This paper presents a low-cost, open experimental platform for research in end-to-end autonomous driving with miniature Ackermann vehicles. The platform combines a physical vehicle, a printed urban track, data collection tools, trajectory registration, and a Webots digital twin, enabling controlled experiments that connect...",
+   "id": "b0b4497ed3b1220b",
+   "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
+   "summary": "Chilli (Capsicum annuum) is one of India's most economically significant crops, yet its productivity is persistently threatened by diseases that are difficult to identify without expert intervention. While Vision Transformers (ViTs) have achieved high classification accuracy, their large computational footprint makes deployment on...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.04147v1",
-   "published": "2026-09-03",
+   "url": "https://arxiv.org/abs/2609.05334v1",
+   "published": "2026-09-04",
    "tags": [
-    "paper"
+    "paper",
+    "llm"
    ]
   },
   {
-   "id": "b07b0b2b4d66deed",
-   "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-   "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+   "id": "7a45b185cff53085",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/atv-big-air-tour",
-   "published": "2026-09-02",
+   "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "published": "2026-09-03",
    "tags": [
     "labs",
     "llm"
@@ -600,51 +612,49 @@
    ]
   },
   {
-   "id": "ef06aa6cd89f935c",
-   "title": "Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%",
-   "summary": "Gemini now navigates video instead of ingesting it at 1 FPS, loading only the segments a prompt needs. The post Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88% appeared first on MarkTechPost .",
+   "id": "c907fdcd2d3d07bb",
+   "title": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI",
+   "summary": "We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We break down the three execution patterns it routes between — Single, Cascade with a quality gate, and Critique with a read-only cross-family reviewer. The post GitHub Introduces Project...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/",
+   "url": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
    "published": "2026-09-05",
    "tags": [
-    "industry",
-    "agents"
+    "industry"
    ]
   },
   {
-   "id": "5208647c122ffc48",
-   "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
-   "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leaving the role of training data unclear. We examine this role at the data-minimal limit by training on a single query. One-shot OPD keeps improving for hundreds...",
+   "id": "15cdf7eeb4d897ce",
+   "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+   "summary": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their operational use. This systematic review analyses and codes 66 peer-reviewed studies on large language models (LLMs) for HVAC operations published between 2023 and...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.04172v1",
-   "published": "2026-09-03",
+   "url": "https://arxiv.org/abs/2609.05314v1",
+   "published": "2026-09-04",
    "tags": [
     "paper",
-    "llm",
-    "fine-tuning"
+    "llm"
    ]
   },
   {
-   "id": "f9d2dd616e64137c",
-   "title": "Prospective Coding Improves Learning in Deep Continuous-Time Recurrent Networks",
-   "summary": "Temporal integration gives continuous-time recurrent networks memory, but in deep stacks it also delays bottom-up signals and attenuates top-down errors. We develop Recursive Quadrature Filters (RQFs), biologically motivated complex-valued temporal filters that are a special case of diagonal state-space models (SSMs), and ask whether...",
+   "id": "390d5c926bfe3daa",
+   "title": "Embedded Graph Flows for Categorical Graph Generation",
+   "summary": "Generating categorical graphs requires choosing node and edge types that form a coherent structure without depending on node order. Many graph generators encode categories as fixed one-hot vectors, which can impose an artificial geometry in which categories are equidistant. We propose Embedded Graph Flows (EGF), a generative model that...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.04134v1",
-   "published": "2026-09-03",
+   "url": "https://arxiv.org/abs/2609.05328v1",
+   "published": "2026-09-04",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "3b5f2688fec1191a",
-   "title": "How AI-native companies turn workflows into operating capability",
-   "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+   "id": "0f3b76bc480d3619",
+   "title": "GPT-6 Astra: A new generation of intelligence",
+   "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/ai-native-company-workflows",
-   "published": "2026-09-01",
+   "url": "https://openai.com/index/gpt-6-astra",
+   "published": "2026-09-03",
    "tags": [
     "labs",
-    "agents"
+    "llm"
    ]
   },
   {
