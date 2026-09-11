@@ -1,29 +1,30 @@
 {
- "generated": "2026-09-10",
- "generatedAt": "2026-09-10T11:29:26+00:00",
+ "generated": "2026-09-11",
+ "generatedAt": "2026-09-11T11:31:05+00:00",
  "sourceCount": 9,
  "items": [
   {
-   "id": "9786c92a289dc0ec",
-   "title": "The AI policy window is open. We need to act.",
-   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+   "id": "014159943e4d9643",
+   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/ai-policy-window",
-   "published": "2026-09-09",
+   "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+   "published": "2026-09-10",
    "tags": [
     "labs",
-    "safety"
+    "llm"
    ]
   },
   {
-   "id": "98769dd27a5383f5",
-   "title": "Transfer learning for genomic prediction in underrepresented populations",
-   "summary": "General Science",
+   "id": "edd61c31429065ea",
+   "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+   "summary": "Machine Intelligence",
    "source": "Google Research",
-   "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
-   "published": "2026-09-03",
+   "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+   "published": "2026-09-10",
    "tags": [
-    "research"
+    "research",
+    "agents"
    ]
   },
   {
@@ -73,62 +74,60 @@
    ]
   },
   {
-   "id": "ff0b2e6c72fc4ebe",
-   "title": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
-   "summary": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI built its newest release around that exact bottleneck. DeepSeek-V4.1-Flash is a multimodal Mixture-of-Experts model with 552B backbone parameters...",
+   "id": "6d290a9bc68fc246",
+   "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
+   "summary": "Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine translation across 50 languages. It uses 25B of its 218B parameters per token and scores 83.6 on Cohere's WMT26 evaluation. Weights are free for non-commercial use, with commercial access through Cohere Model Vault or RWS Language Weaver...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/",
-   "published": "2026-09-10",
+   "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/",
+   "published": "2026-09-11",
    "tags": [
     "industry",
     "llm",
-    "serving",
-    "agents"
-   ]
-  },
-  {
-   "id": "89289cc766b82d4e",
-   "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
-   "summary": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient methodological information for a competent...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.10539v1",
-   "published": "2026-09-09",
-   "tags": [
-    "paper",
     "evaluation"
    ]
   },
   {
-   "id": "379803d744c5818c",
-   "title": "Likelihood-free inference with nuisance parameters through normalizing flows",
-   "summary": "We present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sample generator from the distribution of interest. We show that the statistic is near-pivotal in the sense of minimum average KL-divergence...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.10534v1",
-   "published": "2026-09-09",
+   "id": "8e555c18f01d8e60",
+   "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+   "summary": "As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but the effects of data repetition remains largely unexplored for recently dominant sparse architectures such as Mixture-of-Experts (MoE)...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.11917v1",
+   "published": "2026-09-10",
    "tags": [
     "paper",
-    "serving"
+    "llm"
    ]
   },
   {
-   "id": "587a70348a735f61",
-   "title": "GPT-6 Astra: The next generation in intelligence for work",
-   "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+   "id": "27dad2126ff93c6d",
+   "title": "General Quantification of Covariate and Concept Shifts",
+   "summary": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications. We first show that existing definition of concept shift...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.11918v1",
+   "published": "2026-09-10",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "4d4e7920d8a762a2",
+   "title": "Now everyone can put data to work",
+   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-   "published": "2026-09-09",
+   "url": "https://openai.com/index/put-data-to-work",
+   "published": "2026-09-10",
    "tags": [
     "labs",
     "llm",
-    "reasoning"
+    "agents"
    ]
   },
   {
-   "id": "3aacd1631c1957a1",
-   "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+   "id": "98769dd27a5383f5",
+   "title": "Transfer learning for genomic prediction in underrepresented populations",
    "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+   "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
    "published": "2026-09-03",
    "tags": [
     "research"
@@ -179,61 +178,61 @@
    ]
   },
   {
-   "id": "0801b869d32a0804",
-   "title": "LandingAI Releases Agentic Document Extraction Gen2 with DPT-3 Pro and DPT-3 Verity",
-   "summary": "LandingAI has shipped Agentic Document Extraction Gen2, a rebuild of its document stack on the DPT-3 model family. Chunks are retired in favor of a document, page and block tree. DPT-3 Pro grounds to the line, DPT-3 Verity grounds to the word with a confidence score, and Parse billing now counts output characters instead of flat pages...",
+   "id": "8ed3ef727733575a",
+   "title": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
+   "summary": "Sakana AI has released Fugu Max and Fugu Ultra v2, 2 models built on the same learned orchestration architecture. Fugu Max routes tasks to lean open and specialized models, including NVIDIA Nemotron, at $2/$6 per 1M tokens. Fugu Ultra v2 targets peak capability, scoring 48.3 on Chartography and 74.3 on DeepSWE. The post Sakana AI...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/09/landingai-releases-agentic-document-extraction-gen2-with-dpt-3-pro-and-dpt-3-verity/",
-   "published": "2026-09-10",
+   "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
+   "published": "2026-09-11",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "c9c2b597d3f1a37a",
-   "title": "IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier",
-   "summary": "Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model identifiers. We treat this as measurement error and give a protocol that makes it reportable. It has three parts. A gold-blind...",
+   "id": "a72f8e21735dac18",
+   "title": "Distance generalization in transformers: why bother with positional encoding?",
+   "summary": "Out-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which probes performance when inter-token distances are changed between training and inference, while keeping a fixed context length. We construct...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.10494v1",
-   "published": "2026-09-09",
+   "url": "https://arxiv.org/abs/2609.11913v1",
+   "published": "2026-09-10",
    "tags": [
     "paper",
-    "evaluation",
+    "llm",
     "serving"
    ]
   },
   {
-   "id": "31fdf4b3db3b2b11",
-   "title": "A positive resolution of the gap-entropy conjecture",
-   "summary": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, let $Δ_i=μ_*-μ_i$ be its gap from the optimal mean, and write $H=\\sum_{i\\ne *}Δ_i^{-2}$. Let $p_r$ be the fraction of $H$ contributed by...",
+   "id": "cc073c4c997d8839",
+   "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+   "summary": "Generative artificial intelligence changes how firms reach customers, but standard marketing data do not record how often users see and notice a firm's name in generated answers. We develop Generative Marketing Mix Modeling (GMMM) to estimate the causal effects of Generative Engine Optimization (GEO) and Generative Engine Marketing...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.10529v1",
-   "published": "2026-09-09",
+   "url": "https://arxiv.org/abs/2609.11915v1",
+   "published": "2026-09-10",
    "tags": [
-    "paper"
+    "paper",
+    "serving"
    ]
   },
   {
-   "id": "534907e0d31e4171",
-   "title": "Paul Christiano joins OpenAI Foundation Board",
-   "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+   "id": "016c3ec9b775a98e",
+   "title": "Introducing ChatGPT for Financial Services",
+   "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-   "published": "2026-09-09",
+   "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+   "published": "2026-09-10",
    "tags": [
     "labs",
-    "fine-tuning",
-    "safety"
+    "llm"
    ]
   },
   {
-   "id": "411288110127b5c8",
-   "title": "Mapping global methane emissions from space with deep learning",
-   "summary": "Climate & Sustainability",
+   "id": "3aacd1631c1957a1",
+   "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
-   "published": "2026-09-01",
+   "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+   "published": "2026-09-03",
    "tags": [
     "research"
    ]
@@ -285,60 +284,59 @@
    ]
   },
   {
-   "id": "86cd129b539fa03e",
-   "title": "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
-   "summary": "Google has open-sourced Mantis, a stack-agnostic toolkit of security review skills for AI coding agents. It runs the full vulnerability lifecycle: sweep the code, filter false positives, reproduce the bug in a sandbox, patch it, re-attack the patch, then score the risk. Apache 2.0, and documented as demonstration-only. The post Google...",
+   "id": "68979a3810985dea",
+   "title": "Google Research Releases ToolGrad: Answer-First Framework Hits 99.8% Pass Rate for Tool-Use Data Generation",
+   "summary": "Google Research has released ToolGrad, an ACL 2026 Findings framework that inverts tool-use dataset generation: it builds a verified API chain first, then writes the matching user query. Guided by textual \"gradients\" from a 4-module propose-execute-select-update loop, ToolGrad reaches a 99.8% pass rate on ToolBench versus 63.8% for DFS...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
-   "published": "2026-09-09",
+   "url": "https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8-pass-rate-for-tool-use-data-generation/",
+   "published": "2026-09-11",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "d2afcdd488b87b59",
-   "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
-   "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking users, risks losing the intent of the original question...",
+   "id": "8f7b31a9d9fac942",
+   "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+   "summary": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relations as foundational to spatial understanding, yet foundation-model evaluations largely focus on metric or...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.10445v1",
-   "published": "2026-09-09",
+   "url": "https://arxiv.org/abs/2609.11900v1",
+   "published": "2026-09-10",
    "tags": [
     "paper",
-    "llm",
+    "evaluation",
     "reasoning"
    ]
   },
   {
-   "id": "dd64f978dba67d0f",
-   "title": "Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarch",
-   "summary": "Language generation in the limit asks for valid unseen elements from every exhaustive positive presentation of an unknown infinite language. We characterize this task for arbitrary families over a countable universe. Generation is possible exactly when each target can be assigned a finite positive witness so that the targets activated by...",
+   "id": "4bb546fcdf07844c",
+   "title": "From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good",
+   "summary": "Artificial Intelligence does more than create a governance problem. It can also reveal where institutions have already failed to provide responsiveness, belonging, care, and accountability. Once deployed, AI becomes an intervention in those conditions. It can repair, compound, substitute for, or conceal the failures it encounters...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.10525v1",
-   "published": "2026-09-09",
+   "url": "https://arxiv.org/abs/2609.11910v1",
+   "published": "2026-09-10",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "167bce5d47e71e47",
-   "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-   "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+   "id": "1ef5285e671d0ace",
+   "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+   "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/codex-quantum-computing-experiments",
-   "published": "2026-09-08",
+   "url": "https://openai.com/index/expanding-ai-access-us-government",
+   "published": "2026-09-10",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "14a087bdb5895e90",
-   "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
-   "summary": "Data Management",
+   "id": "411288110127b5c8",
+   "title": "Mapping global methane emissions from space with deep learning",
+   "summary": "Climate & Sustainability",
    "source": "Google Research",
-   "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
-   "published": "2026-08-31",
+   "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+   "published": "2026-09-01",
    "tags": [
     "research"
    ]
@@ -391,60 +389,62 @@
    ]
   },
   {
-   "id": "f8b72b8349697724",
-   "title": "Gradium Launches Voice Design: Write a Prompt, Get a Brand New Synthetic Voice in Seconds",
-   "summary": "Voice agent teams keep hitting the same wall. The catalog holds 400 voices and the brief asks for the one that is not in it: a Quebecoise receptionist for a Montreal dealership, a narrator in his sixties with lecture hall authority. Briefs outnumber any catalog, and cloning closes the gap one speaker at a time, […] The post Gradium...",
+   "id": "c81ff14720ee06f9",
+   "title": "Meet Redis LangCache: A Managed Semantic Cache That Cuts LLM API Costs by Up to 90% and Returns Cache Hits Up to 15x Faster",
+   "summary": "Production LLM applications rarely receive a question nobody has asked before. Support assistants and RAG pipelines field the same intents thousands of times a day, each phrased differently, and most stacks treat every phrasing as a fresh, fully billed request. Redis LangCache is a fully managed semantic caching service that sits between...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/09/gradium-launches-voice-design-write-a-prompt-get-a-brand-new-synthetic-voice-in-seconds/",
-   "published": "2026-09-09",
+   "url": "https://www.marktechpost.com/2026/09/10/meet-redis-langcache-a-managed-semantic-cache-that-cuts-llm-api-costs-by-up-to-90-and-returns-cache-hits-up-to-15x-faster/",
+   "published": "2026-09-10",
    "tags": [
     "industry",
-    "agents"
+    "rag",
+    "llm"
    ]
   },
   {
-   "id": "da112bb7881f55e8",
-   "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
-   "summary": "While Large Language Models (LLMs) have demonstrated impressive capabilities, they often struggle with extremely long contexts due to fixed context limits. To address this, sequential approaches like MemAgent extend the effective context by reading text in segments and iteratively updating a fixed-size memory. However, this sequential...",
+   "id": "d141af8f864bfe7c",
+   "title": "Nuha-Speech: Building General-Purpose Arabic Speech-LLMs",
+   "summary": "As Speech Large Language Models (speech-LLMs) become increasingly multilingual, Arabic remains significantly underrepresented, highlighting the need for dedicated infrastructure to train and evaluate Arabic speech-LLMs. To address this gap, we introduce Nuha-Speech, a comprehensive initiative to develop general-purpose Arabic speech-LLMs...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.10441v1",
-   "published": "2026-09-09",
+   "url": "https://arxiv.org/abs/2609.11892v1",
+   "published": "2026-09-10",
    "tags": [
     "paper",
     "llm",
-    "agents",
-    "reasoning"
+    "evaluation",
+    "multimodal"
    ]
   },
   {
-   "id": "e365abe4826eca19",
-   "title": "Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements",
-   "summary": "We determine the optimal sample complexity of low-rank quantum state tomography when each measurement may act jointly on at most $t$ samples. For sufficiently small $\\varepsilon$, estimating an unknown state on $\\mathbb{C}^d$ of rank at most $r$ to trace norm error $\\varepsilon$ with constant success probability requires, and is...",
+   "id": "0fdf75f4a6aff879",
+   "title": "TART: A Modular Tool for Technique-Aware Audio-to-Tablature Guitar Transcription",
+   "summary": "Automatic Music Transcription (AMT) for guitar remains limited by three challenges: existing systems often fail to capture expressive techniques such as slides, bends, and percussive hits; they often assign notes to incorrect string-fret combinations; and they are typically trained on clean recordings, limiting their generalization to...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.10514v1",
-   "published": "2026-09-09",
+   "url": "https://arxiv.org/abs/2609.11904v1",
+   "published": "2026-09-10",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "aaada63e998e3254",
-   "title": "The Work Now Within Reach",
-   "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+   "id": "4e410dad70fb9298",
+   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-work-now-within-reach",
-   "published": "2026-09-08",
+   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "published": "2026-09-10",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "c7aa58a9fa104d4a",
-   "title": "Planetary prediction engine: Automating global models via Earth AI",
-   "summary": "Earth AI",
+   "id": "14a087bdb5895e90",
+   "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+   "summary": "Data Management",
    "source": "Google Research",
-   "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
-   "published": "2026-08-27",
+   "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+   "published": "2026-08-31",
    "tags": [
     "research"
    ]
@@ -497,60 +497,64 @@
    ]
   },
   {
-   "id": "66fcfb0c3a84b42f",
-   "title": "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
-   "summary": "Today, Meta has introduced Muse, a personal AI agent that takes actions rather than just answering questions. Muse can send emails, book travel, negotiate bills, and pursue long term goals. It keeps working after you close the app and returns only when it needs approval. The bigger story for AI devs is architectural. Each user […] The...",
+   "id": "bd9b1cb0e4f1495e",
+   "title": "NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100",
+   "summary": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecular structure-prediction models on NVIDIA GPUs while staying in plain PyTorch. In a matched benchmark on 1,000 human dimer targets across 8xH100 GPUs, BioIR-accelerated Boltz-2 delivered 58.5K successfully folded residues per GPU-hour versus...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/",
-   "published": "2026-09-09",
+   "url": "https://www.marktechpost.com/2026/09/10/nvidia-details-bionemo-inference-runtime-bioir-2-90x-higher-boltz-2-folding-throughput-and-58-5k-residues-per-gpu-hour-on-8xh100/",
+   "published": "2026-09-10",
    "tags": [
     "industry",
+    "evaluation",
+    "serving"
+   ]
+  },
+  {
+   "id": "506eca95ae096a07",
+   "title": "Domain-Specific Hallucination Detection in Large Language Models",
+   "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-signal detection pipeline combining fine-tuned DeBERTa-v3 classification, Monte Carlo (MC) Dropout uncertainty quantification, and temperature-scaled calibration for response-level hallucination...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.11878v1",
+   "published": "2026-09-10",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "1f22bbea24fb39b3",
+   "title": "CausalArena: Benchmarking Causal Discovery in the Foundation Model Era",
+   "summary": "Causal discovery aims to uncover causal structures from data and is fundamental to scientific reasoning and intervention-based decision making. Its evaluation relies heavily on structural causal models (SCMs), which specify a causal graph together with the mechanisms that generate data, yet existing studies differ substantially in graph...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.11897v1",
+   "published": "2026-09-10",
+   "tags": [
+    "paper",
+    "evaluation",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "2b26a8066576cc98",
+   "title": "Introducing the Agents API",
+   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-the-agents-api",
+   "published": "2026-09-10",
+   "tags": [
+    "labs",
     "agents"
    ]
   },
   {
-   "id": "dcb2cb80d274b668",
-   "title": "Do speech foundation models really learn words?",
-   "summary": "Self-supervised speech foundation models are now used in a wide array of downstream applications, including traditional speech recognition and as the basis for tokens in speech-aware language models. Attempts to understand their usefulness have largely focused on probing their representations' ability to discriminate phonemes and words...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.10434v1",
-   "published": "2026-09-09",
-   "tags": [
-    "paper",
-    "llm",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "0f490d91b75555d3",
-   "title": "Quantum Feature Engineering for Credit Default Prediction: When and Why IQP Circuits Help Linear Classifiers",
-   "summary": "Credit default prediction is a tabular classification problem in which modest gains in F1 translate directly into reduced financial exposure. We ask whether Instantaneous Quantum Polynomial-time (IQP) circuits can produce features that improve a classifier over both its raw classical baseline and Kernel PCA - the strongest unsupervised...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.10505v1",
-   "published": "2026-09-09",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "305f03a4aa6aa16d",
-   "title": "Introducing ChatGPT Images 2.5",
-   "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-   "published": "2026-09-08",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "3d2661b661f5ed37",
-   "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-   "summary": "Health & Bioscience",
+   "id": "c7aa58a9fa104d4a",
+   "title": "Planetary prediction engine: Automating global models via Earth AI",
+   "summary": "Earth AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
-   "published": "2026-08-26",
+   "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+   "published": "2026-08-27",
    "tags": [
     "research"
    ]
@@ -602,62 +606,61 @@
    ]
   },
   {
-   "id": "991876c83dbecf40",
-   "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
-   "summary": "NVIDIA has announced CUDA Rust, a push to make Rust a first-class language for GPU kernels. Two open-source NVlabs projects cover the two CUDA programming models: cuda-oxide compiles SIMT kernels from Rust MIR through Pliron and LLVM to PTX, while cutile-rs JIT-compiles Tile kernels through CUDA Tile IR on stable Rust 1.89+. The post...",
+   "id": "bfa33a4a99d5c7e5",
+   "title": "OpenAI Launches the Agents API in Public Beta, Putting the Codex Harness Behind One API Call",
+   "summary": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastructure that run Codex. OpenAI hosts and maintains the harness. Developers run the agent’s compute in an OpenAI-managed sandbox, their own infrastructure, or a partner sandbox. Is it deployable? Yes. It is live for all developers in public...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
-   "published": "2026-09-08",
+   "url": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
+   "published": "2026-09-10",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
-   "id": "4cd13a3add298c93",
-   "title": "Can Foundation Models Moderate Online Content? Evaluating Instruction- vs. Example-Driven Policy Operationalization",
-   "summary": "The growing complexity of content moderation policies presents a critical challenge for their consistent operationalization. While foundation models possess the basic capabilities needed to confront this challenge, whether they can reliably moderate online content remains an unanswered question. In this paper, we systematically compare...",
+   "id": "155962bf6ebb8f1f",
+   "title": "Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens",
+   "summary": "Many biological discovery problems require experiments to be selected sequentially under constrained budgets. CRISPR screening is a prominent example, as exhaustive perturbation testing is often infeasible and candidate perturbations must instead be prioritized over multiple experimental rounds. Despite the importance of this problem...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.10410v1",
-   "published": "2026-09-09",
+   "url": "https://arxiv.org/abs/2609.11877v1",
+   "published": "2026-09-10",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "e1092d2ff831ca65",
+   "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
+   "summary": "Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implement the radar forward model directly with explicit material...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.11894v1",
+   "published": "2026-09-10",
    "tags": [
     "paper",
     "evaluation"
    ]
   },
   {
-   "id": "e8e032371f06103a",
-   "title": "Cross-Model Agreement as a Deployment-Time Reliability Signal for Automatic Polyp Segmentation",
-   "summary": "In real-time colonoscopy, ground-truth annotations are unavailable at inference, so polyp segmentation models can fail silently. We propose Referee-Based Quality Estimation (RBQE), a reference-free framework measuring agreement between a primary segmentation model and an independently trained referee on the same image. RBQE is evaluated...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.10495v1",
+   "id": "9786c92a289dc0ec",
+   "title": "The AI policy window is open. We need to act.",
+   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/ai-policy-window",
    "published": "2026-09-09",
    "tags": [
-    "paper",
-    "evaluation",
-    "serving"
+    "labs",
+    "safety"
    ]
   },
   {
-   "id": "fbb79928f7d9c051",
-   "title": "On the Navier–Stokes Millennium Prize Problem",
-   "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/navier-stokes-solution",
-   "published": "2026-09-08",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "2f6c0598123071e3",
-   "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-   "summary": "Human-Computer Interaction and Visualization",
+   "id": "3d2661b661f5ed37",
+   "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
-   "published": "2026-08-25",
+   "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+   "published": "2026-08-26",
    "tags": [
-    "research",
-    "agents"
+    "research"
    ]
   },
   {
