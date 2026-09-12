@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-11",
- "generatedAt": "2026-09-11T11:31:05+00:00",
- "sourceCount": 9,
+ "generated": "2026-09-12",
+ "generatedAt": "2026-09-12T10:55:39+00:00",
+ "sourceCount": 8,
  "items": [
   {
-   "id": "014159943e4d9643",
-   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+   "id": "12e9dd6851803557",
+   "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+   "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-   "published": "2026-09-10",
+   "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+   "published": "2026-09-14",
    "tags": [
     "labs",
     "llm"
@@ -50,12 +50,12 @@
    ]
   },
   {
-   "id": "21197f2a642024bf",
-   "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
-   "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
+   "id": "75ddcd67e5aa8556",
+   "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+   "summary": "The handheld catheterization device AI-GUIDE, created by Lincoln Laboratory and Massachusetts General Hospital, promises improved health outcomes for injured service members and civilians.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
-   "published": "2026-09-09",
+   "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+   "published": "2026-09-11",
    "tags": [
     "research"
    ]
@@ -71,19 +71,6 @@
     "newsletter",
     "llm",
     "reasoning"
-   ]
-  },
-  {
-   "id": "6d290a9bc68fc246",
-   "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
-   "summary": "Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine translation across 50 languages. It uses 25B of its 218B parameters per token and scores 83.6 on Cohere's WMT26 evaluation. Weights are free for non-commercial use, with commercial access through Cohere Model Vault or RWS Language Weaver...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/",
-   "published": "2026-09-11",
-   "tags": [
-    "industry",
-    "llm",
-    "evaluation"
    ]
   },
   {
@@ -110,16 +97,16 @@
    ]
   },
   {
-   "id": "4d4e7920d8a762a2",
-   "title": "Now everyone can put data to work",
-   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+   "id": "c7d3c8aeae425678",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+   "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/put-data-to-work",
-   "published": "2026-09-10",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+   "published": "2026-09-11",
    "tags": [
     "labs",
     "llm",
-    "agents"
+    "serving"
    ]
   },
   {
@@ -156,12 +143,12 @@
    ]
   },
   {
-   "id": "569889965fd0fb38",
-   "title": "From MIT to IBM, expediting AI and quantum deployment",
-   "summary": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
+   "id": "21197f2a642024bf",
+   "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+   "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
-   "published": "2026-09-02",
+   "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+   "published": "2026-09-09",
    "tags": [
     "research"
    ]
@@ -175,18 +162,6 @@
    "published": "2026-08-22",
    "tags": [
     "newsletter"
-   ]
-  },
-  {
-   "id": "8ed3ef727733575a",
-   "title": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
-   "summary": "Sakana AI has released Fugu Max and Fugu Ultra v2, 2 models built on the same learned orchestration architecture. Fugu Max routes tasks to lean open and specialized models, including NVIDIA Nemotron, at $2/$6 per 1M tokens. Fugu Ultra v2 targets peak capability, scoring 48.3 on Chartography and 74.3 on DeepSWE. The post Sakana AI...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
-   "published": "2026-09-11",
-   "tags": [
-    "industry",
-    "agents"
    ]
   },
   {
@@ -215,12 +190,12 @@
    ]
   },
   {
-   "id": "016c3ec9b775a98e",
-   "title": "Introducing ChatGPT for Financial Services",
-   "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+   "id": "c3aa33826442d0f0",
+   "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+   "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-   "published": "2026-09-10",
+   "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+   "published": "2026-09-11",
    "tags": [
     "labs",
     "llm"
@@ -261,15 +236,14 @@
    ]
   },
   {
-   "id": "12bff037b7e74c13",
-   "title": "System helps humans predict when self-driving cars will make mistakes",
-   "summary": "A new method, called CW-Net, translates the reasoning process of an autonomous vehicle’s AI system into understandable concepts that explain its behavior.",
+   "id": "569889965fd0fb38",
+   "title": "From MIT to IBM, expediting AI and quantum deployment",
+   "summary": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+   "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
    "published": "2026-09-02",
    "tags": [
-    "research",
-    "reasoning"
+    "research"
    ]
   },
   {
@@ -281,18 +255,6 @@
    "published": "2026-08-15",
    "tags": [
     "newsletter"
-   ]
-  },
-  {
-   "id": "68979a3810985dea",
-   "title": "Google Research Releases ToolGrad: Answer-First Framework Hits 99.8% Pass Rate for Tool-Use Data Generation",
-   "summary": "Google Research has released ToolGrad, an ACL 2026 Findings framework that inverts tool-use dataset generation: it builds a verified API chain first, then writes the matching user query. Guided by textual \"gradients\" from a 4-module propose-execute-select-update loop, ToolGrad reaches a 99.8% pass rate on ToolBench versus 63.8% for DFS...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8-pass-rate-for-tool-use-data-generation/",
-   "published": "2026-09-11",
-   "tags": [
-    "industry",
-    "agents"
    ]
   },
   {
@@ -320,14 +282,15 @@
    ]
   },
   {
-   "id": "1ef5285e671d0ace",
-   "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-   "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+   "id": "014159943e4d9643",
+   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/expanding-ai-access-us-government",
+   "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
    "published": "2026-09-10",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -365,14 +328,15 @@
    ]
   },
   {
-   "id": "aaaa8fc91eb96bba",
-   "title": "Walter Torous named executive director of MIT Center for Real Estate",
-   "summary": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
+   "id": "12bff037b7e74c13",
+   "title": "System helps humans predict when self-driving cars will make mistakes",
+   "summary": "A new method, called CW-Net, translates the reasoning process of an autonomous vehicle’s AI system into understandable concepts that explain its behavior.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
-   "published": "2026-09-01",
+   "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+   "published": "2026-09-02",
    "tags": [
-    "research"
+    "research",
+    "reasoning"
    ]
   },
   {
@@ -386,19 +350,6 @@
     "newsletter",
     "llm",
     "reasoning"
-   ]
-  },
-  {
-   "id": "c81ff14720ee06f9",
-   "title": "Meet Redis LangCache: A Managed Semantic Cache That Cuts LLM API Costs by Up to 90% and Returns Cache Hits Up to 15x Faster",
-   "summary": "Production LLM applications rarely receive a question nobody has asked before. Support assistants and RAG pipelines field the same intents thousands of times a day, each phrased differently, and most stacks treat every phrasing as a fresh, fully billed request. Redis LangCache is a fully managed semantic caching service that sits between...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/10/meet-redis-langcache-a-managed-semantic-cache-that-cuts-llm-api-costs-by-up-to-90-and-returns-cache-hits-up-to-15x-faster/",
-   "published": "2026-09-10",
-   "tags": [
-    "industry",
-    "rag",
-    "llm"
    ]
   },
   {
@@ -427,15 +378,16 @@
    ]
   },
   {
-   "id": "4e410dad70fb9298",
-   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+   "id": "4d4e7920d8a762a2",
+   "title": "Now everyone can put data to work",
+   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "url": "https://openai.com/index/put-data-to-work",
    "published": "2026-09-10",
    "tags": [
     "labs",
-    "llm"
+    "llm",
+    "agents"
    ]
   },
   {
@@ -474,11 +426,11 @@
    ]
   },
   {
-   "id": "6fe323e48c553697",
-   "title": "Ila Kumar: Innovating with communities",
-   "summary": "The PhD student works to give young people an active role in shaping digital technologies that can support their own well-being.",
+   "id": "aaaa8fc91eb96bba",
+   "title": "Walter Torous named executive director of MIT Center for Real Estate",
+   "summary": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
+   "url": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
    "published": "2026-09-01",
    "tags": [
     "research"
@@ -494,19 +446,6 @@
    "tags": [
     "newsletter",
     "agents"
-   ]
-  },
-  {
-   "id": "bd9b1cb0e4f1495e",
-   "title": "NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100",
-   "summary": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecular structure-prediction models on NVIDIA GPUs while staying in plain PyTorch. In a matched benchmark on 1,000 human dimer targets across 8xH100 GPUs, BioIR-accelerated Boltz-2 delivered 58.5K successfully folded residues per GPU-hour versus...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/10/nvidia-details-bionemo-inference-runtime-bioir-2-90x-higher-boltz-2-folding-throughput-and-58-5k-residues-per-gpu-hour-on-8xh100/",
-   "published": "2026-09-10",
-   "tags": [
-    "industry",
-    "evaluation",
-    "serving"
    ]
   },
   {
@@ -537,15 +476,15 @@
    ]
   },
   {
-   "id": "2b26a8066576cc98",
-   "title": "Introducing the Agents API",
-   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+   "id": "016c3ec9b775a98e",
+   "title": "Introducing ChatGPT for Financial Services",
+   "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-the-agents-api",
+   "url": "https://openai.com/index/introducing-chatgpt-financial-services",
    "published": "2026-09-10",
    "tags": [
     "labs",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -583,12 +522,12 @@
    ]
   },
   {
-   "id": "f4d129304bdd7b6e",
-   "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
-   "summary": "The Institute welcomes its first cohort of QMIT Fellows this fall to advance interdisciplinary quantum research.",
+   "id": "6fe323e48c553697",
+   "title": "Ila Kumar: Innovating with communities",
+   "summary": "The PhD student works to give young people an active role in shaping digital technologies that can support their own well-being.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-quantum-initiative-launches-postdoctoral-fellowship-0831",
-   "published": "2026-08-31",
+   "url": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
+   "published": "2026-09-01",
    "tags": [
     "research"
    ]
@@ -603,18 +542,6 @@
    "tags": [
     "newsletter",
     "llm"
-   ]
-  },
-  {
-   "id": "bfa33a4a99d5c7e5",
-   "title": "OpenAI Launches the Agents API in Public Beta, Putting the Codex Harness Behind One API Call",
-   "summary": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastructure that run Codex. OpenAI hosts and maintains the harness. Developers run the agent’s compute in an OpenAI-managed sandbox, their own infrastructure, or a partner sandbox. Is it deployable? Yes. It is live for all developers in public...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
-   "published": "2026-09-10",
-   "tags": [
-    "industry",
-    "agents"
    ]
   },
   {
@@ -641,15 +568,14 @@
    ]
   },
   {
-   "id": "9786c92a289dc0ec",
-   "title": "The AI policy window is open. We need to act.",
-   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+   "id": "1ef5285e671d0ace",
+   "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+   "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/ai-policy-window",
-   "published": "2026-09-09",
+   "url": "https://openai.com/index/expanding-ai-access-us-government",
+   "published": "2026-09-10",
    "tags": [
-    "labs",
-    "safety"
+    "labs"
    ]
   },
   {
@@ -687,11 +613,11 @@
    ]
   },
   {
-   "id": "684febbb94ebd3f4",
-   "title": "How an MIT research project became a global programming language",
-   "summary": "With millions of users across the world, Julia has been used to conduct cutting-edge research and to design new drugs, jet engines, heat pumps, and more.",
+   "id": "f4d129304bdd7b6e",
+   "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
+   "summary": "The Institute welcomes its first cohort of QMIT Fellows this fall to advance interdisciplinary quantum research.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+   "url": "https://news.mit.edu/2026/mit-quantum-initiative-launches-postdoctoral-fellowship-0831",
    "published": "2026-08-31",
    "tags": [
     "research"
@@ -707,6 +633,78 @@
    "tags": [
     "newsletter",
     "llm"
+   ]
+  },
+  {
+   "id": "59e23087cf2a5209",
+   "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+   "summary": "Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement. We first use the Headroom-Closed Index (HCI) to reveal the problems of existing LLMs, then introduce the RSI concept and its development roadmap: from...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.11873v1",
+   "published": "2026-09-10",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "78c8a58b12b142b3",
+   "title": "CoRA-NAS: Coarse Ranking and Anchor-Residual Refinement for Neural Architecture Search",
+   "summary": "Zero-cost proxies rank architectures cheaply, but their reliability varies across search spaces. We introduce CoRA-NAS (COarse Ranking + Anchor-residual), a two-stage framework combining a static ranking prior with low-cost learning-curve refinement. CoRA-Rank aggregates capacity and structure-at-initialization proxies through an...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.11884v1",
+   "published": "2026-09-10",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "4e410dad70fb9298",
+   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "published": "2026-09-10",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "2f6c0598123071e3",
+   "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+   "summary": "Human-Computer Interaction and Visualization",
+   "source": "Google Research",
+   "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+   "published": "2026-08-25",
+   "tags": [
+    "research",
+    "agents"
+   ]
+  },
+  {
+   "id": "83abfc082897739b",
+   "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+   "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+   "published": "2026-08-26",
+   "tags": [
+    "labs",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "23bdbfdbd061867c",
+   "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/allenai/benchmirt",
+   "published": "2026-09-01",
+   "tags": [
+    "open-source",
+    "llm",
+    "evaluation"
    ]
   }
  ]
