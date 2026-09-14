@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-13",
- "generatedAt": "2026-09-13T12:01:19+00:00",
+ "generated": "2026-09-14",
+ "generatedAt": "2026-09-14T13:00:25+00:00",
  "sourceCount": 6,
  "items": [
   {
@@ -39,25 +39,27 @@
    ]
   },
   {
-   "id": "cb50b0c3c8564548",
-   "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+   "id": "d4e55a9164f4783e",
+   "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/gradio-workflow-1111",
+   "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
    "published": "2026-09-10",
    "tags": [
-    "open-source"
+    "open-source",
+    "fine-tuning"
    ]
   },
   {
-   "id": "75ddcd67e5aa8556",
-   "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
-   "summary": "The handheld catheterization device AI-GUIDE, created by Lincoln Laboratory and Massachusetts General Hospital, promises improved health outcomes for injured service members and civilians.",
+   "id": "1ccfa6a4e947b14e",
+   "title": "New method enables AI for safety-critical situations",
+   "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
-   "published": "2026-09-11",
+   "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+   "published": "2026-09-14",
    "tags": [
-    "research"
+    "research",
+    "safety"
    ]
   },
   {
@@ -109,23 +111,23 @@
    ]
   },
   {
-   "id": "e8608e40b7228951",
-   "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+   "id": "cb50b0c3c8564548",
+   "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-   "published": "2026-09-09",
+   "url": "https://huggingface.co/blog/gradio-workflow-1111",
+   "published": "2026-09-10",
    "tags": [
     "open-source"
    ]
   },
   {
-   "id": "21197f2a642024bf",
-   "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
-   "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
+   "id": "66754acdaab8b6fb",
+   "title": "MIT spinout turns plastic waste into resilient building materials",
+   "summary": "Atlas Building Composites is commercializing MIT research to turn plastic waste into parts for buildings and other infrastructure.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
-   "published": "2026-09-09",
+   "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+   "published": "2026-09-14",
    "tags": [
     "research"
    ]
@@ -176,24 +178,23 @@
    ]
   },
   {
-   "id": "4f420d1c5cd0cb94",
-   "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+   "id": "e8608e40b7228951",
+   "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-   "published": "2026-09-08",
+   "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+   "published": "2026-09-09",
    "tags": [
-    "open-source",
-    "safety"
+    "open-source"
    ]
   },
   {
-   "id": "569889965fd0fb38",
-   "title": "From MIT to IBM, expediting AI and quantum deployment",
-   "summary": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
+   "id": "75ddcd67e5aa8556",
+   "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+   "summary": "The handheld catheterization device AI-GUIDE, created by Lincoln Laboratory and Massachusetts General Hospital, promises improved health outcomes for injured service members and civilians.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
-   "published": "2026-09-02",
+   "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+   "published": "2026-09-11",
    "tags": [
     "research"
    ]
@@ -244,27 +245,26 @@
    ]
   },
   {
-   "id": "96a3500c5a4b2fb7",
-   "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+   "id": "4f420d1c5cd0cb94",
+   "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Hcompany/neomme",
-   "published": "2026-09-03",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+   "published": "2026-09-08",
    "tags": [
     "open-source",
-    "multimodal"
+    "safety"
    ]
   },
   {
-   "id": "12bff037b7e74c13",
-   "title": "System helps humans predict when self-driving cars will make mistakes",
-   "summary": "A new method, called CW-Net, translates the reasoning process of an autonomous vehicle’s AI system into understandable concepts that explain its behavior.",
+   "id": "21197f2a642024bf",
+   "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+   "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
-   "published": "2026-09-02",
+   "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+   "published": "2026-09-09",
    "tags": [
-    "research",
-    "reasoning"
+    "research"
    ]
   },
   {
@@ -317,24 +317,24 @@
    ]
   },
   {
-   "id": "45020768fad998be",
-   "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+   "id": "96a3500c5a4b2fb7",
+   "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+   "url": "https://huggingface.co/blog/Hcompany/neomme",
    "published": "2026-09-03",
    "tags": [
     "open-source",
-    "fine-tuning"
+    "multimodal"
    ]
   },
   {
-   "id": "aaaa8fc91eb96bba",
-   "title": "Walter Torous named executive director of MIT Center for Real Estate",
-   "summary": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
+   "id": "569889965fd0fb38",
+   "title": "From MIT to IBM, expediting AI and quantum deployment",
+   "summary": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
-   "published": "2026-09-01",
+   "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+   "published": "2026-09-02",
    "tags": [
     "research"
    ]
@@ -386,26 +386,27 @@
    ]
   },
   {
-   "id": "86b47b47cb7422fd",
-   "title": "Give Your Coding Agents a Memory You Own",
+   "id": "45020768fad998be",
+   "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/funes",
+   "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
    "published": "2026-09-03",
    "tags": [
     "open-source",
-    "agents"
+    "fine-tuning"
    ]
   },
   {
-   "id": "6fe323e48c553697",
-   "title": "Ila Kumar: Innovating with communities",
-   "summary": "The PhD student works to give young people an active role in shaping digital technologies that can support their own well-being.",
+   "id": "12bff037b7e74c13",
+   "title": "System helps humans predict when self-driving cars will make mistakes",
+   "summary": "A new method, called CW-Net, translates the reasoning process of an autonomous vehicle’s AI system into understandable concepts that explain its behavior.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
-   "published": "2026-09-01",
+   "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+   "published": "2026-09-02",
    "tags": [
-    "research"
+    "research",
+    "reasoning"
    ]
   },
   {
@@ -455,23 +456,24 @@
    ]
   },
   {
-   "id": "b844bdeeb825fb68",
-   "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+   "id": "86b47b47cb7422fd",
+   "title": "Give Your Coding Agents a Memory You Own",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/train-to-paint-with-code",
+   "url": "https://huggingface.co/blog/funes",
    "published": "2026-09-03",
    "tags": [
-    "open-source"
+    "open-source",
+    "agents"
    ]
   },
   {
-   "id": "f4d129304bdd7b6e",
-   "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
-   "summary": "The Institute welcomes its first cohort of QMIT Fellows this fall to advance interdisciplinary quantum research.",
+   "id": "aaaa8fc91eb96bba",
+   "title": "Walter Torous named executive director of MIT Center for Real Estate",
+   "summary": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-quantum-initiative-launches-postdoctoral-fellowship-0831",
-   "published": "2026-08-31",
+   "url": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
+   "published": "2026-09-01",
    "tags": [
     "research"
    ]
@@ -489,15 +491,15 @@
    ]
   },
   {
-   "id": "4e410dad70fb9298",
-   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+   "id": "2b26a8066576cc98",
+   "title": "Introducing the Agents API",
+   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "url": "https://openai.com/index/introducing-the-agents-api",
    "published": "2026-09-10",
    "tags": [
     "labs",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -525,25 +527,23 @@
    ]
   },
   {
-   "id": "23bdbfdbd061867c",
-   "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+   "id": "b844bdeeb825fb68",
+   "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/benchmirt",
-   "published": "2026-09-01",
+   "url": "https://huggingface.co/blog/train-to-paint-with-code",
+   "published": "2026-09-03",
    "tags": [
-    "open-source",
-    "llm",
-    "evaluation"
+    "open-source"
    ]
   },
   {
-   "id": "684febbb94ebd3f4",
-   "title": "How an MIT research project became a global programming language",
-   "summary": "With millions of users across the world, Julia has been used to conduct cutting-edge research and to design new drugs, jet engines, heat pumps, and more.",
+   "id": "6fe323e48c553697",
+   "title": "Ila Kumar: Innovating with communities",
+   "summary": "The PhD student works to give young people an active role in shaping digital technologies that can support their own well-being.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
-   "published": "2026-08-31",
+   "url": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
+   "published": "2026-09-01",
    "tags": [
     "research"
    ]
@@ -561,15 +561,15 @@
    ]
   },
   {
-   "id": "2b26a8066576cc98",
-   "title": "Introducing the Agents API",
-   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+   "id": "4e410dad70fb9298",
+   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-the-agents-api",
+   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
    "published": "2026-09-10",
    "tags": [
     "labs",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -595,23 +595,25 @@
    ]
   },
   {
-   "id": "85562dc16345cc8b",
-   "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+   "id": "23bdbfdbd061867c",
+   "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/webgpu-kernels",
+   "url": "https://huggingface.co/blog/allenai/benchmirt",
    "published": "2026-09-01",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm",
+    "evaluation"
    ]
   },
   {
-   "id": "9f44453224e48649",
-   "title": "Looking beyond natural sequences",
-   "summary": "A new machine-learning framework aims to improve the success rate of computational protein design while moving away from results that reproduce sequences found in nature.",
+   "id": "f4d129304bdd7b6e",
+   "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
+   "summary": "The Institute welcomes its first cohort of QMIT Fellows this fall to advance interdisciplinary quantum research.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/looking-beyond-natural-sequences-0827",
-   "published": "2026-08-27",
+   "url": "https://news.mit.edu/2026/mit-quantum-initiative-launches-postdoctoral-fellowship-0831",
+   "published": "2026-08-31",
    "tags": [
     "research"
    ]
@@ -665,24 +667,23 @@
    ]
   },
   {
-   "id": "b0b2c2da12a5bc45",
-   "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+   "id": "85562dc16345cc8b",
+   "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-   "published": "2026-08-28",
+   "url": "https://huggingface.co/blog/webgpu-kernels",
+   "published": "2026-09-01",
    "tags": [
-    "open-source",
-    "evaluation"
+    "open-source"
    ]
   },
   {
-   "id": "82377b191bcdee0b",
-   "title": "AI helps design new materials that work in the real world",
-   "summary": "The “CrysVCD” tool developed at MIT could cut the huge amounts of time and money spent on screening out chemically unstable designs.",
+   "id": "684febbb94ebd3f4",
+   "title": "How an MIT research project became a global programming language",
+   "summary": "With millions of users across the world, Julia has been used to conduct cutting-edge research and to design new drugs, jet engines, heat pumps, and more.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
-   "published": "2026-08-26",
+   "url": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+   "published": "2026-08-31",
    "tags": [
     "research"
    ]
