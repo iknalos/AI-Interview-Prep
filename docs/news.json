@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-16",
- "generatedAt": "2026-09-16T11:46:19+00:00",
- "sourceCount": 9,
+ "generated": "2026-09-17",
+ "generatedAt": "2026-09-17T11:50:28+00:00",
+ "sourceCount": 8,
  "items": [
   {
-   "id": "296d33defd03a1b2",
-   "title": "How Fyxer built an AI executive assistant people trust",
-   "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+   "id": "027811ca1632d0f5",
+   "title": "Helping older adults use AI in everyday life",
+   "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/fyxer",
-   "published": "2026-09-14",
+   "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+   "published": "2026-09-16",
    "tags": [
     "labs",
-    "fine-tuning"
+    "llm"
    ]
   },
   {
@@ -51,11 +51,11 @@
    ]
   },
   {
-   "id": "fce5c946628f0281",
-   "title": "Measure by measure, studying society accurately",
-   "summary": "Naoki Egami has become a standout in political methodology, helping refine tools that give scholars durable results.",
+   "id": "3a5713cd1d2196f2",
+   "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+   "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+   "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
    "published": "2026-09-16",
    "tags": [
     "research"
@@ -75,52 +75,39 @@
    ]
   },
   {
-   "id": "f2ed83dc86575672",
-   "title": "Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings",
-   "summary": "Prior Labs released TabPFN-3.5, a tabular foundation model pretrained only on synthetic data that beats Otto's winning solution. The post Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings appeared first on MarkTechPost .",
+   "id": "a4a0c854775227d9",
+   "title": "OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training",
+   "summary": "OpenAI can disclose misalignment before fixes exist. Its 6 initial reports include fabricated data and leaked API keys. The post OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/15/prior-labs-releases-tabpfn-3-5-a-tabular-foundation-model-that-beats-the-winning-otto-kaggle-solution-with-default-settings/",
+   "url": "https://www.marktechpost.com/2026/09/17/openai-releases-a-model-misalignment-disclosure-framework-with-3-review-tracks-and-6-incident-reports-from-rl-training/",
+   "published": "2026-09-17",
+   "tags": [
+    "industry",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "5ee0c9c9c8a5e47c",
+   "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+   "summary": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. log-likelihood) and their search procedure (bottom-up merging vs. top-down pruning). Existing comparisons confound these axes, making it...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.19145v1",
    "published": "2026-09-16",
    "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "081665d6ed5d6ce6",
-   "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
-   "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.17523v1",
-   "published": "2026-09-15",
-   "tags": [
     "paper",
-    "evaluation",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "f44d8e3cc6d173d3",
-   "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
-   "summary": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a promising approach for uncertainty...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.17499v1",
-   "published": "2026-09-15",
-   "tags": [
-    "paper",
-    "agents",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "12e9dd6851803557",
-   "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-   "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+   "id": "52752974efc060af",
+   "title": "Reimagining advertising with AI",
+   "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-   "published": "2026-09-14",
+   "url": "https://openai.com/index/reimagining-advertising-with-ai",
+   "published": "2026-09-16",
    "tags": [
     "labs",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -159,15 +146,14 @@
    ]
   },
   {
-   "id": "1ccfa6a4e947b14e",
-   "title": "New method enables AI for safety-critical situations",
-   "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
+   "id": "fce5c946628f0281",
+   "title": "Measure by measure, studying society accurately",
+   "summary": "Naoki Egami has become a standout in political methodology, helping refine tools that give scholars durable results.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
-   "published": "2026-09-14",
+   "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+   "published": "2026-09-16",
    "tags": [
-    "research",
-    "safety"
+    "research"
    ]
   },
   {
@@ -182,51 +168,42 @@
    ]
   },
   {
-   "id": "21d426de88e0e33f",
-   "title": "Nums AI Releases Causilo: A Tabular Foundation Model That Tops TabArena Among Single Models",
-   "summary": "Nums AI has released Causilo, a pretrained tabular foundation model for classification and regression with a scikit-learn interface. It posts the top TabArena Elo among single models, ahead of Google's TabFM and LG's EXAONE Tabular. The code is Apache-2.0, while weights are licensed for non-commercial research. The post Nums AI Releases...",
+   "id": "e7ba0941a3e72279",
+   "title": "Google Research Introduces Retrieve-for-Train (R4T): An RL-Compiled Diffusion Retriever for 12× to 20× Faster Query Fan-Out",
+   "summary": "Google Research has introduced Retrieve-for-Train (R4T), a framework for search that returns coherent, diverse result sets. It trains a fan-out language model with RL once, using groundedness, diversity, and alignment rewards. That model then synthesizes training data for a 53.9M-parameter diffusion retriever. The retriever generates all...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/15/nums-ai-releases-causilo-a-tabular-foundation-model-that-tops-tabarena-among-single-models/",
-   "published": "2026-09-16",
+   "url": "https://www.marktechpost.com/2026/09/16/google-research-introduces-retrieve-for-train-r4t-an-rl-compiled-diffusion-retriever-for-12x-to-20x-faster-query-fan-out/",
+   "published": "2026-09-17",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "fine-tuning",
+    "multimodal"
    ]
   },
   {
-   "id": "9d168e2ac1759cdb",
-   "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
-   "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen...",
+   "id": "a06a9a801335997d",
+   "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+   "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margins. In this paper, we propose and...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.17516v1",
-   "published": "2026-09-15",
+   "url": "https://arxiv.org/abs/2609.19144v1",
+   "published": "2026-09-16",
    "tags": [
     "paper",
     "llm",
-    "evaluation"
+    "fine-tuning"
    ]
   },
   {
-   "id": "068b63b467214ece",
-   "title": "FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection",
-   "summary": "Unauthorized hardware replacement can preserve a wireless device's logical identity while altering its physical implementation, posing a challenge to hardware integrity verification. Spatio-frequency polarization fingerprints (SFPFs) capture device-dependent responses across multiple frequencies and directions, but their frequency and...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.17491v1",
-   "published": "2026-09-15",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "c7d3c8aeae425678",
-   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-   "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+   "id": "5f7e182a53f2403b",
+   "title": "How to connect AI usage to business value",
+   "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-   "published": "2026-09-11",
+   "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+   "published": "2026-09-16",
    "tags": [
     "labs",
-    "llm",
-    "serving"
+    "llm"
    ]
   },
   {
@@ -263,14 +240,15 @@
    ]
   },
   {
-   "id": "66754acdaab8b6fb",
-   "title": "MIT spinout turns plastic waste into resilient building materials",
-   "summary": "Atlas Building Composites is commercializing MIT research to turn plastic waste into parts for buildings and other infrastructure.",
+   "id": "1ccfa6a4e947b14e",
+   "title": "New method enables AI for safety-critical situations",
+   "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+   "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
    "published": "2026-09-14",
    "tags": [
-    "research"
+    "research",
+    "safety"
    ]
   },
   {
@@ -285,51 +263,42 @@
    ]
   },
   {
-   "id": "29ff9c9d898ce189",
-   "title": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
-   "summary": "Learn how to leverage NVIDIA’s cuDNN Frontend Graph API to build custom kernel fusions, autotuning engine configurations, FP8-style epilogues, scaled dot-product attention, dynamic shapes, and CUDA graph captures. This practical tutorial demonstrates how to optimize deep learning computations directly below framework abstractions while...",
+   "id": "ffabc2293e558486",
+   "title": "Nunchux AI Introduces VC-Attention: A Training-Free Low-Bit Attention Kernel That Speeds Up Video Diffusion Transformers",
+   "summary": "Nunchux AI has released VC-Attention, a training-free low-bit attention kernel built for video Diffusion Transformers (DiTs). It targets 2 problems at once: value quantization error and a slow softmax stage. Why Attention is the Video Bottleneck Video DiTs flatten a clip into 1 sequence of spatiotemporal tokens and run full...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/15/inside-nvidias-cudnn-graph-api-fusion-autotuning-and-plan-reuse-with-cudnn-frontend/",
-   "published": "2026-09-15",
+   "url": "https://www.marktechpost.com/2026/09/16/nunchux-ai-introduces-vc-attention-a-training-free-low-bit-attention-kernel-that-speeds-up-video-diffusion-transformers/",
+   "published": "2026-09-17",
    "tags": [
     "industry",
-    "llm"
+    "llm",
+    "serving",
+    "multimodal"
    ]
   },
   {
-   "id": "801edc7f3baedc6b",
-   "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
-   "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool calling across four LLMs spanning dense Transformer, dense hybrid, and mixture-of-experts (MoE) architectures, together...",
+   "id": "0e6d747ca03e9206",
+   "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+   "summary": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that combine dense captioning with...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.17515v1",
-   "published": "2026-09-15",
+   "url": "https://arxiv.org/abs/2609.19143v1",
+   "published": "2026-09-16",
    "tags": [
     "paper",
     "llm",
-    "evaluation"
+    "multimodal"
    ]
   },
   {
-   "id": "7cc34738a4963ad2",
-   "title": "Bridging the Gap Between Homogeneous and Heterogeneous Asynchronous Optimization Is Surprisingly Difficult",
-   "summary": "Modern large-scale machine learning tasks often require multiple workers, devices, CPUs, or GPUs to compute stochastic gradients in parallel and asynchronously to train model weights. Theoretical results typically distinguish between two settings: (i) the homogeneous setting, where all workers have access to the same data distribution...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.17483v1",
-   "published": "2026-09-15",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "c3aa33826442d0f0",
-   "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-   "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+   "id": "bbe6c30a33c9c72e",
+   "title": "Our framework for reporting model misalignment",
+   "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-   "published": "2026-09-11",
+   "url": "https://openai.com/index/model-misalignment-reporting-framework",
+   "published": "2026-09-16",
    "tags": [
     "labs",
-    "llm"
+    "fine-tuning"
    ]
   },
   {
@@ -367,12 +336,12 @@
    ]
   },
   {
-   "id": "75ddcd67e5aa8556",
-   "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
-   "summary": "The handheld catheterization device AI-GUIDE, created by Lincoln Laboratory and Massachusetts General Hospital, promises improved health outcomes for injured service members and civilians.",
+   "id": "66754acdaab8b6fb",
+   "title": "MIT spinout turns plastic waste into resilient building materials",
+   "summary": "Atlas Building Composites is commercializing MIT research to turn plastic waste into parts for buildings and other infrastructure.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
-   "published": "2026-09-11",
+   "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+   "published": "2026-09-14",
    "tags": [
     "research"
    ]
@@ -391,51 +360,38 @@
    ]
   },
   {
-   "id": "102174692e5abf24",
-   "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
-   "summary": "Google has released Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, its most advanced live dialogue models to date. The models execute tools and API calls in the background while the conversation keeps flowing, process live visual inputs, and switch between 97 languages mid conversation. Extended Thinking ranks #1 on Artificial...",
+   "id": "191d08c1042dff8b",
+   "title": "Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data",
+   "summary": "Paper2Agent, published in Nature, converts papers into validated MCP tools, scoring 91.2% on 300 questions across 74 papers. The post Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
-   "published": "2026-09-15",
+   "url": "https://www.marktechpost.com/2026/09/16/stanford-researchers-release-paper2agent-turning-research-papers-into-ai-agents-that-reproduce-results-and-run-on-new-data/",
+   "published": "2026-09-16",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "ed7e0f9c5607ecb8",
-   "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
-   "summary": "Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together. However, most prior methods either...",
+   "id": "c934e533b7f3b539",
+   "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+   "summary": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge difficult to convert into reliable learning experience-a challenge we call the scientific experience bottleneck. We...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.17509v1",
-   "published": "2026-09-15",
+   "url": "https://arxiv.org/abs/2609.19134v1",
+   "published": "2026-09-16",
    "tags": [
     "paper",
-    "llm",
-    "multimodal"
+    "agents"
    ]
   },
   {
-   "id": "af117557001167e7",
-   "title": "Bias-Induced Crossover in Absolute Capacity of Dense Associative Memory",
-   "summary": "The absolute capacity of dense associative memory has mainly been analyzed for unbiased patterns. Here we examine the effect of bias in centered binary patterns under the Krotov-Hopfield single-site criterion $P_{\\mathrm{error}}=1/N$, where $P_{\\mathrm{error}}$ is the probability that a single-site flip lowers the energy of a stored...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.17477v1",
-   "published": "2026-09-15",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "014159943e4d9643",
-   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+   "id": "71646fffd914b496",
+   "title": "How workers are unlocking new ways of working",
+   "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-   "published": "2026-09-10",
+   "url": "https://openai.com/index/unlocking-new-ways-of-working",
+   "published": "2026-09-16",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -473,12 +429,12 @@
    ]
   },
   {
-   "id": "21197f2a642024bf",
-   "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
-   "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
+   "id": "75ddcd67e5aa8556",
+   "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+   "summary": "The handheld catheterization device AI-GUIDE, created by Lincoln Laboratory and Massachusetts General Hospital, promises improved health outcomes for injured service members and civilians.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
-   "published": "2026-09-09",
+   "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+   "published": "2026-09-11",
    "tags": [
     "research"
    ]
@@ -496,54 +452,41 @@
    ]
   },
   {
-   "id": "7fcb9061ae12394f",
-   "title": "Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second",
-   "summary": "Meta engineering team introduced ZGateway, a proxy tier that now sits between client applications and ZippyDB, the Meta’s most widely used key value store. ZippyDB backs product metadata, counters, and configuration at billions of operations per second. ZGateway started as a fix for connection sprawl across more than a million client...",
+   "id": "9d1c3690171ba34a",
+   "title": "Knowledgator Releases GLiFormer: A 575M-Parameter Encoder That Hits 91.10 F1 on Nested JSON Extraction Without Generating Tokens",
+   "summary": "GLiFormer Large scores 91.10 F1 on nested JSON, near GPT-5.6-luna's 91.96, while grounding every value in source spans. The post Knowledgator Releases GLiFormer: A 575M-Parameter Encoder That Hits 91.10 F1 on Nested JSON Extraction Without Generating Tokens appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/14/meta-introduces-zgateway-a-stateless-proxy-tier-that-unifies-zippydb-traffic-and-handles-over-1-billion-operations-per-second/",
-   "published": "2026-09-15",
+   "url": "https://www.marktechpost.com/2026/09/16/knowledgator-releases-gliformer-a-575m-parameter-encoder-that-hits-91-10-f1-on-nested-json-extraction-without-generating-tokens/",
+   "published": "2026-09-16",
    "tags": [
-    "industry"
+    "industry",
+    "llm"
    ]
   },
   {
-   "id": "9726a25265a2d2b6",
-   "title": "Verifiable Social Reasoning for LLM Assistants",
-   "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable...",
+   "id": "7ad2b46bd77abdb9",
+   "title": "Playing log(N)-Questions over Wikipedia Abstracts: Communication Efficiency Between Paired Frontier Models",
+   "summary": "We evaluate six frontier language models on the two-agent $\\log(N)$-Questions game. A questioner sees $N$ Wikipedia lead paragraphs and must identify a secretly chosen target using exactly $\\log_2 N$ yes/no questions. An answerer sees only the target and the question, and replies with one word. Both roles run on the same provider, so the...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.17496v1",
-   "published": "2026-09-15",
+   "url": "https://arxiv.org/abs/2609.19113v1",
+   "published": "2026-09-16",
    "tags": [
     "paper",
     "llm",
     "evaluation",
-    "reasoning"
+    "agents"
    ]
   },
   {
-   "id": "bd9643ae595e3671",
-   "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
-   "summary": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's systematic bias and errors. This challenge is particularly pronounced under covariate shift, when the teacher's reliability on target questions is uncertain and...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.17474v1",
-   "published": "2026-09-15",
-   "tags": [
-    "paper",
-    "llm",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "4d4e7920d8a762a2",
-   "title": "Now everyone can put data to work",
-   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+   "id": "296d33defd03a1b2",
+   "title": "How Fyxer built an AI executive assistant people trust",
+   "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/put-data-to-work",
-   "published": "2026-09-10",
+   "url": "https://openai.com/index/fyxer",
+   "published": "2026-09-14",
    "tags": [
     "labs",
-    "llm",
-    "agents"
+    "fine-tuning"
    ]
   },
   {
@@ -582,12 +525,12 @@
    ]
   },
   {
-   "id": "569889965fd0fb38",
-   "title": "From MIT to IBM, expediting AI and quantum deployment",
-   "summary": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
+   "id": "21197f2a642024bf",
+   "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+   "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
-   "published": "2026-09-02",
+   "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+   "published": "2026-09-09",
    "tags": [
     "research"
    ]
@@ -605,24 +548,23 @@
    ]
   },
   {
-   "id": "9364906e6b4ea724",
-   "title": "Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent",
-   "summary": "Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harness for standing up public-facing business agents. So, basically you give it your website, get an agent, and let it talk to other agents. Instead of writing orchestration code, a...",
+   "id": "f2ed83dc86575672",
+   "title": "Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings",
+   "summary": "Prior Labs released TabPFN-3.5, a tabular foundation model pretrained only on synthetic data that beats Otto's winning solution. The post Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/",
-   "published": "2026-09-15",
+   "url": "https://www.marktechpost.com/2026/09/15/prior-labs-releases-tabpfn-3-5-a-tabular-foundation-model-that-beats-the-winning-otto-kaggle-solution-with-default-settings/",
+   "published": "2026-09-16",
    "tags": [
-    "industry",
-    "agents"
+    "industry"
    ]
   },
   {
-   "id": "1e64551d0fdf7e08",
-   "title": "Right Tool, Right Job: Native-Language Evaluation, Tokenizer Sensitivity, and Methodological Findings from a French-Only BabyLM",
-   "summary": "We submit MéTRON-FR, a 125M GPT-2 pretrained on 92.47M words of French, to the BabyLM 2026 Strict track. It scores 85.97 +/- 0.17% on QFrBLiMP (a native Quebec-French benchmark of grammatical minimal pairs) and 62.80% on the BabyLM-weighted leaderboard. A cross-lingual GLUE (General Language Understanding Evaluation) protocol that...",
+   "id": "e50e4e61ec0a0c08",
+   "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+   "summary": "As models scale, reward hacking becomes more frequent, more sophisticated, and more consequential. Does it leave a telltale signature in model representations? This work analyzes how reward hacking is represented internally in frontier open source LLMs, and how those representations can be used to understand and discover the range of...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.17435v1",
-   "published": "2026-09-15",
+   "url": "https://arxiv.org/abs/2609.19101v1",
+   "published": "2026-09-16",
    "tags": [
     "paper",
     "llm",
@@ -630,24 +572,12 @@
    ]
   },
   {
-   "id": "b2cca92e9aa90eff",
-   "title": "Tables Decoded: DELTA for Structure, TARQA for Understanding",
-   "summary": "Table understanding is a core task in document intelligence, encompassing two key subtasks: table reconstruction and table visual question answering (TabVQA). While recent approaches predominantly rely on vision- language models (VLMs) operating on table images, we propose a more scalable and effective alternative based on structured...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.17458v1",
-   "published": "2026-09-15",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "016c3ec9b775a98e",
-   "title": "Introducing ChatGPT for Financial Services",
-   "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+   "id": "12e9dd6851803557",
+   "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+   "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-   "published": "2026-09-10",
+   "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+   "published": "2026-09-14",
    "tags": [
     "labs",
     "llm"
@@ -688,15 +618,14 @@
    ]
   },
   {
-   "id": "12bff037b7e74c13",
-   "title": "System helps humans predict when self-driving cars will make mistakes",
-   "summary": "A new method, called CW-Net, translates the reasoning process of an autonomous vehicle’s AI system into understandable concepts that explain its behavior.",
+   "id": "569889965fd0fb38",
+   "title": "From MIT to IBM, expediting AI and quantum deployment",
+   "summary": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+   "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
    "published": "2026-09-02",
    "tags": [
-    "research",
-    "reasoning"
+    "research"
    ]
   },
   {
@@ -709,6 +638,76 @@
    "tags": [
     "newsletter",
     "llm"
+   ]
+  },
+  {
+   "id": "21d426de88e0e33f",
+   "title": "Nums AI Releases Causilo: A Tabular Foundation Model That Tops TabArena Among Single Models",
+   "summary": "Nums AI has released Causilo, a pretrained tabular foundation model for classification and regression with a scikit-learn interface. It posts the top TabArena Elo among single models, ahead of Google's TabFM and LG's EXAONE Tabular. The code is Apache-2.0, while weights are licensed for non-commercial research. The post Nums AI Releases...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/15/nums-ai-releases-causilo-a-tabular-foundation-model-that-tops-tabarena-among-single-models/",
+   "published": "2026-09-16",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "66468d1eb0600770",
+   "title": "Reporting Practice Matters: The Impact of Reference Choice on Chest X-ray Report Evaluation",
+   "summary": "Radiologists follow heterogeneous reporting practices. Two radiologists examining the same image and identifying the same clinical findings might nevertheless compose superficially distinct reports, varying in terminology, shorthand, formatting, and level of detail. These variations in reporting norms represent an under-appreciated...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.19093v1",
+   "published": "2026-09-16",
+   "tags": [
+    "paper",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "c7d3c8aeae425678",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+   "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+   "published": "2026-09-11",
+   "tags": [
+    "labs",
+    "llm",
+    "serving"
+   ]
+  },
+  {
+   "id": "3d2661b661f5ed37",
+   "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+   "summary": "Health & Bioscience",
+   "source": "Google Research",
+   "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+   "published": "2026-08-26",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "d9b2bc36ffdfc77e",
+   "title": "Piloting the world's first double-blind AI evaluations",
+   "summary": "Piloting the world's first double-blind AI evaluations",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+   "published": "2026-08-27",
+   "tags": [
+    "labs",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "b844bdeeb825fb68",
+   "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/train-to-paint-with-code",
+   "published": "2026-09-03",
+   "tags": [
+    "open-source"
    ]
   }
  ]
