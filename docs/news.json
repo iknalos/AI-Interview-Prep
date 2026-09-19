@@ -1,27 +1,27 @@
 {
- "generated": "2026-09-18",
- "generatedAt": "2026-09-18T11:25:30+00:00",
+ "generated": "2026-09-19",
+ "generatedAt": "2026-09-19T11:08:57+00:00",
  "sourceCount": 9,
  "items": [
   {
-   "id": "964ae1dd0facf551",
-   "title": "How Cooley is accelerating IPO work with ChatGPT",
-   "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+   "id": "559b0cf1119746d2",
+   "title": "Introducing the Australian Youth Safety Blueprint",
+   "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/cooley-gopublic",
-   "published": "2026-09-17",
+   "url": "https://openai.com/index/australian-youth-safety-blueprint",
+   "published": "2026-09-18",
    "tags": [
     "labs",
-    "llm"
+    "safety"
    ]
   },
   {
-   "id": "26cb68725f0f97ad",
-   "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
-   "summary": "Education Innovation",
+   "id": "90801afbca07a432",
+   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
-   "published": "2026-09-17",
+   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+   "published": "2026-09-18",
    "tags": [
     "research"
    ]
@@ -61,12 +61,12 @@
    ]
   },
   {
-   "id": "3a5713cd1d2196f2",
-   "title": "New AI technique could make minimally invasive surgeries safer and more precise",
-   "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
+   "id": "0cf2be2f0ba1cd97",
+   "title": "A new chapter for MIT Reads",
+   "summary": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
-   "published": "2026-09-16",
+   "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+   "published": "2026-09-18",
    "tags": [
     "research"
    ]
@@ -112,26 +112,26 @@
    ]
   },
   {
-   "id": "363bbead77de9f9f",
-   "title": "Introducing Astra for Law",
-   "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+   "id": "964ae1dd0facf551",
+   "title": "How Cooley is accelerating IPO work with ChatGPT",
+   "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/astra-for-law",
+   "url": "https://openai.com/index/cooley-gopublic",
    "published": "2026-09-17",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "e0b2eaa994e7e730",
-   "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
-   "summary": "Algorithms & Theory",
+   "id": "26cb68725f0f97ad",
+   "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+   "summary": "Education Innovation",
    "source": "Google Research",
-   "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
-   "published": "2026-09-15",
+   "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+   "published": "2026-09-17",
    "tags": [
-    "research",
-    "serving"
+    "research"
    ]
   },
   {
@@ -170,11 +170,11 @@
    ]
   },
   {
-   "id": "fce5c946628f0281",
-   "title": "Measure by measure, studying society accurately",
-   "summary": "Naoki Egami has become a standout in political methodology, helping refine tools that give scholars durable results.",
+   "id": "3a5713cd1d2196f2",
+   "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+   "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+   "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
    "published": "2026-09-16",
    "tags": [
     "research"
@@ -216,27 +216,26 @@
    ]
   },
   {
-   "id": "027811ca1632d0f5",
-   "title": "Helping older adults use AI in everyday life",
-   "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+   "id": "363bbead77de9f9f",
+   "title": "Introducing Astra for Law",
+   "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-   "published": "2026-09-16",
+   "url": "https://openai.com/index/astra-for-law",
+   "published": "2026-09-17",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "edd61c31429065ea",
-   "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
-   "summary": "Machine Intelligence",
+   "id": "e0b2eaa994e7e730",
+   "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
-   "published": "2026-09-10",
+   "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
+   "published": "2026-09-15",
    "tags": [
     "research",
-    "agents"
+    "serving"
    ]
   },
   {
@@ -276,15 +275,14 @@
    ]
   },
   {
-   "id": "1ccfa6a4e947b14e",
-   "title": "New method enables AI for safety-critical situations",
-   "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
+   "id": "fce5c946628f0281",
+   "title": "Measure by measure, studying society accurately",
+   "summary": "Naoki Egami has become a standout in political methodology, helping refine tools that give scholars durable results.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
-   "published": "2026-09-14",
+   "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+   "published": "2026-09-16",
    "tags": [
-    "research",
-    "safety"
+    "research"
    ]
   },
   {
@@ -324,26 +322,27 @@
    ]
   },
   {
-   "id": "52752974efc060af",
-   "title": "Reimagining advertising with AI",
-   "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+   "id": "027811ca1632d0f5",
+   "title": "Helping older adults use AI in everyday life",
+   "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/reimagining-advertising-with-ai",
+   "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
    "published": "2026-09-16",
    "tags": [
     "labs",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "98769dd27a5383f5",
-   "title": "Transfer learning for genomic prediction in underrepresented populations",
-   "summary": "General Science",
+   "id": "edd61c31429065ea",
+   "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+   "summary": "Machine Intelligence",
    "source": "Google Research",
-   "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
-   "published": "2026-09-03",
+   "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+   "published": "2026-09-10",
    "tags": [
-    "research"
+    "research",
+    "agents"
    ]
   },
   {
@@ -381,14 +380,15 @@
    ]
   },
   {
-   "id": "66754acdaab8b6fb",
-   "title": "MIT spinout turns plastic waste into resilient building materials",
-   "summary": "Atlas Building Composites is commercializing MIT research to turn plastic waste into parts for buildings and other infrastructure.",
+   "id": "1ccfa6a4e947b14e",
+   "title": "New method enables AI for safety-critical situations",
+   "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+   "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
    "published": "2026-09-14",
    "tags": [
-    "research"
+    "research",
+    "safety"
    ]
   },
   {
@@ -431,23 +431,23 @@
    ]
   },
   {
-   "id": "5f7e182a53f2403b",
-   "title": "How to connect AI usage to business value",
-   "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+   "id": "52752974efc060af",
+   "title": "Reimagining advertising with AI",
+   "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+   "url": "https://openai.com/index/reimagining-advertising-with-ai",
    "published": "2026-09-16",
    "tags": [
     "labs",
-    "llm"
+    "agents"
    ]
   },
   {
-   "id": "3aacd1631c1957a1",
-   "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+   "id": "98769dd27a5383f5",
+   "title": "Transfer learning for genomic prediction in underrepresented populations",
    "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+   "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
    "published": "2026-09-03",
    "tags": [
     "research"
@@ -490,12 +490,12 @@
    ]
   },
   {
-   "id": "75ddcd67e5aa8556",
-   "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
-   "summary": "The handheld catheterization device AI-GUIDE, created by Lincoln Laboratory and Massachusetts General Hospital, promises improved health outcomes for injured service members and civilians.",
+   "id": "66754acdaab8b6fb",
+   "title": "MIT spinout turns plastic waste into resilient building materials",
+   "summary": "Atlas Building Composites is commercializing MIT research to turn plastic waste into parts for buildings and other infrastructure.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
-   "published": "2026-09-11",
+   "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+   "published": "2026-09-14",
    "tags": [
     "research"
    ]
@@ -536,24 +536,25 @@
    ]
   },
   {
-   "id": "bbe6c30a33c9c72e",
-   "title": "Our framework for reporting model misalignment",
-   "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+   "id": "973a91148c502943",
+   "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+   "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/model-misalignment-reporting-framework",
+   "url": "https://openai.com/index/hex-gpt-6-astra",
    "published": "2026-09-16",
    "tags": [
     "labs",
-    "fine-tuning"
+    "llm",
+    "agents"
    ]
   },
   {
-   "id": "411288110127b5c8",
-   "title": "Mapping global methane emissions from space with deep learning",
-   "summary": "Climate & Sustainability",
+   "id": "3aacd1631c1957a1",
+   "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
-   "published": "2026-09-01",
+   "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+   "published": "2026-09-03",
    "tags": [
     "research"
    ]
@@ -594,12 +595,12 @@
    ]
   },
   {
-   "id": "21197f2a642024bf",
-   "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
-   "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
+   "id": "75ddcd67e5aa8556",
+   "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+   "summary": "The handheld catheterization device AI-GUIDE, created by Lincoln Laboratory and Massachusetts General Hospital, promises improved health outcomes for injured service members and civilians.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
-   "published": "2026-09-09",
+   "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+   "published": "2026-09-11",
    "tags": [
     "research"
    ]
@@ -642,23 +643,24 @@
    ]
   },
   {
-   "id": "71646fffd914b496",
-   "title": "How workers are unlocking new ways of working",
-   "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+   "id": "5f7e182a53f2403b",
+   "title": "How to connect AI usage to business value",
+   "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/unlocking-new-ways-of-working",
+   "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
    "published": "2026-09-16",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "14a087bdb5895e90",
-   "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
-   "summary": "Data Management",
+   "id": "411288110127b5c8",
+   "title": "Mapping global methane emissions from space with deep learning",
+   "summary": "Climate & Sustainability",
    "source": "Google Research",
-   "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
-   "published": "2026-08-31",
+   "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+   "published": "2026-09-01",
    "tags": [
     "research"
    ]
@@ -700,12 +702,12 @@
    ]
   },
   {
-   "id": "569889965fd0fb38",
-   "title": "From MIT to IBM, expediting AI and quantum deployment",
-   "summary": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
+   "id": "21197f2a642024bf",
+   "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+   "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
-   "published": "2026-09-02",
+   "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+   "published": "2026-09-09",
    "tags": [
     "research"
    ]
