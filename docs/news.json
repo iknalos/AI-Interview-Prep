@@ -1,18 +1,17 @@
 {
- "generated": "2026-09-21",
- "generatedAt": "2026-09-21T12:58:32+00:00",
- "sourceCount": 9,
+ "generated": "2026-09-22",
+ "generatedAt": "2026-09-22T11:48:15+00:00",
+ "sourceCount": 10,
  "items": [
   {
-   "id": "559b0cf1119746d2",
-   "title": "Introducing the Australian Youth Safety Blueprint",
-   "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+   "id": "a7ca59844a94ccd6",
+   "title": "Advisory Group on Mathematics and Artificial Intelligence",
+   "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/australian-youth-safety-blueprint",
-   "published": "2026-09-18",
+   "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+   "published": "2026-09-21",
    "tags": [
-    "labs",
-    "safety"
+    "labs"
    ]
   },
   {
@@ -38,15 +37,15 @@
    ]
   },
   {
-   "id": "16a7b27ed0ae9a75",
-   "title": "Your Agent Aced the Task. Will It Do It Again?",
+   "id": "98acfe91fd30b730",
+   "title": "Transformers now runs llama.cpp quants",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-   "published": "2026-09-15",
+   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+   "published": "2026-09-22",
    "tags": [
     "open-source",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -85,35 +84,50 @@
    ]
   },
   {
-   "id": "a4b3fb7b18377730",
-   "title": "Cross-sector generalization of accident-process role classification in occupational accident narratives",
-   "summary": "Occupational accident narratives contain valuable information about work situations, unfavourable conditions, accident events, and their consequences. Automatically structuring these narratives can facilitate large-scale accident analysis and support occupational risk prevention. However, the terminology and writing styles used to...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.22081v1",
-   "published": "2026-09-18",
+   "id": "a3f00df12fca27d7",
+   "title": "NVIDIA Introduces SoL-Pi: Auto-Research Loops That Cut Coding Agent Token Traffic by Up to 49%",
+   "summary": "NVIDIA researchers have released SoL-Pi, 4 harness mechanisms for the open-source Pi coding agent, discovered by an AI running auto-research loops across 535 environments. On EdgeBench, SoL-Pi cuts token traffic by 44.7% to 49.0% and API cost by roughly 33%, while keeping about 94% of Pi's score on GPT-5.6 Sol and Opus 5. The post NVIDIA...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/21/nvidia-researchers-have-released-sol-pi/",
+   "published": "2026-09-22",
    "tags": [
-    "paper"
+    "industry",
+    "llm",
+    "agents"
    ]
   },
   {
-   "id": "4c1fb566ccf2d1e0",
-   "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
-   "summary": "Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn general-purpose neural representations transferable across diverse downstream tasks. Yet, progress toward this goal has been limited by...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.22064v1",
-   "published": "2026-09-18",
+   "id": "12a5b86b03c2175a",
+   "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+   "summary": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.24985v1",
+   "published": "2026-09-21",
    "tags": [
     "paper",
-    "evaluation"
+    "agents"
    ]
   },
   {
-   "id": "964ae1dd0facf551",
-   "title": "How Cooley is accelerating IPO work with ChatGPT",
-   "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+   "id": "6380fd1ef6e50b1f",
+   "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
+   "summary": "On-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and thus model quality, making any realizable quality gains highly impactful. At the same time, their personal nature (i.e., the close coupling...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.24979v1",
+   "published": "2026-09-21",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "d37f5b2c59270d01",
+   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+   "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/cooley-gopublic",
-   "published": "2026-09-17",
+   "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+   "published": "2026-09-21",
    "tags": [
     "labs",
     "llm"
@@ -142,15 +156,14 @@
    ]
   },
   {
-   "id": "d4e55a9164f4783e",
-   "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+   "id": "fb8ad85c459c0cb6",
+   "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-   "published": "2026-09-10",
+   "url": "https://huggingface.co/blog/omlx",
+   "published": "2026-09-22",
    "tags": [
-    "open-source",
-    "fine-tuning"
+    "open-source"
    ]
   },
   {
@@ -188,40 +201,55 @@
    ]
   },
   {
-   "id": "b9fd6a501282a538",
-   "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
-   "summary": "Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducibility): confident-failure reduction is achievable if and only if retrieval features carry mutual information about success, a condition...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.22056v1",
-   "published": "2026-09-18",
+   "id": "fea59bf50677f697",
+   "title": "SpaceXAI Releases Grok 4.7: A Larger Base Model at the Same $2/$6 Price as Grok 4.6",
+   "summary": "SpaceXAI has released Grok 4.7, its new flagship model for coding, agentic tasks, and knowledge work. Grok 4.7 is built on a larger base model and a longer reinforcement learning run. It still ships at the same price and speed as Grok 4.6. Is it deployable? Yes, as a hosted model. You can call grok-4.7 […] The post SpaceXAI Releases Grok...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/21/spacexai-releases-grok-4-7/",
+   "published": "2026-09-22",
    "tags": [
-    "paper",
-    "rag",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "95cbb4980fa11170",
-   "title": "Benchmarking World Models for Continual Learning on Compositional Tasks",
-   "summary": "A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to retain and reuse knowledge obtained from prior experiences underpins an agent's ability to efficiently adapt to novel environments, as the...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.22055v1",
-   "published": "2026-09-18",
-   "tags": [
-    "paper",
-    "evaluation",
+    "industry",
     "agents"
    ]
   },
   {
-   "id": "363bbead77de9f9f",
-   "title": "Introducing Astra for Law",
-   "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/astra-for-law",
-   "published": "2026-09-17",
+   "id": "73e7c9267adf5814",
+   "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+   "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.24983v1",
+   "published": "2026-09-21",
    "tags": [
-    "labs"
+    "paper",
+    "llm",
+    "fine-tuning",
+    "agents"
+   ]
+  },
+  {
+   "id": "118877dd2afa3376",
+   "title": "Rare Event Estimation via Iterative Unalignment",
+   "summary": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the probability of rare events that arise from...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.24969v1",
+   "published": "2026-09-21",
+   "tags": [
+    "paper",
+    "fine-tuning",
+    "agents"
+   ]
+  },
+  {
+   "id": "2c9792fbb14ae5db",
+   "title": "Building standards for the next phase of AI",
+   "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/building-standards-next-phase-ai",
+   "published": "2026-09-21",
+   "tags": [
+    "labs",
+    "evaluation",
+    "safety"
    ]
   },
   {
@@ -248,14 +276,15 @@
    ]
   },
   {
-   "id": "cb50b0c3c8564548",
-   "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+   "id": "c701b57089c5bf6a",
+   "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/gradio-workflow-1111",
-   "published": "2026-09-10",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+   "published": "2026-09-21",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm"
    ]
   },
   {
@@ -295,40 +324,50 @@
    ]
   },
   {
-   "id": "b287930383bc098b",
-   "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
-   "summary": "Memory systems for large language models have focused predominantly on efficient retrieval, whereas the decision of whether retrieved memories should be trusted has received comparatively little attention. When the memory store contains conflicting positions, standard retrieval-augmented generation (RAG) blindly injects memories and...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.22043v1",
-   "published": "2026-09-18",
+   "id": "c52802d68e4c3706",
+   "title": "AWS Strands Agents Team Releases Strands Harness: An Open-Source Agent Harness With 28% Lower Token Cost at Comparable Accuracy",
+   "summary": "Many developers find that an agent idea works inside Claude Code or Codex, then struggles once they rebuild it with their own loop. The Strands Agents team at AWS is targeting that gap with Strands harness, a fully assembled, general-purpose agent harness. It runs locally or deploys to a cloud provider, ships for Python and […] The post...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/21/aws-strands-agents-team-releases-strands-harness/",
+   "published": "2026-09-21",
    "tags": [
-    "paper",
-    "rag",
-    "llm",
-    "evaluation"
+    "industry",
+    "agents"
    ]
   },
   {
-   "id": "bfbc47f9c0a3eed7",
-   "title": "Particle Competition and Cooperation for Robust Graph Convolutional Network Learning Under Label Noise",
-   "summary": "Graph Convolutional Networks (GCNs) are highly sensitive to label noise, since corrupted supervision can propagate through the graph and degrade learned node representations. This work proposes PCC+GCN, a hybrid framework that uses Particle Competition and Cooperation (PCC) as a graph-based label-refinement stage before GCN training. PCC...",
+   "id": "3c11a4c1f6065446",
+   "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+   "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.24974v1",
+   "published": "2026-09-21",
+   "tags": [
+    "paper",
+    "fine-tuning",
+    "agents"
+   ]
+  },
+  {
+   "id": "e1a555add9f87534",
+   "title": "JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization",
+   "summary": "Pharmaceutical process characterization is central to Quality by Design because it defines how variations in process parameters affect the ability to meet product quality specifications, thereby supporting proven acceptable ranges and robust manufacturing. In practice, however, characterization still relies largely on factorial design of...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.22053v1",
-   "published": "2026-09-18",
+   "url": "https://arxiv.org/abs/2609.24954v1",
+   "published": "2026-09-21",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "027811ca1632d0f5",
-   "title": "Helping older adults use AI in everyday life",
-   "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+   "id": "530db518a73a5717",
+   "title": "Expanding OpenAI Academy with new learning paths",
+   "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-   "published": "2026-09-16",
+   "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+   "published": "2026-09-21",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -355,15 +394,15 @@
    ]
   },
   {
-   "id": "4f420d1c5cd0cb94",
-   "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+   "id": "eb792e0fc3420085",
+   "title": "tokenizers v1: encode, decode and scaling, measured",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-   "published": "2026-09-08",
+   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "published": "2026-09-21",
    "tags": [
     "open-source",
-    "safety"
+    "llm"
    ]
   },
   {
@@ -403,39 +442,54 @@
    ]
   },
   {
-   "id": "5be1c7aaebbc9ecf",
-   "title": "QuranicMMLU: A Cognitively-Aware Benchmark for Evaluating Generative AI Solutions on Quranic Linguistic Knowledge",
-   "summary": "We introduce QuranicMMLU, a benchmark for evaluating generative AI on Quranic Arabic across multiple dimensions of linguistic complexity. Existing Quranic benchmarks center on general question answering and semantic retrieval, without probing specific linguistic competencies or stratifying by cognitive demand and verse difficulty. We...",
+   "id": "865b33c1148458f3",
+   "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
+   "summary": "Alibaba's Qwen team has released Qwen-Image-2.1, a 7B diffusion transformer that handles text-to-image generation, multi-reference editing, and native RGBA transparency in one checkpoint. A prefix KV cache speeds up edits with up to 10 reference images. The weights are public, but commercial use requires a separate license from Qwen. The...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1/",
+   "published": "2026-09-21",
+   "tags": [
+    "industry",
+    "llm",
+    "serving",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "49df6d43e6353cc4",
+   "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+   "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.22038v1",
-   "published": "2026-09-18",
+   "url": "https://arxiv.org/abs/2609.24972v1",
+   "published": "2026-09-21",
    "tags": [
     "paper",
-    "rag",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "5409b1c6dde0c324",
+   "title": "Learning Physics from an Imperfect Ancestor",
+   "summary": "Neural operators evaluate parametric partial differential equations cheaply but degrade sharply outside their training distribution. Physics-informed neural networks avoid dependence on labeled data, yet their optimization can be basin-fragile: when the governing residual admits multiple solutions, a PINN trained from scratch may...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.24947v1",
+   "published": "2026-09-21",
+   "tags": [
+    "paper",
     "evaluation"
    ]
   },
   {
-   "id": "5bbff2f471c5f1a7",
-   "title": "Available Guardrails: Certifying Selective Prediction across ML Systems",
-   "summary": "A selective predictor acts as a safety gate: it returns an output only when the prediction appears sufficiently trustworthy. Deployments increasingly require this reliability to be certified at a target precision for every reporting unit of interest, such as a tool, policy label, or patient subgroup. The main difficulty is often not...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.22048v1",
-   "published": "2026-09-18",
-   "tags": [
-    "paper",
-    "safety"
-   ]
-  },
-  {
-   "id": "52752974efc060af",
-   "title": "Reimagining advertising with AI",
-   "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+   "id": "d1749ba76a98e7a5",
+   "title": "How V7 gives AI agents institutional memory",
+   "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/reimagining-advertising-with-ai",
-   "published": "2026-09-16",
+   "url": "https://openai.com/index/v7",
+   "published": "2026-09-21",
    "tags": [
     "labs",
+    "llm",
     "agents"
    ]
   },
@@ -462,15 +516,15 @@
    ]
   },
   {
-   "id": "96a3500c5a4b2fb7",
-   "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+   "id": "16a7b27ed0ae9a75",
+   "title": "Your Agent Aced the Task. Will It Do It Again?",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Hcompany/neomme",
-   "published": "2026-09-03",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+   "published": "2026-09-15",
    "tags": [
     "open-source",
-    "multimodal"
+    "agents"
    ]
   },
   {
@@ -510,40 +564,51 @@
    ]
   },
   {
-   "id": "71a03738847ad8a3",
-   "title": "DiaVLo: Diagnosing Behaviours of Vision-Language Models",
-   "summary": "Vision-language models (VLMs) rely on storing and transferring appropriate information across their sub-components. Verifying that the VLMs exhibit desired behaviours, while avoiding harmful ones, is central to their reliable deployment. Yet, methods that identify VLM behaviours remain scarce. We present DiaVLo, a diagnostic framework...",
+   "id": "a0370411d9efeb28",
+   "title": "Best Voice Cloning APIs in 2026: Speaker Similarity, Consent Checks, and Price per 1M Characters",
+   "summary": "We cloned one 10-second voice on 7 platforms and ranked them on reference audio, consent, licensing, and cost. The post Best Voice Cloning APIs in 2026: Speaker Similarity, Consent Checks, and Price per 1M Characters appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/21/best-voice-cloning-apis-in-2026-speaker-similarity-consent-checks-and-price-per-1m-characters/",
+   "published": "2026-09-21",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "c5b8dba7b789e03f",
+   "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+   "summary": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.22008v1",
-   "published": "2026-09-18",
+   "url": "https://arxiv.org/abs/2609.24971v1",
+   "published": "2026-09-21",
    "tags": [
     "paper",
-    "llm",
-    "multimodal"
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "6a21ba197fe21b25",
-   "title": "$λ$-Controlled GRPO: Turning Flow-Matching Ratio Instability into a Budgeted Resource",
-   "summary": "Reinforcement learning is increasingly used to align image generators with reward signals, and Flow-GRPO recently extended this paradigm to flow-matching models by treating the denoising sampler as a stochastic policy that can be optimized from reward feedback. Training in this setting is unstable in a way specific to multi-step...",
+   "id": "55762342c4ba93aa",
+   "title": "Exactness at Inference: A Representational Criterion for Out-of-Distribution Generalization",
+   "summary": "A model generalizes outside its training distribution only when it computes a representation structurally equivalent to the generating mechanism, not an approximation fitted to it. Such equivalence is necessary for exactness in and out of distribution, and extrapolation is governed by this exactness at inference, whatever its...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.22041v1",
+   "url": "https://arxiv.org/abs/2609.24942v1",
+   "published": "2026-09-21",
+   "tags": [
+    "paper",
+    "serving"
+   ]
+  },
+  {
+   "id": "559b0cf1119746d2",
+   "title": "Introducing the Australian Youth Safety Blueprint",
+   "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/australian-youth-safety-blueprint",
    "published": "2026-09-18",
    "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "973a91148c502943",
-   "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-   "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/hex-gpt-6-astra",
-   "published": "2026-09-16",
-   "tags": [
     "labs",
-    "llm",
-    "agents"
+    "safety"
    ]
   },
   {
@@ -570,12 +635,12 @@
    ]
   },
   {
-   "id": "45020768fad998be",
-   "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+   "id": "d4e55a9164f4783e",
+   "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-   "published": "2026-09-03",
+   "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+   "published": "2026-09-10",
    "tags": [
     "open-source",
     "fine-tuning"
@@ -616,98 +681,40 @@
    ]
   },
   {
-   "id": "2a847799b9bc5bbb",
-   "title": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention",
-   "summary": "Gating the value pathway of attention reportedly improves language model pretraining, and prior studies disagree on why. We argue and provide experimental evidence that such gates supply two different things that softmax attention lacks: abstention and noise filtering. The first is abstention, which allows an attention head to output...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.22005v1",
-   "published": "2026-09-18",
+   "id": "51bafb7a65ad2ac8",
+   "title": "StepFun Launches Step 5 Preview: A 600B-Total, 27B-Active MoE Model With 1M Context for Long-Horizon Agentic Work",
+   "summary": "StepFun has released Step 5 Preview, a sparse Mixture-of-Experts model with 600B total parameters and 27B active per token. It supports a 1M-token context window and accepts text, image, and video input. The model targets long-horizon agentic work in software engineering, professional knowledge work, and finance. API access is live at...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/20/stepfun-launches-step-5-preview/",
+   "published": "2026-09-21",
    "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "2c7e7b13e8d0b364",
-   "title": "COMPLEX: A Closed-Form Certified Embedding of Multiparameter Persistence Modules",
-   "summary": "Every multiparameter persistence vectorization we know of carries a one-sided Lipschitz upper bound and nothing below it: without a lower gauge there is no sense in which the features are faithful, and no per-prediction guarantee can be built on them. This paper supplies the missing side. COMPLEX is a closed-form, training-free embedding...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.22012v1",
-   "published": "2026-09-18",
-   "tags": [
-    "paper",
-    "rag",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "5f7e182a53f2403b",
-   "title": "How to connect AI usage to business value",
-   "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-   "published": "2026-09-16",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "411288110127b5c8",
-   "title": "Mapping global methane emissions from space with deep learning",
-   "summary": "Climate & Sustainability",
-   "source": "Google Research",
-   "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
-   "published": "2026-09-01",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "a13e39d4fa54504b",
-   "title": "Gemini Omni 1.1 Flash lets you build with more control",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-   "published": "2026-08-27",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "86b47b47cb7422fd",
-   "title": "Give Your Coding Agents a Memory You Own",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/funes",
-   "published": "2026-09-03",
-   "tags": [
-    "open-source",
+    "industry",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
+   "id": "bad9605d2e094518",
+   "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+   "summary": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's work, and receive rewards. We introduce...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.24967v1",
+   "published": "2026-09-21",
    "tags": [
-    "research",
+    "paper",
     "llm",
-    "safety"
+    "agents"
    ]
   },
   {
-   "id": "21197f2a642024bf",
-   "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
-   "summary": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
-   "published": "2026-09-09",
+   "id": "1066f3f46cf14ef6",
+   "title": "Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift",
+   "summary": "In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantiles. We further instantiate our bounds for quantile regression with sparse ReLU neural...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.24929v1",
+   "published": "2026-09-21",
    "tags": [
-    "research"
+    "paper"
    ]
   }
  ]
