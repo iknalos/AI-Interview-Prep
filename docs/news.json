@@ -1,14 +1,14 @@
 {
- "generated": "2026-09-23",
- "generatedAt": "2026-09-23T11:47:47+00:00",
- "sourceCount": 10,
+ "generated": "2026-09-24",
+ "generatedAt": "2026-09-24T11:55:45+00:00",
+ "sourceCount": 8,
  "items": [
   {
-   "id": "09a0c6dbf1c6c00d",
-   "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-   "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+   "id": "9d02eeb8cef10808",
+   "title": "Two years of OpenAI Academy",
+   "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+   "url": "https://openai.com/index/two-years-of-openai-academy",
    "published": "2026-09-23",
    "tags": [
     "labs"
@@ -26,26 +26,14 @@
    ]
   },
   {
-   "id": "f4c3141ce9f2ce84",
-   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-   "published": "2026-09-15",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "2960c64a019e48fb",
-   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+   "id": "a70f8ac64edfa547",
+   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/evaleval-aisi",
-   "published": "2026-09-22",
+   "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+   "published": "2026-09-23",
    "tags": [
-    "open-source",
-    "evaluation"
+    "open-source"
    ]
   },
   {
@@ -60,12 +48,12 @@
    ]
   },
   {
-   "id": "1500813625f0d22c",
-   "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
-   "summary": "Patricia and James Poitras ’63 provide fellowships for graduate students and postdocs who will shape the future of mental health research.",
+   "id": "f6fad453b0cdb1b6",
+   "title": "The promise and peril of using visual AI to study cities",
+   "summary": "In their new book, “How AI Sees the City,” the leaders of MIT’s Senseable City Lab examine the technology’s implications for researching urban life.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
-   "published": "2026-09-22",
+   "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
+   "published": "2026-09-24",
    "tags": [
     "research"
    ]
@@ -84,53 +72,39 @@
    ]
   },
   {
-   "id": "2e5752e94d330fb3",
-   "title": "Nokia Open-Sources AnyJev: A Training-Free Layer That Turns Any Open LLM Into a Calibrated Decision Model",
-   "summary": "Nokia’s applied research team has open-sourced AnyJev, a Python library that turns an open LLM into a decision model. It needs no training. It targets a common production job: picking one answer from a fixed set instead of writing a sentence. Is it deployable? Yes, it installs from PyPI, ships under Apache-2.0, and has transformers […]...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/23/nokia-open-sources-anyjev-a-training-free-layer-that-turns-any-open-llm-into-a-calibrated-decision-model/",
-   "published": "2026-09-23",
-   "tags": [
-    "industry",
-    "llm"
-   ]
-  },
-  {
-   "id": "88ae90f68cb391bf",
-   "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
-   "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching and scalable parallel decoding...",
+   "id": "51ec26f86ebd9475",
+   "title": "Contrastive Learning for Authorship Verification",
+   "summary": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors of model performance. Based on these...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.26796v1",
-   "published": "2026-09-22",
-   "tags": [
-    "paper",
-    "llm",
-    "serving",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "cd930cd19c57c1a7",
-   "title": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing",
-   "summary": "We study decentralized partially observable team decision problems with low-rank latent dynamics and unknown system models. The proposed framework combines team-theoretic equivalence with low-rank model representations to address cooperative decision-making in partially observable Markov decision processes without prior knowledge of the...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.26783v1",
-   "published": "2026-09-22",
+   "url": "https://arxiv.org/abs/2609.28471v1",
+   "published": "2026-09-23",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "b6b1e4118cdbb529",
-   "title": "Better prompt caching for GPT-6",
-   "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-   "published": "2026-09-22",
+   "id": "23114ea420bd05c7",
+   "title": "On the Diffusibility of High-Dimensional Latents",
+   "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these encoders for image reconstruction recovers such details...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.28473v1",
+   "published": "2026-09-23",
    "tags": [
-    "labs",
-    "llm",
-    "serving"
+    "paper",
+    "fine-tuning",
+    "evaluation",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "1d77064cbebb782f",
+   "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+   "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+   "published": "2026-09-23",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -145,26 +119,15 @@
    ]
   },
   {
-   "id": "80d284f58871ce28",
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-   "published": "2026-09-08",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "98acfe91fd30b730",
-   "title": "Transformers now runs llama.cpp quants",
+   "id": "2960c64a019e48fb",
+   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+   "url": "https://huggingface.co/blog/evaleval-aisi",
    "published": "2026-09-22",
    "tags": [
     "open-source",
-    "llm"
+    "evaluation"
    ]
   },
   {
@@ -180,12 +143,12 @@
    ]
   },
   {
-   "id": "0cf2be2f0ba1cd97",
-   "title": "A new chapter for MIT Reads",
-   "summary": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
+   "id": "931c28839e384d7d",
+   "title": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
+   "summary": "Computer scientist, entrepreneur, and philanthropist will collaborate with the MIT Schwarzman College of Computing to advance AI and scientific discovery.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
-   "published": "2026-09-18",
+   "url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
+   "published": "2026-09-23",
    "tags": [
     "research"
    ]
@@ -202,55 +165,40 @@
    ]
   },
   {
-   "id": "a14c570ae3a2e6b6",
-   "title": "Kyutai Releases Voice of Reason: A Speech-Native Model that Solves Spoken Math with Reinforcement Learning",
-   "summary": "Kyutai has released Voice of Reason, 2 open-weight speech-to-speech models built on GLM-4-Voice-9B. Supervised fine-tuning and reinforcement learning lift spoken GSM8K accuracy from 27.3% to 77.1%. There is no transcription step and no text LLM in the loop. Both checkpoints are on Hugging Face and run on a single H100. The post Kyutai...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/22/kyutai-releases-voice-of-reason-a-speech-native-model-that-solves-spoken-math-with-reinforcement-learning/",
+   "id": "e42f9a24cc94cc19",
+   "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
+   "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mostly limited to snippets or functions...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.28449v1",
    "published": "2026-09-23",
    "tags": [
-    "industry",
-    "llm",
-    "fine-tuning",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "c204880862e4dfcc",
-   "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-   "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.26781v1",
-   "published": "2026-09-22",
-   "tags": [
     "paper",
-    "serving",
-    "agents"
+    "llm",
+    "evaluation",
+    "reasoning"
    ]
   },
   {
-   "id": "25b2c06aa9d878c3",
-   "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
-   "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improving performance on Terminal-Bench and...",
+   "id": "02a1ae8181a06a62",
+   "title": "Even Sharper Bounds for Transductive Learning and Its Applications",
+   "summary": "We introduce Sharper Transductive Local Complexity (STLC), a localized complexity method for transductive learning under uniform sampling without replacement. The construction starts from a Bernstein-type concentration inequality for the supremum of the test--train empirical process. Its proof uses the modified log-Sobolev inequality for...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.26779v1",
-   "published": "2026-09-22",
+   "url": "https://arxiv.org/abs/2609.28459v1",
+   "published": "2026-09-23",
    "tags": [
-    "paper",
-    "llm",
-    "agents"
+    "paper"
    ]
   },
   {
-   "id": "3d48e529ad7a20b1",
-   "title": "Introducing GPT-6 Sol and Luna",
-   "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+   "id": "01d4e543c9419cea",
+   "title": "Sam Altman’s remarks at the United Nations Security Council",
+   "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-   "published": "2026-09-22",
+   "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+   "published": "2026-09-23",
    "tags": [
     "labs",
-    "llm"
+    "safety"
    ]
   },
   {
@@ -266,25 +214,15 @@
    ]
   },
   {
-   "id": "56da2c8ef80375f1",
-   "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-   "published": "2026-09-03",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "fb8ad85c459c0cb6",
-   "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+   "id": "98acfe91fd30b730",
+   "title": "Transformers now runs llama.cpp quants",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/omlx",
+   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
    "published": "2026-09-22",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm"
    ]
   },
   {
@@ -302,12 +240,12 @@
    ]
   },
   {
-   "id": "3a5713cd1d2196f2",
-   "title": "New AI technique could make minimally invasive surgeries safer and more precise",
-   "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
+   "id": "1500813625f0d22c",
+   "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
+   "summary": "Patricia and James Poitras ’63 provide fellowships for graduate students and postdocs who will shape the future of mental health research.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
-   "published": "2026-09-16",
+   "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
+   "published": "2026-09-22",
    "tags": [
     "research"
    ]
@@ -324,54 +262,39 @@
    ]
   },
   {
-   "id": "8ef31ccf0de5b655",
-   "title": "OpenAI Releases GPT-6 Sol and Luna: 50% Cheaper API Pricing and Benchmarks",
-   "summary": "OpenAI has released GPT-6 Sol and GPT-6 Luna, 2 lower-cost models trained with methods similar to GPT-6 Astra. Sol costs $2/$10 and Luna $0.10/$0.50 per 1M tokens. Both are available now in the API, ChatGPT Work and Codex. They come with improved prompt caching for long-running agents. The post OpenAI Releases GPT-6 Sol and Luna: 50%...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks/",
+   "id": "d1e055acc761360d",
+   "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
+   "summary": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correct answer. We...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.28442v1",
    "published": "2026-09-23",
    "tags": [
-    "industry",
-    "llm",
-    "evaluation",
-    "agents"
+    "paper",
+    "reasoning"
    ]
   },
   {
-   "id": "9b1c952ac0496b1d",
-   "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
-   "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.26780v1",
-   "published": "2026-09-22",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "643d14064ef5fadb",
-   "title": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations",
-   "summary": "Large language models are increasingly used to generate SystemVerilog Assertions from natural-language specifica- tions and register-transfer-level designs. Existing datasets and benchmarks support important goals such as large- scale training, formal evaluation, specification-to-assertion generation, and mutation-based testing. A...",
+   "id": "b9097091656b95af",
+   "title": "Nonequilibrium Phases of Repulsive Self-Attention: Chaos, Attention Condensation, and Emergent Locality",
+   "summary": "We study the nonequilibrium dynamics of a minimal recurrent transformer with $N$ normalized tokens, $Q=K=I$, and a negative value map $V=-I$. Similarity-based attention selects nearby representations, while the negative value map drives tokens away from the selected field. This feedback can continually reorganize both the representation...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.26751v1",
-   "published": "2026-09-22",
+   "url": "https://arxiv.org/abs/2609.28448v1",
+   "published": "2026-09-23",
    "tags": [
     "paper",
-    "llm",
-    "evaluation"
+    "llm"
    ]
   },
   {
-   "id": "ce45d8dc0f6c9cea",
-   "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-   "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+   "id": "f7558dc5c9de5bb5",
+   "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+   "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-   "published": "2026-09-22",
+   "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+   "published": "2026-09-23",
    "tags": [
     "labs",
-    "llm",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -387,26 +310,14 @@
    ]
   },
   {
-   "id": "383dbcd782aba68f",
-   "title": "Proactive cyber defense for governments and enterprises",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-   "published": "2026-09-02",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "c701b57089c5bf6a",
-   "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+   "id": "fb8ad85c459c0cb6",
+   "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-   "published": "2026-09-21",
+   "url": "https://huggingface.co/blog/omlx",
+   "published": "2026-09-22",
    "tags": [
-    "open-source",
-    "llm"
+    "open-source"
    ]
   },
   {
@@ -421,12 +332,12 @@
    ]
   },
   {
-   "id": "fce5c946628f0281",
-   "title": "Measure by measure, studying society accurately",
-   "summary": "Naoki Egami has become a standout in political methodology, helping refine tools that give scholars durable results.",
+   "id": "0cf2be2f0ba1cd97",
+   "title": "A new chapter for MIT Reads",
+   "summary": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
-   "published": "2026-09-16",
+   "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+   "published": "2026-09-18",
    "tags": [
     "research"
    ]
@@ -445,50 +356,38 @@
    ]
   },
   {
-   "id": "995818b7e85214e2",
-   "title": "SpeakON Ships a MagSafe AI Voice Button With Its Own Microphone",
-   "summary": "Voice input on phones has been solved for years. What has not been solved is the output. Speak into most dictation tools and you get back exactly what you said, fillers and false starts included, in a note you then have to clean up and move somewhere else. SpeakON attacks that gap with hardware: a […] The post SpeakON Ships a MagSafe AI...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/22/speakon-ships-a-magsafe-ai-voice-button/",
+   "id": "dd58122d3708504c",
+   "title": "Cross-Scale Transfer Learning for Depression Severity Prediction: From PHQ-8 to HAMD-17 Across Languages and Clinical Paradigms",
+   "summary": "This work addresses continuous depression-severity score prediction from clinical interview transcripts under data scarcity. We propose a sequential low-rank adaptation (LoRA) protocol for cross-scale transfer: a Qwen3 backbone with a bounded regression head is first fine-tuned on the English DAIC-WOZ dataset (189 avatar-mediated...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.28430v1",
    "published": "2026-09-23",
    "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "0cc972a4fb7d288e",
-   "title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
-   "summary": "Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to produce many near duplicate attempts rather...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.26704v1",
-   "published": "2026-09-22",
-   "tags": [
     "paper",
-    "llm",
-    "reasoning"
+    "fine-tuning"
    ]
   },
   {
-   "id": "85a2005421c08e8f",
-   "title": "Automatic depth-based local center clustering via $β$-integrated local depth and adaptive grouping",
-   "summary": "Clustering is an unsupervised learning technique that partitions unlabeled data into groups. Most existing methods require user-specified parameters, such as the number of clusters or neighborhood size. Conversely, we propose automatic depth-based local center clustering (A-DLCC), a fully data-driven method that eliminates numerical...",
+   "id": "1da5a08636decf51",
+   "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
+   "summary": "We study minimal-norm interpolation and $\\ell_2$-regularized logistic-loss minimization for binary classification by univariate two-layer ReLU networks. We give complete geometric characterizations of the optimal classifiers in function space, resolving how the solutions depend on whether hidden-layer biases are included in the parameter...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.26748v1",
-   "published": "2026-09-22",
+   "url": "https://arxiv.org/abs/2609.28438v1",
+   "published": "2026-09-23",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "b4fb82cc1313a309",
-   "title": "Priorities and principles for effective third party assessments",
-   "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+   "id": "7357353a1f1d61a6",
+   "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+   "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-   "published": "2026-09-22",
+   "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+   "published": "2026-09-23",
    "tags": [
     "labs",
-    "safety"
+    "llm"
    ]
   },
   {
@@ -503,22 +402,11 @@
    ]
   },
   {
-   "id": "18ef68f77655a435",
-   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-   "published": "2026-09-02",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "eb792e0fc3420085",
-   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "id": "c701b57089c5bf6a",
+   "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
    "published": "2026-09-21",
    "tags": [
     "open-source",
@@ -539,15 +427,14 @@
    ]
   },
   {
-   "id": "1ccfa6a4e947b14e",
-   "title": "New method enables AI for safety-critical situations",
-   "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
+   "id": "3a5713cd1d2196f2",
+   "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+   "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
-   "published": "2026-09-14",
+   "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+   "published": "2026-09-16",
    "tags": [
-    "research",
-    "safety"
+    "research"
    ]
   },
   {
@@ -563,55 +450,41 @@
    ]
   },
   {
-   "id": "8158ae47c8ab7ae2",
-   "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
-   "summary": "Anthropic has released Claude Opus 5.5, the first model in its new Claude 5.5 family. The team states it performs at the level of Claude Fable 5.1 on most work. It also costs 40% less to run than Opus 5 on typical workloads at default settings. On Anthropic’s own benchmarks, it leads in agentic coding, […] The post Anthropic Releases...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/",
-   "published": "2026-09-22",
-   "tags": [
-    "industry",
-    "evaluation",
-    "agents"
-   ]
-  },
-  {
-   "id": "e9a8797ffa971539",
-   "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
-   "summary": "A coding agent must emit a valid tool call--a parseable invocation of a tool in the provided schema--before the harness can execute its chosen action. We study how local serving stacks affect this protocol step and show that measured outcomes can depend on the serving layer rather than model behavior alone. In Ollama, the default tools=...",
+   "id": "376d9538844bb34f",
+   "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+   "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.26693v1",
-   "published": "2026-09-22",
-   "tags": [
-    "paper",
-    "evaluation",
-    "serving",
-    "agents"
-   ]
-  },
-  {
-   "id": "b9e34a46afc898eb",
-   "title": "Diffusion-Induced Spatial Attention Overlapping Community Detection",
-   "summary": "Detection of overlapping communities is essential for modelling networks in which nodes participate simultaneously in multiple structural or functional groups. Existing graph neural network approaches commonly rely on local message passing, which can obscure community boundaries through smoothing and limit the representation of...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.26737v1",
-   "published": "2026-09-22",
+   "url": "https://arxiv.org/abs/2609.28416v1",
+   "published": "2026-09-23",
    "tags": [
     "paper",
     "llm",
-    "multimodal"
+    "agents"
    ]
   },
   {
-   "id": "d37f5b2c59270d01",
-   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-   "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+   "id": "ebe11361e16ab658",
+   "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
+   "summary": "Personalizing exoskeleton assistance across operating conditions is constrained by the time and physical effort required to collect user feedback. We examined whether a user's preference landscape varies smoothly across operating conditions and when this continuity supports learning from limited feedback. We propose Context-Continuous...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.28427v1",
+   "published": "2026-09-23",
+   "tags": [
+    "paper",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "7cff1964bf19497f",
+   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+   "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-   "published": "2026-09-21",
+   "url": "https://openai.com/index/ringg",
+   "published": "2026-09-23",
    "tags": [
     "labs",
-    "llm"
+    "llm",
+    "agents"
    ]
   },
   {
@@ -626,27 +499,15 @@
    ]
   },
   {
-   "id": "dfd1ea2e5518b0ed",
-   "title": "Introducing agentic video understanding with Gemini",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-   "published": "2026-09-01",
-   "tags": [
-    "labs",
-    "agents"
-   ]
-  },
-  {
-   "id": "16a7b27ed0ae9a75",
-   "title": "Your Agent Aced the Task. Will It Do It Again?",
+   "id": "eb792e0fc3420085",
+   "title": "tokenizers v1: encode, decode and scaling, measured",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-   "published": "2026-09-15",
+   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "published": "2026-09-21",
    "tags": [
     "open-source",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -661,12 +522,12 @@
    ]
   },
   {
-   "id": "66754acdaab8b6fb",
-   "title": "MIT spinout turns plastic waste into resilient building materials",
-   "summary": "Atlas Building Composites is commercializing MIT research to turn plastic waste into parts for buildings and other infrastructure.",
+   "id": "fce5c946628f0281",
+   "title": "Measure by measure, studying society accurately",
+   "summary": "Naoki Egami has become a standout in political methodology, helping refine tools that give scholars durable results.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
-   "published": "2026-09-14",
+   "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+   "published": "2026-09-16",
    "tags": [
     "research"
    ]
@@ -684,41 +545,169 @@
    ]
   },
   {
-   "id": "a3f00df12fca27d7",
-   "title": "NVIDIA Introduces SoL-Pi: Auto-Research Loops That Cut Coding Agent Token Traffic by Up to 49%",
-   "summary": "NVIDIA researchers have released SoL-Pi, 4 harness mechanisms for the open-source Pi coding agent, discovered by an AI running auto-research loops across 535 environments. On EdgeBench, SoL-Pi cuts token traffic by 44.7% to 49.0% and API cost by roughly 33%, while keeping about 94% of Pi's score on GPT-5.6 Sol and Opus 5. The post NVIDIA...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/21/nvidia-researchers-have-released-sol-pi/",
-   "published": "2026-09-22",
-   "tags": [
-    "industry",
-    "llm",
-    "agents"
-   ]
-  },
-  {
-   "id": "0e4c61e847100cae",
-   "title": "Detecting GPT-Assisted Writing Using Interpretable Stylometric Features",
-   "summary": "Distinguishing GPT-assisted from independently authored student writing has become a critical challenge in academia. This paper evaluates the discriminative capability of interpretable stylometric features extracted solely from submitted text. Using data from 90 participants who wrote both independently and with ChatGPT assistance, we...",
+   "id": "31bc82ef2cc0397a",
+   "title": "Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following",
+   "summary": "Fine-tuning large language models on parallel data improves translation quality but can cause catastrophic forgetting. Mitigation methods are generally evaluated by retention on general benchmarks. We ask whether these findings transfer to machine translation (MT) fine-tuning and to MT-specific instruction following (MT-IF): instructions...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.26687v1",
-   "published": "2026-09-22",
+   "url": "https://arxiv.org/abs/2609.28395v1",
+   "published": "2026-09-23",
    "tags": [
     "paper",
     "llm",
+    "fine-tuning",
     "evaluation"
    ]
   },
   {
-   "id": "fc3ceff4c6dacdd0",
-   "title": "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence",
-   "summary": "Long-context LLMs focus on retrieving distant evidence from extensive context, yet existing work has largely focused on overcoming distance alone. In this work, we identify the Proximity Trap, insufficient attention to distant evidence often arises less from distance itself than from cumulative competition with abundant, task-irrelevant...",
+   "id": "c892e2359adf1ecf",
+   "title": "Repairability of Inexact Solvers in Recursive State Estimation with Machine Learning",
+   "summary": "Recursive state estimation often executes approximate numerical solutions inside a feedback loop, where highly accurate local steps do not guarantee better overall results. For a fixed linear Kalman model, we characterize when a correction within a prescribed subspace and norm budget can meet a local admissibility tolerance, and how the...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.26718v1",
-   "published": "2026-09-22",
+   "url": "https://arxiv.org/abs/2609.28425v1",
+   "published": "2026-09-23",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "1d5a9cc2d9509da8",
+   "title": "Introducing MentalHealthBench",
+   "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-mentalhealthbench",
+   "published": "2026-09-23",
+   "tags": [
+    "labs",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "411288110127b5c8",
+   "title": "Mapping global methane emissions from space with deep learning",
+   "summary": "Climate & Sustainability",
+   "source": "Google Research",
+   "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+   "published": "2026-09-01",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "16a7b27ed0ae9a75",
+   "title": "Your Agent Aced the Task. Will It Do It Again?",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+   "published": "2026-09-15",
+   "tags": [
+    "open-source",
+    "agents"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "1ccfa6a4e947b14e",
+   "title": "New method enables AI for safety-critical situations",
+   "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+   "published": "2026-09-14",
+   "tags": [
+    "research",
+    "safety"
+   ]
+  },
+  {
+   "id": "ad1a0b6f01f5a507",
+   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+   "published": "2026-05-16",
+   "tags": [
+    "newsletter",
+    "llm"
+   ]
+  },
+  {
+   "id": "f2a36f547c429c1f",
+   "title": "Digital diglossia: Arabic between X and Facebook",
+   "summary": "This study highlights the distribution of Standard Arabic (SA; H(igh) variety) and Colloquial Arabic (CA; L(ow) variety) across X and Facebook. 16754 public posts were collected via Python, with 10000 retained as the net dataset. Posts were classified into 7 discourse categories: *politics, technology, science, business, culture, fun,*...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.28352v1",
+   "published": "2026-09-23",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "f999b52da4b141ab",
+   "title": "Learning Holographic Reduced Representations with Clifford Variational Autoencoders",
+   "summary": "Vector Symbolic Algebras project data structures into a hyperdimensional vector space through the application of their vector algebras to randomly generated atomic vector symbols and fractional power encodings of real-valued data. Embedding unstructured data remains an open question. We present \\textit{Clifford-VAE}, a variational...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.28409v1",
+   "published": "2026-09-23",
    "tags": [
     "paper",
+    "rag"
+   ]
+  },
+  {
+   "id": "1dd9ce125c6e0e60",
+   "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+   "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+   "published": "2026-09-23",
+   "tags": [
+    "labs",
     "llm"
+   ]
+  },
+  {
+   "id": "14a087bdb5895e90",
+   "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+   "summary": "Data Management",
+   "source": "Google Research",
+   "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+   "published": "2026-08-31",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "d4e55a9164f4783e",
+   "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+   "published": "2026-09-10",
+   "tags": [
+    "open-source",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "d16aba586a2f7547",
+   "title": "Information-Driven Design of Imaging Systems",
+   "summary": "An encoder (optical system) maps objects to noiseless images, which noise corrupts into measurements. Our information estimator uses only these noisy measurements and a noise model to quantify how well measurements distinguish objects. Many imaging systems produce measurements that humans never see or cannot interpret directly. Your...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/01/10/information-driven-imaging/",
+   "published": "2026-01-10",
+   "tags": [
+    "research"
    ]
   }
  ]
