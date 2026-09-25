@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-24",
- "generatedAt": "2026-09-24T11:55:45+00:00",
- "sourceCount": 8,
+ "generated": "2026-09-25",
+ "generatedAt": "2026-09-25T11:57:40+00:00",
+ "sourceCount": 10,
  "items": [
   {
    "id": "9d02eeb8cef10808",
@@ -15,25 +15,38 @@
    ]
   },
   {
-   "id": "90801afbca07a432",
-   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
-   "summary": "Algorithms & Theory",
+   "id": "da79314d1ca0f841",
+   "title": "Automating coherent long-form video generation",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
-   "published": "2026-09-18",
+   "url": "https://research.google/blog/coherent-long-form-video-generation/",
+   "published": "2026-09-24",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "a70f8ac64edfa547",
-   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+   "id": "e7107d9a76d915c4",
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "published": "2026-09-24",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "c2a53f2332725b78",
+   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-   "published": "2026-09-23",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+   "published": "2026-09-24",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm",
+    "multimodal"
    ]
   },
   {
@@ -48,11 +61,11 @@
    ]
   },
   {
-   "id": "f6fad453b0cdb1b6",
-   "title": "The promise and peril of using visual AI to study cities",
-   "summary": "In their new book, “How AI Sees the City,” the leaders of MIT’s Senseable City Lab examine the technology’s implications for researching urban life.",
+   "id": "2d3921d846c73739",
+   "title": "Estimating suicide risk from text",
+   "summary": "A new language-processing tool could help identify the highest-risk individuals from natural language, enabling swifter interventions.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
+   "url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
    "published": "2026-09-24",
    "tags": [
     "research"
@@ -72,28 +85,39 @@
    ]
   },
   {
-   "id": "51ec26f86ebd9475",
-   "title": "Contrastive Learning for Authorship Verification",
-   "summary": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors of model performance. Based on these...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.28471v1",
-   "published": "2026-09-23",
+   "id": "87d40d619a023e1b",
+   "title": "Fastino Releases GLiNER2.5-Decide: A 340M Open-Weight Decision Model That Runs on CPU",
+   "summary": "Fastino Labs has released GLiNER2.5-Decide, a 340M-parameter open-weight decision model. It takes text and a schema of typed questions and returns structured answers. Each answer comes with a probability distribution, a confidence score, and constraint-feasibility metadata. It targets the frequent judgment calls inside agent pipelines...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/",
+   "published": "2026-09-25",
    "tags": [
-    "paper"
+    "industry",
+    "agents"
    ]
   },
   {
-   "id": "23114ea420bd05c7",
-   "title": "On the Diffusibility of High-Dimensional Latents",
-   "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these encoders for image reconstruction recovers such details...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.28473v1",
-   "published": "2026-09-23",
+   "id": "c3e8242434f0423f",
+   "title": "Agentic Detection of Online Conspiracies",
+   "summary": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, but inferring the speaker's intent -- the...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.30250v1",
+   "published": "2026-09-24",
    "tags": [
     "paper",
-    "fine-tuning",
-    "evaluation",
-    "multimodal"
+    "agents"
+   ]
+  },
+  {
+   "id": "eb80df335f1284d1",
+   "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
+   "summary": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks. We introduce Temporal Reconstruction Attack on Consecutive Encodings (TRACE)...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.30258v1",
+   "published": "2026-09-24",
+   "tags": [
+    "paper",
+    "agents"
    ]
   },
   {
@@ -108,26 +132,36 @@
    ]
   },
   {
-   "id": "26cb68725f0f97ad",
-   "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
-   "summary": "Education Innovation",
+   "id": "90801afbca07a432",
+   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
-   "published": "2026-09-17",
+   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+   "published": "2026-09-18",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "2960c64a019e48fb",
-   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+   "id": "4c4abcff4acd2c4c",
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "published": "2026-09-23",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "a70f8ac64edfa547",
+   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/evaleval-aisi",
-   "published": "2026-09-22",
+   "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+   "published": "2026-09-23",
    "tags": [
-    "open-source",
-    "evaluation"
+    "open-source"
    ]
   },
   {
@@ -143,12 +177,12 @@
    ]
   },
   {
-   "id": "931c28839e384d7d",
-   "title": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
-   "summary": "Computer scientist, entrepreneur, and philanthropist will collaborate with the MIT Schwarzman College of Computing to advance AI and scientific discovery.",
+   "id": "f6fad453b0cdb1b6",
+   "title": "The promise and peril of using visual AI to study cities",
+   "summary": "In their new book, “How AI Sees the City,” the leaders of MIT’s Senseable City Lab examine the technology’s implications for researching urban life.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
-   "published": "2026-09-23",
+   "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
+   "published": "2026-09-24",
    "tags": [
     "research"
    ]
@@ -165,28 +199,38 @@
    ]
   },
   {
-   "id": "e42f9a24cc94cc19",
-   "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
-   "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mostly limited to snippets or functions...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.28449v1",
-   "published": "2026-09-23",
+   "id": "843b585cb2068ef3",
+   "title": "Black Forest Labs Releases FLUX 3 Action: A 7B Open-Weights World Action Model That Tops RoboLab-120",
+   "summary": "Black Forest Labs (BFL), the lab behind the FLUX image models, has released FLUX 3 Action. It is a 7B open-weights World Action Model (WAM) for robot control. The model reads camera frames, robot state and a text instruction. It then predicts future video frames and the next chunk of actions together. On the RoboLab-120 […] The post...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/24/black-forest-labs-releases-flux-3-action-a-7b-open-weights-world-action-model-that-tops-robolab-120/",
+   "published": "2026-09-25",
    "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "reasoning"
+    "industry"
    ]
   },
   {
-   "id": "02a1ae8181a06a62",
-   "title": "Even Sharper Bounds for Transductive Learning and Its Applications",
-   "summary": "We introduce Sharper Transductive Local Complexity (STLC), a localized complexity method for transductive learning under uniform sampling without replacement. The construction starts from a Bernstein-type concentration inequality for the supremum of the test--train empirical process. Its proof uses the modified log-Sobolev inequality for...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.28459v1",
-   "published": "2026-09-23",
+   "id": "1b037181a2d1b45f",
+   "title": "JevOut: Natural Context Can Flip Decision Models",
+   "summary": "Dedicated decision models such as Jev map unstructured language to probability distributions over finite choices, allowing their outputs to directly route requests, select tools, and trigger actions. Yet real-world inputs rarely arrive in isolation: they come with background details and surrounding context. We find that short additions...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.30243v1",
+   "published": "2026-09-24",
    "tags": [
     "paper"
+   ]
+  },
+  {
+   "id": "e59d7acb924fdc59",
+   "title": "Minimally Invasive Steering of Language Models",
+   "summary": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.30218v1",
+   "published": "2026-09-24",
+   "tags": [
+    "paper",
+    "llm",
+    "reasoning"
    ]
   },
   {
@@ -202,27 +246,38 @@
    ]
   },
   {
-   "id": "e0b2eaa994e7e730",
-   "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
-   "summary": "Algorithms & Theory",
+   "id": "26cb68725f0f97ad",
+   "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+   "summary": "Education Innovation",
    "source": "Google Research",
-   "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
-   "published": "2026-09-15",
+   "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+   "published": "2026-09-17",
    "tags": [
-    "research",
-    "serving"
+    "research"
    ]
   },
   {
-   "id": "98acfe91fd30b730",
-   "title": "Transformers now runs llama.cpp quants",
+   "id": "be2314c62992cc2b",
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "published": "2026-09-23",
+   "tags": [
+    "labs",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "2960c64a019e48fb",
+   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+   "url": "https://huggingface.co/blog/evaleval-aisi",
    "published": "2026-09-22",
    "tags": [
     "open-source",
-    "llm"
+    "evaluation"
    ]
   },
   {
@@ -240,12 +295,12 @@
    ]
   },
   {
-   "id": "1500813625f0d22c",
-   "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
-   "summary": "Patricia and James Poitras ’63 provide fellowships for graduate students and postdocs who will shape the future of mental health research.",
+   "id": "931c28839e384d7d",
+   "title": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
+   "summary": "Computer scientist, entrepreneur, and philanthropist will collaborate with the MIT Schwarzman College of Computing to advance AI and scientific discovery.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
-   "published": "2026-09-22",
+   "url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
+   "published": "2026-09-23",
    "tags": [
     "research"
    ]
@@ -262,27 +317,40 @@
    ]
   },
   {
-   "id": "d1e055acc761360d",
-   "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
-   "summary": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correct answer. We...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.28442v1",
-   "published": "2026-09-23",
+   "id": "b0b00da04cc4931f",
+   "title": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
+   "summary": "BottleCap AI has released ThinkingCap-Qwen3.8-27B, a fine-tune of Qwen3.8-27B that spends 37.2% fewer thinking tokens across 12 benchmarks. Macro accuracy moves from 86.65% to 85.79%, and long-context AA-LCR improves by 2.25pp. The model is a drop-in replacement on vLLM and SGLang, with FP8, NVFP4, GGUF and MLX builds. The post BottleCap...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/24/bottlecap-ai-releases-thinkingcap-qwen3-8-27b-37-2-fewer-thinking-tokens-at-a-0-86pp-accuracy-cost/",
+   "published": "2026-09-24",
    "tags": [
-    "paper",
-    "reasoning"
+    "industry",
+    "llm",
+    "fine-tuning",
+    "evaluation"
    ]
   },
   {
-   "id": "b9097091656b95af",
-   "title": "Nonequilibrium Phases of Repulsive Self-Attention: Chaos, Attention Condensation, and Emergent Locality",
-   "summary": "We study the nonequilibrium dynamics of a minimal recurrent transformer with $N$ normalized tokens, $Q=K=I$, and a negative value map $V=-I$. Similarity-based attention selects nearby representations, while the negative value map drives tokens away from the selected field. This feedback can continually reorganize both the representation...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.28448v1",
-   "published": "2026-09-23",
+   "id": "d7eea92285feec19",
+   "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
+   "summary": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion mechanisms. However, these methods still...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.30238v1",
+   "published": "2026-09-24",
    "tags": [
     "paper",
-    "llm"
+    "multimodal"
+   ]
+  },
+  {
+   "id": "5151686b84c4fcf4",
+   "title": "A Nearly Quadratic Lower Bound for Linear Optimization over Convex Bodies in the Membership Oracle Model",
+   "summary": "We prove nearly quadratic lower bounds for randomized algorithms for linear optimization and uniform sampling over convex bodies in the membership oracle model. For linear optimization, this matches the known nearly quadratic upper bound up to a polylog factor in the dimension. For uniform sampling, this improves on the previous linear...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.30215v1",
+   "published": "2026-09-24",
+   "tags": [
+    "paper"
    ]
   },
   {
@@ -291,6 +359,126 @@
    "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
    "source": "OpenAI",
    "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+   "published": "2026-09-23",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "e0b2eaa994e7e730",
+   "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+   "summary": "Algorithms & Theory",
+   "source": "Google Research",
+   "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
+   "published": "2026-09-15",
+   "tags": [
+    "research",
+    "serving"
+   ]
+  },
+  {
+   "id": "f4c3141ce9f2ce84",
+   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+   "published": "2026-09-15",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "98acfe91fd30b730",
+   "title": "Transformers now runs llama.cpp quants",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+   "published": "2026-09-22",
+   "tags": [
+    "open-source",
+    "llm"
+   ]
+  },
+  {
+   "id": "3f6c58621a366d1b",
+   "title": "2026 BAIR Graduate Showcase",
+   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
+   "published": "2026-07-01",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "1500813625f0d22c",
+   "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
+   "summary": "Patricia and James Poitras ’63 provide fellowships for graduate students and postdocs who will shape the future of mental health research.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
+   "published": "2026-09-22",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "28c7ee44d88bdbf2",
+   "title": "Controlling Reasoning Effort in LLMs",
+   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+   "published": "2026-07-18",
+   "tags": [
+    "newsletter",
+    "llm",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "eb7fb51e4f65eaca",
+   "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
+   "summary": "Contrastive-LM has released CLM-8B, an open System One model that scores candidate actions against a state instead of generating text. It adds 2 small projection heads to a frozen Qwen3-8B encoder and trains them with a contrastive InfoNCE objective. In zero-shot tests it runs up to 9× faster than TypeSafe's Jev. With fine-tuned heads as...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/",
+   "published": "2026-09-24",
+   "tags": [
+    "industry",
+    "fine-tuning",
+    "agents"
+   ]
+  },
+  {
+   "id": "15c6c30de4557d3a",
+   "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
+   "summary": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directly from speech. We introduce VeriSpeak, a probe benchmark for studying speech-based fact verification in Large Audio...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.30227v1",
+   "published": "2026-09-24",
+   "tags": [
+    "paper",
+    "rag",
+    "evaluation",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "d167d9bc7906b4d0",
+   "title": "Anchored Extra-Proximal Methods: Optimal Higher-Order Methods for Monotone Inclusion Problems",
+   "summary": "We study the deterministic oracle complexity of finding approximate solutions to composite monotone inclusion problems, formed by the sum of a smooth single-valued monotone operator and a maximally monotone set-valued operator, under the tangent-residual criterion. We introduce the Anchored Extra-Proximal (AEP) framework, which combines...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.30212v1",
+   "published": "2026-09-24",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "7357353a1f1d61a6",
+   "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+   "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
    "published": "2026-09-23",
    "tags": [
     "labs",
@@ -310,6 +498,17 @@
    ]
   },
   {
+   "id": "80d284f58871ce28",
+   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+   "published": "2026-09-08",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
    "id": "fb8ad85c459c0cb6",
    "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
    "summary": "",
@@ -318,99 +517,6 @@
    "published": "2026-09-22",
    "tags": [
     "open-source"
-   ]
-  },
-  {
-   "id": "3f6c58621a366d1b",
-   "title": "2026 BAIR Graduate Showcase",
-   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
-   "published": "2026-07-01",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "0cf2be2f0ba1cd97",
-   "title": "A new chapter for MIT Reads",
-   "summary": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
-   "published": "2026-09-18",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "28c7ee44d88bdbf2",
-   "title": "Controlling Reasoning Effort in LLMs",
-   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-   "published": "2026-07-18",
-   "tags": [
-    "newsletter",
-    "llm",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "dd58122d3708504c",
-   "title": "Cross-Scale Transfer Learning for Depression Severity Prediction: From PHQ-8 to HAMD-17 Across Languages and Clinical Paradigms",
-   "summary": "This work addresses continuous depression-severity score prediction from clinical interview transcripts under data scarcity. We propose a sequential low-rank adaptation (LoRA) protocol for cross-scale transfer: a Qwen3 backbone with a bounded regression head is first fine-tuned on the English DAIC-WOZ dataset (189 avatar-mediated...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.28430v1",
-   "published": "2026-09-23",
-   "tags": [
-    "paper",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "1da5a08636decf51",
-   "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
-   "summary": "We study minimal-norm interpolation and $\\ell_2$-regularized logistic-loss minimization for binary classification by univariate two-layer ReLU networks. We give complete geometric characterizations of the optimal classifiers in function space, resolving how the solutions depend on whether hidden-layer biases are included in the parameter...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.28438v1",
-   "published": "2026-09-23",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "7357353a1f1d61a6",
-   "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-   "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-   "published": "2026-09-23",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "98769dd27a5383f5",
-   "title": "Transfer learning for genomic prediction in underrepresented populations",
-   "summary": "General Science",
-   "source": "Google Research",
-   "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
-   "published": "2026-09-03",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "c701b57089c5bf6a",
-   "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-   "published": "2026-09-21",
-   "tags": [
-    "open-source",
-    "llm"
    ]
   },
   {
@@ -427,12 +533,12 @@
    ]
   },
   {
-   "id": "3a5713cd1d2196f2",
-   "title": "New AI technique could make minimally invasive surgeries safer and more precise",
-   "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
+   "id": "0cf2be2f0ba1cd97",
+   "title": "A new chapter for MIT Reads",
+   "summary": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
-   "published": "2026-09-16",
+   "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+   "published": "2026-09-18",
    "tags": [
     "research"
    ]
@@ -450,28 +556,40 @@
    ]
   },
   {
-   "id": "376d9538844bb34f",
-   "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
-   "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.28416v1",
-   "published": "2026-09-23",
+   "id": "9debc668fbf57193",
+   "title": "A Coding Guide to TypeSafe AI Jev: Typed Decisions, Calibrated Confidence, and Speculative Fan-Out with a System One Model",
+   "summary": "This tutorial provides a complete coding guide to TypeSafe AI's Jev, a System One model designed for non-text, structured judgments. It covers installing the official Python SDK, using primitive question types (Choice, Score, Noul), implementing speculative fan-out, confidence-gated routing, and building async production workflows The...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/",
+   "published": "2026-09-24",
    "tags": [
-    "paper",
-    "llm",
-    "agents"
+    "industry"
    ]
   },
   {
-   "id": "ebe11361e16ab658",
-   "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
-   "summary": "Personalizing exoskeleton assistance across operating conditions is constrained by the time and physical effort required to collect user feedback. We examined whether a user's preference landscape varies smoothly across operating conditions and when this continuity supports learning from limited feedback. We propose Context-Continuous...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.28427v1",
-   "published": "2026-09-23",
+   "id": "e861edebb9ba9520",
+   "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+   "summary": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.30226v1",
+   "published": "2026-09-24",
    "tags": [
     "paper",
     "fine-tuning"
+   ]
+  },
+  {
+   "id": "b318431e9f0e63f0",
+   "title": "The Alignment Illusion in Multimodal Large Language Models",
+   "summary": "Layer-wise visual-text similarity in Multimodal Large Language Models (MLLMs) is widely interpreted as evidence that the language model progressively integrates visual content into a shared representation space. This reading rests on the assumption that scalar alignment scores reflect content-level cross-modal interaction. To test this...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.30210v1",
+   "published": "2026-09-24",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning",
+    "multimodal"
    ]
   },
   {
@@ -488,22 +606,33 @@
    ]
   },
   {
-   "id": "3aacd1631c1957a1",
-   "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+   "id": "98769dd27a5383f5",
+   "title": "Transfer learning for genomic prediction in underrepresented populations",
    "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+   "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
    "published": "2026-09-03",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "eb792e0fc3420085",
-   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "id": "56da2c8ef80375f1",
+   "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+   "published": "2026-09-03",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "c701b57089c5bf6a",
+   "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
    "published": "2026-09-21",
    "tags": [
     "open-source",
@@ -522,11 +651,11 @@
    ]
   },
   {
-   "id": "fce5c946628f0281",
-   "title": "Measure by measure, studying society accurately",
-   "summary": "Naoki Egami has become a standout in political methodology, helping refine tools that give scholars durable results.",
+   "id": "3a5713cd1d2196f2",
+   "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+   "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+   "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
    "published": "2026-09-16",
    "tags": [
     "research"
@@ -545,169 +674,40 @@
    ]
   },
   {
-   "id": "31bc82ef2cc0397a",
-   "title": "Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following",
-   "summary": "Fine-tuning large language models on parallel data improves translation quality but can cause catastrophic forgetting. Mitigation methods are generally evaluated by retention on general benchmarks. We ask whether these findings transfer to machine translation (MT) fine-tuning and to MT-specific instruction following (MT-IF): instructions...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.28395v1",
+   "id": "5fec8715050bbd92",
+   "title": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design",
+   "summary": "Google has released Gemini 3.8 Flash TTS and Flash-Lite TTS, 2 new text-to-speech models available now through the Gemini API and Google AI Studio. Flash TTS designs new voices from natural language prompts across 100+ languages. It ranks #1 on Hume AI's Voice Design Benchmark with a score of 71.4. Flash-Lite TTS targets high-volume...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
    "published": "2026-09-23",
    "tags": [
+    "industry",
+    "evaluation",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "6dcd7e895f44e53d",
+   "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+   "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.30199v1",
+   "published": "2026-09-24",
+   "tags": [
     "paper",
-    "llm",
     "fine-tuning",
     "evaluation"
    ]
   },
   {
-   "id": "c892e2359adf1ecf",
-   "title": "Repairability of Inexact Solvers in Recursive State Estimation with Machine Learning",
-   "summary": "Recursive state estimation often executes approximate numerical solutions inside a feedback loop, where highly accurate local steps do not guarantee better overall results. For a fixed linear Kalman model, we characterize when a correction within a prescribed subspace and norm budget can meet a local admissibility tolerance, and how the...",
+   "id": "1b8c605c5dc0794b",
+   "title": "Beyond Compression: Training Latent Representations for Stable Long-Horizon Rollout in Neural Surrogate Solvers",
+   "summary": "Latent neural surrogate solvers, or latent dynamics models, accelerate simulations of time-dependent physical systems by evolving a compressed latent space rather than resolving full-resolution fields directly. In principle this reduces computational cost and simplifies learning, but in practice errors often accumulate rapidly during...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.28425v1",
-   "published": "2026-09-23",
+   "url": "https://arxiv.org/abs/2609.30198v1",
+   "published": "2026-09-24",
    "tags": [
     "paper"
-   ]
-  },
-  {
-   "id": "1d5a9cc2d9509da8",
-   "title": "Introducing MentalHealthBench",
-   "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-mentalhealthbench",
-   "published": "2026-09-23",
-   "tags": [
-    "labs",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "411288110127b5c8",
-   "title": "Mapping global methane emissions from space with deep learning",
-   "summary": "Climate & Sustainability",
-   "source": "Google Research",
-   "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
-   "published": "2026-09-01",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "16a7b27ed0ae9a75",
-   "title": "Your Agent Aced the Task. Will It Do It Again?",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-   "published": "2026-09-15",
-   "tags": [
-    "open-source",
-    "agents"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
-    "safety"
-   ]
-  },
-  {
-   "id": "1ccfa6a4e947b14e",
-   "title": "New method enables AI for safety-critical situations",
-   "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
-   "published": "2026-09-14",
-   "tags": [
-    "research",
-    "safety"
-   ]
-  },
-  {
-   "id": "ad1a0b6f01f5a507",
-   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
-   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-   "published": "2026-05-16",
-   "tags": [
-    "newsletter",
-    "llm"
-   ]
-  },
-  {
-   "id": "f2a36f547c429c1f",
-   "title": "Digital diglossia: Arabic between X and Facebook",
-   "summary": "This study highlights the distribution of Standard Arabic (SA; H(igh) variety) and Colloquial Arabic (CA; L(ow) variety) across X and Facebook. 16754 public posts were collected via Python, with 10000 retained as the net dataset. Posts were classified into 7 discourse categories: *politics, technology, science, business, culture, fun,*...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.28352v1",
-   "published": "2026-09-23",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "f999b52da4b141ab",
-   "title": "Learning Holographic Reduced Representations with Clifford Variational Autoencoders",
-   "summary": "Vector Symbolic Algebras project data structures into a hyperdimensional vector space through the application of their vector algebras to randomly generated atomic vector symbols and fractional power encodings of real-valued data. Embedding unstructured data remains an open question. We present \\textit{Clifford-VAE}, a variational...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.28409v1",
-   "published": "2026-09-23",
-   "tags": [
-    "paper",
-    "rag"
-   ]
-  },
-  {
-   "id": "1dd9ce125c6e0e60",
-   "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-   "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-   "published": "2026-09-23",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "14a087bdb5895e90",
-   "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
-   "summary": "Data Management",
-   "source": "Google Research",
-   "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
-   "published": "2026-08-31",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "d4e55a9164f4783e",
-   "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-   "published": "2026-09-10",
-   "tags": [
-    "open-source",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "d16aba586a2f7547",
-   "title": "Information-Driven Design of Imaging Systems",
-   "summary": "An encoder (optical system) maps objects to noiseless images, which noise corrupts into measurements. Our information estimator uses only these noisy measurements and a noise model to quantify how well measurements distinguish objects. Many imaging systems produce measurements that humans never see or cannot interpret directly. Your...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/01/10/information-driven-imaging/",
-   "published": "2026-01-10",
-   "tags": [
-    "research"
    ]
   }
  ]
