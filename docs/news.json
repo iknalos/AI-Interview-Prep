@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-26",
- "generatedAt": "2026-09-26T11:32:46+00:00",
- "sourceCount": 10,
+ "generated": "2026-09-27",
+ "generatedAt": "2026-09-27T12:11:09+00:00",
+ "sourceCount": 9,
  "items": [
   {
    "id": "d2d497e5eee41848",
@@ -86,28 +86,14 @@
    ]
   },
   {
-   "id": "58330cf3588237c0",
-   "title": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
-   "summary": "Exa has released Agent Ultra, the highest effort mode of its Exa Agent API. It coordinates subagents across thousands of sources for list building and entity enrichment. Exa reports it beats Opus 5.5, GPT-6 Astra, and Perplexity Agent on 4 benchmarks, including 81.4% soft recall on WANDR. The post Exa Launches Agent Ultra: A Subagent...",
+   "id": "1ed9cdd9dc15537e",
+   "title": "AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared",
+   "summary": "We read the contracts behind GitHub Copilot, AWS Kiro, Cursor, Devin and Windsurf. Copilot and Kiro offer uncapped indemnity on generated code. Cognition's standard terms exclude outputs entirely. Here is how 500 seats compare on legal exposure, prompt storage, audit logs and true cost. The post AI Coding Agents for Enterprise: IP...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
-   "published": "2026-09-26",
+   "url": "https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/",
+   "published": "2026-09-27",
    "tags": [
     "industry",
-    "llm",
-    "evaluation",
-    "agents"
-   ]
-  },
-  {
-   "id": "c3e8242434f0423f",
-   "title": "Agentic Detection of Online Conspiracies",
-   "summary": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, but inferring the speaker's intent -- the...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.30250v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper",
     "agents"
    ]
   },
@@ -202,40 +188,28 @@
    ]
   },
   {
-   "id": "e2bae4b2efce6e49",
-   "title": "End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch",
-   "summary": "Discover how to build a comprehensive multimodal augmentation and adversarial robustness workflow using AugLy for images, text, audio, and PyTorch datasets. The post End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch appeared first on MarkTechPost .",
+   "id": "24c2b2fbaf753995",
+   "title": "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation",
+   "summary": "A comprehensive coding tutorial on Google Research's Massive Sound Embedding Benchmark (MSEB), demonstrating how to implement custom sound encoders, drive classification, clustering, retrieval, and segmentation evaluators, and analyze multi-task benchmark performance. The post A Coding Guide to Google Research’s MSEB: Writing Sound...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/",
-   "published": "2026-09-26",
+   "url": "https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/",
+   "published": "2026-09-27",
    "tags": [
     "industry",
-    "evaluation",
-    "multimodal"
+    "rag",
+    "evaluation"
    ]
   },
   {
-   "id": "1b037181a2d1b45f",
-   "title": "JevOut: Natural Context Can Flip Decision Models",
-   "summary": "Dedicated decision models such as Jev map unstructured language to probability distributions over finite choices, allowing their outputs to directly route requests, select tools, and trigger actions. Yet real-world inputs rarely arrive in isolation: they come with background details and surrounding context. We find that short additions...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.30243v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "e59d7acb924fdc59",
-   "title": "Minimally Invasive Steering of Language Models",
-   "summary": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the...",
+   "id": "c3e8242434f0423f",
+   "title": "Agentic Detection of Online Conspiracies",
+   "summary": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, but inferring the speaker's intent -- the...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30218v1",
+   "url": "https://arxiv.org/abs/2609.30250v1",
    "published": "2026-09-24",
    "tags": [
     "paper",
-    "llm",
-    "reasoning"
+    "agents"
    ]
   },
   {
@@ -321,40 +295,30 @@
    ]
   },
   {
-   "id": "4983f96f195be8d4",
-   "title": "Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding",
-   "summary": "Liquid AI has released LFM2.5-VL-3B-DSpark, a 279.5M-parameter draft model that brings speculative decoding to its LFM2.5-VL-3B vision-language model. It delivers up to 3.13x faster decoding on Apple M5 Max and 2.66x on H100, with identical output under greedy decoding. Support ships in llama.cpp, MLX-VLM, and SGLang. The post Liquid AI...",
+   "id": "511d767986dcb497",
+   "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
+   "summary": "Sarvam AI's Saaras V4 is a speech-to-text model covering all 22 Indian languages plus global English. It pairs an audio encoder with a 3B hybrid state-space decoder. It adds keyterm prompting for up to 50 terms, 5 output modes from 1 model, and streaming with first-token latency under 150 ms. It is available today through Sarvam's API at...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/",
-   "published": "2026-09-25",
+   "url": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
+   "published": "2026-09-26",
    "tags": [
     "industry",
-    "llm",
     "serving",
     "multimodal"
    ]
   },
   {
-   "id": "d7eea92285feec19",
-   "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
-   "summary": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion mechanisms. However, these methods still...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.30238v1",
+   "id": "15c6c30de4557d3a",
+   "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
+   "summary": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directly from speech. We introduce VeriSpeak, a probe benchmark for studying speech-based fact verification in Large Audio...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.30227v1",
    "published": "2026-09-24",
    "tags": [
     "paper",
+    "rag",
+    "evaluation",
     "multimodal"
-   ]
-  },
-  {
-   "id": "5151686b84c4fcf4",
-   "title": "A Nearly Quadratic Lower Bound for Linear Optimization over Convex Bodies in the Membership Oracle Model",
-   "summary": "We prove nearly quadratic lower bounds for randomized algorithms for linear optimization and uniform sampling over convex bodies in the membership oracle model. For linear optimization, this matches the known nearly quadratic upper bound up to a polylog factor in the dimension. For uniform sampling, this improves on the previous linear...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30215v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper"
    ]
   },
   {
@@ -440,39 +404,26 @@
    ]
   },
   {
-   "id": "968c8527b458ae42",
-   "title": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
-   "summary": "Aikido Security has released Altar-1, its first open-weight security model. It is a compressed version of Z.AI’s GLM-5.3, built to run inside infrastructure the customer controls. Altar-1 powers Aikido Machine, the company’s autonomous pentesting appliance for on-prem and air-gapped networks. Is it deployable? Yes, the weights are public...",
+   "id": "4d28d4f1ce5868f3",
+   "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
+   "summary": "Supersonic Labs has released Julia 1, a 144.3M-parameter decision model built on mmBERT-small. It takes context, a question, and 2 to 20 options, then returns one choice with probabilities. The model runs on a CPU and ships under Apache 2.0. It beat Jev reference values on 3 of 4 pilots but trailed on the 72-label Banking77 test. The...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
-   "published": "2026-09-25",
+   "url": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
+   "published": "2026-09-26",
    "tags": [
     "industry"
    ]
   },
   {
-   "id": "15c6c30de4557d3a",
-   "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
-   "summary": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directly from speech. We introduce VeriSpeak, a probe benchmark for studying speech-based fact verification in Large Audio...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.30227v1",
+   "id": "e861edebb9ba9520",
+   "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+   "summary": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.30226v1",
    "published": "2026-09-24",
    "tags": [
     "paper",
-    "rag",
-    "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "d167d9bc7906b4d0",
-   "title": "Anchored Extra-Proximal Methods: Optimal Higher-Order Methods for Monotone Inclusion Problems",
-   "summary": "We study the deterministic oracle complexity of finding approximate solutions to composite monotone inclusion problems, formed by the sum of a smooth single-valued monotone operator and a maximally monotone set-valued operator, under the tangent-residual criterion. We introduce the Anchored Extra-Proximal (AEP) framework, which combines...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30212v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper"
+    "fine-tuning"
    ]
   },
   {
@@ -558,42 +509,30 @@
    ]
   },
   {
-   "id": "d956b99b8c61a9bc",
-   "title": "Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation",
-   "summary": "Perplexity Research published a new post-training study. It trains a model inside Perplexity Computer on real user sessions, including failed ones. The method pairs rejection sampling fine-tuning with hint-guided self-distillation. In a live A/B test, tool-call failures fell from 2.24% to 1.77% between 2 trained checkpoints. Perplexity...",
+   "id": "58330cf3588237c0",
+   "title": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
+   "summary": "Exa has released Agent Ultra, the highest effort mode of its Exa Agent API. It coordinates subagents across thousands of sources for list building and entity enrichment. Exa reports it beats Opus 5.5, GPT-6 Astra, and Perplexity Agent on 4 benchmarks, including 81.4% soft recall on WANDR. The post Exa Launches Agent Ultra: A Subagent...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/",
-   "published": "2026-09-25",
+   "url": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
+   "published": "2026-09-26",
    "tags": [
     "industry",
-    "fine-tuning",
+    "llm",
+    "evaluation",
     "agents"
    ]
   },
   {
-   "id": "e861edebb9ba9520",
-   "title": "PoEM: Predicting RL Outcomes from Existing Policies",
-   "summary": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.30226v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "b318431e9f0e63f0",
-   "title": "The Alignment Illusion in Multimodal Large Language Models",
-   "summary": "Layer-wise visual-text similarity in Multimodal Large Language Models (MLLMs) is widely interpreted as evidence that the language model progressively integrates visual content into a shared representation space. This reading rests on the assumption that scalar alignment scores reflect content-level cross-modal interaction. To test this...",
+   "id": "e59d7acb924fdc59",
+   "title": "Minimally Invasive Steering of Language Models",
+   "summary": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30210v1",
+   "url": "https://arxiv.org/abs/2609.30218v1",
    "published": "2026-09-24",
    "tags": [
     "paper",
     "llm",
-    "fine-tuning",
-    "multimodal"
+    "reasoning"
    ]
   },
   {
@@ -677,39 +616,98 @@
    ]
   },
   {
-   "id": "87d40d619a023e1b",
-   "title": "Fastino Releases GLiNER2.5-Decide: A 340M Open-Weight Decision Model That Runs on CPU",
-   "summary": "Fastino Labs has released GLiNER2.5-Decide, a 340M-parameter open-weight decision model. It takes text and a schema of typed questions and returns structured answers. Each answer comes with a probability distribution, a confidence score, and constraint-feasibility metadata. It targets the frequent judgment calls inside agent pipelines...",
+   "id": "e2bae4b2efce6e49",
+   "title": "End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch",
+   "summary": "Discover how to build a comprehensive multimodal augmentation and adversarial robustness workflow using AugLy for images, text, audio, and PyTorch datasets. The post End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/",
-   "published": "2026-09-25",
+   "url": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/",
+   "published": "2026-09-26",
    "tags": [
     "industry",
+    "evaluation",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "5151686b84c4fcf4",
+   "title": "A Nearly Quadratic Lower Bound for Linear Optimization over Convex Bodies in the Membership Oracle Model",
+   "summary": "We prove nearly quadratic lower bounds for randomized algorithms for linear optimization and uniform sampling over convex bodies in the membership oracle model. For linear optimization, this matches the known nearly quadratic upper bound up to a polylog factor in the dimension. For uniform sampling, this improves on the previous linear...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.30215v1",
+   "published": "2026-09-24",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "7cff1964bf19497f",
+   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+   "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/ringg",
+   "published": "2026-09-23",
+   "tags": [
+    "labs",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "6dcd7e895f44e53d",
-   "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
-   "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.30199v1",
-   "published": "2026-09-24",
+   "id": "3aacd1631c1957a1",
+   "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+   "published": "2026-09-03",
    "tags": [
-    "paper",
-    "fine-tuning",
-    "evaluation"
+    "research"
    ]
   },
   {
-   "id": "1b8c605c5dc0794b",
-   "title": "Beyond Compression: Training Latent Representations for Stable Long-Horizon Rollout in Neural Surrogate Solvers",
-   "summary": "Latent neural surrogate solvers, or latent dynamics models, accelerate simulations of time-dependent physical systems by evolving a compressed latent space rather than resolving full-resolution fields directly. In principle this reduces computational cost and simplifies learning, but in practice errors often accumulate rapidly during...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30198v1",
-   "published": "2026-09-24",
+   "id": "383dbcd782aba68f",
+   "title": "Proactive cyber defense for governments and enterprises",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+   "published": "2026-09-02",
    "tags": [
-    "paper"
+    "labs"
+   ]
+  },
+  {
+   "id": "eb792e0fc3420085",
+   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "published": "2026-09-21",
+   "tags": [
+    "open-source",
+    "llm"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "3a5713cd1d2196f2",
+   "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+   "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+   "published": "2026-09-16",
+   "tags": [
+    "research"
    ]
   }
  ]
