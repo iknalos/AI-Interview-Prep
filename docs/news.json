@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-27",
- "generatedAt": "2026-09-27T12:11:09+00:00",
- "sourceCount": 9,
+ "generated": "2026-09-28",
+ "generatedAt": "2026-09-28T14:08:13+00:00",
+ "sourceCount": 8,
  "items": [
   {
    "id": "d2d497e5eee41848",
@@ -38,16 +38,15 @@
    ]
   },
   {
-   "id": "c2a53f2332725b78",
-   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+   "id": "9552195c964ddb7b",
+   "title": "Holo4: powering generalist computer-use agents",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-   "published": "2026-09-24",
+   "url": "https://huggingface.co/blog/Hcompany/holo4",
+   "published": "2026-09-28",
    "tags": [
     "open-source",
-    "llm",
-    "multimodal"
+    "agents"
    ]
   },
   {
@@ -62,12 +61,12 @@
    ]
   },
   {
-   "id": "e3aa7d4c7b1120c7",
-   "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
-   "summary": "The PKG Center for Social Impact expands Code.Tulsa experiential learning program.",
+   "id": "875cad4e1ea46687",
+   "title": "New formulation helps RNA vaccines withstand high temperatures",
+   "summary": "MIT engineers have found a way to stabilize the lipid nanoparticles used to deliver RNA vaccines, which could allow the vaccines to be more widely distributed.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
-   "published": "2026-09-25",
+   "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+   "published": "2026-09-28",
    "tags": [
     "research"
    ]
@@ -86,27 +85,15 @@
    ]
   },
   {
-   "id": "1ed9cdd9dc15537e",
-   "title": "AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared",
-   "summary": "We read the contracts behind GitHub Copilot, AWS Kiro, Cursor, Devin and Windsurf. Copilot and Kiro offer uncapped indemnity on generated code. Cognition's standard terms exclude outputs entirely. Here is how 500 seats compare on legal exposure, prompt storage, audit logs and true cost. The post AI Coding Agents for Enterprise: IP...",
+   "id": "6b844397046b9805",
+   "title": "Fireworks AI Releases Ember-1: A Post-Trained Kimi K3 That Uses About 40% Fewer Tokens",
+   "summary": "Fireworks AI has released Ember-1, a post-trained Kimi K3 that learns to produce shorter reasoning traces instead of lowering reasoning effort. Fireworks reports about 40% fewer tokens, with output tokens per task falling from 49.3K to 29.9K in a production A/B test at an essentially unchanged score. Ember-1 is available now as an...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/",
-   "published": "2026-09-27",
+   "url": "https://www.marktechpost.com/2026/09/28/fireworks-ai-releases-ember-1-a-post-trained-kimi-k3-that-uses-about-40-fewer-tokens/",
+   "published": "2026-09-28",
    "tags": [
     "industry",
-    "agents"
-   ]
-  },
-  {
-   "id": "eb80df335f1284d1",
-   "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
-   "summary": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks. We introduce Temporal Reconstruction Attack on Consecutive Encodings (TRACE)...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30258v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper",
-    "agents"
+    "reasoning"
    ]
   },
   {
@@ -143,14 +130,16 @@
    ]
   },
   {
-   "id": "a70f8ac64edfa547",
-   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+   "id": "c2a53f2332725b78",
+   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-   "published": "2026-09-23",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+   "published": "2026-09-24",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm",
+    "multimodal"
    ]
   },
   {
@@ -166,12 +155,12 @@
    ]
   },
   {
-   "id": "2d3921d846c73739",
-   "title": "Estimating suicide risk from text",
-   "summary": "A new language-processing tool could help identify the highest-risk individuals from natural language, enabling swifter interventions.",
+   "id": "e3aa7d4c7b1120c7",
+   "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
+   "summary": "The PKG Center for Social Impact expands Code.Tulsa experiential learning program.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
-   "published": "2026-09-24",
+   "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
+   "published": "2026-09-25",
    "tags": [
     "research"
    ]
@@ -188,27 +177,15 @@
    ]
   },
   {
-   "id": "24c2b2fbaf753995",
-   "title": "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation",
-   "summary": "A comprehensive coding tutorial on Google Research's Massive Sound Embedding Benchmark (MSEB), demonstrating how to implement custom sound encoders, drive classification, clustering, retrieval, and segmentation evaluators, and analyze multi-task benchmark performance. The post A Coding Guide to Google Research’s MSEB: Writing Sound...",
+   "id": "8bae98197a0e4234",
+   "title": "20 Agentic Use Cases of TypeSafe AI’s Jev",
+   "summary": "TypeSafe AI's Jev skips text generation and returns typed decisions with calibrated probabilities. Input costs $0.042 per million tokens and output is free. We verified 20 agentic use cases, from model routing and tool-call gating to reranking and injection screening, and compared Jev with its closest open and LLM rivals. The post 20...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/",
-   "published": "2026-09-27",
+   "url": "https://www.marktechpost.com/2026/09/27/20-agentic-use-cases-of-typesafe-ais-jev/",
+   "published": "2026-09-28",
    "tags": [
     "industry",
-    "rag",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "c3e8242434f0423f",
-   "title": "Agentic Detection of Online Conspiracies",
-   "summary": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, but inferring the speaker's intent -- the...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30250v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper",
+    "llm",
     "agents"
    ]
   },
@@ -247,15 +224,14 @@
    ]
   },
   {
-   "id": "2960c64a019e48fb",
-   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+   "id": "a70f8ac64edfa547",
+   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/evaleval-aisi",
-   "published": "2026-09-22",
+   "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+   "published": "2026-09-23",
    "tags": [
-    "open-source",
-    "evaluation"
+    "open-source"
    ]
   },
   {
@@ -273,11 +249,11 @@
    ]
   },
   {
-   "id": "f6fad453b0cdb1b6",
-   "title": "The promise and peril of using visual AI to study cities",
-   "summary": "In their new book, “How AI Sees the City,” the leaders of MIT’s Senseable City Lab examine the technology’s implications for researching urban life.",
+   "id": "2d3921d846c73739",
+   "title": "Estimating suicide risk from text",
+   "summary": "A new language-processing tool could help identify the highest-risk individuals from natural language, enabling swifter interventions.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
+   "url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
    "published": "2026-09-24",
    "tags": [
     "research"
@@ -295,29 +271,15 @@
    ]
   },
   {
-   "id": "511d767986dcb497",
-   "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
-   "summary": "Sarvam AI's Saaras V4 is a speech-to-text model covering all 22 Indian languages plus global English. It pairs an audio encoder with a 3B hybrid state-space decoder. It adds keyterm prompting for up to 50 terms, 5 output modes from 1 model, and streaming with first-token latency under 150 ms. It is available today through Sarvam's API at...",
+   "id": "30dbbe306c494d2c",
+   "title": "Google Research Introduces an AI Video Co-Director: 4 Agentic Frameworks for Coherent, Minutes-Long Video Generation",
+   "summary": "Google Research has introduced an AI video co-director for long-form video generation. The suite of 4 agentic frameworks turns short clips into coherent, minutes-long stories. It targets identity drift and cascading errors, the 2 failures that break most multi-shot AI video pipelines today. Why Long AI Videos Fall Apart Diffusion models...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
-   "published": "2026-09-26",
+   "url": "https://www.marktechpost.com/2026/09/27/google-research-introduces-an-ai-video-co-director-4-agentic-frameworks-for-coherent-minutes-long-video-generation/",
+   "published": "2026-09-28",
    "tags": [
     "industry",
-    "serving",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "15c6c30de4557d3a",
-   "title": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
-   "summary": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directly from speech. We introduce VeriSpeak, a probe benchmark for studying speech-based fact verification in Large Audio...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30227v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper",
-    "rag",
-    "evaluation",
+    "agents",
     "multimodal"
    ]
   },
@@ -357,15 +319,15 @@
    ]
   },
   {
-   "id": "98acfe91fd30b730",
-   "title": "Transformers now runs llama.cpp quants",
+   "id": "2960c64a019e48fb",
+   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+   "url": "https://huggingface.co/blog/evaleval-aisi",
    "published": "2026-09-22",
    "tags": [
     "open-source",
-    "llm"
+    "evaluation"
    ]
   },
   {
@@ -380,12 +342,12 @@
    ]
   },
   {
-   "id": "931c28839e384d7d",
-   "title": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
-   "summary": "Computer scientist, entrepreneur, and philanthropist will collaborate with the MIT Schwarzman College of Computing to advance AI and scientific discovery.",
+   "id": "f6fad453b0cdb1b6",
+   "title": "The promise and peril of using visual AI to study cities",
+   "summary": "In their new book, “How AI Sees the City,” the leaders of MIT’s Senseable City Lab examine the technology’s implications for researching urban life.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
-   "published": "2026-09-23",
+   "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
+   "published": "2026-09-24",
    "tags": [
     "research"
    ]
@@ -404,26 +366,15 @@
    ]
   },
   {
-   "id": "4d28d4f1ce5868f3",
-   "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
-   "summary": "Supersonic Labs has released Julia 1, a 144.3M-parameter decision model built on mmBERT-small. It takes context, a question, and 2 to 20 options, then returns one choice with probabilities. The model runs on a CPU and ships under Apache 2.0. It beat Jev reference values on 3 of 4 pilots but trailed on the 72-label Banking77 test. The...",
+   "id": "1ed9cdd9dc15537e",
+   "title": "AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared",
+   "summary": "We read the contracts behind GitHub Copilot, AWS Kiro, Cursor, Devin and Windsurf. Copilot and Kiro offer uncapped indemnity on generated code. Cognition's standard terms exclude outputs entirely. Here is how 500 seats compare on legal exposure, prompt storage, audit logs and true cost. The post AI Coding Agents for Enterprise: IP...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
-   "published": "2026-09-26",
+   "url": "https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/",
+   "published": "2026-09-27",
    "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "e861edebb9ba9520",
-   "title": "PoEM: Predicting RL Outcomes from Existing Policies",
-   "summary": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, sometimes unstable, and has to be run from scratch every time the reward model changes or when we want to combine...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30226v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper",
-    "fine-tuning"
+    "industry",
+    "agents"
    ]
   },
   {
@@ -462,14 +413,15 @@
    ]
   },
   {
-   "id": "fb8ad85c459c0cb6",
-   "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+   "id": "98acfe91fd30b730",
+   "title": "Transformers now runs llama.cpp quants",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/omlx",
+   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
    "published": "2026-09-22",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm"
    ]
   },
   {
@@ -486,12 +438,12 @@
    ]
   },
   {
-   "id": "1500813625f0d22c",
-   "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
-   "summary": "Patricia and James Poitras ’63 provide fellowships for graduate students and postdocs who will shape the future of mental health research.",
+   "id": "931c28839e384d7d",
+   "title": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
+   "summary": "Computer scientist, entrepreneur, and philanthropist will collaborate with the MIT Schwarzman College of Computing to advance AI and scientific discovery.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
-   "published": "2026-09-22",
+   "url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
+   "published": "2026-09-23",
    "tags": [
     "research"
    ]
@@ -509,30 +461,16 @@
    ]
   },
   {
-   "id": "58330cf3588237c0",
-   "title": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
-   "summary": "Exa has released Agent Ultra, the highest effort mode of its Exa Agent API. It coordinates subagents across thousands of sources for list building and entity enrichment. Exa reports it beats Opus 5.5, GPT-6 Astra, and Perplexity Agent on 4 benchmarks, including 81.4% soft recall on WANDR. The post Exa Launches Agent Ultra: A Subagent...",
+   "id": "24c2b2fbaf753995",
+   "title": "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation",
+   "summary": "A comprehensive coding tutorial on Google Research's Massive Sound Embedding Benchmark (MSEB), demonstrating how to implement custom sound encoders, drive classification, clustering, retrieval, and segmentation evaluators, and analyze multi-task benchmark performance. The post A Coding Guide to Google Research’s MSEB: Writing Sound...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
-   "published": "2026-09-26",
+   "url": "https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/",
+   "published": "2026-09-27",
    "tags": [
     "industry",
-    "llm",
-    "evaluation",
-    "agents"
-   ]
-  },
-  {
-   "id": "e59d7acb924fdc59",
-   "title": "Minimally Invasive Steering of Language Models",
-   "summary": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30218v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper",
-    "llm",
-    "reasoning"
+    "rag",
+    "evaluation"
    ]
   },
   {
@@ -570,15 +508,14 @@
    ]
   },
   {
-   "id": "c701b57089c5bf6a",
-   "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+   "id": "fb8ad85c459c0cb6",
+   "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-   "published": "2026-09-21",
+   "url": "https://huggingface.co/blog/omlx",
+   "published": "2026-09-22",
    "tags": [
-    "open-source",
-    "llm"
+    "open-source"
    ]
   },
   {
@@ -593,12 +530,12 @@
    ]
   },
   {
-   "id": "0cf2be2f0ba1cd97",
-   "title": "A new chapter for MIT Reads",
-   "summary": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
+   "id": "1500813625f0d22c",
+   "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
+   "summary": "Patricia and James Poitras ’63 provide fellowships for graduate students and postdocs who will shape the future of mental health research.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
-   "published": "2026-09-18",
+   "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
+   "published": "2026-09-22",
    "tags": [
     "research"
    ]
@@ -616,27 +553,16 @@
    ]
   },
   {
-   "id": "e2bae4b2efce6e49",
-   "title": "End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch",
-   "summary": "Discover how to build a comprehensive multimodal augmentation and adversarial robustness workflow using AugLy for images, text, audio, and PyTorch datasets. The post End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch appeared first on MarkTechPost .",
+   "id": "511d767986dcb497",
+   "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
+   "summary": "Sarvam AI's Saaras V4 is a speech-to-text model covering all 22 Indian languages plus global English. It pairs an audio encoder with a 3B hybrid state-space decoder. It adds keyterm prompting for up to 50 terms, 5 output modes from 1 model, and streaming with first-token latency under 150 ms. It is available today through Sarvam's API at...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/",
+   "url": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
    "published": "2026-09-26",
    "tags": [
     "industry",
-    "evaluation",
+    "serving",
     "multimodal"
-   ]
-  },
-  {
-   "id": "5151686b84c4fcf4",
-   "title": "A Nearly Quadratic Lower Bound for Linear Optimization over Convex Bodies in the Membership Oracle Model",
-   "summary": "We prove nearly quadratic lower bounds for randomized algorithms for linear optimization and uniform sampling over convex bodies in the membership oracle model. For linear optimization, this matches the known nearly quadratic upper bound up to a polylog factor in the dimension. For uniform sampling, this improves on the previous linear...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.30215v1",
-   "published": "2026-09-24",
-   "tags": [
-    "paper"
    ]
   },
   {
@@ -675,11 +601,11 @@
    ]
   },
   {
-   "id": "eb792e0fc3420085",
-   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "id": "c701b57089c5bf6a",
+   "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
    "published": "2026-09-21",
    "tags": [
     "open-source",
@@ -700,14 +626,83 @@
    ]
   },
   {
-   "id": "3a5713cd1d2196f2",
-   "title": "New AI technique could make minimally invasive surgeries safer and more precise",
-   "summary": "This patient-specific method, called xvr, helps doctors use X-rays for surgical navigation in fields such as orthopedics and neurosurgery.",
+   "id": "0cf2be2f0ba1cd97",
+   "title": "A new chapter for MIT Reads",
+   "summary": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
-   "published": "2026-09-16",
+   "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+   "published": "2026-09-18",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "ad1a0b6f01f5a507",
+   "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+   "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+   "published": "2026-05-16",
+   "tags": [
+    "newsletter",
+    "llm"
+   ]
+  },
+  {
+   "id": "4d28d4f1ce5868f3",
+   "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
+   "summary": "Supersonic Labs has released Julia 1, a 144.3M-parameter decision model built on mmBERT-small. It takes context, a question, and 2 to 20 options, then returns one choice with probabilities. The model runs on a CPU and ships under Apache 2.0. It beat Jev reference values on 3 of 4 pilots but trailed on the 72-label Banking77 test. The...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
+   "published": "2026-09-26",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "1d5a9cc2d9509da8",
+   "title": "Introducing MentalHealthBench",
+   "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-mentalhealthbench",
+   "published": "2026-09-23",
+   "tags": [
+    "labs",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "411288110127b5c8",
+   "title": "Mapping global methane emissions from space with deep learning",
+   "summary": "Climate & Sustainability",
+   "source": "Google Research",
+   "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+   "published": "2026-09-01",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "18ef68f77655a435",
+   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+   "published": "2026-09-02",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "eb792e0fc3420085",
+   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "published": "2026-09-21",
+   "tags": [
+    "open-source",
+    "llm"
    ]
   }
  ]
