@@ -1,18 +1,19 @@
 {
- "generated": "2026-09-30",
- "generatedAt": "2026-09-30T12:44:46+00:00",
- "sourceCount": 10,
+ "generated": "2026-10-01",
+ "generatedAt": "2026-10-01T13:28:56+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "dd66acaed2a04b44",
-   "title": "Introducing GPT-6.1 Sol",
-   "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+   "id": "6a91381a429232e7",
+   "title": "Disrupting a coordinated model-distillation campaign",
+   "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "published": "2026-09-29",
+   "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "published": "2026-09-30",
    "tags": [
     "labs",
-    "llm"
+    "fine-tuning",
+    "reasoning"
    ]
   },
   {
@@ -28,25 +29,16 @@
    ]
   },
   {
-   "id": "e7107d9a76d915c4",
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "published": "2026-09-24",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "493cf3fce1b87919",
-   "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+   "id": "581ab3112c302ffe",
+   "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-   "published": "2026-09-29",
+   "url": "https://huggingface.co/blog/open-tts-leaderboard",
+   "published": "2026-09-30",
    "tags": [
-    "open-source"
+    "open-source",
+    "evaluation",
+    "multimodal"
    ]
   },
   {
@@ -61,12 +53,12 @@
    ]
   },
   {
-   "id": "7912342139f3efcb",
-   "title": "The effects of an “algorithmic monoculture” depend on the details",
-   "summary": "In a study focusing on hiring decisions, MIT researchers found the use of a single algorithm by many firms could benefit job seekers in certain situations.",
+   "id": "9f49b513f8de7ed3",
+   "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
+   "summary": "With $2.1 million funding from Google.org, the open-source Public Transit Intelligence Hub will unify public transit monitoring, operations, and passenger communication.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
-   "published": "2026-09-29",
+   "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
+   "published": "2026-09-30",
    "tags": [
     "research"
    ]
@@ -84,55 +76,51 @@
    ]
   },
   {
-   "id": "399c6e7d076ddf69",
-   "title": "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
-   "summary": "Perplexity has released Photon, an in-house retrieval and ranking engine written in Rust. It replaces an open-source engine Perplexity had forked for its AI-native search stack. Photon now handles retrieval and ranking for all production traffic. It also powers a new Fast Search mode in the Perplexity Search API. Perplexity reports...",
+   "id": "c95a102bc4cf37b2",
+   "title": "NVIDIA Releases Kumo Tabular: Open Tabular Foundation Models That Predict New Rows in a Single Forward Pass",
+   "summary": "NVIDIA has released Kumo Tabular, a new family of tabular foundation models (TFMs) for classification and regression. If you have followed TabPFN or TabICL, the setup will look familiar. The model takes labeled rows as context and predicts new rows in one forward pass. There is no training, no hyperparameter tuning, and no feature...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/30/perplexity-introduces-photon-a-rust-based-retrieval-engine-that-cuts-p99-latency-from-800-ms-to-65-ms/",
-   "published": "2026-09-30",
+   "url": "https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/",
+   "published": "2026-10-01",
    "tags": [
-    "industry",
-    "rag",
-    "evaluation",
-    "serving"
+    "industry"
    ]
   },
   {
-   "id": "4d22a3ee01cd8ed3",
-   "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
-   "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work attempts to close this gap by injecting...",
+   "id": "5155b289a771d451",
+   "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+   "summary": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We therefore evaluate and optimize for...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.38177v1",
-   "published": "2026-09-29",
+   "url": "https://arxiv.org/abs/2609.40361v1",
+   "published": "2026-09-30",
    "tags": [
     "paper",
     "llm",
-    "reasoning",
+    "evaluation",
     "multimodal"
    ]
   },
   {
-   "id": "34b40a592223d281",
-   "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
-   "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic systems offer a way to reduce this...",
+   "id": "070430f8edee3cf0",
+   "title": "Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text",
+   "summary": "We find that major reported improvements in decoding words from non-invasive brain recordings are largely reproducible without any brain data. In the influential work of d'Ascoli et al. (2025), time series of brain activity from subjects perceiving continuous speech are segmented into fixed-length windows starting at each word. A neural...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.38178v1",
-   "published": "2026-09-29",
+   "url": "https://arxiv.org/abs/2609.40359v1",
+   "published": "2026-09-30",
    "tags": [
     "paper",
-    "agents"
+    "multimodal"
    ]
   },
   {
-   "id": "19db7cc5ca5cc5ea",
-   "title": "DevDay 2026 Recap",
-   "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+   "id": "b5e5e43443d214df",
+   "title": "Helping small businesses put AI to work",
+   "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/devday-2026-recap",
-   "published": "2026-09-29",
+   "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+   "published": "2026-09-30",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -147,26 +135,14 @@
    ]
   },
   {
-   "id": "4c4abcff4acd2c4c",
-   "title": "Advancing Private AI Compute with secure, server-side memory",
-   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "published": "2026-09-23",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "984223f109f3360b",
-   "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+   "id": "493cf3fce1b87919",
+   "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+   "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
    "published": "2026-09-29",
    "tags": [
-    "open-source",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -182,12 +158,12 @@
    ]
   },
   {
-   "id": "809d70e354d2f066",
-   "title": "Who we become when we talk to machines",
-   "summary": "Professor Sherry Turkle’s new book, “Artificial Intimacy,” offers a withering critique of chatbots and the antisocial dynamics she believes they encourage.",
+   "id": "ea039df066f8591e",
+   "title": "This game-playing AI is the new champ at Stratego",
+   "summary": "Able to defeat top-ranked human players and more efficient than other models, the new system could help decision-makers in military maneuvers or business negotiations.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
-   "published": "2026-09-29",
+   "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+   "published": "2026-09-30",
    "tags": [
     "research"
    ]
@@ -206,51 +182,52 @@
    ]
   },
   {
-   "id": "8fdf71edc8671cc8",
-   "title": "NVIDIA Researchers Introduce Physis-Lang: Self-Evolving Physical Language That Lifts Cosmos 3 Past Veo 3.1 on Physics Benchmarks",
-   "summary": "Video world models can render convincing clips that still break physics. Butter spreads like paint. Balls pass through walls. A team from NVIDIA, MIT and the University of Oxford argues the fix can come from language itself, not from extra visual, latent or numerical signals. Their framework, Physis-Lang, treats physical language as a...",
+   "id": "81a8b06f589109fb",
+   "title": "Perplexity Releases pplx-embed-v2-context-9b-preview: A Contextual Embedding Model That Retrieves Answers and Their Supporting Evidence",
+   "summary": "Perplexity Research and turbopuffer have released pplx-embed-v2-context-9b-preview, a contextual embedding model for RAG pipelines. Each chunk is embedded with the full document in view. The real change is the training signal. The model learns to retrieve the answer along with the context needed to verify it, not one ‘gold passage.’ P Is...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/30/nvidia-researchers-introduce-physis-lang-self-evolving-physical-language-that-lifts-cosmos-3-past-veo-3-1-on-physics-benchmarks/",
-   "published": "2026-09-30",
+   "url": "https://www.marktechpost.com/2026/09/30/perplexity-releases-pplx-embed-v2-context-9b-preview-a-contextual-embedding-model-that-retrieves-answers-and-their-supporting-evidence/",
+   "published": "2026-10-01",
    "tags": [
     "industry",
-    "evaluation"
+    "rag"
    ]
   },
   {
-   "id": "a704b5cdb0b78c8a",
-   "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
-   "summary": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recurrent states to low precision often leads to severe accuracy degradation, as quantization errors propagate through successive state updates...",
+   "id": "347f7646bbb80109",
+   "title": "Semifactual Credit-Augmented Policy Optimization",
+   "summary": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underlying problem and its answer. Our...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.38169v1",
-   "published": "2026-09-29",
+   "url": "https://arxiv.org/abs/2609.40360v1",
+   "published": "2026-09-30",
    "tags": [
     "paper",
     "llm",
-    "serving"
+    "reasoning"
    ]
   },
   {
-   "id": "068752a7a64dc087",
-   "title": "Breakdown of Local Denoising as Semantic Speciation",
-   "summary": "The dynamics of generative models exhibit two apparently distinct temporal windows: a speciation window, in which a sample commits to a semantic class, and a nonlocality window, in which local context windows become insufficient for generation. Motivated by evidence of their near-concurrence in a variety of frontier models, we...",
+   "id": "78c1bce5c66875d5",
+   "title": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
+   "summary": "We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos. Instead of relying on heavy 3D architectures or reconstruction-based autoencoders for learning with unlabeled data, we repurpose standard image Vision Transformers by representing videos as super...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.38176v1",
-   "published": "2026-09-29",
+   "url": "https://arxiv.org/abs/2609.40347v1",
+   "published": "2026-09-30",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "884977ecb8004cb3",
-   "title": "Introducing dots",
-   "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+   "id": "dd66acaed2a04b44",
+   "title": "Introducing GPT-6.1 Sol",
+   "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-dots",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol",
    "published": "2026-09-29",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -265,24 +242,12 @@
    ]
   },
   {
-   "id": "be2314c62992cc2b",
-   "title": "Gemini 3.8 text-to-speech says hello",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-   "published": "2026-09-23",
-   "tags": [
-    "labs",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "9552195c964ddb7b",
-   "title": "Holo4: powering generalist computer-use agents",
+   "id": "984223f109f3360b",
+   "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Hcompany/holo4",
-   "published": "2026-09-28",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+   "published": "2026-09-29",
    "tags": [
     "open-source",
     "agents"
@@ -303,12 +268,12 @@
    ]
   },
   {
-   "id": "875cad4e1ea46687",
-   "title": "New formulation helps RNA vaccines withstand high temperatures",
-   "summary": "MIT engineers have found a way to stabilize the lipid nanoparticles used to deliver RNA vaccines, which could allow the vaccines to be more widely distributed.",
+   "id": "7912342139f3efcb",
+   "title": "The effects of an “algorithmic monoculture” depend on the details",
+   "summary": "In a study focusing on hiring decisions, MIT researchers found the use of a single algorithm by many firms could benefit job seekers in certain situations.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
-   "published": "2026-09-28",
+   "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
+   "published": "2026-09-29",
    "tags": [
     "research"
    ]
@@ -325,53 +290,54 @@
    ]
   },
   {
-   "id": "67935ec1da0c2d8a",
-   "title": "One Bad Prompt Took Down a Company’s Salesforce: RSA’s Jim Taylor on Agent ID and Taming the 4,000 Shadow AI Agents Hiding in Your Enterprise",
-   "summary": "RSA launched Agent ID at The AI Conference in San Francisco. It's an agentic identity security platform for finance, government, healthcare, and critical infrastructure. It has 3 modules. Discover finds sanctioned and shadow agents and MCP servers. Secure is an inline gateway that checks every tool call against policy. Govern maps...",
+   "id": "52c8600f7803a9ec",
+   "title": "Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense",
+   "summary": "Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5.5 on most benchmarks, but access remains gated today. The post Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/29/rsa-launches-agent-id-to-discover-secure-and-govern-ai-agents-in-regulated-industries/",
+   "url": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
    "published": "2026-09-30",
    "tags": [
     "industry",
-    "agents"
-   ]
-  },
-  {
-   "id": "3a4d3cf61bd15b76",
-   "title": "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation",
-   "summary": "Emotion-conditioned text-to-speech (TTS) models may fail to express the requested emotion reliably, and improving controllability by additional training is costly in both computation and emotion-labeled speech training data. We therefore study vector steering, a training-free approach that modifies the internal representations of a...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.38157v1",
-   "published": "2026-09-29",
-   "tags": [
-    "paper",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "2c15ac4b75d5ab0d",
-   "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
-   "summary": "Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeatedly reading and updating that state...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.38166v1",
-   "published": "2026-09-29",
-   "tags": [
-    "paper",
     "llm",
-    "serving"
+    "evaluation"
    ]
   },
   {
-   "id": "cf468ec39dd67f09",
-   "title": "Towards safety cases for frontier AI training",
-   "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+   "id": "2209c4a2ea1018ea",
+   "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+   "summary": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2609.40340v1",
+   "published": "2026-09-30",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "8ffaf5f149e5ff7a",
+   "title": "Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?",
+   "summary": "Differentially Private Stochastic Gradient Descent (DP-SGD) is a leading approach for privacy-preserving fine-tuning of large language models (LLMs). Many decoder-only LLMs employ weight tying between input and output embeddings, a design choice originally introduced for parameter efficiency and improved language modeling performance in...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.40335v1",
+   "published": "2026-09-30",
+   "tags": [
+    "paper",
+    "rag",
+    "llm",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "19db7cc5ca5cc5ea",
+   "title": "DevDay 2026 Recap",
+   "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-   "published": "2026-09-28",
+   "url": "https://openai.com/index/devday-2026-recap",
+   "published": "2026-09-29",
    "tags": [
     "labs",
-    "fine-tuning",
-    "safety"
+    "llm"
    ]
   },
   {
@@ -386,27 +352,15 @@
    ]
   },
   {
-   "id": "f4c3141ce9f2ce84",
-   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-   "published": "2026-09-15",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "c2a53f2332725b78",
-   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+   "id": "9552195c964ddb7b",
+   "title": "Holo4: powering generalist computer-use agents",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-   "published": "2026-09-24",
+   "url": "https://huggingface.co/blog/Hcompany/holo4",
+   "published": "2026-09-28",
    "tags": [
     "open-source",
-    "llm",
-    "multimodal"
+    "agents"
    ]
   },
   {
@@ -421,12 +375,12 @@
    ]
   },
   {
-   "id": "e3aa7d4c7b1120c7",
-   "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
-   "summary": "The PKG Center for Social Impact expands Code.Tulsa experiential learning program.",
+   "id": "809d70e354d2f066",
+   "title": "Who we become when we talk to machines",
+   "summary": "Professor Sherry Turkle’s new book, “Artificial Intimacy,” offers a withering critique of chatbots and the antisocial dynamics she believes they encourage.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
-   "published": "2026-09-25",
+   "url": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
+   "published": "2026-09-29",
    "tags": [
     "research"
    ]
@@ -443,46 +397,48 @@
    ]
   },
   {
-   "id": "0080c7c424379662",
-   "title": "Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens",
-   "summary": "Liquid AI has released d1, a decision model built for structured choices instead of text generation. You give it context and a set of typed questions. It returns calibrated probabilities across a fixed set of outcomes in a single call, with zero generated tokens. The target is the work many teams still send to general […] The post Liquid...",
+   "id": "649c571de6bbdb5c",
+   "title": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
+   "summary": "OpenAI released GPT-6.1 Sol on September 29, 2026, an upgrade to GPT-6 Sol. It reaches near-Astra results on agentic coding, computer use and professional work at one-fifth of Astra's token prices. It costs $2 input and $10 output per million tokens, and cached input drops to $0.10. It is available now through the OpenAI API, ChatGPT...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/",
-   "published": "2026-09-29",
+   "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
+   "published": "2026-09-30",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "agents"
    ]
   },
   {
-   "id": "631f9aff8209c362",
-   "title": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
-   "summary": "Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving...",
+   "id": "315f5cd4cffcf2bd",
+   "title": "MatLoom: Layered Text-to-Material Generation in a Compact Program Space",
+   "summary": "Material generation should produce not only an appearance, but also the rules that construct it. We introduce MatLoom, a compact, layer-oriented language for text-to-material generation with pretrained language models. Each program composes alpha-masked layers whose shared spatial expressions define coverage and physically based...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.38155v1",
-   "published": "2026-09-29",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "73ad733a50367232",
-   "title": "Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data",
-   "summary": "The landscape of satellite imagery time series datasets and boundary-pushing architectures for cropland segmentation has never been richer. However, in this gold rush, important truths are being missed on both fronts, as a drive for the most novel concepts or the largest datasets pushes finer details to the side. In this paper, we...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.38165v1",
-   "published": "2026-09-29",
+   "url": "https://arxiv.org/abs/2609.40322v1",
+   "published": "2026-09-30",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "cfe8e900401f31bb",
-   "title": "How we will do better for Australia",
-   "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+   "id": "fcc1748226c58d31",
+   "title": "Compression Footprints as Security Signals for Model-Poisoning Defense in Federated Learning",
+   "summary": "Lossy compression is widely used in Federated Learning (FL) but is generally treated as an error source, while conventional poisoning defenses inspect update geometry. In this work, we instead treat the compressor's response as a security signal: the input-dependent distortion and payload behavior induced by lossy compression can expose...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2609.40312v1",
+   "published": "2026-09-30",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "884977ecb8004cb3",
+   "title": "Introducing dots",
+   "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-   "published": "2026-09-28",
+   "url": "https://openai.com/index/introducing-dots",
+   "published": "2026-09-29",
    "tags": [
     "labs"
    ]
@@ -500,26 +456,16 @@
    ]
   },
   {
-   "id": "80d284f58871ce28",
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-   "published": "2026-09-08",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "2960c64a019e48fb",
-   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+   "id": "c2a53f2332725b78",
+   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/evaleval-aisi",
-   "published": "2026-09-22",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+   "published": "2026-09-24",
    "tags": [
     "open-source",
-    "evaluation"
+    "llm",
+    "multimodal"
    ]
   },
   {
@@ -536,12 +482,12 @@
    ]
   },
   {
-   "id": "2d3921d846c73739",
-   "title": "Estimating suicide risk from text",
-   "summary": "A new language-processing tool could help identify the highest-risk individuals from natural language, enabling swifter interventions.",
+   "id": "875cad4e1ea46687",
+   "title": "New formulation helps RNA vaccines withstand high temperatures",
+   "summary": "MIT engineers have found a way to stabilize the lipid nanoparticles used to deliver RNA vaccines, which could allow the vaccines to be more widely distributed.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
-   "published": "2026-09-24",
+   "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+   "published": "2026-09-28",
    "tags": [
     "research"
    ]
@@ -560,49 +506,50 @@
    ]
   },
   {
-   "id": "19661e9bc6f38bea",
-   "title": "OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers",
-   "summary": "OpenAI just introduced dots at their DevDay today. Dots are persistent AI agents powered by GPT-6 Astra. Each dot gets its own cloud computer and browser. It works across 4,000+ apps through ChatGPT plugins and keeps going after you log off. Is it deployable today? Yes, as a managed product. Dots are rolling out in […] The post OpenAI...",
+   "id": "399c6e7d076ddf69",
+   "title": "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
+   "summary": "Perplexity has released Photon, an in-house retrieval and ranking engine written in Rust. It replaces an open-source engine Perplexity had forked for its AI-native search stack. Photon now handles retrieval and ranking for all production traffic. It also powers a new Fast Search mode in the Perplexity Search API. Perplexity reports...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers/",
-   "published": "2026-09-29",
+   "url": "https://www.marktechpost.com/2026/09/30/perplexity-introduces-photon-a-rust-based-retrieval-engine-that-cuts-p99-latency-from-800-ms-to-65-ms/",
+   "published": "2026-09-30",
    "tags": [
     "industry",
-    "llm",
-    "agents"
+    "rag",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "a355cf4e86d3e901",
-   "title": "Pretraining Latent Information Feedback Transformers with Teacher Supervision",
-   "summary": "Transformer language models (LMs) are feed-forward: deep-layer representations are never fed back to shallower layers, and the only pathway for information to flow downward across generation steps is the decoded token. This narrow channel forces models to recompute intermediate results and to discard alternative continuations. In this...",
+   "id": "9b726263dd9b30bf",
+   "title": "Scaling Laws for Looped Mixture of Experts",
+   "summary": "Looped transformers and Mixture-of-Experts (MoE) offer complementary routes to efficient scaling: recurrence increases computational depth at fixed parameters, while MoE sparsity expands total capacity at fixed active compute. Yet existing scaling laws model recurrence or sparsity in isolation. In this work, we introduce Loop Scaling...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.38149v1",
-   "published": "2026-09-29",
+   "url": "https://arxiv.org/abs/2609.40316v1",
+   "published": "2026-09-30",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "1c50fcd2e6becd56",
-   "title": "A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization",
-   "summary": "Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between Laplacian spectra such a summary is bracketed by two edge counts, the net change in edge number from below and the symmetric difference...",
+   "id": "72ef7767ef443ec5",
+   "title": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
+   "summary": "Pretrained robot policies provide useful action priors, but long-horizon manipulation still requires coordination between semantic reasoning and physical execution. Semantic reasoning operates at a coarser timescale than physical interaction, while episode-level failures provide limited guidance on which system component should be...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.38161v1",
-   "published": "2026-09-29",
+   "url": "https://arxiv.org/abs/2609.40306v1",
+   "published": "2026-09-30",
    "tags": [
     "paper",
-    "llm",
-    "evaluation"
+    "agents",
+    "reasoning"
    ]
   },
   {
-   "id": "216d56bba26ca458",
-   "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-   "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+   "id": "cfe8e900401f31bb",
+   "title": "How we will do better for Australia",
+   "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+   "url": "https://openai.com/index/how-we-will-do-better-for-australia",
    "published": "2026-09-28",
    "tags": [
     "labs"
@@ -621,26 +568,15 @@
    ]
   },
   {
-   "id": "56da2c8ef80375f1",
-   "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-   "published": "2026-09-03",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "98acfe91fd30b730",
-   "title": "Transformers now runs llama.cpp quants",
+   "id": "2960c64a019e48fb",
+   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+   "url": "https://huggingface.co/blog/evaleval-aisi",
    "published": "2026-09-22",
    "tags": [
     "open-source",
-    "llm"
+    "evaluation"
    ]
   },
   {
@@ -655,12 +591,12 @@
    ]
   },
   {
-   "id": "f6fad453b0cdb1b6",
-   "title": "The promise and peril of using visual AI to study cities",
-   "summary": "In their new book, “How AI Sees the City,” the leaders of MIT’s Senseable City Lab examine the technology’s implications for researching urban life.",
+   "id": "e3aa7d4c7b1120c7",
+   "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
+   "summary": "The PKG Center for Social Impact expands Code.Tulsa experiential learning program.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
-   "published": "2026-09-24",
+   "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
+   "published": "2026-09-25",
    "tags": [
     "research"
    ]
@@ -678,40 +614,111 @@
    ]
   },
   {
-   "id": "0f0f0ec1e4c2b2df",
-   "title": "Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit Prizes",
-   "summary": "Nebius and NVIDIA are running the 2026 Physical AI Awards for startups with products in the field. Five category winners each get $150,000 in compute credits, joint promotion, executive mentorship, and seats at an executive dinner. Applications close October 25. The post Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit...",
+   "id": "8fdf71edc8671cc8",
+   "title": "NVIDIA Researchers Introduce Physis-Lang: Self-Evolving Physical Language That Lifts Cosmos 3 Past Veo 3.1 on Physics Benchmarks",
+   "summary": "Video world models can render convincing clips that still break physics. Butter spreads like paint. Balls pass through walls. A team from NVIDIA, MIT and the University of Oxford argues the fix can come from language itself, not from extra visual, latent or numerical signals. Their framework, Physis-Lang, treats physical language as a...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/09/29/nebius-opens-2026-physical-ai-awards-five-150k-compute-prizes/",
-   "published": "2026-09-29",
+   "url": "https://www.marktechpost.com/2026/09/30/nvidia-researchers-introduce-physis-lang-self-evolving-physical-language-that-lifts-cosmos-3-past-veo-3-1-on-physics-benchmarks/",
+   "published": "2026-09-30",
    "tags": [
-    "industry"
+    "industry",
+    "evaluation"
    ]
   },
   {
-   "id": "29fd3490460e8ab7",
-   "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
-   "summary": "Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introduce Meta-Skill: principles specifying...",
+   "id": "ce91e7f9b4ac2dec",
+   "title": "How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text",
+   "summary": "Web text makes up the majority of pretraining data and is increasingly AI-generated. After applying FineWeb quality filtering, we find that 27.5% of tokens from June 2026 web data are labeled as AI-generated by Pangram, rising to 31.1% by August. Unlike synthetic data or model-collapse setups, this *wild* AI text comes from many models...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2609.38143v1",
-   "published": "2026-09-29",
+   "url": "https://arxiv.org/abs/2609.40295v1",
+   "published": "2026-09-30",
    "tags": [
-    "paper",
-    "agents",
-    "reasoning"
+    "paper"
    ]
   },
   {
-   "id": "8b89461b1f75db45",
-   "title": "Multi-Agent Flow Matching with Decoupled Generative Guidance",
-   "summary": "Generative modeling is widely used for producing diverse objects from complex, multimodal distributions. However, its expressivity does not, in general, come with formal guarantees that the generated objects satisfy hard constraints or requirements. In multi-agent generation, this problem becomes more challenging because a hard...",
+   "id": "cf14df8ba8b08014",
+   "title": "Looped Diffusion Transformer",
+   "summary": "Improving text-to-image models has traditionally relied on increasing model size or the number of denoising steps. In this work, we explore an alternative way to scale computation by repeatedly running shared Transformer blocks within each denoising step, effectively increasing computational depth while keeping the parameter count fixed...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2609.38133v1",
-   "published": "2026-09-29",
+   "url": "https://arxiv.org/abs/2609.40305v1",
+   "published": "2026-09-30",
    "tags": [
     "paper",
-    "agents",
+    "llm",
     "multimodal"
+   ]
+  },
+  {
+   "id": "cf468ec39dd67f09",
+   "title": "Towards safety cases for frontier AI training",
+   "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "published": "2026-09-28",
+   "tags": [
+    "labs",
+    "fine-tuning",
+    "safety"
+   ]
+  },
+  {
+   "id": "98769dd27a5383f5",
+   "title": "Transfer learning for genomic prediction in underrepresented populations",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
+   "published": "2026-09-03",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "98acfe91fd30b730",
+   "title": "Transformers now runs llama.cpp quants",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+   "published": "2026-09-22",
+   "tags": [
+    "open-source",
+    "llm"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "2d3921d846c73739",
+   "title": "Estimating suicide risk from text",
+   "summary": "A new language-processing tool could help identify the highest-risk individuals from natural language, enabling swifter interventions.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
+   "published": "2026-09-24",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "f3d1448df6a6df02",
+   "title": "LLM Research Papers: The 2026 List (January to May)",
+   "summary": "A curated roundup of notable LLM research papers that came out this year",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+   "published": "2026-06-06",
+   "tags": [
+    "newsletter",
+    "llm"
    ]
   }
  ]
