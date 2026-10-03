@@ -1,41 +1,52 @@
 {
- "generated": "2026-10-02",
- "generatedAt": "2026-10-02T12:47:33+00:00",
- "sourceCount": 8,
+ "generated": "2026-10-03",
+ "generatedAt": "2026-10-03T11:47:39+00:00",
+ "sourceCount": 10,
  "items": [
   {
-   "id": "7e67b43cf9d0e609",
-   "title": "The eternal complement",
-   "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+   "id": "8e206c4d9ed6ea5b",
+   "title": "A model guide for the GPT-6 family",
+   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-eternal-complement",
-   "published": "2026-10-01",
+   "url": "https://openai.com/index/practical-guide-building-gpt-6",
+   "published": "2026-10-02",
+   "tags": [
+    "labs",
+    "llm",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "b9b18411de990de0",
+   "title": "Toward provably private learning from federated data",
+   "summary": "Mobile Systems",
+   "source": "Google Research",
+   "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+   "published": "2026-10-02",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "15e70ee5e4a75a6c",
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "published": "2026-09-30",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "105e76d8cdeedad4",
-   "title": "How Diffusion Controller unifies and simplifies AI image generation",
-   "summary": "Algorithms & Theory",
-   "source": "Google Research",
-   "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
-   "published": "2026-09-29",
-   "tags": [
-    "research",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "a885ed61f54a415a",
-   "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+   "id": "d599f0a282be129f",
+   "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+   "url": "https://huggingface.co/blog/allenai/astabrief",
    "published": "2026-10-02",
    "tags": [
-    "open-source",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -50,11 +61,11 @@
    ]
   },
   {
-   "id": "5ef2700f9c57f9f4",
-   "title": "3 Questions: A new resource to empower young entrepreneurs",
-   "summary": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
+   "id": "84b251b19cc12d1e",
+   "title": "Computational tools for society’s most complex challenges",
+   "summary": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+   "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
    "published": "2026-10-02",
    "tags": [
     "research"
@@ -70,6 +81,18 @@
    "tags": [
     "newsletter",
     "llm"
+   ]
+  },
+  {
+   "id": "0a712c5edc61e1cb",
+   "title": "Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What About When to Stay Quiet?",
+   "summary": "TL;DR: Meta’s Muse, OpenAI’s Dots and Uber’s driver assistant share one bet: the agent speaks first. That moves the hard problem from what to answer to when to interrupt, on which channel, and with what offer. Classic ML and new decision models can solve it. Three launches, one pattern From pull to push Chatbots were […] The post Meta...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/03/meta-openai-and-uber-just-taught-ai-agents-to-talk-first-what-about-when-to-stay-quiet/",
+   "published": "2026-10-03",
+   "tags": [
+    "industry",
+    "agents"
    ]
   },
   {
@@ -100,38 +123,51 @@
    ]
   },
   {
-   "id": "a80484c2d5849bdb",
-   "title": "How Albertsons Companies is reimagining retail from the inside out",
-   "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+   "id": "a97398f76ee518bf",
+   "title": "Chatham scales its capital markets expertise with OpenAI",
+   "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/albertsons-reimagining-retail",
-   "published": "2026-10-01",
+   "url": "https://openai.com/index/chatham-financial",
+   "published": "2026-10-02",
    "tags": [
     "labs",
     "llm"
    ]
   },
   {
-   "id": "da79314d1ca0f841",
-   "title": "Automating coherent long-form video generation",
-   "summary": "Generative AI",
+   "id": "105e76d8cdeedad4",
+   "title": "How Diffusion Controller unifies and simplifies AI image generation",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/coherent-long-form-video-generation/",
-   "published": "2026-09-24",
+   "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+   "published": "2026-09-29",
    "tags": [
-    "research"
+    "research",
+    "multimodal"
    ]
   },
   {
-   "id": "0bf00b70dbd762e2",
-   "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+   "id": "0a622a33b8e3e3e9",
+   "title": "Introducing SynthID Bio",
+   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "published": "2026-09-30",
+   "tags": [
+    "labs",
+    "serving"
+   ]
+  },
+  {
+   "id": "a885ed61f54a415a",
+   "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/olmocore3",
-   "published": "2026-10-01",
+   "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+   "published": "2026-10-02",
    "tags": [
     "open-source",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -147,12 +183,12 @@
    ]
   },
   {
-   "id": "487a3c06f8822544",
-   "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
-   "summary": "“InstructMesh” can generate designs for everyday objects that are easy to edit and fabricate for both experts and newcomers to 3D modeling.",
+   "id": "7073f9adeb8b6211",
+   "title": "Documenting the tech worker movement",
+   "summary": "Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
-   "published": "2026-10-01",
+   "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
+   "published": "2026-10-02",
    "tags": [
     "research"
    ]
@@ -168,6 +204,19 @@
     "newsletter",
     "llm",
     "reasoning"
+   ]
+  },
+  {
+   "id": "280bb1c2cb0ab5b2",
+   "title": "IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code",
+   "summary": "IBM has made a self-hosted deployment of IBM Bob, its agentic software development platform, generally available. Enterprises can now run Bob on premises, in private or sovereign clouds, and in air-gapped networks. They bring their own model: NVIDIA Nemotron or Poolside Laguna for full isolation, or Claude, Gemini or GPT models through...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/",
+   "published": "2026-10-03",
+   "tags": [
+    "industry",
+    "llm",
+    "agents"
    ]
   },
   {
@@ -197,26 +246,36 @@
    ]
   },
   {
-   "id": "3bba527585738108",
-   "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-   "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+   "id": "7e67b43cf9d0e609",
+   "title": "The eternal complement",
+   "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-den-family-social",
+   "url": "https://openai.com/index/the-eternal-complement",
    "published": "2026-10-01",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "90801afbca07a432",
-   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
-   "summary": "Algorithms & Theory",
+   "id": "da79314d1ca0f841",
+   "title": "Automating coherent long-form video generation",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
-   "published": "2026-09-18",
+   "url": "https://research.google/blog/coherent-long-form-video-generation/",
+   "published": "2026-09-24",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "e7107d9a76d915c4",
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "published": "2026-09-24",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -247,12 +306,12 @@
    ]
   },
   {
-   "id": "9f49b513f8de7ed3",
-   "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
-   "summary": "With $2.1 million funding from Google.org, the open-source Public Transit Intelligence Hub will unify public transit monitoring, operations, and passenger communication.",
+   "id": "5ef2700f9c57f9f4",
+   "title": "3 Questions: A new resource to empower young entrepreneurs",
+   "summary": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
-   "published": "2026-09-30",
+   "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+   "published": "2026-10-02",
    "tags": [
     "research"
    ]
@@ -266,6 +325,19 @@
    "published": "2026-08-22",
    "tags": [
     "newsletter"
+   ]
+  },
+  {
+   "id": "eb7e341877c2e5bd",
+   "title": "Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models",
+   "summary": "Prime Intellect has launched Prime Inference, an OpenAI-compatible platform for serving frontier open models on NVIDIA Blackwell. Its GLM-5.3 deployment uses Dynamo, vLLM and NVFP4 KV compression to serve 66 sessions per prefill group at 101 tok/s per user. The post Prime Intellect Launches Prime Inference: Serverless and Reserved...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/02/prime-intellect-launches-prime-inference-serverless-and-reserved-serving-for-frontier-open-models/",
+   "published": "2026-10-03",
+   "tags": [
+    "industry",
+    "llm",
+    "serving"
    ]
   },
   {
@@ -295,27 +367,37 @@
    ]
   },
   {
-   "id": "6a91381a429232e7",
-   "title": "Disrupting a coordinated model-distillation campaign",
-   "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+   "id": "a80484c2d5849bdb",
+   "title": "How Albertsons Companies is reimagining retail from the inside out",
+   "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-   "published": "2026-09-30",
+   "url": "https://openai.com/index/albertsons-reimagining-retail",
+   "published": "2026-10-01",
    "tags": [
     "labs",
-    "fine-tuning",
-    "reasoning"
+    "llm"
    ]
   },
   {
-   "id": "26cb68725f0f97ad",
-   "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
-   "summary": "Education Innovation",
+   "id": "90801afbca07a432",
+   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
-   "published": "2026-09-17",
+   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+   "published": "2026-09-18",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "4c4abcff4acd2c4c",
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "published": "2026-09-23",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -341,12 +423,12 @@
    ]
   },
   {
-   "id": "ea039df066f8591e",
-   "title": "This game-playing AI is the new champ at Stratego",
-   "summary": "Able to defeat top-ranked human players and more efficient than other models, the new system could help decision-makers in military maneuvers or business negotiations.",
+   "id": "487a3c06f8822544",
+   "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
+   "summary": "“InstructMesh” can generate designs for everyday objects that are easy to edit and fabricate for both experts and newcomers to 3D modeling.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
-   "published": "2026-09-30",
+   "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
+   "published": "2026-10-01",
    "tags": [
     "research"
    ]
@@ -360,6 +442,18 @@
    "published": "2026-08-15",
    "tags": [
     "newsletter"
+   ]
+  },
+  {
+   "id": "ae39c209ec245a9c",
+   "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
+   "summary": "Microsoft AI has released MAI-Transcribe-2-Streaming, its first real-time speech-to-text model. It ranks #1 of 38 models on Artificial Analysis AA-WER Streaming. It scores 2.5% WER at 0.13s on final transcripts and 2.5% at 0.12s on first partials. It covers 60 languages with continuous language detection and costs $0.54 per hour during...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
+   "published": "2026-10-03",
+   "tags": [
+    "industry",
+    "multimodal"
    ]
   },
   {
@@ -388,26 +482,38 @@
    ]
   },
   {
-   "id": "b5e5e43443d214df",
-   "title": "Helping small businesses put AI to work",
-   "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+   "id": "3bba527585738108",
+   "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+   "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-   "published": "2026-09-30",
+   "url": "https://openai.com/index/the-den-family-social",
+   "published": "2026-10-01",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "e0b2eaa994e7e730",
-   "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
-   "summary": "Algorithms & Theory",
+   "id": "26cb68725f0f97ad",
+   "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+   "summary": "Education Innovation",
    "source": "Google Research",
-   "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
-   "published": "2026-09-15",
+   "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+   "published": "2026-09-17",
    "tags": [
-    "research",
-    "serving"
+    "research"
+   ]
+  },
+  {
+   "id": "be2314c62992cc2b",
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "published": "2026-09-23",
+   "tags": [
+    "labs",
+    "multimodal"
    ]
   },
   {
@@ -436,12 +542,12 @@
    ]
   },
   {
-   "id": "7912342139f3efcb",
-   "title": "The effects of an “algorithmic monoculture” depend on the details",
-   "summary": "In a study focusing on hiring decisions, MIT researchers found the use of a single algorithm by many firms could benefit job seekers in certain situations.",
+   "id": "9f49b513f8de7ed3",
+   "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
+   "summary": "With $2.1 million funding from Google.org, the open-source Public Transit Intelligence Hub will unify public transit monitoring, operations, and passenger communication.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
-   "published": "2026-09-29",
+   "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
+   "published": "2026-09-30",
    "tags": [
     "research"
    ]
@@ -457,6 +563,18 @@
     "newsletter",
     "llm",
     "reasoning"
+   ]
+  },
+  {
+   "id": "d53a0950754c0fe7",
+   "title": "Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide and Open-Source Competitors",
+   "summary": "Decision AI models answer typed questions with calibrated probabilities instead of generated text. TypeSafe's Jev costs $0.042 per million input tokens and returns responses in 70 to 500 milliseconds. We break down how it works and its benchmarks, then compare it with Fastino's GLiDE, GLiNER2.5-Decide and 4 open-source rivals. The post...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/",
+   "published": "2026-10-03",
+   "tags": [
+    "industry",
+    "evaluation"
    ]
   },
   {
@@ -484,27 +602,39 @@
    ]
   },
   {
-   "id": "dd66acaed2a04b44",
-   "title": "Introducing GPT-6.1 Sol",
-   "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+   "id": "6a91381a429232e7",
+   "title": "Disrupting a coordinated model-distillation campaign",
+   "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "published": "2026-09-29",
+   "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "published": "2026-09-30",
    "tags": [
     "labs",
-    "llm"
+    "fine-tuning",
+    "reasoning"
    ]
   },
   {
-   "id": "edd61c31429065ea",
-   "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
-   "summary": "Machine Intelligence",
+   "id": "e0b2eaa994e7e730",
+   "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+   "summary": "Algorithms & Theory",
    "source": "Google Research",
-   "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
-   "published": "2026-09-10",
+   "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
+   "published": "2026-09-15",
    "tags": [
     "research",
-    "agents"
+    "serving"
+   ]
+  },
+  {
+   "id": "f4c3141ce9f2ce84",
+   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+   "published": "2026-09-15",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -531,12 +661,12 @@
    ]
   },
   {
-   "id": "809d70e354d2f066",
-   "title": "Who we become when we talk to machines",
-   "summary": "Professor Sherry Turkle’s new book, “Artificial Intimacy,” offers a withering critique of chatbots and the antisocial dynamics she believes they encourage.",
+   "id": "ea039df066f8591e",
+   "title": "This game-playing AI is the new champ at Stratego",
+   "summary": "Able to defeat top-ranked human players and more efficient than other models, the new system could help decision-makers in military maneuvers or business negotiations.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
-   "published": "2026-09-29",
+   "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+   "published": "2026-09-30",
    "tags": [
     "research"
    ]
@@ -550,6 +680,20 @@
    "published": "2026-06-27",
    "tags": [
     "newsletter",
+    "agents"
+   ]
+  },
+  {
+   "id": "68db507e2dfb7a77",
+   "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
+   "summary": "NVIDIA announced a new 64GB configuration of DGX Spark — from Acer, ASUS, Dell, Gigabyte, HP and MSI — its GB10-powered desktop AI system. It gives developers a way to start with one system for local models and agents, then cluster two 64GB units for 128GB of memory across the cluster and more compute when […] The post NVIDIA Announces...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
+   "published": "2026-10-02",
+   "tags": [
+    "industry",
+    "fine-tuning",
+    "serving",
     "agents"
    ]
   },
@@ -575,150 +719,6 @@
    "published": "2026-10-01",
    "tags": [
     "paper"
-   ]
-  },
-  {
-   "id": "19db7cc5ca5cc5ea",
-   "title": "DevDay 2026 Recap",
-   "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/devday-2026-recap",
-   "published": "2026-09-29",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "98769dd27a5383f5",
-   "title": "Transfer learning for genomic prediction in underrepresented populations",
-   "summary": "General Science",
-   "source": "Google Research",
-   "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
-   "published": "2026-09-03",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "c2a53f2332725b78",
-   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-   "published": "2026-09-24",
-   "tags": [
-    "open-source",
-    "llm",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
-    "safety"
-   ]
-  },
-  {
-   "id": "875cad4e1ea46687",
-   "title": "New formulation helps RNA vaccines withstand high temperatures",
-   "summary": "MIT engineers have found a way to stabilize the lipid nanoparticles used to deliver RNA vaccines, which could allow the vaccines to be more widely distributed.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
-   "published": "2026-09-28",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "f3d1448df6a6df02",
-   "title": "LLM Research Papers: The 2026 List (January to May)",
-   "summary": "A curated roundup of notable LLM research papers that came out this year",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-   "published": "2026-06-06",
-   "tags": [
-    "newsletter",
-    "llm"
-   ]
-  },
-  {
-   "id": "f91cbed5c5428cb0",
-   "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
-   "summary": "Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive in a matched-architecture pair of Spanish security language models and propose a ladder of strict, cheap diagnostics. A 661.6M parameter model (approx. 65% code/technical text; no dedicated SFT) and a 1,109M model...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.02142v1",
-   "published": "2026-10-01",
-   "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "agents"
-   ]
-  },
-  {
-   "id": "7171fbb06c0dc3ce",
-   "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
-   "summary": "While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical understanding underlying their solutions. In this paper, we take a first step toward systematically studying mathematical understanding in LLMs, from diagnosing...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.02191v1",
-   "published": "2026-10-01",
-   "tags": [
-    "paper",
-    "llm",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "884977ecb8004cb3",
-   "title": "Introducing dots",
-   "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-dots",
-   "published": "2026-09-29",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "3aacd1631c1957a1",
-   "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
-   "summary": "General Science",
-   "source": "Google Research",
-   "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
-   "published": "2026-09-03",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "2960c64a019e48fb",
-   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/evaleval-aisi",
-   "published": "2026-09-22",
-   "tags": [
-    "open-source",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "d16aba586a2f7547",
-   "title": "Information-Driven Design of Imaging Systems",
-   "summary": "An encoder (optical system) maps objects to noiseless images, which noise corrupts into measurements. Our information estimator uses only these noisy measurements and a noise model to quantify how well measurements distinguish objects. Many imaging systems produce measurements that humans never see or cannot interpret directly. Your...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/01/10/information-driven-imaging/",
-   "published": "2026-01-10",
-   "tags": [
-    "research"
    ]
   }
  ]
