@@ -1,19 +1,18 @@
 {
- "generated": "2026-10-04",
- "generatedAt": "2026-10-04T12:30:20+00:00",
- "sourceCount": 9,
+ "generated": "2026-10-05",
+ "generatedAt": "2026-10-05T14:53:54+00:00",
+ "sourceCount": 10,
  "items": [
   {
-   "id": "8e206c4d9ed6ea5b",
-   "title": "A model guide for the GPT-6 family",
-   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+   "id": "3cbec84de8bf6155",
+   "title": "Building advertising for the way people use AI",
+   "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/practical-guide-building-gpt-6",
-   "published": "2026-10-02",
+   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "published": "2026-10-05",
    "tags": [
     "labs",
-    "llm",
-    "reasoning"
+    "llm"
    ]
   },
   {
@@ -25,6 +24,17 @@
    "published": "2026-10-02",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "15e70ee5e4a75a6c",
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "published": "2026-09-30",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -74,53 +84,51 @@
    ]
   },
   {
-   "id": "2c5221cda539b3b5",
-   "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
-   "summary": "Google Research has unveiled a federated learning system that moves gradient computation from phones into attested server-side TEEs. Access policies are published to Sigstore's Rekor log and the binaries are reproducibly buildable, so central differential privacy can be checked externally. Gboard already uses it for English and Japanese...",
+   "id": "a14f83ba1a77c6d1",
+   "title": "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
+   "summary": "One transformer ran candidate generation and ranking in Yandex Music's A/B test without hand-engineered features, lifting likes 11.42%. The post Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
-   "published": "2026-10-04",
+   "url": "https://www.marktechpost.com/2026/10/05/yandex-introduces-sona-a-single-generative-recommender-that-replaces-entire-recommendation-cascade/",
+   "published": "2026-10-05",
    "tags": [
-    "industry"
+    "industry",
+    "llm"
    ]
   },
   {
-   "id": "f361e0cd028d1698",
-   "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-   "summary": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity...",
+   "id": "9fa909c5886f137b",
+   "title": "Language Models that Play Chess and Explain Their Moves",
+   "summary": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations. We introduce Queen, a 4B-parameter chess-language model...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.02206v1",
-   "published": "2026-10-01",
+   "url": "https://arxiv.org/abs/2610.03695v1",
+   "published": "2026-10-02",
    "tags": [
     "paper",
-    "llm",
-    "evaluation",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "e91e271ba7dc3762",
-   "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-   "summary": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we...",
+   "id": "25a8aee56cc11f2c",
+   "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
+   "summary": "Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition. Their prediction target is the environment, which changes, so knowledge that was...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.02207v1",
-   "published": "2026-10-01",
+   "url": "https://arxiv.org/abs/2610.03713v1",
+   "published": "2026-10-02",
    "tags": [
-    "paper",
-    "fine-tuning",
-    "serving"
+    "paper"
    ]
   },
   {
-   "id": "a97398f76ee518bf",
-   "title": "Chatham scales its capital markets expertise with OpenAI",
-   "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+   "id": "8e206c4d9ed6ea5b",
+   "title": "A model guide for the GPT-6 family",
+   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/chatham-financial",
+   "url": "https://openai.com/index/practical-guide-building-gpt-6",
    "published": "2026-10-02",
    "tags": [
     "labs",
-    "llm"
+    "llm",
+    "reasoning"
    ]
   },
   {
@@ -133,6 +141,18 @@
    "tags": [
     "research",
     "multimodal"
+   ]
+  },
+  {
+   "id": "0a622a33b8e3e3e9",
+   "title": "Introducing SynthID Bio",
+   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "published": "2026-09-30",
+   "tags": [
+    "labs",
+    "serving"
    ]
   },
   {
@@ -183,53 +203,50 @@
    ]
   },
   {
-   "id": "38be749b24d516b7",
-   "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
-   "summary": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a 1M-token context and per-request reasoning effort, and its Apache 2.0 FP8 weights run on a single B200 or H200. The post Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE...",
+   "id": "4fac0b8f30c6debd",
+   "title": "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
+   "summary": "Alibaba's Qwen went from an invite-only chatbot in April 2023 to a 2.4-trillion-parameter open-weight model in August 2026. This is the full story, release by release: every major model, its key feature, and how its license changed. Each claim links to its source. The post The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T appeared...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
-   "published": "2026-10-04",
+   "url": "https://www.marktechpost.com/2026/10/04/the-story-of-qwen-alibabas-ai-models-from-7b-to-2-4t/",
+   "published": "2026-10-05",
    "tags": [
-    "industry",
-    "llm",
-    "reasoning"
+    "industry"
    ]
   },
   {
-   "id": "08cab8a0a2e5768d",
-   "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-   "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed...",
+   "id": "51e3073e620389d0",
+   "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
+   "summary": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.02202v1",
-   "published": "2026-10-01",
+   "url": "https://arxiv.org/abs/2610.03675v1",
+   "published": "2026-10-02",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "e2994a7c76a90fc9",
+   "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
+   "summary": "Ribonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing approaches typically treat trajectory generation and dynamics understanding as separate objectives. Here, we introduce RNADynBench, a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.03712v1",
+   "published": "2026-10-02",
    "tags": [
     "paper",
     "evaluation"
    ]
   },
   {
-   "id": "4520783cd67fde2f",
-   "title": "Embedding Prediction Helps Image Generation",
-   "summary": "In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next continuous embedding in a sequence. In...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.02203v1",
-   "published": "2026-10-01",
-   "tags": [
-    "paper",
-    "rag",
-    "llm",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "7e67b43cf9d0e609",
-   "title": "The eternal complement",
-   "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+   "id": "a97398f76ee518bf",
+   "title": "Chatham scales its capital markets expertise with OpenAI",
+   "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-eternal-complement",
-   "published": "2026-10-01",
+   "url": "https://openai.com/index/chatham-financial",
+   "published": "2026-10-02",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -241,6 +258,17 @@
    "published": "2026-09-24",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "e7107d9a76d915c4",
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "published": "2026-09-24",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -292,54 +320,54 @@
    ]
   },
   {
-   "id": "8a80da1cc21e70e6",
-   "title": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
-   "summary": "DeepSeek has released official macOS and Windows desktop apps for DeepSeek Harness v0.2, its MIT-licensed agent harness. The preview adds a plugin manager, file and code-change review, and scheduled Automation Tasks. It also supports non-DeepSeek models through OpenAI-compatible endpoints. The post DeepSeek Harness v0.2 Brings Official...",
+   "id": "f095dc8e18fd3d91",
+   "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
+   "summary": "Cantina Security, with Yeta Labs, has released apex-flash-1, an open-weights model trained specifically for vulnerability research. It is a reinforcement learning fine-tune of Z.ai’s GLM-5.3-Flash, released on Hugging Face under the MIT license. Is it deployable? Yes, the MIT weights serve on vLLM, SGLang or Transformers, but BF16 needs...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/",
-   "published": "2026-10-04",
+   "url": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
+   "published": "2026-10-05",
    "tags": [
     "industry",
-    "fine-tuning",
-    "agents"
-   ]
-  },
-  {
-   "id": "f9b7867d1a775084",
-   "title": "Hierarchical Continuous Diffusion Language Models",
-   "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.02193v1",
-   "published": "2026-10-01",
-   "tags": [
-    "paper",
     "llm",
-    "reasoning",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "db9f46c0fb89e04e",
-   "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
-   "summary": "High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topological consistency for thin or highly...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.02201v1",
-   "published": "2026-10-01",
-   "tags": [
-    "paper",
+    "fine-tuning",
     "serving"
    ]
   },
   {
-   "id": "a80484c2d5849bdb",
-   "title": "How Albertsons Companies is reimagining retail from the inside out",
-   "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+   "id": "a3e99d253ac54605",
+   "title": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
+   "summary": "Masked diffusion language models (dLMs) offer a promising parallel alternative to autoregressive models for complex reasoning. However, they face a distinct credit-assignment challenge, since a few commitments during denoising sharply reduce the uncertainty over the remaining masked positions and shape much of the response. Most...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.03665v1",
+   "published": "2026-10-02",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "bed698572ddeb792",
+   "title": "From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing",
+   "summary": "We study the minimization of sums of smooth strongly convex functions over undirected graphs, with each function held by one agent and communication restricted to neighbors in the graph. Existing decentralized methods, whether based on gossip or on routing over spanning trees, typically use the network to mix or aggregate information to...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.03709v1",
+   "published": "2026-10-02",
+   "tags": [
+    "paper",
+    "agents"
+   ]
+  },
+  {
+   "id": "7e67b43cf9d0e609",
+   "title": "The eternal complement",
+   "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/albertsons-reimagining-retail",
+   "url": "https://openai.com/index/the-eternal-complement",
    "published": "2026-10-01",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -351,6 +379,17 @@
    "published": "2026-09-18",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "4c4abcff4acd2c4c",
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "published": "2026-09-23",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -400,47 +439,50 @@
    ]
   },
   {
-   "id": "319496b2d6586be0",
-   "title": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
-   "summary": "Learn how NVIDIA IsaacTeleop turns XR hand tracking and motion controller input into robot commands using a pure Python retargeting engine and NumPy. The post Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine appeared first on MarkTechPost .",
+   "id": "ac64c0086f116bc2",
+   "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
+   "summary": "Astra leads computer use, Argon leads legal and finance work, and Sol wins on price for coding agents. The post GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/",
+   "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
    "published": "2026-10-04",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "agents"
    ]
   },
   {
-   "id": "b6240196342066c1",
-   "title": "Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair",
-   "summary": "Ablate a component of a language model, and other components often appear to adjust and compensate. This phenomenon, termed self-repair, has been observed repeatedly, but its mechanism remains unclear. The most systematic study to date concluded that self-repair is noisy and unlikely to have a single explanation. We argue that it has...",
+   "id": "0601ddd64fda7d1f",
+   "title": "World Embedding Benchmark",
+   "summary": "Physical fidelity has received increasing attention in world models and video generation, yet how video representations encode physical information remains less understood. We introduce the World Embedding Benchmark, comprising 8,000 controlled simulation cases from 80 families spanning fluid mechanics, solid mechanics, dynamics, and...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.02173v1",
-   "published": "2026-10-01",
+   "url": "https://arxiv.org/abs/2610.03632v1",
+   "published": "2026-10-02",
+   "tags": [
+    "paper",
+    "rag",
+    "llm",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "b15e9e53cbcaf5aa",
+   "title": "LESSER: Post-Training Data Selection with Output-Layer Gradients",
+   "summary": "The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a popular approach that ranks training data by how well their gradients align with those of a small validation set. However, ranking with full-parameter gradients requires an expensive backward pass on...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.03702v1",
+   "published": "2026-10-02",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "1230c4b4a1837268",
-   "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
-   "summary": "Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress optimizer state, abandon first-order gradients, or change the update geometry while retaining dense state. The recently introduced Muon...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.02199v1",
-   "published": "2026-10-01",
-   "tags": [
-    "paper",
-    "llm",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "3bba527585738108",
-   "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-   "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+   "id": "a80484c2d5849bdb",
+   "title": "How Albertsons Companies is reimagining retail from the inside out",
+   "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-den-family-social",
+   "url": "https://openai.com/index/albertsons-reimagining-retail",
    "published": "2026-10-01",
    "tags": [
     "labs",
@@ -456,6 +498,18 @@
    "published": "2026-09-17",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "be2314c62992cc2b",
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "published": "2026-09-23",
+   "tags": [
+    "labs",
+    "multimodal"
    ]
   },
   {
@@ -507,52 +561,48 @@
    ]
   },
   {
-   "id": "0a712c5edc61e1cb",
-   "title": "Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What About When to Stay Quiet?",
-   "summary": "TL;DR: Meta’s Muse, OpenAI’s Dots and Uber’s driver assistant share one bet: the agent speaks first. That moves the hard problem from what to answer to when to interrupt, on which channel, and with what offer. Classic ML and new decision models can solve it. Three launches, one pattern From pull to push Chatbots were […] The post Meta...",
+   "id": "2c5221cda539b3b5",
+   "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
+   "summary": "Google Research has unveiled a federated learning system that moves gradient computation from phones into attested server-side TEEs. Access policies are published to Sigstore's Rekor log and the binaries are reproducibly buildable, so central differential privacy can be checked externally. Gboard already uses it for English and Japanese...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/03/meta-openai-and-uber-just-taught-ai-agents-to-talk-first-what-about-when-to-stay-quiet/",
-   "published": "2026-10-03",
+   "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
+   "published": "2026-10-04",
    "tags": [
-    "industry",
-    "agents"
+    "industry"
    ]
   },
   {
-   "id": "308f5f53e87cc44c",
-   "title": "AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents",
-   "summary": "Coding agents solve repository-level software engineering tasks through long trajectories of code inspection, search, editing, and testing. As a task progresses, earlier exploration becomes stale, so managing context is more than avoiding overflow: an agent must decide when to compact, what working state to preserve, and how to continue...",
+   "id": "184578053b306def",
+   "title": "FALCON: A Model and Dataset Agnostic Framework for Synthetic Data Generation for NL2SQL Pairs",
+   "summary": "Relational databases are among the most widely deployed forms of structured knowledge, and natural language access to them requires grounding language onto schema entities and relations while handling the ambiguity inherent in how people phrase requests. Existing synthetic NL-to-SQL data generation methods largely ignore this ambiguity...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.02163v1",
-   "published": "2026-10-01",
-   "tags": [
-    "paper",
-    "fine-tuning",
-    "agents"
-   ]
-  },
-  {
-   "id": "21826c55a4a1c284",
-   "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
-   "summary": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not necessarily yield accurate action derivatives, potentially leading to unreliable policy...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.02198v1",
-   "published": "2026-10-01",
+   "url": "https://arxiv.org/abs/2610.03625v1",
+   "published": "2026-10-02",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "6a91381a429232e7",
-   "title": "Disrupting a coordinated model-distillation campaign",
-   "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+   "id": "1a5f837293209a76",
+   "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
+   "summary": "The dynamics of cells, organisms, and fluids are often modeled as probability distributions evolving over time. Reconstructing and extrapolating this evolution from unpaired snapshots requires assumptions about the underlying process. Wasserstein gradient flows are a common choice, but they cannot describe conservative or periodic...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.03679v1",
+   "published": "2026-10-02",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "3bba527585738108",
+   "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+   "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-   "published": "2026-09-30",
+   "url": "https://openai.com/index/the-den-family-social",
+   "published": "2026-10-01",
    "tags": [
     "labs",
-    "fine-tuning",
-    "reasoning"
+    "llm"
    ]
   },
   {
@@ -565,6 +615,17 @@
    "tags": [
     "research",
     "serving"
+   ]
+  },
+  {
+   "id": "f4c3141ce9f2ce84",
+   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+   "published": "2026-09-15",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -614,111 +675,41 @@
    ]
   },
   {
-   "id": "280bb1c2cb0ab5b2",
-   "title": "IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code",
-   "summary": "IBM has made a self-hosted deployment of IBM Bob, its agentic software development platform, generally available. Enterprises can now run Bob on premises, in private or sovereign clouds, and in air-gapped networks. They bring their own model: NVIDIA Nemotron or Poolside Laguna for full isolation, or Claude, Gemini or GPT models through...",
+   "id": "38be749b24d516b7",
+   "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+   "summary": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a 1M-token context and per-request reasoning effort, and its Apache 2.0 FP8 weights run on a single B200 or H200. The post Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/",
-   "published": "2026-10-03",
+   "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
+   "published": "2026-10-04",
    "tags": [
     "industry",
     "llm",
-    "agents"
+    "reasoning"
    ]
   },
   {
-   "id": "1f7f17c55c86bb2b",
-   "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
-   "summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is accessed and organized, while agent-memory systems preserve reusable knowledge from prior interactions, but repeated use of the same source is still largely...",
+   "id": "51bea6460626d761",
+   "title": "Writerslogic at the CLEF 2026 SimpleText Track: Multi-Candidate LLM Simplification and Stacked Complexity Spotting",
+   "summary": "We describe the Writerslogic team's participation in the CLEF 2026 SimpleText shared task, addressing Task 1 (text simplification) and Task 2 (complexity spotting). For Task 1, we develop a multi-candidate generation pipeline using GPT-4o-mini that produces five simplification candidates per sentence at varying temperatures, then selects...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.02150v1",
-   "published": "2026-10-01",
+   "url": "https://arxiv.org/abs/2610.03567v1",
+   "published": "2026-10-02",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "4d338a32ce623654",
+   "title": "Planning to Learn",
+   "summary": "Policy-gradient methods are central to modern reinforcement learning, including LLM post-training. When they struggle, the usual suspects are exploration, credit assignment and action-sampling noise. Classification has none of them. A classifier is a policy whose expected reward, its \\emph{expected accuracy}, is the probability it...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.03667v1",
+   "published": "2026-10-02",
    "tags": [
     "paper",
     "llm",
-    "agents"
-   ]
-  },
-  {
-   "id": "c4c927c2533b2400",
-   "title": "Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control",
-   "summary": "The generalized Schrödinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous-time Markov chain, with a temporal-difference penalty that restores the cost. A state cost folds into the reference process as a...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.02195v1",
-   "published": "2026-10-01",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "b5e5e43443d214df",
-   "title": "Helping small businesses put AI to work",
-   "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-   "published": "2026-09-30",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "edd61c31429065ea",
-   "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
-   "summary": "Machine Intelligence",
-   "source": "Google Research",
-   "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
-   "published": "2026-09-10",
-   "tags": [
-    "research",
-    "agents"
-   ]
-  },
-  {
-   "id": "9552195c964ddb7b",
-   "title": "Holo4: powering generalist computer-use agents",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Hcompany/holo4",
-   "published": "2026-09-28",
-   "tags": [
-    "open-source",
-    "agents"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
-    "safety"
-   ]
-  },
-  {
-   "id": "7912342139f3efcb",
-   "title": "The effects of an “algorithmic monoculture” depend on the details",
-   "summary": "In a study focusing on hiring decisions, MIT researchers found the use of a single algorithm by many firms could benefit job seekers in certain situations.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
-   "published": "2026-09-29",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "f3d1448df6a6df02",
-   "title": "LLM Research Papers: The 2026 List (January to May)",
-   "summary": "A curated roundup of notable LLM research papers that came out this year",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-   "published": "2026-06-06",
-   "tags": [
-    "newsletter",
-    "llm"
+    "fine-tuning"
    ]
   }
  ]
