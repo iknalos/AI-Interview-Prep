@@ -1,15 +1,130 @@
 {
- "generated": "2026-10-06",
- "generatedAt": "2026-10-06T13:24:42+00:00",
+ "generated": "2026-10-07",
+ "generatedAt": "2026-10-07T13:34:31+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "78ad53815846c15c",
-   "title": "Our approach to EU text provenance rules",
-   "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+   "id": "342677ae7eadb2eb",
+   "title": "How Jump Trading is scaling quant research with ChatGPT",
+   "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/eu-text-provenance",
-   "published": "2026-10-05",
+   "url": "https://openai.com/index/jump-trading",
+   "published": "2026-10-06",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "0ec0c3cc2f3eb61c",
+   "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+   "summary": "Earth AI",
+   "source": "Google Research",
+   "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+   "published": "2026-10-06",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "4dd290070848fb61",
+   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "published": "2026-10-06",
+   "tags": [
+    "labs",
+    "rag",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "91ed3eb235f3237f",
+   "title": "Introducing Falcon ASR",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+   "published": "2026-10-07",
+   "tags": [
+    "open-source"
+   ]
+  },
+  {
+   "id": "9939bfd922ed189c",
+   "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
+   "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different vendors, each with its...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/",
+   "published": "2026-07-29",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "21c23ab08aafeb08",
+   "title": "Supercomputing researchers document evolution of AI hardware",
+   "summary": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+   "published": "2026-10-06",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "9ccfb6a6858541d5",
+   "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+   "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+   "published": "2026-09-29",
+   "tags": [
+    "newsletter",
+    "llm"
+   ]
+  },
+  {
+   "id": "fee39cfc84fd0baa",
+   "title": "Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day",
+   "summary": "Meta has open-sourced Rebalancer, the C++ and Python library it has used for over 9 years to place shards, servers and traffic. It handles about 40 million assignment problems a day, using local search or MIP solvers like Gurobi, FICO Xpress and HiGHS. It is pip-installable under Apache 2.0. The post Meta AI Open-Sources Rebalancer: A...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/",
+   "published": "2026-10-07",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "affb881774c11107",
+   "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+   "summary": "Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-grounded ideation remains challenging, as existing approaches based on prompting or feedback lack structured supervision for how papers...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.08781v1",
+   "published": "2026-10-06",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "324abc8405356809",
+   "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+   "summary": "Flow policies have become a standard policy class for learning robot behaviors from demonstrations, but reinforcement learning is still critical for improving pre-trained flow policies or learning them from scratch through interaction. We introduce QF3 (Fast Flow RL with Filtered Q-Gradients), an online off-policy RL algorithm that...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.08789v1",
+   "published": "2026-10-06",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "47b9255d8fa0f8e8",
+   "title": "Sharing AI progress in mathematics",
+   "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+   "published": "2026-10-06",
    "tags": [
     "labs"
    ]
@@ -17,7 +132,7 @@
   {
    "id": "c3d66983a8dc7ed3",
    "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
-   "summary": "Education Innovation",
+   "summary": "Generative AI",
    "source": "Google Research",
    "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
    "published": "2026-10-05",
@@ -38,100 +153,99 @@
    ]
   },
   {
-   "id": "085f7195b66fbb80",
-   "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+   "id": "5bdd694c62903534",
+   "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-   "published": "2026-10-06",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+   "published": "2026-10-07",
    "tags": [
     "open-source",
-    "llm"
+    "fine-tuning"
    ]
   },
   {
-   "id": "9939bfd922ed189c",
-   "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
-   "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different vendors, each with its...",
+   "id": "0e3fc748cb483986",
+   "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+   "summary": ".abbel-fig { display: block; text-align: center; margin: 2.4em 0; line-height: 1.4; max-width: 100%; } .abbel-fig img { display: block; margin: 0.65em auto 0; height: auto; max-width: 100%; } /* Image sizes; captions use a narrower measure below */ .abbel-fig--wide img { width: 100%; max-width: 100%; } .abbel-fig--wide-90 img { width...",
    "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/",
-   "published": "2026-07-29",
+   "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
+   "published": "2026-07-26",
    "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "84b251b19cc12d1e",
-   "title": "Computational tools for society’s most complex challenges",
-   "summary": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
-   "published": "2026-10-02",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "9ccfb6a6858541d5",
-   "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
-   "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
-   "published": "2026-09-29",
-   "tags": [
-    "newsletter",
+    "research",
     "llm"
    ]
   },
   {
-   "id": "ff8863815d3fe624",
-   "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
-   "summary": "Reka has released Rho-1, a 19B omni-reasoning model trained from scratch. One network reads and generates text, images, video and robot actions over a shared KV cache. A distilled variant returns a 5.3-second clip in about a second. It is a research preview with no public weights yet. The post Reka Releases Rho-1: A 19B Omni-Reasoning...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one/",
+   "id": "cc060c5c55029528",
+   "title": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
+   "summary": "As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
    "published": "2026-10-06",
    "tags": [
-    "industry",
-    "fine-tuning",
-    "serving",
-    "reasoning"
+    "research"
    ]
   },
   {
-   "id": "c70a159273aa85ba",
-   "title": "Base Models Can Reason By Taking a Cue From Training Data",
-   "summary": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcement learning (RL)-trained counterparts...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.06851v1",
-   "published": "2026-10-05",
+   "id": "44084287147f6737",
+   "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+   "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+   "published": "2026-09-09",
    "tags": [
-    "paper",
+    "newsletter",
+    "llm",
     "reasoning"
    ]
   },
   {
-   "id": "5f3c3171d3de466b",
-   "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
-   "summary": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a framework for reading this contextual...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.06844v1",
-   "published": "2026-10-05",
+   "id": "5aecdeb6bf525df4",
+   "title": "A Developer’s Guide to Laya: Zero-Shot Decisions and Calibration",
+   "summary": "Explore a comprehensive coding guide to Laya, the open-source zero-shot decision engine. Learn how to implement typed decisions, fit custom temperatures, and build reliable abstention gates using real-world CLINC150 banking data. The post A Developer’s Guide to Laya: Zero-Shot Decisions and Calibration appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/06/a-developers-guide-to-laya-zero-shot-decisions-and-calibration/",
+   "published": "2026-10-07",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "f7ddaebe2f74f34b",
+   "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+   "summary": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or predefined pedagogical criteria that specify what good teaching looks like. However, these...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.08778v1",
+   "published": "2026-10-06",
    "tags": [
     "paper",
     "llm",
-    "multimodal"
+    "fine-tuning"
    ]
   },
   {
-   "id": "3cbec84de8bf6155",
-   "title": "Building advertising for the way people use AI",
-   "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+   "id": "bd1bc00a4ad7cd31",
+   "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
+   "summary": "Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic measure of uncertainty, the information-theoretic basis for this interpretation remains poorly understood. In this work, we provide such a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.08785v1",
+   "published": "2026-10-06",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "9964af802e9c5fde",
+   "title": "Advancing computer use with Ironclad",
+   "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-   "published": "2026-10-05",
+   "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "published": "2026-10-06",
    "tags": [
     "labs",
-    "llm"
+    "evaluation",
+    "agents"
    ]
   },
   {
@@ -170,89 +284,89 @@
    ]
   },
   {
-   "id": "0e3fc748cb483986",
-   "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
-   "summary": ".abbel-fig { display: block; text-align: center; margin: 2.4em 0; line-height: 1.4; max-width: 100%; } .abbel-fig img { display: block; margin: 0.65em auto 0; height: auto; max-width: 100%; } /* Image sizes; captions use a narrower measure below */ .abbel-fig--wide img { width: 100%; max-width: 100%; } .abbel-fig--wide-90 img { width...",
+   "id": "a00b3f14f5f73240",
+   "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
+   "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices...",
    "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
-   "published": "2026-07-26",
+   "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
+   "published": "2026-07-07",
    "tags": [
     "research",
-    "llm"
+    "llm",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "7073f9adeb8b6211",
-   "title": "Documenting the tech worker movement",
-   "summary": "Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.",
+   "id": "e81043418dfeb9c4",
+   "title": "MIT announces the MIT for America initiative, to strengthen STEM education across the country",
+   "summary": "The effort aims to help U.S. learners from kindergarten to community college, with an emphasis on math, making, and the constructive use of AI.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
-   "published": "2026-10-02",
+   "url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
+   "published": "2026-10-06",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "44084287147f6737",
-   "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
-   "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+   "id": "df5399c7f9d2448e",
+   "title": "How Claude Watermarks AI-Generated Text",
+   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-   "published": "2026-09-09",
+   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+   "published": "2026-08-22",
    "tags": [
-    "newsletter",
-    "llm",
-    "reasoning"
+    "newsletter"
    ]
   },
   {
-   "id": "15dc682ae6072fa0",
-   "title": "Beyond Domain-Specific World Models: JEPA-Anything Uses 1 Recipe for 7 Fields",
-   "summary": "JEPA-Anything splits a JEPA's single latent target into 4 orthogonal factors, each with its own predictor. Tested across 7 domains, it beat matched JEPA baselines on all 10 dynamics tasks and cut Interventional Pong intervention error by 34.8%. The post Beyond Domain-Specific World Models: JEPA-Anything Uses 1 Recipe for 7 Fields...",
+   "id": "0868c360fa6e6f87",
+   "title": "Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4",
+   "summary": "Google DeepMind's EmbeddingGemma 2 maps 5 input types into one 768d space and ships today under Apache 2.0. The post Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4 appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/05/beyond-domain-specific-world-models-jepa-anything-uses-1-recipe-for-7-fields/",
+   "url": "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/",
    "published": "2026-10-06",
    "tags": [
-    "industry"
+    "industry",
+    "rag",
+    "multimodal"
    ]
   },
   {
-   "id": "ee9c08dede0179ea",
-   "title": "Recursive Video In-Context Learning for Agentic Robot",
-   "summary": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyframes lose the contact detail that decides...",
+   "id": "ac321abfb351e2e9",
+   "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+   "summary": "Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current defenses fine-tune the agent on injections...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.06843v1",
-   "published": "2026-10-05",
+   "url": "https://arxiv.org/abs/2610.08773v1",
+   "published": "2026-10-06",
    "tags": [
     "paper",
-    "llm",
+    "fine-tuning",
     "agents",
-    "multimodal"
+    "safety"
    ]
   },
   {
-   "id": "bbd44d1205e4387c",
-   "title": "Direct Intermediate Initialization for Tilted Diffusion Samplers",
-   "summary": "Some diffusion posterior samplers construct Gaussian-tilted intermediate distributions along the reverse process. We observe that these targets can be pulled back to clean-space posteriors with weaker conditioning, with samples transported analytically to the corresponding noisy-space target through a Gaussian bridge. For the sequential...",
+   "id": "9059e06fe8eb34d2",
+   "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+   "summary": "We develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.06834v1",
-   "published": "2026-10-05",
+   "url": "https://arxiv.org/abs/2610.08764v1",
+   "published": "2026-10-06",
    "tags": [
     "paper",
     "multimodal"
    ]
   },
   {
-   "id": "8e206c4d9ed6ea5b",
-   "title": "A model guide for the GPT-6 family",
-   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+   "id": "60ef2af305e795fe",
+   "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+   "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/practical-guide-building-gpt-6",
-   "published": "2026-10-02",
+   "url": "https://openai.com/index/atlassian-partnership",
+   "published": "2026-10-06",
    "tags": [
-    "labs",
-    "llm",
-    "reasoning"
+    "labs"
    ]
   },
   {
@@ -290,89 +404,85 @@
    ]
   },
   {
-   "id": "a00b3f14f5f73240",
-   "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
-   "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices...",
+   "id": "3f6c58621a366d1b",
+   "title": "2026 BAIR Graduate Showcase",
+   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
    "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
-   "published": "2026-07-07",
+   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
+   "published": "2026-07-01",
    "tags": [
-    "research",
-    "llm",
-    "evaluation",
-    "serving"
+    "research"
    ]
   },
   {
-   "id": "5ef2700f9c57f9f4",
-   "title": "3 Questions: A new resource to empower young entrepreneurs",
-   "summary": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
+   "id": "84b251b19cc12d1e",
+   "title": "Computational tools for society’s most complex challenges",
+   "summary": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+   "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
    "published": "2026-10-02",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "df5399c7f9d2448e",
-   "title": "How Claude Watermarks AI-Generated Text",
-   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+   "id": "53ddef6230f10e58",
+   "title": "Building an AI Text Detector From Scratch",
+   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
-   "published": "2026-08-22",
+   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+   "published": "2026-08-15",
    "tags": [
     "newsletter"
    ]
   },
   {
-   "id": "de1721aaac6d971a",
-   "title": "Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3 Inside Claude Code, Codex, and OpenCode",
-   "summary": "Together AI has released Together Link, a free, MIT-licensed CLI that connects Claude Code, Codex, OpenCode, Pi, and the Claude and ChatGPT desktop apps to open models like Kimi K3 and GLM 5.3. One install command sets it up, and an Auto router picks a model for each session. Together claims savings of over 50%. The post Meet Together...",
+   "id": "3243cb7117909957",
+   "title": "Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model",
+   "summary": "Mistral AI has released Mistral Large 4, nicknamed Le Chonk, as a public preview. It is a 1.05 trillion parameter Mixture of Experts model with 49 billion active parameters, native image input, and a 1 million token context window, trained on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own European datacenters. The API is live now...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode/",
-   "published": "2026-10-05",
+   "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/",
+   "published": "2026-10-06",
    "tags": [
     "industry",
-    "llm"
-   ]
-  },
-  {
-   "id": "1dfa443fb7203df9",
-   "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
-   "summary": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essential. Recent studies have begun shifting...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.06830v1",
-   "published": "2026-10-05",
-   "tags": [
-    "paper",
     "llm",
-    "agents",
     "multimodal"
    ]
   },
   {
-   "id": "795ae82dccedecb0",
-   "title": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
-   "summary": "Every recurrence of a looped language model adds cost in training, decoding, prefill, and reinforcement learning (RL). The closer recurrent states get to fixed points, the less the path to them matters. This enables truncated backpropagation in training; terminal key-value (KV) sharing for decoding with almost no loss in accuracy; a...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.06833v1",
-   "published": "2026-10-05",
+   "id": "9444cd566aa31f19",
+   "title": "The Missing Minimal Pair: Stereotype Evaluation in LLMs",
+   "summary": "A common approach to measuring bias in Large Language Models is to compare the log-likelihoods of two contrastive stereotype sentences. We argue that such single-pair comparisons are often unreliable: simply rewriting the same stereotype with an alternative attribute can yield logically inconsistent preferences. To address this, we...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.08747v1",
+   "published": "2026-10-06",
    "tags": [
     "paper",
-    "llm"
+    "llm",
+    "fine-tuning",
+    "evaluation"
    ]
   },
   {
-   "id": "a97398f76ee518bf",
-   "title": "Chatham scales its capital markets expertise with OpenAI",
-   "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/chatham-financial",
-   "published": "2026-10-02",
+   "id": "cb016bc81f3760c6",
+   "title": "Neural Petri flows for chemical reactions",
+   "summary": "Petri nets have been used to describe chemical processes such as reactions.They map well to chemistry: Places are the bonds between atoms and the free valence of each atom, a token is a unit of bond order, a transition forms or breaks a bond, the conserved quantities are the valence budgets of the atoms, and the enabling rule is the...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.08750v1",
+   "published": "2026-10-06",
    "tags": [
-    "labs",
-    "llm"
+    "paper"
+   ]
+  },
+  {
+   "id": "78ad53815846c15c",
+   "title": "Our approach to EU text provenance rules",
+   "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/eu-text-provenance",
+   "published": "2026-10-05",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -410,83 +520,90 @@
    ]
   },
   {
-   "id": "3f6c58621a366d1b",
-   "title": "2026 BAIR Graduate Showcase",
-   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
+   "id": "b63023bfb9fc2173",
+   "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+   "summary": ".apr-fig { text-align: center; margin: 1.35em 0; line-height: 1.4; } .apr-fig--wide img { display: inline-block; width: 100%; max-width: 100%; height: auto; vertical-align: middle; } .apr-fig--wide-0-8 { max-width: 80%; margin-left: auto; margin-right: auto; } .apr-fig--tall img { display: inline-block; max-height: 300px; width: auto...",
    "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
-   "published": "2026-07-01",
+   "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+   "published": "2026-05-08",
    "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "487a3c06f8822544",
-   "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
-   "summary": "“InstructMesh” can generate designs for everyday objects that are easy to edit and fabricate for both experts and newcomers to 3D modeling.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
-   "published": "2026-10-01",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "53ddef6230f10e58",
-   "title": "Building an AI Text Detector From Scratch",
-   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-   "published": "2026-08-15",
-   "tags": [
-    "newsletter"
-   ]
-  },
-  {
-   "id": "750840ee252ccd66",
-   "title": "Building a Streaming Robotics Learning Pipeline Using NVIDIA Cosmos3-DROID",
-   "summary": "Discover how to construct an end-to-end streaming robotics learning pipeline using the NVIDIA Cosmos3-DROID dataset without local downloads, leveraging byte-range Parquet reads, behavior cloning, and temporal ensembling. The post Building a Streaming Robotics Learning Pipeline Using NVIDIA Cosmos3-DROID appeared first on MarkTechPost .",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/05/building-a-streaming-robotics-learning-pipeline-using-nvidia-cosmos3-droid/",
-   "published": "2026-10-05",
-   "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "a79e6cb2ba00c1a4",
-   "title": "CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling",
-   "summary": "Open-source web agents are now strong enough to execute realistic browser tasks, but training them with reinforcement learning still depends on weak supervision: binary task success is too sparse for credit assignment, while frontier-language-model judges are too expensive to call at every step and cannot be assumed available at...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.06829v1",
-   "published": "2026-10-05",
-   "tags": [
-    "paper",
-    "agents",
+    "research",
+    "serving",
     "reasoning"
    ]
   },
   {
-   "id": "d013b97c95d2a85b",
-   "title": "Deep Learning for Sleep Heart Rate Estimation from Accelerometers: Toward Population-Scale Cardiac Insight Without Optical Sensors",
-   "summary": "Large longitudinal cohorts often contain wrist accelerometry without optical heart-rate sensing, motivating recovery of cardiac information from motion signals already collected during sleep. We present SeqSmoother, a transformer-based temporal corrector for sleep heart rate (HR) estimation from wrist accelerometry. SeqSmoother combines...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.06823v1",
-   "published": "2026-10-05",
+   "id": "7073f9adeb8b6211",
+   "title": "Documenting the tech worker movement",
+   "summary": "Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
+   "published": "2026-10-02",
    "tags": [
-    "paper",
-    "llm"
+    "research"
    ]
   },
   {
-   "id": "7e67b43cf9d0e609",
-   "title": "The eternal complement",
-   "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/the-eternal-complement",
-   "published": "2026-10-01",
+   "id": "28c7ee44d88bdbf2",
+   "title": "Controlling Reasoning Effort in LLMs",
+   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+   "published": "2026-07-18",
    "tags": [
-    "labs"
+    "newsletter",
+    "llm",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "ff8863815d3fe624",
+   "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
+   "summary": "Reka has released Rho-1, a 19B omni-reasoning model trained from scratch. One network reads and generates text, images, video and robot actions over a shared KV cache. A distilled variant returns a 5.3-second clip in about a second. It is a research preview with no public weights yet. The post Reka Releases Rho-1: A 19B Omni-Reasoning...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one/",
+   "published": "2026-10-06",
+   "tags": [
+    "industry",
+    "fine-tuning",
+    "serving",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "499782e0cb27f033",
+   "title": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling",
+   "summary": "Diffusion Language Models (DLMs) hold the promise of order-agnostic, parallel text generation. Recently, continuous diffusion and flow matching models have seen substantial gains, driven by carefully crafted token representations and diffusion/flow spaces. In this work, we introduce Hierarchical Continuous Diffusion Language Models...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.08738v1",
+   "published": "2026-10-06",
+   "tags": [
+    "paper",
+    "llm",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "6a681b068ab1ebda",
+   "title": "Linear Bandits under Exact Sliding-Window Constraints",
+   "summary": "We study linear bandits under exact sliding-window constraints, where every consecutive block of actions must belong to a prescribed feasible set. In the offline setting, where the reward function is known, we show that convexity and cyclic-shift invariance make a stationary solution optimal when $w\\mid T$ and within an additive $O(w)$...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.08745v1",
+   "published": "2026-10-06",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "3cbec84de8bf6155",
+   "title": "Building advertising for the way people use AI",
+   "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "published": "2026-10-05",
+   "tags": [
+    "labs",
+    "llm"
    ]
   },
   {
@@ -526,125 +643,6 @@
    ]
   },
   {
-   "id": "b63023bfb9fc2173",
-   "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-   "summary": ".apr-fig { text-align: center; margin: 1.35em 0; line-height: 1.4; } .apr-fig--wide img { display: inline-block; width: 100%; max-width: 100%; height: auto; vertical-align: middle; } .apr-fig--wide-0-8 { max-width: 80%; margin-left: auto; margin-right: auto; } .apr-fig--tall img { display: inline-block; max-height: 300px; width: auto...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
-   "published": "2026-05-08",
-   "tags": [
-    "research",
-    "serving",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "9f49b513f8de7ed3",
-   "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
-   "summary": "With $2.1 million funding from Google.org, the open-source Public Transit Intelligence Hub will unify public transit monitoring, operations, and passenger communication.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
-   "published": "2026-09-30",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "28c7ee44d88bdbf2",
-   "title": "Controlling Reasoning Effort in LLMs",
-   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-   "published": "2026-07-18",
-   "tags": [
-    "newsletter",
-    "llm",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "9b546732c2061ccd",
-   "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
-   "summary": "Reflection AI has introduced Beam, its first open-weight model. It is a 501B sparse Mixture-of-Experts model with 23B active parameters, built for coding and agentic work. Reflection says it matches GLM-5.2 on reasoning with 3 to 4x less inference compute. Apache 2.0 weights are due later in October 2026. The post Reflection AI...",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/05/reflection-ai-introduces-beam-a-501b-open-weight-moe-model-with-23b-active-parameters-for-coding-and-agentic-workloads/",
-   "published": "2026-10-05",
-   "tags": [
-    "industry",
-    "llm",
-    "serving",
-    "agents"
-   ]
-  },
-  {
-   "id": "c9cbe5bbac8a078e",
-   "title": "PlotGround: Grounding Plot Digitization in Real Scientific Figures and Their Source Data",
-   "summary": "Scientific figures often encode quantitative results that are not readily available in machine-readable form, making accurate plot digitization important for verifying and reusing published findings. Yet it remains unclear how accurately current models recover plotted values from real scientific figures, as existing benchmarks rely...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.06825v1",
-   "published": "2026-10-05",
-   "tags": [
-    "paper",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "9ea315b1aab59d96",
-   "title": "Private online learning and prediction for Littlestone classes",
-   "summary": "We study mistake bounds for differentially private online learning and online prediction under oblivious realisable adversaries. Online learning requires the learner to release a hypothesis at each time step whereas in online prediction, the learner only needs to make predictions without releasing a hypothesis. Using a novel lower bound...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.06822v1",
-   "published": "2026-10-05",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "a80484c2d5849bdb",
-   "title": "How Albertsons Companies is reimagining retail from the inside out",
-   "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/albertsons-reimagining-retail",
-   "published": "2026-10-01",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "26cb68725f0f97ad",
-   "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
-   "summary": "Education Innovation",
-   "source": "Google Research",
-   "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
-   "published": "2026-09-17",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "f4c3141ce9f2ce84",
-   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-   "published": "2026-09-15",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "493cf3fce1b87919",
-   "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-   "published": "2026-09-29",
-   "tags": [
-    "open-source"
-   ]
-  },
-  {
    "id": "988e365297de4536",
    "title": "Gradient-based Planning for World Models at Longer Horizons",
    "summary": ".grasp-results-table table { font-size: 0.875rem; line-height: 1.35; width: 100%; } .grasp-results-table th, .grasp-results-table td { padding: 0.35rem 0.5rem; } /* Consistent whitespace between major sections (this post is long and hr-heavy) */ article.post-content h2 { margin-top: 2.75rem; margin-bottom: 0.75rem; } article.post-content...",
@@ -656,12 +654,12 @@
    ]
   },
   {
-   "id": "ea039df066f8591e",
-   "title": "This game-playing AI is the new champ at Stratego",
-   "summary": "Able to defeat top-ranked human players and more efficient than other models, the new system could help decision-makers in military maneuvers or business negotiations.",
+   "id": "5ef2700f9c57f9f4",
+   "title": "3 Questions: A new resource to empower young entrepreneurs",
+   "summary": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
-   "published": "2026-09-30",
+   "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+   "published": "2026-10-02",
    "tags": [
     "research"
    ]
@@ -679,37 +677,36 @@
    ]
   },
   {
-   "id": "a14f83ba1a77c6d1",
-   "title": "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
-   "summary": "One transformer ran candidate generation and ranking in Yandex Music's A/B test without hand-engineered features, lifting likes 11.42%. The post Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade appeared first on MarkTechPost .",
+   "id": "15dc682ae6072fa0",
+   "title": "Beyond Domain-Specific World Models: JEPA-Anything Uses 1 Recipe for 7 Fields",
+   "summary": "JEPA-Anything splits a JEPA's single latent target into 4 orthogonal factors, each with its own predictor. Tested across 7 domains, it beat matched JEPA baselines on all 10 dynamics tasks and cut Interventional Pong intervention error by 34.8%. The post Beyond Domain-Specific World Models: JEPA-Anything Uses 1 Recipe for 7 Fields...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/05/yandex-introduces-sona-a-single-generative-recommender-that-replaces-entire-recommendation-cascade/",
-   "published": "2026-10-05",
+   "url": "https://www.marktechpost.com/2026/10/05/beyond-domain-specific-world-models-jepa-anything-uses-1-recipe-for-7-fields/",
+   "published": "2026-10-06",
    "tags": [
-    "industry",
-    "llm"
+    "industry"
    ]
   },
   {
-   "id": "a7bef4b5f66d77a7",
-   "title": "Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model",
-   "summary": "We distill Kokoro-82M, a widely used open text-to-speech model with 54 voices, into Paradee, an 8.07M-parameter model that speaks one of them. Paradee keeps Kokoro's architecture with much narrower layers, and each of its two halves is trained separately against the frozen teacher. It has 10x fewer parameters and needs 15x less compute...",
+   "id": "eb10db562964dbc7",
+   "title": "A Systematic Study of Semantic ID Spaces for Generative Information Retrieval",
+   "summary": "Generative Information Retrieval (GIR) has emerged as a transformative paradigm, shifting document retrieval from a traditional \"retrieve-and-rank\" workflow to sequence-to-sequence generation, where a model directly predicts document identifiers (DocIDs). While the semantic design of these DocIDs is known to be critical for performance...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.06817v1",
-   "published": "2026-10-05",
+   "url": "https://arxiv.org/abs/2610.08732v1",
+   "published": "2026-10-06",
    "tags": [
     "paper",
-    "fine-tuning",
-    "multimodal"
+    "rag",
+    "evaluation"
    ]
   },
   {
-   "id": "26fb11378c7114be",
-   "title": "Finding Gaussian Structure in Bosonic States",
-   "summary": "We study agnostic tomography of pure bosonic Gaussian states: given copies of an arbitrary $n$-mode bosonic state $ρ$, the goal is to output a pure Gaussian state whose infidelity with $ρ$ is at most $\\mathrm{opt} + ε$, where $\\mathrm{opt}$ is the minimum infidelity achievable by any pure Gaussian state. We give efficient protocols...",
+   "id": "c88028061f60c134",
+   "title": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
+   "summary": "Sequential recommenders typically use a fixed slate size even though the number of useful alternatives changes within a session. We propose Reinforcement Learning with Calibrated Pruning (RLCP), which adapts the retained action set using critic scores and an online threshold. The threshold is updated from binary feedback indicating...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.06810v1",
-   "published": "2026-10-05",
+   "url": "https://arxiv.org/abs/2610.08743v1",
+   "published": "2026-10-06",
    "tags": [
     "paper"
    ]
