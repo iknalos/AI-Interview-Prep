@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-09",
- "generatedAt": "2026-10-09T13:25:53+00:00",
- "sourceCount": 9,
+ "generated": "2026-10-10",
+ "generatedAt": "2026-10-10T12:41:38+00:00",
+ "sourceCount": 10,
  "items": [
   {
    "id": "edd58468d564448f",
@@ -27,12 +27,25 @@
    ]
   },
   {
-   "id": "0f05fd4155a46f47",
-   "title": "The model that didn't exist, so you made it yourself",
+   "id": "4dd290070848fb61",
+   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "published": "2026-10-06",
+   "tags": [
+    "labs",
+    "rag",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "43ef54e74d276082",
+   "title": "Impactful scheduling for GPU clusters",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/building-with-ml-intern",
-   "published": "2026-10-08",
+   "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+   "published": "2026-10-09",
    "tags": [
     "open-source"
    ]
@@ -72,15 +85,15 @@
    ]
   },
   {
-   "id": "6a1dca44ea840877",
-   "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
-   "summary": "Underdog Saluki 27B is a 7.89 GB, 2-bit GGUF of Qwen3.8-27B under Apache 2.0. It beats the 54 GB original on tool calling but gives up ground on competition math and reasoning. The post Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling appeared first on MarkTechPost .",
+   "id": "956761d945caf74f",
+   "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
+   "summary": "Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for each fixed answer option instead of generated text. It is post-trained from Alibaba’s Qwen3.5-9B and available now in...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
-   "published": "2026-10-09",
+   "url": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
+   "published": "2026-10-10",
    "tags": [
     "industry",
-    "reasoning"
+    "agents"
    ]
   },
   {
@@ -109,15 +122,16 @@
    ]
   },
   {
-   "id": "112b5f00879d4fef",
-   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+   "id": "90995f7dbc9c2674",
+   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/oracle",
-   "published": "2026-10-08",
+   "url": "https://openai.com/index/asana-browser-agent",
+   "published": "2026-10-09",
    "tags": [
     "labs",
-    "llm"
+    "llm",
+    "agents"
    ]
   },
   {
@@ -132,15 +146,25 @@
    ]
   },
   {
-   "id": "0825a4897dea2e82",
-   "title": "Multimodal open d1 decision models for the edge",
+   "id": "15e70ee5e4a75a6c",
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "published": "2026-09-30",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "0f05fd4155a46f47",
+   "title": "The model that didn't exist, so you made it yourself",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-   "published": "2026-10-07",
+   "url": "https://huggingface.co/blog/building-with-ml-intern",
+   "published": "2026-10-08",
    "tags": [
-    "open-source",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -180,15 +204,14 @@
    ]
   },
   {
-   "id": "fbf536c6935f7de5",
-   "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
-   "summary": "Google Cloud has introduced the Google Cloud Gemini agent, a single agent for enterprise work. The Gemini agent is a cloud-hosted agent from Google Cloud that answers questions, does knowledge work, creates media, and writes and runs code. It does all of this from 1 prompt box and 1 API. For developers, the agent is […] The post Google...",
+   "id": "ae78ef73b15ae0e9",
+   "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
+   "summary": "Nace.AI has open-sourced Drex 1.5, a 9B decision model that returns a probability for every option in 1 forward pass. It scores 58.08 on Decision Index 0.3.1 and reads up to 128K tokens. The post Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
-   "published": "2026-10-09",
+   "url": "https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/",
+   "published": "2026-10-10",
    "tags": [
-    "industry",
-    "agents"
+    "industry"
    ]
   },
   {
@@ -218,11 +241,11 @@
    ]
   },
   {
-   "id": "ca1ec6c6a1a1314d",
-   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+   "id": "112b5f00879d4fef",
+   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/pollo-ai",
+   "url": "https://openai.com/index/oracle",
    "published": "2026-10-08",
    "tags": [
     "labs",
@@ -242,14 +265,27 @@
    ]
   },
   {
-   "id": "91ed3eb235f3237f",
-   "title": "Introducing Falcon ASR",
+   "id": "0a622a33b8e3e3e9",
+   "title": "Introducing SynthID Bio",
+   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "published": "2026-09-30",
+   "tags": [
+    "labs",
+    "serving"
+   ]
+  },
+  {
+   "id": "0825a4897dea2e82",
+   "title": "Multimodal open d1 decision models for the edge",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+   "url": "https://huggingface.co/blog/LiquidAI/open-d1",
    "published": "2026-10-07",
    "tags": [
-    "open-source"
+    "open-source",
+    "multimodal"
    ]
   },
   {
@@ -289,15 +325,14 @@
    ]
   },
   {
-   "id": "84847f78873e781a",
-   "title": "Google Research RRSI Guide: Mastering Self-Improving AI Agents",
-   "summary": "Explore a comprehensive coding guide to Google Research's RRSI (Regularized Recursive Self-Improvement), detailing how noise bands, cost rules, and leakage screens enable safe, efficient, and self-improving AI agents. The post Google Research RRSI Guide: Mastering Self-Improving AI Agents appeared first on MarkTechPost .",
+   "id": "c5fc12acaf43eee5",
+   "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
+   "summary": "Alibaba’s Qwen team has released Qwen-Image-2.1-Turbo, an accelerated checkpoint of its open-weight Qwen-Image-2.1 model. It generates and edits images in 8 denoising steps instead of the base model’s 40-step default. For developers, that means 5x fewer denoising steps on the same 7B architecture, plus a hosted API option. TL;DR What is...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/08/google-research-rrsi-guide-mastering-self-improving-ai-agents/",
+   "url": "https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/",
    "published": "2026-10-09",
    "tags": [
-    "industry",
-    "agents"
+    "industry"
    ]
   },
   {
@@ -329,14 +364,15 @@
    ]
   },
   {
-   "id": "f6d3626eb7c890d9",
-   "title": "LegalOn halves Codex costs while maintaining development speed",
-   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+   "id": "ca1ec6c6a1a1314d",
+   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/legalon-halves-codex-costs",
+   "url": "https://openai.com/index/pollo-ai",
    "published": "2026-10-08",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -351,15 +387,25 @@
    ]
   },
   {
-   "id": "5bdd694c62903534",
-   "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+   "id": "e7107d9a76d915c4",
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "published": "2026-09-24",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "91ed3eb235f3237f",
+   "title": "Introducing Falcon ASR",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+   "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
    "published": "2026-10-07",
    "tags": [
-    "open-source",
-    "fine-tuning"
+    "open-source"
    ]
   },
   {
@@ -396,16 +442,15 @@
    ]
   },
   {
-   "id": "f687f88d22e971eb",
-   "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
-   "summary": "JetBrains released Mellum2.1, an Apache 2.0, 12B mixture-of-experts thinking model with 2.5B active parameters. RL in real repositories lifted its SWE-bench Verified score from 2.0 to 47.0. The post JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents appeared first on MarkTechPost .",
+   "id": "78d0f1ff7f2a4860",
+   "title": "OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers",
+   "summary": "OpenAI’s Decisions API is now in public beta on GPT-6 Luna. It returns typed probabilities, choices and scores about 10x faster than the Responses API, billing $0.10 per 1M input tokens with no output charges. The post OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/",
-   "published": "2026-10-08",
+   "url": "https://www.marktechpost.com/2026/10/09/openai-decisions-api-hits-public-beta-with-10x-faster-typed-answers/",
+   "published": "2026-10-09",
    "tags": [
     "industry",
-    "llm",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -433,11 +478,11 @@
    ]
   },
   {
-   "id": "077dea1e8a7adb2e",
-   "title": "Disrupting AI-enabled “false front” operations",
-   "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+   "id": "f6d3626eb7c890d9",
+   "title": "LegalOn halves Codex costs while maintaining development speed",
+   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "url": "https://openai.com/index/legalon-halves-codex-costs",
    "published": "2026-10-08",
    "tags": [
     "labs"
@@ -456,15 +501,26 @@
    ]
   },
   {
-   "id": "89764eae00994ca8",
-   "title": "The Agent Said It Was Done. The Database Disagreed.",
+   "id": "4c4abcff4acd2c4c",
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "published": "2026-09-23",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "5bdd694c62903534",
+   "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-   "published": "2026-10-03",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+   "published": "2026-10-07",
    "tags": [
     "open-source",
-    "agents"
+    "fine-tuning"
    ]
   },
   {
@@ -505,16 +561,15 @@
    ]
   },
   {
-   "id": "52c10306a4e48ffb",
-   "title": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
-   "summary": "Architect Financial Technologies has launched Liquid Inference, an LLM router that runs a live auction for every request. Liquid Inference is an LLM inference marketplace from Architect where providers bid to serve each prompt. The buyer pays the lowest offer that meets its rules. For developers, it is quite simple message: swap a base...",
+   "id": "6a1dca44ea840877",
+   "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
+   "summary": "Underdog Saluki 27B is a 7.89 GB, 2-bit GGUF of Qwen3.8-27B under Apache 2.0. It beats the 54 GB original on tool calling but gives up ground on competition math and reasoning. The post Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/08/architect-launches-liquid-inference-a-real-time-auction-for-llm-inference/",
-   "published": "2026-10-08",
+   "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
+   "published": "2026-10-09",
    "tags": [
     "industry",
-    "llm",
-    "serving"
+    "reasoning"
    ]
   },
   {
@@ -545,15 +600,14 @@
    ]
   },
   {
-   "id": "ad4e14640e358f44",
-   "title": "Helping teens learn, plan, and shape the future of AI",
-   "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+   "id": "077dea1e8a7adb2e",
+   "title": "Disrupting AI-enabled “false front” operations",
+   "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/teens-learn-and-plan",
-   "published": "2026-10-07",
+   "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "published": "2026-10-08",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -568,14 +622,27 @@
    ]
   },
   {
-   "id": "d599f0a282be129f",
-   "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+   "id": "be2314c62992cc2b",
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "published": "2026-09-23",
+   "tags": [
+    "labs",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "89764eae00994ca8",
+   "title": "The Agent Said It Was Done. The Database Disagreed.",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/astabrief",
-   "published": "2026-10-02",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+   "published": "2026-10-03",
    "tags": [
-    "open-source"
+    "open-source",
+    "agents"
    ]
   },
   {
@@ -613,17 +680,15 @@
    ]
   },
   {
-   "id": "a19202d7b4e3c60b",
-   "title": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
-   "summary": "NVIDIA researchers introduced PivotOPD, an on-policy distillation method that trains multi-turn LLM agents to avoid early pivotal mistakes and recover from them, posting the best average against 13 baselines on 3 agent benchmarks. The post NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes appeared first on...",
+   "id": "fbf536c6935f7de5",
+   "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
+   "summary": "Google Cloud has introduced the Google Cloud Gemini agent, a single agent for enterprise work. The Gemini agent is a cloud-hosted agent from Google Cloud that answers questions, does knowledge work, creates media, and writes and runs code. It does all of this from 1 prompt box and 1 API. For developers, the agent is […] The post Google...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/",
-   "published": "2026-10-08",
+   "url": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
+   "published": "2026-10-09",
    "tags": [
     "industry",
-    "llm",
-    "fine-tuning",
-    "evaluation"
+    "agents"
    ]
   },
   {
@@ -648,77 +713,6 @@
    "tags": [
     "paper",
     "serving"
-   ]
-  },
-  {
-   "id": "04e9dc3828b5420c",
-   "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-   "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/radisson",
-   "published": "2026-10-07",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "90801afbca07a432",
-   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
-   "summary": "Algorithms & Theory",
-   "source": "Google Research",
-   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
-   "published": "2026-09-18",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "a885ed61f54a415a",
-   "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-   "published": "2026-10-02",
-   "tags": [
-    "open-source",
-    "agents"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
-    "safety"
-   ]
-  },
-  {
-   "id": "84b251b19cc12d1e",
-   "title": "Computational tools for society’s most complex challenges",
-   "summary": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
-   "published": "2026-10-02",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "f3d1448df6a6df02",
-   "title": "LLM Research Papers: The 2026 List (January to May)",
-   "summary": "A curated roundup of notable LLM research papers that came out this year",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-   "published": "2026-06-06",
-   "tags": [
-    "newsletter",
-    "llm"
    ]
   }
  ]
