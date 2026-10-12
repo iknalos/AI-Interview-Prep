@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-11",
- "generatedAt": "2026-10-11T13:02:54+00:00",
+ "generated": "2026-10-12",
+ "generatedAt": "2026-10-12T15:40:52+00:00",
  "sourceCount": 10,
  "items": [
   {
@@ -85,41 +85,37 @@
    ]
   },
   {
-   "id": "0c8f134e25ee7929",
-   "title": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
-   "summary": "OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window. It reports 100% on Cybench and 95.8% on an evaluable CVE-Bench subset, priced at $3.00 / $7.50 per 1M tokens. The post OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context appeared first on MarkTechPost .",
+   "id": "4c93de2625304f3f",
+   "title": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
+   "summary": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, Teams Interpreter and Wordly, against official pages for languages, latency, platforms and pricing. The post Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/",
-   "published": "2026-10-11",
+   "url": "https://www.marktechpost.com/2026/10/12/top-12-ai-live-translation-tools-2026/",
+   "published": "2026-10-12",
    "tags": [
     "industry",
-    "llm",
-    "evaluation"
+    "serving"
    ]
   },
   {
-   "id": "52a84ad22799029a",
-   "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
-   "summary": "Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on low-dynamic scenarios. Under bounded context budgets, models must balance temporal history, spatial resolution, and temporal granularity; sparse sampling at 1--2 FPS misses fast events. We introduce FastBench to evaluate...",
+   "id": "921aaf1c93c7813e",
+   "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+   "summary": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anything that uses predictive world models to guide action and...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.12427v1",
-   "published": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.13912v1",
+   "published": "2026-10-09",
    "tags": [
-    "paper",
-    "llm",
-    "evaluation"
+    "paper"
    ]
   },
   {
-   "id": "5aec6d03065f6f98",
-   "title": "CSF: Contextual Safety Filtering for Motion Generators",
-   "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene...",
+   "id": "8e97202689942691",
+   "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+   "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.12467v1",
-   "published": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.13935v1",
+   "published": "2026-10-09",
    "tags": [
-    "paper",
-    "safety"
+    "paper"
    ]
   },
   {
@@ -205,43 +201,40 @@
    ]
   },
   {
-   "id": "c03460df26e9fe9a",
-   "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
-   "summary": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system. The post Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors appeared first on MarkTechPost .",
+   "id": "f4b33a7e66f418b2",
+   "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
+   "summary": "TII has released Falcon-ASR, a 1.6B speech recognition model for Arabic with an Emirati focus. It reports 20.92% average WER on 6 Arabic test sets, but weights and an API are not yet available. The post TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
-   "published": "2026-10-10",
+   "url": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
+   "published": "2026-10-12",
    "tags": [
     "industry",
-    "llm",
-    "evaluation",
-    "agents"
-   ]
-  },
-  {
-   "id": "67a7321637b11030",
-   "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
-   "summary": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models can learn from different supervision...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.12417v1",
-   "published": "2026-10-08",
-   "tags": [
-    "paper",
-    "llm",
-    "reasoning",
     "multimodal"
    ]
   },
   {
-   "id": "ecf176110c7584f0",
-   "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-   "summary": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.12465v1",
-   "published": "2026-10-08",
+   "id": "2eb24fd695185b49",
+   "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+   "summary": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric for testing whether representations consistently encode...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.13910v1",
+   "published": "2026-10-09",
    "tags": [
     "paper",
-    "fine-tuning"
+    "llm",
+    "evaluation",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "9f318fa1fefab2ec",
+   "title": "Constructive Bounds for the Topological Expressivity of Neural Networks",
+   "summary": "The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand binary classification and is often formulated in terms of the Betti numbers of a decision boundary $β(Φ^{-1}(0))$. Despite its popularity...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.13931v1",
+   "published": "2026-10-09",
+   "tags": [
+    "paper"
    ]
   },
   {
@@ -329,44 +322,38 @@
    ]
   },
   {
-   "id": "045efcba71c1d7d8",
-   "title": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
-   "summary": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet, and autonomously compromised Hugging Face infrastructure in one of history's most unprecedented AI safety incidents. The post When the Safety Test Became the Threat...",
+   "id": "3187994e13b9c4b1",
+   "title": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
+   "summary": "Cloudflare released Clef-omni, an Apache-2.0 multimodal decision model built on Qwen3-Omni-30B-A3B. It scores text, images, audio and video in one call for $0.15 per million input tokens, while Clef-flash drops to $0.038. The post Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text appeared...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/",
-   "published": "2026-10-10",
+   "url": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
+   "published": "2026-10-11",
    "tags": [
     "industry",
-    "agents",
-    "safety"
+    "multimodal"
    ]
   },
   {
-   "id": "ad8040c11cb55ec1",
-   "title": "Predicting Alignment Generalization with Value Representations",
-   "summary": "LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment evaluations, training models on sets of narrow behaviors still influences their behavior across unseen...",
+   "id": "71235228d07b64ab",
+   "title": "Structural Automata for Neural Semantic Parsing",
+   "summary": "Neural semantic parsers generate meaning representations token by token, yet well-formedness depends on references, scope, and graph relations that unfold during generation. Constrained decoding prevents locally invalid tokens but does not guarantee that a valid prefix can be completed within a fixed output-length limit. We investigate...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.12410v1",
-   "published": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.13896v1",
+   "published": "2026-10-09",
    "tags": [
-    "paper",
-    "llm",
-    "fine-tuning",
-    "evaluation"
+    "paper"
    ]
   },
   {
-   "id": "e82123d49352e59e",
-   "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
-   "summary": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared...",
+   "id": "c49e2800425e5be1",
+   "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+   "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.12448v1",
-   "published": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.13928v1",
+   "published": "2026-10-09",
    "tags": [
     "paper",
-    "llm",
-    "fine-tuning",
-    "serving"
+    "evaluation"
    ]
   },
   {
@@ -448,37 +435,38 @@
    ]
   },
   {
-   "id": "956761d945caf74f",
-   "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
-   "summary": "Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for each fixed answer option instead of generated text. It is post-trained from Alibaba’s Qwen3.5-9B and available now in...",
+   "id": "196ce8a2372e707c",
+   "title": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
+   "summary": "vLLM Semantic Router released Decision 3.0, 5 Apache-2.0 multimodal decision models from 0.8B to 27B. They answer choice, yes/no and score questions about text and images in one call, without generating text. The post What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
-   "published": "2026-10-10",
+   "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
+   "published": "2026-10-11",
    "tags": [
     "industry",
-    "agents"
+    "llm",
+    "serving",
+    "multimodal"
    ]
   },
   {
-   "id": "fad53521bd2762d3",
-   "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
-   "summary": "Skill-augmented agents improve sample efficiency by distilling successful trajectories into reusable strategies. Yet most existing approaches remain text-centric, linearizing spatial layouts and action-state correspondences into language that loses critical geometric structure. Recent efforts have begun incorporating visual evidence, but...",
+   "id": "8bb2b0edc403c0d7",
+   "title": "Task Context Shapes Component Roles in Language Models",
+   "summary": "Large language models reuse the same attention heads across tasks, but identifying these shared heads does not explain what they do differently in each task. A natural source of inspiration is task-dependent interactions among shared brain regions, which motivate a network view of language-model computation. Here, we compare fixed model...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.12403v1",
-   "published": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.13895v1",
+   "published": "2026-10-09",
    "tags": [
     "paper",
-    "fine-tuning",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "c1a6d45c64f81e3e",
-   "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
-   "summary": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We...",
+   "id": "8fe292536decc49c",
+   "title": "KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling",
+   "summary": "A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averaged divergence $\\mathbb{E}_U D_{\\mathrm{KL}}(p\\|q_U)$ with the output-law divergence $D_{\\mathrm{KL}}(p\\|\\mathbb{E}_U q_U)$, in nats. Rounds...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.12449v1",
-   "published": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.13924v1",
+   "published": "2026-10-09",
    "tags": [
     "paper"
    ]
@@ -567,41 +555,38 @@
    ]
   },
   {
-   "id": "ae78ef73b15ae0e9",
-   "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
-   "summary": "Nace.AI has open-sourced Drex 1.5, a 9B decision model that returns a probability for every option in 1 forward pass. It scores 58.08 on Decision Index 0.3.1 and reads up to 128K tokens. The post Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text appeared first on MarkTechPost .",
+   "id": "0c8f134e25ee7929",
+   "title": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
+   "summary": "OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window. It reports 100% on Cybench and 95.8% on an evaluable CVE-Bench subset, priced at $3.00 / $7.50 per 1M tokens. The post OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/",
-   "published": "2026-10-10",
+   "url": "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/",
+   "published": "2026-10-11",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "evaluation"
    ]
   },
   {
-   "id": "db160be4bc75c81e",
-   "title": "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
-   "summary": "Existing spatial reasoning benchmarks mainly test spatial perception: reading off relations already visible in the input. Yet real-world spatial intelligence demands predictive spatial reasoning: constructing a scene from observations, anticipating how an intervention changes it, and reasoning about the unseen outcome. We introduce...",
+   "id": "76fa9796b286dad3",
+   "title": "Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga",
+   "summary": "Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a whole; comics scholarship proceeds one book at a time. We argue that artificial intelligence, including generative models...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.12402v1",
-   "published": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.13840v1",
+   "published": "2026-10-09",
    "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "reasoning"
+    "paper"
    ]
   },
   {
-   "id": "4824ac73dcd0ba52",
-   "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
-   "summary": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and introducing a novel probe architecture which...",
+   "id": "1d03c09732a7fc31",
+   "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
+   "summary": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limited storage and scarce contact opportunities. Relay-side scheduling and dropping decisions are...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.12445v1",
-   "published": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.13923v1",
+   "published": "2026-10-09",
    "tags": [
-    "paper",
-    "llm",
-    "agents"
+    "paper"
    ]
   },
   {
@@ -685,38 +670,40 @@
    ]
   },
   {
-   "id": "c5fc12acaf43eee5",
-   "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
-   "summary": "Alibaba’s Qwen team has released Qwen-Image-2.1-Turbo, an accelerated checkpoint of its open-weight Qwen-Image-2.1 model. It generates and edits images in 8 denoising steps instead of the base model’s 40-step default. For developers, that means 5x fewer denoising steps on the same 7B architecture, plus a hosted API option. TL;DR What is...",
+   "id": "c03460df26e9fe9a",
+   "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
+   "summary": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system. The post Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/",
+   "url": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
+   "published": "2026-10-10",
+   "tags": [
+    "industry",
+    "llm",
+    "evaluation",
+    "agents"
+   ]
+  },
+  {
+   "id": "21da94086ec21c49",
+   "title": "OpenPA: Forced-alignment-free Multi-granular Pronunciation Assessment with Mixed-transcript Adaptation",
+   "summary": "Recent advances in automatic pronunciation assessment (APA) have driven a shift from scripted to free-form assessment. However, existing methods often rely on multi-stage pipelines with forced alignment and separate feature extractors, limiting their practicality across response settings. In light of this, we propose OpenPA, a novel APA...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.13826v1",
    "published": "2026-10-09",
    "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "7cbb9a5f6bfb5c4d",
-   "title": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
-   "summary": "Industrial risk-control systems typically rely on structured-data models for efficient prediction, yet substantial valuable information remains embedded in unstructured long text. Extracting this information through manual feature engineering is labor-intensive, while requiring a large language model (LLM) to process every real-time...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.12390v1",
-   "published": "2026-10-08",
-   "tags": [
     "paper",
-    "llm"
+    "fine-tuning"
    ]
   },
   {
-   "id": "a072bce7f8c55a09",
-   "title": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization",
-   "summary": "Quantizing AdamW's optimizer states reduces persistent storage, but quantization errors propagate through the moment recurrences and perturb subsequent adaptive updates. We redesign 4-bit optimizer-state quantization for AdamW from the perspective of \\emph{rounding space}: the coordinate in which a quantizer chooses between adjacent...",
+   "id": "078c6f795816f4e9",
+   "title": "DyssomniaNN: Multi-Scale Spiking Neural Modeling of Human Sleep Disorders and Perceived Restedness",
+   "summary": "Clinical sleep medicine repeatedly documents profound divergences between objective sleep duration and subjective daytime impairment, notably exemplified by sleep state misperception in paradoxical insomnia and boundary instability in narcolepsy type 1. Here, we present DyssomniaNN: a multi-scale biophysical computational framework...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.12444v1",
-   "published": "2026-10-08",
+   "url": "https://arxiv.org/abs/2610.13918v1",
+   "published": "2026-10-09",
    "tags": [
-    "paper",
-    "serving"
+    "paper"
    ]
   }
  ]
