@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-12",
- "generatedAt": "2026-10-12T15:40:52+00:00",
+ "generated": "2026-10-13",
+ "generatedAt": "2026-10-13T14:21:25+00:00",
  "sourceCount": 10,
  "items": [
   {
@@ -62,12 +62,12 @@
    ]
   },
   {
-   "id": "7a987f35931dff79",
-   "title": "3 Questions: What is the best path forward for AI in academia?",
-   "summary": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions.",
+   "id": "bbe9efcd05754558",
+   "title": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
+   "summary": "Professor Deb Roy contends there should be someone who is “answerable” for every piece of text in public life, no matter its origins.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
-   "published": "2026-10-08",
+   "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
+   "published": "2026-10-13",
    "tags": [
     "research"
    ]
@@ -85,15 +85,16 @@
    ]
   },
   {
-   "id": "4c93de2625304f3f",
-   "title": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
-   "summary": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, Teams Interpreter and Wordly, against official pages for languages, latency, platforms and pricing. The post Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing appeared first on MarkTechPost .",
+   "id": "9c672cafb8c1c079",
+   "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
+   "summary": "Z.ai’s GLM-Legal is a legal AI model built on GLM-5.3-Flash. It scores 19.2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0.15 per test. Access is by application. The post Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/12/top-12-ai-live-translation-tools-2026/",
-   "published": "2026-10-12",
+   "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
+   "published": "2026-10-13",
    "tags": [
     "industry",
-    "serving"
+    "evaluation",
+    "agents"
    ]
   },
   {
@@ -177,11 +178,11 @@
    ]
   },
   {
-   "id": "4c75baed558f55ac",
-   "title": "Using AI to mitigate the growing environmental threat of data centers",
-   "summary": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient.",
+   "id": "7a987f35931dff79",
+   "title": "3 Questions: What is the best path forward for AI in academia?",
+   "summary": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+   "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
    "published": "2026-10-08",
    "tags": [
     "research"
@@ -201,15 +202,15 @@
    ]
   },
   {
-   "id": "f4b33a7e66f418b2",
-   "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
-   "summary": "TII has released Falcon-ASR, a 1.6B speech recognition model for Arabic with an Emirati focus. It reports 20.92% average WER on 6 Arabic test sets, but weights and an API are not yet available. The post TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER appeared first on MarkTechPost .",
+   "id": "aebcb90d310211bf",
+   "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+   "summary": "Alibaba’s Qwen team has introduced QwenGyre, an elastic reinforcement learning RL framework for extreme-long-horizon agent training. QwenGyre is an online reinforcement learning system from Alibaba that trains coding agents through unmodified, black-box harnesses. It targets rollouts that run for hours and process close to 1M tokens. The...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
+   "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/",
    "published": "2026-10-12",
    "tags": [
     "industry",
-    "multimodal"
+    "agents"
    ]
   },
   {
@@ -300,12 +301,12 @@
    ]
   },
   {
-   "id": "4d5e1f5c1fab6083",
-   "title": "Discovering the value of humanistic inquiry",
-   "summary": "Students in MIT’s Concourse program delve deeply into the human condition, debate challenging questions, and learn to develop judgment about issues that can’t be quantified.",
+   "id": "4c75baed558f55ac",
+   "title": "Using AI to mitigate the growing environmental threat of data centers",
+   "summary": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
-   "published": "2026-10-07",
+   "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+   "published": "2026-10-08",
    "tags": [
     "research"
    ]
@@ -322,15 +323,15 @@
    ]
   },
   {
-   "id": "3187994e13b9c4b1",
-   "title": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
-   "summary": "Cloudflare released Clef-omni, an Apache-2.0 multimodal decision model built on Qwen3-Omni-30B-A3B. It scores text, images, audio and video in one call for $0.15 per million input tokens, while Clef-flash drops to $0.038. The post Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text appeared...",
+   "id": "4c93de2625304f3f",
+   "title": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
+   "summary": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, Teams Interpreter and Wordly, against official pages for languages, latency, platforms and pricing. The post Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
-   "published": "2026-10-11",
+   "url": "https://www.marktechpost.com/2026/10/12/top-12-ai-live-translation-tools-2026/",
+   "published": "2026-10-12",
    "tags": [
     "industry",
-    "multimodal"
+    "serving"
    ]
   },
   {
@@ -413,12 +414,12 @@
    ]
   },
   {
-   "id": "21c23ab08aafeb08",
-   "title": "Supercomputing researchers document evolution of AI hardware",
-   "summary": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
+   "id": "4d5e1f5c1fab6083",
+   "title": "Discovering the value of humanistic inquiry",
+   "summary": "Students in MIT’s Concourse program delve deeply into the human condition, debate challenging questions, and learn to develop judgment about issues that can’t be quantified.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
-   "published": "2026-10-06",
+   "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
+   "published": "2026-10-07",
    "tags": [
     "research"
    ]
@@ -435,16 +436,14 @@
    ]
   },
   {
-   "id": "196ce8a2372e707c",
-   "title": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
-   "summary": "vLLM Semantic Router released Decision 3.0, 5 Apache-2.0 multimodal decision models from 0.8B to 27B. They answer choice, yes/no and score questions about text and images in one call, without generating text. The post What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models appeared first on MarkTechPost .",
+   "id": "f4b33a7e66f418b2",
+   "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
+   "summary": "TII has released Falcon-ASR, a 1.6B speech recognition model for Arabic with an Emirati focus. It reports 20.92% average WER on 6 Arabic test sets, but weights and an API are not yet available. The post TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
-   "published": "2026-10-11",
+   "url": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
+   "published": "2026-10-12",
    "tags": [
     "industry",
-    "llm",
-    "serving",
     "multimodal"
    ]
   },
@@ -531,11 +530,11 @@
    ]
   },
   {
-   "id": "cc060c5c55029528",
-   "title": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
-   "summary": "As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.",
+   "id": "21c23ab08aafeb08",
+   "title": "Supercomputing researchers document evolution of AI hardware",
+   "summary": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
+   "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
    "published": "2026-10-06",
    "tags": [
     "research"
@@ -555,16 +554,15 @@
    ]
   },
   {
-   "id": "0c8f134e25ee7929",
-   "title": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
-   "summary": "OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window. It reports 100% on Cybench and 95.8% on an evaluable CVE-Bench subset, priced at $3.00 / $7.50 per 1M tokens. The post OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context appeared first on MarkTechPost .",
+   "id": "3187994e13b9c4b1",
+   "title": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
+   "summary": "Cloudflare released Clef-omni, an Apache-2.0 multimodal decision model built on Qwen3-Omni-30B-A3B. It scores text, images, audio and video in one call for $0.15 per million input tokens, while Clef-flash drops to $0.038. The post Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text appeared...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/",
+   "url": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
    "published": "2026-10-11",
    "tags": [
     "industry",
-    "llm",
-    "evaluation"
+    "multimodal"
    ]
   },
   {
@@ -647,11 +645,11 @@
    ]
   },
   {
-   "id": "e81043418dfeb9c4",
-   "title": "MIT announces the MIT for America initiative, to strengthen STEM education across the country",
-   "summary": "The effort aims to help U.S. learners from kindergarten to community college, with an emphasis on math, making, and the constructive use of AI.",
+   "id": "cc060c5c55029528",
+   "title": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
+   "summary": "As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
+   "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
    "published": "2026-10-06",
    "tags": [
     "research"
@@ -670,17 +668,17 @@
    ]
   },
   {
-   "id": "c03460df26e9fe9a",
-   "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
-   "summary": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system. The post Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors appeared first on MarkTechPost .",
+   "id": "196ce8a2372e707c",
+   "title": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
+   "summary": "vLLM Semantic Router released Decision 3.0, 5 Apache-2.0 multimodal decision models from 0.8B to 27B. They answer choice, yes/no and score questions about text and images in one call, without generating text. The post What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
-   "published": "2026-10-10",
+   "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
+   "published": "2026-10-11",
    "tags": [
     "industry",
     "llm",
-    "evaluation",
-    "agents"
+    "serving",
+    "multimodal"
    ]
   },
   {
