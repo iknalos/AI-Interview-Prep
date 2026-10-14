@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-13",
- "generatedAt": "2026-10-13T14:21:25+00:00",
- "sourceCount": 10,
+ "generated": "2026-10-14",
+ "generatedAt": "2026-10-14T12:03:37+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "edd58468d564448f",
-   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+   "id": "2f3282e483141f68",
+   "title": "The EU’s next chapter in AI is agentic",
+   "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/sophos",
-   "published": "2026-10-09",
+   "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "published": "2026-10-14",
    "tags": [
     "labs",
-    "serving"
+    "agents"
    ]
   },
   {
@@ -27,27 +27,15 @@
    ]
   },
   {
-   "id": "4dd290070848fb61",
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "published": "2026-10-06",
-   "tags": [
-    "labs",
-    "rag",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "43ef54e74d276082",
-   "title": "Impactful scheduling for GPU clusters",
+   "id": "550c4c02e9ff21a9",
+   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-   "published": "2026-10-09",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "published": "2026-10-13",
    "tags": [
-    "open-source"
+    "open-source",
+    "agents"
    ]
   },
   {
@@ -62,11 +50,11 @@
    ]
   },
   {
-   "id": "bbe9efcd05754558",
-   "title": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
-   "summary": "Professor Deb Roy contends there should be someone who is “answerable” for every piece of text in public life, no matter its origins.",
+   "id": "11e83311a7c54e72",
+   "title": "How artificial neural networks build their own learning machinery",
+   "summary": "Machine-learning networks can learn without detailed instructions from a designer. Those that do may offer insight into how the brain reorganizes itself during learning.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
+   "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
    "published": "2026-10-13",
    "tags": [
     "research"
@@ -85,51 +73,53 @@
    ]
   },
   {
-   "id": "9c672cafb8c1c079",
-   "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
-   "summary": "Z.ai’s GLM-Legal is a legal AI model built on GLM-5.3-Flash. It scores 19.2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0.15 per test. Access is by application. The post Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB appeared first on MarkTechPost .",
+   "id": "a75038256f325eb4",
+   "title": "9 Best AI Gateways in 2026: Bifrost, Portkey, LiteLLM, Kong and 5 More Ranked",
+   "summary": "Marktechpost ranks the 9 best AI gateways for 2026. We compare Bifrost, Portkey, LiteLLM, Kong, TrueFoundry, Cloudflare, Vercel, OpenRouter and Orq.ai on latency, pricing, licensing, governance and deployment. The post 9 Best AI Gateways in 2026: Bifrost, Portkey, LiteLLM, Kong and 5 More Ranked appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
-   "published": "2026-10-13",
+   "url": "https://www.marktechpost.com/2026/10/14/best-ai-gateways-2026/",
+   "published": "2026-10-14",
    "tags": [
     "industry",
-    "evaluation",
-    "agents"
+    "llm",
+    "serving"
    ]
   },
   {
-   "id": "921aaf1c93c7813e",
-   "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
-   "summary": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anything that uses predictive world models to guide action and...",
+   "id": "c2c8aed98a34f296",
+   "title": "ChunkAct: Action Chunking for Agentic Robotics",
+   "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficiency. Every primitive requires a round...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.13912v1",
-   "published": "2026-10-09",
+   "url": "https://arxiv.org/abs/2610.18874v1",
+   "published": "2026-10-13",
    "tags": [
-    "paper"
+    "paper",
+    "llm",
+    "agents",
+    "multimodal"
    ]
   },
   {
-   "id": "8e97202689942691",
-   "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
-   "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large...",
+   "id": "1b73dd92119311f3",
+   "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+   "summary": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by more than an order of magnitude across...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.13935v1",
-   "published": "2026-10-09",
+   "url": "https://arxiv.org/abs/2610.18871v1",
+   "published": "2026-10-13",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "90995f7dbc9c2674",
-   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+   "id": "ffc748cb8d88a919",
+   "title": "Higgsfield takes AI video from 1 minute to over 10",
+   "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/asana-browser-agent",
-   "published": "2026-10-09",
+   "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+   "published": "2026-10-13",
    "tags": [
     "labs",
-    "llm",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -144,23 +134,12 @@
    ]
   },
   {
-   "id": "15e70ee5e4a75a6c",
-   "title": "Gemini 4 Argon: our next era of frontier intelligence",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-   "published": "2026-09-30",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "0f05fd4155a46f47",
-   "title": "The model that didn't exist, so you made it yourself",
+   "id": "43ef54e74d276082",
+   "title": "Impactful scheduling for GPU clusters",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/building-with-ml-intern",
-   "published": "2026-10-08",
+   "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+   "published": "2026-10-09",
    "tags": [
     "open-source"
    ]
@@ -178,12 +157,12 @@
    ]
   },
   {
-   "id": "7a987f35931dff79",
-   "title": "3 Questions: What is the best path forward for AI in academia?",
-   "summary": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions.",
+   "id": "8ad1969e4f569b40",
+   "title": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
+   "summary": "Roadshow event highlights Massachusetts' defense-biotechnology ecosystem.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
-   "published": "2026-10-08",
+   "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
+   "published": "2026-10-13",
    "tags": [
     "research"
    ]
@@ -202,52 +181,56 @@
    ]
   },
   {
-   "id": "aebcb90d310211bf",
-   "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
-   "summary": "Alibaba’s Qwen team has introduced QwenGyre, an elastic reinforcement learning RL framework for extreme-long-horizon agent training. QwenGyre is an online reinforcement learning system from Alibaba that trains coding agents through unmodified, black-box harnesses. It targets rollouts that run for hours and process close to 1M tokens. The...",
+   "id": "10ba781cb4deec26",
+   "title": "Liquid AI Releases LFM2.5-24B-A2B: A 2B-Active MoE for On-Device Agents",
+   "summary": "Liquid AI released LFM2.5-24B-A2B, an open-weight 24B Mixture-of-Experts reasoning model with 2B active parameters. It targets local agents, scoring 48.09 on LiveClaw and decoding 184 tokens/s on an Apple M5 Max. The post Liquid AI Releases LFM2.5-24B-A2B: A 2B-Active MoE for On-Device Agents appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/",
-   "published": "2026-10-12",
+   "url": "https://www.marktechpost.com/2026/10/14/liquid-ai-lfm2-5-24b-a2b/",
+   "published": "2026-10-14",
    "tags": [
     "industry",
-    "agents"
-   ]
-  },
-  {
-   "id": "2eb24fd695185b49",
-   "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
-   "summary": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric for testing whether representations consistently encode...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.13910v1",
-   "published": "2026-10-09",
-   "tags": [
-    "paper",
     "llm",
-    "evaluation",
+    "agents",
     "reasoning"
    ]
   },
   {
-   "id": "9f318fa1fefab2ec",
-   "title": "Constructive Bounds for the Topological Expressivity of Neural Networks",
-   "summary": "The expressivity of a neural network $Φ$ describes the class of functions that a network can express. The term topological expressivity refers to a family of measures particularly suited to understand binary classification and is often formulated in terms of the Betti numbers of a decision boundary $β(Φ^{-1}(0))$. Despite its popularity...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.13931v1",
-   "published": "2026-10-09",
+   "id": "4379123af86ca83b",
+   "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+   "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.18868v1",
+   "published": "2026-10-13",
    "tags": [
-    "paper"
+    "paper",
+    "llm",
+    "agents"
    ]
   },
   {
-   "id": "112b5f00879d4fef",
-   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+   "id": "dcc4b2f4767815c7",
+   "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+   "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks. Within each VLA, we...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.18869v1",
+   "published": "2026-10-13",
+   "tags": [
+    "paper",
+    "fine-tuning",
+    "evaluation",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "edd58468d564448f",
+   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/oracle",
-   "published": "2026-10-08",
+   "url": "https://openai.com/index/sophos",
+   "published": "2026-10-09",
    "tags": [
     "labs",
-    "llm"
+    "serving"
    ]
   },
   {
@@ -263,27 +246,14 @@
    ]
   },
   {
-   "id": "0a622a33b8e3e3e9",
-   "title": "Introducing SynthID Bio",
-   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-   "published": "2026-09-30",
-   "tags": [
-    "labs",
-    "serving"
-   ]
-  },
-  {
-   "id": "0825a4897dea2e82",
-   "title": "Multimodal open d1 decision models for the edge",
+   "id": "0f05fd4155a46f47",
+   "title": "The model that didn't exist, so you made it yourself",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-   "published": "2026-10-07",
+   "url": "https://huggingface.co/blog/building-with-ml-intern",
+   "published": "2026-10-08",
    "tags": [
-    "open-source",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -301,12 +271,12 @@
    ]
   },
   {
-   "id": "4c75baed558f55ac",
-   "title": "Using AI to mitigate the growing environmental threat of data centers",
-   "summary": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient.",
+   "id": "bbe9efcd05754558",
+   "title": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
+   "summary": "Professor Deb Roy contends there should be someone who is “answerable” for every piece of text in public life, no matter its origins.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-   "published": "2026-10-08",
+   "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
+   "published": "2026-10-13",
    "tags": [
     "research"
    ]
@@ -323,50 +293,52 @@
    ]
   },
   {
-   "id": "4c93de2625304f3f",
-   "title": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
-   "summary": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, Teams Interpreter and Wordly, against official pages for languages, latency, platforms and pricing. The post Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing appeared first on MarkTechPost .",
+   "id": "a57776da8f8adb99",
+   "title": "Google Releases Gemini 4 Argon API With 1M Token Output Limit",
+   "summary": "Google has made Gemini 4 Argon generally available on the Gemini API, AI Studio and the Gemini app. The sparse MoE model writes up to 1M output tokens and leads the Vals Index at 68.90%. The post Google Releases Gemini 4 Argon API With 1M Token Output Limit appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/12/top-12-ai-live-translation-tools-2026/",
-   "published": "2026-10-12",
+   "url": "https://www.marktechpost.com/2026/10/13/google-gemini-4-argon-api-release/",
+   "published": "2026-10-14",
    "tags": [
     "industry",
-    "serving"
+    "llm"
    ]
   },
   {
-   "id": "71235228d07b64ab",
-   "title": "Structural Automata for Neural Semantic Parsing",
-   "summary": "Neural semantic parsers generate meaning representations token by token, yet well-formedness depends on references, scope, and graph relations that unfold during generation. Constrained decoding prevents locally invalid tokens but does not guarantee that a valid prefix can be completed within a fixed output-length limit. We investigate...",
+   "id": "9ff6c9669774eb94",
+   "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+   "summary": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heuristics such as stopping early or banning...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.13896v1",
-   "published": "2026-10-09",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "c49e2800425e5be1",
-   "title": "AI Models Can Provably Hide Arbitrary Capabilities",
-   "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.13928v1",
-   "published": "2026-10-09",
+   "url": "https://arxiv.org/abs/2610.18862v1",
+   "published": "2026-10-13",
    "tags": [
     "paper",
-    "evaluation"
+    "reasoning"
    ]
   },
   {
-   "id": "ca1ec6c6a1a1314d",
-   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+   "id": "b63285ff94fda988",
+   "title": "Data Free Training of Diffusion Models for Lattice Field Theories",
+   "summary": "Sampling equilibrium field configurations remains a major computational bottleneck in lattice field theory, motivating the development of generative samplers that can produce independent configurations. Diffusion models are promising for this purpose, but their standard denoising score matching objective requires samples from the target...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.18863v1",
+   "published": "2026-10-13",
+   "tags": [
+    "paper",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "90995f7dbc9c2674",
+   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/pollo-ai",
-   "published": "2026-10-08",
+   "url": "https://openai.com/index/asana-browser-agent",
+   "published": "2026-10-09",
    "tags": [
     "labs",
-    "llm"
+    "llm",
+    "agents"
    ]
   },
   {
@@ -378,17 +350,6 @@
    "published": "2026-10-02",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "e7107d9a76d915c4",
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "published": "2026-09-24",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -414,12 +375,12 @@
    ]
   },
   {
-   "id": "4d5e1f5c1fab6083",
-   "title": "Discovering the value of humanistic inquiry",
-   "summary": "Students in MIT’s Concourse program delve deeply into the human condition, debate challenging questions, and learn to develop judgment about issues that can’t be quantified.",
+   "id": "a9842125a33e1ecb",
+   "title": "3 Questions: What is the best path forward for AI in academia?",
+   "summary": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
-   "published": "2026-10-07",
+   "url": "https://news.mit.edu/2026/3-questions-best-path-forward-for-ai-academia-1008",
+   "published": "2026-10-08",
    "tags": [
     "research"
    ]
@@ -436,49 +397,53 @@
    ]
   },
   {
-   "id": "f4b33a7e66f418b2",
-   "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
-   "summary": "TII has released Falcon-ASR, a 1.6B speech recognition model for Arabic with an Emirati focus. It reports 20.92% average WER on 6 Arabic test sets, but weights and an API are not yet available. The post TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER appeared first on MarkTechPost .",
+   "id": "f81c98d740ae7cbe",
+   "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+   "summary": "Meta released Muse Wonder and Muse Wonder Full, 1M-context agent models. Muse Wonder costs $4/$20 per million tokens on Meta Model API. Wonder Full, on Muse Code plans, leads DeepSWE and SWE-Marathon. The post Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
-   "published": "2026-10-12",
+   "url": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
+   "published": "2026-10-13",
    "tags": [
     "industry",
-    "multimodal"
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "8bb2b0edc403c0d7",
-   "title": "Task Context Shapes Component Roles in Language Models",
-   "summary": "Large language models reuse the same attention heads across tasks, but identifying these shared heads does not explain what they do differently in each task. A natural source of inspiration is task-dependent interactions among shared brain regions, which motivate a network view of language-model computation. Here, we compare fixed model...",
+   "id": "d05dfdd78906c369",
+   "title": "Hybrid Reasoning Agents",
+   "summary": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.13895v1",
-   "published": "2026-10-09",
+   "url": "https://arxiv.org/abs/2610.18861v1",
+   "published": "2026-10-13",
    "tags": [
     "paper",
-    "llm"
+    "llm",
+    "agents",
+    "reasoning"
    ]
   },
   {
-   "id": "8fe292536decc49c",
-   "title": "KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling",
-   "summary": "A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averaged divergence $\\mathbb{E}_U D_{\\mathrm{KL}}(p\\|q_U)$ with the output-law divergence $D_{\\mathrm{KL}}(p\\|\\mathbb{E}_U q_U)$, in nats. Rounds...",
+   "id": "1a95de6ac62b3d55",
+   "title": "Exact Topological Compliance: Generating Persistence-Equivalent Graphs",
+   "summary": "Persistent homology summarizes the topological evolution of a graph as persistence diagrams (PDs). Generating graphs whose topology matches a target descriptor is increasingly important, yet existing topology-aware generative models rely on soft regularization, producing graphs whose PDs may only be approximately similar. We initiate a...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.13924v1",
-   "published": "2026-10-09",
+   "url": "https://arxiv.org/abs/2610.18856v1",
+   "published": "2026-10-13",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "f6d3626eb7c890d9",
-   "title": "LegalOn halves Codex costs while maintaining development speed",
-   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+   "id": "112b5f00879d4fef",
+   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/legalon-halves-codex-costs",
+   "url": "https://openai.com/index/oracle",
    "published": "2026-10-08",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -491,17 +456,6 @@
    "tags": [
     "research",
     "multimodal"
-   ]
-  },
-  {
-   "id": "4c4abcff4acd2c4c",
-   "title": "Advancing Private AI Compute with secure, server-side memory",
-   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "published": "2026-09-23",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -530,12 +484,12 @@
    ]
   },
   {
-   "id": "21c23ab08aafeb08",
-   "title": "Supercomputing researchers document evolution of AI hardware",
-   "summary": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
+   "id": "4c75baed558f55ac",
+   "title": "Using AI to mitigate the growing environmental threat of data centers",
+   "summary": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
-   "published": "2026-10-06",
+   "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+   "published": "2026-10-08",
    "tags": [
     "research"
    ]
@@ -554,48 +508,52 @@
    ]
   },
   {
-   "id": "3187994e13b9c4b1",
-   "title": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
-   "summary": "Cloudflare released Clef-omni, an Apache-2.0 multimodal decision model built on Qwen3-Omni-30B-A3B. It scores text, images, audio and video in one call for $0.15 per million input tokens, while Clef-flash drops to $0.038. The post Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text appeared...",
+   "id": "bce994dff9779b80",
+   "title": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
+   "summary": "In this comprehensive coding tutorial, we explore Meta's Rebalancer assignment solver using its C++ core and Python bindings. Learn how to build datacenters, manage task placements across racks, handle constraints and goal priorities, and compare local search against the exact HiGHS solver using published benchmarks. The post How to Use...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
-   "published": "2026-10-11",
+   "url": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
+   "published": "2026-10-13",
    "tags": [
     "industry",
-    "multimodal"
+    "evaluation"
    ]
   },
   {
-   "id": "76fa9796b286dad3",
-   "title": "Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga",
-   "summary": "Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a whole; comics scholarship proceeds one book at a time. We argue that artificial intelligence, including generative models...",
+   "id": "082e422aa868349f",
+   "title": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement",
+   "summary": "Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be cast as a harness and a verifier, where the harness defines what the agent may use and the verifier defines what counts as...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.13840v1",
-   "published": "2026-10-09",
+   "url": "https://arxiv.org/abs/2610.18845v1",
+   "published": "2026-10-13",
    "tags": [
-    "paper"
+    "paper",
+    "evaluation",
+    "agents",
+    "reasoning"
    ]
   },
   {
-   "id": "1d03c09732a7fc31",
-   "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
-   "summary": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limited storage and scarce contact opportunities. Relay-side scheduling and dropping decisions are...",
+   "id": "36facc0767fd4921",
+   "title": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
+   "summary": "Reinforcement learning with verifiable rewards (RLVR) relies on costly model-generated responses, motivating larger rollout batches and square-root learning-rate scaling. Reported to approximately preserve progress per sample with one optimizer step per rollout, this rule is less understood in practical multi-step training. We develop a...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.13923v1",
-   "published": "2026-10-09",
+   "url": "https://arxiv.org/abs/2610.18853v1",
+   "published": "2026-10-13",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "077dea1e8a7adb2e",
-   "title": "Disrupting AI-enabled “false front” operations",
-   "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+   "id": "ca1ec6c6a1a1314d",
+   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "url": "https://openai.com/index/pollo-ai",
    "published": "2026-10-08",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -607,18 +565,6 @@
    "published": "2026-09-24",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "be2314c62992cc2b",
-   "title": "Gemini 3.8 text-to-speech says hello",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-   "published": "2026-09-23",
-   "tags": [
-    "labs",
-    "multimodal"
    ]
   },
   {
@@ -645,12 +591,12 @@
    ]
   },
   {
-   "id": "cc060c5c55029528",
-   "title": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
-   "summary": "As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.",
+   "id": "4d5e1f5c1fab6083",
+   "title": "Discovering the value of humanistic inquiry",
+   "summary": "Students in MIT’s Concourse program delve deeply into the human condition, debate challenging questions, and learn to develop judgment about issues that can’t be quantified.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
-   "published": "2026-10-06",
+   "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
+   "published": "2026-10-07",
    "tags": [
     "research"
    ]
@@ -668,40 +614,112 @@
    ]
   },
   {
-   "id": "196ce8a2372e707c",
-   "title": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
-   "summary": "vLLM Semantic Router released Decision 3.0, 5 Apache-2.0 multimodal decision models from 0.8B to 27B. They answer choice, yes/no and score questions about text and images in one call, without generating text. The post What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models appeared first on MarkTechPost .",
+   "id": "9c672cafb8c1c079",
+   "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
+   "summary": "Z.ai’s GLM-Legal is a legal AI model built on GLM-5.3-Flash. It scores 19.2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0.15 per test. Access is by application. The post Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
-   "published": "2026-10-11",
+   "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
+   "published": "2026-10-13",
    "tags": [
     "industry",
+    "evaluation",
+    "agents"
+   ]
+  },
+  {
+   "id": "cf2c3baabc06565e",
+   "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+   "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.18829v1",
+   "published": "2026-10-13",
+   "tags": [
+    "paper",
     "llm",
-    "serving",
+    "evaluation",
     "multimodal"
    ]
   },
   {
-   "id": "21da94086ec21c49",
-   "title": "OpenPA: Forced-alignment-free Multi-granular Pronunciation Assessment with Mixed-transcript Adaptation",
-   "summary": "Recent advances in automatic pronunciation assessment (APA) have driven a shift from scripted to free-form assessment. However, existing methods often rely on multi-stage pipelines with forced alignment and separate feature extractors, limiting their practicality across response settings. In light of this, we propose OpenPA, a novel APA...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.13826v1",
-   "published": "2026-10-09",
+   "id": "c48ff3a27a930a99",
+   "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
+   "summary": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improve multiple properties while maintaining a similar overall structure. This process often requires iterative modifications guided by computational or experimental feedback. Recent large language model...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.18851v1",
+   "published": "2026-10-13",
    "tags": [
     "paper",
-    "fine-tuning"
+    "llm"
    ]
   },
   {
-   "id": "078c6f795816f4e9",
-   "title": "DyssomniaNN: Multi-Scale Spiking Neural Modeling of Human Sleep Disorders and Perceived Restedness",
-   "summary": "Clinical sleep medicine repeatedly documents profound divergences between objective sleep duration and subjective daytime impairment, notably exemplified by sleep state misperception in paradoxical insomnia and boundary instability in narcolepsy type 1. Here, we present DyssomniaNN: a multi-scale biophysical computational framework...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.13918v1",
-   "published": "2026-10-09",
+   "id": "f6d3626eb7c890d9",
+   "title": "LegalOn halves Codex costs while maintaining development speed",
+   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/legalon-halves-codex-costs",
+   "published": "2026-10-08",
    "tags": [
-    "paper"
+    "labs"
+   ]
+  },
+  {
+   "id": "90801afbca07a432",
+   "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+   "summary": "Algorithms & Theory",
+   "source": "Google Research",
+   "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+   "published": "2026-09-18",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "a885ed61f54a415a",
+   "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+   "published": "2026-10-02",
+   "tags": [
+    "open-source",
+    "agents"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "21c23ab08aafeb08",
+   "title": "Supercomputing researchers document evolution of AI hardware",
+   "summary": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+   "published": "2026-10-06",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "f3d1448df6a6df02",
+   "title": "LLM Research Papers: The 2026 List (January to May)",
+   "summary": "A curated roundup of notable LLM research papers that came out this year",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+   "published": "2026-06-06",
+   "tags": [
+    "newsletter",
+    "llm"
    ]
   }
  ]
