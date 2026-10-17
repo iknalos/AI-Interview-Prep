@@ -1,41 +1,29 @@
 {
- "generated": "2026-10-16",
- "generatedAt": "2026-10-16T11:34:10+00:00",
- "sourceCount": 10,
+ "generated": "2026-10-17",
+ "generatedAt": "2026-10-17T10:53:55+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "a72d1e4da6b0e106",
-   "title": "Bringing GPT-Rosalind to academic research labs",
-   "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+   "id": "65442e708214c10b",
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-   "published": "2026-10-15",
+   "url": "https://openai.com/index/itau-generative-ai",
+   "published": "2026-10-16",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "93dc9e9d57baf201",
-   "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
-   "summary": "Earth AI",
+   "id": "83945f3b589d9924",
+   "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
-   "published": "2026-10-14",
+   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+   "published": "2026-10-16",
    "tags": [
     "research",
     "agents"
-   ]
-  },
-  {
-   "id": "996b33c09ad57427",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "published": "2026-10-15",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -61,12 +49,12 @@
    ]
   },
   {
-   "id": "e2eb449edbb77f0a",
-   "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
-   "summary": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
+   "id": "68b02ba462b0e816",
+   "title": "Fostering community amid Kendall Square’s innovation",
+   "summary": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
-   "published": "2026-10-15",
+   "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+   "published": "2026-10-16",
    "tags": [
     "research"
    ]
@@ -84,15 +72,14 @@
    ]
   },
   {
-   "id": "1c9ddf4180994f23",
-   "title": "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
-   "summary": "Liquid AI released d1-ultra, a text and image decision model that returns calibrated probabilities in 1 forward pass. It scores 65 on the Artificial Analysis Decision Index and costs $0.042 per million input tokens. The post Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index appeared first on...",
+   "id": "77e5905c545cca41",
+   "title": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
+   "summary": "DeepSeek has just released DeepSeek-V4.1-Flash-1017, a new checkpoint of its V4.1-Flash model. It is live on the DeepSeek website, app and API. DeepSeek claims stronger scores, faster task completion and shorter outputs than the September V4.1-Flash release. The company calls it a Pareto improvement in performance and cost. Alongside it...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/15/liquid-ai-d1-ultra-decision-model/",
-   "published": "2026-10-16",
+   "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
+   "published": "2026-10-17",
    "tags": [
-    "industry",
-    "multimodal"
+    "industry"
    ]
   },
   {
@@ -122,50 +109,39 @@
    ]
   },
   {
-   "id": "fa14b8f7db4605df",
-   "title": "Teaching students to think and learn through questions",
-   "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+   "id": "9db4940a53f86840",
+   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-   "published": "2026-10-15",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "e5f78e0104d8f376",
-   "title": "Analyzing technical documents with Deep Review",
-   "summary": "General Science",
-   "source": "Google Research",
-   "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
-   "published": "2026-10-14",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "58e4191fcfe4b88c",
-   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "published": "2026-10-14",
+   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "published": "2026-10-16",
    "tags": [
     "labs",
-    "fine-tuning"
+    "llm",
+    "agents"
    ]
   },
   {
-   "id": "a01e02239da0a38e",
-   "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+   "id": "93dc9e9d57baf201",
+   "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+   "summary": "Earth AI",
+   "source": "Google Research",
+   "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+   "published": "2026-10-14",
+   "tags": [
+    "research",
+    "agents"
+   ]
+  },
+  {
+   "id": "849b423196d125cc",
+   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-   "published": "2026-10-15",
+   "url": "https://huggingface.co/blog/reflection-beam",
+   "published": "2026-10-16",
    "tags": [
-    "open-source",
-    "fine-tuning",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -181,11 +157,11 @@
    ]
   },
   {
-   "id": "c0a2e19f9297635f",
-   "title": "AI model decodes the language cells use to communicate",
-   "summary": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+   "id": "e2eb449edbb77f0a",
+   "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+   "summary": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+   "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
    "published": "2026-10-15",
    "tags": [
     "research"
@@ -205,16 +181,14 @@
    ]
   },
   {
-   "id": "df881c7c11b8840e",
-   "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
-   "summary": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios. The post Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context appeared first on MarkTechPost .",
+   "id": "b3bf7262327a4355",
+   "title": "20 Jev Alternatives: The Decision Models Taking On TypeSafe in 2026",
+   "summary": "TypeSafe launched Jev on September 15, 2026. It is a decision model, not a chatbot. You define the allowed answers, and Jev returns a label, a score or a yes/no probability. In about 4 weeks, at least 20 Jev alternatives shipped. They come from Cloudflare, OpenAI, Perplexity, Liquid AI, AWS’s Strands Labs and independent developers. […]...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
-   "published": "2026-10-16",
+   "url": "https://www.marktechpost.com/2026/10/17/20-jev-alternatives-the-decision-models-taking-on-typesafe-in-2026/",
+   "published": "2026-10-17",
    "tags": [
-    "industry",
-    "llm",
-    "agents"
+    "industry"
    ]
   },
   {
@@ -242,47 +216,37 @@
    ]
   },
   {
-   "id": "dd00c04c9b95848e",
-   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-   "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+   "id": "4a2f3ca18eb9cee6",
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/sullivan-cromwell",
-   "published": "2026-10-15",
+   "url": "https://openai.com/index/benefit-street-partners",
+   "published": "2026-10-16",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "19f3965005eb6d51",
-   "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+   "id": "e5f78e0104d8f376",
+   "title": "Analyzing technical documents with Deep Review",
    "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+   "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
    "published": "2026-10-14",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "471508c04c304cbd",
-   "title": "Developing Gemini 4 Argon responsibly and safely",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "9d251ac6836a600d",
-   "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+   "id": "a01e02239da0a38e",
+   "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/meta-muse-spark-open",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
    "published": "2026-10-15",
    "tags": [
     "open-source",
+    "fine-tuning",
     "multimodal"
    ]
   },
@@ -301,11 +265,11 @@
    ]
   },
   {
-   "id": "bdb5f9d6d0998937",
-   "title": "Q&A: The “collision” between AI, your brain, and society",
-   "summary": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
+   "id": "c0a2e19f9297635f",
+   "title": "AI model decodes the language cells use to communicate",
+   "summary": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
+   "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
    "published": "2026-10-15",
    "tags": [
     "research"
@@ -323,17 +287,16 @@
    ]
   },
   {
-   "id": "0c443fbb8785b2ae",
-   "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
-   "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models. The post NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model appeared first on MarkTechPost .",
+   "id": "1b679d22f8a25a1f",
+   "title": "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context",
+   "summary": "StepFun has released Step 5 Preview as open weights. FP8 and BF16 checkpoints are live on Hugging Face and ModelScope. Step 5 Preview is a sparse Mixture-of-Experts model from StepFun built for long-horizon agentic work. It has 600B total parameters, 27B active per token and up to 1M tokens of context. For developers, this is […] The...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
-   "published": "2026-10-15",
+   "url": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
+   "published": "2026-10-17",
    "tags": [
     "industry",
     "llm",
-    "agents",
-    "multimodal"
+    "agents"
    ]
   },
   {
@@ -363,49 +326,38 @@
    ]
   },
   {
-   "id": "a0e0fec2c2b5f568",
-   "title": "Amp puts AI agents to work beyond code with OpenAI models",
-   "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+   "id": "a72d1e4da6b0e106",
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/amp-beyond-coding",
-   "published": "2026-10-14",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "published": "2026-10-15",
    "tags": [
     "labs",
-    "llm",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "fc6c16485847d7e3",
-   "title": "Does better work always mean better workers?",
-   "summary": "",
+   "id": "19f3965005eb6d51",
+   "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
-   "published": "2026-10-07",
+   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+   "published": "2026-10-14",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "884ebf3c3978ea46",
-   "title": "Gemini 4 Argon for Robotics",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "3733c75a28bf26df",
-   "title": "Welcome FLUX.3 Image Klein in Diffusers",
+   "id": "9d251ac6836a600d",
+   "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/flux-3",
+   "url": "https://huggingface.co/blog/meta-muse-spark-open",
    "published": "2026-10-15",
    "tags": [
-    "open-source"
+    "open-source",
+    "multimodal"
    ]
   },
   {
@@ -420,12 +372,12 @@
    ]
   },
   {
-   "id": "378737ffe80d7a1a",
-   "title": "Researchers improve weather forecasts looking two to six weeks out",
-   "summary": "A new machine-learning approach broke records for weather forecasting for an important time frame in emergency planning.",
+   "id": "bdb5f9d6d0998937",
+   "title": "Q&A: The “collision” between AI, your brain, and society",
+   "summary": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
-   "published": "2026-10-14",
+   "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
+   "published": "2026-10-15",
    "tags": [
     "research"
    ]
@@ -442,16 +394,14 @@
    ]
   },
   {
-   "id": "f8f8424fdc5eec25",
-   "title": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
-   "summary": "Introduction Teams shipping AI agents at scale keep running into the same pattern. Even agents built on top-tier models like Fable and Astra struggle to carry out complex, end-to-end tasks inside a specific product consistently enough to deploy. So teams grind out evals for the workflows that matter most, often hundreds or thousands of...",
+   "id": "b5696044a59bfefb",
+   "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
+   "summary": "Perplexity has open-sourced SPACE, the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are controlled from outside that VM. The code ships under Apache 2.0 on GitHub. For teams building coding or browsing agents...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
-   "published": "2026-10-15",
+   "url": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
+   "published": "2026-10-17",
    "tags": [
     "industry",
-    "fine-tuning",
-    "evaluation",
     "agents"
    ]
   },
@@ -481,45 +431,34 @@
    ]
   },
   {
-   "id": "24cc989c02dbc2a2",
-   "title": "SentinelOne cuts malware analysis from weeks to hours",
-   "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+   "id": "fa14b8f7db4605df",
+   "title": "Teaching students to think and learn through questions",
+   "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/sentinelone",
-   "published": "2026-10-14",
+   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "published": "2026-10-15",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "0ec0c3cc2f3eb61c",
-   "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
-   "summary": "Earth AI",
+   "id": "fc6c16485847d7e3",
+   "title": "Does better work always mean better workers?",
+   "summary": "",
    "source": "Google Research",
-   "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
-   "published": "2026-10-06",
+   "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+   "published": "2026-10-07",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "f174716114a9131e",
-   "title": "Gemini 4 Argon: Built to solve your hardest problems",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "672ebf75c430cf70",
-   "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+   "id": "3733c75a28bf26df",
+   "title": "Welcome FLUX.3 Image Klein in Diffusers",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-   "published": "2026-10-14",
+   "url": "https://huggingface.co/blog/flux-3",
+   "published": "2026-10-15",
    "tags": [
     "open-source"
    ]
@@ -538,12 +477,12 @@
    ]
   },
   {
-   "id": "11e83311a7c54e72",
-   "title": "How artificial neural networks build their own learning machinery",
-   "summary": "Machine-learning networks can learn without detailed instructions from a designer. Those that do may offer insight into how the brain reorganizes itself during learning.",
+   "id": "378737ffe80d7a1a",
+   "title": "Researchers improve weather forecasts looking two to six weeks out",
+   "summary": "A new machine-learning approach broke records for weather forecasting for an important time frame in emergency planning.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
-   "published": "2026-10-13",
+   "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+   "published": "2026-10-14",
    "tags": [
     "research"
    ]
@@ -562,14 +501,15 @@
    ]
   },
   {
-   "id": "ece88fdfe1501d8e",
-   "title": "openKylin Outlines Its Vision for Reimagining Linux in the AI Era at Open Source Summit Europe 2026",
-   "summary": "At Open Source Summit Europe 2026, openKylin outlined its vision for transitioning from resource management to intent management in the AI era. The community introduced KART, a unified AI runtime, alongside core desktop features in openKylin 3.0 like the AI Assistant, Global Intelligent Search, and Intelligent Space The post openKylin...",
+   "id": "1c9ddf4180994f23",
+   "title": "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
+   "summary": "Liquid AI released d1-ultra, a text and image decision model that returns calibrated probabilities in 1 forward pass. It scores 65 on the Artificial Analysis Decision Index and costs $0.042 per million input tokens. The post Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/15/openkylin-outlines-its-vision-for-reimagining-linux-in-the-ai-era-at-open-source-summit-europe-2026/",
-   "published": "2026-10-15",
+   "url": "https://www.marktechpost.com/2026/10/15/liquid-ai-d1-ultra-decision-model/",
+   "published": "2026-10-16",
    "tags": [
-    "industry"
+    "industry",
+    "multimodal"
    ]
   },
   {
@@ -599,53 +539,36 @@
    ]
   },
   {
-   "id": "e181547094b0a112",
-   "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-   "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+   "id": "dd00c04c9b95848e",
+   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/third-moment-research",
-   "published": "2026-10-14",
+   "url": "https://openai.com/index/sullivan-cromwell",
+   "published": "2026-10-15",
    "tags": [
-    "labs",
-    "llm",
-    "agents"
+    "labs"
    ]
   },
   {
-   "id": "c3d66983a8dc7ed3",
-   "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
-   "summary": "Generative AI",
+   "id": "0ec0c3cc2f3eb61c",
+   "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+   "summary": "Earth AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
-   "published": "2026-10-05",
-   "tags": [
-    "research",
-    "agents"
-   ]
-  },
-  {
-   "id": "4dd290070848fb61",
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
    "published": "2026-10-06",
    "tags": [
-    "labs",
-    "rag",
-    "multimodal"
+    "research"
    ]
   },
   {
-   "id": "550c4c02e9ff21a9",
-   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+   "id": "672ebf75c430cf70",
+   "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-   "published": "2026-10-13",
+   "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+   "published": "2026-10-14",
    "tags": [
-    "open-source",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -660,11 +583,11 @@
    ]
   },
   {
-   "id": "8ad1969e4f569b40",
-   "title": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
-   "summary": "Roadshow event highlights Massachusetts' defense-biotechnology ecosystem.",
+   "id": "11e83311a7c54e72",
+   "title": "How artificial neural networks build their own learning machinery",
+   "summary": "Machine-learning networks can learn without detailed instructions from a designer. Those that do may offer insight into how the brain reorganizes itself during learning.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
+   "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
    "published": "2026-10-13",
    "tags": [
     "research"
@@ -683,14 +606,16 @@
    ]
   },
   {
-   "id": "e903d90839a824ed",
-   "title": "TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context",
-   "summary": "TypeSafe AI released Jev 1.14 under the jev-preview alias. The System One model adds experimental image input, a Box bounding-box type and an opt-in 262k-token context, at $0.042 per million input tokens. The post TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context appeared first on MarkTechPost .",
+   "id": "df881c7c11b8840e",
+   "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
+   "summary": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios. The post Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/14/typesafe-ai-jev-1-14-images-box-long-context/",
-   "published": "2026-10-15",
+   "url": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
+   "published": "2026-10-16",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "agents"
    ]
   },
   {
@@ -715,6 +640,79 @@
    "published": "2026-10-15",
    "tags": [
     "paper"
+   ]
+  },
+  {
+   "id": "a0e0fec2c2b5f568",
+   "title": "Amp puts AI agents to work beyond code with OpenAI models",
+   "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/amp-beyond-coding",
+   "published": "2026-10-14",
+   "tags": [
+    "labs",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "c3d66983a8dc7ed3",
+   "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+   "summary": "Generative AI",
+   "source": "Google Research",
+   "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+   "published": "2026-10-05",
+   "tags": [
+    "research",
+    "agents"
+   ]
+  },
+  {
+   "id": "550c4c02e9ff21a9",
+   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "published": "2026-10-13",
+   "tags": [
+    "open-source",
+    "agents"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "8ad1969e4f569b40",
+   "title": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
+   "summary": "Roadshow event highlights Massachusetts' defense-biotechnology ecosystem.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
+   "published": "2026-10-13",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "f3d1448df6a6df02",
+   "title": "LLM Research Papers: The 2026 List (January to May)",
+   "summary": "A curated roundup of notable LLM research papers that came out this year",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+   "published": "2026-06-06",
+   "tags": [
+    "newsletter",
+    "llm"
    ]
   }
  ]
