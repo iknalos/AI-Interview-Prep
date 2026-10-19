@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-18",
- "generatedAt": "2026-10-18T11:19:26+00:00",
- "sourceCount": 10,
+ "generated": "2026-10-19",
+ "generatedAt": "2026-10-19T13:33:17+00:00",
+ "sourceCount": 9,
  "items": [
   {
    "id": "65442e708214c10b",
@@ -83,41 +83,29 @@
    ]
   },
   {
-   "id": "9454a5de096ba88b",
-   "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
-   "summary": "Google Research released Harness2, an Apache-2.0 framework that rewrites an agent's harness at test time. One refinement step lifted GLM-5 by 11.5 points on WorkBuddy-Bench with no weight updates. The post Google Open-Sources Harness2, a Recursive Agent Harnessing Framework appeared first on MarkTechPost .",
+   "id": "fcf776a502b8fc5c",
+   "title": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
+   "summary": "MiniMax has released M3.1 Flash, a 428B-parameter MoE model with about 23B active parameters and a 1M-token context. API pricing is $0.15/$0.60 per 1M tokens, with weights due October 23 The post MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
-   "published": "2026-10-18",
+   "url": "https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/",
+   "published": "2026-10-19",
    "tags": [
     "industry",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "d2d1f7fd5e93e677",
-   "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
-   "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.22355v1",
-   "published": "2026-10-15",
-   "tags": [
-    "paper",
-    "reasoning",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "8031ac42ea200d6c",
-   "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
-   "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce...",
+   "id": "2cf33ea6373aad72",
+   "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+   "summary": "Fine-tuning large language models (LLMs) can induce behaviors beyond those explicitly targeted. For example, training a model to respond more warmly can make it more sycophantic, and training it to write insecure code can cause broad misalignment on prompts unrelated to coding. We refer to a relationship between behaviors, in which...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.22372v1",
-   "published": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.23847v1",
+   "published": "2026-10-16",
    "tags": [
     "paper",
-    "fine-tuning",
-    "evaluation"
+    "llm",
+    "fine-tuning"
    ]
   },
   {
@@ -203,36 +191,23 @@
    ]
   },
   {
-   "id": "5a9362b8ddbd78cf",
-   "title": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
-   "summary": "In this tutorial, we implement Structured Data Models, NVIDIA’s new library that puts several pretrained foundation models for tables behind one PyTorch interface, and use it to make predictions without training. The library wraps TabICLv2 and KumoTabular for single tables and KumoRelational for whole relational databases, and each of...",
+   "id": "071096a57136b2f0",
+   "title": "NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration",
+   "summary": "NVIDIA has released the full Run:ai GPU orchestration platform as open source under Apache 2.0. The release includes KAI Scheduler, CUDA 13.4 GPU fractioning, quota management, and a local Kind dev environment. The post NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/",
-   "published": "2026-10-18",
+   "url": "https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/",
+   "published": "2026-10-19",
    "tags": [
     "industry"
    ]
   },
   {
-   "id": "8834604ac2aeb3da",
-   "title": "FDE-Gym: The Last Mile of AI Delivery",
-   "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.22350v1",
-   "published": "2026-10-15",
-   "tags": [
-    "paper",
-    "evaluation",
-    "agents"
-   ]
-  },
-  {
-   "id": "2f5abc61ec43b8ac",
-   "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-   "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulative demand, peak load, and event timing...",
+   "id": "6c9b379f94e162dd",
+   "title": "Task-aligned spectral inductive biases in parameterized quantum circuits",
+   "summary": "Parameterized quantum circuits are widely investigated in quantum machine learning, yet how their architecture can provide task-aligned inductive biases remains poorly understood. We study data reuploading quantum circuits with two distinct inputs: a signal that varies between samples and a fixed, task-defined spectral query that...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.22358v1",
-   "published": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.23834v1",
+   "published": "2026-10-16",
    "tags": [
     "paper"
    ]
@@ -322,43 +297,28 @@
    ]
   },
   {
-   "id": "4f4ae4695b3bbbdb",
-   "title": "Meet Voxel51 3.0: A Unified Multimodal Data Platform for Physical AI",
-   "summary": "Voxel51 3.0 merges search, curation, annotation and evaluation of multimodal sensor data into one platform for physical AI teams. It adds Voxel51 Agent with 45+ MCP tools, dataset versioning, and a free self-service tier. The post Meet Voxel51 3.0: A Unified Multimodal Data Platform for Physical AI appeared first on MarkTechPost .",
+   "id": "24bcfc655b4214af",
+   "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3",
+   "summary": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU. The post Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3 appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/17/voxel51-3-0-physical-ai-data-platform/",
-   "published": "2026-10-18",
+   "url": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/",
+   "published": "2026-10-19",
    "tags": [
     "industry",
-    "evaluation",
-    "agents",
-    "multimodal"
+    "evaluation"
    ]
   },
   {
-   "id": "83c65cd100d4e2c7",
-   "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
-   "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.22344v1",
-   "published": "2026-10-15",
-   "tags": [
-    "paper",
-    "llm",
-    "agents"
-   ]
-  },
-  {
-   "id": "cdb6b22912d779f6",
-   "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
-   "summary": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and shared experts. The former increases expressiveness by enabling more expert combinations at a fixed activation ratio, and the latter...",
+   "id": "24d7c5ad3e51fc40",
+   "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
+   "summary": "A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision by considering both their intermediate content and their accessibility to the target learner. We introduce ReDiST, a student-conditioned...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.22353v1",
-   "published": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.23831v1",
+   "published": "2026-10-16",
    "tags": [
     "paper",
-    "llm",
-    "fine-tuning"
+    "fine-tuning",
+    "reasoning"
    ]
   },
   {
@@ -396,15 +356,14 @@
    ]
   },
   {
-   "id": "9d251ac6836a600d",
-   "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+   "id": "e3c36d4422c6129b",
+   "title": "Apertus 1.5 Release Notes",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/meta-muse-spark-open",
+   "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
    "published": "2026-10-15",
    "tags": [
-    "open-source",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -441,39 +400,26 @@
    ]
   },
   {
-   "id": "f6161921690106fc",
-   "title": "Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation",
-   "summary": "Kyutai, with Inria and École des Ponts, has released REKI, a 2.4B vision-language-action model (VLA) for robot manipulation. The REKI vision-language-action model is pretrained only on public data. It also carries a cheap memory of its recent past. On three out-of-distribution benchmarks, only models about twice its size beat it. All...",
+   "id": "a509ece1edb9a332",
+   "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
+   "summary": "An AI agent that reads the web pays 2 kinds of cost. The first is the retrieval charge: what a search or fetch API bills per request. The second is model processing: content passed from retrieved pages into an AI model consumes tokens, while reasoning and generated responses add further costs. TinyFish, a web infrastructure […] The post...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/",
-   "published": "2026-10-17",
+   "url": "https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/",
+   "published": "2026-10-18",
    "tags": [
     "industry",
+    "rag",
     "evaluation",
-    "multimodal"
+    "agents"
    ]
   },
   {
-   "id": "8785681c0f6eb6bd",
-   "title": "Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?",
-   "summary": "Large language models (LLMs) can often tell when they are being tested. This ability, known as evaluation awareness, can lead models to act more cautiously during safety evaluations than in real use. Existing work has studied evaluation awareness almost entirely in English, although models serve users in many languages. Indic languages...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.22333v1",
-   "published": "2026-10-15",
-   "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "safety"
-   ]
-  },
-  {
-   "id": "40bd931fef83a137",
-   "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
-   "summary": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose...",
+   "id": "4a0b92bf24558cfc",
+   "title": "Waiting Buys Exactly Two Moments: Endogenous Identification in Prediction-Driven Allocation",
+   "summary": "A planner with a fixed budget of preventive help must decide whom to help and when. Waiting reveals risk but removes intervention opportunities as higher-risk individuals leave first. We characterize this tradeoff under repeated noisy signals and risk-dependent attrition: in the canonical model, a length-$τ$ observation prefix identifies...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.22343v1",
-   "published": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.23830v1",
+   "published": "2026-10-16",
    "tags": [
     "paper"
    ]
@@ -512,14 +458,15 @@
    ]
   },
   {
-   "id": "3733c75a28bf26df",
-   "title": "Welcome FLUX.3 Image Klein in Diffusers",
+   "id": "9d251ac6836a600d",
+   "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/flux-3",
+   "url": "https://huggingface.co/blog/meta-muse-spark-open",
    "published": "2026-10-15",
    "tags": [
-    "open-source"
+    "open-source",
+    "multimodal"
    ]
   },
   {
@@ -560,40 +507,26 @@
    ]
   },
   {
-   "id": "77e5905c545cca41",
-   "title": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
-   "summary": "DeepSeek has just released DeepSeek-V4.1-Flash-1017, a new checkpoint of its V4.1-Flash model. It is live on the DeepSeek website, app and API. DeepSeek claims stronger scores, faster task completion and shorter outputs than the September V4.1-Flash release. The company calls it a Pareto improvement in performance and cost. Alongside it...",
+   "id": "9454a5de096ba88b",
+   "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
+   "summary": "Google Research released Harness2, an Apache-2.0 framework that rewrites an agent's harness at test time. One refinement step lifted GLM-5 by 11.5 points on WorkBuddy-Bench with no weight updates. The post Google Open-Sources Harness2, a Recursive Agent Harnessing Framework appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
-   "published": "2026-10-17",
+   "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
+   "published": "2026-10-18",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
-   "id": "4f1a064b5677550e",
-   "title": "Twice Upon a Time: Complementary Representations for Time-Series Reasoning",
-   "summary": "Time Series Language Models (TSLMs) enable language-based understanding and reasoning over temporal data, yet a fundamental question remains: what information should their time-series representations preserve, and what variation should they factor out? Existing TSLMs typically expose the language model to a single representation...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.22327v1",
-   "published": "2026-10-15",
-   "tags": [
-    "paper",
-    "llm",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "ec10f83eb4e53e73",
-   "title": "Lean Graph Search for Formal Theorem Proving",
-   "summary": "Retrieving relevant lemmas is crucial for formal theorem proving, enabling provers to build machine-checkable proofs from established mathematical results. Recent retrieval systems match library declarations to a target theorem or its intermediate proof steps, but make limited use of multi-hop dependencies among declarations. These...",
+   "id": "29caec9829a484b8",
+   "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
+   "summary": "Future quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.22339v1",
-   "published": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.23827v1",
+   "published": "2026-10-16",
    "tags": [
-    "paper",
-    "rag",
-    "evaluation"
+    "paper"
    ]
   },
   {
@@ -632,12 +565,12 @@
    ]
   },
   {
-   "id": "672ebf75c430cf70",
-   "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+   "id": "3733c75a28bf26df",
+   "title": "Welcome FLUX.3 Image Klein in Diffusers",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-   "published": "2026-10-14",
+   "url": "https://huggingface.co/blog/flux-3",
+   "published": "2026-10-15",
    "tags": [
     "open-source"
    ]
@@ -677,38 +610,97 @@
    ]
   },
   {
-   "id": "b3bf7262327a4355",
-   "title": "20 Jev Alternatives: The Decision Models Taking On TypeSafe in 2026",
-   "summary": "TypeSafe launched Jev on September 15, 2026. It is a decision model, not a chatbot. You define the allowed answers, and Jev returns a label, a score or a yes/no probability. In about 4 weeks, at least 20 Jev alternatives shipped. They come from Cloudflare, OpenAI, Perplexity, Liquid AI, AWS’s Strands Labs and independent developers. […]...",
+   "id": "5a9362b8ddbd78cf",
+   "title": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
+   "summary": "In this tutorial, we implement Structured Data Models, NVIDIA’s new library that puts several pretrained foundation models for tables behind one PyTorch interface, and use it to make predictions without training. The library wraps TabICLv2 and KumoTabular for single tables and KumoRelational for whole relational databases, and each of...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/17/20-jev-alternatives-the-decision-models-taking-on-typesafe-in-2026/",
-   "published": "2026-10-17",
+   "url": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/",
+   "published": "2026-10-18",
    "tags": [
     "industry"
    ]
   },
   {
-   "id": "1c24870bd902fd0f",
-   "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
-   "summary": "One of the first steps of a research pipeline is generating ideas. Large Language Models (LLMs) are increasingly used to automate this step, but most of this work optimizes the quality of individual ideas, while overlooking diversity. In our work, we study document-grounded ideation, focusing on increasing the diversity of LLM generated...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.22324v1",
-   "published": "2026-10-15",
+   "id": "4fc6f8750f4ad84a",
+   "title": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
+   "summary": "The evidence, $\\mathcal{Z} = p(x | \\mathcal{M})$, of a data-generating model $\\mathcal{M}$ is a powerful tool in Bayesian frameworks: it enables model inference, model misspecification tests, and goodness-of-fit assessment as an alternative to standard discrepancy statistics, e.g. $χ^2$. While versatile, the evidence is notoriously...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.23825v1",
+   "published": "2026-10-16",
    "tags": [
     "paper",
-    "llm",
-    "reasoning"
+    "serving"
    ]
   },
   {
-   "id": "1505df5fdf2c2d1c",
-   "title": "Robust Reinforcement Learning for Dynamic Treatment Regimes under Model and Measurement Uncertainty",
-   "summary": "We develop a robust reinforcement learning (RL) framework for learning adaptive treatment policies that generalize across patients and remain reliable under errors in the measured biomarker and shifts in the disease dynamics. By modeling the patient as a hidden context, we address generalization and robustness in a unified manner through...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.22336v1",
-   "published": "2026-10-15",
+   "id": "a0e0fec2c2b5f568",
+   "title": "Amp puts AI agents to work beyond code with OpenAI models",
+   "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/amp-beyond-coding",
+   "published": "2026-10-14",
    "tags": [
-    "paper"
+    "labs",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "c3d66983a8dc7ed3",
+   "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+   "summary": "Generative AI",
+   "source": "Google Research",
+   "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+   "published": "2026-10-05",
+   "tags": [
+    "research",
+    "agents"
+   ]
+  },
+  {
+   "id": "15e70ee5e4a75a6c",
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "published": "2026-09-30",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "672ebf75c430cf70",
+   "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+   "published": "2026-10-14",
+   "tags": [
+    "open-source"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "11e83311a7c54e72",
+   "title": "How artificial neural networks build their own learning machinery",
+   "summary": "Machine-learning networks can learn without detailed instructions from a designer. Those that do may offer insight into how the brain reorganizes itself during learning.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+   "published": "2026-10-13",
+   "tags": [
+    "research"
    ]
   }
  ]
