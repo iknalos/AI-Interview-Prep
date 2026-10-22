@@ -1,30 +1,28 @@
 {
- "generated": "2026-10-21",
- "generatedAt": "2026-10-21T12:00:28+00:00",
+ "generated": "2026-10-22",
+ "generatedAt": "2026-10-22T12:02:48+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "b3fcb2e42d321123",
-   "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-   "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+   "id": "4ab93569e260b2b0",
+   "title": "How AT&T is rethinking in-house legal work with OpenAI",
+   "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/ted-taylor-restaurant",
-   "published": "2026-10-20",
+   "url": "https://openai.com/index/att-legal",
+   "published": "2026-10-21",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "83945f3b589d9924",
-   "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
-   "summary": "General Science",
+   "id": "2de1f3f85cd444cf",
+   "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
-   "published": "2026-10-16",
+   "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+   "published": "2026-10-21",
    "tags": [
-    "research",
-    "agents"
+    "research"
    ]
   },
   {
@@ -39,12 +37,12 @@
    ]
   },
   {
-   "id": "99ae24e773f80392",
-   "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+   "id": "5d118fadbe793ddd",
+   "title": "Ensemble forecasting with IBM Granite time-series models",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-   "published": "2026-10-21",
+   "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "published": "2026-10-22",
    "tags": [
     "open-source"
    ]
@@ -84,62 +82,60 @@
    ]
   },
   {
-   "id": "9aa485179e61f974",
-   "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
-   "summary": "Mistral AI released Voxtral 3, a family of 3 transcription models, 1 text-to-speech model and a LiveKit-based voice agent SDK. Voxtral Small Transcribe 3 scores 2.1% AA-WER, ranking #3 on Artificial Analysis. The post Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK appeared first on MarkTechPost .",
+   "id": "c63a5d99ac398e47",
+   "title": "IBM AI Releases Granite Speech 5.0 2B for Multilingual Transcription and Translation",
+   "summary": "IBM released Granite Speech 5.0 2B, an Apache 2.0 speech recognition and translation model. It ranks #2 on the Open ASR Leaderboard with 5.68% average English WER, alongside updated Turbo CTC and 4.1 2B Plus models. The post IBM AI Releases Granite Speech 5.0 2B for Multilingual Transcription and Translation appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk/",
-   "published": "2026-10-21",
+   "url": "https://www.marktechpost.com/2026/10/22/ibm-granite-speech-5-0-2b-release/",
+   "published": "2026-10-22",
    "tags": [
     "industry",
-    "agents",
+    "evaluation",
     "multimodal"
    ]
   },
   {
-   "id": "ff282a5816b9590d",
-   "title": "NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification",
-   "summary": "Picture-description dementia classification uses a shared visual scene, but a transcript-level prediction alone does not identify the scene evidence underlying its inputs. NarraSpace links words and speech times to named picture elements and retrieves utterances for predefined scene events. Narrative-spatial descriptors summarize...",
+   "id": "685948fc08f86927",
+   "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+   "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL, and existing synthesis methods depend...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.28616v1",
-   "published": "2026-10-20",
+   "url": "https://arxiv.org/abs/2610.30132v1",
+   "published": "2026-10-21",
    "tags": [
     "paper",
-    "multimodal"
+    "llm",
+    "reasoning"
    ]
   },
   {
-   "id": "6e8151461517d997",
-   "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
-   "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D...",
+   "id": "a90391c588df71f1",
+   "title": "A Quasipolynomial Algorithm for $\\ell_\\infty$ Contractions",
+   "summary": "We give an algorithm for computing an $\\eps$-approximate fixed point of any $d$-dimensional nonexpansion with respect to the $\\ell_\\infty$ norm in time $\\log(1/\\eps)^{O(\\log^2 d)}$. At its core, our method uses a boosting argument to geometrically shrink a search region. Among other consequences, our algorithm implies that simple...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.28632v1",
-   "published": "2026-10-20",
+   "url": "https://arxiv.org/abs/2610.30122v1",
+   "published": "2026-10-21",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "a84b6a7bee5c68a6",
-   "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-   "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+   "id": "2ed22a61b2f19a0c",
+   "title": "Broad access through consistent standards",
+   "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/terminal-x",
-   "published": "2026-10-20",
+   "url": "https://openai.com/index/broad-access-through-consistent-standards",
+   "published": "2026-10-21",
    "tags": [
-    "labs",
-    "llm",
-    "evaluation",
-    "agents"
+    "labs"
    ]
   },
   {
-   "id": "93dc9e9d57baf201",
-   "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
-   "summary": "Earth AI",
+   "id": "83945f3b589d9924",
+   "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
-   "published": "2026-10-14",
+   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+   "published": "2026-10-16",
    "tags": [
     "research",
     "agents"
@@ -158,16 +154,14 @@
    ]
   },
   {
-   "id": "ca293d8533a3487d",
-   "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+   "id": "7104bc51c29585cc",
+   "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/fairstress",
-   "published": "2026-10-20",
+   "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+   "published": "2026-10-21",
    "tags": [
-    "open-source",
-    "llm",
-    "evaluation"
+    "open-source"
    ]
   },
   {
@@ -207,63 +201,59 @@
    ]
   },
   {
-   "id": "d1919c54bdd8b407",
-   "title": "Google Cloud Ships llm-d 1.0 With Cache-Aware Routing for TPU and GPU Fleets",
-   "summary": "Google, Red Hat and IBM released llm-d 1.0, an open-source Kubernetes-native stack for distributed LLM inference. It adds multi-tenant flow control, zero-downtime upgrades and agent-aware routing across vLLM, SGLang, TPUs and GPUs. The post Google Cloud Ships llm-d 1.0 With Cache-Aware Routing for TPU and GPU Fleets appeared first on...",
+   "id": "7ee8d60e8c50e3b9",
+   "title": "Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method",
+   "summary": "Perplexity and NVIDIA introduced JOLT, a post-training method that trains one model as both teacher and student. On MATH it matched GRPO’s accuracy with 6.5x fewer processed training tokens. The post Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/20/llm-d-1-0-open-source-distributed-inference-stack/",
-   "published": "2026-10-21",
+   "url": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
+   "published": "2026-10-22",
    "tags": [
-    "industry",
-    "llm",
-    "serving",
-    "agents"
+    "industry"
    ]
   },
   {
-   "id": "f5f1be29dfa60466",
-   "title": "Benchmarking Arabic Dialects for Math Problems",
-   "summary": "Mathematical reasoning remains underexplored for low-resource languages, including Dialectal Arabic. To bridge this gap, we introduce the DAR-MGSM (Dialectal Arabic Multilingual Grade School Math) Benchmark, the first manually curated benchmark for evaluating mathematical reasoning in Dialectal Arabic. DAR-MGSM consists of math word...",
+   "id": "4afd58564012fa9b",
+   "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+   "summary": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.28607v1",
-   "published": "2026-10-20",
-   "tags": [
-    "paper",
-    "evaluation",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "6924c109bde3aea7",
-   "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
-   "summary": "Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning recipes force a trade-off. Goal-reaching reinforcement learning generalizes to arbitrary object poses but, lacking any human prior, converges...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.28628v1",
-   "published": "2026-10-20",
+   "url": "https://arxiv.org/abs/2610.30128v1",
+   "published": "2026-10-21",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "dbaa902542534b3a",
-   "title": "OpenAI acquires Orchestra Bio",
-   "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+   "id": "1a2f4831f4dc9ec0",
+   "title": "Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
+   "summary": "We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. The bound uses observed cycle lengths and retains explicit terms for truncation and the cycle ending after the observation horizon. Selecting a tuning parameter...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.30119v1",
+   "published": "2026-10-21",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "61f4d0141ff303c0",
+   "title": "OpenAI models are coming to Google Cloud",
+   "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-   "published": "2026-10-20",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "published": "2026-10-21",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "e5f78e0104d8f376",
-   "title": "Analyzing technical documents with Deep Review",
-   "summary": "General Science",
+   "id": "93dc9e9d57baf201",
+   "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+   "summary": "Earth AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+   "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
    "published": "2026-10-14",
    "tags": [
-    "research"
+    "research",
+    "agents"
    ]
   },
   {
@@ -278,15 +268,15 @@
    ]
   },
   {
-   "id": "94e7f4f5c0e52bb7",
-   "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+   "id": "354f89a6c7dbf10c",
+   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-   "published": "2026-10-20",
+   "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+   "published": "2026-10-21",
    "tags": [
     "open-source",
-    "evaluation"
+    "serving"
    ]
   },
   {
@@ -326,59 +316,62 @@
    ]
   },
   {
-   "id": "2cf0413cb4f175ee",
-   "title": "Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs",
-   "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Cloud TPUs. It runs eager by default, compiles through torch.compile and XLA, and replaces PyTorch/XLA for new workloads. The post Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs appeared first on MarkTechPost .",
+   "id": "805e7ca4ed44d722",
+   "title": "A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU",
+   "summary": "Explore a comprehensive coding guide benchmarking Cactus Compute's 16.9 MB speech model against Whisper base. Learn about word error rates, CPU speed, streaming latency, and speech-to-tool integration. The post A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/20/google-torchtpu-open-source-native-pytorch-tpu/",
-   "published": "2026-10-20",
+   "url": "https://www.marktechpost.com/2026/10/21/cactus-whistle-vs-whisper-base-speech-to-text-benchmark-cpu-guide/",
+   "published": "2026-10-22",
    "tags": [
-    "industry"
+    "industry",
+    "evaluation",
+    "serving",
+    "multimodal"
    ]
   },
   {
-   "id": "47156bda7f159190",
-   "title": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
-   "summary": "Agentic on-policy distillation (OPD) trains a student agent on its own trajectories while a teacher scores every token. A natural explanation of where it goes wrong is compounding error: the student's mistakes carry its trajectories beyond the region where the teacher is reliable, so recent methods keep training inside that region...",
+   "id": "0ceea72fc2c69e0e",
+   "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+   "summary": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each model play its role in this ecosystem, as a creator and as a solver? We introduce Environment Duels, a dynamic agentic benchmark that...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.28586v1",
-   "published": "2026-10-20",
+   "url": "https://arxiv.org/abs/2610.30116v1",
+   "published": "2026-10-21",
    "tags": [
     "paper",
-    "fine-tuning",
+    "llm",
+    "evaluation",
     "agents"
    ]
   },
   {
-   "id": "61477b32fc61e0e4",
-   "title": "Planning under Noise with Neural Operators",
-   "summary": "Planning under uncertain control execution noise requires reliable feedback policies across diverse environments. We introduce Planning Under Noise (PUN), a neural operator that learns noise-aware value fields for planning in unseen geometries. Building on an established screened-Poisson formulation of stochastic optimal control, we...",
+   "id": "200b9a7f372072da",
+   "title": "The role of locality and weight sharing in convolutional neural networks",
+   "summary": "The success of convolutional neural networks is often attributed to locality and weight sharing. However, how these two properties separately shape learning, and how their effects depend on the spatial correlations of natural images, remain poorly understood. We address these questions in a teacher-student model with a convolutional...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.28623v1",
-   "published": "2026-10-20",
+   "url": "https://arxiv.org/abs/2610.30118v1",
+   "published": "2026-10-21",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "7a364f356aab4946",
-   "title": "Advancing coding in low‑resource programming languages",
-   "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+   "id": "d3f519557f32dd3d",
+   "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+   "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/low-resource-programming-languages",
-   "published": "2026-10-19",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+   "published": "2026-10-21",
    "tags": [
     "labs",
-    "llm",
-    "evaluation"
+    "agents"
    ]
   },
   {
-   "id": "19f3965005eb6d51",
-   "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+   "id": "e5f78e0104d8f376",
+   "title": "Analyzing technical documents with Deep Review",
    "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+   "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
    "published": "2026-10-14",
    "tags": [
     "research"
@@ -396,12 +389,12 @@
    ]
   },
   {
-   "id": "84cd8d44e9825e73",
-   "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+   "id": "f9b499debdda31c0",
+   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/hf-torchtpu",
-   "published": "2026-10-20",
+   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+   "published": "2026-10-21",
    "tags": [
     "open-source"
    ]
@@ -440,59 +433,61 @@
    ]
   },
   {
-   "id": "69e5c5e0b8bc3b01",
-   "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
-   "summary": "DeepSeek has open-sourced DeepInfer, the Apache 2.0 inference framework that serves DeepSeek-V4.1-Flash in production. It targets NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, and ships offline inference only. The post DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash appeared first on MarkTechPost .",
+   "id": "24533f07267ae2a1",
+   "title": "NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels",
+   "summary": "Discover NVIDIA Nsight Python, an open-source interface that allows developers to profile GPU kernels, analyze hardware metrics, evaluate cache and clock controls, and measure kernel fusion directly from Python code. The post NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/",
-   "published": "2026-10-20",
+   "url": "https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/",
+   "published": "2026-10-22",
    "tags": [
     "industry",
-    "serving"
+    "evaluation"
    ]
   },
   {
-   "id": "a0b8d72e1813af68",
-   "title": "Cache Engineering for Agents",
-   "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work...",
+   "id": "653f6cd9610fd154",
+   "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+   "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual trading decisions, leaving open whether large language models (LLMs) can complete this loop and...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.28577v1",
-   "published": "2026-10-20",
+   "url": "https://arxiv.org/abs/2610.30113v1",
+   "published": "2026-10-21",
    "tags": [
     "paper",
     "llm",
+    "evaluation",
     "agents"
    ]
   },
   {
-   "id": "8180558248a8d86c",
-   "title": "Adaptive Multi-Token Prediction: How far should we go?",
-   "summary": "Multi-token prediction (MTP) can accelerate language-model decoding by drafting several tokens and verifying them in a single target-model pass. However, the best speculation horizon changes with context: longer drafts offer greater amortization when reliable, but can waste compute on suffixes discarded after a rejection. Unlike...",
+   "id": "e9c1520038a65280",
+   "title": "Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance",
+   "summary": "We analyze the problem of estimating univariate Gaussian mixture densities using the nonparametric maximum likelihood estimator (NPMLE) based on $n$ independent and identically distributed samples. We show that the unconstrained NPMLE achieves the minimax optimal rate $\\log(n)/n$ in squared Hellinger distance, when the true mixing...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.28619v1",
-   "published": "2026-10-20",
+   "url": "https://arxiv.org/abs/2610.30109v1",
+   "published": "2026-10-21",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "65442e708214c10b",
-   "title": "How Itaú is building generative AI for its entire customer base",
-   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+   "id": "74fcf21eca7add4a",
+   "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+   "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/itau-generative-ai",
-   "published": "2026-10-16",
+   "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "published": "2026-10-21",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "fc6c16485847d7e3",
-   "title": "Does better work always mean better workers?",
-   "summary": "",
+   "id": "19f3965005eb6d51",
+   "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+   "summary": "General Science",
    "source": "Google Research",
-   "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
-   "published": "2026-10-07",
+   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+   "published": "2026-10-14",
    "tags": [
     "research"
    ]
@@ -509,14 +504,15 @@
    ]
   },
   {
-   "id": "2596ff929aeef557",
-   "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+   "id": "9b35c0bfb2f0e3cd",
+   "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-   "published": "2026-10-20",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+   "published": "2026-10-21",
    "tags": [
-    "open-source"
+    "open-source",
+    "multimodal"
    ]
   },
   {
@@ -557,63 +553,62 @@
    ]
   },
   {
-   "id": "65e04706d8dd281b",
-   "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
-   "summary": "Exa 3.0 is a search API upgrade from Exa. It adds a larger embedding model, Exa Lite at $4 per 1,000 requests, and Dynamic Highlights, and leads 8 benchmarks Exa ran itself. The post Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks appeared first on MarkTechPost .",
+   "id": "a44413dccf009cf2",
+   "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
+   "summary": "Recursive has released Flint, an Apache 2.0 local coding model with 40B total and 2.5B active parameters. It reports 74.2% on SWE-bench Verified and 125+ tokens per second on an M4 Pro MacBook Pro. The post Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/",
-   "published": "2026-10-20",
+   "url": "https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/",
+   "published": "2026-10-21",
    "tags": [
     "industry",
-    "rag",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "98173096e6ff4dba",
-   "title": "Large Flow Language Models",
-   "summary": "Continuous flow language models offer a path to parallel generation with tools for control and acceleration unavailable to discrete diffusion, yet effective techniques for building them at the billion-parameter scale remain less established. We present Lafa (Large flow language model), a fast, high-performing flow language model scaled...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.28559v1",
-   "published": "2026-10-20",
-   "tags": [
-    "paper",
-    "llm",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "d66132c7b8a85633",
-   "title": "Efficient Edge-aware Attention Network for Graph Generation",
-   "summary": "Graph generative models commonly use graph-specific Transformer architectures to jointly update node and edge features. However, these architectures do not directly benefit from recent hardware-aware attention implementations, limiting their scalability. The adaptation is, however, non-trivial: edge and graph-level features must be...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.28618v1",
-   "published": "2026-10-20",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "9db4940a53f86840",
-   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-   "published": "2026-10-16",
-   "tags": [
-    "labs",
     "llm",
     "agents"
    ]
   },
   {
-   "id": "0ec0c3cc2f3eb61c",
-   "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
-   "summary": "Earth AI",
+   "id": "aeb38c8ddada23fa",
+   "title": "Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting",
+   "summary": "Many NP-complete (NPC) problems have a polynomial-time (P) twin that differs in a single structural detail, such as 3- versus 2-colouring a graph. A model that reasons rather than recalls should notice which side of this boundary a problem falls on, yet existing benchmarks either fix the wording of each task or ignore its complexity...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.30103v1",
+   "published": "2026-10-21",
+   "tags": [
+    "paper",
+    "llm",
+    "evaluation",
+    "agents"
+   ]
+  },
+  {
+   "id": "0123ca2446974565",
+   "title": "Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching",
+   "summary": "Flow matching trains a continuum of velocity regression problems but usually reports a loss averaged over interpolation time, obscuring which regions are limited by intrinsic ambiguity and which remain data-limited. We introduce the Velocity Ambiguity Profile (VAP), $\\mathcal{A}_v(t)$, the time-local Bayes-risk floor of velocity...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.30107v1",
+   "published": "2026-10-21",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "1de8e62ff715d1f1",
+   "title": "Using thousands of AI agents to uncover new leads in biological data",
+   "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "published": "2026-10-21",
+   "tags": [
+    "labs",
+    "agents"
+   ]
+  },
+  {
+   "id": "fc6c16485847d7e3",
+   "title": "Does better work always mean better workers?",
+   "summary": "",
    "source": "Google Research",
-   "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
-   "published": "2026-10-06",
+   "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+   "published": "2026-10-07",
    "tags": [
     "research"
    ]
@@ -632,14 +627,16 @@
    ]
   },
   {
-   "id": "3eb18e5ff7f2a0ef",
-   "title": "MPS in PyTorch 2.15",
+   "id": "ca293d8533a3487d",
+   "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+   "url": "https://huggingface.co/blog/allenai/fairstress",
    "published": "2026-10-20",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm",
+    "evaluation"
    ]
   },
   {
@@ -677,38 +674,40 @@
    ]
   },
   {
-   "id": "c1d65e1ed9dd57d0",
-   "title": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
-   "summary": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed values with confidence scores in one forward pass. It costs $0.10 per million input tokens and charges nothing for output. The post Cloudflare Releases Clairic, a System One Extraction Model on Workers AI appeared first on MarkTechPost .",
+   "id": "6ab7dc0ff5f55a7a",
+   "title": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
+   "summary": "Vercel released durable-harness, an open-source package that logs every model and tool call so Pi, OpenCode, Claude Code and Codex sessions resume after crashes, timeouts and redeploys on Vercel, Postgres or a laptop. The post Vercel Open-Sources durable-harness for Crash-Proof Coding Agents appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai/",
-   "published": "2026-10-20",
+   "url": "https://www.marktechpost.com/2026/10/21/vercel-durable-harness-crash-proof-coding-agents/",
+   "published": "2026-10-21",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
-   "id": "492e6fd55944e6c3",
-   "title": "Binary Discrete Diffusion: Candidate-Set Diffusion for Logic and Planning Tasks",
-   "summary": "Discrete diffusion models iteratively denoise a noisy sequence of categorical data such as text, enabling any-order generation with self-correction and in-filling capabilities. This makes them promising candidates for reasoning, planning, and constrained-generation tasks like coding and math. Yet masked and uniform diffusion erase a...",
+   "id": "fae34cb389ca5f46",
+   "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift",
+   "summary": "Perimeter triage faces a latency/semantics trade-off: signature engines are fast and format-safe but blind to unseen attacks, while generative models are semantic but slow and produce unparseable output. In late 2026 a class of commercial System One decision models (TypeSafe Jev; Microsoft-Decision-1) began selling typed decision...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.28543v1",
-   "published": "2026-10-20",
+   "url": "https://arxiv.org/abs/2610.30090v1",
+   "published": "2026-10-21",
    "tags": [
     "paper",
-    "reasoning",
-    "multimodal"
+    "serving"
    ]
   },
   {
-   "id": "dbb633e4ced995ab",
-   "title": "Turning TS2Vec into a Foundation Model for Time Series Classification",
-   "summary": "TS2Vec is one of the strongest self-supervised methods for time series classification, introduced in 2022. It is designed to be trained anew on every dataset: self-supervised pre-training followed by linear probing. Since then, the field has shifted towards foundation models that reuse one encoder across datasets. Yet TS2Vec offers a...",
+   "id": "06e6c81f56bde736",
+   "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
+   "summary": "Sequential decision-making under partial observability is difficult because agents must explore to infer hidden, task-relevant information before acting effectively. Learning such information-gathering behaviors tabula rasa via online reinforcement learning is sample-inefficient, whereas offline imitation averages expert actions across...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.28602v1",
-   "published": "2026-10-20",
+   "url": "https://arxiv.org/abs/2610.30105v1",
+   "published": "2026-10-21",
    "tags": [
-    "paper"
+    "paper",
+    "fine-tuning",
+    "agents"
    ]
   }
  ]
