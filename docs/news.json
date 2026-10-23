@@ -1,17 +1,18 @@
 {
- "generated": "2026-10-22",
- "generatedAt": "2026-10-22T12:02:48+00:00",
- "sourceCount": 10,
+ "generated": "2026-10-23",
+ "generatedAt": "2026-10-23T11:48:13+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "4ab93569e260b2b0",
-   "title": "How AT&T is rethinking in-house legal work with OpenAI",
-   "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+   "id": "15c1f8ef7a582594",
+   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/att-legal",
-   "published": "2026-10-21",
+   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "published": "2026-10-23",
    "tags": [
-    "labs"
+    "labs",
+    "safety"
    ]
   },
   {
@@ -26,25 +27,15 @@
    ]
   },
   {
-   "id": "996b33c09ad57427",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "published": "2026-10-15",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "5d118fadbe793ddd",
-   "title": "Ensemble forecasting with IBM Granite time-series models",
+   "id": "95eb6975ad245049",
+   "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
    "published": "2026-10-22",
    "tags": [
-    "open-source"
+    "open-source",
+    "agents"
    ]
   },
   {
@@ -59,14 +50,15 @@
    ]
   },
   {
-   "id": "0dbde1ea11534cb3",
-   "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
-   "summary": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
+   "id": "690aea53d2bd1733",
+   "title": "Q&A: How AI came to model the “messy” human mind",
+   "summary": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-   "published": "2026-10-19",
+   "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+   "published": "2026-10-23",
    "tags": [
-    "research"
+    "research",
+    "evaluation"
    ]
   },
   {
@@ -82,49 +74,50 @@
    ]
   },
   {
-   "id": "c63a5d99ac398e47",
-   "title": "IBM AI Releases Granite Speech 5.0 2B for Multilingual Transcription and Translation",
-   "summary": "IBM released Granite Speech 5.0 2B, an Apache 2.0 speech recognition and translation model. It ranks #2 on the Open ASR Leaderboard with 5.68% average English WER, alongside updated Turbo CTC and 4.1 2B Plus models. The post IBM AI Releases Granite Speech 5.0 2B for Multilingual Transcription and Translation appeared first on...",
+   "id": "86ad59744e610d90",
+   "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
+   "summary": "TinyFish published two engineering research articles on agentic search. One defines a 7-phase production architecture with evidence contracts and bounded retries. The other explains why its deep research system dropped a separate planner and per-query subagents. The post TinyFish Breaks Down Agentic Search Architecture for Production AI...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/22/ibm-granite-speech-5-0-2b-release/",
-   "published": "2026-10-22",
+   "url": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/",
+   "published": "2026-10-23",
    "tags": [
     "industry",
-    "evaluation",
-    "multimodal"
+    "agents"
    ]
   },
   {
-   "id": "685948fc08f86927",
-   "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
-   "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL, and existing synthesis methods depend...",
+   "id": "cebab80e970a8e1a",
+   "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+   "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.30132v1",
-   "published": "2026-10-21",
+   "url": "https://arxiv.org/abs/2610.31667v1",
+   "published": "2026-10-22",
    "tags": [
     "paper",
-    "llm",
+    "serving",
     "reasoning"
    ]
   },
   {
-   "id": "a90391c588df71f1",
-   "title": "A Quasipolynomial Algorithm for $\\ell_\\infty$ Contractions",
-   "summary": "We give an algorithm for computing an $\\eps$-approximate fixed point of any $d$-dimensional nonexpansion with respect to the $\\ell_\\infty$ norm in time $\\log(1/\\eps)^{O(\\log^2 d)}$. At its core, our method uses a boosting argument to geometrically shrink a search region. Among other consequences, our algorithm implies that simple...",
+   "id": "3237bebe3ffd4764",
+   "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+   "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.30122v1",
-   "published": "2026-10-21",
+   "url": "https://arxiv.org/abs/2610.31670v1",
+   "published": "2026-10-22",
    "tags": [
-    "paper"
+    "paper",
+    "fine-tuning",
+    "evaluation"
    ]
   },
   {
-   "id": "2ed22a61b2f19a0c",
-   "title": "Broad access through consistent standards",
-   "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+   "id": "27825e3003584012",
+   "title": "Build more responsive apps with the Decisions API",
+   "summary": "Fast, focused, low-cost decisions for any application.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/broad-access-through-consistent-standards",
-   "published": "2026-10-21",
+   "url": "https://openai.com/index/decisions-api",
+   "published": "2026-10-22",
    "tags": [
     "labs"
    ]
@@ -142,26 +135,16 @@
    ]
   },
   {
-   "id": "58e4191fcfe4b88c",
-   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "published": "2026-10-14",
-   "tags": [
-    "labs",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "7104bc51c29585cc",
-   "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+   "id": "eaa0ebff7daf626e",
+   "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-   "published": "2026-10-21",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+   "published": "2026-10-22",
    "tags": [
-    "open-source"
+    "open-source",
+    "rag",
+    "llm"
    ]
   },
   {
@@ -177,12 +160,12 @@
    ]
   },
   {
-   "id": "631c78f18e2760a2",
-   "title": "Giving AI a “crystal clear” view of the materials world",
-   "summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+   "id": "88e73b340e5cf3c4",
+   "title": "This design software reimagines everyday objects as self-aware devices",
+   "summary": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-   "published": "2026-10-18",
+   "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+   "published": "2026-10-22",
    "tags": [
     "research"
    ]
@@ -201,45 +184,48 @@
    ]
   },
   {
-   "id": "7ee8d60e8c50e3b9",
-   "title": "Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method",
-   "summary": "Perplexity and NVIDIA introduced JOLT, a post-training method that trains one model as both teacher and student. On MATH it matched GRPO’s accuracy with 6.5x fewer processed training tokens. The post Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method appeared first on MarkTechPost .",
+   "id": "301cc6b1d3c22638",
+   "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
+   "summary": "Google Cloud announced Agent Compute Engine, a compute service that gives every AI agent its own hardware-isolated microVM with no credentials inside. It already runs Gemini agents and enters preview in the coming months. The post Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
+   "url": "https://www.marktechpost.com/2026/10/22/google-cloud-agent-compute-engine-microvm-ai-agents/",
+   "published": "2026-10-23",
+   "tags": [
+    "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "3d3449f74dda7c66",
+   "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+   "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.31657v1",
    "published": "2026-10-22",
    "tags": [
-    "industry"
+    "paper",
+    "llm",
+    "evaluation"
    ]
   },
   {
-   "id": "4afd58564012fa9b",
-   "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
-   "summary": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.30128v1",
-   "published": "2026-10-21",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "1a2f4831f4dc9ec0",
-   "title": "Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
-   "summary": "We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. The bound uses observed cycle lengths and retains explicit terms for truncation and the cycle ending after the observation horizon. Selecting a tuning parameter...",
+   "id": "d4ec81e1dc75710d",
+   "title": "Phase Transition from Random Features to Fully Trainable Networks",
+   "summary": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations. This paper quantifies a phase transition pattern in approximation bounds and observes analogous behavior in training...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.30119v1",
-   "published": "2026-10-21",
+   "url": "https://arxiv.org/abs/2610.31663v1",
+   "published": "2026-10-22",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "61f4d0141ff303c0",
-   "title": "OpenAI models are coming to Google Cloud",
-   "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+   "id": "63c31ca523f91ccf",
+   "title": "What FDE means at OpenAI",
+   "summary": "What forward deployed engineering means at OpenAI",
    "source": "OpenAI",
-   "url": "https://openai.com/index/openai-models-google-cloud",
-   "published": "2026-10-21",
+   "url": "https://openai.com/index/forward-deployed-engineering-means",
+   "published": "2026-10-22",
    "tags": [
     "labs"
    ]
@@ -257,26 +243,14 @@
    ]
   },
   {
-   "id": "471508c04c304cbd",
-   "title": "Developing Gemini 4 Argon responsibly and safely",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "354f89a6c7dbf10c",
-   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+   "id": "5d118fadbe793ddd",
+   "title": "Ensemble forecasting with IBM Granite time-series models",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-   "published": "2026-10-21",
+   "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "published": "2026-10-22",
    "tags": [
-    "open-source",
-    "serving"
+    "open-source"
    ]
   },
   {
@@ -294,12 +268,12 @@
    ]
   },
   {
-   "id": "68b02ba462b0e816",
-   "title": "Fostering community amid Kendall Square’s innovation",
-   "summary": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
+   "id": "0dbde1ea11534cb3",
+   "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+   "summary": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
-   "published": "2026-10-16",
+   "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+   "published": "2026-10-19",
    "tags": [
     "research"
    ]
@@ -316,54 +290,52 @@
    ]
   },
   {
-   "id": "805e7ca4ed44d722",
-   "title": "A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU",
-   "summary": "Explore a comprehensive coding guide benchmarking Cactus Compute's 16.9 MB speech model against Whisper base. Learn about word error rates, CPU speed, streaming latency, and speech-to-tool integration. The post A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming...",
+   "id": "9de589d5dbde5730",
+   "title": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
+   "summary": "You.com launched Inference Router, an OpenAI-compatible API for 12 open-weight models with a 99.9% uptime SLA, zero data retention, 100% US hosting, server-side web search and no platform fee. The post You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/21/cactus-whistle-vs-whisper-base-speech-to-text-benchmark-cpu-guide/",
-   "published": "2026-10-22",
+   "url": "https://www.marktechpost.com/2026/10/22/you-com-inference-router-open-weight-models-uptime-sla/",
+   "published": "2026-10-23",
    "tags": [
     "industry",
-    "evaluation",
-    "serving",
-    "multimodal"
+    "serving"
    ]
   },
   {
-   "id": "0ceea72fc2c69e0e",
-   "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
-   "summary": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each model play its role in this ecosystem, as a creator and as a solver? We introduce Environment Duels, a dynamic agentic benchmark that...",
+   "id": "904cad10c7e96bae",
+   "title": "Low-Bit N-Gram Embeddings for Language Models",
+   "summary": "Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. However, they can require substantial memory: DeepSeek-V4.1-Flash, for example...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.30116v1",
-   "published": "2026-10-21",
+   "url": "https://arxiv.org/abs/2610.31646v1",
+   "published": "2026-10-22",
    "tags": [
     "paper",
-    "llm",
-    "evaluation",
+    "rag",
+    "llm"
+   ]
+  },
+  {
+   "id": "f932c9cd5486a0a2",
+   "title": "Reliable AI-Assisted Decisions via Selective Auditing",
+   "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need not be produced by the same model: for example, one agent may propose a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.31662v1",
+   "published": "2026-10-22",
+   "tags": [
+    "paper",
     "agents"
    ]
   },
   {
-   "id": "200b9a7f372072da",
-   "title": "The role of locality and weight sharing in convolutional neural networks",
-   "summary": "The success of convolutional neural networks is often attributed to locality and weight sharing. However, how these two properties separately shape learning, and how their effects depend on the spatial correlations of natural images, remain poorly understood. We address these questions in a teacher-student model with a convolutional...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.30118v1",
-   "published": "2026-10-21",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "d3f519557f32dd3d",
-   "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-   "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+   "id": "ba6fa07d677a8221",
+   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+   "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-   "published": "2026-10-21",
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "published": "2026-10-22",
    "tags": [
     "labs",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -378,22 +350,11 @@
    ]
   },
   {
-   "id": "884ebf3c3978ea46",
-   "title": "Gemini 4 Argon for Robotics",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "f9b499debdda31c0",
-   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+   "id": "7104bc51c29585cc",
+   "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+   "url": "https://huggingface.co/blog/nvidia/kumo-relational",
    "published": "2026-10-21",
    "tags": [
     "open-source"
@@ -411,12 +372,12 @@
    ]
   },
   {
-   "id": "e2eb449edbb77f0a",
-   "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
-   "summary": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
+   "id": "631c78f18e2760a2",
+   "title": "Giving AI a “crystal clear” view of the materials world",
+   "summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
-   "published": "2026-10-15",
+   "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+   "published": "2026-10-18",
    "tags": [
     "research"
    ]
@@ -433,52 +394,52 @@
    ]
   },
   {
-   "id": "24533f07267ae2a1",
-   "title": "NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels",
-   "summary": "Discover NVIDIA Nsight Python, an open-source interface that allows developers to profile GPU kernels, analyze hardware metrics, evaluate cache and clock controls, and measure kernel fusion directly from Python code. The post NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels appeared first on MarkTechPost .",
+   "id": "8f3f9e0b2ae3a928",
+   "title": "Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50 ms LFMs",
+   "summary": "Liquid AI released RIPL, a real-time inference engine for its LFM models. On one B200, LFM2.5-1.2B on RIPL showed 14.4 to 28.4x lower p95 latency than Qwen3.5-0.8B on vLLM. The post Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50 ms LFMs appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/",
+   "url": "https://www.marktechpost.com/2026/10/22/liquid-ai-ripl-real-time-inference-engine/",
    "published": "2026-10-22",
    "tags": [
     "industry",
-    "evaluation"
+    "llm",
+    "serving"
    ]
   },
   {
-   "id": "653f6cd9610fd154",
-   "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-   "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual trading decisions, leaving open whether large language models (LLMs) can complete this loop and...",
+   "id": "c0f12b6706f6fcb1",
+   "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+   "summary": "Multilingual pipelines such as FineWeb2 apply one recipe across a thousand languages, leaving the failure modes of individual languages unanticipated. We use an LLM once, as a corpus debugger rather than a classifier: a tool-using agent explores the corpus through a read-only, budgeted API and compiles each finding into an executable...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.30113v1",
-   "published": "2026-10-21",
+   "url": "https://arxiv.org/abs/2610.31636v1",
+   "published": "2026-10-22",
    "tags": [
     "paper",
     "llm",
-    "evaluation",
     "agents"
    ]
   },
   {
-   "id": "e9c1520038a65280",
-   "title": "Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance",
-   "summary": "We analyze the problem of estimating univariate Gaussian mixture densities using the nonparametric maximum likelihood estimator (NPMLE) based on $n$ independent and identically distributed samples. We show that the unconstrained NPMLE achieves the minimax optimal rate $\\log(n)/n$ in squared Hellinger distance, when the true mixing...",
+   "id": "a9abc586116d58cb",
+   "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+   "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later checks whether that signal appears in a...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.30109v1",
-   "published": "2026-10-21",
+   "url": "https://arxiv.org/abs/2610.31659v1",
+   "published": "2026-10-22",
    "tags": [
-    "paper"
+    "paper",
+    "fine-tuning"
    ]
   },
   {
-   "id": "74fcf21eca7add4a",
-   "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-   "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+   "id": "4ab93569e260b2b0",
+   "title": "How AT&T is rethinking in-house legal work with OpenAI",
+   "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "url": "https://openai.com/index/att-legal",
    "published": "2026-10-21",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -493,26 +454,15 @@
    ]
   },
   {
-   "id": "f174716114a9131e",
-   "title": "Gemini 4 Argon: Built to solve your hardest problems",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "9b35c0bfb2f0e3cd",
-   "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+   "id": "354f89a6c7dbf10c",
+   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+   "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
    "published": "2026-10-21",
    "tags": [
     "open-source",
-    "multimodal"
+    "serving"
    ]
   },
   {
@@ -529,12 +479,12 @@
    ]
   },
   {
-   "id": "c0a2e19f9297635f",
-   "title": "AI model decodes the language cells use to communicate",
-   "summary": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+   "id": "68b02ba462b0e816",
+   "title": "Fostering community amid Kendall Square’s innovation",
+   "summary": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
-   "published": "2026-10-15",
+   "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+   "published": "2026-10-16",
    "tags": [
     "research"
    ]
@@ -553,53 +503,52 @@
    ]
   },
   {
-   "id": "a44413dccf009cf2",
-   "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
-   "summary": "Recursive has released Flint, an Apache 2.0 local coding model with 40B total and 2.5B active parameters. It reports 74.2% on SWE-bench Verified and 125+ tokens per second on an M4 Pro MacBook Pro. The post Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params appeared first on...",
+   "id": "0ce345b4f57bcbc1",
+   "title": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
+   "summary": "Gradium has open-sourced Phonon, a family of on-device text-to-speech models. The English Phonon 31m ships under Apache 2.0, fits in 64.5 MB, and starts speaking in about 7 ms on a laptop CPU. The post Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0 appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/",
-   "published": "2026-10-21",
+   "url": "https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts/",
+   "published": "2026-10-22",
    "tags": [
     "industry",
-    "llm",
-    "agents"
+    "multimodal"
    ]
   },
   {
-   "id": "aeb38c8ddada23fa",
-   "title": "Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting",
-   "summary": "Many NP-complete (NPC) problems have a polynomial-time (P) twin that differs in a single structural detail, such as 3- versus 2-colouring a graph. A model that reasons rather than recalls should notice which side of this boundary a problem falls on, yet existing benchmarks either fix the wording of each task or ignore its complexity...",
+   "id": "cc2f2afd594c9fbc",
+   "title": "Bilingual Language Models Capture Cross-Linguistic Influence in Second-Language Reading",
+   "summary": "While monolingual language model (LM) surprisal is widely established as a predictor of reading times, it cannot capture the non-native (L2) reading dynamics that are shaped by the reader's first language (L1). In this work, we investigate whether the cross-lingual transfer within bilingual models aligns with human L1-driven biases...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.30103v1",
-   "published": "2026-10-21",
+   "url": "https://arxiv.org/abs/2610.31620v1",
+   "published": "2026-10-22",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "ec6b7300c1fe1f6c",
+   "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+   "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.31656v1",
+   "published": "2026-10-22",
    "tags": [
     "paper",
     "llm",
-    "evaluation",
-    "agents"
+    "agents",
+    "reasoning"
    ]
   },
   {
-   "id": "0123ca2446974565",
-   "title": "Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching",
-   "summary": "Flow matching trains a continuum of velocity regression problems but usually reports a loss averaged over interpolation time, obscuring which regions are limited by intrinsic ambiguity and which remain data-limited. We introduce the Velocity Ambiguity Profile (VAP), $\\mathcal{A}_v(t)$, the time-local Bayes-risk floor of velocity...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.30107v1",
-   "published": "2026-10-21",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "1de8e62ff715d1f1",
-   "title": "Using thousands of AI agents to uncover new leads in biological data",
-   "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+   "id": "2ed22a61b2f19a0c",
+   "title": "Broad access through consistent standards",
+   "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "url": "https://openai.com/index/broad-access-through-consistent-standards",
    "published": "2026-10-21",
    "tags": [
-    "labs",
-    "agents"
+    "labs"
    ]
   },
   {
@@ -614,29 +563,14 @@
    ]
   },
   {
-   "id": "4dd290070848fb61",
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "published": "2026-10-06",
-   "tags": [
-    "labs",
-    "rag",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "ca293d8533a3487d",
-   "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+   "id": "f9b499debdda31c0",
+   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/fairstress",
-   "published": "2026-10-20",
+   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+   "published": "2026-10-21",
    "tags": [
-    "open-source",
-    "llm",
-    "evaluation"
+    "open-source"
    ]
   },
   {
@@ -651,11 +585,11 @@
    ]
   },
   {
-   "id": "bdb5f9d6d0998937",
-   "title": "Q&A: The “collision” between AI, your brain, and society",
-   "summary": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
+   "id": "e2eb449edbb77f0a",
+   "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+   "summary": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
+   "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
    "published": "2026-10-15",
    "tags": [
     "research"
@@ -674,40 +608,112 @@
    ]
   },
   {
-   "id": "6ab7dc0ff5f55a7a",
-   "title": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
-   "summary": "Vercel released durable-harness, an open-source package that logs every model and tool call so Pi, OpenCode, Claude Code and Codex sessions resume after crashes, timeouts and redeploys on Vercel, Postgres or a laptop. The post Vercel Open-Sources durable-harness for Crash-Proof Coding Agents appeared first on MarkTechPost .",
+   "id": "5ab3f0bf0aeb465c",
+   "title": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
+   "summary": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extraction and calibrated relevance scores. Pro scores 82.2 on BRIGHT and costs $0.05 per 1M tokens. The post Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/21/vercel-durable-harness-crash-proof-coding-agents/",
-   "published": "2026-10-21",
+   "url": "https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/",
+   "published": "2026-10-22",
    "tags": [
     "industry",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "fae34cb389ca5f46",
-   "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift",
-   "summary": "Perimeter triage faces a latency/semantics trade-off: signature engines are fast and format-safe but blind to unseen attacks, while generative models are semantic but slow and produce unparseable output. In late 2026 a class of commercial System One decision models (TypeSafe Jev; Microsoft-Decision-1) began selling typed decision...",
+   "id": "2b1b6cbe4ee4a546",
+   "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+   "summary": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.30090v1",
-   "published": "2026-10-21",
+   "url": "https://arxiv.org/abs/2610.31606v1",
+   "published": "2026-10-22",
    "tags": [
     "paper",
-    "serving"
+    "rag",
+    "evaluation"
    ]
   },
   {
-   "id": "06e6c81f56bde736",
-   "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
-   "summary": "Sequential decision-making under partial observability is difficult because agents must explore to infer hidden, task-relevant information before acting effectively. Learning such information-gathering behaviors tabula rasa via online reinforcement learning is sample-inefficient, whereas offline imitation averages expert actions across...",
+   "id": "6f1531f55c1a245e",
+   "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+   "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.30105v1",
-   "published": "2026-10-21",
+   "url": "https://arxiv.org/abs/2610.31650v1",
+   "published": "2026-10-22",
    "tags": [
     "paper",
-    "fine-tuning",
+    "llm",
+    "evaluation",
     "agents"
+   ]
+  },
+  {
+   "id": "61f4d0141ff303c0",
+   "title": "OpenAI models are coming to Google Cloud",
+   "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "published": "2026-10-21",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "0ec0c3cc2f3eb61c",
+   "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+   "summary": "Earth AI",
+   "source": "Google Research",
+   "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+   "published": "2026-10-06",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "9b35c0bfb2f0e3cd",
+   "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+   "published": "2026-10-21",
+   "tags": [
+    "open-source",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "c0a2e19f9297635f",
+   "title": "AI model decodes the language cells use to communicate",
+   "summary": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+   "published": "2026-10-15",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "f3d1448df6a6df02",
+   "title": "LLM Research Papers: The 2026 List (January to May)",
+   "summary": "A curated roundup of notable LLM research papers that came out this year",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+   "published": "2026-06-06",
+   "tags": [
+    "newsletter",
+    "llm"
    ]
   }
  ]
