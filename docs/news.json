@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-24",
- "generatedAt": "2026-10-24T11:13:26+00:00",
+ "generated": "2026-10-25",
+ "generatedAt": "2026-10-25T11:43:29+00:00",
  "sourceCount": 10,
  "items": [
   {
@@ -71,28 +71,28 @@
    ]
   },
   {
-   "id": "9ccfb6a6858541d5",
-   "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
-   "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
+   "id": "d1a3b4fa5d93fb49",
+   "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+   "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
-   "published": "2026-09-29",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "published": "2026-10-24",
    "tags": [
     "newsletter",
-    "llm"
+    "fine-tuning",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "87184477e3f9f330",
-   "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
-   "summary": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and portable workflows. The post Stateful Agentic Engineering Copilots with Letta: Core Memory...",
+   "id": "40aec43715a5556c",
+   "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+   "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator. Self-organizing workers share a Git repo, chat and a findings board, scaling from 1 to 1,024 agents on ProgramBench under a 6-hour budget. The post Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
-   "published": "2026-10-24",
+   "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+   "published": "2026-10-25",
    "tags": [
     "industry",
-    "rag",
-    "evaluation",
     "agents"
    ]
   },
@@ -191,28 +191,26 @@
    ]
   },
   {
-   "id": "44084287147f6737",
-   "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
-   "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+   "id": "9ccfb6a6858541d5",
+   "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+   "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-   "published": "2026-09-09",
+   "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+   "published": "2026-09-29",
    "tags": [
     "newsletter",
-    "llm",
-    "reasoning"
+    "llm"
    ]
   },
   {
-   "id": "d094f2c7f2ca4190",
-   "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
-   "summary": "NVIDIA released Nemotron 3.5 Bolt E4B 4GB, an open small language model post-trained from Gemma 4 E4B for local voice assistants, game characters and robots, targeting about 4GB of VRAM on RTX and Jetson. The post NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots...",
+   "id": "db66727afb7fc5d4",
+   "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
+   "summary": "Cognition released the Devin Vulnerability Fixes plugin, 3 MIT-licensed agent skills that inventory, patch and test PHP, Node.js and self-managed GitLab deployments hit by this week’s critical RCE flaws, then open 1 PR per repo. The post Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
-   "published": "2026-10-24",
+   "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
+   "published": "2026-10-25",
    "tags": [
     "industry",
-    "llm",
     "agents"
    ]
   },
@@ -315,26 +313,28 @@
    ]
   },
   {
-   "id": "df5399c7f9d2448e",
-   "title": "How Claude Watermarks AI-Generated Text",
-   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+   "id": "44084287147f6737",
+   "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+   "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
-   "published": "2026-08-22",
+   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+   "published": "2026-09-09",
    "tags": [
-    "newsletter"
+    "newsletter",
+    "llm",
+    "reasoning"
    ]
   },
   {
-   "id": "b57b4cadce3f6a33",
-   "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
-   "summary": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world models. World models built on CADRE run at 20 fps on 1 H100 and react in under 230 ms. The post Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms appeared first on MarkTechPost .",
+   "id": "c2e8b57f2c91781d",
+   "title": "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide",
+   "summary": "Explore a complete coding guide comparing Underdog Saluki 27B with ISTA's GSQ-RCO quantization, examining GGUF headers, memory usage, and BFCL tool-calling performance in stock llama.cpp The post How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
-   "published": "2026-10-23",
+   "url": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/",
+   "published": "2026-10-25",
    "tags": [
     "industry",
-    "multimodal"
+    "serving"
    ]
   },
   {
@@ -430,26 +430,26 @@
    ]
   },
   {
-   "id": "53ddef6230f10e58",
-   "title": "Building an AI Text Detector From Scratch",
-   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+   "id": "df5399c7f9d2448e",
+   "title": "How Claude Watermarks AI-Generated Text",
+   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-   "published": "2026-08-15",
+   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+   "published": "2026-08-22",
    "tags": [
     "newsletter"
    ]
   },
   {
-   "id": "984d37708ff3eea5",
-   "title": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
-   "summary": "Moonshot AI released Kimi K3.1 Pro, a 2.8T-parameter, 104B-active MoE model with 1M-token context. It scores 65.7% on Terminal-Bench 4.0, costs $2/$10 per million tokens, and open weights arrive by Nov 4, 2026. The post Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context appeared first on...",
+   "id": "13633f3c61272bbb",
+   "title": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
+   "summary": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers appeared...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
-   "published": "2026-10-23",
+   "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
+   "published": "2026-10-24",
    "tags": [
     "industry",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -546,27 +546,27 @@
    ]
   },
   {
-   "id": "28c7ee44d88bdbf2",
-   "title": "Controlling Reasoning Effort in LLMs",
-   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+   "id": "53ddef6230f10e58",
+   "title": "Building an AI Text Detector From Scratch",
+   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-   "published": "2026-07-18",
+   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+   "published": "2026-08-15",
    "tags": [
-    "newsletter",
-    "llm",
-    "reasoning"
+    "newsletter"
    ]
   },
   {
-   "id": "86ad59744e610d90",
-   "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
-   "summary": "TinyFish published two engineering research articles on agentic search. One defines a 7-phase production architecture with evidence contracts and bounded retries. The other explains why its deep research system dropped a separate planner and per-query subagents. The post TinyFish Breaks Down Agentic Search Architecture for Production AI...",
+   "id": "87184477e3f9f330",
+   "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+   "summary": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and portable workflows. The post Stateful Agentic Engineering Copilots with Letta: Core Memory...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/",
-   "published": "2026-10-23",
+   "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
+   "published": "2026-10-24",
    "tags": [
     "industry",
+    "rag",
+    "evaluation",
     "agents"
    ]
   },
@@ -665,26 +665,28 @@
    ]
   },
   {
-   "id": "39217bafd159845d",
-   "title": "Using Local Coding Agents",
-   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+   "id": "28c7ee44d88bdbf2",
+   "title": "Controlling Reasoning Effort in LLMs",
+   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-   "published": "2026-06-27",
+   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+   "published": "2026-07-18",
    "tags": [
     "newsletter",
-    "agents"
+    "llm",
+    "reasoning"
    ]
   },
   {
-   "id": "301cc6b1d3c22638",
-   "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
-   "summary": "Google Cloud announced Agent Compute Engine, a compute service that gives every AI agent its own hardware-isolated microVM with no credentials inside. It already runs Gemini agents and enters preview in the coming months. The post Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent appeared first on MarkTechPost .",
+   "id": "d094f2c7f2ca4190",
+   "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
+   "summary": "NVIDIA released Nemotron 3.5 Bolt E4B 4GB, an open small language model post-trained from Gemma 4 E4B for local voice assistants, game characters and robots, targeting about 4GB of VRAM on RTX and Jetson. The post NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/22/google-cloud-agent-compute-engine-microvm-ai-agents/",
-   "published": "2026-10-23",
+   "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
+   "published": "2026-10-24",
    "tags": [
     "industry",
+    "llm",
     "agents"
    ]
   },
