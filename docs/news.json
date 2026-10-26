@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-25",
- "generatedAt": "2026-10-25T11:43:29+00:00",
+ "generated": "2026-10-26",
+ "generatedAt": "2026-10-26T13:15:57+00:00",
  "sourceCount": 10,
  "items": [
   {
@@ -85,40 +85,41 @@
    ]
   },
   {
-   "id": "40aec43715a5556c",
-   "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
-   "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator. Self-organizing workers share a Git repo, chat and a findings board, scaling from 1 to 1,024 agents on ProgramBench under a 6-hour budget. The post Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents appeared first on...",
+   "id": "3fb44a491dd633de",
+   "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
+   "summary": "Tsinghua researchers released AKV, an SGLang-based serving system for cache engineering. LLM agents drop and reposition KV cache instead of summarizing history, cutting average cost 27.7% across 4 agent benchmarks. The post Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
-   "published": "2026-10-25",
+   "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
+   "published": "2026-10-26",
    "tags": [
     "industry",
-    "agents"
+    "llm",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "cebab80e970a8e1a",
-   "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
-   "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only...",
+   "id": "cf56be11690a572c",
+   "title": "The Language of Instruction: Genre and Generative AI",
+   "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.31667v1",
-   "published": "2026-10-22",
+   "url": "https://arxiv.org/abs/2610.32982v1",
+   "published": "2026-10-23",
    "tags": [
     "paper",
-    "serving",
-    "reasoning"
+    "llm",
+    "fine-tuning"
    ]
   },
   {
-   "id": "3237bebe3ffd4764",
-   "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
-   "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality...",
+   "id": "29523b75cac262f0",
+   "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+   "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.31670v1",
-   "published": "2026-10-22",
+   "url": "https://arxiv.org/abs/2610.32971v1",
+   "published": "2026-10-23",
    "tags": [
     "paper",
-    "fine-tuning",
     "evaluation"
    ]
   },
@@ -203,37 +204,38 @@
    ]
   },
   {
-   "id": "db66727afb7fc5d4",
-   "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
-   "summary": "Cognition released the Devin Vulnerability Fixes plugin, 3 MIT-licensed agent skills that inventory, patch and test PHP, Node.js and self-managed GitLab deployments hit by this week’s critical RCE flaws, then open 1 PR per repo. The post Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats...",
+   "id": "c932414b7eb961ad",
+   "title": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
+   "summary": "Nanbeige LLM Lab released Nanbeige4.3-33B, a 33B dense Apache 2.0 model with 512K context. It reports 80.9 on Terminal-Bench 2.1 and will teach the upcoming Nanbeige4.3-3B. The post Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
+   "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
    "published": "2026-10-25",
    "tags": [
     "industry",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "3d3449f74dda7c66",
-   "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
-   "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class...",
+   "id": "42fd24bb47c0d03e",
+   "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+   "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.31657v1",
-   "published": "2026-10-22",
+   "url": "https://arxiv.org/abs/2610.32955v1",
+   "published": "2026-10-23",
    "tags": [
     "paper",
     "llm",
-    "evaluation"
+    "agents"
    ]
   },
   {
-   "id": "d4ec81e1dc75710d",
-   "title": "Phase Transition from Random Features to Fully Trainable Networks",
-   "summary": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations. This paper quantifies a phase transition pattern in approximation bounds and observes analogous behavior in training...",
+   "id": "0ef444719e0cadf4",
+   "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+   "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.31663v1",
-   "published": "2026-10-22",
+   "url": "https://arxiv.org/abs/2610.32969v1",
+   "published": "2026-10-23",
    "tags": [
     "paper"
    ]
@@ -326,40 +328,41 @@
    ]
   },
   {
-   "id": "c2e8b57f2c91781d",
-   "title": "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide",
-   "summary": "Explore a complete coding guide comparing Underdog Saluki 27B with ISTA's GSQ-RCO quantization, examining GGUF headers, memory usage, and BFCL tool-calling performance in stock llama.cpp The post How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide appeared first on MarkTechPost .",
+   "id": "4cd8b15dd649b7e4",
+   "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
+   "summary": "Hugging Face released Carbon-X, an open 14.8B DNA language model built on Qwen3-14B. It reads raw DNA in chat, answers in English, and averages 66.7% across 5 DNA benchmarks under Apache 2.0. The post Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time appeared...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/",
+   "url": "https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model/",
    "published": "2026-10-25",
    "tags": [
     "industry",
-    "serving"
+    "llm",
+    "evaluation"
    ]
   },
   {
-   "id": "904cad10c7e96bae",
-   "title": "Low-Bit N-Gram Embeddings for Language Models",
-   "summary": "Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. However, they can require substantial memory: DeepSeek-V4.1-Flash, for example...",
+   "id": "68219c41b6239ffd",
+   "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+   "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.31646v1",
-   "published": "2026-10-22",
+   "url": "https://arxiv.org/abs/2610.32933v1",
+   "published": "2026-10-23",
    "tags": [
     "paper",
     "rag",
-    "llm"
+    "evaluation"
    ]
   },
   {
-   "id": "f932c9cd5486a0a2",
-   "title": "Reliable AI-Assisted Decisions via Selective Auditing",
-   "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need not be produced by the same model: for example, one agent may propose a...",
+   "id": "0e3dacd3a1710ca8",
+   "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+   "summary": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly instead casts the problem as normal-counterpart recovery in frozen DINOv2...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.31662v1",
-   "published": "2026-10-22",
+   "url": "https://arxiv.org/abs/2610.32964v1",
+   "published": "2026-10-23",
    "tags": [
     "paper",
-    "agents"
+    "serving"
    ]
   },
   {
@@ -441,40 +444,41 @@
    ]
   },
   {
-   "id": "13633f3c61272bbb",
-   "title": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
-   "summary": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers appeared...",
+   "id": "1a4147d6e8f37270",
+   "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
+   "summary": "Stanford and UC Berkeley researchers released TokenGate, a drop-in learned token pruning module for LLMs. It cuts long-context prefill time-to-first-token by 1.4x to 11.3x and peak memory by 1.5x to 3.4x without accuracy loss. The post Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
-   "published": "2026-10-24",
+   "url": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/",
+   "published": "2026-10-25",
    "tags": [
     "industry",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "c0f12b6706f6fcb1",
-   "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
-   "summary": "Multilingual pipelines such as FineWeb2 apply one recipe across a thousand languages, leaving the failure modes of individual languages unanticipated. We use an LLM once, as a corpus debugger rather than a classifier: a tool-using agent explores the corpus through a read-only, budgeted API and compiles each finding into an executable...",
+   "id": "21b7e2d651dde8e1",
+   "title": "Adaptive Frequency Threshold Byte Pair Encoding for Mixed Natural Language and Structured Symbolic Corpora",
+   "summary": "Modern language models rely on subwording tokenization to define the discrete units of input processing, typically using methods like Byte Pair Encoding (BPE) that treat whitespace as a fixed semantic boundary. This design is inherently limited, as many meaningful concepts---including multiword expressions and the structured environments...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.31636v1",
-   "published": "2026-10-22",
+   "url": "https://arxiv.org/abs/2610.32921v1",
+   "published": "2026-10-23",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "9dc98d87313b8066",
+   "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+   "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.32951v1",
+   "published": "2026-10-23",
    "tags": [
     "paper",
     "llm",
-    "agents"
-   ]
-  },
-  {
-   "id": "a9abc586116d58cb",
-   "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
-   "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later checks whether that signal appears in a...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.31659v1",
-   "published": "2026-10-22",
-   "tags": [
-    "paper",
-    "fine-tuning"
+    "fine-tuning",
+    "serving"
    ]
   },
   {
@@ -557,43 +561,39 @@
    ]
   },
   {
-   "id": "87184477e3f9f330",
-   "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
-   "summary": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and portable workflows. The post Stateful Agentic Engineering Copilots with Letta: Core Memory...",
+   "id": "b7ca3dd28f26a141",
+   "title": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
+   "summary": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings, but shifts triage...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
-   "published": "2026-10-24",
+   "url": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
+   "published": "2026-10-25",
    "tags": [
-    "industry",
-    "rag",
-    "evaluation",
+    "industry"
+   ]
+  },
+  {
+   "id": "9c85bb571b24a140",
+   "title": "Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
+   "summary": "In LLM-agent opinion simulations, each agent reports the probability that a claim is true after seeing its own previous probability and the probabilities reported by its neighbors, and that number becomes its state in the next round. If the number describes the agent's position rather than the sentence it was shown, then rewriting the...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.32874v1",
+   "published": "2026-10-23",
+   "tags": [
+    "paper",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "cc2f2afd594c9fbc",
-   "title": "Bilingual Language Models Capture Cross-Linguistic Influence in Second-Language Reading",
-   "summary": "While monolingual language model (LM) surprisal is widely established as a predictor of reading times, it cannot capture the non-native (L2) reading dynamics that are shaped by the reader's first language (L1). In this work, we investigate whether the cross-lingual transfer within bilingual models aligns with human L1-driven biases...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.31620v1",
-   "published": "2026-10-22",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "ec6b7300c1fe1f6c",
-   "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-   "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory...",
+   "id": "05c79874b5608dd5",
+   "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
+   "summary": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing semantic-ID recommenders are typically trained with hard labels for the observed next item. Although such supervision identifies the...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.31656v1",
-   "published": "2026-10-22",
+   "url": "https://arxiv.org/abs/2610.32943v1",
+   "published": "2026-10-23",
    "tags": [
     "paper",
-    "llm",
-    "agents",
-    "reasoning"
+    "fine-tuning"
    ]
   },
   {
@@ -678,43 +678,42 @@
    ]
   },
   {
-   "id": "d094f2c7f2ca4190",
-   "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
-   "summary": "NVIDIA released Nemotron 3.5 Bolt E4B 4GB, an open small language model post-trained from Gemma 4 E4B for local voice assistants, game characters and robots, targeting about 4GB of VRAM on RTX and Jetson. The post NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots...",
+   "id": "40aec43715a5556c",
+   "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+   "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator. Self-organizing workers share a Git repo, chat and a findings board, scaling from 1 to 1,024 agents on ProgramBench under a 6-hour budget. The post Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
-   "published": "2026-10-24",
+   "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+   "published": "2026-10-25",
    "tags": [
     "industry",
-    "llm",
     "agents"
    ]
   },
   {
-   "id": "2b1b6cbe4ee4a546",
-   "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
-   "summary": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or...",
+   "id": "ae457e3b4f65de79",
+   "title": "J-Comm: Jacobian-Guided Latent Communication between LLM Agents",
+   "summary": "Latent communication requires both an effective continuous reasoning process and an interface through which an external model can leverage its intermediate computation. We present J-Comm, a framework comprising two core components. First, a training-free Geometric Agreement for Latent Reasoning (GEAR) reweights token candidates over...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.31606v1",
-   "published": "2026-10-22",
-   "tags": [
-    "paper",
-    "rag",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "6f1531f55c1a245e",
-   "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-   "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.31650v1",
-   "published": "2026-10-22",
+   "url": "https://arxiv.org/abs/2610.32871v1",
+   "published": "2026-10-23",
    "tags": [
     "paper",
     "llm",
-    "evaluation",
-    "agents"
+    "agents",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "48260f2de414c32f",
+   "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+   "summary": "Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retraining, or a separate model at inference time. We introduce Backtrack, a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.32941v1",
+   "published": "2026-10-23",
+   "tags": [
+    "paper",
+    "serving",
+    "multimodal"
    ]
   }
  ]
