@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-26",
- "generatedAt": "2026-10-26T13:15:57+00:00",
- "sourceCount": 10,
+ "generated": "2026-10-27",
+ "generatedAt": "2026-10-27T12:23:46+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "298c8de07d18f423",
-   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "id": "250e5d8f302445e7",
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-   "published": "2026-10-23",
+   "url": "https://openai.com/index/greptile-code-review-codex-astra",
+   "published": "2026-10-26",
    "tags": [
     "labs",
     "llm"
@@ -24,17 +24,6 @@
    "published": "2026-10-23",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "e66e9796ba6be5e9",
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "published": "2026-10-22",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -60,12 +49,12 @@
    ]
   },
   {
-   "id": "c636a8319993faee",
-   "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-   "summary": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+   "id": "f3b6de314f91f101",
+   "title": "At New York Climate Week 2026, MIT connects with a global network",
+   "summary": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-   "published": "2026-10-23",
+   "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+   "published": "2026-10-26",
    "tags": [
     "research"
    ]
@@ -85,54 +74,52 @@
    ]
   },
   {
-   "id": "3fb44a491dd633de",
-   "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
-   "summary": "Tsinghua researchers released AKV, an SGLang-based serving system for cache engineering. LLM agents drop and reposition KV cache instead of summarizing history, cutting average cost 27.7% across 4 agent benchmarks. The post Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang appeared first on MarkTechPost .",
+   "id": "765ebcaca332d718",
+   "title": "vLLM Semantic Router Releases d3-ultra: A 27B Open Multimodal Decision Model",
+   "summary": "vLLM Semantic Router released d3-ultra, a 27B open-weight multimodal decision model. It reads text, images and video once, then returns probabilities for every answer, scoring 87.2 on the team’s SR-Text test. The post vLLM Semantic Router Releases d3-ultra: A 27B Open Multimodal Decision Model appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
-   "published": "2026-10-26",
+   "url": "https://www.marktechpost.com/2026/10/26/vllm-semantic-router-d3-ultra-27b-multimodal-decision-model/",
+   "published": "2026-10-27",
    "tags": [
     "industry",
     "llm",
-    "evaluation",
-    "serving"
+    "serving",
+    "multimodal"
    ]
   },
   {
-   "id": "cf56be11690a572c",
-   "title": "The Language of Instruction: Genre and Generative AI",
-   "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks...",
+   "id": "1b1f79e163561151",
+   "title": "Center-of-Mass Interpretation of Evolution Strategies",
+   "summary": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical interpretation of this update instead. Treat each perturbed model as a...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.32982v1",
-   "published": "2026-10-23",
+   "url": "https://arxiv.org/abs/2610.35865v1",
+   "published": "2026-10-26",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "43aedf7c36bc3720",
+   "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+   "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research objectives within a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.35866v1",
+   "published": "2026-10-26",
    "tags": [
     "paper",
     "llm",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "29523b75cac262f0",
-   "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-   "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.32971v1",
-   "published": "2026-10-23",
-   "tags": [
-    "paper",
     "evaluation"
    ]
   },
   {
-   "id": "48e2274fdf2ba9fe",
-   "title": "Securing our frontier model training environment",
-   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+   "id": "f16aefe89a6e3f3b",
+   "title": "Working with academic communities to build scientific understanding",
+   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-   "published": "2026-10-23",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "published": "2026-10-26",
    "tags": [
-    "labs",
-    "evaluation"
+    "labs"
    ]
   },
   {
@@ -144,17 +131,6 @@
    "published": "2026-10-21",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "996b33c09ad57427",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "published": "2026-10-15",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -181,11 +157,11 @@
    ]
   },
   {
-   "id": "60c7eb065c480fbc",
-   "title": "Reinforcing the value of human understanding at MIT",
-   "summary": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
+   "id": "c636a8319993faee",
+   "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+   "summary": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+   "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
    "published": "2026-10-23",
    "tags": [
     "research"
@@ -204,52 +180,53 @@
    ]
   },
   {
-   "id": "c932414b7eb961ad",
-   "title": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
-   "summary": "Nanbeige LLM Lab released Nanbeige4.3-33B, a 33B dense Apache 2.0 model with 512K context. It reports 80.9 on Terminal-Bench 2.1 and will teach the upcoming Nanbeige4.3-3B. The post Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model appeared first on MarkTechPost .",
+   "id": "5c1b76973ac296ef",
+   "title": "Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing",
+   "summary": "Baidu has released Unlimited OCR 2, an MIT-licensed 3B OCR model that parses hundred-page documents in one request. Its SR-SWA attention keeps per-step decoding cost nearly flat, scoring 77.1 on MarathonDocBench The post Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
-   "published": "2026-10-25",
+   "url": "https://www.marktechpost.com/2026/10/26/baidu-unlimited-ocr-2-open-source-long-document-ocr/",
+   "published": "2026-10-27",
    "tags": [
     "industry",
-    "llm",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "42fd24bb47c0d03e",
-   "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
-   "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified...",
+   "id": "0c5cd06e990767da",
+   "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
+   "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language model. We evaluate...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.32955v1",
-   "published": "2026-10-23",
+   "url": "https://arxiv.org/abs/2610.35846v1",
+   "published": "2026-10-26",
    "tags": [
     "paper",
     "llm",
-    "agents"
+    "evaluation",
+    "multimodal"
    ]
   },
   {
-   "id": "0ef444719e0cadf4",
-   "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-   "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be...",
+   "id": "38ba9905824c390e",
+   "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+   "summary": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.32969v1",
-   "published": "2026-10-23",
+   "url": "https://arxiv.org/abs/2610.35862v1",
+   "published": "2026-10-26",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "15c1f8ef7a582594",
-   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+   "id": "1a1d4bf2fc111eb8",
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-   "published": "2026-10-23",
+   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "published": "2026-10-26",
    "tags": [
     "labs",
-    "safety"
+    "llm",
+    "agents"
    ]
   },
   {
@@ -262,18 +239,6 @@
    "tags": [
     "research",
     "agents"
-   ]
-  },
-  {
-   "id": "58e4191fcfe4b88c",
-   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "published": "2026-10-14",
-   "tags": [
-    "labs",
-    "fine-tuning"
    ]
   },
   {
@@ -303,15 +268,14 @@
    ]
   },
   {
-   "id": "690aea53d2bd1733",
-   "title": "Q&A: How AI came to model the “messy” human mind",
-   "summary": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
+   "id": "60c7eb065c480fbc",
+   "title": "Reinforcing the value of human understanding at MIT",
+   "summary": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+   "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
    "published": "2026-10-23",
    "tags": [
-    "research",
-    "evaluation"
+    "research"
    ]
   },
   {
@@ -328,52 +292,52 @@
    ]
   },
   {
-   "id": "4cd8b15dd649b7e4",
-   "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
-   "summary": "Hugging Face released Carbon-X, an open 14.8B DNA language model built on Qwen3-14B. It reads raw DNA in chat, answers in English, and averages 66.7% across 5 DNA benchmarks under Apache 2.0. The post Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time appeared...",
+   "id": "08bb0f5102f41378",
+   "title": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work",
+   "summary": "OpenAI released GPT-6.1 Terra, a fast computer-use and vision model priced at $1/$5 per million tokens. It matches GPT-6 Astra’s medium-effort Agents’ Last Exam score at $0.29 per task versus $4.82. The post OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model/",
-   "published": "2026-10-25",
+   "url": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
+   "published": "2026-10-27",
    "tags": [
     "industry",
     "llm",
-    "evaluation"
+    "agents"
    ]
   },
   {
-   "id": "68219c41b6239ffd",
-   "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
-   "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than...",
+   "id": "697bfba87d2971b9",
+   "title": "Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?",
+   "summary": "Selection bias in large language models (LLMs) can persist despite instructions to ignore presentation order or prompts that elicit reasoning. Recent efforts to reproduce Jev-style System One behavior have produced a growing family of models that predict probabilities directly over supplied candidates. Yet systematic comparisons of...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.32933v1",
-   "published": "2026-10-23",
+   "url": "https://arxiv.org/abs/2610.35826v1",
+   "published": "2026-10-26",
    "tags": [
     "paper",
-    "rag",
-    "evaluation"
+    "llm",
+    "reasoning"
    ]
   },
   {
-   "id": "0e3dacd3a1710ca8",
-   "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
-   "summary": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly instead casts the problem as normal-counterpart recovery in frozen DINOv2...",
+   "id": "7d3d08c359ab2b68",
+   "title": "On the stability of learning",
+   "summary": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for example, may be sparse, local, and only intermittently available at any given synapse. In this work, we show that if gradient information is...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.32964v1",
-   "published": "2026-10-23",
+   "url": "https://arxiv.org/abs/2610.35856v1",
+   "published": "2026-10-26",
    "tags": [
-    "paper",
-    "serving"
+    "paper"
    ]
   },
   {
-   "id": "27825e3003584012",
-   "title": "Build more responsive apps with the Decisions API",
-   "summary": "Fast, focused, low-cost decisions for any application.",
+   "id": "64d59b55a8fb8666",
+   "title": "ChatGPT’s expanding world of work",
+   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/decisions-api",
-   "published": "2026-10-22",
+   "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "published": "2026-10-26",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -386,17 +350,6 @@
    "tags": [
     "research",
     "agents"
-   ]
-  },
-  {
-   "id": "471508c04c304cbd",
-   "title": "Developing Gemini 4 Argon responsibly and safely",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -422,14 +375,15 @@
    ]
   },
   {
-   "id": "88e73b340e5cf3c4",
-   "title": "This design software reimagines everyday objects as self-aware devices",
-   "summary": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
+   "id": "690aea53d2bd1733",
+   "title": "Q&A: How AI came to model the “messy” human mind",
+   "summary": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-   "published": "2026-10-22",
+   "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+   "published": "2026-10-23",
    "tags": [
-    "research"
+    "research",
+    "evaluation"
    ]
   },
   {
@@ -444,50 +398,50 @@
    ]
   },
   {
-   "id": "1a4147d6e8f37270",
-   "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
-   "summary": "Stanford and UC Berkeley researchers released TokenGate, a drop-in learned token pruning module for LLMs. It cuts long-context prefill time-to-first-token by 1.4x to 11.3x and peak memory by 1.5x to 3.4x without accuracy loss. The post Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context...",
+   "id": "ed13d16bbdfade49",
+   "title": "Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls",
+   "summary": "Nace AI has released Drex for Search, bringing its Drex decision models to document search for AI agents. Nace reports 92.05% on BrowseComp-Plus with 12.6 search calls, and fewer agent turns on OfficeQA Pro. The post Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/",
-   "published": "2026-10-25",
+   "url": "https://www.marktechpost.com/2026/10/26/nace-ai-releases-drex-for-search-for-ai-agents/",
+   "published": "2026-10-26",
    "tags": [
     "industry",
-    "llm"
+    "agents"
    ]
   },
   {
-   "id": "21b7e2d651dde8e1",
-   "title": "Adaptive Frequency Threshold Byte Pair Encoding for Mixed Natural Language and Structured Symbolic Corpora",
-   "summary": "Modern language models rely on subwording tokenization to define the discrete units of input processing, typically using methods like Byte Pair Encoding (BPE) that treat whitespace as a fixed semantic boundary. This design is inherently limited, as many meaningful concepts---including multiword expressions and the structured environments...",
+   "id": "bcea72aa5e241f02",
+   "title": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
+   "summary": "Diffusion large language models (dLLMs) can generate multiple tokens in parallel, but often require many decoding rounds to complete a response. Efficient generation depends not only on which tokens are easy to predict, but also on how committing to them helps predict the remaining positions. A highly predictable token may provide little...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.32921v1",
-   "published": "2026-10-23",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "9dc98d87313b8066",
-   "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
-   "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.32951v1",
-   "published": "2026-10-23",
+   "url": "https://arxiv.org/abs/2610.35804v1",
+   "published": "2026-10-26",
    "tags": [
     "paper",
     "llm",
     "fine-tuning",
-    "serving"
+    "multimodal"
    ]
   },
   {
-   "id": "63c31ca523f91ccf",
-   "title": "What FDE means at OpenAI",
-   "summary": "What forward deployed engineering means at OpenAI",
+   "id": "92ada99230b64538",
+   "title": "Work Agents: Systems, Capabilities, and Optimization",
+   "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.35845v1",
+   "published": "2026-10-26",
+   "tags": [
+    "paper",
+    "agents"
+   ]
+  },
+  {
+   "id": "eb7708c5f537ab79",
+   "title": "How Fanatics and OpenAI streamline the fan experience",
+   "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/forward-deployed-engineering-means",
-   "published": "2026-10-22",
+   "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "published": "2026-10-26",
    "tags": [
     "labs"
    ]
@@ -501,17 +455,6 @@
    "published": "2026-10-14",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "884ebf3c3978ea46",
-   "title": "Gemini 4 Argon for Robotics",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -539,12 +482,12 @@
    ]
   },
   {
-   "id": "0dbde1ea11534cb3",
-   "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
-   "summary": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
+   "id": "88e73b340e5cf3c4",
+   "title": "This design software reimagines everyday objects as self-aware devices",
+   "summary": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-   "published": "2026-10-19",
+   "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+   "published": "2026-10-22",
    "tags": [
     "research"
    ]
@@ -561,23 +504,26 @@
    ]
   },
   {
-   "id": "b7ca3dd28f26a141",
-   "title": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
-   "summary": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings, but shifts triage...",
+   "id": "3fb44a491dd633de",
+   "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
+   "summary": "Tsinghua researchers released AKV, an SGLang-based serving system for cache engineering. LLM agents drop and reposition KV cache instead of summarizing history, cutting average cost 27.7% across 4 agent benchmarks. The post Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
-   "published": "2026-10-25",
+   "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
+   "published": "2026-10-26",
    "tags": [
-    "industry"
+    "industry",
+    "llm",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "9c85bb571b24a140",
-   "title": "Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
-   "summary": "In LLM-agent opinion simulations, each agent reports the probability that a claim is true after seeing its own previous probability and the probabilities reported by its neighbors, and that number becomes its state in the next round. If the number describes the agent's position rather than the sentence it was shown, then rewriting the...",
+   "id": "e38e29a143af20bb",
+   "title": "Quantifying Claim Smoothing by LLM Research Agents",
+   "summary": "Deep research, or any use of large language models (LLMs) to read a large document collection and produce insights, requires synthesizing information from different sources. In this work, we find that LLMs produce long-form research reports that read as confident syntheses but which fail to accurately reflect the underlying documents. We...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.32874v1",
-   "published": "2026-10-23",
+   "url": "https://arxiv.org/abs/2610.35793v1",
+   "published": "2026-10-26",
    "tags": [
     "paper",
     "llm",
@@ -585,27 +531,26 @@
    ]
   },
   {
-   "id": "05c79874b5608dd5",
-   "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
-   "summary": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing semantic-ID recommenders are typically trained with hard labels for the observed next item. Although such supervision identifies the...",
+   "id": "4e964c65234b8744",
+   "title": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
+   "summary": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to heterogeneous bandwidth constraints, and consequently may choose different numbers...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.32943v1",
-   "published": "2026-10-23",
+   "url": "https://arxiv.org/abs/2610.35833v1",
+   "published": "2026-10-26",
    "tags": [
     "paper",
-    "fine-tuning"
+    "serving"
    ]
   },
   {
-   "id": "ba6fa07d677a8221",
-   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-   "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+   "id": "8f2f08b6e197805b",
+   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+   "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-   "published": "2026-10-22",
+   "url": "https://openai.com/index/openai-cut-incident-investigation",
+   "published": "2026-10-26",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -617,17 +562,6 @@
    "published": "2026-10-14",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "f174716114a9131e",
-   "title": "Gemini 4 Argon: Built to solve your hardest problems",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -654,12 +588,12 @@
    ]
   },
   {
-   "id": "631c78f18e2760a2",
-   "title": "Giving AI a “crystal clear” view of the materials world",
-   "summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+   "id": "0dbde1ea11534cb3",
+   "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+   "summary": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-   "published": "2026-10-18",
+   "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+   "published": "2026-10-19",
    "tags": [
     "research"
    ]
@@ -678,42 +612,111 @@
    ]
   },
   {
-   "id": "40aec43715a5556c",
-   "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
-   "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator. Self-organizing workers share a Git repo, chat and a findings board, scaling from 1 to 1,024 agents on ProgramBench under a 6-hour budget. The post Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents appeared first on...",
+   "id": "c932414b7eb961ad",
+   "title": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
+   "summary": "Nanbeige LLM Lab released Nanbeige4.3-33B, a 33B dense Apache 2.0 model with 512K context. It reports 80.9 on Terminal-Bench 2.1 and will teach the upcoming Nanbeige4.3-3B. The post Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+   "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
    "published": "2026-10-25",
    "tags": [
     "industry",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "ae457e3b4f65de79",
-   "title": "J-Comm: Jacobian-Guided Latent Communication between LLM Agents",
-   "summary": "Latent communication requires both an effective continuous reasoning process and an interface through which an external model can leverage its intermediate computation. We present J-Comm, a framework comprising two core components. First, a training-free Geometric Agreement for Latent Reasoning (GEAR) reweights token candidates over...",
+   "id": "b212019df2fe1035",
+   "title": "Atomic Security Concerns: Towards a Foundational Language for Security Knowledge Representation",
+   "summary": "Cybersecurity governance, risk management, compliance, and security architecture rely on numerous concepts, including security properties, domains, controls, risks, implementation measures, capabilities, and compliance requirements. Although these concepts are widely used, they are often represented through heterogeneous abstractions and...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.32871v1",
-   "published": "2026-10-23",
+   "url": "https://arxiv.org/abs/2610.35782v1",
+   "published": "2026-10-26",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "dc258134722cba30",
+   "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+   "summary": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a robot via a simple tool harness. We use a pretrained 27B...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.35817v1",
+   "published": "2026-10-26",
    "tags": [
     "paper",
     "llm",
     "agents",
-    "reasoning"
+    "multimodal"
    ]
   },
   {
-   "id": "48260f2de414c32f",
-   "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
-   "summary": "Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retraining, or a separate model at inference time. We introduce Backtrack, a...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.32941v1",
-   "published": "2026-10-23",
+   "id": "1758535ac6be3e6b",
+   "title": "Introducing GPT-6.1 Terra",
+   "summary": "Bringing fast and capable computer use to everyone",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "published": "2026-10-26",
    "tags": [
-    "paper",
-    "serving",
-    "multimodal"
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "fc6c16485847d7e3",
+   "title": "Does better work always mean better workers?",
+   "summary": "",
+   "source": "Google Research",
+   "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+   "published": "2026-10-07",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "f9b499debdda31c0",
+   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+   "published": "2026-10-21",
+   "tags": [
+    "open-source"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "631c78f18e2760a2",
+   "title": "Giving AI a “crystal clear” view of the materials world",
+   "summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+   "published": "2026-10-18",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "39217bafd159845d",
+   "title": "Using Local Coding Agents",
+   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+   "published": "2026-06-27",
+   "tags": [
+    "newsletter",
+    "agents"
    ]
   }
  ]
