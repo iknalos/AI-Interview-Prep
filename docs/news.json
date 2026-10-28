@@ -1,40 +1,43 @@
 {
- "generated": "2026-10-27",
- "generatedAt": "2026-10-27T12:23:46+00:00",
+ "generated": "2026-10-28",
+ "generatedAt": "2026-10-28T13:10:07+00:00",
  "sourceCount": 9,
  "items": [
   {
-   "id": "250e5d8f302445e7",
-   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+   "id": "2fc8e689e413caad",
+   "title": "Legora is building the agentic operating system for legal work",
+   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/greptile-code-review-codex-astra",
-   "published": "2026-10-26",
+   "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+   "published": "2026-10-28",
    "tags": [
     "labs",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "91ab09be6954d23d",
+   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "summary": "Education Innovation",
+   "source": "Google Research",
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "published": "2026-10-27",
+   "tags": [
+    "research",
     "llm"
    ]
   },
   {
-   "id": "3c115b0c264de194",
-   "title": "Bringing foundational models to the front lines of TB screening",
-   "summary": "Generative AI",
-   "source": "Google Research",
-   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
-   "published": "2026-10-23",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "d5dfb55b012918e7",
-   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+   "id": "db98bf59a6c7e420",
+   "title": "Build specialized multimodal models with LFM3",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/litpivot",
-   "published": "2026-10-23",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "published": "2026-10-27",
    "tags": [
-    "open-source"
+    "open-source",
+    "multimodal"
    ]
   },
   {
@@ -49,14 +52,15 @@
    ]
   },
   {
-   "id": "f3b6de314f91f101",
-   "title": "At New York Climate Week 2026, MIT connects with a global network",
-   "summary": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
+   "id": "9e57b3c7cb0d7eb2",
+   "title": "Making machines that can listen",
+   "summary": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
-   "published": "2026-10-26",
+   "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+   "published": "2026-10-28",
    "tags": [
-    "research"
+    "research",
+    "multimodal"
    ]
   },
   {
@@ -74,52 +78,161 @@
    ]
   },
   {
-   "id": "765ebcaca332d718",
-   "title": "vLLM Semantic Router Releases d3-ultra: A 27B Open Multimodal Decision Model",
-   "summary": "vLLM Semantic Router released d3-ultra, a 27B open-weight multimodal decision model. It reads text, images and video once, then returns probabilities for every answer, scoring 87.2 on the team’s SR-Text test. The post vLLM Semantic Router Releases d3-ultra: A 27B Open Multimodal Decision Model appeared first on MarkTechPost .",
+   "id": "4f9f5b60270e4530",
+   "title": "Polymathic AI and Princeton Researchers Release FlashMap, a Flow Map Drafter for 6.14x Faster LLM Decoding",
+   "summary": "FlashMap is a speculative decoding drafter from Polymathic AI, Princeton and USC ISI researchers. It drafts 16 tokens jointly in one pass and reaches up to 6.14x lossless speedup on Qwen3-8B. The post Polymathic AI and Princeton Researchers Release FlashMap, a Flow Map Drafter for 6.14x Faster LLM Decoding appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/26/vllm-semantic-router-d3-ultra-27b-multimodal-decision-model/",
-   "published": "2026-10-27",
+   "url": "https://www.marktechpost.com/2026/10/28/flashmap-flow-map-speculative-decoding/",
+   "published": "2026-10-28",
    "tags": [
     "industry",
     "llm",
-    "serving",
-    "multimodal"
+    "serving"
    ]
   },
   {
-   "id": "1b1f79e163561151",
-   "title": "Center-of-Mass Interpretation of Evolution Strategies",
-   "summary": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical interpretation of this update instead. Treat each perturbed model as a...",
+   "id": "cdb986594d96a813",
+   "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+   "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.35865v1",
-   "published": "2026-10-26",
+   "url": "https://arxiv.org/abs/2610.37657v1",
+   "published": "2026-10-27",
+   "tags": [
+    "paper",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "652f1bf21442acf5",
+   "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+   "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene and 2D image...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.37668v1",
+   "published": "2026-10-27",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "43aedf7c36bc3720",
-   "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
-   "summary": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research objectives within a...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.35866v1",
-   "published": "2026-10-26",
+   "id": "d42fb1eb3362412f",
+   "title": "Retell uses OpenAI models to help power 100M monthly calls",
+   "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/retell-ai",
+   "published": "2026-10-27",
    "tags": [
-    "paper",
+    "labs",
     "llm",
-    "evaluation"
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "f16aefe89a6e3f3b",
-   "title": "Working with academic communities to build scientific understanding",
-   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-   "published": "2026-10-26",
+   "id": "3c115b0c264de194",
+   "title": "Bringing foundational models to the front lines of TB screening",
+   "summary": "Generative AI",
+   "source": "Google Research",
+   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+   "published": "2026-10-23",
    "tags": [
-    "labs"
+    "research"
+   ]
+  },
+  {
+   "id": "34370e88c88d0cd4",
+   "title": "Can we trust LLMs to judge whether a research idea is novel?",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/allenai/novelty-bench",
+   "published": "2026-10-27",
+   "tags": [
+    "open-source",
+    "llm"
+   ]
+  },
+  {
+   "id": "0e3fc748cb483986",
+   "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+   "summary": ".abbel-fig { display: block; text-align: center; margin: 2.4em 0; line-height: 1.4; max-width: 100%; } .abbel-fig img { display: block; margin: 0.65em auto 0; height: auto; max-width: 100%; } /* Image sizes; captions use a narrower measure below */ .abbel-fig--wide img { width: 100%; max-width: 100%; } .abbel-fig--wide-90 img { width...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
+   "published": "2026-07-26",
+   "tags": [
+    "research",
+    "llm"
+   ]
+  },
+  {
+   "id": "67f0b179673ce3b4",
+   "title": "Learner collaborates with MIT peers to develop book of AI insights",
+   "summary": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+   "published": "2026-10-27",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "9ccfb6a6858541d5",
+   "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+   "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+   "published": "2026-09-29",
+   "tags": [
+    "newsletter",
+    "llm"
+   ]
+  },
+  {
+   "id": "cb3d9954d8c1ca2f",
+   "title": "Meet Google DeepMind’s Genie 4: Real-Time World Model With Native Audio",
+   "summary": "Google DeepMind released Genie 4 as a research preview. The real-time world model adds native audio, live dialogue and text steering, with Gemini 3.8 Flash planning events inside the simulation loop. The post Meet Google DeepMind’s Genie 4: Real-Time World Model With Native Audio appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/10/28/google-deepmind-genie-4-world-model/",
+   "published": "2026-10-28",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "4c3e256a37cfbb4c",
+   "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+   "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execution, or noisy...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.37651v1",
+   "published": "2026-10-27",
+   "tags": [
+    "paper",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "fd2e76b882506589",
+   "title": "When Should We Intervene at Test Time?",
+   "summary": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failures and cannot tell a model when to use...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.37658v1",
+   "published": "2026-10-27",
+   "tags": [
+    "paper",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "a3a879144b2984ac",
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "published": "2026-10-27",
+   "tags": [
+    "labs",
+    "llm",
+    "agents"
    ]
   },
   {
@@ -145,88 +258,89 @@
    ]
   },
   {
-   "id": "0e3fc748cb483986",
-   "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
-   "summary": ".abbel-fig { display: block; text-align: center; margin: 2.4em 0; line-height: 1.4; max-width: 100%; } .abbel-fig img { display: block; margin: 0.65em auto 0; height: auto; max-width: 100%; } /* Image sizes; captions use a narrower measure below */ .abbel-fig--wide img { width: 100%; max-width: 100%; } .abbel-fig--wide-90 img { width...",
+   "id": "a00b3f14f5f73240",
+   "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
+   "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices...",
    "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
-   "published": "2026-07-26",
+   "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
+   "published": "2026-07-07",
    "tags": [
     "research",
-    "llm"
+    "llm",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "c636a8319993faee",
-   "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-   "summary": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+   "id": "f3b6de314f91f101",
+   "title": "At New York Climate Week 2026, MIT connects with a global network",
+   "summary": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-   "published": "2026-10-23",
+   "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+   "published": "2026-10-26",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "9ccfb6a6858541d5",
-   "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
-   "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
+   "id": "44084287147f6737",
+   "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+   "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
-   "published": "2026-09-29",
+   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+   "published": "2026-09-09",
    "tags": [
     "newsletter",
-    "llm"
+    "llm",
+    "reasoning"
    ]
   },
   {
-   "id": "5c1b76973ac296ef",
-   "title": "Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing",
-   "summary": "Baidu has released Unlimited OCR 2, an MIT-licensed 3B OCR model that parses hundred-page documents in one request. Its SR-SWA attention keeps per-step decoding cost nearly flat, scoring 77.1 on MarathonDocBench The post Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing appeared first on MarkTechPost .",
+   "id": "538a3b89665c34dc",
+   "title": "Meet LEANN: An Open-Source Vector Index that Shrinks a 60M-Chunk RAG Index from 201 GB to 6 GB",
+   "summary": "UC Berkeley’s LEANN vector index stores a pruned graph and recomputes embeddings at query time. It matches HNSW accuracy at 90% recall using 4 GB instead of 188 GB, at the cost of seconds-level search. The post Meet LEANN: An Open-Source Vector Index that Shrinks a 60M-Chunk RAG Index from 201 GB to 6 GB appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/26/baidu-unlimited-ocr-2-open-source-long-document-ocr/",
+   "url": "https://www.marktechpost.com/2026/10/27/leann-vector-index-mlsys-2026/",
    "published": "2026-10-27",
    "tags": [
     "industry",
+    "rag"
+   ]
+  },
+  {
+   "id": "a0b7070066d58225",
+   "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+   "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to investigate? To...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.37649v1",
+   "published": "2026-10-27",
+   "tags": [
+    "paper",
+    "llm",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "99835a80f458e507",
+   "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+   "summary": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate frame may be rotated independently...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.37656v1",
+   "published": "2026-10-27",
+   "tags": [
+    "paper",
     "llm"
    ]
   },
   {
-   "id": "0c5cd06e990767da",
-   "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
-   "summary": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language model. We evaluate...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.35846v1",
-   "published": "2026-10-26",
-   "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "38ba9905824c390e",
-   "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
-   "summary": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.35862v1",
-   "published": "2026-10-26",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "1a1d4bf2fc111eb8",
-   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+   "id": "8cb333260a17a324",
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-   "published": "2026-10-26",
+   "url": "https://openai.com/index/check-point-daybreak",
+   "published": "2026-10-27",
    "tags": [
-    "labs",
-    "llm",
-    "agents"
+    "labs"
    ]
   },
   {
@@ -254,86 +368,81 @@
    ]
   },
   {
-   "id": "a00b3f14f5f73240",
-   "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
-   "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices...",
+   "id": "3f6c58621a366d1b",
+   "title": "2026 BAIR Graduate Showcase",
+   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
    "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
-   "published": "2026-07-07",
+   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
+   "published": "2026-07-01",
    "tags": [
-    "research",
-    "llm",
-    "evaluation",
-    "serving"
+    "research"
    ]
   },
   {
-   "id": "60c7eb065c480fbc",
-   "title": "Reinforcing the value of human understanding at MIT",
-   "summary": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
+   "id": "c636a8319993faee",
+   "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+   "summary": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+   "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
    "published": "2026-10-23",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "44084287147f6737",
-   "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
-   "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+   "id": "df5399c7f9d2448e",
+   "title": "How Claude Watermarks AI-Generated Text",
+   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-   "published": "2026-09-09",
+   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+   "published": "2026-08-22",
    "tags": [
-    "newsletter",
-    "llm",
-    "reasoning"
+    "newsletter"
    ]
   },
   {
-   "id": "08bb0f5102f41378",
-   "title": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work",
-   "summary": "OpenAI released GPT-6.1 Terra, a fast computer-use and vision model priced at $1/$5 per million tokens. It matches GPT-6 Astra’s medium-effort Agents’ Last Exam score at $0.29 per task versus $4.82. The post OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work appeared first on MarkTechPost .",
+   "id": "c5d050a42c88468a",
+   "title": "Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models",
+   "summary": "Liquid AI released LFM3, 6 open-weight 2B-class models for text, vision, audio, omni and decisions. LFM3-1.7B uses a tri-hybrid backbone, a 256K context window and fits in about 1 GB at 4-bit. The post Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
+   "url": "https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/",
    "published": "2026-10-27",
    "tags": [
     "industry",
     "llm",
-    "agents"
+    "multimodal"
    ]
   },
   {
-   "id": "697bfba87d2971b9",
-   "title": "Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?",
-   "summary": "Selection bias in large language models (LLMs) can persist despite instructions to ignore presentation order or prompts that elicit reasoning. Recent efforts to reproduce Jev-style System One behavior have produced a growing family of models that predict probabilities directly over supplied candidates. Yet systematic comparisons of...",
+   "id": "61d80e697b0d8b9d",
+   "title": "Multi-State Linear Attention with Generalized Second-Order Routing",
+   "summary": "Self-attention plays a key role in long-sequence modeling, but its quadratic time complexity fundamentally limits the scaling of Large Language Models. Recently, Multi-State Linear Attention (MSLA) mechanisms have been proposed to make sequence modeling more efficient by splitting the context into segments and compressing each in its own...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.35826v1",
-   "published": "2026-10-26",
+   "url": "https://arxiv.org/abs/2610.37645v1",
+   "published": "2026-10-27",
    "tags": [
     "paper",
-    "llm",
-    "reasoning"
+    "llm"
    ]
   },
   {
-   "id": "7d3d08c359ab2b68",
-   "title": "On the stability of learning",
-   "summary": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for example, may be sparse, local, and only intermittently available at any given synapse. In this work, we show that if gradient information is...",
+   "id": "15f8a813011f34c6",
+   "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
+   "summary": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such as not dropping the object, becomes critical, yet it is rarely measured. We...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.35856v1",
-   "published": "2026-10-26",
+   "url": "https://arxiv.org/abs/2610.37652v1",
+   "published": "2026-10-27",
    "tags": [
-    "paper"
+    "paper",
+    "safety"
    ]
   },
   {
-   "id": "64d59b55a8fb8666",
-   "title": "ChatGPT’s expanding world of work",
-   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+   "id": "250e5d8f302445e7",
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "url": "https://openai.com/index/greptile-code-review-codex-astra",
    "published": "2026-10-26",
    "tags": [
     "labs",
@@ -364,83 +473,86 @@
    ]
   },
   {
-   "id": "3f6c58621a366d1b",
-   "title": "2026 BAIR Graduate Showcase",
-   "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of modern AI — robotics and...",
+   "id": "b63023bfb9fc2173",
+   "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+   "summary": ".apr-fig { text-align: center; margin: 1.35em 0; line-height: 1.4; } .apr-fig--wide img { display: inline-block; width: 100%; max-width: 100%; height: auto; vertical-align: middle; } .apr-fig--wide-0-8 { max-width: 80%; margin-left: auto; margin-right: auto; } .apr-fig--tall img { display: inline-block; max-height: 300px; width: auto...",
    "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
-   "published": "2026-07-01",
+   "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+   "published": "2026-05-08",
+   "tags": [
+    "research",
+    "serving",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "60c7eb065c480fbc",
+   "title": "Reinforcing the value of human understanding at MIT",
+   "summary": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+   "published": "2026-10-23",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "690aea53d2bd1733",
-   "title": "Q&A: How AI came to model the “messy” human mind",
-   "summary": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
-   "published": "2026-10-23",
-   "tags": [
-    "research",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "df5399c7f9d2448e",
-   "title": "How Claude Watermarks AI-Generated Text",
-   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+   "id": "53ddef6230f10e58",
+   "title": "Building an AI Text Detector From Scratch",
+   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
-   "published": "2026-08-22",
+   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+   "published": "2026-08-15",
    "tags": [
     "newsletter"
    ]
   },
   {
-   "id": "ed13d16bbdfade49",
-   "title": "Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls",
-   "summary": "Nace AI has released Drex for Search, bringing its Drex decision models to document search for AI agents. Nace reports 92.05% on BrowseComp-Plus with 12.6 search calls, and fewer agent turns on OfficeQA Pro. The post Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls appeared first on...",
+   "id": "016fe7e918e72020",
+   "title": "Mirendil Launches Fern 0.1, Its First Model, With 10M-Token Context",
+   "summary": "Mirendil released Fern 0.1, its first model, pretrained from scratch with a 10M-token context window. It targets agentic AI R&D work, scores 100% on RULER single needle at 10M, but trails frontier models on agentic coding. The post Mirendil Launches Fern 0.1, Its First Model, With 10M-Token Context appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/26/nace-ai-releases-drex-for-search-for-ai-agents/",
-   "published": "2026-10-26",
+   "url": "https://www.marktechpost.com/2026/10/27/mirendil-fern-10m-token-context-model/",
+   "published": "2026-10-27",
    "tags": [
     "industry",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "bcea72aa5e241f02",
-   "title": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
-   "summary": "Diffusion large language models (dLLMs) can generate multiple tokens in parallel, but often require many decoding rounds to complete a response. Efficient generation depends not only on which tokens are easy to predict, but also on how committing to them helps predict the remaining positions. A highly predictable token may provide little...",
+   "id": "5b12846c4df0f987",
+   "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
+   "summary": "Diffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller that guides diffusion generation according to the needs of the current response...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.35804v1",
-   "published": "2026-10-26",
+   "url": "https://arxiv.org/abs/2610.37642v1",
+   "published": "2026-10-27",
    "tags": [
     "paper",
     "llm",
-    "fine-tuning",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "92ada99230b64538",
-   "title": "Work Agents: Systems, Capabilities, and Optimization",
-   "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.35845v1",
-   "published": "2026-10-26",
-   "tags": [
-    "paper",
+    "serving",
     "agents"
    ]
   },
   {
-   "id": "eb7708c5f537ab79",
-   "title": "How Fanatics and OpenAI streamline the fan experience",
-   "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+   "id": "2f8c663eea06eb1d",
+   "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+   "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, we propose the SynthAPI pipeline, which explicitly controls the diversity of...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.37648v1",
+   "published": "2026-10-27",
+   "tags": [
+    "paper",
+    "llm",
+    "agents"
+   ]
+  },
+  {
+   "id": "f16aefe89a6e3f3b",
+   "title": "Working with academic communities to build scientific understanding",
+   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
    "published": "2026-10-26",
    "tags": [
     "labs"
@@ -469,88 +581,90 @@
    ]
   },
   {
-   "id": "b63023bfb9fc2173",
-   "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-   "summary": ".apr-fig { text-align: center; margin: 1.35em 0; line-height: 1.4; } .apr-fig--wide img { display: inline-block; width: 100%; max-width: 100%; height: auto; vertical-align: middle; } .apr-fig--wide-0-8 { max-width: 80%; margin-left: auto; margin-right: auto; } .apr-fig--tall img { display: inline-block; max-height: 300px; width: auto...",
+   "id": "988e365297de4536",
+   "title": "Gradient-based Planning for World Models at Longer Horizons",
+   "summary": ".grasp-results-table table { font-size: 0.875rem; line-height: 1.35; width: 100%; } .grasp-results-table th, .grasp-results-table td { padding: 0.35rem 0.5rem; } /* Consistent whitespace between major sections (this post is long and hr-heavy) */ article.post-content h2 { margin-top: 2.75rem; margin-bottom: 0.75rem; } article.post-content...",
    "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
-   "published": "2026-05-08",
-   "tags": [
-    "research",
-    "serving",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "88e73b340e5cf3c4",
-   "title": "This design software reimagines everyday objects as self-aware devices",
-   "summary": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-   "published": "2026-10-22",
+   "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
+   "published": "2026-04-20",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "53ddef6230f10e58",
-   "title": "Building an AI Text Detector From Scratch",
-   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-   "published": "2026-08-15",
+   "id": "690aea53d2bd1733",
+   "title": "Q&A: How AI came to model the “messy” human mind",
+   "summary": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+   "published": "2026-10-23",
    "tags": [
-    "newsletter"
+    "research",
+    "evaluation"
    ]
   },
   {
-   "id": "3fb44a491dd633de",
-   "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
-   "summary": "Tsinghua researchers released AKV, an SGLang-based serving system for cache engineering. LLM agents drop and reposition KV cache instead of summarizing history, cutting average cost 27.7% across 4 agent benchmarks. The post Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang appeared first on MarkTechPost .",
+   "id": "28c7ee44d88bdbf2",
+   "title": "Controlling Reasoning Effort in LLMs",
+   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+   "published": "2026-07-18",
+   "tags": [
+    "newsletter",
+    "llm",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "765ebcaca332d718",
+   "title": "vLLM Semantic Router Releases d3-ultra: A 27B Open Multimodal Decision Model",
+   "summary": "vLLM Semantic Router released d3-ultra, a 27B open-weight multimodal decision model. It reads text, images and video once, then returns probabilities for every answer, scoring 87.2 on the team’s SR-Text test. The post vLLM Semantic Router Releases d3-ultra: A 27B Open Multimodal Decision Model appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
-   "published": "2026-10-26",
+   "url": "https://www.marktechpost.com/2026/10/26/vllm-semantic-router-d3-ultra-27b-multimodal-decision-model/",
+   "published": "2026-10-27",
    "tags": [
     "industry",
     "llm",
-    "evaluation",
-    "serving"
+    "serving",
+    "multimodal"
    ]
   },
   {
-   "id": "e38e29a143af20bb",
-   "title": "Quantifying Claim Smoothing by LLM Research Agents",
-   "summary": "Deep research, or any use of large language models (LLMs) to read a large document collection and produce insights, requires synthesizing information from different sources. In this work, we find that LLMs produce long-form research reports that read as confident syntheses but which fail to accurately reflect the underlying documents. We...",
+   "id": "da361ea047752264",
+   "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+   "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with whether it helps. We...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.35793v1",
-   "published": "2026-10-26",
+   "url": "https://arxiv.org/abs/2610.37624v1",
+   "published": "2026-10-27",
    "tags": [
     "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "e0482e6f8507c83c",
+   "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
+   "summary": "Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire training trajectory using the \\emph{accumulated effective learning rate}...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.37647v1",
+   "published": "2026-10-27",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "1a1d4bf2fc111eb8",
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "published": "2026-10-26",
+   "tags": [
+    "labs",
     "llm",
     "agents"
-   ]
-  },
-  {
-   "id": "4e964c65234b8744",
-   "title": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
-   "summary": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to heterogeneous bandwidth constraints, and consequently may choose different numbers...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.35833v1",
-   "published": "2026-10-26",
-   "tags": [
-    "paper",
-    "serving"
-   ]
-  },
-  {
-   "id": "8f2f08b6e197805b",
-   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-   "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/openai-cut-incident-investigation",
-   "published": "2026-10-26",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -577,113 +691,6 @@
    ]
   },
   {
-   "id": "988e365297de4536",
-   "title": "Gradient-based Planning for World Models at Longer Horizons",
-   "summary": ".grasp-results-table table { font-size: 0.875rem; line-height: 1.35; width: 100%; } .grasp-results-table th, .grasp-results-table td { padding: 0.35rem 0.5rem; } /* Consistent whitespace between major sections (this post is long and hr-heavy) */ article.post-content h2 { margin-top: 2.75rem; margin-bottom: 0.75rem; } article.post-content...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
-   "published": "2026-04-20",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "0dbde1ea11534cb3",
-   "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
-   "summary": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-   "published": "2026-10-19",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "28c7ee44d88bdbf2",
-   "title": "Controlling Reasoning Effort in LLMs",
-   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-   "published": "2026-07-18",
-   "tags": [
-    "newsletter",
-    "llm",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "c932414b7eb961ad",
-   "title": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
-   "summary": "Nanbeige LLM Lab released Nanbeige4.3-33B, a 33B dense Apache 2.0 model with 512K context. It reports 80.9 on Terminal-Bench 2.1 and will teach the upcoming Nanbeige4.3-3B. The post Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model appeared first on MarkTechPost .",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
-   "published": "2026-10-25",
-   "tags": [
-    "industry",
-    "llm",
-    "agents"
-   ]
-  },
-  {
-   "id": "b212019df2fe1035",
-   "title": "Atomic Security Concerns: Towards a Foundational Language for Security Knowledge Representation",
-   "summary": "Cybersecurity governance, risk management, compliance, and security architecture rely on numerous concepts, including security properties, domains, controls, risks, implementation measures, capabilities, and compliance requirements. Although these concepts are widely used, they are often represented through heterogeneous abstractions and...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.35782v1",
-   "published": "2026-10-26",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "dc258134722cba30",
-   "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
-   "summary": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a robot via a simple tool harness. We use a pretrained 27B...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.35817v1",
-   "published": "2026-10-26",
-   "tags": [
-    "paper",
-    "llm",
-    "agents",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "1758535ac6be3e6b",
-   "title": "Introducing GPT-6.1 Terra",
-   "summary": "Bringing fast and capable computer use to everyone",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-   "published": "2026-10-26",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "fc6c16485847d7e3",
-   "title": "Does better work always mean better workers?",
-   "summary": "",
-   "source": "Google Research",
-   "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
-   "published": "2026-10-07",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "f9b499debdda31c0",
-   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-   "published": "2026-10-21",
-   "tags": [
-    "open-source"
-   ]
-  },
-  {
    "id": "b5a755e51d76fef3",
    "title": "Identifying Interactions at Scale for LLMs",
    "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
@@ -697,12 +704,12 @@
    ]
   },
   {
-   "id": "631c78f18e2760a2",
-   "title": "Giving AI a “crystal clear” view of the materials world",
-   "summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+   "id": "88e73b340e5cf3c4",
+   "title": "This design software reimagines everyday objects as self-aware devices",
+   "summary": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-   "published": "2026-10-18",
+   "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+   "published": "2026-10-22",
    "tags": [
     "research"
    ]
