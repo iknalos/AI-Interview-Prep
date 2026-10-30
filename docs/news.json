@@ -1,19 +1,18 @@
 {
- "generated": "2026-10-29",
- "generatedAt": "2026-10-29T13:16:13+00:00",
+ "generated": "2026-10-30",
+ "generatedAt": "2026-10-30T13:08:18+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "75e2017ed4c5a2ec",
-   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-   "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+   "id": "7bf0065ceb1646f5",
+   "title": "An updated Model Spec for more capable and beneficial AI",
+   "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-   "published": "2026-10-28",
+   "url": "https://openai.com/index/updated-model-spec",
+   "published": "2026-10-29",
    "tags": [
     "labs",
-    "llm",
-    "agents"
+    "evaluation"
    ]
   },
   {
@@ -40,15 +39,14 @@
    ]
   },
   {
-   "id": "85d975255b4f9d00",
-   "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+   "id": "f3538b6fb36f4f58",
+   "title": "Granite Switch 4.1.1 — Update models like you update software",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/anydecisionmodel",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
    "published": "2026-10-29",
    "tags": [
-    "open-source",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -88,50 +86,53 @@
    ]
   },
   {
-   "id": "c8889526df5c769c",
-   "title": "Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents",
-   "summary": "Infini-AI-Lab released Hermit, an Apache-2.0 harness adapter framework that trains an external layer of instructions, skills, memory and tools from task feedback, leaving the agent’s model and harness unchanged. The post Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents appeared first on MarkTechPost .",
+   "id": "a25ea1ea21fd0afb",
+   "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
+   "summary": "Samaya AI’s Sterling is a post-trained Nemotron 3.5 Lightning model for financial research. It scores 58.9% on FrontierFinance at $0.61 per question, beating Claude Fable 5.1’s 55.9% at $6.89. The post Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/29/infini-ai-lab-hermit-harness-adapter-framework/",
-   "published": "2026-10-29",
+   "url": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
+   "published": "2026-10-30",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "cdb986594d96a813",
-   "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-   "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected...",
+   "id": "daba7b5e4e64fda3",
+   "title": "Elucidating the Design Space of LM Data Attribution",
+   "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.37657v1",
-   "published": "2026-10-27",
+   "url": "https://arxiv.org/abs/2610.40655v1",
+   "published": "2026-10-29",
    "tags": [
     "paper",
+    "rag",
     "llm",
-    "safety"
+    "evaluation"
    ]
   },
   {
-   "id": "652f1bf21442acf5",
-   "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
-   "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene and 2D image...",
+   "id": "978502652aafa083",
+   "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+   "summary": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when the remaining data would allow far less. Removing them first would restore the...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.37668v1",
-   "published": "2026-10-27",
+   "url": "https://arxiv.org/abs/2610.40654v1",
+   "published": "2026-10-29",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "0dc3cf0b7c98dcde",
-   "title": "The future of the firm",
-   "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+   "id": "d28967fce9c692cd",
+   "title": "How we detect frontier model misalignment",
+   "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-future-of-the-firm",
-   "published": "2026-10-28",
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "published": "2026-10-29",
    "tags": [
-    "labs"
+    "labs",
+    "fine-tuning",
+    "agents"
    ]
   },
   {
@@ -157,12 +158,12 @@
    ]
   },
   {
-   "id": "7ae8eb20550eee76",
-   "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+   "id": "e1c742c1d925baf7",
+   "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-   "published": "2026-10-28",
+   "url": "https://huggingface.co/blog/announcing-project-protostar",
+   "published": "2026-10-29",
    "tags": [
     "open-source"
    ]
@@ -204,54 +205,51 @@
    ]
   },
   {
-   "id": "281b82320b75120b",
-   "title": "Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech",
-   "summary": "Block’s AI lab released Dessa, a full-duplex speech-to-speech model trained only on human conversation audio. It runs locally on a MacBook Pro M4 Max, but Block has published no size, benchmarks or weights. The post Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech appeared first on MarkTechPost .",
+   "id": "f4afd5415c84de46",
+   "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
+   "summary": "Edge0 released Audio8-TTS-Realistic, a 0.6B open-weight zero-shot voice cloning TTS model under Apache 2.0. It supports 23 languages and adds a final GRPO stage driven by a learned realism critic. The post Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/29/block-dessa-full-duplex-speech-model/",
+   "url": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
+   "published": "2026-10-30",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "e90d22f03e328217",
+   "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+   "summary": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few output tokens, and...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.40627v1",
    "published": "2026-10-29",
    "tags": [
-    "industry",
-    "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "4c3e256a37cfbb4c",
-   "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-   "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execution, or noisy...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.37651v1",
-   "published": "2026-10-27",
-   "tags": [
     "paper",
     "llm",
-    "agents"
+    "fine-tuning",
+    "safety"
    ]
   },
   {
-   "id": "fd2e76b882506589",
-   "title": "When Should We Intervene at Test Time?",
-   "summary": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failures and cannot tell a model when to use...",
+   "id": "91d195a114dba5a2",
+   "title": "Rethinking Neural Thickets Without Weight Perturbations",
+   "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.37658v1",
-   "published": "2026-10-27",
+   "url": "https://arxiv.org/abs/2610.40649v1",
+   "published": "2026-10-29",
    "tags": [
     "paper",
-    "reasoning"
+    "llm"
    ]
   },
   {
-   "id": "41c97fe8dc29ac4a",
-   "title": "Legora is building the agentic operating system for legal work",
-   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+   "id": "2d9928289658e986",
+   "title": "How Ropes & Gray is developing AI for transactional diligence",
+   "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/legora",
-   "published": "2026-10-28",
+   "url": "https://openai.com/index/ropes-gray-ai-diligence",
+   "published": "2026-10-29",
    "tags": [
-    "labs",
-    "llm",
-    "agents"
+    "labs"
    ]
   },
   {
@@ -277,15 +275,14 @@
    ]
   },
   {
-   "id": "db98bf59a6c7e420",
-   "title": "Build specialized multimodal models with LFM3",
+   "id": "a1765f446c5b64b5",
+   "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-   "published": "2026-10-27",
+   "url": "https://huggingface.co/blog/mistral-large4",
+   "published": "2026-10-29",
    "tags": [
-    "open-source",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -327,54 +324,51 @@
    ]
   },
   {
-   "id": "b864fbcc4827fee2",
-   "title": "AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents",
-   "summary": "AssemblyAI has released AssemblyAI-TTS-1, its first text-to-speech model for voice agents. It costs $15 per 1M characters, offers unlimited concurrency without a contract, and supports 6 languages at launch. The post AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents appeared first on...",
+   "id": "51e4998c0a55a1d9",
+   "title": "Baseten Releases joey-1, a 2B Decision Model at $0.01 per 1M Tokens",
+   "summary": "Baseten has released joey-1, a 2B open-weight decision model that returns calibrated probabilities instead of text. It runs at 20 ms P50 latency and costs $0.01 per million input tokens. The post Baseten Releases joey-1, a 2B Decision Model at $0.01 per 1M Tokens appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/29/assemblyai-tts-1-text-to-speech-api-voice-agents/",
+   "url": "https://www.marktechpost.com/2026/10/29/baseten-joey-1-2b-decision-model/",
    "published": "2026-10-29",
    "tags": [
     "industry",
-    "agents",
-    "multimodal"
+    "serving"
    ]
   },
   {
-   "id": "a0b7070066d58225",
-   "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-   "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to investigate? To...",
+   "id": "e331954c99511e7d",
+   "title": "Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses",
+   "summary": "Ask a language model whether sales tend to dip after a product recall, or whether one side effect tends to follow another after a vaccine, and it answers in a fluent sentence that reads like a finding, with no test behind it. Assertions about how events unfold across many cases fill the Web, and each is a temporal hypothesis that only a...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.37649v1",
-   "published": "2026-10-27",
-   "tags": [
-    "paper",
-    "llm",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "99835a80f458e507",
-   "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
-   "summary": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate frame may be rotated independently...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.37656v1",
-   "published": "2026-10-27",
+   "url": "https://arxiv.org/abs/2610.40619v1",
+   "published": "2026-10-29",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "d42fb1eb3362412f",
-   "title": "Retell uses OpenAI models to help power 100M monthly calls",
-   "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+   "id": "2453e3d93d1838a4",
+   "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+   "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.40647v1",
+   "published": "2026-10-29",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "75e2017ed4c5a2ec",
+   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/retell-ai",
-   "published": "2026-10-27",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "published": "2026-10-28",
    "tags": [
     "labs",
     "llm",
-    "evaluation",
     "agents"
    ]
   },
@@ -402,15 +396,15 @@
    ]
   },
   {
-   "id": "34370e88c88d0cd4",
-   "title": "Can we trust LLMs to judge whether a research idea is novel?",
+   "id": "85d975255b4f9d00",
+   "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/novelty-bench",
-   "published": "2026-10-27",
+   "url": "https://huggingface.co/blog/anydecisionmodel",
+   "published": "2026-10-29",
    "tags": [
     "open-source",
-    "llm"
+    "multimodal"
    ]
   },
   {
@@ -447,54 +441,50 @@
    ]
   },
   {
-   "id": "02aebfc3f398f61a",
-   "title": "NVIDIA Releases Nemotron 3.5 Transcribe: An Open 30B MoE Model for 40-Language Transcription with ~4B Active Parameters",
-   "summary": "NVIDIA released Nemotron 3.5 Transcribe, an open-weights speech LLM with 4.3B active parameters. It transcribes 40 languages, adds speaker labels and word timestamps, and posts a 4.71% mean WER on the English Open ASR Leaderboard. The post NVIDIA Releases Nemotron 3.5 Transcribe: An Open 30B MoE Model for 40-Language Transcription with...",
+   "id": "ffb43a6dca61a6c5",
+   "title": "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass",
+   "summary": "Prime Intellect released Prime Mega MoE, a backward pass for DeepSeek’s fused Mega MoE kernel. It makes the kernel trainable and speeds Qwen3 MoE training steps by up to 34% in prime-rl. The post Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/28/nvidia-nemotron-3-5-transcribe-open-speech-llm/",
+   "url": "https://www.marktechpost.com/2026/10/29/prime-intellect-prime-mega-moe-fused-moe-kernel-training/",
    "published": "2026-10-29",
    "tags": [
     "industry",
-    "llm",
-    "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "61d80e697b0d8b9d",
-   "title": "Multi-State Linear Attention with Generalized Second-Order Routing",
-   "summary": "Self-attention plays a key role in long-sequence modeling, but its quadratic time complexity fundamentally limits the scaling of Large Language Models. Recently, Multi-State Linear Attention (MSLA) mechanisms have been proposed to make sequence modeling more efficient by splitting the context into segments and compressing each in its own...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.37645v1",
-   "published": "2026-10-27",
-   "tags": [
-    "paper",
     "llm"
    ]
   },
   {
-   "id": "15f8a813011f34c6",
-   "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
-   "summary": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such as not dropping the object, becomes critical, yet it is rarely measured. We...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.37652v1",
-   "published": "2026-10-27",
+   "id": "65684a91d5f5bb25",
+   "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+   "summary": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.40613v1",
+   "published": "2026-10-29",
    "tags": [
     "paper",
-    "safety"
+    "llm",
+    "serving"
    ]
   },
   {
-   "id": "a3a879144b2984ac",
-   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-   "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-   "published": "2026-10-27",
+   "id": "e8e9f4ad9a0f8a71",
+   "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+   "summary": "Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how they treat realizations absent from that record. A divergence ball around the empirical distribution contains only reweightings of the...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.40644v1",
+   "published": "2026-10-29",
    "tags": [
-    "labs",
-    "llm",
-    "agents"
+    "paper"
+   ]
+  },
+  {
+   "id": "0dc3cf0b7c98dcde",
+   "title": "The future of the firm",
+   "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/the-future-of-the-firm",
+   "published": "2026-10-28",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -522,12 +512,12 @@
    ]
   },
   {
-   "id": "6430909168b58685",
-   "title": "Does Your Model Run on AWS Trainium? Look It Up",
+   "id": "7ae8eb20550eee76",
+   "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-   "published": "2026-10-23",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+   "published": "2026-10-28",
    "tags": [
     "open-source"
    ]
@@ -568,52 +558,53 @@
    ]
   },
   {
-   "id": "c44aa551102e17af",
-   "title": "Google DeepMind Introduces Gemini 4 Carbon, Its Top Model for Cyber Defense and Coding",
-   "summary": "Google DeepMind introduced Gemini 4 Carbon, a frontier model that scores 59 on the Artificial Analysis Intelligence Index and 88.2% on SEC-bench Pro. Access starts with vetted cyber defenders, at $2/$10 per million tokens. The post Google DeepMind Introduces Gemini 4 Carbon, Its Top Model for Cyber Defense and Coding appeared first on...",
+   "id": "c8889526df5c769c",
+   "title": "Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents",
+   "summary": "Infini-AI-Lab released Hermit, an Apache-2.0 harness adapter framework that trains an external layer of instructions, skills, memory and tools from task feedback, leaving the agent’s model and harness unchanged. The post Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/28/google-deepmind-gemini-4-carbon-frontier-model/",
+   "url": "https://www.marktechpost.com/2026/10/29/infini-ai-lab-hermit-harness-adapter-framework/",
+   "published": "2026-10-29",
+   "tags": [
+    "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "e27d38c1683cadf3",
+   "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
+   "summary": "Proactive assistants offer short, memory-grounded hints during a conversation, deciding when to assist and what to suggest. Current systems split this between a gate and a larger generator; we evaluate both together on 28,058 decision points. Stage-wise generation scores are oracle-gate ceilings: behind a real gate, end-to-end exact...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.40611v1",
+   "published": "2026-10-29",
+   "tags": [
+    "paper",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "117d6aae47467ea6",
+   "title": "world2vec: Mechanistic world models through latent dynamics learning",
+   "summary": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2610.40637v1",
+   "published": "2026-10-29",
+   "tags": [
+    "paper",
+    "evaluation",
+    "safety"
+   ]
+  },
+  {
+   "id": "41c97fe8dc29ac4a",
+   "title": "Legora is building the agentic operating system for legal work",
+   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/legora",
    "published": "2026-10-28",
    "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "5b12846c4df0f987",
-   "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
-   "summary": "Diffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller that guides diffusion generation according to the needs of the current response...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.37642v1",
-   "published": "2026-10-27",
-   "tags": [
-    "paper",
-    "llm",
-    "serving",
-    "agents"
-   ]
-  },
-  {
-   "id": "2f8c663eea06eb1d",
-   "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
-   "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, we propose the SynthAPI pipeline, which explicitly controls the diversity of...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.37648v1",
-   "published": "2026-10-27",
-   "tags": [
-    "paper",
+    "labs",
     "llm",
     "agents"
-   ]
-  },
-  {
-   "id": "8cb333260a17a324",
-   "title": "How Check Point accelerates vulnerability research with Daybreak",
-   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/check-point-daybreak",
-   "published": "2026-10-27",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -639,15 +630,15 @@
    ]
   },
   {
-   "id": "95eb6975ad245049",
-   "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+   "id": "db98bf59a6c7e420",
+   "title": "Build specialized multimodal models with LFM3",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-   "published": "2026-10-22",
+   "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "published": "2026-10-27",
    "tags": [
     "open-source",
-    "agents"
+    "multimodal"
    ]
   },
   {
@@ -686,39 +677,43 @@
    ]
   },
   {
-   "id": "d8fb4e7732a4a4aa",
-   "title": "MiniMax Open-Sources MCode Stack: 15 Agent Skills Its Coding Team Uses Daily",
-   "summary": "MiniMax has open-sourced MCode Stack, an MIT-licensed repo of 17 SKILL.md skills and 5 checklists that its MiniMax Code team uses daily for code review, subagent splits, context budgets and long-running commands. The post MiniMax Open-Sources MCode Stack: 15 Agent Skills Its Coding Team Uses Daily appeared first on MarkTechPost .",
+   "id": "281b82320b75120b",
+   "title": "Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech",
+   "summary": "Block’s AI lab released Dessa, a full-duplex speech-to-speech model trained only on human conversation audio. It runs locally on a MacBook Pro M4 Max, but Block has published no size, benchmarks or weights. The post Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills/",
-   "published": "2026-10-28",
+   "url": "https://www.marktechpost.com/2026/10/29/block-dessa-full-duplex-speech-model/",
+   "published": "2026-10-29",
    "tags": [
     "industry",
-    "agents"
+    "evaluation",
+    "multimodal"
    ]
   },
   {
-   "id": "da361ea047752264",
-   "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
-   "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with whether it helps. We...",
+   "id": "780f953e34814907",
+   "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
+   "summary": "Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or generate programs to inspect application state...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.37624v1",
-   "published": "2026-10-27",
+   "url": "https://arxiv.org/abs/2610.40578v1",
+   "published": "2026-10-29",
    "tags": [
     "paper",
-    "llm"
+    "llm",
+    "fine-tuning",
+    "evaluation"
    ]
   },
   {
-   "id": "e0482e6f8507c83c",
-   "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
-   "summary": "Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire training trajectory using the \\emph{accumulated effective learning rate}...",
+   "id": "b3b2bb01b950b3b5",
+   "title": "An ODE-based Sampler for Discrete Diffusion Models",
+   "summary": "The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we address the question whether an analogous formulation exists for discrete diffusion...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.37647v1",
-   "published": "2026-10-27",
+   "url": "https://arxiv.org/abs/2610.40618v1",
+   "published": "2026-10-29",
    "tags": [
     "paper",
-    "llm"
+    "fine-tuning",
+    "multimodal"
    ]
   }
  ]
