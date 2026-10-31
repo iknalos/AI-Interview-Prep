@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-30",
- "generatedAt": "2026-10-30T13:08:18+00:00",
- "sourceCount": 10,
+ "generated": "2026-10-31",
+ "generatedAt": "2026-10-31T12:44:48+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "7bf0065ceb1646f5",
-   "title": "An updated Model Spec for more capable and beneficial AI",
-   "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+   "id": "25cc4c9bb2e3e7e5",
+   "title": "Making it easier for websites to express AI training preferences",
+   "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/updated-model-spec",
-   "published": "2026-10-29",
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "published": "2026-10-30",
    "tags": [
     "labs",
-    "evaluation"
+    "fine-tuning"
    ]
   },
   {
@@ -28,23 +28,12 @@
    ]
   },
   {
-   "id": "b0da25ea6c1a2967",
-   "title": "Gemini 4 Carbon: Our next frontier model",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-   "published": "2026-10-28",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "f3538b6fb36f4f58",
-   "title": "Granite Switch 4.1.1 — Update models like you update software",
+   "id": "b2263e9f84127c76",
+   "title": "nemotron-halloween",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-   "published": "2026-10-29",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+   "published": "2026-10-30",
    "tags": [
     "open-source"
    ]
@@ -61,12 +50,12 @@
    ]
   },
   {
-   "id": "071e826394b5b671",
-   "title": "3 Questions: Why infrastructure is entering a defining era",
-   "summary": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
+   "id": "de7eef275564015a",
+   "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+   "summary": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
-   "published": "2026-10-28",
+   "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+   "published": "2026-10-30",
    "tags": [
     "research"
    ]
@@ -86,12 +75,12 @@
    ]
   },
   {
-   "id": "a25ea1ea21fd0afb",
-   "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
-   "summary": "Samaya AI’s Sterling is a post-trained Nemotron 3.5 Lightning model for financial research. It scores 58.9% on FrontierFinance at $0.61 per question, beating Claude Fable 5.1’s 55.9% at $6.89. The post Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost...",
+   "id": "a5c6759870e7a107",
+   "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
+   "summary": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed task. The post Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
-   "published": "2026-10-30",
+   "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+   "published": "2026-10-31",
    "tags": [
     "industry",
     "agents"
@@ -123,16 +112,16 @@
    ]
   },
   {
-   "id": "d28967fce9c692cd",
-   "title": "How we detect frontier model misalignment",
-   "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+   "id": "c7606af40dbb903f",
+   "title": "Community safety report and new protections for teens",
+   "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-   "published": "2026-10-29",
+   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "published": "2026-10-30",
    "tags": [
     "labs",
-    "fine-tuning",
-    "agents"
+    "llm",
+    "safety"
    ]
   },
   {
@@ -147,22 +136,11 @@
    ]
   },
   {
-   "id": "d17d13a0006a776d",
-   "title": "Genie 4: A new generation of world simulation",
-   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-   "published": "2026-10-27",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "e1c742c1d925baf7",
-   "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+   "id": "f3538b6fb36f4f58",
+   "title": "Granite Switch 4.1.1 — Update models like you update software",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/announcing-project-protostar",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
    "published": "2026-10-29",
    "tags": [
     "open-source"
@@ -181,15 +159,14 @@
    ]
   },
   {
-   "id": "9e57b3c7cb0d7eb2",
-   "title": "Making machines that can listen",
-   "summary": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
+   "id": "226d6d5c25cb9ac1",
+   "title": "Q&A: Hey AI, who should I vote for this year?",
+   "summary": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
-   "published": "2026-10-28",
+   "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+   "published": "2026-10-30",
    "tags": [
-    "research",
-    "multimodal"
+    "research"
    ]
   },
   {
@@ -205,14 +182,15 @@
    ]
   },
   {
-   "id": "f4afd5415c84de46",
-   "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
-   "summary": "Edge0 released Audio8-TTS-Realistic, a 0.6B open-weight zero-shot voice cloning TTS model under Apache 2.0. It supports 23 languages and adds a final GRPO stage driven by a learned realism critic. The post Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model appeared first on MarkTechPost .",
+   "id": "78c1c1a14c878c2e",
+   "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
+   "summary": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels. The post Vercel Labs Open-Sources agent-desktop for Agent Computer Use appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
-   "published": "2026-10-30",
+   "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
+   "published": "2026-10-31",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
@@ -242,12 +220,12 @@
    ]
   },
   {
-   "id": "2d9928289658e986",
-   "title": "How Ropes & Gray is developing AI for transactional diligence",
-   "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+   "id": "d2282bcce1625c64",
+   "title": "Fair use benefits everyone",
+   "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/ropes-gray-ai-diligence",
-   "published": "2026-10-29",
+   "url": "https://openai.com/index/fair-use-benefits-everyone",
+   "published": "2026-10-30",
    "tags": [
     "labs"
    ]
@@ -264,22 +242,11 @@
    ]
   },
   {
-   "id": "e66e9796ba6be5e9",
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "published": "2026-10-22",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "a1765f446c5b64b5",
-   "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+   "id": "e1c742c1d925baf7",
+   "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/mistral-large4",
+   "url": "https://huggingface.co/blog/announcing-project-protostar",
    "published": "2026-10-29",
    "tags": [
     "open-source"
@@ -300,12 +267,12 @@
    ]
   },
   {
-   "id": "67f0b179673ce3b4",
-   "title": "Learner collaborates with MIT peers to develop book of AI insights",
-   "summary": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
+   "id": "071e826394b5b671",
+   "title": "3 Questions: Why infrastructure is entering a defining era",
+   "summary": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
-   "published": "2026-10-27",
+   "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+   "published": "2026-10-28",
    "tags": [
     "research"
    ]
@@ -324,15 +291,15 @@
    ]
   },
   {
-   "id": "51e4998c0a55a1d9",
-   "title": "Baseten Releases joey-1, a 2B Decision Model at $0.01 per 1M Tokens",
-   "summary": "Baseten has released joey-1, a 2B open-weight decision model that returns calibrated probabilities instead of text. It runs at 20 ms P50 latency and costs $0.01 per million input tokens. The post Baseten Releases joey-1, a 2B Decision Model at $0.01 per 1M Tokens appeared first on MarkTechPost .",
+   "id": "00aeec5afb00c990",
+   "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
+   "summary": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18.4% to 30.9% on SWE-Bench, with no change to the agent. The post Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9% appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/29/baseten-joey-1-2b-decision-model/",
-   "published": "2026-10-29",
+   "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
+   "published": "2026-10-30",
    "tags": [
     "industry",
-    "serving"
+    "agents"
    ]
   },
   {
@@ -360,16 +327,15 @@
    ]
   },
   {
-   "id": "75e2017ed4c5a2ec",
-   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-   "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+   "id": "7bf0065ceb1646f5",
+   "title": "An updated Model Spec for more capable and beneficial AI",
+   "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-   "published": "2026-10-28",
+   "url": "https://openai.com/index/updated-model-spec",
+   "published": "2026-10-29",
    "tags": [
     "labs",
-    "llm",
-    "agents"
+    "evaluation"
    ]
   },
   {
@@ -385,26 +351,14 @@
    ]
   },
   {
-   "id": "996b33c09ad57427",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "published": "2026-10-15",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "85d975255b4f9d00",
-   "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+   "id": "a1765f446c5b64b5",
+   "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/anydecisionmodel",
+   "url": "https://huggingface.co/blog/mistral-large4",
    "published": "2026-10-29",
    "tags": [
-    "open-source",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -419,14 +373,15 @@
    ]
   },
   {
-   "id": "f3b6de314f91f101",
-   "title": "At New York Climate Week 2026, MIT connects with a global network",
-   "summary": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
+   "id": "9e57b3c7cb0d7eb2",
+   "title": "Making machines that can listen",
+   "summary": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
-   "published": "2026-10-26",
+   "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+   "published": "2026-10-28",
    "tags": [
-    "research"
+    "research",
+    "multimodal"
    ]
   },
   {
@@ -441,15 +396,15 @@
    ]
   },
   {
-   "id": "ffb43a6dca61a6c5",
-   "title": "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass",
-   "summary": "Prime Intellect released Prime Mega MoE, a backward pass for DeepSeek’s fused Mega MoE kernel. It makes the kernel trainable and speeds Qwen3 MoE training steps by up to 34% in prime-rl. The post Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass appeared first on MarkTechPost .",
+   "id": "a8738faa1f17423c",
+   "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
+   "summary": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools. The post AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/29/prime-intellect-prime-mega-moe-fused-moe-kernel-training/",
-   "published": "2026-10-29",
+   "url": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
+   "published": "2026-10-30",
    "tags": [
     "industry",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -477,14 +432,16 @@
    ]
   },
   {
-   "id": "0dc3cf0b7c98dcde",
-   "title": "The future of the firm",
-   "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+   "id": "d28967fce9c692cd",
+   "title": "How we detect frontier model misalignment",
+   "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-future-of-the-firm",
-   "published": "2026-10-28",
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "published": "2026-10-29",
    "tags": [
-    "labs"
+    "labs",
+    "fine-tuning",
+    "agents"
    ]
   },
   {
@@ -500,26 +457,15 @@
    ]
   },
   {
-   "id": "58e4191fcfe4b88c",
-   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "published": "2026-10-14",
-   "tags": [
-    "labs",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "7ae8eb20550eee76",
-   "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+   "id": "85d975255b4f9d00",
+   "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-   "published": "2026-10-28",
+   "url": "https://huggingface.co/blog/anydecisionmodel",
+   "published": "2026-10-29",
    "tags": [
-    "open-source"
+    "open-source",
+    "multimodal"
    ]
   },
   {
@@ -536,12 +482,12 @@
    ]
   },
   {
-   "id": "c636a8319993faee",
-   "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-   "summary": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+   "id": "67f0b179673ce3b4",
+   "title": "Learner collaborates with MIT peers to develop book of AI insights",
+   "summary": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-   "published": "2026-10-23",
+   "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+   "published": "2026-10-27",
    "tags": [
     "research"
    ]
@@ -558,12 +504,12 @@
    ]
   },
   {
-   "id": "c8889526df5c769c",
-   "title": "Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents",
-   "summary": "Infini-AI-Lab released Hermit, an Apache-2.0 harness adapter framework that trains an external layer of instructions, skills, memory and tools from task feedback, leaving the agent’s model and harness unchanged. The post Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents appeared first on MarkTechPost .",
+   "id": "a25ea1ea21fd0afb",
+   "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
+   "summary": "Samaya AI’s Sterling is a post-trained Nemotron 3.5 Lightning model for financial research. It scores 58.9% on FrontierFinance at $0.61 per question, beating Claude Fable 5.1’s 55.9% at $6.89. The post Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/29/infini-ai-lab-hermit-harness-adapter-framework/",
-   "published": "2026-10-29",
+   "url": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
+   "published": "2026-10-30",
    "tags": [
     "industry",
     "agents"
@@ -595,16 +541,14 @@
    ]
   },
   {
-   "id": "41c97fe8dc29ac4a",
-   "title": "Legora is building the agentic operating system for legal work",
-   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+   "id": "2d9928289658e986",
+   "title": "How Ropes & Gray is developing AI for transactional diligence",
+   "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/legora",
-   "published": "2026-10-28",
+   "url": "https://openai.com/index/ropes-gray-ai-diligence",
+   "published": "2026-10-29",
    "tags": [
-    "labs",
-    "llm",
-    "agents"
+    "labs"
    ]
   },
   {
@@ -616,17 +560,6 @@
    "published": "2026-10-14",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "471508c04c304cbd",
-   "title": "Developing Gemini 4 Argon responsibly and safely",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -653,12 +586,12 @@
    ]
   },
   {
-   "id": "60c7eb065c480fbc",
-   "title": "Reinforcing the value of human understanding at MIT",
-   "summary": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
+   "id": "f3b6de314f91f101",
+   "title": "At New York Climate Week 2026, MIT connects with a global network",
+   "summary": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
-   "published": "2026-10-23",
+   "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+   "published": "2026-10-26",
    "tags": [
     "research"
    ]
@@ -677,16 +610,14 @@
    ]
   },
   {
-   "id": "281b82320b75120b",
-   "title": "Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech",
-   "summary": "Block’s AI lab released Dessa, a full-duplex speech-to-speech model trained only on human conversation audio. It runs locally on a MacBook Pro M4 Max, but Block has published no size, benchmarks or weights. The post Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech appeared first on MarkTechPost .",
+   "id": "f4afd5415c84de46",
+   "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
+   "summary": "Edge0 released Audio8-TTS-Realistic, a 0.6B open-weight zero-shot voice cloning TTS model under Apache 2.0. It supports 23 languages and adds a final GRPO stage driven by a learned realism critic. The post Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/29/block-dessa-full-duplex-speech-model/",
-   "published": "2026-10-29",
+   "url": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
+   "published": "2026-10-30",
    "tags": [
-    "industry",
-    "evaluation",
-    "multimodal"
+    "industry"
    ]
   },
   {
@@ -714,6 +645,77 @@
     "paper",
     "fine-tuning",
     "multimodal"
+   ]
+  },
+  {
+   "id": "6750c2461412185f",
+   "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+   "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/credit-saison",
+   "published": "2026-10-29",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "19f3965005eb6d51",
+   "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+   "published": "2026-10-14",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "34370e88c88d0cd4",
+   "title": "Can we trust LLMs to judge whether a research idea is novel?",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/allenai/novelty-bench",
+   "published": "2026-10-27",
+   "tags": [
+    "open-source",
+    "llm"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "c636a8319993faee",
+   "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+   "summary": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+   "published": "2026-10-23",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "39217bafd159845d",
+   "title": "Using Local Coding Agents",
+   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+   "published": "2026-06-27",
+   "tags": [
+    "newsletter",
+    "agents"
    ]
   }
  ]
