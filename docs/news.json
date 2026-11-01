@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-31",
- "generatedAt": "2026-10-31T12:44:48+00:00",
- "sourceCount": 9,
+ "generated": "2026-11-01",
+ "generatedAt": "2026-11-01T13:35:10+00:00",
+ "sourceCount": 10,
  "items": [
   {
    "id": "25cc4c9bb2e3e7e5",
@@ -25,6 +25,17 @@
    "tags": [
     "research",
     "llm"
+   ]
+  },
+  {
+   "id": "b0da25ea6c1a2967",
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "published": "2026-10-28",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -75,15 +86,15 @@
    ]
   },
   {
-   "id": "a5c6759870e7a107",
-   "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
-   "summary": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed task. The post Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode appeared first on...",
+   "id": "b78eced8d414e07d",
+   "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
+   "summary": "Nace AI open-sources Drex Max v1, a 27B multimodal decision model scoring 67.52 that runs on Apple Silicon. The post Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
-   "published": "2026-10-31",
+   "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
+   "published": "2026-11-01",
    "tags": [
     "industry",
-    "agents"
+    "multimodal"
    ]
   },
   {
@@ -136,6 +147,17 @@
    ]
   },
   {
+   "id": "d17d13a0006a776d",
+   "title": "Genie 4: A new generation of world simulation",
+   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "published": "2026-10-27",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
    "id": "f3538b6fb36f4f58",
    "title": "Granite Switch 4.1.1 — Update models like you update software",
    "summary": "",
@@ -182,12 +204,12 @@
    ]
   },
   {
-   "id": "78c1c1a14c878c2e",
-   "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
-   "summary": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels. The post Vercel Labs Open-Sources agent-desktop for Agent Computer Use appeared first on MarkTechPost .",
+   "id": "3cc4ce3d743f12b3",
+   "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
+   "summary": "DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions. In DeepSeek’s own simulation, p95 task completion fell to 15.7 minutes from 29.5 minutes. The post DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
-   "published": "2026-10-31",
+   "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
+   "published": "2026-11-01",
    "tags": [
     "industry",
     "agents"
@@ -242,6 +264,17 @@
    ]
   },
   {
+   "id": "e66e9796ba6be5e9",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "published": "2026-10-22",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
    "id": "e1c742c1d925baf7",
    "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
    "summary": "",
@@ -291,12 +324,12 @@
    ]
   },
   {
-   "id": "00aeec5afb00c990",
-   "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
-   "summary": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18.4% to 30.9% on SWE-Bench, with no change to the agent. The post Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9% appeared first on MarkTechPost .",
+   "id": "a5c6759870e7a107",
+   "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
+   "summary": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed task. The post Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
-   "published": "2026-10-30",
+   "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+   "published": "2026-10-31",
    "tags": [
     "industry",
     "agents"
@@ -351,6 +384,17 @@
    ]
   },
   {
+   "id": "996b33c09ad57427",
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "published": "2026-10-15",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
    "id": "a1765f446c5b64b5",
    "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
    "summary": "",
@@ -396,12 +440,12 @@
    ]
   },
   {
-   "id": "a8738faa1f17423c",
-   "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
-   "summary": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools. The post AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare appeared first on MarkTechPost .",
+   "id": "78c1c1a14c878c2e",
+   "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
+   "summary": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels. The post Vercel Labs Open-Sources agent-desktop for Agent Computer Use appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
-   "published": "2026-10-30",
+   "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
+   "published": "2026-10-31",
    "tags": [
     "industry",
     "agents"
@@ -457,6 +501,18 @@
    ]
   },
   {
+   "id": "58e4191fcfe4b88c",
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "published": "2026-10-14",
+   "tags": [
+    "labs",
+    "fine-tuning"
+   ]
+  },
+  {
    "id": "85d975255b4f9d00",
    "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
    "summary": "",
@@ -504,11 +560,11 @@
    ]
   },
   {
-   "id": "a25ea1ea21fd0afb",
-   "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
-   "summary": "Samaya AI’s Sterling is a post-trained Nemotron 3.5 Lightning model for financial research. It scores 58.9% on FrontierFinance at $0.61 per question, beating Claude Fable 5.1’s 55.9% at $6.89. The post Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost...",
+   "id": "00aeec5afb00c990",
+   "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
+   "summary": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18.4% to 30.9% on SWE-Bench, with no change to the agent. The post Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9% appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
+   "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
    "published": "2026-10-30",
    "tags": [
     "industry",
@@ -563,6 +619,17 @@
    ]
   },
   {
+   "id": "471508c04c304cbd",
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "published": "2026-10-13",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
    "id": "db98bf59a6c7e420",
    "title": "Build specialized multimodal models with LFM3",
    "summary": "",
@@ -610,14 +677,15 @@
    ]
   },
   {
-   "id": "f4afd5415c84de46",
-   "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
-   "summary": "Edge0 released Audio8-TTS-Realistic, a 0.6B open-weight zero-shot voice cloning TTS model under Apache 2.0. It supports 23 languages and adds a final GRPO stage driven by a learned realism critic. The post Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model appeared first on MarkTechPost .",
+   "id": "a8738faa1f17423c",
+   "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
+   "summary": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools. The post AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
+   "url": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
    "published": "2026-10-30",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
@@ -645,77 +713,6 @@
     "paper",
     "fine-tuning",
     "multimodal"
-   ]
-  },
-  {
-   "id": "6750c2461412185f",
-   "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-   "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/credit-saison",
-   "published": "2026-10-29",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "19f3965005eb6d51",
-   "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
-   "summary": "General Science",
-   "source": "Google Research",
-   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
-   "published": "2026-10-14",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "34370e88c88d0cd4",
-   "title": "Can we trust LLMs to judge whether a research idea is novel?",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/novelty-bench",
-   "published": "2026-10-27",
-   "tags": [
-    "open-source",
-    "llm"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
-    "safety"
-   ]
-  },
-  {
-   "id": "c636a8319993faee",
-   "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-   "summary": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-   "published": "2026-10-23",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "39217bafd159845d",
-   "title": "Using Local Coding Agents",
-   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-   "published": "2026-06-27",
-   "tags": [
-    "newsletter",
-    "agents"
    ]
   }
  ]
