@@ -1,18 +1,17 @@
 {
- "generated": "2026-11-01",
- "generatedAt": "2026-11-01T13:35:10+00:00",
- "sourceCount": 10,
+ "generated": "2026-11-02",
+ "generatedAt": "2026-11-02T16:12:53+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "25cc4c9bb2e3e7e5",
-   "title": "Making it easier for websites to express AI training preferences",
-   "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+   "id": "19244c7aa2063fd3",
+   "title": "Introducing the Grid Protectors Program",
+   "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-   "published": "2026-10-30",
+   "url": "https://openai.com/index/grid-protectors-program",
+   "published": "2026-11-02",
    "tags": [
-    "labs",
-    "fine-tuning"
+    "labs"
    ]
   },
   {
@@ -25,17 +24,6 @@
    "tags": [
     "research",
     "llm"
-   ]
-  },
-  {
-   "id": "b0da25ea6c1a2967",
-   "title": "Gemini 4 Carbon: Our next frontier model",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-   "published": "2026-10-28",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -86,53 +74,51 @@
    ]
   },
   {
-   "id": "b78eced8d414e07d",
-   "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
-   "summary": "Nace AI open-sources Drex Max v1, a 27B multimodal decision model scoring 67.52 that runs on Apple Silicon. The post Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon appeared first on MarkTechPost .",
+   "id": "6eb1302ea527f246",
+   "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
+   "summary": "NVIDIA released Auto Ontology, an Apache 2.0 library that generates a semantic layer from enterprise metadata. It grounds agent SQL in certified definitions and serves context through MCP, CLI and API. The post NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
-   "published": "2026-11-01",
+   "url": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/",
+   "published": "2026-11-02",
    "tags": [
     "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "e318697021c897f5",
+   "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+   "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.42149v1",
+   "published": "2026-10-30",
+   "tags": [
+    "paper",
+    "reasoning",
     "multimodal"
    ]
   },
   {
-   "id": "daba7b5e4e64fda3",
-   "title": "Elucidating the Design Space of LM Data Attribution",
-   "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.40655v1",
-   "published": "2026-10-29",
-   "tags": [
-    "paper",
-    "rag",
-    "llm",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "978502652aafa083",
-   "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
-   "summary": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when the remaining data would allow far less. Removing them first would restore the...",
+   "id": "550ca2c2106e2829",
+   "title": "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
+   "summary": "In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results. Most sampling schemes with provable privacy amplification, including Poisson sampling and random...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.40654v1",
-   "published": "2026-10-29",
+   "url": "https://arxiv.org/abs/2610.42139v1",
+   "published": "2026-10-30",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "c7606af40dbb903f",
-   "title": "Community safety report and new protections for teens",
-   "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+   "id": "25cc4c9bb2e3e7e5",
+   "title": "Making it easier for websites to express AI training preferences",
+   "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
    "published": "2026-10-30",
    "tags": [
     "labs",
-    "llm",
-    "safety"
+    "fine-tuning"
    ]
   },
   {
@@ -144,17 +130,6 @@
    "published": "2026-10-23",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "d17d13a0006a776d",
-   "title": "Genie 4: A new generation of world simulation",
-   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-   "published": "2026-10-27",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -204,52 +179,53 @@
    ]
   },
   {
-   "id": "3cc4ce3d743f12b3",
-   "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
-   "summary": "DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions. In DeepSeek’s own simulation, p95 task completion fell to 15.7 minutes from 29.5 minutes. The post DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent appeared first on MarkTechPost .",
+   "id": "f2dd5ffff01232a9",
+   "title": "Meet qwenGPU: Qwen3.5-2B With 45 Compiled GPU Layers That Run CUDA",
+   "summary": "qwenGPU compiles a 4-lane SIMT GPU into Qwen3.5-2B as 45 untrained layers. The model writes every step of real CUDA launches itself, using Gated DeltaNet state as registers and memory. The post Meet qwenGPU: Qwen3.5-2B With 45 Compiled GPU Layers That Run CUDA appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
-   "published": "2026-11-01",
+   "url": "https://www.marktechpost.com/2026/11/01/qwengpu-simt-gpu-compiled-into-qwen3-5-2b-weights-runs-cuda/",
+   "published": "2026-11-02",
    "tags": [
-    "industry",
+    "industry"
+   ]
+  },
+  {
+   "id": "94768006782b36df",
+   "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+   "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2610.42148v1",
+   "published": "2026-10-30",
+   "tags": [
+    "paper",
+    "llm",
+    "serving",
     "agents"
    ]
   },
   {
-   "id": "e90d22f03e328217",
-   "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
-   "summary": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few output tokens, and...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.40627v1",
-   "published": "2026-10-29",
-   "tags": [
-    "paper",
-    "llm",
-    "fine-tuning",
-    "safety"
-   ]
-  },
-  {
-   "id": "91d195a114dba5a2",
-   "title": "Rethinking Neural Thickets Without Weight Perturbations",
-   "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much...",
+   "id": "65b00dd3e4a03872",
+   "title": "A Better Critic Matters for Distribution Matching Distillation",
+   "summary": "Distribution Matching Distillation (DMD) trains a few-step student using the difference between a teacher's score and an online critic's estimate of the student distribution's score. We investigate what the critic needs, in capacity and in information, to provide a reliable training signal. On the capacity side, controlled experiments...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.40649v1",
-   "published": "2026-10-29",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "d2282bcce1625c64",
-   "title": "Fair use benefits everyone",
-   "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/fair-use-benefits-everyone",
+   "url": "https://arxiv.org/abs/2610.42135v1",
    "published": "2026-10-30",
    "tags": [
-    "labs"
+    "paper",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "c7606af40dbb903f",
+   "title": "Community safety report and new protections for teens",
+   "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "published": "2026-10-30",
+   "tags": [
+    "labs",
+    "llm",
+    "safety"
    ]
   },
   {
@@ -261,17 +237,6 @@
    "published": "2026-10-21",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "e66e9796ba6be5e9",
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "published": "2026-10-22",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -324,51 +289,51 @@
    ]
   },
   {
-   "id": "a5c6759870e7a107",
-   "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
-   "summary": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed task. The post Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode appeared first on...",
+   "id": "b78eced8d414e07d",
+   "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
+   "summary": "Nace AI open-sources Drex Max v1, a 27B multimodal decision model scoring 67.52 that runs on Apple Silicon. The post Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
-   "published": "2026-10-31",
+   "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
+   "published": "2026-11-01",
    "tags": [
     "industry",
-    "agents"
+    "multimodal"
    ]
   },
   {
-   "id": "e331954c99511e7d",
-   "title": "Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses",
-   "summary": "Ask a language model whether sales tend to dip after a product recall, or whether one side effect tends to follow another after a vaccine, and it answers in a fluent sentence that reads like a finding, with no test behind it. Assertions about how events unfold across many cases fill the Web, and each is a temporal hypothesis that only a...",
+   "id": "ca35ebb117cd643d",
+   "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+   "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.40619v1",
-   "published": "2026-10-29",
+   "url": "https://arxiv.org/abs/2610.42128v1",
+   "published": "2026-10-30",
    "tags": [
     "paper",
-    "llm"
+    "rag",
+    "llm",
+    "fine-tuning"
    ]
   },
   {
-   "id": "2453e3d93d1838a4",
-   "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-   "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency...",
+   "id": "a99141847088dbef",
+   "title": "Instance-dependent sequential limits as an exact information ledger",
+   "summary": "Instance-dependent limits for bandit regret, sequential tests, best-arm identification and Markov decision processes are proved by one chain. It runs from a divergence decomposition through data processing to a statistic, a testing step that turns a class guarantee into a requirement on the history, and optimization over alternatives and...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.40647v1",
-   "published": "2026-10-29",
+   "url": "https://arxiv.org/abs/2610.42133v1",
+   "published": "2026-10-30",
    "tags": [
-    "paper",
-    "llm"
+    "paper"
    ]
   },
   {
-   "id": "7bf0065ceb1646f5",
-   "title": "An updated Model Spec for more capable and beneficial AI",
-   "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+   "id": "d2282bcce1625c64",
+   "title": "Fair use benefits everyone",
+   "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/updated-model-spec",
-   "published": "2026-10-29",
+   "url": "https://openai.com/index/fair-use-benefits-everyone",
+   "published": "2026-10-30",
    "tags": [
-    "labs",
-    "evaluation"
+    "labs"
    ]
   },
   {
@@ -381,17 +346,6 @@
    "tags": [
     "research",
     "agents"
-   ]
-  },
-  {
-   "id": "996b33c09ad57427",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "published": "2026-10-15",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -440,52 +394,50 @@
    ]
   },
   {
-   "id": "78c1c1a14c878c2e",
-   "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
-   "summary": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels. The post Vercel Labs Open-Sources agent-desktop for Agent Computer Use appeared first on MarkTechPost .",
+   "id": "3cc4ce3d743f12b3",
+   "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
+   "summary": "DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions. In DeepSeek’s own simulation, p95 task completion fell to 15.7 minutes from 29.5 minutes. The post DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
-   "published": "2026-10-31",
+   "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
+   "published": "2026-11-01",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "65684a91d5f5bb25",
-   "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
-   "summary": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor...",
+   "id": "c2ace6a4270057dd",
+   "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
+   "summary": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variants with fixed-size state) or only...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.40613v1",
-   "published": "2026-10-29",
+   "url": "https://arxiv.org/abs/2610.42112v1",
+   "published": "2026-10-30",
    "tags": [
     "paper",
-    "llm",
-    "serving"
+    "llm"
    ]
   },
   {
-   "id": "e8e9f4ad9a0f8a71",
-   "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
-   "summary": "Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how they treat realizations absent from that record. A divergence ball around the empirical distribution contains only reweightings of the...",
+   "id": "ee9392a3d5374418",
+   "title": "Physiological Trajectories and Observation Patterns in ICU Mortality Prediction: Transportability Under Changing Measurement Conditions",
+   "summary": "Objective: To distinguish the transferable predictive value of physiological trajectories from that of observation patterns in ICU mortality prediction, and to assess whether measurement timing affects performance independently of observation quantity. Materials and Methods: In-hospital mortality was predicted at 48 hours using...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.40644v1",
-   "published": "2026-10-29",
+   "url": "https://arxiv.org/abs/2610.42126v1",
+   "published": "2026-10-30",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "d28967fce9c692cd",
-   "title": "How we detect frontier model misalignment",
-   "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+   "id": "7bf0065ceb1646f5",
+   "title": "An updated Model Spec for more capable and beneficial AI",
+   "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "url": "https://openai.com/index/updated-model-spec",
    "published": "2026-10-29",
    "tags": [
     "labs",
-    "fine-tuning",
-    "agents"
+    "evaluation"
    ]
   },
   {
@@ -498,18 +450,6 @@
    "tags": [
     "research",
     "agents"
-   ]
-  },
-  {
-   "id": "58e4191fcfe4b88c",
-   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "published": "2026-10-14",
-   "tags": [
-    "labs",
-    "fine-tuning"
    ]
   },
   {
@@ -560,51 +500,52 @@
    ]
   },
   {
-   "id": "00aeec5afb00c990",
-   "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
-   "summary": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18.4% to 30.9% on SWE-Bench, with no change to the agent. The post Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9% appeared first on MarkTechPost .",
+   "id": "a5c6759870e7a107",
+   "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
+   "summary": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed task. The post Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
-   "published": "2026-10-30",
+   "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+   "published": "2026-10-31",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "e27d38c1683cadf3",
-   "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
-   "summary": "Proactive assistants offer short, memory-grounded hints during a conversation, deciding when to assist and what to suggest. Current systems split this between a gate and a larger generator; we evaluate both together on 28,058 decision points. Stage-wise generation scores are oracle-gate ceilings: behind a real gate, end-to-end exact...",
+   "id": "118d59d033a14e63",
+   "title": "RangeSWA: Training-Free Length Extrapolation for Continuous Diffusion Language Models",
+   "summary": "Continuous diffusion language models show promising potential in text generation tasks, but are prone to problems such as text repetition, semantic drift, and generation quality degradation when the generation length exceeds the training length. To address these challenges, we propose RangeSWA, a training-free length extrapolation...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.40611v1",
-   "published": "2026-10-29",
+   "url": "https://arxiv.org/abs/2610.42084v1",
+   "published": "2026-10-30",
    "tags": [
     "paper",
-    "evaluation"
+    "llm",
+    "multimodal"
    ]
   },
   {
-   "id": "117d6aae47467ea6",
-   "title": "world2vec: Mechanistic world models through latent dynamics learning",
-   "summary": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec...",
+   "id": "f5195a9d36586569",
+   "title": "Gradient Descent on Two ReLU Neurons: Global Landscape and Bifurcation Dynamics",
+   "summary": "Understanding how gradient descent learns features remains a central challenge in neural network theory. We study this question in a minimal multi-index setting that already exhibits rich multi-phase gradient dynamics: a well-specified two-neuron ReLU teacher-student model under isotropic Gaussian inputs, trained by population gradient...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.40637v1",
-   "published": "2026-10-29",
+   "url": "https://arxiv.org/abs/2610.42118v1",
+   "published": "2026-10-30",
    "tags": [
-    "paper",
-    "evaluation",
-    "safety"
+    "paper"
    ]
   },
   {
-   "id": "2d9928289658e986",
-   "title": "How Ropes & Gray is developing AI for transactional diligence",
-   "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+   "id": "d28967fce9c692cd",
+   "title": "How we detect frontier model misalignment",
+   "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/ropes-gray-ai-diligence",
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
    "published": "2026-10-29",
    "tags": [
-    "labs"
+    "labs",
+    "fine-tuning",
+    "agents"
    ]
   },
   {
@@ -616,17 +557,6 @@
    "published": "2026-10-14",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "471508c04c304cbd",
-   "title": "Developing Gemini 4 Argon responsibly and safely",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-   "published": "2026-10-13",
-   "tags": [
-    "labs"
    ]
   },
   {
@@ -677,42 +607,108 @@
    ]
   },
   {
-   "id": "a8738faa1f17423c",
-   "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
-   "summary": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools. The post AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare appeared first on MarkTechPost .",
+   "id": "78c1c1a14c878c2e",
+   "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
+   "summary": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels. The post Vercel Labs Open-Sources agent-desktop for Agent Computer Use appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
-   "published": "2026-10-30",
+   "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
+   "published": "2026-10-31",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "780f953e34814907",
-   "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
-   "summary": "Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or generate programs to inspect application state...",
+   "id": "817a8d958959f2ee",
+   "title": "The Knowledge Layer Model (KLM): Evidence-Visible AI Output, Routing Diagnostics, and Negative Results",
+   "summary": "AI answers require more than apparent correctness: reviewers need to inspect their recorded basis. We introduce the Knowledge Layer Model (KLM), an open, implementation-neutral specification for inference records with versioned epistemic assessments, evidence relations, and explicit unknowns. SEDIM, the knowledge and evidence...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2610.40578v1",
-   "published": "2026-10-29",
+   "url": "https://arxiv.org/abs/2610.42066v1",
+   "published": "2026-10-30",
    "tags": [
     "paper",
-    "llm",
-    "fine-tuning",
-    "evaluation"
+    "serving"
    ]
   },
   {
-   "id": "b3b2bb01b950b3b5",
-   "title": "An ODE-based Sampler for Discrete Diffusion Models",
-   "summary": "The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we address the question whether an analogous formulation exists for discrete diffusion...",
+   "id": "87b9a068a31ea8ed",
+   "title": "Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT",
+   "summary": "In the random allocation sampling scheme each user's data is used in $k$ steps chosen randomly and uniformly from a sequence of $t$ steps. This scheme is known to improve on Poisson sampling in private optimization and in communication-efficient aggregation. The existing privacy loss distribution (PLD) accountant for this scheme runs in...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2610.40618v1",
+   "url": "https://arxiv.org/abs/2610.42117v1",
+   "published": "2026-10-30",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "2d9928289658e986",
+   "title": "How Ropes & Gray is developing AI for transactional diligence",
+   "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/ropes-gray-ai-diligence",
    "published": "2026-10-29",
    "tags": [
-    "paper",
-    "fine-tuning",
-    "multimodal"
+    "labs"
+   ]
+  },
+  {
+   "id": "19f3965005eb6d51",
+   "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+   "published": "2026-10-14",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "34370e88c88d0cd4",
+   "title": "Can we trust LLMs to judge whether a research idea is novel?",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/allenai/novelty-bench",
+   "published": "2026-10-27",
+   "tags": [
+    "open-source",
+    "llm"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "c636a8319993faee",
+   "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+   "summary": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+   "published": "2026-10-23",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "39217bafd159845d",
+   "title": "Using Local Coding Agents",
+   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+   "published": "2026-06-27",
+   "tags": [
+    "newsletter",
+    "agents"
    ]
   }
  ]
