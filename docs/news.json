@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-03",
- "generatedAt": "2026-11-03T14:26:39+00:00",
- "sourceCount": 10,
+ "generated": "2026-11-04",
+ "generatedAt": "2026-11-04T14:40:50+00:00",
+ "sourceCount": 9,
  "items": [
   {
-   "id": "08b710f1e7801fa8",
-   "title": "Heimstaden is changing residential real estate management with AI",
-   "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+   "id": "26c6032e1d267765",
+   "title": "Accelerating engineering for the physical world",
+   "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/heimstaden",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
    "published": "2026-11-03",
    "tags": [
     "labs",
@@ -28,22 +28,11 @@
    ]
   },
   {
-   "id": "094c331a98fae894",
-   "title": "Speeding up planning decisions with AI",
-   "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-   "published": "2026-10-30",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "fec0e46ceba430b8",
-   "title": "Transformers Model Integration Contracts",
+   "id": "a55665cf48953af7",
+   "title": "StateBench: Testing how language models track state changes over long documents",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/transformers-mic",
+   "url": "https://huggingface.co/blog/allenai/statebench",
    "published": "2026-11-03",
    "tags": [
     "open-source",
@@ -62,12 +51,12 @@
    ]
   },
   {
-   "id": "b91db1d100bf604d",
-   "title": "Powering up for a pivotal moment",
-   "summary": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
+   "id": "12feaf67ddae85b1",
+   "title": "Building connections across the research infrastructure",
+   "summary": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
-   "published": "2026-11-02",
+   "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+   "published": "2026-11-03",
    "tags": [
     "research"
    ]
@@ -87,48 +76,48 @@
    ]
   },
   {
-   "id": "ab3480bae6a33ee7",
-   "title": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
-   "summary": "OpenAI built Pando, a Git-compatible backend for its monorepo. It handles branches independently, reuses stored packfiles across fetches, cut median push latency by nearly 80%, and now delivers nearly a petabyte of Git data per day. The post OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80% appeared first on...",
+   "id": "8c4cd4032a6a4ea0",
+   "title": "Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting",
+   "summary": "Tencent’s WeChat Vision team released WeVisOne-VL, an Apache 2.0 vision language model in 2B and 4B sizes. It handles detection, OCR, counting, segmentation and alpha matting in one model, with a 9.6M-parameter pixel decoder. The post Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
-   "published": "2026-11-03",
+   "url": "https://www.marktechpost.com/2026/11/03/tencent-wevisone-vl-vision-language-model/",
+   "published": "2026-11-04",
    "tags": [
     "industry",
-    "serving"
+    "llm"
    ]
   },
   {
-   "id": "6407d7d530bf09de",
-   "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
-   "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual...",
+   "id": "1ba9c77c3ab32531",
+   "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+   "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.03634v1",
-   "published": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.05376v1",
+   "published": "2026-11-03",
    "tags": [
     "paper",
-    "evaluation",
     "agents"
    ]
   },
   {
-   "id": "3405178feb3a7dc6",
-   "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
-   "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeting (EAR), which combines reconstructed scene geometry with...",
+   "id": "023f4b84673911d9",
+   "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+   "summary": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularities complicate the inverse mapping, execution depends on hand-tuned controllers, and...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.03647v1",
-   "published": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.05372v1",
+   "published": "2026-11-03",
    "tags": [
-    "paper"
+    "paper",
+    "multimodal"
    ]
   },
   {
-   "id": "de4cf53f9db96311",
-   "title": "Scaling Git at OpenAI",
-   "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+   "id": "a2357e701f020223",
+   "title": "How Cisco defends at machine speed with OpenAI",
+   "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/scaling-git-at-openai",
-   "published": "2026-11-02",
+   "url": "https://openai.com/index/cisco-cyber",
+   "published": "2026-11-03",
    "tags": [
     "labs"
    ]
@@ -145,23 +134,12 @@
    ]
   },
   {
-   "id": "b0da25ea6c1a2967",
-   "title": "Gemini 4 Carbon: Our next frontier model",
-   "summary": "",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-   "published": "2026-10-28",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "b2263e9f84127c76",
-   "title": "nemotron-halloween",
+   "id": "bc4177032a04e266",
+   "title": "Palette: teaching a small model to build decks in your design language",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-   "published": "2026-10-30",
+   "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+   "published": "2026-11-03",
    "tags": [
     "open-source"
    ]
@@ -179,11 +157,11 @@
    ]
   },
   {
-   "id": "624e23d0cdf0ab77",
-   "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
-   "summary": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
+   "id": "b91db1d100bf604d",
+   "title": "Powering up for a pivotal moment",
+   "summary": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+   "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
    "published": "2026-11-02",
    "tags": [
     "research"
@@ -202,53 +180,50 @@
    ]
   },
   {
-   "id": "dbd1a815f4d9ef98",
-   "title": "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention",
-   "summary": "Zyphra Hierarchical Attention (ZHA) is a tree-indexed sparse attention method that retrofits frozen LLMs with 4B tokens of distillation, matching dense attention on reasoning and 256K retrieval benchmarks. The post Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention appeared first on...",
+   "id": "2b36c11db6276768",
+   "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
+   "summary": "Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs. The post Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/02/zyphra-hierarchical-attention-zha-sparse-attention/",
+   "url": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
    "published": "2026-11-03",
    "tags": [
-    "industry",
-    "rag",
+    "industry"
+   ]
+  },
+  {
+   "id": "a45ea0d1eb586728",
+   "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+   "summary": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference-pair selection and a...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.05373v1",
+   "published": "2026-11-03",
+   "tags": [
+    "paper",
     "llm",
     "fine-tuning"
    ]
   },
   {
-   "id": "15af83148962c192",
-   "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
-   "summary": "Vision-Language Models (VLMs) hold promise for zero-shot video task-progress estimation in robot learning, yet existing frameworks frequently suffer from confirmation bias, hallucinating progress in failed executions due to implicit success assumptions or relative temporal ranking designs. Naive prompting of frontier models collapses...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.03622v1",
-   "published": "2026-11-02",
-   "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "b82a6ac52f6cde77",
-   "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
-   "summary": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the complete system. We present Pixel, a...",
+   "id": "27505ba1a05bb40a",
+   "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+   "summary": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to overall policy performance. Recent work has shown that curating such unguided datasets can...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.03648v1",
-   "published": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.05368v1",
+   "published": "2026-11-03",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "19244c7aa2063fd3",
-   "title": "Introducing the Grid Protectors Program",
-   "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+   "id": "08b710f1e7801fa8",
+   "title": "Heimstaden is changing residential real estate management with AI",
+   "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/grid-protectors-program",
-   "published": "2026-11-02",
+   "url": "https://openai.com/index/heimstaden",
+   "published": "2026-11-03",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -263,23 +238,12 @@
    ]
   },
   {
-   "id": "d17d13a0006a776d",
-   "title": "Genie 4: A new generation of world simulation",
-   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-   "published": "2026-10-27",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "f3538b6fb36f4f58",
-   "title": "Granite Switch 4.1.1 — Update models like you update software",
+   "id": "20954e3ac0ff87f7",
+   "title": "CWE-bench v2: More coverage, quality, and transparency",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-   "published": "2026-10-29",
+   "url": "https://huggingface.co/blog/cwe-bench",
+   "published": "2026-11-03",
    "tags": [
     "open-source"
    ]
@@ -299,12 +263,12 @@
    ]
   },
   {
-   "id": "de7eef275564015a",
-   "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
-   "summary": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
+   "id": "624e23d0cdf0ab77",
+   "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+   "summary": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
-   "published": "2026-10-30",
+   "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+   "published": "2026-11-02",
    "tags": [
     "research"
    ]
@@ -323,38 +287,25 @@
    ]
   },
   {
-   "id": "5e23b266eaabe864",
-   "title": "The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering",
-   "summary": "Letter has released the beta of Letterpress-1, a coding agent, harness and IDE for growth engineering. It reads a git-based site and its market, then opens pull requests for SEO, GEO and conversion work. The post The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering appeared first on MarkTechPost .",
+   "id": "90a8b08254cc90be",
+   "title": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5%",
+   "summary": "NVIDIA shows how 3 stacked optimizations speed up MoE inference on a single DGX Spark. On Ant Group inclusionAI's 124B Ling-3.0-flash, GSM8K decode throughput rose 42.5% with no detectable accuracy change. The post NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5% appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/02/letter-letterpress-1-growth-engineering-coding-agent/",
+   "url": "https://www.marktechpost.com/2026/11/03/nvidia-dgx-spark-moe-inference-ling-3-0-flash/",
    "published": "2026-11-03",
    "tags": [
     "industry",
-    "agents"
+    "llm",
+    "serving"
    ]
   },
   {
-   "id": "4eeed34b9045e2f3",
-   "title": "Strategist: Evolving Reasoning with Agents",
-   "summary": "A model is only half of an AI agent system. The other half is the inference strategy: the reasoning procedure that turns model calls into a response. Today that second half is written by hand, and the experience of building one strategy never carries to the next. We introduce Strategist, a meta-agent that evolves inference strategies...",
+   "id": "405df7995b633e95",
+   "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+   "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The narrow-trigger organism...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.03618v1",
-   "published": "2026-11-02",
-   "tags": [
-    "paper",
-    "serving",
-    "agents",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "7f7f3ba1729dbdbc",
-   "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
-   "summary": "Muon has recently emerged as a promising optimizer for pretraining large language models, offering a speedup over AdamW in minimizing pretraining loss. However, it remains unclear whether Muon's advantage persists after fine-tuning. In this paper, we study the downstream behavior of Muon and AdamW and uncover a surprising trend: beyond a...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.03633v1",
-   "published": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.05358v1",
+   "published": "2026-11-03",
    "tags": [
     "paper",
     "llm",
@@ -362,12 +313,23 @@
    ]
   },
   {
-   "id": "262cfa35f4308cc0",
-   "title": "Preparing our next security sprint to harden OpenAI",
-   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+   "id": "af8d487cfd1aad31",
+   "title": "Agnostic Learning by Imitating",
+   "summary": "Given a class of machine learning models and sample access to a data distribution with binary labels, which computational task is harder: training a discriminative model that distinguishes positive and negative labels as well as the best member of the class, or training a generative model whose outputs are indistinguishable from real...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.05346v1",
+   "published": "2026-11-03",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "3d509e27bae229a3",
+   "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+   "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-   "published": "2026-11-02",
+   "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+   "published": "2026-11-03",
    "tags": [
     "labs"
    ]
@@ -385,25 +347,15 @@
    ]
   },
   {
-   "id": "e66e9796ba6be5e9",
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "published": "2026-10-22",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "e1c742c1d925baf7",
-   "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+   "id": "fec0e46ceba430b8",
+   "title": "Transformers Model Integration Contracts",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/announcing-project-protostar",
-   "published": "2026-10-29",
+   "url": "https://huggingface.co/blog/transformers-mic",
+   "published": "2026-11-03",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm"
    ]
   },
   {
@@ -418,11 +370,11 @@
    ]
   },
   {
-   "id": "226d6d5c25cb9ac1",
-   "title": "Q&A: Hey AI, who should I vote for this year?",
-   "summary": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
+   "id": "de7eef275564015a",
+   "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+   "summary": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+   "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
    "published": "2026-10-30",
    "tags": [
     "research"
@@ -440,49 +392,47 @@
    ]
   },
   {
-   "id": "ce16d3e02a32626c",
-   "title": "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery",
-   "summary": "Deep Principle has released Hydrogen-1.0, an open-weight scientific model for chemistry, materials science and life sciences. It is built by post-training Z.ai’s GLM-5.3 on domain data, laboratory records and agent discovery trajectories. For developers, it offers open weights that report a FrontierScience-Research win over GPT-6-Astra...",
+   "id": "af914e6869a54569",
+   "title": "Soniox STT v6 Adds Agent Text Input and Echo Filtering for Voice Agents",
+   "summary": "Soniox has released Soniox STT v6, the latest generation of its speech-to-text API. Soniox STT v6 is a speech-to-text model that reads what a voice agent says while hearing the caller. It uses that text to recognize short replies and to drop the agent’s own voice. The release ships as stt-rt-v6 for streaming and stt-async-v6 […] The post...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/",
-   "published": "2026-11-02",
+   "url": "https://www.marktechpost.com/2026/11/03/soniox-stt-v6-agent-text-input-echo-cancellation/",
+   "published": "2026-11-03",
    "tags": [
     "industry",
-    "llm",
-    "agents"
+    "agents",
+    "multimodal"
    ]
   },
   {
-   "id": "8a32a8668f43858c",
-   "title": "Tracing the Scientific Discovery Capacity of LLMs to Their Training Data",
-   "summary": "Large language models (LLMs) show growing promise for scientific discovery, yet basic questions remain about what enables reliable discovery. How can we trace the scientific discovery capacity of LLMs to their training data? We study this question as one of missing probability mass and develop a theoretical account in which monofacts-the...",
+   "id": "648c6ff1a1139980",
+   "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
+   "summary": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\\langle q|k\\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout. With its denominators held at their values for the input, each...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.03617v1",
-   "published": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.05355v1",
+   "published": "2026-11-03",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "ddf788c795191917",
-   "title": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
-   "summary": "Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reasoning strategies. We study this question with a controllable equation-solving framework: finding multiple inputs x for equations f(x)=y...",
+   "id": "c9c21ca54e07fe72",
+   "title": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry",
+   "summary": "Efficient preconditioning plays an important role in large-scale first-order optimization. In this paper, we propose an adaptive accelerated optimistic dual averaging ($\\text{A}^2$ODA) method for unconstrained convex optimization that adopts low-cost preconditioning based on $p$-norm geometry for $p\\in[2,\\infty]$. The method is...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.03627v1",
-   "published": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.05334v1",
+   "published": "2026-11-03",
    "tags": [
-    "paper",
-    "llm",
-    "reasoning"
+    "paper"
    ]
   },
   {
-   "id": "6fd6ad7938fa5bc5",
-   "title": "Rewarding defenders with bigger bug bounties",
-   "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+   "id": "de4cf53f9db96311",
+   "title": "Scaling Git at OpenAI",
+   "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+   "url": "https://openai.com/index/scaling-git-at-openai",
    "published": "2026-11-02",
    "tags": [
     "labs"
@@ -501,23 +451,12 @@
    ]
   },
   {
-   "id": "996b33c09ad57427",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "published": "2026-10-15",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "a1765f446c5b64b5",
-   "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+   "id": "b2263e9f84127c76",
+   "title": "nemotron-halloween",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/mistral-large4",
-   "published": "2026-10-29",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+   "published": "2026-10-30",
    "tags": [
     "open-source"
    ]
@@ -536,12 +475,12 @@
    ]
   },
   {
-   "id": "071e826394b5b671",
-   "title": "3 Questions: Why infrastructure is entering a defining era",
-   "summary": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
+   "id": "226d6d5c25cb9ac1",
+   "title": "Q&A: Hey AI, who should I vote for this year?",
+   "summary": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
-   "published": "2026-10-28",
+   "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+   "published": "2026-10-30",
    "tags": [
     "research"
    ]
@@ -558,51 +497,49 @@
    ]
   },
   {
-   "id": "6eb1302ea527f246",
-   "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
-   "summary": "NVIDIA released Auto Ontology, an Apache 2.0 library that generates a semantic layer from enterprise metadata. It grounds agent SQL in certified definitions and serves context through MCP, CLI and API. The post NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL appeared first on MarkTechPost .",
+   "id": "ab3480bae6a33ee7",
+   "title": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
+   "summary": "OpenAI built Pando, a Git-compatible backend for its monorepo. It handles branches independently, reuses stored packfiles across fetches, cut median push latency by nearly 80%, and now delivers nearly a petabyte of Git data per day. The post OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80% appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/",
-   "published": "2026-11-02",
+   "url": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
+   "published": "2026-11-03",
    "tags": [
     "industry",
-    "agents"
+    "serving"
    ]
   },
   {
-   "id": "59eaa0a5d68ade06",
-   "title": "ufakzeka-kulak: Building and Evaluating a 31.6M-Parameter Turkish Speech Recognizer from Scratch",
-   "summary": "ufakzeka-kulak is an open Turkish speech-to-text model of 31.6M parameters, a FastConformer encoder with a token-and-duration transducer (TDT) and a CTC head, trained from scratch and released under Apache-2.0. It writes cased, punctuated Turkish with numbers as words. Its 4,977 training hours come from sources whose licences allow...",
+   "id": "c7d84856f7bd90c3",
+   "title": "A Circuit for In-Context Learning",
+   "summary": "In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping it cannot have memorized, so the learning happens within a single forward pass. Prior work found candidate parts but not how they compose...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.03605v1",
-   "published": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.05344v1",
+   "published": "2026-11-03",
    "tags": [
     "paper",
-    "evaluation",
-    "multimodal"
+    "llm"
    ]
   },
   {
-   "id": "fffcaac1cb7a5423",
-   "title": "FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling",
-   "summary": "Group-based reinforcement learning with verifiable rewards (RLVR) learns only from prompts whose sampled completions disagree: all-pass and all-fail groups produce zero relative advantage and burn generation budget without moving the policy. Adaptive schedulers try to steer rollouts toward informative prompts, yet they rely on per-prompt...",
+   "id": "1ccb31cf5a2c105a",
+   "title": "CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting",
+   "summary": "We study context-aware time-series forecasting, in which a single target variable is predicted from its own history and a set of contextual variables, such as weather and calendar information. As the context becomes more diverse, a single model struggles to capture all of its regimes, while ensemble learning and Mixture-of-Experts...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.03625v1",
-   "published": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.05325v1",
+   "published": "2026-11-03",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "ed4b58253682640f",
-   "title": "LifeVal",
-   "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+   "id": "19244c7aa2063fd3",
+   "title": "Introducing the Grid Protectors Program",
+   "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/lifeval",
+   "url": "https://openai.com/index/grid-protectors-program",
    "published": "2026-11-02",
    "tags": [
-    "labs",
-    "evaluation"
+    "labs"
    ]
   },
   {
@@ -617,27 +554,14 @@
    ]
   },
   {
-   "id": "58e4191fcfe4b88c",
-   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-   "published": "2026-10-14",
-   "tags": [
-    "labs",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "85d975255b4f9d00",
-   "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+   "id": "f3538b6fb36f4f58",
+   "title": "Granite Switch 4.1.1 — Update models like you update software",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/anydecisionmodel",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
    "published": "2026-10-29",
    "tags": [
-    "open-source",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -652,15 +576,14 @@
    ]
   },
   {
-   "id": "9e57b3c7cb0d7eb2",
-   "title": "Making machines that can listen",
-   "summary": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
+   "id": "071e826394b5b671",
+   "title": "3 Questions: Why infrastructure is entering a defining era",
+   "summary": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+   "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
    "published": "2026-10-28",
    "tags": [
-    "research",
-    "multimodal"
+    "research"
    ]
   },
   {
@@ -677,40 +600,111 @@
    ]
   },
   {
-   "id": "f2dd5ffff01232a9",
-   "title": "Meet qwenGPU: Qwen3.5-2B With 45 Compiled GPU Layers That Run CUDA",
-   "summary": "qwenGPU compiles a 4-lane SIMT GPU into Qwen3.5-2B as 45 untrained layers. The model writes every step of real CUDA launches itself, using Gated DeltaNet state as registers and memory. The post Meet qwenGPU: Qwen3.5-2B With 45 Compiled GPU Layers That Run CUDA appeared first on MarkTechPost .",
+   "id": "dbd1a815f4d9ef98",
+   "title": "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention",
+   "summary": "Zyphra Hierarchical Attention (ZHA) is a tree-indexed sparse attention method that retrofits frozen LLMs with 4B tokens of distillation, matching dense attention on reasoning and 256K retrieval benchmarks. The post Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/01/qwengpu-simt-gpu-compiled-into-qwen3-5-2b-weights-runs-cuda/",
-   "published": "2026-11-02",
+   "url": "https://www.marktechpost.com/2026/11/02/zyphra-hierarchical-attention-zha-sparse-attention/",
+   "published": "2026-11-03",
    "tags": [
-    "industry"
+    "industry",
+    "rag",
+    "llm",
+    "fine-tuning"
    ]
   },
   {
-   "id": "4b67ed3a06853aee",
-   "title": "DiabAgent: Toward Agentic Physiological Control",
-   "summary": "As pretraining scales, medical language models have advanced rapidly in clinical question answering. Their ability to achieve effective physiological control through sustained intervention still lacks systematic quantitative evaluation. Type 1 diabetes provides a concrete setting: impaired insulin secretion creates dependence on...",
+   "id": "c2f49c445b057ace",
+   "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
+   "summary": "Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of calculation items in radiation therapy, diagnostic imaging, nuclear medicine and...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.03601v1",
-   "published": "2026-11-02",
+   "url": "https://arxiv.org/abs/2611.05340v1",
+   "published": "2026-11-03",
    "tags": [
     "paper",
     "llm",
-    "evaluation",
-    "agents"
+    "evaluation"
    ]
   },
   {
-   "id": "0dd58ed4dd7b6568",
-   "title": "Thought-deciphering via hierarchical EEG-to-text alignment",
-   "summary": "Communication is important for our well-being, but it can be impaired by disabilities, such as locked-in syndrome (LIS), cerebral palsy (CP), and dysarthria. Non-invasive brain-to-text brain-computer interfaces (BCIs) offer a promising solution by providing an alternative communication pathway for people with communication disabilities...",
+   "id": "cdfe17db6165d656",
+   "title": "$Φ$asmaNet: A Staged Spectral Token-Refinement Architecture for Fast Gravitational-Wave Signal-to-Noise Ratio Prediction",
+   "summary": "Quantifying selection effects in gravitational-wave population studies requires millions of costly signal-to-noise ratio (SNR) calculations. We present $Φ$asmaNet, a compact neural architecture for structured tabular regression, with staged spectral refinement as an explicit architectural prior. Learned input tokens are refined through...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.03623v1",
+   "url": "https://arxiv.org/abs/2611.05309v1",
+   "published": "2026-11-03",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "262cfa35f4308cc0",
+   "title": "Preparing our next security sprint to harden OpenAI",
+   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
    "published": "2026-11-02",
    "tags": [
-    "paper",
-    "fine-tuning"
+    "labs"
+   ]
+  },
+  {
+   "id": "19f3965005eb6d51",
+   "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+   "summary": "General Science",
+   "source": "Google Research",
+   "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+   "published": "2026-10-14",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "e1c742c1d925baf7",
+   "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/announcing-project-protostar",
+   "published": "2026-10-29",
+   "tags": [
+    "open-source"
+   ]
+  },
+  {
+   "id": "b5a755e51d76fef3",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "published": "2026-03-13",
+   "tags": [
+    "research",
+    "llm",
+    "safety"
+   ]
+  },
+  {
+   "id": "9e57b3c7cb0d7eb2",
+   "title": "Making machines that can listen",
+   "summary": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+   "published": "2026-10-28",
+   "tags": [
+    "research",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "39217bafd159845d",
+   "title": "Using Local Coding Agents",
+   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+   "published": "2026-06-27",
+   "tags": [
+    "newsletter",
+    "agents"
    ]
   }
  ]
