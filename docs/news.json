@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07",
- "generatedAt": "2026-11-07T13:15:08+00:00",
- "sourceCount": 9,
+ "generated": "2026-11-08",
+ "generatedAt": "2026-11-08T13:36:28+00:00",
+ "sourceCount": 10,
  "items": [
   {
    "id": "bc8f9eac19663ff6",
@@ -23,6 +23,17 @@
    "published": "2026-11-05",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "825a50d1c0ad7f36",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "published": "2026-11-05",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -74,17 +85,15 @@
    ]
   },
   {
-   "id": "d8e02d11382d5b18",
-   "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
-   "summary": "Buoyant has released Kinference, an Apache 2.0 inference control plane for vLLM on Kubernetes. It adds declarative routing policies, KV-cache-aware load balancing and per-tenant metrics, and cut median TTFT 95% in Buoyant’s own benchmark. The post Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM...",
+   "id": "6ec91eb53be5a835",
+   "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+   "summary": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code. The post Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
-   "published": "2026-11-07",
+   "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
+   "published": "2026-11-08",
    "tags": [
     "industry",
-    "llm",
-    "evaluation",
-    "serving"
+    "agents"
    ]
   },
   {
@@ -136,6 +145,18 @@
    ]
   },
   {
+   "id": "7b04a568c5adccd6",
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "published": "2026-11-03",
+   "tags": [
+    "labs",
+    "agents"
+   ]
+  },
+  {
    "id": "82196d4ece0a644e",
    "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
    "summary": "",
@@ -183,12 +204,12 @@
    ]
   },
   {
-   "id": "18d4bcaa5e307328",
-   "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
-   "summary": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X. On real model activations, its FP8 kernels run 1.16-1.76x faster than AMD’s AITER, with 62-78% lower error at head dimension 128. The post Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster appeared first on MarkTechPost .",
+   "id": "0d6adb4565b62d21",
+   "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+   "summary": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods. The post Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
-   "published": "2026-11-06",
+   "url": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
+   "published": "2026-11-08",
    "tags": [
     "industry",
     "llm"
@@ -243,6 +264,17 @@
    ]
   },
   {
+   "id": "094c331a98fae894",
+   "title": "Speeding up planning decisions with AI",
+   "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+   "published": "2026-10-30",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
    "id": "e8690f74b67f5698",
    "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
    "summary": "",
@@ -292,12 +324,12 @@
    ]
   },
   {
-   "id": "e8ca26fb00bac746",
-   "title": "Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active",
-   "summary": "Thinking Machines Lab released Inkling 2 Small, a 594B-parameter MoE with 17B active parameters. It scores 31 on the Artificial Analysis Intelligence Index and runs on Tinker, with Apache 2.0 weights planned. The post Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active appeared first on MarkTechPost .",
+   "id": "5d18d08c21555360",
+   "title": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
+   "summary": "MoE routing strategies decide which experts process each token. This guide explains 7 methods, from Mixtral's top-2 softmax to DeepSeek-V4's hash routing, with the models that use each one. The post MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide) appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/05/thinking-machines-inkling-2-small-release/",
-   "published": "2026-11-06",
+   "url": "https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/",
+   "published": "2026-11-08",
    "tags": [
     "industry",
     "llm"
@@ -349,6 +381,17 @@
    ]
   },
   {
+   "id": "b0da25ea6c1a2967",
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "published": "2026-10-28",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
    "id": "89209ab642b10e25",
    "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
    "summary": "",
@@ -395,14 +438,16 @@
    ]
   },
   {
-   "id": "8dc8ee954a72c06c",
-   "title": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
-   "summary": "Google released Gemini Omni 1.2 Flash, a video generation and editing model with native 15-second clips, multi-turn conversational editing and a 30% price cut to $0.07 per second of 720p video. The post Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second appeared first on MarkTechPost .",
+   "id": "15fd7ad56b7bc89c",
+   "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+   "summary": "Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%. The post Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9% appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
-   "published": "2026-11-05",
+   "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
+   "published": "2026-11-08",
    "tags": [
-    "industry"
+    "industry",
+    "fine-tuning",
+    "evaluation"
    ]
   },
   {
@@ -454,6 +499,17 @@
    ]
   },
   {
+   "id": "d17d13a0006a776d",
+   "title": "Genie 4: A new generation of world simulation",
+   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "published": "2026-10-27",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
    "id": "5afc49da7bd40515",
    "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
    "summary": "",
@@ -500,15 +556,16 @@
    ]
   },
   {
-   "id": "baf47aeb9b7e32e5",
-   "title": "Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters",
-   "summary": "Baidu has released ERNIE 5.5 Flash Base, a 280B sparse MoE base model with 14B active parameters, trained on 33.5T tokens and published before any mid- or post-training. The post Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters appeared first on MarkTechPost .",
+   "id": "92f859ede504dd33",
+   "title": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
+   "summary": "Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to build the pinned llama.cpp branch, analyze loop-by-loop compute costs, test memory caching, and run paired evaluations. The post How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/",
-   "published": "2026-11-05",
+   "url": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
+   "published": "2026-11-07",
    "tags": [
     "industry",
-    "llm"
+    "llm",
+    "evaluation"
    ]
   },
   {
@@ -559,6 +616,17 @@
    ]
   },
   {
+   "id": "e66e9796ba6be5e9",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "published": "2026-10-22",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
    "id": "bc4177032a04e266",
    "title": "Palette: teaching a small model to build decks in your design language",
    "summary": "",
@@ -605,16 +673,17 @@
    ]
   },
   {
-   "id": "61db06d8bd2a39b3",
-   "title": "Together AI Releases Together Compiler: Agents Make Inference Up to 2.6x Faster",
-   "summary": "Together AI released Together Compiler, an agent-driven loop that keeps re-optimizing the inference forward pass as traffic shifts. It beat the best InferenceX configurations by up to 2.6x TPS in under 24 hours per model. The post Together AI Releases Together Compiler: Agents Make Inference Up to 2.6x Faster appeared first on...",
+   "id": "d8e02d11382d5b18",
+   "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
+   "summary": "Buoyant has released Kinference, an Apache 2.0 inference control plane for vLLM on Kubernetes. It adds declarative routing policies, KV-cache-aware load balancing and per-tenant metrics, and cut median TTFT 95% in Buoyant’s own benchmark. The post Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference/",
-   "published": "2026-11-05",
+   "url": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
+   "published": "2026-11-07",
    "tags": [
     "industry",
-    "serving",
-    "agents"
+    "llm",
+    "evaluation",
+    "serving"
    ]
   },
   {
@@ -639,76 +708,6 @@
    "tags": [
     "paper",
     "fine-tuning"
-   ]
-  },
-  {
-   "id": "f93567576105c713",
-   "title": "Setting a new standard for responsible AI infrastructure",
-   "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-   "published": "2026-11-05",
-   "tags": [
-    "labs"
-   ]
-  },
-  {
-   "id": "93dc9e9d57baf201",
-   "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
-   "summary": "Earth AI",
-   "source": "Google Research",
-   "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
-   "published": "2026-10-14",
-   "tags": [
-    "research",
-    "agents"
-   ]
-  },
-  {
-   "id": "20954e3ac0ff87f7",
-   "title": "CWE-bench v2: More coverage, quality, and transparency",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/cwe-bench",
-   "published": "2026-11-03",
-   "tags": [
-    "open-source"
-   ]
-  },
-  {
-   "id": "b5a755e51d76fef3",
-   "title": "Identifying Interactions at Scale for LLMs",
-   "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step toward safer and more trustworthy AI...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-   "published": "2026-03-13",
-   "tags": [
-    "research",
-    "llm",
-    "safety"
-   ]
-  },
-  {
-   "id": "226d6d5c25cb9ac1",
-   "title": "Q&A: Hey AI, who should I vote for this year?",
-   "summary": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
-   "published": "2026-10-30",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "39217bafd159845d",
-   "title": "Using Local Coding Agents",
-   "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-   "published": "2026-06-27",
-   "tags": [
-    "newsletter",
-    "agents"
    ]
   }
  ]
