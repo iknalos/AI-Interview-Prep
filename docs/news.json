@@ -1,18 +1,17 @@
 {
- "generated": "2026-11-10",
- "generatedAt": "2026-11-10T15:00:01+00:00",
+ "generated": "2026-11-11",
+ "generatedAt": "2026-11-11T14:31:06+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "46ecb159c1535b09",
-   "title": "Helping caregivers use AI in everyday life",
-   "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+   "id": "f28f90d2895a812c",
+   "title": "Gilbert + Tobin rethinks the business of law with AI",
+   "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-   "published": "2026-11-10",
+   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "published": "2026-11-12",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -27,26 +26,27 @@
    ]
   },
   {
-   "id": "428ac4b42c0b5f39",
-   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "id": "0b2e1c02de474f20",
+   "title": "Gemini 4 Carbon is now available",
+   "summary": "",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
    "published": "2026-11-10",
    "tags": [
-    "labs",
-    "agents"
+    "labs"
    ]
   },
   {
-   "id": "057e22ab69c04fb1",
-   "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+   "id": "b22522d14a17f95f",
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-   "published": "2026-11-09",
+   "url": "https://huggingface.co/blog/qvac/botpsy",
+   "published": "2026-11-11",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm",
+    "agents"
    ]
   },
   {
@@ -86,51 +86,51 @@
    ]
   },
   {
-   "id": "d3fbcf24d3c3277f",
-   "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work",
-   "summary": "Meta Muse Ember is Meta’s smallest model, built for tool calls, coding subtasks and document parsing. It ties Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at roughly a third of the cost per task. The post Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work appeared first on MarkTechPost .",
+   "id": "be3ddfba985d092b",
+   "title": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
+   "summary": "The Institute of Foundation Models at MBZUAI released PAN 2, an Apache 2.0 world model that couples an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of action outcomes as video. The post MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
-   "published": "2026-11-10",
+   "url": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
+   "published": "2026-11-11",
    "tags": [
     "industry",
-    "agents"
+    "llm",
+    "multimodal"
    ]
   },
   {
-   "id": "5ae61e6e19265447",
-   "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-   "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant memories and...",
+   "id": "44f12482a15a6cc6",
+   "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+   "summary": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.12872v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14515v1",
+   "published": "2026-11-10",
    "tags": [
     "paper",
-    "rag",
-    "evaluation",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "7c54f445250d9bcb",
-   "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
-   "summary": "Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not always necessary. In this work, we study whether balanced...",
+   "id": "8a346a80b3ec8676",
+   "title": "TorchCurves: Differentiable Parametric Curves",
+   "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can be optimized jointly...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.12884v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14516v1",
+   "published": "2026-11-10",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "01a8528fa117926a",
-   "title": "Closing the AI guidance gap in education",
-   "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+   "id": "80b38ea7da372c49",
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-   "published": "2026-11-10",
+   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "published": "2026-11-11",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -145,25 +145,24 @@
    ]
   },
   {
-   "id": "a98763b80c842ad2",
-   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-   "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "id": "428ac4b42c0b5f39",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-   "published": "2026-11-09",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "published": "2026-11-10",
    "tags": [
     "labs",
-    "multimodal",
-    "safety"
+    "agents"
    ]
   },
   {
-   "id": "7b1451fc786c34f9",
-   "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+   "id": "724fae9251483a53",
+   "title": "Pay for Hugging Face Hub with your Google Cloud Account",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-   "published": "2026-11-09",
+   "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+   "published": "2026-11-10",
    "tags": [
     "open-source"
    ]
@@ -203,50 +202,51 @@
    ]
   },
   {
-   "id": "9705284e72019fc3",
-   "title": "Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU",
-   "summary": "Google added TPU 8i Max and TPU 8tx to its eighth-generation TPU lineup. TPU 8i Max packs 2 TPU 8i chips per package for long-context agents. TPU 8tx adds hardware confidential inference. Bloomberg reports 2027 availability. The post Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU appeared first on...",
+   "id": "ad52ee8ca17523c0",
+   "title": "Fish Audio Releases Live 3, a Full-Duplex Voice Model That Reacts in 186 ms",
+   "summary": "Fish Audio released Live 3, a full-duplex voice model for voice agents. It listens while it speaks, separates “mm-hmm” from real interruptions, and can react in as little as 186 ms. English only at launch The post Fish Audio Releases Live 3, a Full-Duplex Voice Model That Reacts in 186 ms appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/09/google-tpu-8i-max-tpu-8tx/",
-   "published": "2026-11-09",
+   "url": "https://www.marktechpost.com/2026/11/10/fish-audio-live-3-full-duplex-voice-model/",
+   "published": "2026-11-11",
    "tags": [
     "industry",
-    "serving",
     "agents"
    ]
   },
   {
-   "id": "1cc5338f4c904a0d",
-   "title": "Is Persona Generalization Predictable?",
-   "summary": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We discover a surprising \"on-the-line\" phenomenon in persona generalization: in-domain and out-of-domain persona rates across various fine-tuning...",
+   "id": "02adbd087e823a01",
+   "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+   "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supports. To recover...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.12864v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14514v1",
+   "published": "2026-11-10",
    "tags": [
     "paper",
     "llm",
-    "fine-tuning"
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "300fe897ea0d8855",
-   "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
-   "summary": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require millions of sequential steps, resulting in substantial...",
+   "id": "d88c7f4e6e98ab4a",
+   "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+   "summary": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.12880v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14511v1",
+   "published": "2026-11-10",
    "tags": [
     "paper",
-    "serving"
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "9c331579e229757a",
-   "title": "ChatGPT Enterprise now available in AWS Marketplace",
-   "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+   "id": "46ecb159c1535b09",
+   "title": "Helping caregivers use AI in everyday life",
+   "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-   "published": "2026-11-09",
+   "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "published": "2026-11-10",
    "tags": [
     "labs",
     "llm"
@@ -264,26 +264,27 @@
    ]
   },
   {
-   "id": "825a50d1c0ad7f36",
-   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-   "summary": "",
+   "id": "a98763b80c842ad2",
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-   "published": "2026-11-05",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "published": "2026-11-09",
    "tags": [
-    "labs"
+    "labs",
+    "multimodal",
+    "safety"
    ]
   },
   {
-   "id": "be1ba71e55b7f125",
-   "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+   "id": "3229de0d919212c3",
+   "title": "Decision Models in Hugging Face",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/toyblocks",
-   "published": "2026-11-06",
+   "url": "https://huggingface.co/blog/decision",
+   "published": "2026-11-10",
    "tags": [
-    "open-source",
-    "evaluation"
+    "open-source"
    ]
   },
   {
@@ -323,25 +324,23 @@
    ]
   },
   {
-   "id": "42ba3d659a7cc8b6",
-   "title": "Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
-   "summary": "Baidu’s ERNIE Evolve is an automated research system that edits code, runs experiments and keeps only verified gains. It beat public bests on NanoChat and NanoGPT Speedrun and sped up ERNIE-5.5-Flash inference. The post Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records appeared first on MarkTechPost .",
+   "id": "03a27d01d5e88852",
+   "title": "Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs",
+   "summary": "Meta FAIR’s e-means is a mini-batch k-means replacement shipped in FAISS 1.16.0. It reaches Lloyd’s 25-epoch loss in 1.4 to 2.6 epochs, with 10-45x GPU speedups and no extra hyperparameters. The post Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/",
-   "published": "2026-11-09",
+   "url": "https://www.marktechpost.com/2026/11/10/meta-fair-e-means-k-means-faiss/",
+   "published": "2026-11-10",
    "tags": [
-    "industry",
-    "llm",
-    "serving"
+    "industry"
    ]
   },
   {
-   "id": "a132dbbae2f33c8c",
-   "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
-   "summary": "Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate worker agents and to author the executable workflow that coordinates them, shifting the design of system structure from developers to the...",
+   "id": "0981c8b4a698fb94",
+   "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+   "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text-only LLM judging with...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.12856v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14493v1",
+   "published": "2026-11-10",
    "tags": [
     "paper",
     "llm",
@@ -350,29 +349,26 @@
    ]
   },
   {
-   "id": "7f4130c0490df8be",
-   "title": "Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels",
-   "summary": "Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent interacting with an unknown environment (modeled as a Markov Decision Process) transmits quantized estimates of a temporal-difference (TD)...",
+   "id": "7e4dba908da2ab4e",
+   "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
+   "summary": "Connectome-constrained models are often used to argue that a measured wiring diagram outperforms shuffled or rewired wiring, and hence that structure shapes function. Such comparisons can confound wiring with how the models are tuned: a connectome fixes who connects to whom, not the excitability, gains or plasticity rates the model also...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.12878v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14508v1",
+   "published": "2026-11-10",
    "tags": [
-    "paper",
-    "evaluation",
-    "serving",
-    "agents"
+    "paper"
    ]
   },
   {
-   "id": "f37b680abcf7adcb",
-   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-   "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+   "id": "5ca4dc7b6d88cb31",
+   "title": "Introducing Businesses in ChatGPT",
+   "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/control-room",
-   "published": "2026-11-09",
+   "url": "https://openai.com/index/introducing-businesses-chatgpt",
+   "published": "2026-11-10",
    "tags": [
     "labs",
-    "safety"
+    "llm"
    ]
   },
   {
@@ -388,27 +384,25 @@
    ]
   },
   {
-   "id": "7b04a568c5adccd6",
-   "title": "Agentic cheminformatics with Google Antigravity",
-   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "id": "825a50d1c0ad7f36",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "summary": "",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-   "published": "2026-11-03",
+   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "published": "2026-11-05",
    "tags": [
-    "labs",
-    "agents"
+    "labs"
    ]
   },
   {
-   "id": "82196d4ece0a644e",
-   "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+   "id": "057e22ab69c04fb1",
+   "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-   "published": "2026-11-06",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+   "published": "2026-11-09",
    "tags": [
-    "open-source",
-    "evaluation"
+    "open-source"
    ]
   },
   {
@@ -448,50 +442,53 @@
    ]
   },
   {
-   "id": "e11b12d044c67880",
-   "title": "Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents",
-   "summary": "Reason Machines has open-sourced Aspen, a self-hosted Git server for AI agents. It follows OpenAI’s Pando design and sustained 567 pushes per second on one 8-core server in the company’s own test. The post Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents appeared first on MarkTechPost .",
+   "id": "8e727521319628ae",
+   "title": "Zyphra Releases ZONOS3-Mini: Open-Source TTS With 100M Active Parameters",
+   "summary": "Zyphra released ZONOS3-Mini, an Apache 2.0 text-to-speech model with 800M total and 100M active parameters. It clones voices, steers delivery word by word and runs in real time in the browser The post Zyphra Releases ZONOS3-Mini: Open-Source TTS With 100M Active Parameters appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents/",
-   "published": "2026-11-09",
+   "url": "https://www.marktechpost.com/2026/11/10/zyphra-zonos3-mini-open-source-tts/",
+   "published": "2026-11-10",
    "tags": [
     "industry",
-    "agents"
+    "multimodal"
    ]
   },
   {
-   "id": "6e3250e20377f3df",
-   "title": "How Well Does AI Peer Review Work? A Benchmark Built from 100 Planted Errors",
-   "summary": "One hundred known errors were planted into 10 open-access psychology papers, and the modified papers were then run through frontier models and two commercial AI review tools. The best single system caught 71 of the 100 errors, while the worst caught 30. Pooling every system's output caught 93. Models are only partly correlated in the...",
+   "id": "d31a92aff370a5a0",
+   "title": "Mechanistic Interpretability Needs a Logic of Inference",
+   "summary": "Neural networks are increasingly studied not merely as predictive systems, but as complex systems whose internal computations are themselves objects of scientific inquiry. Recent progress in mechanistic interpretability (MI) has made it possible to identify neurons, features, circuits, population structures, and dynamical patterns...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.12820v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14483v1",
+   "published": "2026-11-10",
    "tags": [
     "paper",
-    "evaluation"
+    "serving",
+    "safety"
    ]
   },
   {
-   "id": "854ff19af2866744",
-   "title": "Vendi Anomaly Scores for Efficient and Accurate Anomaly Detection",
-   "summary": "Anomaly detection (AD) is a critical for trustworthy machine learning and scientific discovery. Existing methods typically define anomalies through local density, isolation heuristics, or distance from a fitted distribution, making them sensitive to neighborhood scale, partitioning choices, or restrictive distributional assumptions. In...",
+   "id": "03d3c78c79ab02cb",
+   "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+   "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weight-based systems...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.12871v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14505v1",
+   "published": "2026-11-10",
    "tags": [
-    "paper"
+    "paper",
+    "evaluation",
+    "agents",
+    "reasoning"
    ]
   },
   {
-   "id": "23b94c697622500f",
-   "title": "CodeRabbit scales agentic software development and ships 20x more",
-   "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+   "id": "01a8528fa117926a",
+   "title": "Closing the AI guidance gap in education",
+   "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/coderabbit-codex-daybreak",
-   "published": "2026-11-09",
+   "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "published": "2026-11-10",
    "tags": [
-    "labs",
-    "agents"
+    "labs"
    ]
   },
   {
@@ -506,27 +503,26 @@
    ]
   },
   {
-   "id": "094c331a98fae894",
-   "title": "Speeding up planning decisions with AI",
-   "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+   "id": "7b04a568c5adccd6",
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-   "published": "2026-10-30",
+   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "published": "2026-11-03",
    "tags": [
-    "labs"
+    "labs",
+    "agents"
    ]
   },
   {
-   "id": "89209ab642b10e25",
-   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "id": "7b1451fc786c34f9",
+   "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/phonon-tts",
-   "published": "2026-11-05",
+   "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+   "published": "2026-11-09",
    "tags": [
-    "open-source",
-    "evaluation",
-    "multimodal"
+    "open-source"
    ]
   },
   {
@@ -563,49 +559,48 @@
    ]
   },
   {
-   "id": "4b648bbd2e06286f",
-   "title": "0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP",
-   "summary": "0sec Labs has open-sourced 0, an AI security harness for code review, pentesting, reverse engineering and fixes. It runs locally through a browser console, a headless CLI and an MCP server, with your own model provider. The post 0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP appeared first on MarkTechPost .",
+   "id": "978008989f5d507a",
+   "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
+   "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, one model with two safeguard levels. Fable 5.2 scores 49.1% on FrontierCode 2.0, costs $8/$40 per million tokens, and ships with a 1M-token context window. The post Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards appeared first on MarkTechPost...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/08/0sec-labs-open-sources-0-ai-security-harness/",
-   "published": "2026-11-09",
+   "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
+   "published": "2026-11-10",
    "tags": [
     "industry",
-    "agents"
-   ]
-  },
-  {
-   "id": "13cd88ea267cd7b6",
-   "title": "Curbside Chatbots: Auditing the Mental Health Interventions Large Language Models Recommend to Clinicians, Caregivers, and Patients",
-   "summary": "Users are asking language models mental health questions and are receiving answers. We audited what 41 language models recommend to users when the same clinical information reaches them from three footings: a clinician describing a patient, a caregiver describing a loved one, or a person describing themselves. Across 19 case vignettes...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.12814v1",
-   "published": "2026-11-09",
-   "tags": [
-    "paper",
     "llm"
    ]
   },
   {
-   "id": "49a7359d70092c3b",
-   "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
-   "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligning with those of vision models. However, recent work has questioned whether this trend continues to hold for newer language models...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.12869v1",
-   "published": "2026-11-09",
+   "id": "a2815a97023a9c3a",
+   "title": "Pterodactyl: Pushing the Limits of Efficient Automated Translation Evaluation",
+   "summary": "In this paper, we present 1020 Group's submission to the WMT26 shared task on automated quality evaluation. Our system, Pterodactyl, was engineered specifically for subtasks 2 and 3, that is, segment-level quality score prediction and the detection of error-free segments. Pterodactyl is a highly customizable, ultra-low cost system...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.14480v1",
+   "published": "2026-11-10",
    "tags": [
     "paper",
-    "llm",
-    "fine-tuning"
+    "evaluation"
    ]
   },
   {
-   "id": "932fe34bad728f30",
-   "title": "Kuken Industries searches 70 years of drawings in minutes",
-   "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+   "id": "2af7f9f574054cee",
+   "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+   "summary": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.14504v1",
+   "published": "2026-11-10",
+   "tags": [
+    "paper",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "4e3e5904c85ae763",
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/kuken",
-   "published": "2026-11-09",
+   "url": "https://openai.com/index/singapore-airlines-travel-work",
+   "published": "2026-11-10",
    "tags": [
     "labs"
    ]
@@ -622,25 +617,26 @@
    ]
   },
   {
-   "id": "b0da25ea6c1a2967",
-   "title": "Gemini 4 Carbon: Our next frontier model",
-   "summary": "",
+   "id": "094c331a98fae894",
+   "title": "Speeding up planning decisions with AI",
+   "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-   "published": "2026-10-28",
+   "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+   "published": "2026-10-30",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "5afc49da7bd40515",
-   "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+   "id": "be1ba71e55b7f125",
+   "title": "ToyBlocks: A controlled world for robot learning and evaluation",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-   "published": "2026-11-04",
+   "url": "https://huggingface.co/blog/allenai/toyblocks",
+   "published": "2026-11-06",
    "tags": [
-    "open-source"
+    "open-source",
+    "evaluation"
    ]
   },
   {
@@ -681,39 +677,43 @@
    ]
   },
   {
-   "id": "6ec91eb53be5a835",
-   "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
-   "summary": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code. The post Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding appeared first on MarkTechPost .",
+   "id": "d3fbcf24d3c3277f",
+   "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work",
+   "summary": "Meta Muse Ember is Meta’s smallest model, built for tool calls, coding subtasks and document parsing. It ties Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at roughly a third of the cost per task. The post Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
-   "published": "2026-11-08",
+   "url": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
+   "published": "2026-11-10",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "3b217ee2de6056db",
-   "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
-   "summary": "Developing effective machine learning models requires complex manual tuning, while current Automated Machine Learning (AutoML) frameworks remain domain-specific and isolate model architecture, training hyperparameter, and data ratio optimization. Here, we bridge this gap by proposing a universal, large language model (LLM)-based AutoML...",
+   "id": "6bde40ef116e44fb",
+   "title": "FERN: Cross-Benchmark Table Retrieval for Text-to-SQL with Frozen Retrievers and Learned Ranking",
+   "summary": "Text-to-SQL systems over large pooled catalogs must first retrieve the tables a question needs. We compare against the published table recall of RASL, which uses Claude 3.5 models to extract keywords and select tables, on pooled BIRD, Spider, and Fiben catalogs. FERN (Feature-Engineered Ranking with No generative LLM) instead fuses three...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.12791v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14477v1",
+   "published": "2026-11-10",
    "tags": [
     "paper",
-    "llm"
+    "rag",
+    "llm",
+    "evaluation"
    ]
   },
   {
-   "id": "a2d5f8ba3811f46c",
-   "title": "What kills $v$-prediction? A Patch-wise PCA Perspective on Pixel-Space Flow Matching",
-   "summary": "Latent Diffusion Models dominate generative modeling but face two-stage training complexity and the inherent reconstruction limits of pre-trained autoencoders. Pixel-space Flow Matching offers a simplified end-to-end alternative yet often encounters training difficulties when using the standard $v$-prediction objective. Recent research...",
+   "id": "7aee793501c79b0f",
+   "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+   "summary": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.12852v1",
-   "published": "2026-11-09",
+   "url": "https://arxiv.org/abs/2611.14492v1",
+   "published": "2026-11-10",
    "tags": [
     "paper",
-    "multimodal"
+    "llm",
+    "fine-tuning",
+    "serving"
    ]
   }
  ]
