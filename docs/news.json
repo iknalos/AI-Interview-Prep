@@ -1,17 +1,133 @@
 {
- "generated": "2026-11-11",
- "generatedAt": "2026-11-11T14:31:06+00:00",
+ "generated": "2026-11-12",
+ "generatedAt": "2026-11-12T15:24:47+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "f28f90d2895a812c",
-   "title": "Gilbert + Tobin rethinks the business of law with AI",
-   "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+   "id": "0990939c7d6ea9f7",
+   "title": "Holiday Extras is rethinking what it can build with Codex",
+   "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
    "published": "2026-11-12",
    "tags": [
     "labs"
+   ]
+  },
+  {
+   "id": "9a0e58e782b2fa6e",
+   "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+   "summary": "Health & Bioscience",
+   "source": "Google Research",
+   "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+   "published": "2026-11-11",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "5b916f1bea878c9c",
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "published": "2026-11-11",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "56dac742ff29ffe2",
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "published": "2026-11-12",
+   "tags": [
+    "open-source",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "5d9edf20f6313367",
+   "title": "BAIR at CoRL 2026",
+   "summary": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with...",
+   "source": "BAIR",
+   "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
+   "published": "2026-11-09",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "a865d7bae4f04a4d",
+   "title": "New research could lead to faster, trustworthy AI models for climate prediction",
+   "summary": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
+   "published": "2026-11-12",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "d1a3b4fa5d93fb49",
+   "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+   "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "published": "2026-10-24",
+   "tags": [
+    "newsletter",
+    "fine-tuning",
+    "evaluation",
+    "serving"
+   ]
+  },
+  {
+   "id": "4d944021cd7fcae3",
+   "title": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
+   "summary": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations. 2 r3 chips will link into a 1,040-qubit system in 2027, while Nighthawk r2 already posts up to 19x speedups over Heron. The post IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable...",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/11/12/ibm-quantum-nighthawk-r3-520-qubits-1040-qubit-system-2027/",
+   "published": "2026-11-12",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "44f12482a15a6cc6",
+   "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+   "summary": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.14515v1",
+   "published": "2026-11-10",
+   "tags": [
+    "paper",
+    "llm"
+   ]
+  },
+  {
+   "id": "8a346a80b3ec8676",
+   "title": "TorchCurves: Differentiable Parametric Curves",
+   "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can be optimized jointly...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.14516v1",
+   "published": "2026-11-10",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "b06379671ede1f62",
+   "title": "Supporting research on AI and children’s safety",
+   "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/children-first-declaration",
+   "published": "2026-11-12",
+   "tags": [
+    "labs",
+    "safety"
    ]
   },
   {
@@ -50,124 +166,6 @@
    ]
   },
   {
-   "id": "5d9edf20f6313367",
-   "title": "BAIR at CoRL 2026",
-   "summary": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
-   "published": "2026-11-09",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "f60cbf1284a615ee",
-   "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
-   "summary": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
-   "published": "2026-11-10",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "d1a3b4fa5d93fb49",
-   "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
-   "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-   "published": "2026-10-24",
-   "tags": [
-    "newsletter",
-    "fine-tuning",
-    "evaluation",
-    "serving"
-   ]
-  },
-  {
-   "id": "be3ddfba985d092b",
-   "title": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
-   "summary": "The Institute of Foundation Models at MBZUAI released PAN 2, an Apache 2.0 world model that couples an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of action outcomes as video. The post MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI appeared first on MarkTechPost .",
-   "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
-   "published": "2026-11-11",
-   "tags": [
-    "industry",
-    "llm",
-    "multimodal"
-   ]
-  },
-  {
-   "id": "44f12482a15a6cc6",
-   "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
-   "summary": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.14515v1",
-   "published": "2026-11-10",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "8a346a80b3ec8676",
-   "title": "TorchCurves: Differentiable Parametric Curves",
-   "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can be optimized jointly...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.14516v1",
-   "published": "2026-11-10",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "80b38ea7da372c49",
-   "title": "ChatGPT Plus for veterans and servicemembers",
-   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-   "published": "2026-11-11",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "25f255575df3acb6",
-   "title": "Detecting signs of hypertension using wearable sensors",
-   "summary": "Health & Bioscience",
-   "source": "Google Research",
-   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
-   "published": "2026-11-05",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "428ac4b42c0b5f39",
-   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-   "published": "2026-11-10",
-   "tags": [
-    "labs",
-    "agents"
-   ]
-  },
-  {
-   "id": "724fae9251483a53",
-   "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-   "published": "2026-11-10",
-   "tags": [
-    "open-source"
-   ]
-  },
-  {
    "id": "9939bfd922ed189c",
    "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
    "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different vendors, each with its...",
@@ -179,12 +177,12 @@
    ]
   },
   {
-   "id": "8422634c9a069030",
-   "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
-   "summary": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
+   "id": "f60cbf1284a615ee",
+   "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
+   "summary": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
-   "published": "2026-11-09",
+   "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+   "published": "2026-11-10",
    "tags": [
     "research"
    ]
@@ -202,15 +200,14 @@
    ]
   },
   {
-   "id": "ad52ee8ca17523c0",
-   "title": "Fish Audio Releases Live 3, a Full-Duplex Voice Model That Reacts in 186 ms",
-   "summary": "Fish Audio released Live 3, a full-duplex voice model for voice agents. It listens while it speaks, separates “mm-hmm” from real interruptions, and can react in as little as 186 ms. English only at launch The post Fish Audio Releases Live 3, a Full-Duplex Voice Model That Reacts in 186 ms appeared first on MarkTechPost .",
+   "id": "faee25e7eeb07c18",
+   "title": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
+   "summary": "Google launched the Gemini Decisions API, powered by Gemini Decision 1. It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0.10 per 1M input tokens. The post Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/10/fish-audio-live-3-full-duplex-voice-model/",
+   "url": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
    "published": "2026-11-11",
    "tags": [
-    "industry",
-    "agents"
+    "industry"
    ]
   },
   {
@@ -241,50 +238,49 @@
    ]
   },
   {
-   "id": "46ecb159c1535b09",
-   "title": "Helping caregivers use AI in everyday life",
-   "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+   "id": "f28f90d2895a812c",
+   "title": "Gilbert + Tobin rethinks the business of law with AI",
+   "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-   "published": "2026-11-10",
+   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "published": "2026-11-12",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
-   "id": "c4f5d2954769947b",
-   "title": "Agile Deliberation: How AI helps humans define the gray areas",
-   "summary": "Data Mining & Modeling",
+   "id": "25f255575df3acb6",
+   "title": "Detecting signs of hypertension using wearable sensors",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
-   "published": "2026-11-04",
+   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+   "published": "2026-11-05",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "a98763b80c842ad2",
-   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-   "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "id": "428ac4b42c0b5f39",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-   "published": "2026-11-09",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "published": "2026-11-10",
    "tags": [
     "labs",
-    "multimodal",
-    "safety"
+    "agents"
    ]
   },
   {
-   "id": "3229de0d919212c3",
-   "title": "Decision Models in Hugging Face",
+   "id": "d2296a64c0dc3b89",
+   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/decision",
-   "published": "2026-11-10",
+   "url": "https://huggingface.co/blog/token-pooling",
+   "published": "2026-11-11",
    "tags": [
-    "open-source"
+    "open-source",
+    "rag"
    ]
   },
   {
@@ -300,11 +296,11 @@
    ]
   },
   {
-   "id": "aac00f5f941f51b6",
-   "title": "AI-assisted learning platform helps robots reason beyond literal commands",
-   "summary": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
+   "id": "8422634c9a069030",
+   "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+   "summary": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+   "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
    "published": "2026-11-09",
    "tags": [
     "research"
@@ -324,12 +320,12 @@
    ]
   },
   {
-   "id": "03a27d01d5e88852",
-   "title": "Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs",
-   "summary": "Meta FAIR’s e-means is a mini-batch k-means replacement shipped in FAISS 1.16.0. It reaches Lloyd’s 25-epoch loss in 1.4 to 2.6 epochs, with 10-45x GPU speedups and no extra hyperparameters. The post Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs appeared first on MarkTechPost .",
+   "id": "89831e72483f05e9",
+   "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+   "summary": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type. It is available via the AlphaGenome API for non-commercial research. The post Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/10/meta-fair-e-means-k-means-faiss/",
-   "published": "2026-11-10",
+   "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+   "published": "2026-11-11",
    "tags": [
     "industry"
    ]
@@ -360,47 +356,48 @@
    ]
   },
   {
-   "id": "5ca4dc7b6d88cb31",
-   "title": "Introducing Businesses in ChatGPT",
-   "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+   "id": "80b38ea7da372c49",
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-businesses-chatgpt",
-   "published": "2026-11-10",
+   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "published": "2026-11-11",
    "tags": [
     "labs",
     "llm"
    ]
   },
   {
-   "id": "91ab09be6954d23d",
-   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
-   "summary": "Education Innovation",
+   "id": "c4f5d2954769947b",
+   "title": "Agile Deliberation: How AI helps humans define the gray areas",
+   "summary": "Data Mining & Modeling",
    "source": "Google Research",
-   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-   "published": "2026-10-27",
+   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+   "published": "2026-11-04",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
-   "id": "825a50d1c0ad7f36",
-   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-   "summary": "",
+   "id": "a98763b80c842ad2",
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-   "published": "2026-11-05",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "published": "2026-11-09",
    "tags": [
-    "labs"
+    "labs",
+    "multimodal",
+    "safety"
    ]
   },
   {
-   "id": "057e22ab69c04fb1",
-   "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+   "id": "724fae9251483a53",
+   "title": "Pay for Hugging Face Hub with your Google Cloud Account",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-   "published": "2026-11-09",
+   "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+   "published": "2026-11-10",
    "tags": [
     "open-source"
    ]
@@ -420,12 +417,12 @@
    ]
   },
   {
-   "id": "ba5f1cdb14f57903",
-   "title": "How to predict the behavior of molecules from scant data",
-   "summary": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+   "id": "aac00f5f941f51b6",
+   "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+   "summary": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
-   "published": "2026-11-06",
+   "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+   "published": "2026-11-09",
    "tags": [
     "research"
    ]
@@ -442,15 +439,15 @@
    ]
   },
   {
-   "id": "8e727521319628ae",
-   "title": "Zyphra Releases ZONOS3-Mini: Open-Source TTS With 100M Active Parameters",
-   "summary": "Zyphra released ZONOS3-Mini, an Apache 2.0 text-to-speech model with 800M total and 100M active parameters. It clones voices, steers delivery word by word and runs in real time in the browser The post Zyphra Releases ZONOS3-Mini: Open-Source TTS With 100M Active Parameters appeared first on MarkTechPost .",
+   "id": "df94b6a8801f747d",
+   "title": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
+   "summary": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension The post Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/10/zyphra-zonos3-mini-open-source-tts/",
-   "published": "2026-11-10",
+   "url": "https://www.marktechpost.com/2026/11/11/marktechpost-gpu-leaderboard-chrome-extension-launch/",
+   "published": "2026-11-11",
    "tags": [
     "industry",
-    "multimodal"
+    "evaluation"
    ]
   },
   {
@@ -481,46 +478,47 @@
    ]
   },
   {
-   "id": "01a8528fa117926a",
-   "title": "Closing the AI guidance gap in education",
-   "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+   "id": "8c999d6885d24711",
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-   "published": "2026-11-10",
+   "url": "https://openai.com/index/jiostar-vijay-seshadri",
+   "published": "2026-11-11",
+   "tags": [
+    "labs",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "91ab09be6954d23d",
+   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "summary": "Education Innovation",
+   "source": "Google Research",
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "published": "2026-10-27",
+   "tags": [
+    "research",
+    "llm"
+   ]
+  },
+  {
+   "id": "825a50d1c0ad7f36",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "published": "2026-11-05",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "3c115b0c264de194",
-   "title": "Bringing foundational models to the front lines of TB screening",
-   "summary": "Generative AI",
-   "source": "Google Research",
-   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
-   "published": "2026-10-23",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "7b04a568c5adccd6",
-   "title": "Agentic cheminformatics with Google Antigravity",
-   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-   "source": "DeepMind",
-   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-   "published": "2026-11-03",
-   "tags": [
-    "labs",
-    "agents"
-   ]
-  },
-  {
-   "id": "7b1451fc786c34f9",
-   "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+   "id": "3229de0d919212c3",
+   "title": "Decision Models in Hugging Face",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-   "published": "2026-11-09",
+   "url": "https://huggingface.co/blog/decision",
+   "published": "2026-11-10",
    "tags": [
     "open-source"
    ]
@@ -537,12 +535,12 @@
    ]
   },
   {
-   "id": "16de4ca3c25d3eed",
-   "title": "Clearing up a robot’s fuzzy memory",
-   "summary": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+   "id": "ba5f1cdb14f57903",
+   "title": "How to predict the behavior of molecules from scant data",
+   "summary": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
-   "published": "2026-11-05",
+   "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+   "published": "2026-11-06",
    "tags": [
     "research"
    ]
@@ -559,15 +557,16 @@
    ]
   },
   {
-   "id": "978008989f5d507a",
-   "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
-   "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, one model with two safeguard levels. Fable 5.2 scores 49.1% on FrontierCode 2.0, costs $8/$40 per million tokens, and ships with a 1M-token context window. The post Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards appeared first on MarkTechPost...",
+   "id": "be3ddfba985d092b",
+   "title": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
+   "summary": "The Institute of Foundation Models at MBZUAI released PAN 2, an Apache 2.0 world model that couples an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of action outcomes as video. The post MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
-   "published": "2026-11-10",
+   "url": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
+   "published": "2026-11-11",
    "tags": [
     "industry",
-    "llm"
+    "llm",
+    "multimodal"
    ]
   },
   {
@@ -595,48 +594,49 @@
    ]
   },
   {
-   "id": "4e3e5904c85ae763",
-   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-   "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+   "id": "46ecb159c1535b09",
+   "title": "Helping caregivers use AI in everyday life",
+   "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/singapore-airlines-travel-work",
+   "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
    "published": "2026-11-10",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "2de1f3f85cd444cf",
-   "title": "Empowering frontline maternal care with AI-assisted ultrasound",
-   "summary": "Health & Bioscience",
+   "id": "3c115b0c264de194",
+   "title": "Bringing foundational models to the front lines of TB screening",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
-   "published": "2026-10-21",
+   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+   "published": "2026-10-23",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "094c331a98fae894",
-   "title": "Speeding up planning decisions with AI",
-   "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+   "id": "7b04a568c5adccd6",
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
    "source": "DeepMind",
-   "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-   "published": "2026-10-30",
+   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "published": "2026-11-03",
    "tags": [
-    "labs"
+    "labs",
+    "agents"
    ]
   },
   {
-   "id": "be1ba71e55b7f125",
-   "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+   "id": "057e22ab69c04fb1",
+   "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/toyblocks",
-   "published": "2026-11-06",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+   "published": "2026-11-09",
    "tags": [
-    "open-source",
-    "evaluation"
+    "open-source"
    ]
   },
   {
@@ -653,12 +653,12 @@
    ]
   },
   {
-   "id": "12feaf67ddae85b1",
-   "title": "Building connections across the research infrastructure",
-   "summary": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
+   "id": "16de4ca3c25d3eed",
+   "title": "Clearing up a robot’s fuzzy memory",
+   "summary": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
-   "published": "2026-11-03",
+   "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+   "published": "2026-11-05",
    "tags": [
     "research"
    ]
@@ -677,12 +677,12 @@
    ]
   },
   {
-   "id": "d3fbcf24d3c3277f",
-   "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work",
-   "summary": "Meta Muse Ember is Meta’s smallest model, built for tool calls, coding subtasks and document parsing. It ties Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at roughly a third of the cost per task. The post Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work appeared first on MarkTechPost .",
+   "id": "ad52ee8ca17523c0",
+   "title": "Fish Audio Releases Live 3, a Full-Duplex Voice Model That Reacts in 186 ms",
+   "summary": "Fish Audio released Live 3, a full-duplex voice model for voice agents. It listens while it speaks, separates “mm-hmm” from real interruptions, and can react in as little as 186 ms. English only at launch The post Fish Audio Releases Live 3, a Full-Duplex Voice Model That Reacts in 186 ms appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
-   "published": "2026-11-10",
+   "url": "https://www.marktechpost.com/2026/11/10/fish-audio-live-3-full-duplex-voice-model/",
+   "published": "2026-11-11",
    "tags": [
     "industry",
     "agents"
