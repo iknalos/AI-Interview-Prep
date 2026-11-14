@@ -1,27 +1,28 @@
 {
- "generated": "2026-11-13",
- "generatedAt": "2026-11-13T14:42:01+00:00",
+ "generated": "2026-11-14",
+ "generatedAt": "2026-11-14T13:39:11+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "5b0f73df89a6e310",
-   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-   "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+   "id": "5bf4951adbe9698d",
+   "title": "Introducing ChatGPT Wallet",
+   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
    "source": "OpenAI",
-   "url": "https://openai.com/business/customer-stories/amplitude",
-   "published": "2026-11-12",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet",
+   "published": "2026-11-13",
    "tags": [
     "labs",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "9a0e58e782b2fa6e",
-   "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
-   "summary": "Health & Bioscience",
+   "id": "90d40fe08702a974",
+   "title": "Advancing science & engineering with Antigravity’s /teamwork",
+   "summary": "Education Innovation",
    "source": "Google Research",
-   "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
-   "published": "2026-11-11",
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "published": "2026-11-13",
    "tags": [
     "research"
    ]
@@ -38,11 +39,11 @@
    ]
   },
   {
-   "id": "40e78db6601d46e6",
-   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "id": "2427bacb74a96b4b",
+   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
    "published": "2026-11-13",
    "tags": [
     "open-source"
@@ -85,16 +86,15 @@
    ]
   },
   {
-   "id": "e7899aa97bafc2bf",
-   "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
-   "summary": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models. The post Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs appeared first on MarkTechPost .",
+   "id": "ad306b16c1bb8d28",
+   "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+   "summary": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. It reaches 84.33% on FactKG using 108x fewer document tokens than full context. The post Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs appeared first...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
-   "published": "2026-11-13",
+   "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
+   "published": "2026-11-14",
    "tags": [
     "industry",
-    "llm",
-    "serving"
+    "llm"
    ]
   },
   {
@@ -124,24 +124,24 @@
    ]
   },
   {
-   "id": "90d79223706ea3ab",
-   "title": "Gondola doubles revenue as its team builds more with Codex",
-   "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+   "id": "d1318183fe172893",
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
    "source": "OpenAI",
-   "url": "https://openai.com/business/customer-stories/gondola",
-   "published": "2026-11-12",
+   "url": "https://openai.com/business/customer-stories/shield",
+   "published": "2026-11-13",
    "tags": [
     "labs",
-    "llm"
+    "agents"
    ]
   },
   {
-   "id": "5f5a5a012b729bd1",
-   "title": "Exploring the world's languages with Language Explorer",
-   "summary": "Natural Language Processing",
+   "id": "9a0e58e782b2fa6e",
+   "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
-   "published": "2026-11-09",
+   "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+   "published": "2026-11-11",
    "tags": [
     "research"
    ]
@@ -158,15 +158,14 @@
    ]
   },
   {
-   "id": "a88bddb17214a029",
-   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+   "id": "8400bdfe1e2afd49",
+   "title": "XYBench: Helping with the problem behind the question",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-   "published": "2026-11-12",
+   "url": "https://huggingface.co/blog/allenai/xybench",
+   "published": "2026-11-13",
    "tags": [
-    "open-source",
-    "llm"
+    "open-source"
    ]
   },
   {
@@ -204,12 +203,12 @@
    ]
   },
   {
-   "id": "e13d8feb54cdb9f4",
-   "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
-   "summary": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1. The post Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash appeared first on MarkTechPost .",
+   "id": "87b8686439b2776f",
+   "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
+   "summary": "Vercel Labs released Vercel UI SDK, an Apache-2.0 beta library of 50+ UI behaviors. Coding agents compose them into accessible components for React, Vue, Svelte, Solid and Web Components, with a bridge for direct UI control. The post Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
-   "published": "2026-11-13",
+   "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
+   "published": "2026-11-14",
    "tags": [
     "industry",
     "agents"
@@ -240,23 +239,24 @@
    ]
   },
   {
-   "id": "0990939c7d6ea9f7",
-   "title": "Holiday Extras is rethinking what it can build with Codex",
-   "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+   "id": "5b0f73df89a6e310",
+   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+   "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
    "source": "OpenAI",
-   "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "url": "https://openai.com/business/customer-stories/amplitude",
    "published": "2026-11-12",
    "tags": [
-    "labs"
+    "labs",
+    "agents"
    ]
   },
   {
-   "id": "25f255575df3acb6",
-   "title": "Detecting signs of hypertension using wearable sensors",
-   "summary": "Health & Bioscience",
+   "id": "5f5a5a012b729bd1",
+   "title": "Exploring the world's languages with Language Explorer",
+   "summary": "Natural Language Processing",
    "source": "Google Research",
-   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
-   "published": "2026-11-05",
+   "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+   "published": "2026-11-09",
    "tags": [
     "research"
    ]
@@ -273,15 +273,14 @@
    ]
   },
   {
-   "id": "56dac742ff29ffe2",
-   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "id": "40e78db6601d46e6",
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/3d-lora-finetuning",
-   "published": "2026-11-12",
+   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "published": "2026-11-13",
    "tags": [
-    "open-source",
-    "fine-tuning"
+    "open-source"
    ]
   },
   {
@@ -321,14 +320,16 @@
    ]
   },
   {
-   "id": "0ee9f88dcb6a1afd",
-   "title": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
-   "summary": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and LFM3-Omni-2B. It runs at 12.5 Hz with 12 codebooks and encodes about 361x faster than real time on a single CPU thread. The post Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec appeared first on MarkTechPost .",
+   "id": "bd92ae14b8c49dc7",
+   "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
+   "summary": "The AI video leaderboard looks very different from 12 months ago. Native audio is now table stakes. Clips run 15–30 seconds. And an open-weights model sits in the top 3. This ranking (as of Nov 13, 2026) uses one quality signal: blind human-preference Elo from the Artificial Analysis Video Arena. We pair it with API […] The post Best AI...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/",
-   "published": "2026-11-12",
+   "url": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
+   "published": "2026-11-13",
    "tags": [
-    "industry"
+    "industry",
+    "fine-tuning",
+    "evaluation"
    ]
   },
   {
@@ -356,24 +357,24 @@
    ]
   },
   {
-   "id": "b06379671ede1f62",
-   "title": "Supporting research on AI and children’s safety",
-   "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+   "id": "90d79223706ea3ab",
+   "title": "Gondola doubles revenue as its team builds more with Codex",
+   "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/children-first-declaration",
+   "url": "https://openai.com/business/customer-stories/gondola",
    "published": "2026-11-12",
    "tags": [
     "labs",
-    "safety"
+    "llm"
    ]
   },
   {
-   "id": "c4f5d2954769947b",
-   "title": "Agile Deliberation: How AI helps humans define the gray areas",
-   "summary": "Data Mining & Modeling",
+   "id": "25f255575df3acb6",
+   "title": "Detecting signs of hypertension using wearable sensors",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
-   "published": "2026-11-04",
+   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+   "published": "2026-11-05",
    "tags": [
     "research"
    ]
@@ -391,16 +392,15 @@
    ]
   },
   {
-   "id": "b22522d14a17f95f",
-   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "id": "a88bddb17214a029",
+   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/qvac/botpsy",
-   "published": "2026-11-11",
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+   "published": "2026-11-12",
    "tags": [
     "open-source",
-    "llm",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -440,15 +440,14 @@
    ]
   },
   {
-   "id": "6d8364993999a5d0",
-   "title": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
-   "summary": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bring their own agents, models and infrastructure, while every Bot action passes a policy check and lands in an audit trail. The post CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance...",
+   "id": "071aacbc0dd63730",
+   "title": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
+   "summary": "Perplexity Decider v1.3 and Flash v1.3 are open-weight decision models that return probabilities, not text. Version 1.3 adds Locate for span extraction and reports 91.6% mean accuracy on 63 query-classification tasks. The post Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/",
-   "published": "2026-11-12",
+   "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
+   "published": "2026-11-13",
    "tags": [
-    "industry",
-    "agents"
+    "industry"
    ]
   },
   {
@@ -476,26 +475,25 @@
    ]
   },
   {
-   "id": "f28f90d2895a812c",
-   "title": "Gilbert + Tobin rethinks the business of law with AI",
-   "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+   "id": "0990939c7d6ea9f7",
+   "title": "Holiday Extras is rethinking what it can build with Codex",
+   "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
    "published": "2026-11-12",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "91ab09be6954d23d",
-   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
-   "summary": "Education Innovation",
+   "id": "c4f5d2954769947b",
+   "title": "Agile Deliberation: How AI helps humans define the gray areas",
+   "summary": "Data Mining & Modeling",
    "source": "Google Research",
-   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-   "published": "2026-10-27",
+   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+   "published": "2026-11-04",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
@@ -510,15 +508,15 @@
    ]
   },
   {
-   "id": "d2296a64c0dc3b89",
-   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "id": "56dac742ff29ffe2",
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/token-pooling",
-   "published": "2026-11-11",
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "published": "2026-11-12",
    "tags": [
     "open-source",
-    "rag"
+    "fine-tuning"
    ]
   },
   {
@@ -555,15 +553,16 @@
    ]
   },
   {
-   "id": "ad1b1bd80bea872e",
-   "title": "AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
-   "summary": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models. Autonomous agents wrote all of its code. It passes 56.6% of 42,857 published fidelity tests at launch. The post AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents appeared first on MarkTechPost .",
+   "id": "e7899aa97bafc2bf",
+   "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
+   "summary": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models. The post Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
-   "published": "2026-11-12",
+   "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
+   "published": "2026-11-13",
    "tags": [
     "industry",
-    "agents"
+    "llm",
+    "serving"
    ]
   },
   {
@@ -592,26 +591,27 @@
    ]
   },
   {
-   "id": "80b38ea7da372c49",
-   "title": "ChatGPT Plus for veterans and servicemembers",
-   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+   "id": "b06379671ede1f62",
+   "title": "Supporting research on AI and children’s safety",
+   "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-   "published": "2026-11-11",
+   "url": "https://openai.com/index/children-first-declaration",
+   "published": "2026-11-12",
    "tags": [
     "labs",
-    "llm"
+    "safety"
    ]
   },
   {
-   "id": "3c115b0c264de194",
-   "title": "Bringing foundational models to the front lines of TB screening",
-   "summary": "Generative AI",
+   "id": "91ab09be6954d23d",
+   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "summary": "Education Innovation",
    "source": "Google Research",
-   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
-   "published": "2026-10-23",
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "published": "2026-10-27",
    "tags": [
-    "research"
+    "research",
+    "llm"
    ]
   },
   {
@@ -628,14 +628,16 @@
    ]
   },
   {
-   "id": "724fae9251483a53",
-   "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+   "id": "b22522d14a17f95f",
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-   "published": "2026-11-10",
+   "url": "https://huggingface.co/blog/qvac/botpsy",
+   "published": "2026-11-11",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm",
+    "agents"
    ]
   },
   {
@@ -676,14 +678,15 @@
    ]
   },
   {
-   "id": "4d944021cd7fcae3",
-   "title": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
-   "summary": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations. 2 r3 chips will link into a 1,040-qubit system in 2027, while Nighthawk r2 already posts up to 19x speedups over Heron. The post IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable...",
+   "id": "e13d8feb54cdb9f4",
+   "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
+   "summary": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1. The post Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/12/ibm-quantum-nighthawk-r3-520-qubits-1040-qubit-system-2027/",
-   "published": "2026-11-12",
+   "url": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
+   "published": "2026-11-13",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
