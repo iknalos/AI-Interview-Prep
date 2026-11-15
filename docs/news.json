@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-14",
- "generatedAt": "2026-11-14T13:39:11+00:00",
+ "generated": "2026-11-15",
+ "generatedAt": "2026-11-15T14:03:44+00:00",
  "sourceCount": 10,
  "items": [
   {
@@ -72,29 +72,29 @@
    ]
   },
   {
-   "id": "d1a3b4fa5d93fb49",
-   "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
-   "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+   "id": "950ac38f23f2d5a7",
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "summary": "The Methods Behind How LLMs Represent Token Positions",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-   "published": "2026-10-24",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "published": "2026-11-15",
    "tags": [
     "newsletter",
-    "fine-tuning",
-    "evaluation",
-    "serving"
+    "rag",
+    "llm"
    ]
   },
   {
-   "id": "ad306b16c1bb8d28",
-   "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
-   "summary": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. It reaches 84.33% on FactKG using 108x fewer document tokens than full context. The post Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs appeared first...",
+   "id": "d2e63c5f2661d937",
+   "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+   "summary": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet. The post Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
-   "published": "2026-11-14",
+   "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+   "published": "2026-11-15",
    "tags": [
     "industry",
-    "llm"
+    "evaluation",
+    "multimodal"
    ]
   },
   {
@@ -191,27 +191,29 @@
    ]
   },
   {
-   "id": "9ccfb6a6858541d5",
-   "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
-   "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
+   "id": "d1a3b4fa5d93fb49",
+   "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+   "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
-   "published": "2026-09-29",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "published": "2026-10-24",
    "tags": [
     "newsletter",
-    "llm"
+    "fine-tuning",
+    "evaluation",
+    "serving"
    ]
   },
   {
-   "id": "87b8686439b2776f",
-   "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
-   "summary": "Vercel Labs released Vercel UI SDK, an Apache-2.0 beta library of 50+ UI behaviors. Coding agents compose them into accessible components for React, Vue, Svelte, Solid and Web Components, with a bridge for direct UI control. The post Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents appeared first on MarkTechPost .",
+   "id": "eb6c9f2667bf3c7c",
+   "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
+   "summary": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run. The post Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
+   "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
    "published": "2026-11-14",
    "tags": [
     "industry",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -307,29 +309,27 @@
    ]
   },
   {
-   "id": "44084287147f6737",
-   "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
-   "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+   "id": "9ccfb6a6858541d5",
+   "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+   "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-   "published": "2026-09-09",
+   "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+   "published": "2026-09-29",
    "tags": [
     "newsletter",
-    "llm",
-    "reasoning"
+    "llm"
    ]
   },
   {
-   "id": "bd92ae14b8c49dc7",
-   "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
-   "summary": "The AI video leaderboard looks very different from 12 months ago. Native audio is now table stakes. Clips run 15–30 seconds. And an open-weights model sits in the top 3. This ranking (as of Nov 13, 2026) uses one quality signal: blind human-preference Elo from the Artificial Analysis Video Arena. We pair it with API […] The post Best AI...",
+   "id": "ad306b16c1bb8d28",
+   "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+   "summary": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. It reaches 84.33% on FactKG using 108x fewer document tokens than full context. The post Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs appeared first...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
-   "published": "2026-11-13",
+   "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
+   "published": "2026-11-14",
    "tags": [
     "industry",
-    "fine-tuning",
-    "evaluation"
+    "llm"
    ]
   },
   {
@@ -429,25 +429,28 @@
    ]
   },
   {
-   "id": "df5399c7f9d2448e",
-   "title": "How Claude Watermarks AI-Generated Text",
-   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
+   "id": "44084287147f6737",
+   "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+   "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
-   "published": "2026-08-22",
+   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+   "published": "2026-09-09",
    "tags": [
-    "newsletter"
+    "newsletter",
+    "llm",
+    "reasoning"
    ]
   },
   {
-   "id": "071aacbc0dd63730",
-   "title": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
-   "summary": "Perplexity Decider v1.3 and Flash v1.3 are open-weight decision models that return probabilities, not text. Version 1.3 adds Locate for span extraction and reports 91.6% mean accuracy on 63 query-classification tasks. The post Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate appeared first on MarkTechPost .",
+   "id": "87b8686439b2776f",
+   "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
+   "summary": "Vercel Labs released Vercel UI SDK, an Apache-2.0 beta library of 50+ UI behaviors. Coding agents compose them into accessible components for React, Vue, Svelte, Solid and Web Components, with a bridge for direct UI control. The post Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
-   "published": "2026-11-13",
+   "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
+   "published": "2026-11-14",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
@@ -542,27 +545,27 @@
    ]
   },
   {
-   "id": "53ddef6230f10e58",
-   "title": "Building an AI Text Detector From Scratch",
-   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+   "id": "df5399c7f9d2448e",
+   "title": "How Claude Watermarks AI-Generated Text",
+   "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-   "published": "2026-08-15",
+   "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+   "published": "2026-08-22",
    "tags": [
     "newsletter"
    ]
   },
   {
-   "id": "e7899aa97bafc2bf",
-   "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
-   "summary": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models. The post Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs appeared first on MarkTechPost .",
+   "id": "bd92ae14b8c49dc7",
+   "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
+   "summary": "The AI video leaderboard looks very different from 12 months ago. Native audio is now table stakes. Clips run 15–30 seconds. And an open-weights model sits in the top 3. This ranking (as of Nov 13, 2026) uses one quality signal: blind human-preference Elo from the Artificial Analysis Video Arena. We pair it with API […] The post Best AI...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
+   "url": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
    "published": "2026-11-13",
    "tags": [
     "industry",
-    "llm",
-    "serving"
+    "fine-tuning",
+    "evaluation"
    ]
   },
   {
@@ -665,28 +668,25 @@
    ]
   },
   {
-   "id": "28c7ee44d88bdbf2",
-   "title": "Controlling Reasoning Effort in LLMs",
-   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+   "id": "53ddef6230f10e58",
+   "title": "Building an AI Text Detector From Scratch",
+   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
    "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-   "published": "2026-07-18",
+   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+   "published": "2026-08-15",
    "tags": [
-    "newsletter",
-    "llm",
-    "reasoning"
+    "newsletter"
    ]
   },
   {
-   "id": "e13d8feb54cdb9f4",
-   "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
-   "summary": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1. The post Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash appeared first on MarkTechPost .",
+   "id": "071aacbc0dd63730",
+   "title": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
+   "summary": "Perplexity Decider v1.3 and Flash v1.3 are open-weight decision models that return probabilities, not text. Version 1.3 adds Locate for span extraction and reports 91.6% mean accuracy on 63 query-classification tasks. The post Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
+   "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
    "published": "2026-11-13",
    "tags": [
-    "industry",
-    "agents"
+    "industry"
    ]
   },
   {
