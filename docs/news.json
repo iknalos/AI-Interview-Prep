@@ -1,18 +1,17 @@
 {
- "generated": "2026-11-16",
- "generatedAt": "2026-11-16T16:01:25+00:00",
- "sourceCount": 11,
+ "generated": "2026-11-17",
+ "generatedAt": "2026-11-17T16:12:14+00:00",
+ "sourceCount": 10,
  "items": [
   {
-   "id": "91e58e2ea930c2fa",
-   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-   "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+   "id": "590cb0b9c5dd23f2",
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/lvmh-media-division-partnership",
-   "published": "2026-11-16",
+   "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "published": "2026-11-17",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -38,12 +37,12 @@
    ]
   },
   {
-   "id": "2427bacb74a96b4b",
-   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+   "id": "853b24ff0d6ecd3f",
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-   "published": "2026-11-13",
+   "url": "https://huggingface.co/blog/openrouter",
+   "published": "2026-11-16",
    "tags": [
     "open-source"
    ]
@@ -60,25 +59,14 @@
    ]
   },
   {
-   "id": "606399e29c9ee7e9",
-   "title": "New AI “copilot” helps engineers design better structures",
-   "summary": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
+   "id": "ffe4b9c88a23c6ca",
+   "title": "Q&A: Why building math muscles remains important in the AI era",
+   "summary": "Assistant Professor John Urschel explains why learning the fundamental skills of mathematics is still essential despite the evolution of AI tools.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
-   "published": "2026-11-13",
+   "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
+   "published": "2026-11-17",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "862f2dd49595bba2",
-   "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
-   "summary": "Plus: CucumberVision!",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
-   "published": "2026-11-16",
-   "tags": [
-    "newsletter"
    ]
   },
   {
@@ -95,51 +83,49 @@
    ]
   },
   {
-   "id": "a6ddb4d1ee8e8052",
-   "title": "Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands",
-   "summary": "Meta has moved Catching JiTTests into production. The LLM system writes tests designed to fail on risky diffs, and caught 74 privacy SEVs before landing in H1 2026, with a 60% engineer-reported true-positive rate. The post Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands appeared first on MarkTechPost .",
+   "id": "c3a9d2c8f56d2f70",
+   "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
+   "summary": "NVIDIA has open-sourced NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR) under Apache 2.0. Together they let AI factories run a managed Kubernetes service on their own bare-metal GPU servers. Both are in public preview. The post NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure appeared...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/16/meta-jittests-llm-catching-tests-privacy-bugs/",
-   "published": "2026-11-16",
+   "url": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu/",
+   "published": "2026-11-17",
    "tags": [
-    "industry",
-    "llm"
+    "industry"
    ]
   },
   {
-   "id": "cd580b823d83c75f",
-   "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-   "summary": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness depends on the domain, the data and the...",
+   "id": "20163f0376f0e415",
+   "title": "Latent Lattice Language Models",
+   "summary": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.18533v1",
-   "published": "2026-11-13",
-   "tags": [
-    "paper",
-    "agents"
-   ]
-  },
-  {
-   "id": "bd5fa59a104dd74a",
-   "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
-   "summary": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabilities. In contrast, space-based radio...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.18563v1",
-   "published": "2026-11-13",
-   "tags": [
-    "paper",
-    "safety"
-   ]
-  },
-  {
-   "id": "b0ded74e06b06613",
-   "title": "Advancing computer-use agents for healthcare teams",
-   "summary": "",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "url": "https://arxiv.org/abs/2611.21608v1",
    "published": "2026-11-16",
    "tags": [
-    "labs",
-    "agents"
+    "paper",
+    "llm",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "e0f618065cfb32dd",
+   "title": "Hyperlyve: Parallelized Enumeration and Exact Lyapunov Stability Certification for Deep ReLU Networks",
+   "summary": "We introduce Hyperlyve (Hyperplane Partitioned Lyapunov Verification and Enumeration), a framework for proving the asymptotic stability of nonlinear dynamical systems, including those with neural network controllers. Hyperlyve learns and formally certifies continuous piecewise-affine (CPA) neural Lyapunov functions within a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.21599v1",
+   "published": "2026-11-16",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "58da9c66b1456ac9",
+   "title": "Introducing OpenAI for Chile",
+   "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-openai-for-chile",
+   "published": "2026-11-17",
+   "tags": [
+    "labs"
    ]
   },
   {
@@ -165,11 +151,11 @@
    ]
   },
   {
-   "id": "8400bdfe1e2afd49",
-   "title": "XYBench: Helping with the problem behind the question",
+   "id": "2427bacb74a96b4b",
+   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/xybench",
+   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
    "published": "2026-11-13",
    "tags": [
     "open-source"
@@ -187,25 +173,14 @@
    ]
   },
   {
-   "id": "666c9ce2ae9f1142",
-   "title": "Helping robots fit into the human workplace",
-   "summary": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+   "id": "1ac3744caa9c0983",
+   "title": "Learning the language of machine learning",
+   "summary": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
-   "published": "2026-11-13",
+   "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+   "published": "2026-11-17",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "eed50b97e7877e59",
-   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
-   "summary": "When do you think we'll have robots on the moon?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
-   "published": "2026-11-09",
-   "tags": [
-    "newsletter"
    ]
   },
   {
@@ -223,51 +198,51 @@
    ]
   },
   {
-   "id": "8d1001f25250527b",
-   "title": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
-   "summary": "Alibaba released Qwen4-Max, a proprietary 2.4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context. It costs $1.5/M input tokens and cuts Work360 cost per task by 62%. The post Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context appeared first on MarkTechPost .",
+   "id": "b7af40bdfb965298",
+   "title": "Sarvam Launches Sarvam Token Factory: Bringing India-Hosted Inference to 8 Open Models",
+   "summary": "Sarvam Token Factory is now open to everyone. It serves Sarvam 105B, GLM 5.3, DeepSeek V4.1 Flash, Kimi K3.1 Pro and Gemma 4 31B from GPU clusters in India through one OpenAI-compatible API. The post Sarvam Launches Sarvam Token Factory: Bringing India-Hosted Inference to 8 Open Models appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
-   "published": "2026-11-16",
+   "url": "https://www.marktechpost.com/2026/11/17/sarvam-token-factory-india-inference-platform/",
+   "published": "2026-11-17",
    "tags": [
     "industry",
-    "llm"
+    "serving"
    ]
   },
   {
-   "id": "73ae9587908a0bde",
-   "title": "WaferTetris: Efficient Freeform Mapping on Wafer-Scale Accelerators",
-   "summary": "Wafer-scale accelerators offer massive compute capacity through hundreds of thousands of processing elements (PEs) interconnected across a single wafer, but realizing this potential requires efficient application mapping. Their scale makes programming these systems and mapping applications onto them challenging. Existing approaches rely...",
+   "id": "3b73cde4769e82d2",
+   "title": "Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction",
+   "summary": "The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for intensity forecasting beyond a set of numerical predictors. For 637 Atlantic and eastern North Pacific tropical cyclones from the 2002-2023...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.18527v1",
-   "published": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.21602v1",
+   "published": "2026-11-16",
    "tags": [
     "paper"
    ]
   },
   {
-   "id": "31af9e8bcc972b46",
-   "title": "FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices",
-   "summary": "Recent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to achieve high decoding accuracy. This performance currently comes...",
+   "id": "765d53296388c2ea",
+   "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+   "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.18561v1",
-   "published": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.21598v1",
+   "published": "2026-11-16",
    "tags": [
     "paper",
-    "multimodal"
+    "serving",
+    "agents"
    ]
   },
   {
-   "id": "cfcc7acb02e9ca79",
-   "title": "More ways to move care forward with ChatGPT for Healthcare",
-   "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+   "id": "f26f2a4dfd6b9b95",
+   "title": "Broadening access to AI for scientists",
+   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
    "published": "2026-11-16",
    "tags": [
     "labs",
-    "llm",
-    "agents"
+    "llm"
    ]
   },
   {
@@ -293,11 +268,11 @@
    ]
   },
   {
-   "id": "40e78db6601d46e6",
-   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "id": "8400bdfe1e2afd49",
+   "title": "XYBench: Helping with the problem behind the question",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "url": "https://huggingface.co/blog/allenai/xybench",
    "published": "2026-11-13",
    "tags": [
     "open-source"
@@ -316,27 +291,14 @@
    ]
   },
   {
-   "id": "c1b8ea1b2fb317cf",
-   "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
-   "summary": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
+   "id": "606399e29c9ee7e9",
+   "title": "New AI “copilot” helps engineers design better structures",
+   "summary": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
-   "published": "2026-11-12",
+   "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+   "published": "2026-11-13",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "9091e4453210d34c",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "summary": "What do LLMs think about vision models?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "published": "2026-11-02",
-   "tags": [
-    "newsletter",
-    "llm",
-    "serving"
    ]
   },
   {
@@ -352,52 +314,47 @@
    ]
   },
   {
-   "id": "61b5a421eda37cd4",
-   "title": "Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro",
-   "summary": "Hark has released Handoff², the computer-use agent inside Hark Pro. It averages 2x faster than v1, completes 82% of 478 internal web tasks, and learned to batch actions through latency-penalized RL. The post Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro appeared first on MarkTechPost .",
+   "id": "862dc099fbe7b9db",
+   "title": "Liquid AI Releases d1.2 and d1.2-ultra: Omnimodal Decision Models That Top the AA Decision Index",
+   "summary": "Liquid AI released d1.2 and d1.2-ultra, decision models that read text, images and audio and return calibrated probabilities with zero output tokens. d1.2-ultra scores 75 on the Artificial Analysis Decision Index v2.1. The post Liquid AI Releases d1.2 and d1.2-ultra: Omnimodal Decision Models That Top the AA Decision Index appeared first...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/16/hark-handoff-2-computer-use-agent-2x-faster/",
+   "url": "https://www.marktechpost.com/2026/11/17/liquid-ai-d1-2-omnimodal-decision-models/",
+   "published": "2026-11-17",
+   "tags": [
+    "industry"
+   ]
+  },
+  {
+   "id": "3301f3d29d833754",
+   "title": "How VLMs Plan What's Next",
+   "summary": "When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks. The mechanism has four main parts. First, binding heads match the relevant text tokens...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.21600v1",
    "published": "2026-11-16",
    "tags": [
-    "industry",
-    "serving",
-    "agents"
-   ]
-  },
-  {
-   "id": "6e63ef81234dd62b",
-   "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
-   "summary": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.18514v1",
-   "published": "2026-11-13",
-   "tags": [
     "paper",
     "llm",
-    "evaluation",
-    "agents"
+    "multimodal"
    ]
   },
   {
-   "id": "9d04df52e96cbcfe",
-   "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
-   "summary": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B reasoning model can...",
+   "id": "489f75f004b21b12",
+   "title": "Optimal Autoregressive Chain-of-Thought Learning via Bagging",
+   "summary": "We study how to learn an autoregressive next-token generator $f\\colonΣ^\\star\\toΣ$ from a class $\\mathcal{F}$, given chain-of-thought (CoT) demonstrations of length $T$ generated by $f$. We present a simple algorithm based on bagging, which outputs a majority vote of generators that are trained to be CoT-consistent on bootstrap samples of...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.18562v1",
-   "published": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.21597v1",
+   "published": "2026-11-16",
    "tags": [
     "paper",
-    "llm",
-    "agents",
     "reasoning"
    ]
   },
   {
-   "id": "e3915f7e4cf071c4",
-   "title": "The King’s Trust and OpenAI launch £1m partnership",
-   "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+   "id": "b1c71d07875ac772",
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-kings-trust-and-openai",
+   "url": "https://openai.com/index/strengthening-online-child-safety",
    "published": "2026-11-16",
    "tags": [
     "labs"
@@ -427,15 +384,14 @@
    ]
   },
   {
-   "id": "a88bddb17214a029",
-   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+   "id": "40e78db6601d46e6",
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-   "published": "2026-11-12",
+   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "published": "2026-11-13",
    "tags": [
-    "open-source",
-    "llm"
+    "open-source"
    ]
   },
   {
@@ -453,26 +409,14 @@
    ]
   },
   {
-   "id": "a865d7bae4f04a4d",
-   "title": "New research could lead to faster, trustworthy AI models for climate prediction",
-   "summary": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
+   "id": "666c9ce2ae9f1142",
+   "title": "Helping robots fit into the human workplace",
+   "summary": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
-   "published": "2026-11-12",
+   "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+   "published": "2026-11-13",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "22611d0210bf9c9b",
-   "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
-   "summary": "What is “night” to a machine?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
-   "published": "2026-10-26",
-   "tags": [
-    "newsletter",
-    "fine-tuning"
    ]
   },
   {
@@ -489,49 +433,48 @@
    ]
   },
   {
-   "id": "d2e63c5f2661d937",
-   "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
-   "summary": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet. The post Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls appeared first on MarkTechPost .",
+   "id": "a6ddb4d1ee8e8052",
+   "title": "Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands",
+   "summary": "Meta has moved Catching JiTTests into production. The LLM system writes tests designed to fail on risky diffs, and caught 74 privacy SEVs before landing in H1 2026, with a 60% engineer-reported true-positive rate. The post Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
-   "published": "2026-11-15",
+   "url": "https://www.marktechpost.com/2026/11/16/meta-jittests-llm-catching-tests-privacy-bugs/",
+   "published": "2026-11-16",
    "tags": [
     "industry",
-    "evaluation",
-    "multimodal"
+    "llm"
    ]
   },
   {
-   "id": "c6266d92b323a68c",
-   "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
-   "summary": "This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware. Unlike conventional Large Language Model (LLM)-based systems that process documents/books online in an all-texts-at-once type of way, thereby risking...",
+   "id": "03c4dd5388e3407b",
+   "title": "Beyond Job Titles: Interpreting Early-Career Job Advertisements with Sparse Autoencoders and Semantic Clustering",
+   "summary": "Job titles and job descriptions alone provide limited insight into how technical roles differ in a changing job market. To assess how such roles differ in their work and industry applications, we design and compare two methods based on deep learning and transformer representations using 36,081 early-career job postings collected from...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.18513v1",
-   "published": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.21586v1",
+   "published": "2026-11-16",
    "tags": [
     "paper",
-    "llm",
-    "serving"
+    "llm"
    ]
   },
   {
-   "id": "cfa715d8e3acd5ef",
-   "title": "BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations",
-   "summary": "Learning semantically meaningful human movement representations from 3D pose sequences is essential for human behavior modeling. Existing self-supervised methods derive supervision from artificial assumptions, e.g., invariance to augmentation within a certain range or recoverability of masked regions at a certain temporal scale...",
+   "id": "43ab10b2c98044a4",
+   "title": "SADL: On the Demand-Supply Geometry of Representation Collapse",
+   "summary": "In Joint-Embedding Predictive Architectures (JEPAs), a well-constrained projector output does not by itself prevent representation collapse. We find that, from initialization, the encoder representation is dominated by a component shared by different inputs. A batch-normalized projector removes this component, so regularization after the...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.18559v1",
-   "published": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.21596v1",
+   "published": "2026-11-16",
    "tags": [
-    "paper"
+    "paper",
+    "rag"
    ]
   },
   {
-   "id": "87d7014c15ee68a3",
-   "title": "A step toward defining the Standard Model on a lattice",
-   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "id": "f891bd93f3d21469",
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-   "published": "2026-11-15",
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "published": "2026-11-16",
    "tags": [
     "labs",
     "llm"
@@ -560,15 +503,15 @@
    ]
   },
   {
-   "id": "56dac742ff29ffe2",
-   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "id": "a88bddb17214a029",
+   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
    "published": "2026-11-12",
    "tags": [
     "open-source",
-    "fine-tuning"
+    "llm"
    ]
   },
   {
@@ -583,25 +526,14 @@
    ]
   },
   {
-   "id": "f60cbf1284a615ee",
-   "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
-   "summary": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
+   "id": "c1b8ea1b2fb317cf",
+   "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
+   "summary": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
-   "published": "2026-11-10",
+   "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+   "published": "2026-11-12",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "dd92228b1f1b75c7",
-   "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
-   "summary": "What do you think?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
-   "published": "2026-10-19",
-   "tags": [
-    "newsletter"
    ]
   },
   {
@@ -616,50 +548,47 @@
    ]
   },
   {
-   "id": "eb6c9f2667bf3c7c",
-   "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
-   "summary": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run. The post Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy appeared first on MarkTechPost .",
+   "id": "8d1001f25250527b",
+   "title": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
+   "summary": "Alibaba released Qwen4-Max, a proprietary 2.4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context. It costs $1.5/M input tokens and cuts Work360 cost per task by 62%. The post Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
-   "published": "2026-11-14",
+   "url": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
+   "published": "2026-11-16",
    "tags": [
     "industry",
     "llm"
    ]
   },
   {
-   "id": "2ab8c10b884caf35",
-   "title": "Agentic induction of common data elements and information extraction from sarcoma case report abstracts",
-   "summary": "Common data elements (CDEs) support clinical data comparability but are usually defined manually. We investigated whether large language model agents could derive a CDE schema from sarcoma case report abstracts and apply it at scale. An agent proposed 72,909 candidate CDEs from 24,588 PubMed abstracts; agentic consolidation yielded 1,570...",
+   "id": "dab7ff27f5916b1d",
+   "title": "Reading or Remembering? Measuring Temporal Contamination in Language Models",
+   "summary": "Language models are now used to read central-bank text for economic forecasting, but most were trained on text written after the documents they read. A model reading a 2021 FOMC statement may already know that inflation rose in 2022, so part of its apparent skill can be memory of the outcome, a temporal form of test-set contamination. We...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.18506v1",
-   "published": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.21554v1",
+   "published": "2026-11-16",
    "tags": [
     "paper",
-    "llm",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "4f1d14deb7fa8886",
-   "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-   "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (WSP). Exploring...",
+   "id": "a0e8fa3b4e1c8132",
+   "title": "Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K",
+   "summary": "Cryogenic circuit design requires compact transistor models that reproduce measured low-temperature behavior and run in standard circuit simulators. We fit BSIM4 parameters to measured I-V curves of SkyWater 130 nm (SKY130) transistors at 77 K using a neural surrogate of NGSpice. The surrogate maps compact-model parameters and device...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.18553v1",
-   "published": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.21594v1",
+   "published": "2026-11-16",
    "tags": [
-    "paper",
-    "llm",
-    "evaluation"
+    "paper"
    ]
   },
   {
-   "id": "4b0fc5b701ffd77d",
-   "title": "Our new blog for science",
-   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "id": "f054a54f8228cfac",
+   "title": "How Revolut raises ambition without lowering the bar",
+   "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/our-new-blog-for-science",
-   "published": "2026-11-15",
+   "url": "https://openai.com/business/customer-stories/revolut",
+   "published": "2026-11-16",
    "tags": [
     "labs"
    ]
@@ -690,16 +619,15 @@
    ]
   },
   {
-   "id": "b22522d14a17f95f",
-   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "id": "56dac742ff29ffe2",
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/qvac/botpsy",
-   "published": "2026-11-11",
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "published": "2026-11-12",
    "tags": [
     "open-source",
-    "llm",
-    "agents"
+    "fine-tuning"
    ]
   },
   {
@@ -713,6 +641,66 @@
     "research",
     "serving",
     "reasoning"
+   ]
+  },
+  {
+   "id": "a865d7bae4f04a4d",
+   "title": "New research could lead to faster, trustworthy AI models for climate prediction",
+   "summary": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
+   "source": "MIT News AI",
+   "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
+   "published": "2026-11-12",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "53ddef6230f10e58",
+   "title": "Building an AI Text Detector From Scratch",
+   "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+   "source": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+   "published": "2026-08-15",
+   "tags": [
+    "newsletter"
+   ]
+  },
+  {
+   "id": "61b5a421eda37cd4",
+   "title": "Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro",
+   "summary": "Hark has released Handoff², the computer-use agent inside Hark Pro. It averages 2x faster than v1, completes 82% of 478 internal web tasks, and learned to batch actions through latency-penalized RL. The post Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro appeared first on MarkTechPost .",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/11/16/hark-handoff-2-computer-use-agent-2x-faster/",
+   "published": "2026-11-16",
+   "tags": [
+    "industry",
+    "serving",
+    "agents"
+   ]
+  },
+  {
+   "id": "d1455c72adcd9ea5",
+   "title": "Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests",
+   "summary": "Language models increasingly write the explanations people receive when a rule system denies their request. If several rules deny the request independently, an explanation can name a true reason and still leave the person denied after they fix it. We call the missing property recourse validity: changing what the explanation cites...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.21545v1",
+   "published": "2026-11-16",
+   "tags": [
+    "paper",
+    "llm",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "b05d343c10cc2e5d",
+   "title": "CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism Layouts",
+   "summary": "Training with MXFP4, a 4-bit microscaling format, is non-deterministic: identical inputs can produce different results across parallelism layouts and GPU vendors. These differences complicate debugging and training audits and can cause training and inference engines to disagree. We present CertiSum to make MXFP4 training bitwise...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.21584v1",
+   "published": "2026-11-16",
+   "tags": [
+    "paper",
+    "serving"
    ]
   }
  ]
