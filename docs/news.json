@@ -1,18 +1,17 @@
 {
- "generated": "2026-11-18",
- "generatedAt": "2026-11-18T15:47:22+00:00",
+ "generated": "2026-11-19",
+ "generatedAt": "2026-11-19T15:53:01+00:00",
  "sourceCount": 9,
  "items": [
   {
-   "id": "6cab9c8cd38347e3",
-   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-   "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+   "id": "e683d40fba103b5f",
+   "title": "The Silent Consensus",
+   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "url": "https://openai.com/index/the-silent-consensus",
    "published": "2026-11-18",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -27,11 +26,11 @@
    ]
   },
   {
-   "id": "bf1424b145e4fc73",
-   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+   "id": "f689168723dc030d",
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
    "published": "2026-11-18",
    "tags": [
     "open-source"
@@ -49,14 +48,25 @@
    ]
   },
   {
-   "id": "461a1fe87414da12",
-   "title": "Helping AI text detectors keep up with changing conditions",
-   "summary": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
+   "id": "d943a23e58cc345e",
+   "title": "Study reveals data centers’ long-distance damage to air quality",
+   "summary": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
-   "published": "2026-11-18",
+   "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+   "published": "2026-11-19",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "862f2dd49595bba2",
+   "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+   "summary": "Plus: CucumberVision!",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+   "published": "2026-11-16",
+   "tags": [
+    "newsletter"
    ]
   },
   {
@@ -73,56 +83,40 @@
    ]
   },
   {
-   "id": "beb10735565b0259",
-   "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
-   "summary": "SID AI released SID-2, an agentic search model trained with reinforcement learning. A single agent reaches 0.585 NDCG in 3.11 seconds, and a 12-agent SID-2 Swarm scores 0.720 NDCG, above GPT-6 Astra on SID’s benchmark. The post SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode appeared first on MarkTechPost .",
+   "id": "39b77df94c0b18ed",
+   "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
+   "summary": "AI-powered attackers are driving more frequent attacks on AI infrastructure. This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and Klue. The post Not If, But How: Responding to Security Incidents in the Age of AI Attackers appeared first on MarkTechPost...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/17/sid-ai-sid-2-agentic-search-swarm/",
-   "published": "2026-11-18",
+   "url": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
+   "published": "2026-11-19",
    "tags": [
-    "industry",
-    "llm",
-    "evaluation",
-    "agents"
+    "industry"
    ]
   },
   {
-   "id": "13ba5552f16da6c2",
-   "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
-   "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrophic forgetting of the tails of the data...",
+   "id": "6ff040ee114f301d",
+   "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
+   "summary": "Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inference (JDPI), which uses binary safety...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.23229v1",
-   "published": "2026-11-17",
-   "tags": [
-    "paper",
-    "llm",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "ed8fd02e76c2bd59",
-   "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-   "summary": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are attractive for...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.23228v1",
-   "published": "2026-11-17",
+   "url": "https://arxiv.org/abs/2611.24936v1",
+   "published": "2026-11-18",
    "tags": [
     "paper",
     "llm",
     "serving",
-    "agents"
+    "safety"
    ]
   },
   {
-   "id": "549a77347d5e1e5f",
-   "title": "Introducing GPT-6.2 Astra and Sol",
-   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "id": "9fa731b0ef6c1da9",
+   "title": "Research acceleration: The jagged frontier",
+   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-   "published": "2026-11-17",
+   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "published": "2026-11-18",
    "tags": [
     "labs",
-    "llm"
+    "agents"
    ]
   },
   {
@@ -137,15 +131,15 @@
    ]
   },
   {
-   "id": "679cee5ea1466f1f",
-   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+   "id": "75623b38e68bd27d",
+   "title": "Why your fine-tuning job takes longer than the FLOPs say",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
    "published": "2026-11-18",
    "tags": [
     "open-source",
-    "multimodal"
+    "fine-tuning"
    ]
   },
   {
@@ -160,14 +154,25 @@
    ]
   },
   {
-   "id": "f38228c9ef565932",
-   "title": "Putting a spotlight on AI, society, and humanity",
-   "summary": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
+   "id": "62626f8cbcfd5bbe",
+   "title": "This featherweight, flying robot carries its own sensors and computers",
+   "summary": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
-   "published": "2026-11-17",
+   "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+   "published": "2026-11-18",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "eed50b97e7877e59",
+   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+   "summary": "When do you think we'll have robots on the moon?",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
+   "published": "2026-11-09",
+   "tags": [
+    "newsletter"
    ]
   },
   {
@@ -185,48 +190,39 @@
    ]
   },
   {
-   "id": "aa91484106a60c0a",
-   "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
-   "summary": "Anthropic has added Code Mode to Claude Code v2.1.323. The experimental feature lets Claude write JavaScript that chains Bash, Read and Edit calls in 1 step, and keep talking while long commands run. The post Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript appeared first on MarkTechPost .",
+   "id": "cae0e375702a7452",
+   "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
+   "summary": "Google released Gemini 4 Neon, a 1M-context Gemini 4 model priced at $3/$15 per million tokens. It scores 61 on the AA Intelligence Index and ranks #1 on AA’s Coding Agent Index. The post Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/",
-   "published": "2026-11-18",
+   "url": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
+   "published": "2026-11-19",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
-   "id": "0ae11d5136bb5603",
-   "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
-   "summary": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instruct. The head map correlates at $ρ=...",
+   "id": "c15e259d6b50cd34",
+   "title": "Who are you? The Personal Imitation Game",
+   "summary": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.23218v1",
-   "published": "2026-11-17",
+   "url": "https://arxiv.org/abs/2611.24888v1",
+   "published": "2026-11-18",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "f539ae2103010ed0",
-   "title": "An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization",
-   "summary": "In this paper, we study a class of constrained convex finite-sum optimization problems. In many practical applications, all or some of the constraints are hard constraints that represent imperative requirements. Consequently, any desirable approximate solution must (nearly) satisfy these constraints. Motivated by this, we focus on...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.23221v1",
-   "published": "2026-11-17",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "590cb0b9c5dd23f2",
-   "title": "Strengthening NATO and allied cyber defenses with AI",
-   "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+   "id": "b527b6f0ddceafec",
+   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+   "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-   "published": "2026-11-17",
+   "url": "https://openai.com/business/customer-stories/sumitomo-life",
+   "published": "2026-11-18",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -241,12 +237,12 @@
    ]
   },
   {
-   "id": "853b24ff0d6ecd3f",
-   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "id": "bf1424b145e4fc73",
+   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/openrouter",
-   "published": "2026-11-16",
+   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "published": "2026-11-18",
    "tags": [
     "open-source"
    ]
@@ -264,14 +260,27 @@
    ]
   },
   {
-   "id": "ffe4b9c88a23c6ca",
-   "title": "Q&A: Why building math muscles remains important in the AI era",
-   "summary": "Assistant Professor John Urschel explains why learning the fundamental skills of mathematics is still essential despite the evolution of AI tools.",
+   "id": "461a1fe87414da12",
+   "title": "Helping AI text detectors keep up with changing conditions",
+   "summary": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
-   "published": "2026-11-17",
+   "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
+   "published": "2026-11-18",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "9091e4453210d34c",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "summary": "What do LLMs think about vision models?",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
+   "published": "2026-11-02",
+   "tags": [
+    "newsletter",
+    "llm",
+    "serving"
    ]
   },
   {
@@ -287,37 +296,23 @@
    ]
   },
   {
-   "id": "a0b7616d9780d8ab",
-   "title": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
-   "summary": "Perplexity added Multiagent to Computer, an effort level above Ultra where a lead agent runs up to 16 agents on Claude, GPT and Gemini models that share findings and check each other’s work. The post Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work appeared first on MarkTechPost .",
+   "id": "304bc4844d89d025",
+   "title": "Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence",
+   "summary": "Nutrient Data Extraction API parses PDFs, scans and Office files into JSON matching your schema. Fields carry page, region and match-label citations, and Studio lets teams test before writing code. The post Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/",
-   "published": "2026-11-17",
+   "url": "https://www.marktechpost.com/2026/11/18/nutrient-data-extraction-api-citations-confidence/",
+   "published": "2026-11-19",
    "tags": [
-    "industry",
-    "llm",
-    "agents"
+    "industry"
    ]
   },
   {
-   "id": "83c1b95377e4da5b",
-   "title": "Structure--Residual Inductive Biases for Language Model Pretraining",
-   "summary": "Next-token prediction is relied upon to learn both predictive behavior and internal representations. We ask whether representation structure itself should be an explicit inductive bias. Motivated by the two-part coding view of Kolmogorov complexity, we study a structure--residual principle in which a representation separates structure...",
+   "id": "8f474cb7b8c6b4a2",
+   "title": "Ground, Iterate, Trace: Decomposing AI Research Ideation",
+   "summary": "Large language models have been widely used to generate plausible research ideas, yet it remains unclear what makes automated ideation effective and how generated novel proposals arise from prior scientific work. We introduce the Creative AI Researcher (CAR), an agentic framework combining literature grounding, iterative development and...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.23197v1",
-   "published": "2026-11-17",
-   "tags": [
-    "paper",
-    "llm"
-   ]
-  },
-  {
-   "id": "db243fa7574d4bfb",
-   "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-   "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.23219v1",
-   "published": "2026-11-17",
+   "url": "https://arxiv.org/abs/2611.24887v1",
+   "published": "2026-11-18",
    "tags": [
     "paper",
     "llm",
@@ -325,15 +320,14 @@
    ]
   },
   {
-   "id": "c6c361c53bc4ce2d",
-   "title": "Introducing ChatGPT for Sales",
-   "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+   "id": "53f2a14376dda94d",
+   "title": "Inside the Codex sandbox",
+   "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-   "published": "2026-11-17",
+   "url": "https://openai.com/index/inside-the-codex-sandbox",
+   "published": "2026-11-18",
    "tags": [
-    "labs",
-    "llm"
+    "labs"
    ]
   },
   {
@@ -348,14 +342,16 @@
    ]
   },
   {
-   "id": "2427bacb74a96b4b",
-   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+   "id": "af1852b4c46dc30e",
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-   "published": "2026-11-13",
+   "url": "https://huggingface.co/blog/moe-expert-streaming",
+   "published": "2026-11-18",
    "tags": [
-    "open-source"
+    "open-source",
+    "llm",
+    "serving"
    ]
   },
   {
@@ -373,14 +369,26 @@
    ]
   },
   {
-   "id": "1ac3744caa9c0983",
-   "title": "Learning the language of machine learning",
-   "summary": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
+   "id": "f38228c9ef565932",
+   "title": "Putting a spotlight on AI, society, and humanity",
+   "summary": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+   "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
    "published": "2026-11-17",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "22611d0210bf9c9b",
+   "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
+   "summary": "What is “night” to a machine?",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
+   "published": "2026-10-26",
+   "tags": [
+    "newsletter",
+    "fine-tuning"
    ]
   },
   {
@@ -397,54 +405,42 @@
    ]
   },
   {
-   "id": "9245e3197a30af80",
-   "title": "OpenAI Releases GPT-6.2 Astra and Sol With a 20% Cheaper Astra API",
-   "summary": "OpenAI released GPT-6.2 Astra and GPT-6.2 Sol on November 17, 2026. Astra's API price drops 20% to $8/$40 per million tokens, and it ranks second on the Artificial Analysis Intelligence Index. The post OpenAI Releases GPT-6.2 Astra and Sol With a 20% Cheaper Astra API appeared first on MarkTechPost .",
+   "id": "4ffcff840376eb89",
+   "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+   "summary": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained with reinforcement learning for the pi coding agent. It lifts SWE-bench Pro hard-51 pass@1 from 39.2% to 64.7% and Terminal-Bench 2.1 from 39.5% to 55.8%. The post New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65% appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/17/openai-gpt-6-2-astra-sol-release/",
-   "published": "2026-11-17",
+   "url": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
+   "published": "2026-11-18",
    "tags": [
     "industry",
-    "llm"
-   ]
-  },
-  {
-   "id": "48efd5e916d39678",
-   "title": "Polarity Composition Hypothesis: Causal Evidence from Negation in NLI",
-   "summary": "We investigate how language models process negation in natural language inference (NLI). We propose the \\textit{Polarity Composition Hypothesis}, a high-level causal model of this computation. Behavioral evaluations show that language-model predictions largely conform to the proposed hypothesis. Using Distributed Alignment Search, we...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.23185v1",
-   "published": "2026-11-17",
-   "tags": [
-    "paper",
-    "llm",
     "fine-tuning",
-    "evaluation"
+    "agents"
    ]
   },
   {
-   "id": "7e3d6248c012bcd4",
-   "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
-   "summary": "New coding models advertise themselves on score improvements of coding benchmarks. Yet no study has tested if a model that scores higher on these benchmarks gets more real work done. On June 12, 2026, a U.S. export control directive banned access to Claude Fable 5 for 19 days, which forced users to switch to other models. During this...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.23216v1",
-   "published": "2026-11-17",
+   "id": "28646e127b60ac77",
+   "title": "Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling",
+   "summary": "Large language model (LLM) judges have become a common way to create large-scale relevance judgments for retrieval evaluation. However, each judgment requires a potentially expensive call to a frontier model, and the judgments are hard to interpret and may not be reproducible. In this paper, we ask whether an LLM can write a readable...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.24849v1",
+   "published": "2026-11-18",
    "tags": [
     "paper",
+    "rag",
+    "llm",
     "evaluation"
    ]
   },
   {
-   "id": "0604bc2b50fc0c3b",
-   "title": "Astra for Law leads in legal intelligence",
-   "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+   "id": "8b6ac2940fdc0d0e",
+   "title": "Managing frontier AI risk: From training to deployment",
+   "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/astra-law-6-2",
-   "published": "2026-11-17",
+   "url": "https://openai.com/index/managing-frontier-ai-risk",
+   "published": "2026-11-18",
    "tags": [
     "labs",
-    "llm",
-    "evaluation"
+    "fine-tuning"
    ]
   },
   {
@@ -459,14 +455,15 @@
    ]
   },
   {
-   "id": "8400bdfe1e2afd49",
-   "title": "XYBench: Helping with the problem behind the question",
+   "id": "679cee5ea1466f1f",
+   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/xybench",
-   "published": "2026-11-13",
+   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "published": "2026-11-18",
    "tags": [
-    "open-source"
+    "open-source",
+    "multimodal"
    ]
   },
   {
@@ -481,14 +478,25 @@
    ]
   },
   {
-   "id": "606399e29c9ee7e9",
-   "title": "New AI “copilot” helps engineers design better structures",
-   "summary": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
+   "id": "ffe4b9c88a23c6ca",
+   "title": "Q&A: Why building math muscles remains important in the AI era",
+   "summary": "Assistant Professor John Urschel explains why learning the fundamental skills of mathematics is still essential despite the evolution of AI tools.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
-   "published": "2026-11-13",
+   "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
+   "published": "2026-11-17",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "dd92228b1f1b75c7",
+   "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+   "summary": "What do you think?",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
+   "published": "2026-10-19",
+   "tags": [
+    "newsletter"
    ]
   },
   {
@@ -503,51 +511,41 @@
    ]
   },
   {
-   "id": "74f875bf8c87033d",
-   "title": "Clearing Up the Confusion on AI Data Retention: Two Standard Designs Explained",
-   "summary": "Zero data retention applies to specific AI endpoints, not whole vendors. This guide explains the 2 standard API designs for data retention, who manages deletion in each, and 6 checks for developers. The post Clearing Up the Confusion on AI Data Retention: Two Standard Designs Explained appeared first on MarkTechPost .",
+   "id": "beb10735565b0259",
+   "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
+   "summary": "SID AI released SID-2, an agentic search model trained with reinforcement learning. A single agent reaches 0.585 NDCG in 3.11 seconds, and a 12-agent SID-2 Swarm scores 0.720 NDCG, above GPT-6 Astra on SID’s benchmark. The post SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/17/zero-data-retention-ai-apis-explained/",
-   "published": "2026-11-17",
+   "url": "https://www.marktechpost.com/2026/11/17/sid-ai-sid-2-agentic-search-swarm/",
+   "published": "2026-11-18",
    "tags": [
     "industry",
-    "fine-tuning"
-   ]
-  },
-  {
-   "id": "58e18669a84bbf35",
-   "title": "MoE--LoRA Methods for Multilingual Adaptation: A Systematic Empirical Study",
-   "summary": "Routed low-rank adapters offer a parameter-efficient means to improve the performance of large language models (LLMs) across tasks. Hence, it is assumed that they can also be used to improve the support of low-resource languages in LLMs, which currently serve English far better than the thousands of other languages spoken worldwide...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.23158v1",
-   "published": "2026-11-17",
-   "tags": [
-    "paper",
     "llm",
-    "fine-tuning"
+    "evaluation",
+    "agents"
    ]
   },
   {
-   "id": "4583d7c7c1c11e80",
-   "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
-   "summary": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds a self-supervised...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.23211v1",
-   "published": "2026-11-17",
+   "id": "760b84fcf23256fb",
+   "title": "Vibe-Trading: Towards Agent-Native Trading",
+   "summary": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.24845v1",
+   "published": "2026-11-18",
    "tags": [
     "paper",
-    "multimodal"
+    "agents"
    ]
   },
   {
-   "id": "58da9c66b1456ac9",
-   "title": "Introducing OpenAI for Chile",
-   "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+   "id": "6cab9c8cd38347e3",
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-openai-for-chile",
-   "published": "2026-11-17",
+   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "published": "2026-11-18",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
@@ -563,12 +561,12 @@
    ]
   },
   {
-   "id": "40e78db6601d46e6",
-   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "id": "853b24ff0d6ecd3f",
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-   "published": "2026-11-13",
+   "url": "https://huggingface.co/blog/openrouter",
+   "published": "2026-11-16",
    "tags": [
     "open-source"
    ]
@@ -587,14 +585,25 @@
    ]
   },
   {
-   "id": "666c9ce2ae9f1142",
-   "title": "Helping robots fit into the human workplace",
-   "summary": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+   "id": "1ac3744caa9c0983",
+   "title": "Learning the language of machine learning",
+   "summary": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
-   "published": "2026-11-13",
+   "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+   "published": "2026-11-17",
    "tags": [
     "research"
+   ]
+  },
+  {
+   "id": "b3d04b5f805f38bf",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "summary": "Will we give robots the moon?",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+   "published": "2026-10-12",
+   "tags": [
+    "newsletter"
    ]
   },
   {
@@ -609,49 +618,35 @@
    ]
   },
   {
-   "id": "c3a9d2c8f56d2f70",
-   "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
-   "summary": "NVIDIA has open-sourced NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR) under Apache 2.0. Together they let AI factories run a managed Kubernetes service on their own bare-metal GPU servers. Both are in public preview. The post NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure appeared...",
+   "id": "aa91484106a60c0a",
+   "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
+   "summary": "Anthropic has added Code Mode to Claude Code v2.1.323. The experimental feature lets Claude write JavaScript that chains Bash, Read and Edit calls in 1 step, and keep talking while long commands run. The post Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu/",
-   "published": "2026-11-17",
+   "url": "https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/",
+   "published": "2026-11-18",
    "tags": [
     "industry"
    ]
   },
   {
-   "id": "71f35ab0f06e580e",
-   "title": "TextSphere: Efficient Text-to-Image Generation via Shared Hyperspherical Alignment and Uniformity",
-   "summary": "Recent advances in text-to-image generation have substantially improved image quality, particularly through diffusion-based methods that require multiple inference steps. In contrast, Sphere Encoder offers an efficient generative framework capable of producing images with fewer forward steps. However, extending it to free-form text is...",
+   "id": "4a2eb68c8b6d1e9a",
+   "title": "General progress substitutes for specific training data in language models",
+   "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general progress a model makes on the rest of...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.23155v1",
-   "published": "2026-11-17",
+   "url": "https://arxiv.org/abs/2611.24844v1",
+   "published": "2026-11-18",
    "tags": [
     "paper",
-    "fine-tuning",
-    "serving",
-    "multimodal"
+    "llm"
    ]
   },
   {
-   "id": "e6c821307e73a836",
-   "title": "Distortion-Free Semantic Watermarks for Black-Box Generative Models",
-   "summary": "We present a provably distortion-free semantic watermarking algorithm that requires only black-box sampling access to a generative model and black-box access to a semantic embedding. A watermark is called distortion-free if, averaged over its secret detection key, it leaves the generator's output distribution unchanged; this provides a...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.23208v1",
-   "published": "2026-11-17",
-   "tags": [
-    "paper",
-    "rag"
-   ]
-  },
-  {
-   "id": "f26f2a4dfd6b9b95",
-   "title": "Broadening access to AI for scientists",
-   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "id": "c7d3ecb006439a13",
+   "title": "Advancing chip design with OpenAI models",
+   "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-   "published": "2026-11-16",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "published": "2026-11-18",
    "tags": [
     "labs",
     "llm"
@@ -669,15 +664,14 @@
    ]
   },
   {
-   "id": "a88bddb17214a029",
-   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+   "id": "2427bacb74a96b4b",
+   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-   "published": "2026-11-12",
+   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "published": "2026-11-13",
    "tags": [
-    "open-source",
-    "llm"
+    "open-source"
    ]
   },
   {
@@ -692,27 +686,25 @@
    ]
   },
   {
-   "id": "c1b8ea1b2fb317cf",
-   "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
-   "summary": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
+   "id": "606399e29c9ee7e9",
+   "title": "New AI “copilot” helps engineers design better structures",
+   "summary": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
-   "published": "2026-11-12",
+   "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+   "published": "2026-11-13",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "28c7ee44d88bdbf2",
-   "title": "Controlling Reasoning Effort in LLMs",
-   "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
-   "source": "Ahead of AI",
-   "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-   "published": "2026-07-18",
+   "id": "2a01f0d16ca8636e",
+   "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+   "summary": "Who chooses what AI gets to do?",
+   "source": "Import AI",
+   "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+   "published": "2026-10-05",
    "tags": [
-    "newsletter",
-    "llm",
-    "reasoning"
+    "newsletter"
    ]
   }
  ]
