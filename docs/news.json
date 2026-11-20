@@ -1,37 +1,49 @@
 {
- "generated": "2026-11-19",
- "generatedAt": "2026-11-19T15:53:01+00:00",
- "sourceCount": 9,
+ "generated": "2026-11-20",
+ "generatedAt": "2026-11-20T15:35:28+00:00",
+ "sourceCount": 10,
  "items": [
   {
-   "id": "e683d40fba103b5f",
-   "title": "The Silent Consensus",
-   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+   "id": "6687f7be62c34e4a",
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-silent-consensus",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "published": "2026-11-19",
+   "tags": [
+    "labs",
+    "llm"
+   ]
+  },
+  {
+   "id": "a3b183c1cf424baf",
+   "title": "A game you cannot win unless you have a quantum computer",
+   "summary": "Quantum",
+   "source": "Google Research",
+   "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+   "published": "2026-11-19",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "0c3c8b23c6caec3f",
+   "title": "Introducing Gemini 4 Neon",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
    "published": "2026-11-18",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "90d40fe08702a974",
-   "title": "Advancing science & engineering with Antigravity’s /teamwork",
-   "summary": "Education Innovation",
-   "source": "Google Research",
-   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-   "published": "2026-11-13",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "f689168723dc030d",
-   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "id": "211fbe8009a45ecd",
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-   "published": "2026-11-18",
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "published": "2026-11-20",
    "tags": [
     "open-source"
    ]
@@ -48,25 +60,14 @@
    ]
   },
   {
-   "id": "d943a23e58cc345e",
-   "title": "Study reveals data centers’ long-distance damage to air quality",
-   "summary": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
+   "id": "9be98e73c6c88adf",
+   "title": "Following the “mathocalypse,” mathematicians consider the future",
+   "summary": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
-   "published": "2026-11-19",
+   "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
+   "published": "2026-11-20",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "862f2dd49595bba2",
-   "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
-   "summary": "Plus: CucumberVision!",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
-   "published": "2026-11-16",
-   "tags": [
-    "newsletter"
    ]
   },
   {
@@ -83,63 +84,89 @@
    ]
   },
   {
-   "id": "39b77df94c0b18ed",
-   "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
-   "summary": "AI-powered attackers are driving more frequent attacks on AI infrastructure. This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and Klue. The post Not If, But How: Responding to Security Incidents in the Age of AI Attackers appeared first on MarkTechPost...",
+   "id": "20109fb1b569d923",
+   "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
+   "summary": "NVIDIA released Nemotron-Labs-Sigma, 14 open 3B and 8B continuous diffusion language model checkpoints. Sigma denoises text in a learned 16-D embedding space, distills to few-step samplers, and decodes up to 4.20x faster than autoregressive decoding. The post NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
-   "published": "2026-11-19",
+   "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
+   "published": "2026-11-20",
    "tags": [
-    "industry"
+    "industry",
+    "rag",
+    "llm",
+    "fine-tuning"
    ]
   },
   {
-   "id": "6ff040ee114f301d",
-   "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
-   "summary": "Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inference (JDPI), which uses binary safety...",
+   "id": "400d931ab84af6d8",
+   "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+   "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail. In this paper...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.24936v1",
-   "published": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.26613v1",
+   "published": "2026-11-19",
    "tags": [
     "paper",
     "llm",
-    "serving",
-    "safety"
-   ]
-  },
-  {
-   "id": "9fa731b0ef6c1da9",
-   "title": "Research acceleration: The jagged frontier",
-   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-   "published": "2026-11-18",
-   "tags": [
-    "labs",
+    "evaluation",
     "agents"
    ]
   },
   {
-   "id": "9a0e58e782b2fa6e",
-   "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
-   "summary": "Health & Bioscience",
+   "id": "e92b96b00887cdea",
+   "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+   "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.26627v1",
+   "published": "2026-11-19",
+   "tags": [
+    "paper",
+    "llm",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "4b08ec50268e04a4",
+   "title": "Deploying Daybreak Red",
+   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "source": "OpenAI",
+   "url": "https://openai.com/business/learn/deploying-daybreak-red",
+   "published": "2026-11-19",
+   "tags": [
+    "labs",
+    "safety"
+   ]
+  },
+  {
+   "id": "90d40fe08702a974",
+   "title": "Advancing science & engineering with Antigravity’s /teamwork",
+   "summary": "Education Innovation",
    "source": "Google Research",
-   "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
-   "published": "2026-11-11",
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "published": "2026-11-13",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "75623b38e68bd27d",
-   "title": "Why your fine-tuning job takes longer than the FLOPs say",
+   "id": "652211f5c064d475",
+   "title": "Genie 4 is now available",
    "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/genie-4-is-now-available/",
    "published": "2026-11-18",
    "tags": [
-    "open-source",
-    "fine-tuning"
+    "labs"
+   ]
+  },
+  {
+   "id": "f689168723dc030d",
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "summary": "",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "published": "2026-11-18",
+   "tags": [
+    "open-source"
    ]
   },
   {
@@ -154,25 +181,15 @@
    ]
   },
   {
-   "id": "62626f8cbcfd5bbe",
-   "title": "This featherweight, flying robot carries its own sensors and computers",
-   "summary": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
+   "id": "4665289b81f88c7a",
+   "title": "AI helps researchers investigate how thousands of medical studies share code",
+   "summary": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
-   "published": "2026-11-18",
+   "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+   "published": "2026-11-19",
    "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "eed50b97e7877e59",
-   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
-   "summary": "When do you think we'll have robots on the moon?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
-   "published": "2026-11-09",
-   "tags": [
-    "newsletter"
+    "research",
+    "llm"
    ]
   },
   {
@@ -190,61 +207,85 @@
    ]
   },
   {
-   "id": "cae0e375702a7452",
-   "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
-   "summary": "Google released Gemini 4 Neon, a 1M-context Gemini 4 model priced at $3/$15 per million tokens. It scores 61 on the AA Intelligence Index and ranks #1 on AA’s Coding Agent Index. The post Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index appeared first on MarkTechPost .",
+   "id": "86b67ca93f266b70",
+   "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+   "summary": "Meta FAIR’s Self-Improving Memory lets Kimi-K2.6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights. Optimized prompts score 56.0 versus 44.6 for the best hand-written harness on Continual Learning Bench. The post Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
+   "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
    "published": "2026-11-19",
    "tags": [
     "industry",
-    "agents"
+    "fine-tuning"
    ]
   },
   {
-   "id": "c15e259d6b50cd34",
-   "title": "Who are you? The Personal Imitation Game",
-   "summary": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the...",
+   "id": "ce6471665a22d7ee",
+   "title": "Represented but misread: Post-training changes how language models read out what they represent",
+   "summary": "Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether German texts were written by a human or...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.24888v1",
-   "published": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.26584v1",
+   "published": "2026-11-19",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "b527b6f0ddceafec",
-   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-   "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-   "source": "OpenAI",
-   "url": "https://openai.com/business/customer-stories/sumitomo-life",
-   "published": "2026-11-18",
+   "id": "46f55462cad8880c",
+   "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+   "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.26619v1",
+   "published": "2026-11-19",
    "tags": [
-    "labs",
-    "llm"
+    "paper",
+    "llm",
+    "serving"
    ]
   },
   {
-   "id": "5f5a5a012b729bd1",
-   "title": "Exploring the world's languages with Language Explorer",
-   "summary": "Natural Language Processing",
+   "id": "cb99e2baa62e7866",
+   "title": "See PR scans in action",
+   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+   "source": "OpenAI",
+   "url": "https://openai.com/business/learn/pr-scans-demo",
+   "published": "2026-11-19",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "9a0e58e782b2fa6e",
+   "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
-   "published": "2026-11-09",
+   "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+   "published": "2026-11-11",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "bf1424b145e4fc73",
-   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+   "id": "4bad5afe01a19f79",
+   "title": "Introducing Gemini 4 Hydrogen",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "published": "2026-11-12",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "75623b38e68bd27d",
+   "title": "Why your fine-tuning job takes longer than the FLOPs say",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
    "published": "2026-11-18",
    "tags": [
-    "open-source"
+    "open-source",
+    "fine-tuning"
    ]
   },
   {
@@ -260,27 +301,14 @@
    ]
   },
   {
-   "id": "461a1fe87414da12",
-   "title": "Helping AI text detectors keep up with changing conditions",
-   "summary": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
+   "id": "d943a23e58cc345e",
+   "title": "Study reveals data centers’ long-distance damage to air quality",
+   "summary": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
-   "published": "2026-11-18",
+   "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+   "published": "2026-11-19",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "9091e4453210d34c",
-   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-   "summary": "What do LLMs think about vision models?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-   "published": "2026-11-02",
-   "tags": [
-    "newsletter",
-    "llm",
-    "serving"
    ]
   },
   {
@@ -296,62 +324,86 @@
    ]
   },
   {
-   "id": "304bc4844d89d025",
-   "title": "Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence",
-   "summary": "Nutrient Data Extraction API parses PDFs, scans and Office files into JSON matching your schema. Fields carry page, region and match-label citations, and Studio lets teams test before writing code. The post Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence appeared first on MarkTechPost .",
+   "id": "2185840283b16cb2",
+   "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
+   "summary": "We ranked the 13 best agent gateways of 2026 by how they govern model, MCP tool and agent-to-agent traffic, with verified pricing, deployment options and the trade-offs each vendor's marketing leaves out. The post 13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/18/nutrient-data-extraction-api-citations-confidence/",
+   "url": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
    "published": "2026-11-19",
    "tags": [
-    "industry"
-   ]
-  },
-  {
-   "id": "8f474cb7b8c6b4a2",
-   "title": "Ground, Iterate, Trace: Decomposing AI Research Ideation",
-   "summary": "Large language models have been widely used to generate plausible research ideas, yet it remains unclear what makes automated ideation effective and how generated novel proposals arise from prior scientific work. We introduce the Creative AI Researcher (CAR), an agentic framework combining literature grounding, iterative development and...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.24887v1",
-   "published": "2026-11-18",
-   "tags": [
-    "paper",
+    "industry",
     "llm",
     "agents"
    ]
   },
   {
-   "id": "53f2a14376dda94d",
-   "title": "Inside the Codex sandbox",
-   "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+   "id": "f54eae37dfc5e200",
+   "title": "Hybrid Retrieval for Government Scheme Search in English and Marathi",
+   "summary": "Retrieving government schemes requires matching citizens' information needs to formal administrative descriptions, often across languages and terminology. We present a bilingual search system for Maharashtra government schemes and public services that combines BM25 retrieval with sentence-embedding similarity through equal-weight score...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.26514v1",
+   "published": "2026-11-19",
+   "tags": [
+    "paper",
+    "rag",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "55109370f9f65456",
+   "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+   "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.26617v1",
+   "published": "2026-11-19",
+   "tags": [
+    "paper",
+    "llm",
+    "multimodal"
+   ]
+  },
+  {
+   "id": "e29ac258c013c12c",
+   "title": "Explore the Codex Security Plugin",
+   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/inside-the-codex-sandbox",
-   "published": "2026-11-18",
+   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "published": "2026-11-19",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "25f255575df3acb6",
-   "title": "Detecting signs of hypertension using wearable sensors",
-   "summary": "Health & Bioscience",
+   "id": "5f5a5a012b729bd1",
+   "title": "Exploring the world's languages with Language Explorer",
+   "summary": "Natural Language Processing",
    "source": "Google Research",
-   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
-   "published": "2026-11-05",
+   "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+   "published": "2026-11-09",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "af1852b4c46dc30e",
-   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "id": "5b916f1bea878c9c",
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "published": "2026-11-11",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "bf1424b145e4fc73",
+   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/moe-expert-streaming",
+   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
    "published": "2026-11-18",
    "tags": [
-    "open-source",
-    "llm",
-    "serving"
+    "open-source"
    ]
   },
   {
@@ -369,26 +421,14 @@
    ]
   },
   {
-   "id": "f38228c9ef565932",
-   "title": "Putting a spotlight on AI, society, and humanity",
-   "summary": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
+   "id": "62626f8cbcfd5bbe",
+   "title": "This featherweight, flying robot carries its own sensors and computers",
+   "summary": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
-   "published": "2026-11-17",
+   "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+   "published": "2026-11-18",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "22611d0210bf9c9b",
-   "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
-   "summary": "What is “night” to a machine?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
-   "published": "2026-10-26",
-   "tags": [
-    "newsletter",
-    "fine-tuning"
    ]
   },
   {
@@ -405,65 +445,84 @@
    ]
   },
   {
-   "id": "4ffcff840376eb89",
-   "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
-   "summary": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained with reinforcement learning for the pi coding agent. It lifts SWE-bench Pro hard-51 pass@1 from 39.2% to 64.7% and Terminal-Bench 2.1 from 39.5% to 55.8%. The post New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65% appeared first on MarkTechPost .",
+   "id": "df2b61241112c73a",
+   "title": "Perplexity Launches Orchestrator API for Failover and Model Routing",
+   "summary": "Perplexity’s Orchestrator API serves OpenAI, Anthropic, Google, xAI and open-weight models through 1 endpoint, with same-model provider failover, unified billing and a preview perplexity/auto router that sends each request to a described route. The post Perplexity Launches Orchestrator API for Failover and Model Routing appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
-   "published": "2026-11-18",
+   "url": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
+   "published": "2026-11-19",
    "tags": [
     "industry",
-    "fine-tuning",
-    "agents"
-   ]
-  },
-  {
-   "id": "28646e127b60ac77",
-   "title": "Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling",
-   "summary": "Large language model (LLM) judges have become a common way to create large-scale relevance judgments for retrieval evaluation. However, each judgment requires a potentially expensive call to a frontier model, and the judgments are hard to interpret and may not be reproducible. In this paper, we ask whether an LLM can write a readable...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.24849v1",
-   "published": "2026-11-18",
-   "tags": [
-    "paper",
-    "rag",
-    "llm",
-    "evaluation"
-   ]
-  },
-  {
-   "id": "8b6ac2940fdc0d0e",
-   "title": "Managing frontier AI risk: From training to deployment",
-   "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/managing-frontier-ai-risk",
-   "published": "2026-11-18",
-   "tags": [
-    "labs",
     "fine-tuning"
    ]
   },
   {
-   "id": "c4f5d2954769947b",
-   "title": "Agile Deliberation: How AI helps humans define the gray areas",
-   "summary": "Data Mining & Modeling",
+   "id": "5412449a131274a8",
+   "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+   "summary": "Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.26510v1",
+   "published": "2026-11-19",
+   "tags": [
+    "paper",
+    "fine-tuning"
+   ]
+  },
+  {
+   "id": "3a8b4233a7737556",
+   "title": "Bio-PM-Guided Synthetic IMU Generation",
+   "summary": "Collecting and labeling inertial measurement unit (IMU) data for human activity recognition (HAR) is expensive, and models trained on one group of subjects often fail to generalize to unseen individuals. Even with balanced data, classifiers struggle to distinguish dynamically similar activity classes and benefit from targeted...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.26607v1",
+   "published": "2026-11-19",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "a2fb00344062975f",
+   "title": "Get started with Daybreak Blue",
+   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+   "source": "OpenAI",
+   "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "published": "2026-11-19",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "25f255575df3acb6",
+   "title": "Detecting signs of hypertension using wearable sensors",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
-   "published": "2026-11-04",
+   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+   "published": "2026-11-05",
    "tags": [
     "research"
    ]
   },
   {
-   "id": "679cee5ea1466f1f",
-   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+   "id": "0b2e1c02de474f20",
+   "title": "Gemini 4 Carbon is now available",
+   "summary": "",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "published": "2026-11-10",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "af1852b4c46dc30e",
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "url": "https://huggingface.co/blog/moe-expert-streaming",
    "published": "2026-11-18",
    "tags": [
     "open-source",
-    "multimodal"
+    "llm",
+    "serving"
    ]
   },
   {
@@ -478,25 +537,14 @@
    ]
   },
   {
-   "id": "ffe4b9c88a23c6ca",
-   "title": "Q&A: Why building math muscles remains important in the AI era",
-   "summary": "Assistant Professor John Urschel explains why learning the fundamental skills of mathematics is still essential despite the evolution of AI tools.",
+   "id": "461a1fe87414da12",
+   "title": "Helping AI text detectors keep up with changing conditions",
+   "summary": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
-   "published": "2026-11-17",
+   "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
+   "published": "2026-11-18",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "dd92228b1f1b75c7",
-   "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
-   "summary": "What do you think?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
-   "published": "2026-10-19",
-   "tags": [
-    "newsletter"
    ]
   },
   {
@@ -511,64 +559,84 @@
    ]
   },
   {
-   "id": "beb10735565b0259",
-   "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
-   "summary": "SID AI released SID-2, an agentic search model trained with reinforcement learning. A single agent reaches 0.585 NDCG in 3.11 seconds, and a 12-agent SID-2 Swarm scores 0.720 NDCG, above GPT-6 Astra on SID’s benchmark. The post SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode appeared first on MarkTechPost .",
+   "id": "39b77df94c0b18ed",
+   "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
+   "summary": "AI-powered attackers are driving more frequent attacks on AI infrastructure. This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and Klue. The post Not If, But How: Responding to Security Incidents in the Age of AI Attackers appeared first on MarkTechPost...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/17/sid-ai-sid-2-agentic-search-swarm/",
-   "published": "2026-11-18",
+   "url": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
+   "published": "2026-11-19",
    "tags": [
-    "industry",
-    "llm",
-    "evaluation",
-    "agents"
+    "industry"
    ]
   },
   {
-   "id": "760b84fcf23256fb",
-   "title": "Vibe-Trading: Towards Agent-Native Trading",
-   "summary": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio...",
+   "id": "5c37c83cea812a23",
+   "title": "GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers",
+   "summary": "Decision models enable fast, confidence-aware decisions by scoring candidate answers in a single forward pass, without generating text or intermediate reasoning. Yet reasoning can substantially improve decision quality, raising the question of whether its benefits can be retained without the cost of generating it. We investigate this...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.24845v1",
-   "published": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.26509v1",
+   "published": "2026-11-19",
    "tags": [
     "paper",
+    "fine-tuning",
+    "reasoning"
+   ]
+  },
+  {
+   "id": "fd07a81494b79153",
+   "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+   "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.26603v1",
+   "published": "2026-11-19",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "e683d40fba103b5f",
+   "title": "The Silent Consensus",
+   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/the-silent-consensus",
+   "published": "2026-11-18",
+   "tags": [
+    "labs"
+   ]
+  },
+  {
+   "id": "c4f5d2954769947b",
+   "title": "Agile Deliberation: How AI helps humans define the gray areas",
+   "summary": "Data Mining & Modeling",
+   "source": "Google Research",
+   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+   "published": "2026-11-04",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "id": "428ac4b42c0b5f39",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "source": "DeepMind",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "published": "2026-11-10",
+   "tags": [
+    "labs",
     "agents"
    ]
   },
   {
-   "id": "6cab9c8cd38347e3",
-   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-   "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-   "published": "2026-11-18",
-   "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "91ab09be6954d23d",
-   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
-   "summary": "Education Innovation",
-   "source": "Google Research",
-   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-   "published": "2026-10-27",
-   "tags": [
-    "research",
-    "llm"
-   ]
-  },
-  {
-   "id": "853b24ff0d6ecd3f",
-   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "id": "679cee5ea1466f1f",
+   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/openrouter",
-   "published": "2026-11-16",
+   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "published": "2026-11-18",
    "tags": [
-    "open-source"
+    "open-source",
+    "multimodal"
    ]
   },
   {
@@ -585,25 +653,14 @@
    ]
   },
   {
-   "id": "1ac3744caa9c0983",
-   "title": "Learning the language of machine learning",
-   "summary": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
+   "id": "f38228c9ef565932",
+   "title": "Putting a spotlight on AI, society, and humanity",
+   "summary": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+   "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
    "published": "2026-11-17",
    "tags": [
     "research"
-   ]
-  },
-  {
-   "id": "b3d04b5f805f38bf",
-   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "summary": "Will we give robots the moon?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-   "published": "2026-10-12",
-   "tags": [
-    "newsletter"
    ]
   },
   {
@@ -618,93 +675,41 @@
    ]
   },
   {
-   "id": "aa91484106a60c0a",
-   "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
-   "summary": "Anthropic has added Code Mode to Claude Code v2.1.323. The experimental feature lets Claude write JavaScript that chains Bash, Read and Edit calls in 1 step, and keep talking while long commands run. The post Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript appeared first on MarkTechPost .",
+   "id": "cae0e375702a7452",
+   "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
+   "summary": "Google released Gemini 4 Neon, a 1M-context Gemini 4 model priced at $3/$15 per million tokens. It scores 61 on the AA Intelligence Index and ranks #1 on AA’s Coding Agent Index. The post Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/",
-   "published": "2026-11-18",
+   "url": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
+   "published": "2026-11-19",
    "tags": [
-    "industry"
+    "industry",
+    "agents"
    ]
   },
   {
-   "id": "4a2eb68c8b6d1e9a",
-   "title": "General progress substitutes for specific training data in language models",
-   "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general progress a model makes on the rest of...",
+   "id": "c2eb21d93e7a9ba0",
+   "title": "Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence",
+   "summary": "Rad-Linter checks chest X-ray reports against image-derived evidence to flag potential errors for review. A pretrained image classifier supplies scores for nine pathologies, and a 1.5B-parameter language model, fine-tuned with LoRA on 1,816 examples, checks their consistency with the report. We compare it with a keyword-and-negation rule...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.24844v1",
-   "published": "2026-11-18",
+   "url": "https://arxiv.org/abs/2611.26492v1",
+   "published": "2026-11-19",
    "tags": [
     "paper",
-    "llm"
+    "llm",
+    "fine-tuning",
+    "multimodal"
    ]
   },
   {
-   "id": "c7d3ecb006439a13",
-   "title": "Advancing chip design with OpenAI models",
-   "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-   "source": "OpenAI",
-   "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-   "published": "2026-11-18",
+   "id": "0a397c5e315f6bca",
+   "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
+   "summary": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing AFA methods train this policy by optimizing a...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.26598v1",
+   "published": "2026-11-19",
    "tags": [
-    "labs",
-    "llm"
-   ]
-  },
-  {
-   "id": "3c115b0c264de194",
-   "title": "Bringing foundational models to the front lines of TB screening",
-   "summary": "Generative AI",
-   "source": "Google Research",
-   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
-   "published": "2026-10-23",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "2427bacb74a96b4b",
-   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-   "summary": "",
-   "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-   "published": "2026-11-13",
-   "tags": [
-    "open-source"
-   ]
-  },
-  {
-   "id": "988e365297de4536",
-   "title": "Gradient-based Planning for World Models at Longer Horizons",
-   "summary": ".grasp-results-table table { font-size: 0.875rem; line-height: 1.35; width: 100%; } .grasp-results-table th, .grasp-results-table td { padding: 0.35rem 0.5rem; } /* Consistent whitespace between major sections (this post is long and hr-heavy) */ article.post-content h2 { margin-top: 2.75rem; margin-bottom: 0.75rem; } article.post-content...",
-   "source": "BAIR",
-   "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
-   "published": "2026-04-20",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "606399e29c9ee7e9",
-   "title": "New AI “copilot” helps engineers design better structures",
-   "summary": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
-   "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
-   "published": "2026-11-13",
-   "tags": [
-    "research"
-   ]
-  },
-  {
-   "id": "2a01f0d16ca8636e",
-   "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
-   "summary": "Who chooses what AI gets to do?",
-   "source": "Import AI",
-   "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
-   "published": "2026-10-05",
-   "tags": [
-    "newsletter"
+    "paper",
+    "fine-tuning"
    ]
   }
  ]
