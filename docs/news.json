@@ -1,27 +1,27 @@
 {
- "generated": "2026-11-20",
- "generatedAt": "2026-11-20T15:35:28+00:00",
+ "generated": "2026-11-21",
+ "generatedAt": "2026-11-21T14:46:11+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "6687f7be62c34e4a",
-   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "id": "3ea993db7e3c60d1",
+   "title": "Combatting adversarial distillation",
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-   "published": "2026-11-19",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "published": "2026-11-20",
    "tags": [
     "labs",
-    "llm"
+    "fine-tuning"
    ]
   },
   {
-   "id": "a3b183c1cf424baf",
-   "title": "A game you cannot win unless you have a quantum computer",
-   "summary": "Quantum",
+   "id": "064d8fb5049e11e0",
+   "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+   "summary": "Generative AI",
    "source": "Google Research",
-   "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
-   "published": "2026-11-19",
+   "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+   "published": "2026-11-20",
    "tags": [
     "research"
    ]
@@ -38,11 +38,11 @@
    ]
   },
   {
-   "id": "211fbe8009a45ecd",
-   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "id": "80d31a6dee298bbd",
+   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "url": "https://huggingface.co/blog/inkling2mini",
    "published": "2026-11-20",
    "tags": [
     "open-source"
@@ -60,14 +60,15 @@
    ]
   },
   {
-   "id": "9be98e73c6c88adf",
-   "title": "Following the “mathocalypse,” mathematicians consider the future",
-   "summary": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
+   "id": "33a61caea8aae9aa",
+   "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
+   "summary": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current models.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
+   "url": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
    "published": "2026-11-20",
    "tags": [
-    "research"
+    "research",
+    "multimodal"
    ]
   },
   {
@@ -84,17 +85,15 @@
    ]
   },
   {
-   "id": "20109fb1b569d923",
-   "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
-   "summary": "NVIDIA released Nemotron-Labs-Sigma, 14 open 3B and 8B continuous diffusion language model checkpoints. Sigma denoises text in a learned 16-D embedding space, distills to few-step samplers, and decodes up to 4.20x faster than autoregressive decoding. The post NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model...",
+   "id": "cc5c5c9af1c50828",
+   "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+   "summary": "Thinking Machines released Inkling 2 Mini, a 26.4B-parameter looped MoE transformer with 3.4B active parameters. It runs on a 32GB Mac or one DGX Spark and scores 79.2% on SWE-bench Verified. The post Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
-   "published": "2026-11-20",
+   "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+   "published": "2026-11-21",
    "tags": [
     "industry",
-    "rag",
-    "llm",
-    "fine-tuning"
+    "llm"
    ]
   },
   {
@@ -125,24 +124,25 @@
    ]
   },
   {
-   "id": "4b08ec50268e04a4",
-   "title": "Deploying Daybreak Red",
-   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "id": "d15c45643214b444",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
    "source": "OpenAI",
-   "url": "https://openai.com/business/learn/deploying-daybreak-red",
-   "published": "2026-11-19",
+   "url": "https://openai.com/business/customer-stories/hebbia",
+   "published": "2026-11-20",
    "tags": [
     "labs",
-    "safety"
+    "llm",
+    "evaluation"
    ]
   },
   {
-   "id": "90d40fe08702a974",
-   "title": "Advancing science & engineering with Antigravity’s /teamwork",
-   "summary": "Education Innovation",
+   "id": "a3b183c1cf424baf",
+   "title": "A game you cannot win unless you have a quantum computer",
+   "summary": "Quantum",
    "source": "Google Research",
-   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-   "published": "2026-11-13",
+   "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+   "published": "2026-11-19",
    "tags": [
     "research"
    ]
@@ -159,12 +159,12 @@
    ]
   },
   {
-   "id": "f689168723dc030d",
-   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "id": "211fbe8009a45ecd",
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-   "published": "2026-11-18",
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "published": "2026-11-20",
    "tags": [
     "open-source"
    ]
@@ -181,15 +181,14 @@
    ]
   },
   {
-   "id": "4665289b81f88c7a",
-   "title": "AI helps researchers investigate how thousands of medical studies share code",
-   "summary": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
+   "id": "480a8b723958aa8d",
+   "title": "New approach enables physically consistent AI models of chaotic systems",
+   "summary": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
-   "published": "2026-11-19",
+   "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+   "published": "2026-11-20",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
@@ -207,15 +206,16 @@
    ]
   },
   {
-   "id": "86b67ca93f266b70",
-   "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
-   "summary": "Meta FAIR’s Self-Improving Memory lets Kimi-K2.6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights. Optimized prompts score 56.0 versus 44.6 for the best hand-written harness on Continual Learning Bench. The post Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench appeared first on...",
+   "id": "1be0cb9ade493f4c",
+   "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+   "summary": "OpenAI has released GPT-Live-1.1 in the API. The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0.02 per minute instead of $0.05. The post OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
-   "published": "2026-11-19",
+   "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+   "published": "2026-11-21",
    "tags": [
     "industry",
-    "fine-tuning"
+    "llm",
+    "agents"
    ]
   },
   {
@@ -244,23 +244,24 @@
    ]
   },
   {
-   "id": "cb99e2baa62e7866",
-   "title": "See PR scans in action",
-   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+   "id": "f4784c30400364a2",
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
    "source": "OpenAI",
-   "url": "https://openai.com/business/learn/pr-scans-demo",
-   "published": "2026-11-19",
+   "url": "https://openai.com/index/introducing-medchembench",
+   "published": "2026-11-20",
    "tags": [
-    "labs"
+    "labs",
+    "evaluation"
    ]
   },
   {
-   "id": "9a0e58e782b2fa6e",
-   "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
-   "summary": "Health & Bioscience",
+   "id": "90d40fe08702a974",
+   "title": "Advancing science & engineering with Antigravity’s /teamwork",
+   "summary": "Education Innovation",
    "source": "Google Research",
-   "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
-   "published": "2026-11-11",
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "published": "2026-11-13",
    "tags": [
     "research"
    ]
@@ -277,15 +278,14 @@
    ]
   },
   {
-   "id": "75623b38e68bd27d",
-   "title": "Why your fine-tuning job takes longer than the FLOPs say",
+   "id": "f689168723dc030d",
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
    "published": "2026-11-18",
    "tags": [
-    "open-source",
-    "fine-tuning"
+    "open-source"
    ]
   },
   {
@@ -301,12 +301,12 @@
    ]
   },
   {
-   "id": "d943a23e58cc345e",
-   "title": "Study reveals data centers’ long-distance damage to air quality",
-   "summary": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
+   "id": "9be98e73c6c88adf",
+   "title": "Following the “mathocalypse,” mathematicians consider the future",
+   "summary": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
-   "published": "2026-11-19",
+   "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
+   "published": "2026-11-20",
    "tags": [
     "research"
    ]
@@ -324,16 +324,14 @@
    ]
   },
   {
-   "id": "2185840283b16cb2",
-   "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
-   "summary": "We ranked the 13 best agent gateways of 2026 by how they govern model, MCP tool and agent-to-agent traffic, with verified pricing, deployment options and the trade-offs each vendor's marketing leaves out. The post 13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade appeared first on MarkTechPost .",
+   "id": "cdc6e41e55534ec8",
+   "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+   "summary": "Baseten released bison-1 and groundhog-1, open-weight decision models built on Gemma 4. bison-1 scores 76 on the AA Decision Index v2.1, and both models support 128k context and image input. The post Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
-   "published": "2026-11-19",
+   "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+   "published": "2026-11-21",
    "tags": [
-    "industry",
-    "llm",
-    "agents"
+    "industry"
    ]
   },
   {
@@ -363,23 +361,24 @@
    ]
   },
   {
-   "id": "e29ac258c013c12c",
-   "title": "Explore the Codex Security Plugin",
-   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+   "id": "6687f7be62c34e4a",
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
    "source": "OpenAI",
-   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
    "published": "2026-11-19",
    "tags": [
-    "labs"
+    "labs",
+    "llm"
    ]
   },
   {
-   "id": "5f5a5a012b729bd1",
-   "title": "Exploring the world's languages with Language Explorer",
-   "summary": "Natural Language Processing",
+   "id": "9a0e58e782b2fa6e",
+   "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
-   "published": "2026-11-09",
+   "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+   "published": "2026-11-11",
    "tags": [
     "research"
    ]
@@ -396,14 +395,15 @@
    ]
   },
   {
-   "id": "bf1424b145e4fc73",
-   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+   "id": "75623b38e68bd27d",
+   "title": "Why your fine-tuning job takes longer than the FLOPs say",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
    "published": "2026-11-18",
    "tags": [
-    "open-source"
+    "open-source",
+    "fine-tuning"
    ]
   },
   {
@@ -421,14 +421,15 @@
    ]
   },
   {
-   "id": "62626f8cbcfd5bbe",
-   "title": "This featherweight, flying robot carries its own sensors and computers",
-   "summary": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
+   "id": "4665289b81f88c7a",
+   "title": "AI helps researchers investigate how thousands of medical studies share code",
+   "summary": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
-   "published": "2026-11-18",
+   "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+   "published": "2026-11-19",
    "tags": [
-    "research"
+    "research",
+    "llm"
    ]
   },
   {
@@ -445,15 +446,15 @@
    ]
   },
   {
-   "id": "df2b61241112c73a",
-   "title": "Perplexity Launches Orchestrator API for Failover and Model Routing",
-   "summary": "Perplexity’s Orchestrator API serves OpenAI, Anthropic, Google, xAI and open-weight models through 1 endpoint, with same-model provider failover, unified billing and a preview perplexity/auto router that sends each request to a described route. The post Perplexity Launches Orchestrator API for Failover and Model Routing appeared first on...",
+   "id": "7fc1e730882eb281",
+   "title": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
+   "summary": "RadixArk released DaisyRose-27B, an Apache 2.0 agentic coding model post-trained from Qwen3.8-27B with reinforcement learning only. It more than doubles Terminal Bench 4.1 pass@1 to 12.0 and runs on a single GPU. The post RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
-   "published": "2026-11-19",
+   "url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
+   "published": "2026-11-20",
    "tags": [
     "industry",
-    "fine-tuning"
+    "agents"
    ]
   },
   {
@@ -480,23 +481,23 @@
    ]
   },
   {
-   "id": "a2fb00344062975f",
-   "title": "Get started with Daybreak Blue",
-   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+   "id": "e29ac258c013c12c",
+   "title": "Explore the Codex Security Plugin",
+   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
    "source": "OpenAI",
-   "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
    "published": "2026-11-19",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "25f255575df3acb6",
-   "title": "Detecting signs of hypertension using wearable sensors",
-   "summary": "Health & Bioscience",
+   "id": "5f5a5a012b729bd1",
+   "title": "Exploring the world's languages with Language Explorer",
+   "summary": "Natural Language Processing",
    "source": "Google Research",
-   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
-   "published": "2026-11-05",
+   "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+   "published": "2026-11-09",
    "tags": [
     "research"
    ]
@@ -513,16 +514,14 @@
    ]
   },
   {
-   "id": "af1852b4c46dc30e",
-   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "id": "bf1424b145e4fc73",
+   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/moe-expert-streaming",
+   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
    "published": "2026-11-18",
    "tags": [
-    "open-source",
-    "llm",
-    "serving"
+    "open-source"
    ]
   },
   {
@@ -537,12 +536,12 @@
    ]
   },
   {
-   "id": "461a1fe87414da12",
-   "title": "Helping AI text detectors keep up with changing conditions",
-   "summary": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
+   "id": "d943a23e58cc345e",
+   "title": "Study reveals data centers’ long-distance damage to air quality",
+   "summary": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
-   "published": "2026-11-18",
+   "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+   "published": "2026-11-19",
    "tags": [
     "research"
    ]
@@ -559,14 +558,17 @@
    ]
   },
   {
-   "id": "39b77df94c0b18ed",
-   "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
-   "summary": "AI-powered attackers are driving more frequent attacks on AI infrastructure. This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and Klue. The post Not If, But How: Responding to Security Incidents in the Age of AI Attackers appeared first on MarkTechPost...",
+   "id": "20109fb1b569d923",
+   "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
+   "summary": "NVIDIA released Nemotron-Labs-Sigma, 14 open 3B and 8B continuous diffusion language model checkpoints. Sigma denoises text in a learned 16-D embedding space, distills to few-step samplers, and decodes up to 4.20x faster than autoregressive decoding. The post NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
-   "published": "2026-11-19",
+   "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
+   "published": "2026-11-20",
    "tags": [
-    "industry"
+    "industry",
+    "rag",
+    "llm",
+    "fine-tuning"
    ]
   },
   {
@@ -594,23 +596,23 @@
    ]
   },
   {
-   "id": "e683d40fba103b5f",
-   "title": "The Silent Consensus",
-   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+   "id": "cb99e2baa62e7866",
+   "title": "See PR scans in action",
+   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/the-silent-consensus",
-   "published": "2026-11-18",
+   "url": "https://openai.com/business/learn/pr-scans-demo",
+   "published": "2026-11-19",
    "tags": [
     "labs"
    ]
   },
   {
-   "id": "c4f5d2954769947b",
-   "title": "Agile Deliberation: How AI helps humans define the gray areas",
-   "summary": "Data Mining & Modeling",
+   "id": "25f255575df3acb6",
+   "title": "Detecting signs of hypertension using wearable sensors",
+   "summary": "Health & Bioscience",
    "source": "Google Research",
-   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
-   "published": "2026-11-04",
+   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+   "published": "2026-11-05",
    "tags": [
     "research"
    ]
@@ -628,15 +630,16 @@
    ]
   },
   {
-   "id": "679cee5ea1466f1f",
-   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+   "id": "af1852b4c46dc30e",
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "url": "https://huggingface.co/blog/moe-expert-streaming",
    "published": "2026-11-18",
    "tags": [
     "open-source",
-    "multimodal"
+    "llm",
+    "serving"
    ]
   },
   {
@@ -653,12 +656,12 @@
    ]
   },
   {
-   "id": "f38228c9ef565932",
-   "title": "Putting a spotlight on AI, society, and humanity",
-   "summary": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
+   "id": "62626f8cbcfd5bbe",
+   "title": "This featherweight, flying robot carries its own sensors and computers",
+   "summary": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
-   "published": "2026-11-17",
+   "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+   "published": "2026-11-18",
    "tags": [
     "research"
    ]
@@ -675,15 +678,15 @@
    ]
   },
   {
-   "id": "cae0e375702a7452",
-   "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
-   "summary": "Google released Gemini 4 Neon, a 1M-context Gemini 4 model priced at $3/$15 per million tokens. It scores 61 on the AA Intelligence Index and ranks #1 on AA’s Coding Agent Index. The post Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index appeared first on MarkTechPost .",
+   "id": "86b67ca93f266b70",
+   "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+   "summary": "Meta FAIR’s Self-Improving Memory lets Kimi-K2.6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights. Optimized prompts score 56.0 versus 44.6 for the best hand-written harness on Continual Learning Bench. The post Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench appeared first on...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
+   "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
    "published": "2026-11-19",
    "tags": [
     "industry",
-    "agents"
+    "fine-tuning"
    ]
   },
   {
