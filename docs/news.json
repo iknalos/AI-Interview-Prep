@@ -1,18 +1,17 @@
 {
- "generated": "2026-11-23",
- "generatedAt": "2026-11-23T18:25:41+00:00",
+ "generated": "2026-11-24",
+ "generatedAt": "2026-11-24T17:55:12+00:00",
  "sourceCount": 10,
  "items": [
   {
-   "id": "de5cd1a6d51dc917",
-   "title": "Perplexity and Intelligence",
-   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "id": "1d0c151fefed0dea",
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/perplexity-and-intelligence",
-   "published": "2026-11-22",
+   "url": "https://openai.com/index/introducing-shirudo",
+   "published": "2026-11-23",
    "tags": [
-    "labs",
-    "evaluation"
+    "labs"
    ]
   },
   {
@@ -40,12 +39,12 @@
    ]
   },
   {
-   "id": "ca38829e73128713",
-   "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+   "id": "16565a3f5dc091b0",
+   "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/allenai/robotrack",
-   "published": "2026-11-23",
+   "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+   "published": "2026-11-24",
    "tags": [
     "open-source"
    ]
@@ -62,15 +61,14 @@
    ]
   },
   {
-   "id": "315fb775dc30231e",
-   "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
-   "summary": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
+   "id": "f82e2058d3bb9c30",
+   "title": "Many languages, one common neural code",
+   "summary": "Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+   "url": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
    "published": "2026-11-23",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
@@ -87,50 +85,54 @@
    ]
   },
   {
-   "id": "5146b80714edb720",
-   "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
-   "summary": "AI now sits on both sides of the security fight, and the vocabulary has changed with it. IBM’s 2026 Cost of a Data Breach Report found that 1 in 4 malicious breaches were AI-enabled, up 56% year over year. Those breaches cost an average of $6 million, about $1 million above the $4.99 million global […] The post 27 Cybersecurity Terms to...",
+   "id": "b013f0fbfb8e21b8",
+   "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
+   "summary": "OpenAI and Cisco released Shirudo, a pre-release, BSD-licensed eBPF runtime for Linux. AI agents write signed \"shields\" that block exploit paths on running systems while teams test and roll out real patches. The post OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/23/27-ai-cybersecurity-terms/",
+   "url": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
+   "published": "2026-11-24",
+   "tags": [
+    "industry",
+    "agents"
+   ]
+  },
+  {
+   "id": "8693ee00c10adc56",
+   "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+   "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query types, evidence formats, and failure...",
+   "source": "arXiv cs.CL",
+   "url": "https://arxiv.org/abs/2611.31198v1",
    "published": "2026-11-23",
    "tags": [
-    "industry"
+    "paper",
+    "agents",
+    "reasoning",
+    "multimodal"
    ]
   },
   {
-   "id": "76fc3c8519437a1a",
-   "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-   "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and quadratic computational complexity as...",
-   "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.27973v1",
-   "published": "2026-11-20",
+   "id": "2034a93fd1258a50",
+   "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+   "summary": "Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory prediction. Our analysis of Taylor...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.31240v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
-    "llm",
-    "serving"
+    "serving",
+    "reasoning",
+    "multimodal"
    ]
   },
   {
-   "id": "07cad3c2721e3bb6",
-   "title": "Optimal Linear Regression Without a Variance",
-   "summary": "We study high-probability linear regression in the infinite variance regime, wherecthe regression noise has only a finite conditional $α$-moment $ν$ for some unknown $α\\in(1,2)$, and the covariates may only have finite moments up to a given order (e.g., 4th moment). We give a black-box reduction that converts finite-variance regression...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.27983v1",
-   "published": "2026-11-20",
-   "tags": [
-    "paper"
-   ]
-  },
-  {
-   "id": "3ea993db7e3c60d1",
-   "title": "Combatting adversarial distillation",
-   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "id": "f8a4e02f42124693",
+   "title": "Connected intelligence for in-house legal",
+   "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/combatting-adversarial-distillation",
-   "published": "2026-11-20",
+   "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+   "published": "2026-11-23",
    "tags": [
-    "labs",
-    "fine-tuning"
+    "labs"
    ]
   },
   {
@@ -156,16 +158,14 @@
    ]
   },
   {
-   "id": "6fd4c32fe34a4cba",
-   "title": "How to build and maintain an agentic evaluation",
+   "id": "ca38829e73128713",
+   "title": "RoboTrack: Point tracking for real-world robotic manipulation",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/agentic-evals",
+   "url": "https://huggingface.co/blog/allenai/robotrack",
    "published": "2026-11-23",
    "tags": [
-    "open-source",
-    "evaluation",
-    "agents"
+    "open-source"
    ]
   },
   {
@@ -180,15 +180,15 @@
    ]
   },
   {
-   "id": "33a61caea8aae9aa",
-   "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
-   "summary": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current models.",
+   "id": "315fb775dc30231e",
+   "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
+   "summary": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
-   "published": "2026-11-20",
+   "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+   "published": "2026-11-23",
    "tags": [
     "research",
-    "multimodal"
+    "llm"
    ]
   },
   {
@@ -206,53 +206,54 @@
    ]
   },
   {
-   "id": "1e76c0b8d109f010",
-   "title": "Architect Labs Unveils Frostbite, an Interaction Net CPU Designed by AI",
-   "summary": "Architect Labs introduced Frostbite, an AI-designed CPU that runs interaction nets in hardware. Agents took it from theory to 7 nm GDS, and pre-silicon tests show 4.59x performance per watt over an in-order core. The post Architect Labs Unveils Frostbite, an Interaction Net CPU Designed by AI appeared first on MarkTechPost .",
+   "id": "1306bce61e3e3568",
+   "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
+   "summary": "Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and approve GitHub pull requests. Code Review is GA; the other 2 agents are in public beta for Team and Enterprise. The post Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/23/architect-labs-frostbite-ai-designed-cpu-interaction-nets/",
-   "published": "2026-11-23",
+   "url": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
+   "published": "2026-11-24",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "808785e0ce7d2f2d",
-   "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
-   "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments with the structure of real ones, a multi-professional referral...",
+   "id": "06712009eda82b83",
+   "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
+   "summary": "Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agnostic interventional attribution...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.27895v1",
-   "published": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.31185v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
-    "evaluation",
+    "llm",
     "agents"
    ]
   },
   {
-   "id": "329a8f2fe2240e7a",
-   "title": "A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning",
-   "summary": "This study examines one-day-ahead forecasting of the S&P 500 closing level using a 2006-2025 dataset that includes fundamental price data, macroeconomic indicators, and engineered technical features. We benchmark three model families, namely linear regression, vanilla recurrent neural networks (RNN), and long short-term memory networks...",
+   "id": "e7abfbac716af5d3",
+   "title": "Let Vision-Language Models Generate Images through Their Representations",
+   "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this knowledge effectively accessible to...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.27978v1",
-   "published": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.31237v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
-    "evaluation"
+    "llm",
+    "multimodal"
    ]
   },
   {
-   "id": "d15c45643214b444",
-   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-   "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+   "id": "680b35173b971311",
+   "title": "Richpanel helps companies automate 50% of support in 30 days",
+   "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
    "source": "OpenAI",
-   "url": "https://openai.com/business/customer-stories/hebbia",
-   "published": "2026-11-20",
+   "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "published": "2026-11-23",
    "tags": [
     "labs",
     "llm",
-    "evaluation"
+    "agents"
    ]
   },
   {
@@ -278,14 +279,16 @@
    ]
   },
   {
-   "id": "80d31a6dee298bbd",
-   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+   "id": "6fd4c32fe34a4cba",
+   "title": "How to build and maintain an agentic evaluation",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/inkling2mini",
-   "published": "2026-11-20",
+   "url": "https://huggingface.co/blog/agentic-evals",
+   "published": "2026-11-23",
    "tags": [
-    "open-source"
+    "open-source",
+    "evaluation",
+    "agents"
    ]
   },
   {
@@ -301,14 +304,15 @@
    ]
   },
   {
-   "id": "480a8b723958aa8d",
-   "title": "New approach enables physically consistent AI models of chaotic systems",
-   "summary": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
+   "id": "33a61caea8aae9aa",
+   "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
+   "summary": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current models.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+   "url": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
    "published": "2026-11-20",
    "tags": [
-    "research"
+    "research",
+    "multimodal"
    ]
   },
   {
@@ -324,48 +328,52 @@
    ]
   },
   {
-   "id": "db2d76b08f88dec1",
-   "title": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
-   "summary": "Meta has detailed TLX, its Triton Low-Level Extensions that add warp-group, barrier, TMA and cluster control to Python Triton kernels. It runs Meta's ads and LLM workloads on Hopper, Blackwell and AMD MI350 GPUs. The post Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD appeared first on MarkTechPost .",
+   "id": "9c47dc701af7d59e",
+   "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
+   "summary": "Z.ai released GLM-5.4, its first Loop Transformer flagship. The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work. The post Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/",
+   "url": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
    "published": "2026-11-23",
    "tags": [
     "industry",
-    "llm"
+    "llm",
+    "reasoning",
+    "safety"
    ]
   },
   {
-   "id": "33676c13f305abc9",
-   "title": "DistDNA: Language Model Fingerprinting under Stochastic Decoding",
-   "summary": "Behavioral fingerprints identify a large language model (LLM) from its responses to a shared set of prompts, enabling applications such as verifying whether a deployed model corresponds to the checkpoint it claims to be. Deployed models, however, are commonly served with stochastic decoding, under which the same model may produce...",
+   "id": "46e50d022bc7439f",
+   "title": "Precision-Aware Learning Rate Transfer Across Block Count in LLM Post-Training",
+   "summary": "The post-training of pretrained large language models, including supervised finetuning (SFT), direct preference optimization (DPO), and reinforcement learning with verifiable reward (RLVR), is very sensitive to the learning rate, and tuning it through grid search is costly in both computation and memory. In this work, we propose...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.27831v1",
-   "published": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.31166v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
-    "llm"
+    "llm",
+    "fine-tuning"
    ]
   },
   {
-   "id": "d2ad87d7c26c0bcb",
-   "title": "On the Complete Feature Set for ADHD Classification in Children and Adolescents Based on EEG Signals",
-   "summary": "Attention-deficit/hyperactivity disorder is a neurodevelopmental condition that can affect attention, activity and impulse control. Electroencephalography (EEG) records brain activity as children and adolescents perform cognitive tasks. However, comparing features derived from these recordings requires consistent signal preparation...",
+   "id": "811ddd5f5f87505a",
+   "title": "TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming",
+   "summary": "CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap. Retrieval fails when wrong matches, or hard negatives, outrank the correct one, and the gap is the usual suspect. Yet removing it post hoc degrades retrieval...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.27970v1",
-   "published": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.31233v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
-    "llm"
+    "rag",
+    "evaluation"
    ]
   },
   {
-   "id": "f4784c30400364a2",
-   "title": "Can AI help scientists identify promising drug candidates?",
-   "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "id": "de5cd1a6d51dc917",
+   "title": "Perplexity and Intelligence",
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/introducing-medchembench",
-   "published": "2026-11-20",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "published": "2026-11-22",
    "tags": [
     "labs",
     "evaluation"
@@ -394,11 +402,11 @@
    ]
   },
   {
-   "id": "211fbe8009a45ecd",
-   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "id": "80d31a6dee298bbd",
+   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "url": "https://huggingface.co/blog/inkling2mini",
    "published": "2026-11-20",
    "tags": [
     "open-source"
@@ -419,11 +427,11 @@
    ]
   },
   {
-   "id": "9be98e73c6c88adf",
-   "title": "Following the “mathocalypse,” mathematicians consider the future",
-   "summary": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
+   "id": "480a8b723958aa8d",
+   "title": "New approach enables physically consistent AI models of chaotic systems",
+   "summary": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
+   "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
    "published": "2026-11-20",
    "tags": [
     "research"
@@ -443,55 +451,49 @@
    ]
   },
   {
-   "id": "fac1fd6dfa8099be",
-   "title": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
-   "summary": "NVIDIA released Alpamayo 2 Edge, a 2B-class reasoning vision-language-action model that plans driving trajectories and explains them on DRIVE AGX Thor, at 160 to 190 ms pixel-to-trajectory latency. The post NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor appeared first on MarkTechPost .",
+   "id": "5146b80714edb720",
+   "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
+   "summary": "AI now sits on both sides of the security fight, and the vocabulary has changed with it. IBM’s 2026 Cost of a Data Breach Report found that 1 in 4 malicious breaches were AI-enabled, up 56% year over year. Those breaches cost an average of $6 million, about $1 million above the $4.99 million global […] The post 27 Cybersecurity Terms to...",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
-   "published": "2026-11-22",
+   "url": "https://www.marktechpost.com/2026/11/23/27-ai-cybersecurity-terms/",
+   "published": "2026-11-23",
    "tags": [
-    "industry",
-    "serving",
-    "reasoning",
-    "multimodal"
+    "industry"
    ]
   },
   {
-   "id": "794fa313b8d6325c",
-   "title": "SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech",
-   "summary": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting. Each statement the model makes about the voice needs to be checked against clinicians'...",
+   "id": "fe9834a9fa3db697",
+   "title": "Deneb-Vritra: Descriptions, Edges and Names Examined by Blocking Via Restoring Token Representations and Attention",
+   "summary": "Laya is a 421M-parameter encoder that answers a question about a text in one pass: each answer option, written as a name plus a description, gets a marker token, and one score is read from the network at each marker. We first confirm that such models can follow an option's name when it contradicts the description; the question is where...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.27810v1",
-   "published": "2026-11-20",
-   "tags": [
-    "paper",
-    "llm",
-    "evaluation",
-    "reasoning"
-   ]
-  },
-  {
-   "id": "8e485c1c148701e4",
-   "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
-   "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within. This uniformity is a convention rather than a principled design choice, and it is...",
-   "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.27962v1",
-   "published": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.31139v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "6687f7be62c34e4a",
-   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "id": "cd94bd8fe5577f2b",
+   "title": "How Far Can Linear Go? BiPert, a Unified Framework for Single-Cell Perturbation Modelling",
+   "summary": "Understanding how genetic perturbations affect cellular behaviour is essential for studying gene function and regulatory mechanisms. Large-scale CRISPR screens measure these effects across thousands of genes, but cover relatively few cellular contexts. Predicting perturbation responses in unseen cell types and identifying perturbed genes...",
+   "source": "arXiv cs.LG",
+   "url": "https://arxiv.org/abs/2611.31227v1",
+   "published": "2026-11-23",
+   "tags": [
+    "paper"
+   ]
+  },
+  {
+   "id": "3ea993db7e3c60d1",
+   "title": "Combatting adversarial distillation",
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
    "source": "OpenAI",
-   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-   "published": "2026-11-19",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "published": "2026-11-20",
    "tags": [
     "labs",
-    "llm"
+    "fine-tuning"
    ]
   },
   {
@@ -517,12 +519,12 @@
    ]
   },
   {
-   "id": "f689168723dc030d",
-   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "id": "211fbe8009a45ecd",
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-   "published": "2026-11-18",
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "published": "2026-11-20",
    "tags": [
     "open-source"
    ]
@@ -539,15 +541,14 @@
    ]
   },
   {
-   "id": "4665289b81f88c7a",
-   "title": "AI helps researchers investigate how thousands of medical studies share code",
-   "summary": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
+   "id": "9be98e73c6c88adf",
+   "title": "Following the “mathocalypse,” mathematicians consider the future",
+   "summary": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
-   "published": "2026-11-19",
+   "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
+   "published": "2026-11-20",
    "tags": [
-    "research",
-    "llm"
+    "research"
    ]
   },
   {
@@ -562,52 +563,52 @@
    ]
   },
   {
-   "id": "3e3659d6d4ef44cb",
-   "title": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
-   "summary": "Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost. The post Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost appeared first on MarkTechPost .",
+   "id": "1e76c0b8d109f010",
+   "title": "Architect Labs Unveils Frostbite, an Interaction Net CPU Designed by AI",
+   "summary": "Architect Labs introduced Frostbite, an AI-designed CPU that runs interaction nets in hardware. Agents took it from theory to 7 nm GDS, and pre-silicon tests show 4.59x performance per watt over an in-order core. The post Architect Labs Unveils Frostbite, an Interaction Net CPU Designed by AI appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
-   "published": "2026-11-22",
+   "url": "https://www.marktechpost.com/2026/11/23/architect-labs-frostbite-ai-designed-cpu-interaction-nets/",
+   "published": "2026-11-23",
    "tags": [
     "industry",
     "agents"
    ]
   },
   {
-   "id": "e85a3b1a9830807a",
-   "title": "Evaluating Prompting Strategies for Zero-Shot Multilingual Aspect-Based Sentiment Analysis with Large Language Models",
-   "summary": "While large language models (LLMs) have advanced natural language understanding, their ability to perform complex target-aspect-sentiment detection (TASD) -- a key task within aspect-based sentiment analysis (ABSA) -- in zero-shot multilingual settings remains underexplored. Existing ABSA research predominantly focuses on English or...",
+   "id": "6354b70b408916c9",
+   "title": "Serialization and the Character-System: Measuring Narrative Concentration in French Fiction (1800--1940)",
+   "summary": "Every novel divides a finite quantity of narrative attention among its characters, and whether the shape of that division, between a narrative organized around a single figure and one spread across a crowd, has a history is far less settled than the abundance of critical commentary on protagonists might suggest. We operationalize...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.27807v1",
-   "published": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.31133v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
-    "llm",
-    "evaluation"
+    "llm"
    ]
   },
   {
-   "id": "d7a852970ccf6381",
-   "title": "Ranking-Preserving Coreset Selection for Efficient Evolutionary Hyperparameter Optimization",
-   "summary": "Hyperparameter optimization (HPO) is essential for high predictive performance, but its computational cost becomes prohibitive when candidate configurations require repeated training on large datasets. This paper proposes a ranking-preserving coreset (RPC) selection framework for accelerating evolutionary HPO. The method constructs a...",
+   "id": "6cc2891865670341",
+   "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
+   "summary": "Dataset distillation (DD) aims to compress a large dataset into a small synthetic one that remains effective for training neural networks. Despite its success in supervised learning, DD remains underexplored in self-supervised learning (SSL), where distilled data must preserve the information needed to learn representations that remain...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.27959v1",
-   "published": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.31225v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
-    "serving"
+    "fine-tuning"
    ]
   },
   {
-   "id": "4b08ec50268e04a4",
-   "title": "Deploying Daybreak Red",
-   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "id": "d15c45643214b444",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
    "source": "OpenAI",
-   "url": "https://openai.com/business/learn/deploying-daybreak-red",
-   "published": "2026-11-19",
+   "url": "https://openai.com/business/customer-stories/hebbia",
+   "published": "2026-11-20",
    "tags": [
     "labs",
-    "safety"
+    "llm",
+    "evaluation"
    ]
   },
   {
@@ -633,15 +634,14 @@
    ]
   },
   {
-   "id": "75623b38e68bd27d",
-   "title": "Why your fine-tuning job takes longer than the FLOPs say",
+   "id": "f689168723dc030d",
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
    "summary": "",
    "source": "Hugging Face",
-   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
    "published": "2026-11-18",
    "tags": [
-    "open-source",
-    "fine-tuning"
+    "open-source"
    ]
   },
   {
@@ -658,14 +658,15 @@
    ]
   },
   {
-   "id": "d943a23e58cc345e",
-   "title": "Study reveals data centers’ long-distance damage to air quality",
-   "summary": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
+   "id": "4665289b81f88c7a",
+   "title": "AI helps researchers investigate how thousands of medical studies share code",
+   "summary": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
    "source": "MIT News AI",
-   "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+   "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
    "published": "2026-11-19",
    "tags": [
-    "research"
+    "research",
+    "llm"
    ]
   },
   {
@@ -680,41 +681,39 @@
    ]
   },
   {
-   "id": "c907589fe764c7dc",
-   "title": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
-   "summary": "Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request. The post Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries appeared first on MarkTechPost .",
+   "id": "db2d76b08f88dec1",
+   "title": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
+   "summary": "Meta has detailed TLX, its Triton Low-Level Extensions that add warp-group, barrier, TMA and cluster control to Python Triton kernels. It runs Meta's ads and LLM workloads on Hopper, Blackwell and AMD MI350 GPUs. The post Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD appeared first on MarkTechPost .",
    "source": "MarkTechPost",
-   "url": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
-   "published": "2026-11-22",
+   "url": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/",
+   "published": "2026-11-23",
    "tags": [
     "industry",
-    "rag",
-    "evaluation",
-    "agents"
+    "llm"
    ]
   },
   {
-   "id": "4b4e9cadd2df8f08",
-   "title": "Enhancing Attention with Higher-Order Attention",
-   "summary": "Current decoder large language models rely on a combination of attention, feed forward and residual layers. The attention used is autoregressive (AR) though this is not strictly correct, as we note. That motivates the introduction of other attention methods that, while also not strictly AR, do enhance the AR character. One is based on a...",
+   "id": "682793b824eaeca8",
+   "title": "Attention Temperature Confounds Zero-Shot Context Extension",
+   "summary": "A training-time attention change is usually judged for zero-shot context extension against a dense baseline beyond the training length at the default temperature, $τ= 1$. The outcome depends on how miscalibrated the baseline is there: the share of perplexity it recovers when its logits are sharpened by one scalar. Under the standard...",
    "source": "arXiv cs.CL",
-   "url": "https://arxiv.org/abs/2611.27764v1",
-   "published": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.31113v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
     "llm"
    ]
   },
   {
-   "id": "8d7697eca715069c",
-   "title": "Topology Hub Optimal Transport: Eliminating Long Context Dilution at Flash Speed",
-   "summary": "Long-context models use sparse or structured attention to avoid quadratic cost, yet retrieving a small set of relevant facts embedded among hundreds of thousands of distractors degrades as normalization mass disperses with length. Hub-and-spoke optimal transport (OT) replaces the dense $L \\times L$ matrix with a linear-size graph over...",
+   "id": "6ab3c041675be291",
+   "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks",
+   "summary": "Artificial intelligence (AI)-driven automation will help future mobile networks translate high-level network intents into concrete network optimization or control actions. However, existing approaches often focus on intent management and orchestration, leaving the adaptation of underlying network optimization and control functions...",
    "source": "arXiv cs.LG",
-   "url": "https://arxiv.org/abs/2611.27951v1",
-   "published": "2026-11-20",
+   "url": "https://arxiv.org/abs/2611.31223v1",
+   "published": "2026-11-23",
    "tags": [
     "paper",
-    "llm"
+    "agents"
    ]
   }
  ]
